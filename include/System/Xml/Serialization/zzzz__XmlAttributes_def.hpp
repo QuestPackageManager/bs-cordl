@@ -137,7 +137,7 @@ public:
   /// @brief Field xmlns, offset 0x59, size 0x1
   __declspec(property(get = __cordl_internal_get_xmlns, put = __cordl_internal_set_xmlns)) bool xmlns;
 
-  /// @brief Method AddKeyHash, addr 0x2ecc508, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x2eecbf8, size 0x270, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlAttributes* New_ctor();
@@ -228,55 +228,55 @@ public:
 
   constexpr void __cordl_internal_set_xmlns(bool value);
 
-  /// @brief Method .ctor, addr 0x2ecc778, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eece68, size 0x104, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2ecc884, size 0x638, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eecf74, size 0x638, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ICustomAttributeProvider* provider);
 
-  /// @brief Method get_Order, addr 0x2ecdf1c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x2eee60c, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_Order();
 
-  /// @brief Method get_SortableOrder, addr 0x2ece2b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_SortableOrder, addr 0x2eee9a8, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_SortableOrder();
 
-  /// @brief Method get_XmlAnyAttribute, addr 0x2eccf74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlAnyAttribute, addr 0x2eed664, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAnyAttributeAttribute* get_XmlAnyAttribute();
 
-  /// @brief Method get_XmlAnyElements, addr 0x2eccf7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlAnyElements, addr 0x2eed66c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAnyElementAttributes* get_XmlAnyElements();
 
-  /// @brief Method get_XmlArray, addr 0x2eccf84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlArray, addr 0x2eed674, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlArrayAttribute* get_XmlArray();
 
-  /// @brief Method get_XmlArrayItems, addr 0x2eccf8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlArrayItems, addr 0x2eed67c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlArrayItemAttributes* get_XmlArrayItems();
 
-  /// @brief Method get_XmlAttribute, addr 0x2eccf94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlAttribute, addr 0x2eed684, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAttributeAttribute* get_XmlAttribute();
 
-  /// @brief Method get_XmlChoiceIdentifier, addr 0x2eccf9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlChoiceIdentifier, addr 0x2eed68c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlChoiceIdentifierAttribute* get_XmlChoiceIdentifier();
 
-  /// @brief Method get_XmlDefaultValue, addr 0x2eccfa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlDefaultValue, addr 0x2eed694, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_XmlDefaultValue();
 
-  /// @brief Method get_XmlElements, addr 0x2eccfac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlElements, addr 0x2eed69c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlElementAttributes* get_XmlElements();
 
-  /// @brief Method get_XmlIgnore, addr 0x2eccfb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlIgnore, addr 0x2eed6a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_XmlIgnore();
 
-  /// @brief Method get_XmlRoot, addr 0x2eccfc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlRoot, addr 0x2eed6b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlRootAttribute* get_XmlRoot();
 
-  /// @brief Method get_XmlText, addr 0x2eccfcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlText, addr 0x2eed6bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTextAttribute* get_XmlText();
 
-  /// @brief Method get_XmlType, addr 0x2eccfd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x2eed6c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeAttribute* get_XmlType();
 
-  /// @brief Method get_Xmlns, addr 0x2eccfbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Xmlns, addr 0x2eed6ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_Xmlns();
 
 protected:

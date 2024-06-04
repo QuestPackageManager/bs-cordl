@@ -36,8 +36,7 @@ template <std::size_t offset> CORDL_HIDDEN constexpr inline void const* const* g
 
 /// @brief reads the cachedptr on the given unity object instance
 template <typename T>
-  requires(std::is_convertible_v<T, UnityEngine::Object*>)
-CORDL_HIDDEN inline constexpr void* read_cachedptr(T instance) {
+requires(std::is_convertible_v<T, UnityEngine::Object*>) CORDL_HIDDEN inline constexpr void* read_cachedptr(T instance) {
   return *static_cast<void**>(getAtOffset<0x10>(static_cast<UnityEngine::Object*>(instance)));
 }
 
@@ -51,8 +50,7 @@ CORDL_HIDDEN inline constexpr void* read_cachedptr(T instance) {
 #endif
 
 template <typename T>
-  requires(std::is_pointer_v<T>)
-constexpr inline void* convert(T&& inst) {
+requires(std::is_pointer_v<T>) constexpr inline void* convert(T&& inst) {
   return static_cast<void*>(const_cast<void*>(static_cast<void const*>(inst)));
 }
 

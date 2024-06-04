@@ -10,6 +10,9 @@ CORDL_MODULE_EXPORT(ObjectGUIState)
 namespace System {
 class IDisposable;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace UnityEngine {
 class ObjectGUIState;
@@ -25,35 +28,35 @@ class CORDL_TYPE ObjectGUIState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Destroy, addr 0x3445e3c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x346f338, size 0xa0, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Dispose, addr 0x3445ddc, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x346f2d8, size 0x60, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x3445edc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x346f3d8, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Internal_Create, addr 0x3445db4, size 0x28, virtual false, abstract: false, final false
-  static inline void* Internal_Create();
+  /// @brief Method Internal_Create, addr 0x346f2b0, size 0x28, virtual false, abstract: false, final false
+  static inline ::System::IntPtr Internal_Create();
 
-  /// @brief Method Internal_Destroy, addr 0x3445f70, size 0x3c, virtual false, abstract: false, final false
-  static inline void Internal_Destroy(void* ptr);
+  /// @brief Method Internal_Destroy, addr 0x346f46c, size 0x3c, virtual false, abstract: false, final false
+  static inline void Internal_Destroy(::System::IntPtr ptr);
 
   static inline ::UnityEngine::ObjectGUIState* New_ctor();
 
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x3445d6c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346f268, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -74,7 +77,7 @@ public:
   ObjectGUIState(ObjectGUIState const&) = delete;
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  void* ___m_Ptr;
+  ::System::IntPtr ___m_Ptr;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

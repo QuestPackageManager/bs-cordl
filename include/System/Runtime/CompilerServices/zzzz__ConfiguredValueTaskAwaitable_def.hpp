@@ -47,19 +47,19 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
-  /// @brief Method GetResult, addr 0x285b928, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x2874fb4, size 0x100, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method OnCompleted, addr 0x285ba28, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x28750b4, size 0x1b0, virtual true, abstract: false, final true
   inline void OnCompleted(::System::Action* continuation);
 
-  /// @brief Method UnsafeOnCompleted, addr 0x285bbec, size 0x1ac, virtual true, abstract: false, final true
+  /// @brief Method UnsafeOnCompleted, addr 0x2875278, size 0x1ac, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
-  /// @brief Method .ctor, addr 0x285b818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2874ea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
-  /// @brief Method get_IsCompleted, addr 0x285b820, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x2874eac, size 0x108, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
@@ -99,10 +99,10 @@ public:
   // Declarations
   using ConfiguredValueTaskAwaiter = ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
 
-  /// @brief Method GetAwaiter, addr 0x285b80c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x2874e98, size 0xc, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter GetAwaiter();
 
-  /// @brief Method .ctor, addr 0x285b804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2874e90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
   // Ctor Parameters []

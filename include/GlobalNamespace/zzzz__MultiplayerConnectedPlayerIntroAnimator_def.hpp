@@ -27,7 +27,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* New_ctor();
 
-  /// @brief Method SetBeforeIntroValues, addr 0x26f1f28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetBeforeIntroValues, addr 0x270a658, size 0x1c, virtual false, abstract: false, final false
   inline void SetBeforeIntroValues();
 
   constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__introPlayableDirector() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__introPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  /// @brief Method .ctor, addr 0x26f1f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270a674, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

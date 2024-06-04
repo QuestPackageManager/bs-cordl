@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeArgumentHandle)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace System {
 struct RuntimeArgumentHandle;
@@ -25,11 +28,11 @@ public:
   // @brief default ctor
   constexpr RuntimeArgumentHandle();
 
-  // Ctor Parameters [CppParam { name: "args", ty: "void*", modifiers: "", def_value: None }]
-  constexpr RuntimeArgumentHandle(void* args) noexcept;
+  // Ctor Parameters [CppParam { name: "args", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr RuntimeArgumentHandle(::System::IntPtr args) noexcept;
 
   /// @brief Field args, offset: 0x0, size: 0x8, def value: None
-  void* args;
+  ::System::IntPtr args;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

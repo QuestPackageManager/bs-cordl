@@ -78,26 +78,26 @@ public:
   /// @brief Field hdrBuilBuilder, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_hdrBuilBuilder, put = __cordl_internal_set_hdrBuilBuilder))::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* hdrBuilBuilder;
 
-  /// @brief Method AddCmpCertificate, addr 0x143a728, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddCmpCertificate, addr 0x143ff98, size 0xb4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* AddCmpCertificate(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
-  /// @brief Method AddGeneralInfo, addr 0x143a58c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddGeneralInfo, addr 0x143fdfc, size 0xb4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* AddGeneralInfo(::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* genInfo);
 
-  /// @brief Method Build, addr 0x143b484, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x1440cf4, size 0x22c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessage* Build(::Org::BouncyCastle::Crypto::IMacFactory* factory);
 
-  /// @brief Method Build, addr 0x143a7dc, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x144004c, size 0x2ec, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessage* Build(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureFactory);
 
-  /// @brief Method CalculateSignature, addr 0x143ada8, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method CalculateSignature, addr 0x1440618, size 0x378, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateSignature(::Org::BouncyCastle::Crypto::IStreamCalculator* signer, ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header,
                                                                  ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body);
 
-  /// @brief Method FinalizeHeader, addr 0x143aac8, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method FinalizeHeader, addr 0x1440338, size 0x2e0, virtual false, abstract: false, final false
   inline void FinalizeHeader(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier);
 
-  /// @brief Method FinalizeMessage, addr 0x143b120, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method FinalizeMessage, addr 0x1440990, size 0x364, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessage* FinalizeMessage(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::DerBitString* protection);
 
   static inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* New_ctor(int32_t pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender,
@@ -105,28 +105,28 @@ public:
 
   static inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
-  /// @brief Method SetBody, addr 0x143a720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBody, addr 0x143ff90, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* SetBody(::Org::BouncyCastle::Asn1::Cmp::PkiBody* body);
 
-  /// @brief Method SetFreeText, addr 0x143a55c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetFreeText, addr 0x143fdcc, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* SetFreeText(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* freeText);
 
-  /// @brief Method SetMessageTime, addr 0x143a640, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetMessageTime, addr 0x143feb0, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* SetMessageTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* generalizedTime);
 
-  /// @brief Method SetRecipKID, addr 0x143a66c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetRecipKID, addr 0x143fedc, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* SetRecipKID(::ArrayW<uint8_t, ::Array<uint8_t>*> id);
 
-  /// @brief Method SetRecipNonce, addr 0x143a698, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetRecipNonce, addr 0x143ff08, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* SetRecipNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method SetSenderKID, addr 0x143a6c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetSenderKID, addr 0x143ff38, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* SetSenderKID(::ArrayW<uint8_t, ::Array<uint8_t>*> id);
 
-  /// @brief Method SetSenderNonce, addr 0x143a6f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetSenderNonce, addr 0x143ff64, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* SetSenderNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method SetTransactionId, addr 0x143a530, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetTransactionId, addr 0x143fda0, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* SetTransactionId(::ArrayW<uint8_t, ::Array<uint8_t>*> tid);
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiBody*& __cordl_internal_get_body();
@@ -153,10 +153,10 @@ public:
 
   constexpr void __cordl_internal_set_hdrBuilBuilder(::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* value);
 
-  /// @brief Method .ctor, addr 0x143a460, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143fcd0, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(int32_t pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
-  /// @brief Method .ctor, addr 0x143a3e8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143fc58, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
 protected:

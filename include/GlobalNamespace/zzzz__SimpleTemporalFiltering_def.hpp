@@ -41,10 +41,10 @@ public:
       property(get = __cordl_internal_get__temporalFilteringTextures,
                put = __cordl_internal_set__temporalFilteringTextures))::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> _temporalFilteringTextures;
 
-  /// @brief Method CreateRenderTexturesIfNeeded, addr 0x2bd82d0, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method CreateRenderTexturesIfNeeded, addr 0x2bf99c0, size 0x28c, virtual false, abstract: false, final false
   inline void CreateRenderTexturesIfNeeded(int32_t width, int32_t height);
 
-  /// @brief Method FilterTexture, addr 0x2bd8150, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method FilterTexture, addr 0x2bf9840, size 0x180, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> FilterTexture(::UnityEngine::RenderTexture* src);
 
   static inline ::GlobalNamespace::SimpleTemporalFiltering* New_ctor();
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__temporalFilteringTextures(::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> value);
 
-  /// @brief Method .ctor, addr 0x2bd8084, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bf9774, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CastHelper_1)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace UnityEngine {
 template <typename T> struct CastHelper_1;
@@ -27,14 +30,14 @@ public:
   // @brief default ctor
   constexpr CastHelper_1();
 
-  // Ctor Parameters [CppParam { name: "t", ty: "T", modifiers: "", def_value: None }, CppParam { name: "onePointerFurtherThanT", ty: "void*", modifiers: "", def_value: None }]
-  constexpr CastHelper_1(T t, void* onePointerFurtherThanT) noexcept;
+  // Ctor Parameters [CppParam { name: "t", ty: "T", modifiers: "", def_value: None }, CppParam { name: "onePointerFurtherThanT", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr CastHelper_1(T t, ::System::IntPtr onePointerFurtherThanT) noexcept;
 
   /// @brief Field t, offset: 0x0, size: 0x8, def value: None
   T t;
 
   /// @brief Field onePointerFurtherThanT, offset: 0x8, size: 0x8, def value: None
-  void* onePointerFurtherThanT;
+  ::System::IntPtr onePointerFurtherThanT;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Unsafe)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -28,13 +31,13 @@ public:
   template <typename T> static inline ::cordl_internals::Ptr<void> Add(::cordl_internals::Ptr<void> source, int32_t elementOffset);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> Add(ByRef<T> source, int32_t elementOffset);
+  template <typename T> static inline ByRef<T> Add(ByRef<T> source, ::System::IntPtr elementOffset);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> Add(ByRef<T> source, void* elementOffset);
+  template <typename T> static inline ByRef<T> Add(ByRef<T> source, int32_t elementOffset);
 
   /// @brief Method AddByteOffset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> AddByteOffset(ByRef<T> source, void* byteOffset);
+  template <typename T> static inline ByRef<T> AddByteOffset(ByRef<T> source, ::System::IntPtr byteOffset);
 
   /// @brief Method AreSame, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool AreSame(ByRef<T> left, ByRef<T> right);
@@ -55,7 +58,7 @@ public:
   template <typename T> static inline ByRef<T> AsRef(ByRef<T> source);
 
   /// @brief Method ByteOffset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void* ByteOffset(ByRef<T> origin, ByRef<T> target);
+  template <typename T> static inline ::System::IntPtr ByteOffset(ByRef<T> origin, ByRef<T> target);
 
   /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Copy(::cordl_internals::Ptr<void> destination, ByRef<T> source);
@@ -63,28 +66,28 @@ public:
   /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Copy(ByRef<T> destination, ::cordl_internals::Ptr<void> source);
 
-  /// @brief Method CopyBlock, addr 0x3091430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlock, addr 0x30aebd8, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlock(::cordl_internals::Ptr<void> destination, ::cordl_internals::Ptr<void> source, uint32_t byteCount);
 
-  /// @brief Method CopyBlock, addr 0x3091438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlock, addr 0x30aebe0, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlock(ByRef<uint8_t> destination, ByRef<uint8_t> source, uint32_t byteCount);
 
-  /// @brief Method CopyBlockUnaligned, addr 0x3091440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlockUnaligned, addr 0x30aebe8, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlockUnaligned(::cordl_internals::Ptr<void> destination, ::cordl_internals::Ptr<void> source, uint32_t byteCount);
 
-  /// @brief Method CopyBlockUnaligned, addr 0x3091448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlockUnaligned, addr 0x30aebf0, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlockUnaligned(ByRef<uint8_t> destination, ByRef<uint8_t> source, uint32_t byteCount);
 
-  /// @brief Method InitBlock, addr 0x3091450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlock, addr 0x30aebf8, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlock(::cordl_internals::Ptr<void> startAddress, uint8_t value, uint32_t byteCount);
 
-  /// @brief Method InitBlock, addr 0x3091458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlock, addr 0x30aec00, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlock(ByRef<uint8_t> startAddress, uint8_t value, uint32_t byteCount);
 
-  /// @brief Method InitBlockUnaligned, addr 0x3091460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlockUnaligned, addr 0x30aec08, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlockUnaligned(::cordl_internals::Ptr<void> startAddress, uint8_t value, uint32_t byteCount);
 
-  /// @brief Method InitBlockUnaligned, addr 0x3091468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlockUnaligned, addr 0x30aec10, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlockUnaligned(ByRef<uint8_t> startAddress, uint8_t value, uint32_t byteCount);
 
   /// @brief Method IsAddressGreaterThan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -109,13 +112,13 @@ public:
   template <typename T> static inline ::cordl_internals::Ptr<void> Subtract(::cordl_internals::Ptr<void> source, int32_t elementOffset);
 
   /// @brief Method Subtract, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> Subtract(ByRef<T> source, int32_t elementOffset);
+  template <typename T> static inline ByRef<T> Subtract(ByRef<T> source, ::System::IntPtr elementOffset);
 
   /// @brief Method Subtract, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> Subtract(ByRef<T> source, void* elementOffset);
+  template <typename T> static inline ByRef<T> Subtract(ByRef<T> source, int32_t elementOffset);
 
   /// @brief Method SubtractByteOffset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> SubtractByteOffset(ByRef<T> source, void* byteOffset);
+  template <typename T> static inline ByRef<T> SubtractByteOffset(ByRef<T> source, ::System::IntPtr byteOffset);
 
   /// @brief Method Unbox, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ByRef<T> Unbox(::System::Object* box);

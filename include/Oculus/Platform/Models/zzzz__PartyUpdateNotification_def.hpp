@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PartyUpdateNotification)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class PartyUpdateNotification;
@@ -43,7 +46,7 @@ public:
   /// @brief Field UserName, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_UserName, put = __cordl_internal_set_UserName))::StringW UserName;
 
-  static inline ::Oculus::Platform::Models::PartyUpdateNotification* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::PartyUpdateNotification* New_ctor(::System::IntPtr o);
 
   constexpr ::Oculus::Platform::PartyUpdateAction const& __cordl_internal_get_Action() const;
 
@@ -87,8 +90,8 @@ public:
 
   constexpr void __cordl_internal_set_UserName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ade15c, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afe7e8, size 0xd8, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

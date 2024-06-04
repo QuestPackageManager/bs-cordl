@@ -22,12 +22,12 @@ namespace System::Runtime::Remoting::Contexts {
 class CORDL_TYPE ContextCallbackObject : public ::System::ContextBoundObject {
 public:
   // Declarations
-  /// @brief Method DoCallBack, addr 0x281fa8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DoCallBack, addr 0x283a118, size 0x4, virtual false, abstract: false, final false
   inline void DoCallBack(::System::Runtime::Remoting::Contexts::CrossContextDelegate* deleg);
 
   static inline ::System::Runtime::Remoting::Contexts::ContextCallbackObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x281fa84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x283a110, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

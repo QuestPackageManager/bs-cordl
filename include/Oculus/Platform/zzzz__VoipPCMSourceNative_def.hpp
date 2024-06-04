@@ -31,18 +31,18 @@ public:
   /// @brief Convert operator to "::Oculus::Platform::IVoipPCMSource"
   constexpr operator ::Oculus::Platform::IVoipPCMSource*() noexcept;
 
-  /// @brief Method GetPCM, addr 0x2ad8494, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method GetPCM, addr 0x2af8b20, size 0xb0, virtual true, abstract: false, final true
   inline int32_t GetPCM(::ArrayW<float_t, ::Array<float_t>*> dest, int32_t length);
 
   static inline ::Oculus::Platform::VoipPCMSourceNative* New_ctor();
 
-  /// @brief Method PeekSizeElements, addr 0x2ad854c, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method PeekSizeElements, addr 0x2af8bd8, size 0x90, virtual true, abstract: false, final true
   inline int32_t PeekSizeElements();
 
-  /// @brief Method SetSenderID, addr 0x2ad8544, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetSenderID, addr 0x2af8bd0, size 0x8, virtual true, abstract: false, final true
   inline void SetSenderID(uint64_t senderID);
 
-  /// @brief Method Update, addr 0x2ad85dc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x2af8c68, size 0x4, virtual true, abstract: false, final true
   inline void Update();
 
   constexpr uint64_t const& __cordl_internal_get_senderID() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_senderID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2ad79a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af8030, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Oculus::Platform::IVoipPCMSource"

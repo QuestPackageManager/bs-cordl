@@ -47,10 +47,10 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapLevelExtensions____c* New_ctor();
 
-  /// @brief Method <ToRuntime>b__1_0, addr 0x14be958, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ToRuntime>b__1_0, addr 0x14c48e0, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _ToRuntime_b__1_0(::StringW l);
 
-  /// @brief Method .ctor, addr 0x14be950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14c48d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__BeatmapLevelExtensions____c* getStaticF___9();
@@ -91,10 +91,10 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::__BeatmapLevelExtensions____c;
 
-  /// @brief Method ToCensoredRuntime, addr 0x14bd2d4, size 0x8d8, virtual false, abstract: false, final false
+  /// @brief Method ToCensoredRuntime, addr 0x14c3240, size 0x8dc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevel* ToCensoredRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo, ::UnityEngine::Sprite* coverSprite, ::StringW censoredLocalizedSongName);
 
-  /// @brief Method ToRuntime, addr 0x14bdbd8, size 0xc84, virtual false, abstract: false, final false
+  /// @brief Method ToRuntime, addr 0x14c3b48, size 0xc9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevel* ToRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo);
 
 protected:

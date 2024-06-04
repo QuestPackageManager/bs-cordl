@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SdkAccount)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class SdkAccount;
@@ -27,7 +30,7 @@ public:
   /// @brief Field UserId, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_UserId, put = __cordl_internal_set_UserId)) uint64_t UserId;
 
-  static inline ::Oculus::Platform::Models::SdkAccount* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::SdkAccount* New_ctor(::System::IntPtr o);
 
   constexpr ::Oculus::Platform::SdkAccountType const& __cordl_internal_get_AccountType() const;
 
@@ -41,8 +44,8 @@ public:
 
   constexpr void __cordl_internal_set_UserId(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2aded00, size 0x88, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2aff38c, size 0x88, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

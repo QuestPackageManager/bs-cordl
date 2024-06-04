@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__tcx(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* value);
 
-  /// @brief Method .ctor, addr 0x326e080, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32953d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
 
 protected:

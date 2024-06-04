@@ -51,26 +51,26 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x2d76838, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2d95f28, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2d768f8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2d95fe8, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::ProductInfoHeaderValue* New_ctor();
 
   static inline ::System::Net::Http::Headers::ProductInfoHeaderValue* New_ctor(::System::Net::Http::Headers::ProductHeaderValue* product);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2d76830, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2d95f20, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x2d76cb8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2d963a8, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x2d76924, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2d96014, size 0x1a8, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ProductInfoHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x2d76acc, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x2d961bc, size 0x1ec, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::ProductInfoHeaderValue*> parsedValue);
 
   constexpr ::StringW const& __cordl_internal_get__Comment_k__BackingField() const;
@@ -85,25 +85,25 @@ public:
 
   constexpr void __cordl_internal_set__Product_k__BackingField(::System::Net::Http::Headers::ProductHeaderValue* value);
 
-  /// @brief Method .ctor, addr 0x2d76808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d95ef8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2d767a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d95e90, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::ProductHeaderValue* product);
 
-  /// @brief Method get_Comment, addr 0x2d76810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comment, addr 0x2d95f00, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Comment();
 
-  /// @brief Method get_Product, addr 0x2d76820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Product, addr 0x2d95f10, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::ProductHeaderValue* get_Product();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Comment, addr 0x2d76818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Comment, addr 0x2d95f08, size 0x8, virtual false, abstract: false, final false
   inline void set_Comment(::StringW value);
 
-  /// @brief Method set_Product, addr 0x2d76828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Product, addr 0x2d95f18, size 0x8, virtual false, abstract: false, final false
   inline void set_Product(::System::Net::Http::Headers::ProductHeaderValue* value);
 
 protected:

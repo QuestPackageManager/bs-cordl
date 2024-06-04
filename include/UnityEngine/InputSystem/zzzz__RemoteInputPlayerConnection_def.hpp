@@ -63,7 +63,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3118090, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x313981c, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber* New_ctor();
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_owner(::UnityW<::UnityEngine::InputSystem::RemoteInputPlayerConnection> value);
 
-  /// @brief Method .ctor, addr 0x31179f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3139180, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -164,51 +164,51 @@ public:
   /// @brief Convert operator to "::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>"
   constexpr operator ::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*() noexcept;
 
-  /// @brief Method Bind, addr 0x311709c, size 0x6dc, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x3138828, size 0x6dc, virtual false, abstract: false, final false
   inline void Bind(::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection* connection, bool isConnected);
 
   static inline ::UnityEngine::InputSystem::RemoteInputPlayerConnection* New_ctor();
 
-  /// @brief Method OnChangeUsages, addr 0x3117c14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnChangeUsages, addr 0x31393a0, size 0xc, virtual false, abstract: false, final false
   inline void OnChangeUsages(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnConnected, addr 0x3117778, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnConnected, addr 0x3138f04, size 0xdc, virtual false, abstract: false, final false
   inline void OnConnected(int32_t id);
 
-  /// @brief Method OnDisconnected, addr 0x3117b08, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDisconnected, addr 0x3139294, size 0xdc, virtual false, abstract: false, final false
   inline void OnDisconnected(int32_t id);
 
-  /// @brief Method OnNewDevice, addr 0x3117be4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnNewDevice, addr 0x3139370, size 0xc, virtual false, abstract: false, final false
   inline void OnNewDevice(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnNewEvents, addr 0x3117bfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnNewEvents, addr 0x3139388, size 0xc, virtual false, abstract: false, final false
   inline void OnNewEvents(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnNewLayout, addr 0x3117bf0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnNewLayout, addr 0x313937c, size 0xc, virtual false, abstract: false, final false
   inline void OnNewLayout(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnRemoveDevice, addr 0x3117c08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnRemoveDevice, addr 0x3139394, size 0xc, virtual false, abstract: false, final false
   inline void OnRemoveDevice(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnStartSending, addr 0x3117c20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnStartSending, addr 0x31393ac, size 0xc, virtual false, abstract: false, final false
   inline void OnStartSending(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnStopSending, addr 0x3117c2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnStopSending, addr 0x31393b8, size 0xc, virtual false, abstract: false, final false
   inline void OnStopSending(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method SendToSubscribers, addr 0x31179fc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SendToSubscribers, addr 0x3139188, size 0x10c, virtual false, abstract: false, final false
   inline void SendToSubscribers(::UnityEngine::InputSystem::__InputRemoting__MessageType type, ::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method Subscribe, addr 0x3117854, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method Subscribe, addr 0x3138fe0, size 0x1a0, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* observer);
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnCompleted, addr 0x3117ea0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnCompleted, addr 0x313962c, size 0x4, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnCompleted();
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnError, addr 0x3117e9c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnError, addr 0x3139628, size 0x4, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnError(::System::Exception* error);
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnNext, addr 0x3117c38, size 0x264, virtual true, abstract: false, final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnNext, addr 0x31393c4, size 0x264, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnNext(::UnityEngine::InputSystem::__InputRemoting__Message msg);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_ConnectedIds() const;
@@ -232,7 +232,7 @@ public:
   constexpr void __cordl_internal_set_m_Subscribers(
       ::ArrayW<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*, ::Array<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*>*> value);
 
-  /// @brief Method .ctor, addr 0x3117ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3139630, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Guid getStaticF_kChangeUsagesMsg();

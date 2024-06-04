@@ -21,42 +21,42 @@ namespace Org::BouncyCastle::Math::Raw {
 class CORDL_TYPE Interleave : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Expand16to32, addr 0x12bc410, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Expand16to32, addr 0x12c5c80, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t Expand16to32(uint32_t x);
 
-  /// @brief Method Expand32to64, addr 0x12bc438, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Expand32to64, addr 0x12c5ca8, size 0x58, virtual false, abstract: false, final false
   static inline uint64_t Expand32to64(uint32_t x);
 
-  /// @brief Method Expand64To128, addr 0x12bc490, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Expand64To128, addr 0x12c5d00, size 0xa8, virtual false, abstract: false, final false
   static inline void Expand64To128(uint64_t x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z, int32_t zOff);
 
-  /// @brief Method Expand64To128Rev, addr 0x12bc538, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Expand64To128Rev, addr 0x12c5da8, size 0xa8, virtual false, abstract: false, final false
   static inline void Expand64To128Rev(uint64_t x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z, int32_t zOff);
 
-  /// @brief Method Expand8to16, addr 0x12bc3f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Expand8to16, addr 0x12c5c60, size 0x20, virtual false, abstract: false, final false
   static inline uint32_t Expand8to16(uint32_t x);
 
   static inline ::Org::BouncyCastle::Math::Raw::Interleave* New_ctor();
 
-  /// @brief Method Shuffle, addr 0x12bc5e0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Shuffle, addr 0x12c5e50, size 0x48, virtual false, abstract: false, final false
   static inline uint32_t Shuffle(uint32_t x);
 
-  /// @brief Method Shuffle, addr 0x12bc628, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Shuffle, addr 0x12c5e98, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t Shuffle(uint64_t x);
 
-  /// @brief Method Shuffle2, addr 0x12bc684, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Shuffle2, addr 0x12c5ef4, size 0x54, virtual false, abstract: false, final false
   static inline uint32_t Shuffle2(uint32_t x);
 
-  /// @brief Method Unshuffle, addr 0x12bc6d8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Unshuffle, addr 0x12c5f48, size 0x48, virtual false, abstract: false, final false
   static inline uint32_t Unshuffle(uint32_t x);
 
-  /// @brief Method Unshuffle, addr 0x12bc720, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Unshuffle, addr 0x12c5f90, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t Unshuffle(uint64_t x);
 
-  /// @brief Method Unshuffle2, addr 0x12bc77c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Unshuffle2, addr 0x12c5fec, size 0x54, virtual false, abstract: false, final false
   static inline uint32_t Unshuffle2(uint32_t x);
 
-  /// @brief Method .ctor, addr 0x12bc7d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12c6040, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

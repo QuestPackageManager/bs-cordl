@@ -15,18 +15,18 @@ class ViveTracker;
 // Write type traits
 MARK_REF_PTR_T(::Unity::XR::OpenVR::ViveTracker);
 // Type: Unity.XR.OpenVR::ViveTracker
-// SizeInfo { instance_size: 392, native_size: -1, calculated_instance_size: 392, calculated_native_size: 392, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 416, native_size: -1, calculated_instance_size: 416, calculated_native_size: 416, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::OpenVR {
 // Is value type: false
 // CS Name: ::Unity.XR.OpenVR::ViveTracker*
 class CORDL_TYPE ViveTracker : public ::UnityEngine::InputSystem::TrackedDevice {
 public:
   // Declarations
-  /// @brief Field <deviceAngularVelocity>k__BackingField, offset 0x180, size 0x8
+  /// @brief Field <deviceAngularVelocity>k__BackingField, offset 0x198, size 0x8
   __declspec(property(get = __cordl_internal_get__deviceAngularVelocity_k__BackingField,
                       put = __cordl_internal_set__deviceAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAngularVelocity_k__BackingField;
 
-  /// @brief Field <deviceVelocity>k__BackingField, offset 0x178, size 0x8
+  /// @brief Field <deviceVelocity>k__BackingField, offset 0x190, size 0x8
   __declspec(property(get = __cordl_internal_get__deviceVelocity_k__BackingField,
                       put = __cordl_internal_set__deviceVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceVelocity_k__BackingField;
 
@@ -34,7 +34,7 @@ public:
 
   __declspec(property(get = get_deviceVelocity, put = set_deviceVelocity))::UnityEngine::InputSystem::Controls::Vector3Control* deviceVelocity;
 
-  /// @brief Method FinishSetup, addr 0x30a5c94, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x30c343c, size 0xa4, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::OpenVR::ViveTracker* New_ctor();
@@ -51,19 +51,19 @@ public:
 
   constexpr void __cordl_internal_set__deviceVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method .ctor, addr 0x30a5d38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30c34e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_deviceAngularVelocity, addr 0x30a5c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceAngularVelocity, addr 0x30c342c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularVelocity();
 
-  /// @brief Method get_deviceVelocity, addr 0x30a5c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceVelocity, addr 0x30c341c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
 
-  /// @brief Method set_deviceAngularVelocity, addr 0x30a5c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceAngularVelocity, addr 0x30c3434, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_deviceVelocity, addr 0x30a5c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceVelocity, addr 0x30c3424, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
 protected:
@@ -80,20 +80,20 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ViveTracker(ViveTracker const&) = delete;
 
-  /// @brief Field <deviceVelocity>k__BackingField, offset: 0x178, size: 0x8, def value: None
+  /// @brief Field <deviceVelocity>k__BackingField, offset: 0x190, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____deviceVelocity_k__BackingField;
 
-  /// @brief Field <deviceAngularVelocity>k__BackingField, offset: 0x180, size: 0x8, def value: None
+  /// @brief Field <deviceAngularVelocity>k__BackingField, offset: 0x198, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____deviceAngularVelocity_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::XR::OpenVR::ViveTracker, 0x188>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Unity::XR::OpenVR::ViveTracker, 0x1a0>, "Size mismatch!");
 
-static_assert(offsetof(::Unity::XR::OpenVR::ViveTracker, ____deviceVelocity_k__BackingField) == 0x178, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::OpenVR::ViveTracker, ____deviceVelocity_k__BackingField) == 0x190, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::XR::OpenVR::ViveTracker, ____deviceAngularVelocity_k__BackingField) == 0x180, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::OpenVR::ViveTracker, ____deviceAngularVelocity_k__BackingField) == 0x198, "Offset mismatch!");
 
 } // namespace Unity::XR::OpenVR
 NEED_NO_BOX(::Unity::XR::OpenVR::ViveTracker);

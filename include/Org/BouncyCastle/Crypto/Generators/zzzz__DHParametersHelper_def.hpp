@@ -40,20 +40,20 @@ public:
   /// @brief Field primeProducts, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_primeProducts, put = setStaticF_primeProducts))::ArrayW<int32_t, ::Array<int32_t>*> primeProducts;
 
-  /// @brief Method ConstructBigPrimeProducts, addr 0x1156784, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ConstructBigPrimeProducts, addr 0x115dff4, size 0x110, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> ConstructBigPrimeProducts(::ArrayW<int32_t, ::Array<int32_t>*> primeProducts);
 
-  /// @brief Method GenerateSafePrimes, addr 0x11561b0, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method GenerateSafePrimes, addr 0x115da20, size 0x4dc, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> GenerateSafePrimes(int32_t size, int32_t certainty,
                                                                                                                                       ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHParametersHelper* New_ctor();
 
-  /// @brief Method SelectGenerator, addr 0x115668c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SelectGenerator, addr 0x115defc, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* SelectGenerator(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                        ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0x115693c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x115e1ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> getStaticF_BigPrimeProducts();

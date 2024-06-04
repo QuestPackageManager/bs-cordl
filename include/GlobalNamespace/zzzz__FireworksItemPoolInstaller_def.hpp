@@ -32,7 +32,7 @@ public:
   /// @brief Field _fireworksController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__fireworksController, put = __cordl_internal_set__fireworksController))::UnityW<::GlobalNamespace::FireworksController> _fireworksController;
 
-  /// @brief Method InstallBindings, addr 0x26b7c34, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26cf658, size 0x94, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::FireworksItemPoolInstaller* New_ctor();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__fireworksController(::UnityW<::GlobalNamespace::FireworksController> value);
 
-  /// @brief Method .ctor, addr 0x26b7cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cf6ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

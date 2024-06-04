@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JobRanges)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Unity::Jobs::LowLevel::Unsafe {
 struct JobRanges;
@@ -27,8 +30,8 @@ public:
 
   // Ctor Parameters [CppParam { name: "BatchSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "NumJobs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "TotalIterationCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "NumPhases", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "StartEndIndex", ty:
-  // "void*", modifiers: "", def_value: None }, CppParam { name: "PhaseData", ty: "void*", modifiers: "", def_value: None }]
-  constexpr JobRanges(int32_t BatchSize, int32_t NumJobs, int32_t TotalIterationCount, int32_t NumPhases, void* StartEndIndex, void* PhaseData) noexcept;
+  // "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "PhaseData", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr JobRanges(int32_t BatchSize, int32_t NumJobs, int32_t TotalIterationCount, int32_t NumPhases, ::System::IntPtr StartEndIndex, ::System::IntPtr PhaseData) noexcept;
 
   /// @brief Field BatchSize, offset: 0x0, size: 0x4, def value: None
   int32_t BatchSize;
@@ -43,10 +46,10 @@ public:
   int32_t NumPhases;
 
   /// @brief Field StartEndIndex, offset: 0x10, size: 0x8, def value: None
-  void* StartEndIndex;
+  ::System::IntPtr StartEndIndex;
 
   /// @brief Field PhaseData, offset: 0x18, size: 0x8, def value: None
-  void* PhaseData;
+  ::System::IntPtr PhaseData;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

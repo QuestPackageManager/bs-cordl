@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SendOrPostCallback)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -23,13 +26,13 @@ namespace System::Threading {
 class CORDL_TYPE SendOrPostCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2997864, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29b2ef0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* state);
 
-  static inline ::System::Threading::SendOrPostCallback* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Threading::SendOrPostCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2997738, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x29b2dc4, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

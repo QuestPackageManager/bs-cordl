@@ -15,6 +15,9 @@ struct HmdMatrix44_t;
 namespace OVR::OpenVR {
 struct HmdVector2_t;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct VRTextureDepthInfo_t;
@@ -33,12 +36,12 @@ public:
   // @brief default ctor
   constexpr VRTextureDepthInfo_t();
 
-  // Ctor Parameters [CppParam { name: "handle", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "mProjection", ty: "::OVR::OpenVR::HmdMatrix44_t", modifiers: "", def_value: None },
-  // CppParam { name: "vRange", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }]
-  constexpr VRTextureDepthInfo_t(void* handle, ::OVR::OpenVR::HmdMatrix44_t mProjection, ::OVR::OpenVR::HmdVector2_t vRange) noexcept;
+  // Ctor Parameters [CppParam { name: "handle", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "mProjection", ty: "::OVR::OpenVR::HmdMatrix44_t", modifiers: "", def_value:
+  // None }, CppParam { name: "vRange", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }]
+  constexpr VRTextureDepthInfo_t(::System::IntPtr handle, ::OVR::OpenVR::HmdMatrix44_t mProjection, ::OVR::OpenVR::HmdVector2_t vRange) noexcept;
 
   /// @brief Field handle, offset: 0x0, size: 0x8, def value: None
-  void* handle;
+  ::System::IntPtr handle;
 
   /// @brief Field mProjection, offset: 0x8, size: 0x40, def value: None
   ::OVR::OpenVR::HmdMatrix44_t mProjection;

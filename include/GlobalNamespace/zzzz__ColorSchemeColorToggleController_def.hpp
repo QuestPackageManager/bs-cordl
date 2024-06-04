@@ -54,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x2733be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x274b370, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x273344c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x274abd4, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_toggle, addr 0x2733be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggle, addr 0x274b368, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Toggle> get_toggle();
 
-  /// @brief Method set_color, addr 0x273349c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x274ac24, size 0x98, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:

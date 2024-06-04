@@ -34,12 +34,12 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::IValueProvider"
   constexpr operator ::Newtonsoft::Json::Serialization::IValueProvider*() noexcept;
 
-  /// @brief Method GetValue, addr 0x2a46994, size 0x2ac, virtual true, abstract: false, final true
+  /// @brief Method GetValue, addr 0x2a65020, size 0x2ac, virtual true, abstract: false, final true
   inline ::System::Object* GetValue(::System::Object* target);
 
   static inline ::Newtonsoft::Json::Serialization::ReflectionValueProvider* New_ctor(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method SetValue, addr 0x2a467f0, size 0x1a4, virtual true, abstract: false, final true
+  /// @brief Method SetValue, addr 0x2a64e7c, size 0x1a4, virtual true, abstract: false, final true
   inline void SetValue(::System::Object* target, ::System::Object* value);
 
   constexpr ::System::Reflection::MemberInfo*& __cordl_internal_get__memberInfo();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__memberInfo(::System::Reflection::MemberInfo* value);
 
-  /// @brief Method .ctor, addr 0x2a46784, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a64e10, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo);
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::IValueProvider"

@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRDisplaySubsystem)
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine::Rendering {
 struct RenderTargetIdentifier;
 }
@@ -98,19 +101,19 @@ public:
   // @brief default ctor
   constexpr __XRDisplaySubsystem__XRRenderPass();
 
-  // Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "renderPassIndex", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "renderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None }, CppParam { name: "renderTargetDesc", ty:
+  // Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "renderPassIndex", ty: "int32_t", modifiers: "",
+  // def_value: None }, CppParam { name: "renderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None }, CppParam { name: "renderTargetDesc", ty:
   // "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None }, CppParam { name: "hasMotionVectorPass", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
   // "motionVectorRenderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None }, CppParam { name: "motionVectorRenderTargetDesc", ty:
   // "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None }, CppParam { name: "shouldFillOutDepth", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
   // "cullingPassIndex", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __XRDisplaySubsystem__XRRenderPass(void* displaySubsystemInstance, int32_t renderPassIndex, ::UnityEngine::Rendering::RenderTargetIdentifier renderTarget,
+  constexpr __XRDisplaySubsystem__XRRenderPass(::System::IntPtr displaySubsystemInstance, int32_t renderPassIndex, ::UnityEngine::Rendering::RenderTargetIdentifier renderTarget,
                                                ::UnityEngine::RenderTextureDescriptor renderTargetDesc, bool hasMotionVectorPass,
                                                ::UnityEngine::Rendering::RenderTargetIdentifier motionVectorRenderTarget, ::UnityEngine::RenderTextureDescriptor motionVectorRenderTargetDesc,
                                                bool shouldFillOutDepth, int32_t cullingPassIndex) noexcept;
 
   /// @brief Field displaySubsystemInstance, offset: 0x0, size: 0x8, def value: None
-  void* displaySubsystemInstance;
+  ::System::IntPtr displaySubsystemInstance;
 
   /// @brief Field renderPassIndex, offset: 0x8, size: 0x4, def value: None
   int32_t renderPassIndex;
@@ -175,12 +178,12 @@ public:
   // @brief default ctor
   constexpr __XRDisplaySubsystem__XRMirrorViewBlitDesc();
 
-  // Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "nativeBlitAvailable", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "nativeBlitInvalidStates", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "blitParamsCount", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __XRDisplaySubsystem__XRMirrorViewBlitDesc(void* displaySubsystemInstance, bool nativeBlitAvailable, bool nativeBlitInvalidStates, int32_t blitParamsCount) noexcept;
+  // Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "nativeBlitAvailable", ty: "bool", modifiers: "",
+  // def_value: None }, CppParam { name: "nativeBlitInvalidStates", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "blitParamsCount", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __XRDisplaySubsystem__XRMirrorViewBlitDesc(::System::IntPtr displaySubsystemInstance, bool nativeBlitAvailable, bool nativeBlitInvalidStates, int32_t blitParamsCount) noexcept;
 
   /// @brief Field displaySubsystemInstance, offset: 0x0, size: 0x8, def value: None
-  void* displaySubsystemInstance;
+  ::System::IntPtr displaySubsystemInstance;
 
   /// @brief Field nativeBlitAvailable, offset: 0x8, size: 0x1, def value: None
   bool nativeBlitAvailable;

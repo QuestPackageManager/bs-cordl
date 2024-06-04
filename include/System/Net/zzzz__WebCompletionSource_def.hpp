@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::System::Net::WebCompletionSource* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3012c44, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3030334, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

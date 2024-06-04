@@ -554,7 +554,7 @@ static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__Ocul
 
 } // namespace GlobalNamespace
 // Type: ::GameConfig
-// SizeInfo { instance_size: 264, native_size: 288, calculated_instance_size: 264, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 272, native_size: 296, calculated_instance_size: 272, calculated_native_size: 288, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PerformanceConfigurationChecks::GameConfig
@@ -587,7 +587,8 @@ public:
   // "::BeatSaber::PerformancePresets::MirrorQualityPreset", modifiers: "", def_value: None }, CppParam { name: "maxNumberOfCutSoundEffects", ty: "int32_t", modifiers: "", def_value: None }, CppParam
   // { name: "maxShockwaveParticles", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "burnMarkTrailsEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
   // "smokeGraphicsSettings", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "screenDisplacementEffectsEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "obstaclesQuality", ty: "::BeatSaber::PerformancePresets::ObstaclesQuality", modifiers: "", def_value: None }]
+  // "obstaclesQuality", ty: "::BeatSaber::PerformancePresets::ObstaclesQuality", modifiers: "", def_value: None }, CppParam { name: "cpuLevel", ty: "int32_t", modifiers: "", def_value: None },
+  // CppParam { name: "gpuLevel", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr __PerformanceConfigurationChecks__GameConfig(
       ::UnityEngine::Vector3 roomCenter, double_t roomRotation, ::UnityEngine::Vector3 controllerPosition, ::UnityEngine::Vector3 controllerRotation, bool hapticFeedback, bool smoothCameraEnabled,
       double_t smoothCameraFieldOfView, double_t smoothCameraPositionSmooth, double_t smoothCameraRotationSmooth, bool smoothCameraThirdPersonEnabled,
@@ -597,8 +598,8 @@ public:
       ::BeatSaber::GameSettings::WindowMode windowMode, ::StringW performancePresetKey, double_t renderViewportScale, double_t targetFramerate, int32_t vSyncCount, int32_t maxQueuedFrames,
       double_t vrResolutionScale, double_t menuVRResolutionScaleMultiplier, int32_t antiAliasingLevel, ::BeatSaber::PerformancePresets::BloomPrepassTextureEffectPreset bloomPrePassTextureEffect,
       ::BeatSaber::PerformancePresets::MainEffectPreset mainEffectGraphicsSettings, ::BeatSaber::PerformancePresets::MirrorQualityPreset mirrorGraphicsSettings, int32_t maxNumberOfCutSoundEffects,
-      int32_t maxShockwaveParticles, bool burnMarkTrailsEnabled, bool smokeGraphicsSettings, bool screenDisplacementEffectsEnabled,
-      ::BeatSaber::PerformancePresets::ObstaclesQuality obstaclesQuality) noexcept;
+      int32_t maxShockwaveParticles, bool burnMarkTrailsEnabled, bool smokeGraphicsSettings, bool screenDisplacementEffectsEnabled, ::BeatSaber::PerformancePresets::ObstaclesQuality obstaclesQuality,
+      int32_t cpuLevel, int32_t gpuLevel) noexcept;
 
   /// @brief Field roomCenter, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 roomCenter;
@@ -732,13 +733,19 @@ public:
   /// @brief Field obstaclesQuality, offset: 0x104, size: 0x4, def value: None
   ::BeatSaber::PerformancePresets::ObstaclesQuality obstaclesQuality;
 
+  /// @brief Field cpuLevel, offset: 0x108, size: 0x4, def value: None
+  int32_t cpuLevel;
+
+  /// @brief Field gpuLevel, offset: 0x10c, size: 0x4, def value: None
+  int32_t gpuLevel;
+
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x108 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x110 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, 0x108>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, 0x110>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, roomCenter) == 0x0, "Offset mismatch!");
 
@@ -827,6 +834,10 @@ static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__Game
 static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, screenDisplacementEffectsEnabled) == 0x102, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, obstaclesQuality) == 0x104, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, cpuLevel) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, gpuLevel) == 0x10c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::PlayerConfig
@@ -998,7 +1009,7 @@ static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__Leve
 
 } // namespace GlobalNamespace
 // Type: ::PerformanceConfigurationChecks
-// SizeInfo { instance_size: 512, native_size: -1, calculated_instance_size: 512, calculated_native_size: 512, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 520, native_size: -1, calculated_instance_size: 520, calculated_native_size: 520, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PerformanceConfigurationChecks*
@@ -1024,14 +1035,14 @@ public:
   /// @brief Field appConfig, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_appConfig, put = __cordl_internal_set_appConfig))::GlobalNamespace::__PerformanceConfigurationChecks__AppConfig appConfig;
 
-  /// @brief Field gameConfig, offset 0xb0, size 0x108
+  /// @brief Field gameConfig, offset 0xb0, size 0x110
   __declspec(property(get = __cordl_internal_get_gameConfig, put = __cordl_internal_set_gameConfig))::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig gameConfig;
 
-  /// @brief Field invalid, offset 0x1f8, size 0x8
+  /// @brief Field invalid, offset 0x200, size 0x8
   __declspec(property(get = __cordl_internal_get_invalid,
                       put = __cordl_internal_set_invalid))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__PerformanceConfigurationChecks__Mismatch>* invalid;
 
-  /// @brief Field levelConfig, offset 0x1f4, size 0x2
+  /// @brief Field levelConfig, offset 0x1fc, size 0x2
   __declspec(property(get = __cordl_internal_get_levelConfig, put = __cordl_internal_set_levelConfig))::GlobalNamespace::__PerformanceConfigurationChecks__LevelConfig levelConfig;
 
   /// @brief Field oculusXrConfig, offset 0xa4, size 0xc
@@ -1040,29 +1051,29 @@ public:
   /// @brief Field ovrConfig, offset 0x50, size 0x54
   __declspec(property(get = __cordl_internal_get_ovrConfig, put = __cordl_internal_set_ovrConfig))::GlobalNamespace::__PerformanceConfigurationChecks__OVRConfig ovrConfig;
 
-  /// @brief Field playerConfig, offset 0x1b8, size 0x3c
+  /// @brief Field playerConfig, offset 0x1c0, size 0x3c
   __declspec(property(get = __cordl_internal_get_playerConfig, put = __cordl_internal_set_playerConfig))::GlobalNamespace::__PerformanceConfigurationChecks__PlayerConfig playerConfig;
 
   /// @brief Field xrConfig, offset 0x20, size 0x30
   __declspec(property(get = __cordl_internal_get_xrConfig, put = __cordl_internal_set_xrConfig))::GlobalNamespace::__PerformanceConfigurationChecks__XRConfig xrConfig;
 
-  /// @brief Method CreateErrorLog, addr 0x26891a8, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method CreateErrorLog, addr 0x26a25c8, size 0x29c, virtual false, abstract: false, final false
   inline ::StringW CreateErrorLog();
 
-  /// @brief Method IsValid, addr 0x268914c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x26a256c, size 0x5c, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::GlobalNamespace::PerformanceConfigurationChecks* New_ctor();
 
-  /// @brief Method SetExpected, addr 0x2689444, size 0xad0, virtual false, abstract: false, final false
-  inline bool SetExpected(::BeatSaber::GameSettings::MainSettingsHandler* mainSettings, ::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettings,
+  /// @brief Method SetExpected, addr 0x26a2864, size 0x6f4, virtual false, abstract: false, final false
+  inline bool SetExpected(::BeatSaber::GameSettings::MainSettingsHandler* mainSettingsHandler, ::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettingsHandler,
                           ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers);
 
   /// @brief Method VerifyEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void VerifyEntry(::StringW name, T expected, T actual);
 
-  /// @brief Method VerifyExpected, addr 0x2689f14, size 0x1e58, virtual false, abstract: false, final false
-  inline bool VerifyExpected(::BeatSaber::GameSettings::MainSettingsHandler* mainSettings, ::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettings,
+  /// @brief Method VerifyExpected, addr 0x26a3008, size 0x1cb4, virtual false, abstract: false, final false
+  inline bool VerifyExpected(::BeatSaber::GameSettings::MainSettingsHandler* mainSettingsHandler, ::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettingsHandler,
                              ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers);
 
   constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__AppConfig const& __cordl_internal_get_appConfig() const;
@@ -1114,7 +1125,7 @@ public:
 
   constexpr void __cordl_internal_set_xrConfig(::GlobalNamespace::__PerformanceConfigurationChecks__XRConfig value);
 
-  /// @brief Method .ctor, addr 0x268bd6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a4cbc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1143,22 +1154,22 @@ public:
   /// @brief Field oculusXrConfig, offset: 0xa4, size: 0xc, def value: None
   ::GlobalNamespace::__PerformanceConfigurationChecks__OculusXRConfig ___oculusXrConfig;
 
-  /// @brief Field gameConfig, offset: 0xb0, size: 0x108, def value: None
+  /// @brief Field gameConfig, offset: 0xb0, size: 0x110, def value: None
   ::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig ___gameConfig;
 
-  /// @brief Field playerConfig, offset: 0x1b8, size: 0x3c, def value: None
+  /// @brief Field playerConfig, offset: 0x1c0, size: 0x3c, def value: None
   ::GlobalNamespace::__PerformanceConfigurationChecks__PlayerConfig ___playerConfig;
 
-  /// @brief Field levelConfig, offset: 0x1f4, size: 0x2, def value: None
+  /// @brief Field levelConfig, offset: 0x1fc, size: 0x2, def value: None
   ::GlobalNamespace::__PerformanceConfigurationChecks__LevelConfig ___levelConfig;
 
-  /// @brief Field invalid, offset: 0x1f8, size: 0x8, def value: None
+  /// @brief Field invalid, offset: 0x200, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__PerformanceConfigurationChecks__Mismatch>* ___invalid;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceConfigurationChecks, 0x200>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceConfigurationChecks, 0x208>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___appConfig) == 0x10, "Offset mismatch!");
 
@@ -1170,11 +1181,11 @@ static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___ocu
 
 static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___gameConfig) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___playerConfig) == 0x1b8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___playerConfig) == 0x1c0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___levelConfig) == 0x1f4, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___levelConfig) == 0x1fc, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___invalid) == 0x1f8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___invalid) == 0x200, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PerformanceConfigurationChecks);

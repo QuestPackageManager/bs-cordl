@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(LinkedAccountList)
 namespace Oculus::Platform::Models {
 class LinkedAccount;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class LinkedAccountList;
@@ -23,10 +26,10 @@ namespace Oculus::Platform::Models {
 class CORDL_TYPE LinkedAccountList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::LinkedAccount*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::Models::LinkedAccountList* New_ctor(void* a);
+  static inline ::Oculus::Platform::Models::LinkedAccountList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x2add188, size 0x23c, virtual false, abstract: false, final false
-  inline void _ctor(void* a);
+  /// @brief Method .ctor, addr 0x2afd814, size 0x23c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr a);
 
 protected:
   // Ctor Parameters []

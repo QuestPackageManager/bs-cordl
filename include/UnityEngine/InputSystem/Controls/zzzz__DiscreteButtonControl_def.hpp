@@ -76,7 +76,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Controls::__DiscreteButtonCon
 
 } // namespace UnityEngine::InputSystem::Controls
 // Type: UnityEngine.InputSystem.Controls::DiscreteButtonControl
-// SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 304, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 324, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Controls::DiscreteButtonControl*
@@ -85,30 +85,30 @@ public:
   // Declarations
   using WriteMode = ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode;
 
-  /// @brief Field maxValue, offset 0x120, size 0x4
+  /// @brief Field maxValue, offset 0x134, size 0x4
   __declspec(property(get = __cordl_internal_get_maxValue, put = __cordl_internal_set_maxValue)) int32_t maxValue;
 
-  /// @brief Field minValue, offset 0x11c, size 0x4
+  /// @brief Field minValue, offset 0x130, size 0x4
   __declspec(property(get = __cordl_internal_get_minValue, put = __cordl_internal_set_minValue)) int32_t minValue;
 
-  /// @brief Field nullValue, offset 0x128, size 0x4
+  /// @brief Field nullValue, offset 0x13c, size 0x4
   __declspec(property(get = __cordl_internal_get_nullValue, put = __cordl_internal_set_nullValue)) int32_t nullValue;
 
-  /// @brief Field wrapAtValue, offset 0x124, size 0x4
+  /// @brief Field wrapAtValue, offset 0x138, size 0x4
   __declspec(property(get = __cordl_internal_get_wrapAtValue, put = __cordl_internal_set_wrapAtValue)) int32_t wrapAtValue;
 
-  /// @brief Field writeMode, offset 0x12c, size 0x4
+  /// @brief Field writeMode, offset 0x140, size 0x4
   __declspec(property(get = __cordl_internal_get_writeMode, put = __cordl_internal_set_writeMode))::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode writeMode;
 
-  /// @brief Method FinishSetup, addr 0x3177c38, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x319e774, size 0xac, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::DiscreteButtonControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x3177ce4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x319e820, size 0x158, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x3177d84, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x319e97c, size 0xe8, virtual true, abstract: false, final false
   inline void WriteValueIntoState(float_t value, ::cordl_internals::Ptr<void> statePtr);
 
   constexpr int32_t const& __cordl_internal_get_maxValue() const;
@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set_writeMode(::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode value);
 
-  /// @brief Method .ctor, addr 0x3177e70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x319ea68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -158,35 +158,35 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DiscreteButtonControl(DiscreteButtonControl const&) = delete;
 
-  /// @brief Field minValue, offset: 0x11c, size: 0x4, def value: None
+  /// @brief Field minValue, offset: 0x130, size: 0x4, def value: None
   int32_t ___minValue;
 
-  /// @brief Field maxValue, offset: 0x120, size: 0x4, def value: None
+  /// @brief Field maxValue, offset: 0x134, size: 0x4, def value: None
   int32_t ___maxValue;
 
-  /// @brief Field wrapAtValue, offset: 0x124, size: 0x4, def value: None
+  /// @brief Field wrapAtValue, offset: 0x138, size: 0x4, def value: None
   int32_t ___wrapAtValue;
 
-  /// @brief Field nullValue, offset: 0x128, size: 0x4, def value: None
+  /// @brief Field nullValue, offset: 0x13c, size: 0x4, def value: None
   int32_t ___nullValue;
 
-  /// @brief Field writeMode, offset: 0x12c, size: 0x4, def value: None
+  /// @brief Field writeMode, offset: 0x140, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode ___writeMode;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::DiscreteButtonControl, 0x130>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::DiscreteButtonControl, 0x148>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___minValue) == 0x11c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___minValue) == 0x130, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___maxValue) == 0x120, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___maxValue) == 0x134, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___wrapAtValue) == 0x124, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___wrapAtValue) == 0x138, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___nullValue) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___nullValue) == 0x13c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___writeMode) == 0x12c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___writeMode) == 0x140, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Controls
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode, "UnityEngine.InputSystem.Controls", "DiscreteButtonControl/WriteMode");

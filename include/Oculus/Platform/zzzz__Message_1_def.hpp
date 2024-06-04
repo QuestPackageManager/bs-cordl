@@ -17,6 +17,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -48,10 +51,10 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(::Oculus::Platform::Message_1<T>* message);
 
-  static inline ::Oculus::Platform::__Message_1__Callback<T>* New_ctor(::System::Object* object, void* method);
+  static inline ::Oculus::Platform::__Message_1__Callback<T>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -89,9 +92,9 @@ public:
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) T data;
 
   /// @brief Method GetDataFromMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline T GetDataFromMessage(void* c_message);
+  inline T GetDataFromMessage(::System::IntPtr c_message);
 
-  static inline ::Oculus::Platform::Message_1<T>* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::Message_1<T>* New_ctor(::System::IntPtr c_message);
 
   constexpr T const& __cordl_internal_get_data() const;
 
@@ -100,7 +103,7 @@ public:
   constexpr void __cordl_internal_set_data(T value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  inline void _ctor(::System::IntPtr c_message);
 
   /// @brief Method get_Data, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Data();

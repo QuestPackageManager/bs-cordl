@@ -36,34 +36,34 @@ public:
 
   __declspec(property(get = get_Value)) int32_t Value;
 
-  /// @brief Method Deserialize, addr 0x3311a9c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x333adf0, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent Deserialize(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Serialize, addr 0x3311a04, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Serialize, addr 0x333ad58, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Serialize();
 
-  /// @brief Method .ctor, addr 0x33119ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x333ad40, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW graph, ::StringW name, int32_t id, int32_t stream, int32_t frame, int32_t value, ::ArrayW<int32_t, ::Array<int32_t>*> deps);
 
-  /// @brief Method get_Dependencies, addr 0x33119cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dependencies, addr 0x333ad20, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_Dependencies();
 
-  /// @brief Method get_DisplayName, addr 0x33119c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x333ad18, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_Frame, addr 0x33119dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Frame, addr 0x333ad30, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Frame();
 
-  /// @brief Method get_Graph, addr 0x33119b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Graph, addr 0x333ad08, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Graph();
 
-  /// @brief Method get_ObjectId, addr 0x33119bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectId, addr 0x333ad10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ObjectId();
 
-  /// @brief Method get_Stream, addr 0x33119d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Stream, addr 0x333ad28, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Stream();
 
-  /// @brief Method get_Value, addr 0x33119e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x333ad38, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Value();
 
   // Ctor Parameters []

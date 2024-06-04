@@ -43,10 +43,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipher"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipher*() noexcept;
 
-  /// @brief Method GetMaxOutputSize, addr 0x1186e80, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method GetMaxOutputSize, addr 0x118d6f0, size 0xac, virtual true, abstract: false, final true
   inline int32_t GetMaxOutputSize(int32_t inputLen);
 
-  /// @brief Method GetUpdateOutputSize, addr 0x1186f2c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method GetUpdateOutputSize, addr 0x118d79c, size 0xac, virtual true, abstract: false, final true
   inline int32_t GetUpdateOutputSize(int32_t inputLen);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper* New_ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* bufferedCipher, ::System::IO::Stream* source);
@@ -63,10 +63,10 @@ public:
 
   constexpr void __cordl_internal_set_stream(::Org::BouncyCastle::Crypto::IO::CipherStream* value);
 
-  /// @brief Method .ctor, addr 0x1186dec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118d65c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* bufferedCipher, ::System::IO::Stream* source);
 
-  /// @brief Method get_Stream, addr 0x1186fd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Stream, addr 0x118d848, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* get_Stream();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipher"

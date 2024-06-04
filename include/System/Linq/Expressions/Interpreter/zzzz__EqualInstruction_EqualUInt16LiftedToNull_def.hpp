@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualUInt16LiftedToNull* New_ctor();
 
-  /// @brief Method Run, addr 0x2c18a50, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c39140, size 0xe8, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c17884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c37f74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

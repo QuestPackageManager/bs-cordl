@@ -11,6 +11,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerLoopSystem)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace System {
@@ -37,13 +40,13 @@ namespace UnityEngine::LowLevel {
 class CORDL_TYPE __PlayerLoopSystem__UpdateFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x343be80, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x346537c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
-  static inline ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* New_ctor(::System::Object* object, void* method);
+  static inline ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x343bdc4, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x34652c0, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -75,7 +78,7 @@ public:
   // Declarations
   using UpdateFunction = ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction;
 
-  /// @brief Method ToString, addr 0x343bda4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x34652a0, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -84,10 +87,10 @@ public:
 
   // Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "subSystemList", ty:
   // "::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystem,::Array<::UnityEngine::LowLevel::PlayerLoopSystem>*>", modifiers: "", def_value: None }, CppParam { name: "updateDelegate", ty:
-  // "::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction*", modifiers: "", def_value: None }, CppParam { name: "updateFunction", ty: "void*", modifiers: "", def_value: None }, CppParam {
-  // name: "loopConditionFunction", ty: "void*", modifiers: "", def_value: None }]
+  // "::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction*", modifiers: "", def_value: None }, CppParam { name: "updateFunction", ty: "::System::IntPtr", modifiers: "", def_value: None },
+  // CppParam { name: "loopConditionFunction", ty: "::System::IntPtr", modifiers: "", def_value: None }]
   constexpr PlayerLoopSystem(::System::Type* type, ::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystem, ::Array<::UnityEngine::LowLevel::PlayerLoopSystem>*> subSystemList,
-                             ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* updateDelegate, void* updateFunction, void* loopConditionFunction) noexcept;
+                             ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* updateDelegate, ::System::IntPtr updateFunction, ::System::IntPtr loopConditionFunction) noexcept;
 
   /// @brief Field type, offset: 0x0, size: 0x8, def value: None
   ::System::Type* type;
@@ -99,10 +102,10 @@ public:
   ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* updateDelegate;
 
   /// @brief Field updateFunction, offset: 0x18, size: 0x8, def value: None
-  void* updateFunction;
+  ::System::IntPtr updateFunction;
 
   /// @brief Field loopConditionFunction, offset: 0x20, size: 0x8, def value: None
-  void* loopConditionFunction;
+  ::System::IntPtr loopConditionFunction;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

@@ -12,6 +12,9 @@ namespace System {
 class Exception;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Type;
 }
 namespace UnityEngine {
@@ -32,94 +35,94 @@ class CORDL_TYPE AndroidReflection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_FieldGetDeclaringClass, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_FieldGetDeclaringClass, put = setStaticF_s_FieldGetDeclaringClass)) void* s_FieldGetDeclaringClass;
+  static __declspec(property(get = getStaticF_s_FieldGetDeclaringClass, put = setStaticF_s_FieldGetDeclaringClass))::System::IntPtr s_FieldGetDeclaringClass;
 
   /// @brief Field s_ReflectionHelperClass, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_ReflectionHelperClass, put = setStaticF_s_ReflectionHelperClass))::UnityEngine::GlobalJavaObjectRef* s_ReflectionHelperClass;
 
   /// @brief Field s_ReflectionHelperGetConstructorID, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ReflectionHelperGetConstructorID, put = setStaticF_s_ReflectionHelperGetConstructorID)) void* s_ReflectionHelperGetConstructorID;
+  static __declspec(property(get = getStaticF_s_ReflectionHelperGetConstructorID, put = setStaticF_s_ReflectionHelperGetConstructorID))::System::IntPtr s_ReflectionHelperGetConstructorID;
 
   /// @brief Field s_ReflectionHelperGetFieldID, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ReflectionHelperGetFieldID, put = setStaticF_s_ReflectionHelperGetFieldID)) void* s_ReflectionHelperGetFieldID;
+  static __declspec(property(get = getStaticF_s_ReflectionHelperGetFieldID, put = setStaticF_s_ReflectionHelperGetFieldID))::System::IntPtr s_ReflectionHelperGetFieldID;
 
   /// @brief Field s_ReflectionHelperGetFieldSignature, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ReflectionHelperGetFieldSignature, put = setStaticF_s_ReflectionHelperGetFieldSignature)) void* s_ReflectionHelperGetFieldSignature;
+  static __declspec(property(get = getStaticF_s_ReflectionHelperGetFieldSignature, put = setStaticF_s_ReflectionHelperGetFieldSignature))::System::IntPtr s_ReflectionHelperGetFieldSignature;
 
   /// @brief Field s_ReflectionHelperGetMethodID, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ReflectionHelperGetMethodID, put = setStaticF_s_ReflectionHelperGetMethodID)) void* s_ReflectionHelperGetMethodID;
+  static __declspec(property(get = getStaticF_s_ReflectionHelperGetMethodID, put = setStaticF_s_ReflectionHelperGetMethodID))::System::IntPtr s_ReflectionHelperGetMethodID;
 
   /// @brief Field s_ReflectionHelperNewProxyInstance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ReflectionHelperNewProxyInstance, put = setStaticF_s_ReflectionHelperNewProxyInstance)) void* s_ReflectionHelperNewProxyInstance;
+  static __declspec(property(get = getStaticF_s_ReflectionHelperNewProxyInstance, put = setStaticF_s_ReflectionHelperNewProxyInstance))::System::IntPtr s_ReflectionHelperNewProxyInstance;
 
   /// @brief Field s_ReflectionHelperSetNativeExceptionOnProxy, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_ReflectionHelperSetNativeExceptionOnProxy,
-                             put = setStaticF_s_ReflectionHelperSetNativeExceptionOnProxy)) void* s_ReflectionHelperSetNativeExceptionOnProxy;
+                             put = setStaticF_s_ReflectionHelperSetNativeExceptionOnProxy))::System::IntPtr s_ReflectionHelperSetNativeExceptionOnProxy;
 
-  /// @brief Method GetConstructorMember, addr 0x33bb750, size 0x18c, virtual false, abstract: false, final false
-  static inline void* GetConstructorMember(void* jclass, ::StringW signature);
+  /// @brief Method GetConstructorMember, addr 0x33e4c44, size 0x18c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetConstructorMember(::System::IntPtr jclass, ::StringW signature);
 
-  /// @brief Method GetFieldClass, addr 0x33bbcdc, size 0x64, virtual false, abstract: false, final false
-  static inline void* GetFieldClass(void* field);
+  /// @brief Method GetFieldClass, addr 0x33e51d0, size 0x64, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetFieldClass(::System::IntPtr field);
 
-  /// @brief Method GetFieldMember, addr 0x33bbadc, size 0x200, virtual false, abstract: false, final false
-  static inline void* GetFieldMember(void* jclass, ::StringW fieldName, ::StringW signature, bool isStatic);
+  /// @brief Method GetFieldMember, addr 0x33e4fd0, size 0x200, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetFieldMember(::System::IntPtr jclass, ::StringW fieldName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetFieldSignature, addr 0x33bbd40, size 0xa8, virtual false, abstract: false, final false
-  static inline ::StringW GetFieldSignature(void* field);
+  /// @brief Method GetFieldSignature, addr 0x33e5234, size 0xa8, virtual false, abstract: false, final false
+  static inline ::StringW GetFieldSignature(::System::IntPtr field);
 
-  /// @brief Method GetMethodID, addr 0x33bb6b4, size 0x9c, virtual false, abstract: false, final false
-  static inline void* GetMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
+  /// @brief Method GetMethodID, addr 0x33e4ba8, size 0x9c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method GetMethodMember, addr 0x33bb8dc, size 0x200, virtual false, abstract: false, final false
-  static inline void* GetMethodMember(void* jclass, ::StringW methodName, ::StringW signature, bool isStatic);
+  /// @brief Method GetMethodMember, addr 0x33e4dd0, size 0x200, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetMethodMember(::System::IntPtr jclass, ::StringW methodName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetStaticMethodID, addr 0x33bb618, size 0x9c, virtual false, abstract: false, final false
-  static inline void* GetStaticMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
+  /// @brief Method GetStaticMethodID, addr 0x33e4b0c, size 0x9c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetStaticMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method IsAssignableFrom, addr 0x33bb5f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsAssignableFrom, addr 0x33e4aec, size 0x20, virtual false, abstract: false, final false
   static inline bool IsAssignableFrom(::System::Type* t, ::System::Type* from);
 
-  /// @brief Method IsPrimitive, addr 0x33bb5e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitive, addr 0x33e4ad8, size 0x14, virtual false, abstract: false, final false
   static inline bool IsPrimitive(::System::Type* t);
 
-  /// @brief Method NewProxyInstance, addr 0x33bbde8, size 0xd0, virtual false, abstract: false, final false
-  static inline void* NewProxyInstance(void* delegateHandle, void* interfaze);
+  /// @brief Method NewProxyInstance, addr 0x33e52dc, size 0xd0, virtual false, abstract: false, final false
+  static inline ::System::IntPtr NewProxyInstance(::System::IntPtr delegateHandle, ::System::IntPtr interfaze);
 
-  /// @brief Method SetNativeExceptionOnProxy, addr 0x33b91c4, size 0x10c, virtual false, abstract: false, final false
-  static inline void SetNativeExceptionOnProxy(void* proxy, ::System::Exception* e, bool methodNotFound);
+  /// @brief Method SetNativeExceptionOnProxy, addr 0x33e26b8, size 0x10c, virtual false, abstract: false, final false
+  static inline void SetNativeExceptionOnProxy(::System::IntPtr proxy, ::System::Exception* e, bool methodNotFound);
 
-  static inline void* getStaticF_s_FieldGetDeclaringClass();
+  static inline ::System::IntPtr getStaticF_s_FieldGetDeclaringClass();
 
   static inline ::UnityEngine::GlobalJavaObjectRef* getStaticF_s_ReflectionHelperClass();
 
-  static inline void* getStaticF_s_ReflectionHelperGetConstructorID();
+  static inline ::System::IntPtr getStaticF_s_ReflectionHelperGetConstructorID();
 
-  static inline void* getStaticF_s_ReflectionHelperGetFieldID();
+  static inline ::System::IntPtr getStaticF_s_ReflectionHelperGetFieldID();
 
-  static inline void* getStaticF_s_ReflectionHelperGetFieldSignature();
+  static inline ::System::IntPtr getStaticF_s_ReflectionHelperGetFieldSignature();
 
-  static inline void* getStaticF_s_ReflectionHelperGetMethodID();
+  static inline ::System::IntPtr getStaticF_s_ReflectionHelperGetMethodID();
 
-  static inline void* getStaticF_s_ReflectionHelperNewProxyInstance();
+  static inline ::System::IntPtr getStaticF_s_ReflectionHelperNewProxyInstance();
 
-  static inline void* getStaticF_s_ReflectionHelperSetNativeExceptionOnProxy();
+  static inline ::System::IntPtr getStaticF_s_ReflectionHelperSetNativeExceptionOnProxy();
 
-  static inline void setStaticF_s_FieldGetDeclaringClass(void* value);
+  static inline void setStaticF_s_FieldGetDeclaringClass(::System::IntPtr value);
 
   static inline void setStaticF_s_ReflectionHelperClass(::UnityEngine::GlobalJavaObjectRef* value);
 
-  static inline void setStaticF_s_ReflectionHelperGetConstructorID(void* value);
+  static inline void setStaticF_s_ReflectionHelperGetConstructorID(::System::IntPtr value);
 
-  static inline void setStaticF_s_ReflectionHelperGetFieldID(void* value);
+  static inline void setStaticF_s_ReflectionHelperGetFieldID(::System::IntPtr value);
 
-  static inline void setStaticF_s_ReflectionHelperGetFieldSignature(void* value);
+  static inline void setStaticF_s_ReflectionHelperGetFieldSignature(::System::IntPtr value);
 
-  static inline void setStaticF_s_ReflectionHelperGetMethodID(void* value);
+  static inline void setStaticF_s_ReflectionHelperGetMethodID(::System::IntPtr value);
 
-  static inline void setStaticF_s_ReflectionHelperNewProxyInstance(void* value);
+  static inline void setStaticF_s_ReflectionHelperNewProxyInstance(::System::IntPtr value);
 
-  static inline void setStaticF_s_ReflectionHelperSetNativeExceptionOnProxy(void* value);
+  static inline void setStaticF_s_ReflectionHelperSetNativeExceptionOnProxy(::System::IntPtr value);
 
 protected:
   // Ctor Parameters []

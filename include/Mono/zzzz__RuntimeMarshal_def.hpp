@@ -15,6 +15,9 @@ struct MonoAssemblyName;
 namespace Mono {
 struct SafeStringMarshal;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Mono {
 class RuntimeMarshal;
@@ -29,23 +32,23 @@ namespace Mono {
 class CORDL_TYPE RuntimeMarshal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AsciHexDigitValue, addr 0x279103c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AsciHexDigitValue, addr 0x27aa6a8, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t AsciHexDigitValue(int32_t c);
 
-  /// @brief Method DecodeBlobArray, addr 0x2790f84, size 0xb8, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeBlobArray(void* ptr);
+  /// @brief Method DecodeBlobArray, addr 0x27aa5f0, size 0xb8, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeBlobArray(::System::IntPtr ptr);
 
-  /// @brief Method DecodeBlobSize, addr 0x2790f04, size 0x80, virtual false, abstract: false, final false
-  static inline int32_t DecodeBlobSize(void* in_ptr, ByRef<void*> out_ptr);
+  /// @brief Method DecodeBlobSize, addr 0x27aa570, size 0x80, virtual false, abstract: false, final false
+  static inline int32_t DecodeBlobSize(::System::IntPtr in_ptr, ByRef<::System::IntPtr> out_ptr);
 
-  /// @brief Method FreeAssemblyName, addr 0x2791068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FreeAssemblyName, addr 0x27aa6d4, size 0x8, virtual false, abstract: false, final false
   static inline void FreeAssemblyName(ByRef<::Mono::MonoAssemblyName> name, bool freeStruct);
 
-  /// @brief Method MarshalString, addr 0x2790e54, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method MarshalString, addr 0x27aa4c0, size 0x50, virtual false, abstract: false, final false
   static inline ::Mono::SafeStringMarshal MarshalString(::StringW str);
 
-  /// @brief Method PtrToUtf8String, addr 0x2790d70, size 0xe4, virtual false, abstract: false, final false
-  static inline ::StringW PtrToUtf8String(void* ptr);
+  /// @brief Method PtrToUtf8String, addr 0x27aa3dc, size 0xe4, virtual false, abstract: false, final false
+  static inline ::StringW PtrToUtf8String(::System::IntPtr ptr);
 
 protected:
   // Ctor Parameters []

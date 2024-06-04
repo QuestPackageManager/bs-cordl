@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithLivestreamingStatus)
 namespace Oculus::Platform::Models {
 class LivestreamingStatus;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithLivestreamingStatus;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLivestreamingStatus : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LivestreamingStatus*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2ac8938, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::LivestreamingStatus* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2ae8fc4, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::LivestreamingStatus* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetLivestreamingStatus, addr 0x2ac88fc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLivestreamingStatus, addr 0x2ae8f88, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LivestreamingStatus* GetLivestreamingStatus();
 
-  static inline ::Oculus::Platform::MessageWithLivestreamingStatus* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithLivestreamingStatus* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac5554, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae5be0, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

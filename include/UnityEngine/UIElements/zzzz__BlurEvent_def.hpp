@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::BlurEvent* New_ctor();
 
-  /// @brief Method PreDispatch, addr 0x35a6ebc, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x35d23b8, size 0x7c, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x35a6f38, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d2434, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

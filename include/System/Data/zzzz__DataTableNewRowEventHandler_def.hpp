@@ -10,6 +10,9 @@ namespace System::Data {
 class DataTableNewRowEventArgs;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -26,13 +29,13 @@ namespace System::Data {
 class CORDL_TYPE DataTableNewRowEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2cb98d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2cd9fc4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Data::DataTableNewRowEventArgs* e);
 
-  static inline ::System::Data::DataTableNewRowEventHandler* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Data::DataTableNewRowEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2cb97a4, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2cd9e94, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

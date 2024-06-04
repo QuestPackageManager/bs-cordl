@@ -10,6 +10,9 @@ namespace System::Collections::Specialized {
 class NotifyCollectionChangedEventArgs;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -26,13 +29,13 @@ namespace System::Collections::Specialized {
 class CORDL_TYPE NotifyCollectionChangedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2f726d8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2f92dc8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs* e);
 
-  static inline ::System::Collections::Specialized::NotifyCollectionChangedEventHandler* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Collections::Specialized::NotifyCollectionChangedEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2f725a8, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2f92c98, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

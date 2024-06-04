@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GroupPresenceJoinIntent)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class GroupPresenceJoinIntent;
@@ -33,7 +36,7 @@ public:
   /// @brief Field MatchSessionId, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_MatchSessionId, put = __cordl_internal_set_MatchSessionId))::StringW MatchSessionId;
 
-  static inline ::Oculus::Platform::Models::GroupPresenceJoinIntent* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::GroupPresenceJoinIntent* New_ctor(::System::IntPtr o);
 
   constexpr ::StringW const& __cordl_internal_get_DeeplinkMessage() const;
 
@@ -59,8 +62,8 @@ public:
 
   constexpr void __cordl_internal_set_MatchSessionId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2adbfb0, size 0xa8, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afc63c, size 0xa8, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

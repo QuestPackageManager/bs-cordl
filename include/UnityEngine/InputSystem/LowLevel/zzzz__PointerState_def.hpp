@@ -24,7 +24,7 @@ struct PointerState;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::PointerState);
 // Type: UnityEngine.InputSystem.LowLevel::PointerState
-// SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 50, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.LowLevel::PointerState
@@ -36,10 +36,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method get_format, addr 0x31581fc, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x317bcd8, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method get_kFormat, addr 0x31581cc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_kFormat, addr 0x317bca8, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -51,8 +51,10 @@ public:
 
   // Ctor Parameters [CppParam { name: "pointerId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None },
   // CppParam { name: "delta", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "pressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "radius",
-  // ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "buttons", ty: "uint16_t", modifiers: "", def_value: None }]
-  constexpr PointerState(uint32_t pointerId, ::UnityEngine::Vector2 position, ::UnityEngine::Vector2 delta, float_t pressure, ::UnityEngine::Vector2 radius, uint16_t buttons) noexcept;
+  // ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "buttons", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "displayIndex", ty: "uint16_t",
+  // modifiers: "", def_value: None }]
+  constexpr PointerState(uint32_t pointerId, ::UnityEngine::Vector2 position, ::UnityEngine::Vector2 delta, float_t pressure, ::UnityEngine::Vector2 radius, uint16_t buttons,
+                         uint16_t displayIndex) noexcept;
 
   /// @brief Field pointerId, offset: 0x0, size: 0x4, def value: None
   uint32_t pointerId;
@@ -71,6 +73,9 @@ public:
 
   /// @brief Field buttons, offset: 0x20, size: 0x2, def value: None
   uint16_t buttons;
+
+  /// @brief Field displayIndex, offset: 0x22, size: 0x2, def value: None
+  uint16_t displayIndex;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
@@ -91,6 +96,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::PointerState, press
 static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::PointerState, radius) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::PointerState, buttons) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::PointerState, displayIndex) == 0x22, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::PointerState, "UnityEngine.InputSystem.LowLevel", "PointerState");

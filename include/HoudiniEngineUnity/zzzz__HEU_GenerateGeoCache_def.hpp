@@ -274,7 +274,7 @@ public:
 
   constexpr void __cordl_internal_set__meshTopology(::UnityEngine::MeshTopology value);
 
-  /// @brief Method .ctor, addr 0x25a6e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25bdd88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -366,13 +366,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__HEU_GenerateGeoCache____c* New_ctor();
 
-  /// @brief Method <GenerateLODMeshesFromGeoGroups>b__65_0, addr 0x25a9520, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <GenerateLODMeshesFromGeoGroups>b__65_0, addr 0x25c0464, size 0x1c, virtual false, abstract: false, final false
   inline int32_t _GenerateLODMeshesFromGeoGroups_b__65_0(float_t a, float_t b);
 
-  /// @brief Method <GetFinalMaterialsFromComparingNewWithPrevious>b__63_0, addr 0x25a94c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <GetFinalMaterialsFromComparingNewWithPrevious>b__63_0, addr 0x25c0408, size 0x5c, virtual false, abstract: false, final false
   inline bool _GetFinalMaterialsFromComparingNewWithPrevious_b__63_0(::UnityEngine::Material* material);
 
-  /// @brief Method .ctor, addr 0x25a94bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c0400, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__HEU_GenerateGeoCache____c* getStaticF___9();
@@ -580,86 +580,86 @@ public:
   /// @brief Field _vertexList, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__vertexList, put = __cordl_internal_set__vertexList))::ArrayW<int32_t, ::Array<int32_t>*> _vertexList;
 
-  /// @brief Method CalculateGroupMeshTopology, addr 0x25a6e4c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method CalculateGroupMeshTopology, addr 0x25bdd90, size 0x1c8, virtual false, abstract: false, final false
   static inline ::UnityEngine::MeshTopology CalculateGroupMeshTopology(::System::Collections::Generic::List_1<int32_t>* groupFaces, ::ArrayW<int32_t, ::Array<int32_t>*> allFaceCounts);
 
-  /// @brief Method CombineMeshes, addr 0x25a3ac8, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method CombineMeshes, addr 0x25baa0c, size 0x344, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> CombineMeshes(::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_MeshData*>* subMeshesMap,
                                                             ::System::Collections::Generic::List_1<int32_t>* submeshIndices, bool bGenerateUVs, bool bGenerateNormals,
                                                             ::HoudiniEngineUnity::HEU_MeshIndexFormat* meshIndexFormat);
 
-  /// @brief Method CombineQuadMeshes, addr 0x25a3524, size 0x5a4, virtual false, abstract: false, final false
+  /// @brief Method CombineQuadMeshes, addr 0x25ba468, size 0x5a4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> CombineQuadMeshes(::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_MeshData*>* subMeshesMap,
                                                                 ::System::Collections::Generic::List_1<int32_t>* subMeshIndices, bool bGenerateNormals);
 
-  /// @brief Method CreateMaterialInfoEntryFromAttributeIndex, addr 0x25a0638, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method CreateMaterialInfoEntryFromAttributeIndex, addr 0x25b757c, size 0x11c, virtual false, abstract: false, final false
   static inline void CreateMaterialInfoEntryFromAttributeIndex(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int32_t materialAttributeIndex);
 
-  /// @brief Method CreateMeshFromMeshData, addr 0x25a3288, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshFromMeshData, addr 0x25ba1cc, size 0x29c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> CreateMeshFromMeshData(::HoudiniEngineUnity::HEU_MeshData* submesh, bool bGenerateUVs, bool bGenerateNormals,
                                                                      ::HoudiniEngineUnity::HEU_MeshIndexFormat* meshIndexFormat);
 
-  /// @brief Method GenerateGeoGroupUsingGeoCachePoints, addr 0x25a71ec, size 0x226c, virtual false, abstract: false, final false
+  /// @brief Method GenerateGeoGroupUsingGeoCachePoints, addr 0x25be130, size 0x226c, virtual false, abstract: false, final false
   static inline bool GenerateGeoGroupUsingGeoCachePoints(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, bool bGenerateUVs,
                                                          bool bGenerateTangents, bool bGenerateNormals, bool bUseLODGroups, bool bPartInstanced,
                                                          ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*> LODGroupMeshes, ByRef<int32_t> defaultMaterialKey);
 
-  /// @brief Method GenerateGeoGroupUsingGeoCacheVertices, addr 0x25a4144, size 0x2d00, virtual false, abstract: false, final false
+  /// @brief Method GenerateGeoGroupUsingGeoCacheVertices, addr 0x25bb088, size 0x2d00, virtual false, abstract: false, final false
   static inline bool GenerateGeoGroupUsingGeoCacheVertices(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, bool bGenerateUVs,
                                                            bool bGenerateTangents, bool bGenerateNormals, bool bUseLODGroups, bool bPartInstanced,
                                                            ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*> LODGroupMeshes, ByRef<int32_t> defaultMaterialKey);
 
-  /// @brief Method GenerateLODMeshesFromGeoGroups, addr 0x25a224c, size 0xb64, virtual false, abstract: false, final false
+  /// @brief Method GenerateLODMeshesFromGeoGroups, addr 0x25b9190, size 0xb64, virtual false, abstract: false, final false
   static inline bool GenerateLODMeshesFromGeoGroups(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>* GeoGroupMeshes,
                                                     ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, ::HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput, int32_t defaultMaterialKey,
                                                     bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bPartInstanced);
 
-  /// @brief Method GenerateMeshFromGeoGroup, addr 0x25a1760, size 0xaec, virtual false, abstract: false, final false
+  /// @brief Method GenerateMeshFromGeoGroup, addr 0x25b86a4, size 0xaec, virtual false, abstract: false, final false
   static inline bool GenerateMeshFromGeoGroup(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GeoGroup* GeoGroup, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache,
                                               int32_t defaultMaterialKey, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bPartInstanced, ByRef<::UnityEngine::Mesh*> newMesh,
                                               ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>> newMaterials);
 
-  /// @brief Method GenerateMeshFromSingleGroup, addr 0x25a15a4, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method GenerateMeshFromSingleGroup, addr 0x25b84e8, size 0x1bc, virtual false, abstract: false, final false
   static inline bool GenerateMeshFromSingleGroup(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GeoGroup* GeoGroup, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache,
                                                  ::HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput, int32_t defaultMaterialKey, bool bGenerateUVs, bool bGenerateTangents,
                                                  bool bGenerateNormals, bool bPartInstanced);
 
-  /// @brief Method GetFinalMaterialsFromComparingNewWithPrevious, addr 0x25a1200, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method GetFinalMaterialsFromComparingNewWithPrevious, addr 0x25b8144, size 0x3a4, virtual false, abstract: false, final false
   static inline void GetFinalMaterialsFromComparingNewWithPrevious(::UnityEngine::GameObject* gameObject, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> previousMaterials,
                                                                    ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> newMaterials,
                                                                    ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>> finalMaterials);
 
-  /// @brief Method GetMaterialKeyFromAttributeIndex, addr 0x25a0754, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialKeyFromAttributeIndex, addr 0x25b7698, size 0x15c, virtual false, abstract: false, final false
   static inline int32_t GetMaterialKeyFromAttributeIndex(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int32_t attributeIndex, ByRef<::StringW> unityMaterialName,
                                                          ByRef<::StringW> substanceName, ByRef<int32_t> substanceIndex);
 
-  /// @brief Method GetPopulatedGeoCache, addr 0x259e040, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method GetPopulatedGeoCache, addr 0x25b4f84, size 0x304, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_GenerateGeoCache* GetPopulatedGeoCache(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t assetID, int32_t geoID, int32_t partID, bool bUseLODGroups,
                                                                                  ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* materialCache,
                                                                                  ::StringW assetCacheFolderPath);
 
   static inline ::HoudiniEngineUnity::HEU_GenerateGeoCache* New_ctor();
 
-  /// @brief Method ParseLODTransitionAttribute, addr 0x25a08b0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ParseLODTransitionAttribute, addr 0x25b77f4, size 0x1bc, virtual false, abstract: false, final false
   static inline void ParseLODTransitionAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ByRef<::ArrayW<float_t, ::Array<float_t>*>> LODTransitionValues);
 
-  /// @brief Method PopulateGeometryData, addr 0x259eb54, size 0x1ae4, virtual false, abstract: false, final false
+  /// @brief Method PopulateGeometryData, addr 0x25b5a98, size 0x1ae4, virtual false, abstract: false, final false
   inline bool PopulateGeometryData(::HoudiniEngineUnity::HEU_SessionBase* session, bool bUseLODGroups);
 
-  /// @brief Method PopulateUnityMaterialData, addr 0x259e540, size 0x614, virtual false, abstract: false, final false
+  /// @brief Method PopulateUnityMaterialData, addr 0x25b5484, size 0x614, virtual false, abstract: false, final false
   inline void PopulateUnityMaterialData(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method TransferRegularAttributesToVertices, addr 0x25a3e58, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method TransferRegularAttributesToVertices, addr 0x25bad9c, size 0x2ec, virtual false, abstract: false, final false
   static inline void TransferRegularAttributesToVertices(::ArrayW<int32_t, ::Array<int32_t>*> groupVertexList, ::ArrayW<int32_t, ::Array<int32_t>*> allFaceCounts,
                                                          ::System::Collections::Generic::List_1<int32_t>* groupFaces, ::System::Collections::Generic::List_1<int32_t>* groupVertexOffset,
                                                          ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attribInfo, ::ArrayW<float_t, ::Array<float_t>*> inData,
                                                          ByRef<::ArrayW<float_t, ::Array<float_t>*>> outData);
 
-  /// @brief Method UpdateCollider, addr 0x25a0bbc, size 0x644, virtual false, abstract: false, final false
+  /// @brief Method UpdateCollider, addr 0x25b7b00, size 0x644, virtual false, abstract: false, final false
   static inline void UpdateCollider(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, ::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData,
                                     ::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo* colliderInfo);
 
-  /// @brief Method UpdateColliders, addr 0x25a0a6c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method UpdateColliders, addr 0x25b79b0, size 0x150, virtual false, abstract: false, final false
   static inline void UpdateColliders(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, ::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData);
 
   constexpr int32_t const& __cordl_internal_get__AssetID_k__BackingField() const;
@@ -950,19 +950,19 @@ public:
 
   constexpr void __cordl_internal_set__vertexList(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x259e344, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b5288, size 0x1fc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AssetID, addr 0x259e030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetID, addr 0x25b4f74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AssetID();
 
-  /// @brief Method get_GeoID, addr 0x259e020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GeoID, addr 0x25b4f64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_GeoID();
 
-  /// @brief Method get_PartID, addr 0x259e028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PartID, addr 0x25b4f6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PartID();
 
-  /// @brief Method set_AssetID, addr 0x259e038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AssetID, addr 0x25b4f7c, size 0x8, virtual false, abstract: false, final false
   inline void set_AssetID(int32_t value);
 
 protected:

@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(UserList)
 namespace Oculus::Platform::Models {
 class User;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class UserList;
@@ -23,10 +26,10 @@ namespace Oculus::Platform::Models {
 class CORDL_TYPE UserList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::User*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::Models::UserList* New_ctor(void* a);
+  static inline ::Oculus::Platform::Models::UserList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x2adb38c, size 0x25c, virtual false, abstract: false, final false
-  inline void _ctor(void* a);
+  /// @brief Method .ctor, addr 0x2afba18, size 0x25c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr a);
 
 protected:
   // Ctor Parameters []

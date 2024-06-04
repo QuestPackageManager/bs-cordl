@@ -6,18 +6,20 @@
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ISavedState_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__SavedStructState_1_def.hpp"
 template <typename T>
 inline ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>::New_ctor(::System::Object* object,
-                                                                                                                                                                          void* method) {
+                                                                                                                                                                          ::System::IntPtr method) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>*>(object, method));
 }
-template <typename T> inline void UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>::_ctor(::System::Object* object, void* method) {
+template <typename T> inline void UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename T> inline void UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>::Invoke(ByRef<T> state) {

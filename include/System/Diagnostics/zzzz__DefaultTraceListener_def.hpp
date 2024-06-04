@@ -34,33 +34,33 @@ public:
   /// @brief Field logFileName, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_logFileName, put = __cordl_internal_set_logFileName))::StringW logFileName;
 
-  /// @brief Method GetPrefix, addr 0x2fa882c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetPrefix, addr 0x2fc5f1c, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW GetPrefix(::StringW var, ::StringW target);
 
   static inline ::System::Diagnostics::DefaultTraceListener* New_ctor();
 
-  /// @brief Method Write, addr 0x2fa8ed0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x2fc65c0, size 0x4, virtual true, abstract: false, final false
   inline void Write(::StringW message);
 
-  /// @brief Method WriteDebugString, addr 0x2fa88b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method WriteDebugString, addr 0x2fc5fa4, size 0xb0, virtual false, abstract: false, final false
   inline void WriteDebugString(::StringW message);
 
-  /// @brief Method WriteImpl, addr 0x2fa8e14, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method WriteImpl, addr 0x2fc6504, size 0xbc, virtual false, abstract: false, final false
   inline void WriteImpl(::StringW message);
 
-  /// @brief Method WriteLine, addr 0x2fa8ed4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x2fc65c4, size 0x48, virtual true, abstract: false, final false
   inline void WriteLine(::StringW message);
 
-  /// @brief Method WriteLogFile, addr 0x2fa8b10, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method WriteLogFile, addr 0x2fc6200, size 0x27c, virtual false, abstract: false, final false
   inline void WriteLogFile(::StringW message, ::StringW logFile);
 
-  /// @brief Method WriteMonoTrace, addr 0x2fa8964, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method WriteMonoTrace, addr 0x2fc6054, size 0x1ac, virtual false, abstract: false, final false
   inline void WriteMonoTrace(::StringW message);
 
-  /// @brief Method WritePrefix, addr 0x2fa8d8c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method WritePrefix, addr 0x2fc647c, size 0x88, virtual false, abstract: false, final false
   inline void WritePrefix();
 
-  /// @brief Method WriteWindowsDebugString, addr 0x2fa88b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WriteWindowsDebugString, addr 0x2fc5fa0, size 0x4, virtual false, abstract: false, final false
   static inline void WriteWindowsDebugString(::cordl_internals::Ptr<char16_t> message);
 
   constexpr ::StringW const& __cordl_internal_get_logFileName() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_logFileName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2fa2284, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fbf974, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_MonoTraceFile();
@@ -78,7 +78,7 @@ public:
 
   static inline bool getStaticF_OnWin32();
 
-  /// @brief Method get_LogFileName, addr 0x2fa88a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LogFileName, addr 0x2fc5f98, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LogFileName();
 
   static inline void setStaticF_MonoTraceFile(::StringW value);

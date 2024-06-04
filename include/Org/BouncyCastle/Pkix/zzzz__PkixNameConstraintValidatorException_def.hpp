@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException* New_ctor(::StringW msg);
 
-  /// @brief Method .ctor, addr 0x136c7dc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x137504c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg);
 
 protected:

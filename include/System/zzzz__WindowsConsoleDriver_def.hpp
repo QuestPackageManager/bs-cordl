@@ -23,6 +23,9 @@ class IConsoleDriver;
 namespace System {
 struct InputRecord;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace System {
 class WindowsConsoleDriver;
@@ -41,50 +44,50 @@ public:
   __declspec(property(get = __cordl_internal_get_defaultAttribute, put = __cordl_internal_set_defaultAttribute)) int16_t defaultAttribute;
 
   /// @brief Field inputHandle, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_inputHandle, put = __cordl_internal_set_inputHandle)) void* inputHandle;
+  __declspec(property(get = __cordl_internal_get_inputHandle, put = __cordl_internal_set_inputHandle))::System::IntPtr inputHandle;
 
   /// @brief Field outputHandle, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_outputHandle, put = __cordl_internal_set_outputHandle)) void* outputHandle;
+  __declspec(property(get = __cordl_internal_get_outputHandle, put = __cordl_internal_set_outputHandle))::System::IntPtr outputHandle;
 
   /// @brief Convert operator to "::System::IConsoleDriver"
   constexpr operator ::System::IConsoleDriver*() noexcept;
 
-  /// @brief Method GetConsoleScreenBufferInfo, addr 0x298f500, size 0x94, virtual false, abstract: false, final false
-  static inline bool GetConsoleScreenBufferInfo(void* handle, ByRef<::System::ConsoleScreenBufferInfo> info);
+  /// @brief Method GetConsoleScreenBufferInfo, addr 0x29aab8c, size 0x94, virtual false, abstract: false, final false
+  static inline bool GetConsoleScreenBufferInfo(::System::IntPtr handle, ByRef<::System::ConsoleScreenBufferInfo> info);
 
-  /// @brief Method GetStdHandle, addr 0x298f47c, size 0x84, virtual false, abstract: false, final false
-  static inline void* GetStdHandle(::System::Handles handle);
+  /// @brief Method GetStdHandle, addr 0x29aab08, size 0x84, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetStdHandle(::System::Handles handle);
 
-  /// @brief Method IsModifierKey, addr 0x298f7dc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsModifierKey, addr 0x29aae68, size 0x34, virtual false, abstract: false, final false
   static inline bool IsModifierKey(int16_t virtualKeyCode);
 
   static inline ::System::WindowsConsoleDriver* New_ctor();
 
-  /// @brief Method ReadConsoleInput, addr 0x298f6d4, size 0x108, virtual false, abstract: false, final false
-  static inline bool ReadConsoleInput(void* handle, ByRef<::System::InputRecord> record, int32_t length, ByRef<int32_t> nread);
+  /// @brief Method ReadConsoleInput, addr 0x29aad60, size 0x108, virtual false, abstract: false, final false
+  static inline bool ReadConsoleInput(::System::IntPtr handle, ByRef<::System::InputRecord> record, int32_t length, ByRef<int32_t> nread);
 
-  /// @brief Method ReadKey, addr 0x298f594, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method ReadKey, addr 0x29aac20, size 0x140, virtual true, abstract: false, final true
   inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
   constexpr int16_t const& __cordl_internal_get_defaultAttribute() const;
 
   constexpr int16_t& __cordl_internal_get_defaultAttribute();
 
-  constexpr void* const& __cordl_internal_get_inputHandle() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_inputHandle() const;
 
-  constexpr void*& __cordl_internal_get_inputHandle();
+  constexpr ::System::IntPtr& __cordl_internal_get_inputHandle();
 
-  constexpr void* const& __cordl_internal_get_outputHandle() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_outputHandle() const;
 
-  constexpr void*& __cordl_internal_get_outputHandle();
+  constexpr ::System::IntPtr& __cordl_internal_get_outputHandle();
 
   constexpr void __cordl_internal_set_defaultAttribute(int16_t value);
 
-  constexpr void __cordl_internal_set_inputHandle(void* value);
+  constexpr void __cordl_internal_set_inputHandle(::System::IntPtr value);
 
-  constexpr void __cordl_internal_set_outputHandle(void* value);
+  constexpr void __cordl_internal_set_outputHandle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x298f428, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29aaab4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IConsoleDriver"
@@ -105,10 +108,10 @@ public:
   WindowsConsoleDriver(WindowsConsoleDriver const&) = delete;
 
   /// @brief Field inputHandle, offset: 0x10, size: 0x8, def value: None
-  void* ___inputHandle;
+  ::System::IntPtr ___inputHandle;
 
   /// @brief Field outputHandle, offset: 0x18, size: 0x8, def value: None
-  void* ___outputHandle;
+  ::System::IntPtr ___outputHandle;
 
   /// @brief Field defaultAttribute, offset: 0x20, size: 0x2, def value: None
   int16_t ___defaultAttribute;

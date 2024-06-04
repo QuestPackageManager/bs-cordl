@@ -32,7 +32,7 @@ public:
   __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
                       put = __cordl_internal_set__nodePoseSyncStateManager))::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
 
-  /// @brief Method LateUpdate, addr 0x262f0f0, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2648710, size 0x378, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MultiplayerMenuClient* New_ctor();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
 
-  /// @brief Method .ctor, addr 0x262f468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2648a88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

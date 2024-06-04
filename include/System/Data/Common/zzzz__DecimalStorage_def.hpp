@@ -44,45 +44,45 @@ public:
   /// @brief Field s_defaultValue, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_s_defaultValue, put = setStaticF_s_defaultValue))::System::Decimal s_defaultValue;
 
-  /// @brief Method Aggregate, addr 0x2d36ca8, size 0x990, virtual true, abstract: false, final false
+  /// @brief Method Aggregate, addr 0x2d56398, size 0x990, virtual true, abstract: false, final false
   inline ::System::Object* Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind);
 
-  /// @brief Method Compare, addr 0x2d37638, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x2d56d28, size 0x17c, virtual true, abstract: false, final false
   inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CompareValueTo, addr 0x2d377b4, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x2d56ea4, size 0x16c, virtual true, abstract: false, final false
   inline int32_t CompareValueTo(int32_t recordNo, ::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x2d37ed0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x2d575c0, size 0x9c, virtual true, abstract: false, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-  /// @brief Method ConvertValue, addr 0x2d37920, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method ConvertValue, addr 0x2d57010, size 0x178, virtual true, abstract: false, final false
   inline ::System::Object* ConvertValue(::System::Object* value);
 
-  /// @brief Method ConvertXmlToObject, addr 0x2d37e1c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x2d5750c, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-  /// @brief Method Copy, addr 0x2d37a98, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x2d57188, size 0x58, virtual true, abstract: false, final false
   inline void Copy(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CopyValue, addr 0x2d37fb4, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method CopyValue, addr 0x2d576a4, size 0x104, virtual true, abstract: false, final false
   inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method Get, addr 0x2d37af0, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x2d571e0, size 0xc4, virtual true, abstract: false, final false
   inline ::System::Object* Get(int32_t record);
 
-  /// @brief Method GetEmptyStorage, addr 0x2d37f6c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetEmptyStorage, addr 0x2d5765c, size 0x48, virtual true, abstract: false, final false
   inline ::System::Object* GetEmptyStorage(int32_t recordCount);
 
   static inline ::System::Data::Common::DecimalStorage* New_ctor(::System::Data::DataColumn* column);
 
-  /// @brief Method Set, addr 0x2d37bb4, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x2d572a4, size 0x1a8, virtual true, abstract: false, final false
   inline void Set(int32_t record, ::System::Object* value);
 
-  /// @brief Method SetCapacity, addr 0x2d37d5c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x2d5744c, size 0xc0, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method SetStorage, addr 0x2d380b8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method SetStorage, addr 0x2d577a8, size 0x94, virtual true, abstract: false, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
   constexpr ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> const& __cordl_internal_get__values() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__values(::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> value);
 
-  /// @brief Method .ctor, addr 0x2d3285c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d51f4c, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column);
 
   static inline ::System::Decimal getStaticF_s_defaultValue();

@@ -116,7 +116,7 @@ public:
   // Declarations
   static inline ::Unity::Burst::__BurstRuntime__PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x306d064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x308a80c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -156,37 +156,37 @@ public:
   /// @brief Method GetHashCode32, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t GetHashCode32();
 
-  /// @brief Method GetHashCode32, addr 0x306cbcc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode32, addr 0x308a374, size 0x24, virtual false, abstract: false, final false
   static inline int32_t GetHashCode32(::System::Type* type);
 
   /// @brief Method GetHashCode64, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int64_t GetHashCode64();
 
-  /// @brief Method GetHashCode64, addr 0x306cc74, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode64, addr 0x308a41c, size 0x24, virtual false, abstract: false, final false
   static inline int64_t GetHashCode64(::System::Type* type);
 
-  /// @brief Method GetUTF8LiteralPointer, addr 0x306d014, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetUTF8LiteralPointer, addr 0x308a7bc, size 0x50, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<uint8_t> GetUTF8LiteralPointer(::StringW str, ByRef<int32_t> byteCount);
 
-  /// @brief Method HashStringWithFNV1A32, addr 0x306cbf0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HashStringWithFNV1A32, addr 0x308a398, size 0x84, virtual false, abstract: false, final false
   static inline int32_t HashStringWithFNV1A32(::StringW text);
 
-  /// @brief Method HashStringWithFNV1A64, addr 0x306cc98, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HashStringWithFNV1A64, addr 0x308a440, size 0x8c, virtual false, abstract: false, final false
   static inline int64_t HashStringWithFNV1A64(::StringW text);
 
-  /// @brief Method Initialize, addr 0x306ceec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x308a694, size 0x4, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method LoadAdditionalLibrary, addr 0x306cd24, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LoadAdditionalLibrary, addr 0x308a4cc, size 0x6c, virtual false, abstract: false, final false
   static inline bool LoadAdditionalLibrary(::StringW pathToLibBurstGenerated);
 
-  /// @brief Method LoadAdditionalLibraryInternal, addr 0x306cd90, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method LoadAdditionalLibraryInternal, addr 0x308a538, size 0x15c, virtual false, abstract: false, final false
   static inline bool LoadAdditionalLibraryInternal(::StringW pathToLibBurstGenerated);
 
-  /// @brief Method Log, addr 0x306cffc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x308a7a4, size 0x18, virtual false, abstract: false, final false
   static inline void Log(::cordl_internals::Ptr<uint8_t> message, int32_t logType, ::cordl_internals::Ptr<uint8_t> fileName, int32_t lineNumber);
 
-  /// @brief Method PreventRequiredAttributeStrip, addr 0x306cef0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method PreventRequiredAttributeStrip, addr 0x308a698, size 0x10c, virtual false, abstract: false, final false
   static inline void PreventRequiredAttributeStrip();
 
 protected:

@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set__id(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1050b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1058288, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Color, addr 0x1050b30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Color, addr 0x105827c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_Color();
 
-  /// @brief Method get_id, addr 0x1050b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x1058274, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
 protected:

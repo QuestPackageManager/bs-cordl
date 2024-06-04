@@ -18,6 +18,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::InputSystem::Utilities {
@@ -55,10 +58,10 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(ByRef<T> state);
 
-  static inline ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* New_ctor(::System::Object* object, void* method);
+  static inline ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

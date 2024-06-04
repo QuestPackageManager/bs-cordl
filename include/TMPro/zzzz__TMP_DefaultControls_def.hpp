@@ -128,37 +128,37 @@ public:
   /// @brief Field s_ThinElementSize, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_ThinElementSize, put = setStaticF_s_ThinElementSize))::UnityEngine::Vector2 s_ThinElementSize;
 
-  /// @brief Method CreateButton, addr 0x3336f18, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method CreateButton, addr 0x336126c, size 0x2c0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateButton(::TMPro::__TMP_DefaultControls__Resources resources);
 
-  /// @brief Method CreateDropdown, addr 0x3337a78, size 0xdf4, virtual false, abstract: false, final false
+  /// @brief Method CreateDropdown, addr 0x3361dcc, size 0xdf4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateDropdown(::TMPro::__TMP_DefaultControls__Resources resources);
 
-  /// @brief Method CreateInputField, addr 0x3337278, size 0x65c, virtual false, abstract: false, final false
+  /// @brief Method CreateInputField, addr 0x33615cc, size 0x65c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateInputField(::TMPro::__TMP_DefaultControls__Resources resources);
 
-  /// @brief Method CreateScrollbar, addr 0x3336c54, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method CreateScrollbar, addr 0x3360fa8, size 0x2c4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateScrollbar(::TMPro::__TMP_DefaultControls__Resources resources);
 
-  /// @brief Method CreateText, addr 0x33371d8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CreateText, addr 0x336152c, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateText(::TMPro::__TMP_DefaultControls__Resources resources);
 
-  /// @brief Method CreateUIElementRoot, addr 0x3336870, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CreateUIElementRoot, addr 0x3360bc4, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateUIElementRoot(::StringW name, ::UnityEngine::Vector2 size);
 
-  /// @brief Method CreateUIObject, addr 0x3336918, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CreateUIObject, addr 0x3360c6c, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateUIObject(::StringW name, ::UnityEngine::GameObject* parent);
 
-  /// @brief Method SetDefaultColorTransitionValues, addr 0x3336b60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultColorTransitionValues, addr 0x3360eb4, size 0x10, virtual false, abstract: false, final false
   static inline void SetDefaultColorTransitionValues(::UnityEngine::UI::Selectable* slider);
 
-  /// @brief Method SetDefaultTextValues, addr 0x3336ad8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultTextValues, addr 0x3360e2c, size 0x88, virtual false, abstract: false, final false
   static inline void SetDefaultTextValues(::TMPro::TMP_Text* lbl);
 
-  /// @brief Method SetLayerRecursively, addr 0x3336b70, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetLayerRecursively, addr 0x3360ec4, size 0xe4, virtual false, abstract: false, final false
   static inline void SetLayerRecursively(::UnityEngine::GameObject* go, int32_t layer);
 
-  /// @brief Method SetParentAndAlign, addr 0x33369d8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SetParentAndAlign, addr 0x3360d2c, size 0x100, virtual false, abstract: false, final false
   static inline void SetParentAndAlign(::UnityEngine::GameObject* child, ::UnityEngine::GameObject* parent);
 
   static inline ::UnityEngine::Color getStaticF_s_DefaultSelectableColor();

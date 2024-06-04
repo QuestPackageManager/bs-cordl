@@ -23,25 +23,25 @@ class CORDL_TYPE CertificateHandler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
 
-  /// @brief Method Dispose, addr 0x36020f0, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x362d5ec, size 0x94, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Release, addr 0x3603ae8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x362efe4, size 0x3c, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method ValidateCertificate, addr 0x3603b24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x362f020, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateCertificate(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateData);
 
-  /// @brief Method ValidateCertificateNative, addr 0x3603b2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificateNative, addr 0x362f028, size 0xc, virtual false, abstract: false, final false
   inline bool ValidateCertificateNative(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateData);
 
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
 protected:
   // Ctor Parameters []
@@ -58,7 +58,7 @@ public:
   CertificateHandler(CertificateHandler const&) = delete;
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  void* ___m_Ptr;
+  ::System::IntPtr ___m_Ptr;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

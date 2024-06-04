@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AchievementProgress)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class AchievementProgress;
@@ -37,7 +40,7 @@ public:
   /// @brief Field UnlockTime, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_UnlockTime, put = __cordl_internal_set_UnlockTime))::System::DateTime UnlockTime;
 
-  static inline ::Oculus::Platform::Models::AchievementProgress* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::AchievementProgress* New_ctor(::System::IntPtr o);
 
   constexpr ::StringW const& __cordl_internal_get_Bitfield() const;
 
@@ -69,8 +72,8 @@ public:
 
   constexpr void __cordl_internal_set_UnlockTime(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x2ad9bf8, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afa284, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

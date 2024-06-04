@@ -5,6 +5,9 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IFunctionPointer)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Unity::Burst {
 class IFunctionPointer;
@@ -20,7 +23,7 @@ class CORDL_TYPE IFunctionPointer {
 public:
   // Declarations
   /// @brief Method FromIntPtr, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Unity::Burst::IFunctionPointer* FromIntPtr(void* ptr);
+  inline ::Unity::Burst::IFunctionPointer* FromIntPtr(::System::IntPtr ptr);
 
   // Ctor Parameters [CppParam { name: "", ty: "IFunctionPointer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

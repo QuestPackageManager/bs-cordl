@@ -38,13 +38,13 @@ public:
 
   static inline ::System::Security::Cryptography::DSASignatureDeformatter* New_ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method SetHashAlgorithm, addr 0x27ded68, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method SetHashAlgorithm, addr 0x27f83f4, size 0xcc, virtual true, abstract: false, final false
   inline void SetHashAlgorithm(::StringW strName);
 
-  /// @brief Method SetKey, addr 0x27dec7c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method SetKey, addr 0x27f8308, size 0xec, virtual true, abstract: false, final false
   inline void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method VerifySignature, addr 0x27dee34, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x27f84c0, size 0xf0, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
   constexpr ::System::Security::Cryptography::DSA*& __cordl_internal_get__dsaKey();
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set__oid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x27deb08, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f8194, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x27deb88, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f8214, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
 protected:

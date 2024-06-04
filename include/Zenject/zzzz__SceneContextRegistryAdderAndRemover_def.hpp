@@ -50,10 +50,10 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x366b8dc, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3698dd8, size 0x20, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Initialize, addr 0x366b8bc, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x3698db8, size 0x20, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::Zenject::SceneContextRegistryAdderAndRemover* New_ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry);
@@ -70,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set__sceneContext(::UnityW<::Zenject::SceneContext> value);
 
-  /// @brief Method __zenCreate, addr 0x366b8fc, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3698df8, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x366ba18, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3698f14, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x366b890, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3698d8c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry);
 
   /// @brief Convert to "::System::IDisposable"

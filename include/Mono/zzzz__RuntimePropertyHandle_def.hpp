@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimePropertyHandle)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -24,29 +27,29 @@ namespace Mono {
 struct CORDL_TYPE RuntimePropertyHandle {
 public:
   // Declarations
-  __declspec(property(get = get_Value)) void* Value;
+  __declspec(property(get = get_Value))::System::IntPtr Value;
 
-  /// @brief Method Equals, addr 0x2790b90, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x27aa1fc, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2790c9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x27aa308, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x2790b80, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(void* v);
+  /// @brief Method .ctor, addr 0x27aa1ec, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr v);
 
-  /// @brief Method get_Value, addr 0x2790b88, size 0x8, virtual false, abstract: false, final false
-  inline void* get_Value();
+  /// @brief Method get_Value, addr 0x27aa1f4, size 0x8, virtual false, abstract: false, final false
+  inline ::System::IntPtr get_Value();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RuntimePropertyHandle();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }]
-  constexpr RuntimePropertyHandle(void* value) noexcept;
+  // Ctor Parameters [CppParam { name: "value", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr RuntimePropertyHandle(::System::IntPtr value) noexcept;
 
   /// @brief Field value, offset: 0x0, size: 0x8, def value: None
-  void* value;
+  ::System::IntPtr value;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

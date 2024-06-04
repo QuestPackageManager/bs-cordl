@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeasureFunction)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::Yoga {
@@ -33,14 +36,14 @@ namespace UnityEngine::Yoga {
 class CORDL_TYPE MeasureFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x35f92e8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x36247e4, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::Yoga::YogaSize Invoke(::UnityEngine::Yoga::YogaNode* node, float_t width, ::UnityEngine::Yoga::YogaMeasureMode widthMode, float_t height,
                                               ::UnityEngine::Yoga::YogaMeasureMode heightMode);
 
-  static inline ::UnityEngine::Yoga::MeasureFunction* New_ctor(::System::Object* object, void* method);
+  static inline ::UnityEngine::Yoga::MeasureFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x35f91b8, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x36246b4, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

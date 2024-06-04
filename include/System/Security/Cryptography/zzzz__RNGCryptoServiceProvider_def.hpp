@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RNGCryptoServiceProvider)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -26,44 +29,44 @@ class CORDL_TYPE RNGCryptoServiceProvider : public ::System::Security::Cryptogra
 public:
   // Declarations
   /// @brief Field _handle, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__handle, put = __cordl_internal_set__handle)) void* _handle;
+  __declspec(property(get = __cordl_internal_get__handle, put = __cordl_internal_set__handle))::System::IntPtr _handle;
 
   /// @brief Field _lock, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__lock, put = setStaticF__lock))::System::Object* _lock;
 
-  /// @brief Method Check, addr 0x27f36a0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Check, addr 0x280dd2c, size 0xb4, virtual false, abstract: false, final false
   inline void Check();
 
-  /// @brief Method Dispose, addr 0x27f3a90, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x280e11c, size 0xc, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x27f3978, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x280e004, size 0x118, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetBytes, addr 0x27f375c, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x280dde8, size 0x21c, virtual true, abstract: false, final false
   inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::System::Security::Cryptography::RNGCryptoServiceProvider* New_ctor();
 
-  /// @brief Method RngClose, addr 0x27f3758, size 0x4, virtual false, abstract: false, final false
-  static inline void RngClose(void* handle);
+  /// @brief Method RngClose, addr 0x280dde4, size 0x4, virtual false, abstract: false, final false
+  static inline void RngClose(::System::IntPtr handle);
 
-  /// @brief Method RngGetBytes, addr 0x27f3754, size 0x4, virtual false, abstract: false, final false
-  static inline void* RngGetBytes(void* handle, ::cordl_internals::Ptr<uint8_t> data, void* data_length);
+  /// @brief Method RngGetBytes, addr 0x280dde0, size 0x4, virtual false, abstract: false, final false
+  static inline ::System::IntPtr RngGetBytes(::System::IntPtr handle, ::cordl_internals::Ptr<uint8_t> data, ::System::IntPtr data_length);
 
-  /// @brief Method RngInitialize, addr 0x27f369c, size 0x4, virtual false, abstract: false, final false
-  static inline void* RngInitialize(::cordl_internals::Ptr<uint8_t> seed, void* seed_length);
+  /// @brief Method RngInitialize, addr 0x280dd28, size 0x4, virtual false, abstract: false, final false
+  static inline ::System::IntPtr RngInitialize(::cordl_internals::Ptr<uint8_t> seed, ::System::IntPtr seed_length);
 
-  /// @brief Method RngOpen, addr 0x27f3600, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RngOpen, addr 0x280dc8c, size 0x4, virtual false, abstract: false, final false
   static inline bool RngOpen();
 
-  constexpr void* const& __cordl_internal_get__handle() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get__handle() const;
 
-  constexpr void*& __cordl_internal_get__handle();
+  constexpr ::System::IntPtr& __cordl_internal_get__handle();
 
-  constexpr void __cordl_internal_set__handle(void* value);
+  constexpr void __cordl_internal_set__handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x27f3604, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280dc90, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF__lock();
@@ -85,7 +88,7 @@ public:
   RNGCryptoServiceProvider(RNGCryptoServiceProvider const&) = delete;
 
   /// @brief Field _handle, offset: 0x10, size: 0x8, def value: None
-  void* ____handle;
+  ::System::IntPtr ____handle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

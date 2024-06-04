@@ -99,10 +99,10 @@ public:
   /// @brief Field _songTimeTweeningManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__songTimeTweeningManager, put = __cordl_internal_set__songTimeTweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _songTimeTweeningManager;
 
-  /// @brief Method InstallBindings, addr 0x272ec68, size 0x15bc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x27453f0, size 0x15bc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method InstallRecordingTool, addr 0x2730224, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method InstallRecordingTool, addr 0x27469ac, size 0xc0, virtual false, abstract: false, final false
   inline void InstallRecordingTool();
 
   static inline ::GlobalNamespace::GameplayCoreInstaller* New_ctor();
@@ -179,7 +179,7 @@ public:
 
   constexpr void __cordl_internal_set__songTimeTweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x27302e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2746a6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

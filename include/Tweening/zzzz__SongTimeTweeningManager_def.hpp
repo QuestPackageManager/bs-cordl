@@ -16,17 +16,17 @@ class SongTimeTweeningManager;
 // Write type traits
 MARK_REF_PTR_T(::Tweening::SongTimeTweeningManager);
 // Type: Tweening::SongTimeTweeningManager
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
 // CS Name: ::Tweening::SongTimeTweeningManager*
 class CORDL_TYPE SongTimeTweeningManager : public ::Tweening::TweeningManager {
 public:
   // Declarations
-  /// @brief Field _audioTimeSource, offset 0x40, size 0x8
+  /// @brief Field _audioTimeSource, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
-  /// @brief Method GetTime, addr 0x26a7e0c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetTime, addr 0x26c111c, size 0xa0, virtual true, abstract: false, final false
   inline float_t GetTime();
 
   static inline ::Tweening::SongTimeTweeningManager* New_ctor();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  /// @brief Method .ctor, addr 0x26a7eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c11bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,15 +54,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SongTimeTweeningManager(SongTimeTweeningManager const&) = delete;
 
-  /// @brief Field _audioTimeSource, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _audioTimeSource, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tweening::SongTimeTweeningManager, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Tweening::SongTimeTweeningManager, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::Tweening::SongTimeTweeningManager, ____audioTimeSource) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::Tweening::SongTimeTweeningManager, ____audioTimeSource) == 0x48, "Offset mismatch!");
 
 } // namespace Tweening
 NEED_NO_BOX(::Tweening::SongTimeTweeningManager);

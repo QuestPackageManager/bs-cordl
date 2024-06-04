@@ -37,6 +37,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::UI {
@@ -68,19 +71,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE __OVRHandTest__BoolMonitor__BoolGenerator : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2b844d4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2ba6b60, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2b844f4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2ba6b80, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2b844c0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ba6b4c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
-  static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* New_ctor(::System::Object* object, void* method);
+  static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2b83468, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2ba5af4, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -133,12 +136,12 @@ public:
   /// @brief Field m_prevValue, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_m_prevValue, put = __cordl_internal_set_m_prevValue)) bool m_prevValue;
 
-  /// @brief Method AppendToStringBuilder, addr 0x2b84234, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AppendToStringBuilder, addr 0x2ba68c0, size 0xd4, virtual false, abstract: false, final false
   inline void AppendToStringBuilder(ByRef<::System::Text::StringBuilder*> sb);
 
   static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor* New_ctor(::StringW name, ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
 
-  /// @brief Method Update, addr 0x2b841a0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2ba682c, size 0x94, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_m_currentValue() const;
@@ -183,7 +186,7 @@ public:
 
   constexpr void __cordl_internal_set_m_prevValue(bool value);
 
-  /// @brief Method .ctor, addr 0x2b83524, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ba5bb0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
 
 protected:
@@ -257,13 +260,13 @@ public:
 
   static inline ::GlobalNamespace::__OVRHandTest____c* New_ctor();
 
-  /// @brief Method <Start>b__14_0, addr 0x2b84588, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__14_0, addr 0x2ba6c14, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__14_0();
 
-  /// @brief Method <.cctor>b__19_0, addr 0x2b845e0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__19_0, addr 0x2ba6c6c, size 0x108, virtual false, abstract: false, final false
   inline bool __cctor_b__19_0();
 
-  /// @brief Method .ctor, addr 0x2b84580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ba6c0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__OVRHandTest____c* getStaticF___9();
@@ -353,10 +356,10 @@ public:
 
   static inline ::GlobalNamespace::OVRHandTest* New_ctor();
 
-  /// @brief Method Start, addr 0x2b83184, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2ba5810, size 0x2e4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2b8359c, size 0xc04, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2ba5c28, size 0xc04, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Text::StringBuilder*& __cordl_internal_get_data();
@@ -437,7 +440,7 @@ public:
 
   constexpr void __cordl_internal_set_uiText(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x2b84308, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ba6994, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor* getStaticF_controllers();

@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarEditorOptions)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class AvatarEditorOptions;
@@ -23,27 +26,27 @@ class CORDL_TYPE AvatarEditorOptions : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Handle, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) void* Handle;
+  __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle))::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x2aa52f4, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2ac5980, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::AvatarEditorOptions* New_ctor();
 
-  /// @brief Method SetSourceOverride, addr 0x2aa5194, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetSourceOverride, addr 0x2ac5820, size 0x68, virtual false, abstract: false, final false
   inline void SetSourceOverride(::StringW value);
 
-  constexpr void* const& __cordl_internal_get_Handle() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
 
-  constexpr void*& __cordl_internal_get_Handle();
+  constexpr ::System::IntPtr& __cordl_internal_get_Handle();
 
-  constexpr void __cordl_internal_set_Handle(void* value);
+  constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x2aa50c8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac5754, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x2aa529c, size 0x58, virtual false, abstract: false, final false
-  static inline void* op_Explicit_void_(::Oculus::Platform::AvatarEditorOptions* options);
+  /// @brief Method op_Explicit, addr 0x2ac5928, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::AvatarEditorOptions* options);
 
 protected:
   // Ctor Parameters []
@@ -60,7 +63,7 @@ public:
   AvatarEditorOptions(AvatarEditorOptions const&) = delete;
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
-  void* ___Handle;
+  ::System::IntPtr ___Handle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

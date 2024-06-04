@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE AndroidPlatform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AsyncInitialize, addr 0x2aa47a4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AsyncInitialize, addr 0x2ac4e30, size 0x108, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
 
-  /// @brief Method Initialize, addr 0x2aa465c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2ac4ce8, size 0xb0, virtual false, abstract: false, final false
   inline bool Initialize(::StringW appId);
 
   static inline ::Oculus::Platform::AndroidPlatform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2aa4940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac4fcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -8,6 +8,11 @@ module;
 #include "BGLib/UnityExtension/ButtonAttribute.hpp"
 #include "BGLib/UnityExtension/Debouncer_1.hpp"
 #include "BGLib/UnityExtension/InfoBoxAttribute.hpp"
+#include "BGLib/UnityExtension/ShaderPropertyAttributeFilter.hpp"
+#include "BGLib/UnityExtension/ShaderPropertyIDAttribute.hpp"
+#include "BGLib/UnityExtension/ShaderPropertyIDFromGameObjectAttribute.hpp"
+#include "BGLib/UnityExtension/ShaderPropertyIDFromPropertyAttribute.hpp"
+#include "BGLib/UnityExtension/ShaderPropertyIDFromRendererAttribute.hpp"
 #include "BGLib/UnityExtension/UnityWebRequestExtensions.hpp"
 #ifdef __cpp_modules
 export module UnityExtension;

@@ -4,15 +4,17 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__XHashtable_1_def.hpp"
 #include "System/Xml/Linq/zzzz__XHashtable_1_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename TValue>
-inline ::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>::New_ctor(::System::Object* object, void* method) {
+inline ::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>::New_ctor(::System::Object* object, ::System::IntPtr method) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>*>(object, method));
 }
-template <typename TValue> inline void System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>::_ctor(::System::Object* object, void* method) {
+template <typename TValue> inline void System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename TValue> inline ::StringW System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>::Invoke(TValue value) {

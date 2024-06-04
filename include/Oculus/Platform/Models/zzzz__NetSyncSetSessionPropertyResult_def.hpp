@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(NetSyncSetSessionPropertyResult)
 namespace Oculus::Platform::Models {
 class NetSyncSession;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class NetSyncSetSessionPropertyResult;
@@ -26,7 +29,7 @@ public:
   /// @brief Field Session, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Session, put = __cordl_internal_set_Session))::Oculus::Platform::Models::NetSyncSession* Session;
 
-  static inline ::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* New_ctor(::System::IntPtr o);
 
   constexpr ::Oculus::Platform::Models::NetSyncSession*& __cordl_internal_get_Session();
 
@@ -34,8 +37,8 @@ public:
 
   constexpr void __cordl_internal_set_Session(::Oculus::Platform::Models::NetSyncSession* value);
 
-  /// @brief Method .ctor, addr 0x2addb04, size 0xb0, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afe190, size 0xb0, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

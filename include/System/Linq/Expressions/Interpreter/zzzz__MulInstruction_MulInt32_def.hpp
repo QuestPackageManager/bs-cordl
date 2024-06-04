@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__MulInstruction__MulInt32* New_ctor();
 
-  /// @brief Method Run, addr 0x2c3d8a0, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c5ef90, size 0x134, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c3d720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5ee10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

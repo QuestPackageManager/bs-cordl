@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_notesUniformScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x2610a74, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262764c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(bool disappearingArrows, bool ghostNotes, float_t cutAngleTolerance, float_t notesUniformScale);
 
 protected:
@@ -216,30 +216,30 @@ public:
 
   __declspec(property(get = get_activeObstacleControllers))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* activeObstacleControllers;
 
-  /// @brief Method DespawnInternal, addr 0x260fe68, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x2627174, size 0x1e4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method DespawnInternal, addr 0x260f2ac, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x2626d88, size 0x58, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method DespawnInternal, addr 0x2610958, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x26275a8, size 0x9c, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);
 
-  /// @brief Method Init, addr 0x260ea88, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26266f4, size 0x59c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::__BasicBeatmapObjectManager__InitData* initData, ::GlobalNamespace::__GameNoteController__Pool* basicGameNotePool,
                    ::GlobalNamespace::__GameNoteController__Pool* burstSliderHeadGameNotePool, ::GlobalNamespace::__BurstSliderGameNoteController__Pool* burstSliderGameNotePool,
                    ::GlobalNamespace::__BombNoteController__Pool* bombNotePool, ::GlobalNamespace::__ObstacleController__Pool* obstaclePool, ::GlobalNamespace::__SliderController__Pool* sliderPools);
 
   static inline ::GlobalNamespace::BasicBeatmapObjectManager* New_ctor();
 
-  /// @brief Method ProcessNoteData, addr 0x260f304, size 0x380, virtual true, abstract: false, final false
+  /// @brief Method ProcessNoteData, addr 0x2626de0, size 0x394, virtual true, abstract: false, final false
   inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation,
                               bool forceIsFirstNoteBehaviour);
 
-  /// @brief Method ProcessObstacleData, addr 0x260f024, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ProcessObstacleData, addr 0x2626c90, size 0xf8, virtual true, abstract: false, final false
   inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData> obstacleSpawnData, float_t rotation);
 
-  /// @brief Method ProcessSliderData, addr 0x261004c, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method ProcessSliderData, addr 0x2627358, size 0x250, virtual true, abstract: false, final false
   inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, float_t rotation);
 
   constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::GameNoteController>>*& __cordl_internal_get__basicGameNotePoolContainer();
@@ -297,10 +297,10 @@ public:
   constexpr void __cordl_internal_set__sliderNotePoolContainersDictionary(
       ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__SliderController__LengthType, ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::SliderController>>*>* value);
 
-  /// @brief Method .ctor, addr 0x26109f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2627644, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeObstacleControllers, addr 0x260ea38, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_activeObstacleControllers, addr 0x26266a4, size 0x50, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* get_activeObstacleControllers();
 
 protected:

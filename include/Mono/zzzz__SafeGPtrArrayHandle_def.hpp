@@ -13,6 +13,9 @@ struct RuntimeGPtrArrayHandle;
 namespace System {
 class IDisposable;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Mono {
 struct SafeGPtrArrayHandle;
@@ -27,23 +30,23 @@ namespace Mono {
 struct CORDL_TYPE SafeGPtrArrayHandle {
 public:
   // Declarations
-  __declspec(property(get = get_Item)) void* Item[];
+  __declspec(property(get = get_Item))::System::IntPtr Item[];
 
   __declspec(property(get = get_Length)) int32_t Length;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x2791090, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x27aa6fc, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x2791070, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(void* ptr);
+  /// @brief Method .ctor, addr 0x27aa6dc, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method get_Item, addr 0x27910c8, size 0x4, virtual false, abstract: false, final false
-  inline void* get_Item(int32_t i);
+  /// @brief Method get_Item, addr 0x27aa734, size 0x4, virtual false, abstract: false, final false
+  inline ::System::IntPtr get_Item(int32_t i);
 
-  /// @brief Method get_Length, addr 0x27910ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x27aa718, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   /// @brief Convert to "::System::IDisposable"

@@ -37,7 +37,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::ByRefUpdater* New_ctor(int32_t argumentIndex);
 
-  /// @brief Method UndefineTemps, addr 0x2c36544, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UndefineTemps, addr 0x2c57c34, size 0x4, virtual true, abstract: false, final false
   inline void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Linq::Expressions::Interpreter::LocalVariables* locals);
 
   /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_ArgumentIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c3651c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c57c0c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t argumentIndex);
 
 protected:

@@ -36,7 +36,7 @@ public:
 
   static inline ::TMPro::TMP_Vertex getStaticF_k_Zero();
 
-  /// @brief Method get_zero, addr 0x3335bac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x335ff00, size 0x68, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Vertex get_zero();
 
   static inline void setStaticF_k_Zero(::TMPro::TMP_Vertex value);

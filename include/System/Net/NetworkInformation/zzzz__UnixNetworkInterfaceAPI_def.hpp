@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnixNetworkInterfaceAPI)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace System::Net::NetworkInformation {
 class UnixNetworkInterfaceAPI;
@@ -23,14 +26,14 @@ public:
   // Declarations
   static inline ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x30239b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30410a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method freeifaddrs, addr 0x3024114, size 0x7c, virtual false, abstract: false, final false
-  static inline void freeifaddrs(void* ifap);
+  /// @brief Method freeifaddrs, addr 0x3041804, size 0x7c, virtual false, abstract: false, final false
+  static inline void freeifaddrs(::System::IntPtr ifap);
 
-  /// @brief Method getifaddrs, addr 0x3024194, size 0x7c, virtual false, abstract: false, final false
-  static inline int32_t getifaddrs(ByRef<void*> ifap);
+  /// @brief Method getifaddrs, addr 0x3041884, size 0x7c, virtual false, abstract: false, final false
+  static inline int32_t getifaddrs(ByRef<::System::IntPtr> ifap);
 
 protected:
   // Ctor Parameters []

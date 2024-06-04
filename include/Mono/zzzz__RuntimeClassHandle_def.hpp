@@ -10,6 +10,9 @@ namespace Mono {
 struct __RuntimeStructs__MonoClass;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace System {
@@ -31,25 +34,25 @@ public:
   // Declarations
   __declspec(property(get = get_Value))::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> Value;
 
-  /// @brief Method Equals, addr 0x279075c, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x27a9dc8, size 0x104, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2790860, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x27a9ecc, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTypeFromClass, addr 0x2790888, size 0x4, virtual false, abstract: false, final false
-  static inline void* GetTypeFromClass(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> klass);
+  /// @brief Method GetTypeFromClass, addr 0x27a9ef4, size 0x4, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetTypeFromClass(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> klass);
 
-  /// @brief Method GetTypeHandle, addr 0x279088c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTypeHandle, addr 0x27a9ef8, size 0x8, virtual false, abstract: false, final false
   inline ::System::RuntimeTypeHandle GetTypeHandle();
 
-  /// @brief Method .ctor, addr 0x2790734, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(void* ptr);
+  /// @brief Method .ctor, addr 0x27a9da0, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method .ctor, addr 0x279072c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27a9d98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> value);
 
-  /// @brief Method get_Value, addr 0x2790754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x27a9dc0, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> get_Value();
 
   // Ctor Parameters []

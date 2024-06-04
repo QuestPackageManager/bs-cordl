@@ -21,10 +21,10 @@ namespace Unity::Burst {
 class CORDL_TYPE SafeStringArrayHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DeserialiseStringArraySafe, addr 0x306b420, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method DeserialiseStringArraySafe, addr 0x3088bc8, size 0x288, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> DeserialiseStringArraySafe(::StringW input);
 
-  /// @brief Method SerialiseStringArraySafe, addr 0x306b228, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SerialiseStringArraySafe, addr 0x30889d0, size 0x14c, virtual false, abstract: false, final false
   static inline ::StringW SerialiseStringArraySafe(::ArrayW<::StringW, ::Array<::StringW>*> array);
 
 protected:

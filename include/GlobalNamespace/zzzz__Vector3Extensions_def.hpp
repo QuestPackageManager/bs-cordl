@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Vector3Extensions)
 namespace UnityEngine {
@@ -26,16 +27,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE Vector3Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InverseLerp, addr 0x10863d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Abs, addr 0x108c998, size 0x18, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector3 Abs(ByRef<::UnityEngine::Vector3> vector);
+
+  /// @brief Method InverseLerp, addr 0x108c8d0, size 0x54, virtual false, abstract: false, final false
   static inline float_t InverseLerp(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 value);
 
-  /// @brief Method MirrorEulerAnglesOnYZPlane, addr 0x1086490, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MirrorEulerAnglesOnYZPlane, addr 0x108c98c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 MirrorEulerAnglesOnYZPlane(::UnityEngine::Vector3 vector);
 
-  /// @brief Method MirrorOnYZPlane, addr 0x1086488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MirrorOnYZPlane, addr 0x108c984, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 MirrorOnYZPlane(::UnityEngine::Vector3 vector);
 
-  /// @brief Method RotatedAroundPivot, addr 0x1086428, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RotatedAroundPivot, addr 0x108c924, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RotatedAroundPivot(::UnityEngine::Vector3 vector, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 pivot);
 
 protected:

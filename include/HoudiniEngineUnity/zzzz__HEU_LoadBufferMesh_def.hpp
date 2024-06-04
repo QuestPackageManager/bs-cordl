@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__geoCache(::HoudiniEngineUnity::HEU_GenerateGeoCache* value);
 
-  /// @brief Method .ctor, addr 0x2590b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a7a48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -36,13 +36,13 @@ public:
 
   constexpr void __cordl_internal_set__webRequest_k__BackingField(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x3601878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x362cd74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_webRequest, addr 0x3601868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_webRequest, addr 0x362cd64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest* get_webRequest();
 
-  /// @brief Method set_webRequest, addr 0x3601870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_webRequest, addr 0x362cd6c, size 0x8, virtual false, abstract: false, final false
   inline void set_webRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
 protected:

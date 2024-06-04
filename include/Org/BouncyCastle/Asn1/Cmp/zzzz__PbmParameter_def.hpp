@@ -59,7 +59,7 @@ public:
   /// @brief Field salt, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_salt, put = __cordl_internal_set_salt))::Org::BouncyCastle::Asn1::Asn1OctetString* salt;
 
-  /// @brief Method GetInstance, addr 0x10c74bc, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10cdd2c, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf, int32_t iterationCount,
@@ -70,7 +70,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10c7768, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10cdfd8, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_iterationCount();
@@ -97,27 +97,27 @@ public:
 
   constexpr void __cordl_internal_set_salt(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x10c7644, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10cdeb4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf, int32_t iterationCount,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mac);
 
-  /// @brief Method .ctor, addr 0x10c7708, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10cdf78, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* salt, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf, ::Org::BouncyCastle::Asn1::DerInteger* iterationCount,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mac);
 
-  /// @brief Method .ctor, addr 0x10c7410, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10cdc80, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_IterationCount, addr 0x10c7758, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IterationCount, addr 0x10cdfc8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_IterationCount();
 
-  /// @brief Method get_Mac, addr 0x10c7760, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Mac, addr 0x10cdfd0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Mac();
 
-  /// @brief Method get_Owf, addr 0x10c7750, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Owf, addr 0x10cdfc0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Owf();
 
-  /// @brief Method get_Salt, addr 0x10c7748, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Salt, addr 0x10cdfb8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Salt();
 
 protected:

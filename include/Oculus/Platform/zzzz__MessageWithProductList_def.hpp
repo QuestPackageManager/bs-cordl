@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithProductList)
 namespace Oculus::Platform::Models {
 class ProductList;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithProductList;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithProductList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ProductList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2ac9718, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::ProductList* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2ae9da4, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::ProductList* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetProductList, addr 0x2ac96dc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetProductList, addr 0x2ae9d68, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ProductList* GetProductList();
 
-  static inline ::Oculus::Platform::MessageWithProductList* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithProductList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac5814, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae5ea0, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

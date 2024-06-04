@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__HasValue* New_ctor();
 
-  /// @brief Method Run, addr 0x2c498d0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c6afc0, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c497d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6aec0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

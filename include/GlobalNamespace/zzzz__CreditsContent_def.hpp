@@ -167,43 +167,43 @@ public:
 
   constexpr void __cordl_internal_set__titleTextPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x2740494, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2757c34, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_columnCount, addr 0x2740464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnCount, addr 0x2757c04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columnCount();
 
-  /// @brief Method get_contentRoot, addr 0x274047c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentRoot, addr 0x2757c1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_contentRoot();
 
-  /// @brief Method get_creditsContentTextAsset, addr 0x274048c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_creditsContentTextAsset, addr 0x2757c2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_creditsContentTextAsset();
 
-  /// @brief Method get_headerLocalizedTextPrefab, addr 0x274045c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headerLocalizedTextPrefab, addr 0x2757bfc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_headerLocalizedTextPrefab();
 
-  /// @brief Method get_headerTextPrefab, addr 0x2740454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headerTextPrefab, addr 0x2757bf4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_headerTextPrefab();
 
-  /// @brief Method get_normalLocalizedTextPrefab, addr 0x274043c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalLocalizedTextPrefab, addr 0x2757bdc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_normalLocalizedTextPrefab();
 
-  /// @brief Method get_normalTextPrefab, addr 0x2740434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalTextPrefab, addr 0x2757bd4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_normalTextPrefab();
 
-  /// @brief Method get_rootRectTransform, addr 0x2740484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rootRectTransform, addr 0x2757c24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rootRectTransform();
 
-  /// @brief Method get_spaceHeight, addr 0x274046c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spaceHeight, addr 0x2757c0c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spaceHeight();
 
-  /// @brief Method get_titleHeight, addr 0x2740474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleHeight, addr 0x2757c14, size 0x8, virtual false, abstract: false, final false
   inline float_t get_titleHeight();
 
-  /// @brief Method get_titleLocalizedTextPrefab, addr 0x274044c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleLocalizedTextPrefab, addr 0x2757bec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_titleLocalizedTextPrefab();
 
-  /// @brief Method get_titleTextPrefab, addr 0x2740444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleTextPrefab, addr 0x2757be4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_titleTextPrefab();
 
 protected:

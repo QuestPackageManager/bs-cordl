@@ -29,6 +29,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -191,19 +194,19 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE __HEU_Task__TaskCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x258f714, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x25a6658, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_Task* task, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x258f734, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x25a6678, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x258f700, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x25a6644, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::HoudiniEngineUnity::HEU_Task* task);
 
-  static inline ::HoudiniEngineUnity::__HEU_Task__TaskCallback* New_ctor(::System::Object* object, void* method);
+  static inline ::HoudiniEngineUnity::__HEU_Task__TaskCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x258f5d4, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x25a6518, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -264,7 +267,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_Task* New_ctor();
 
-  /// @brief Method UpdateTask, addr 0x258f5d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateTask, addr 0x25a6514, size 0x4, virtual true, abstract: false, final false
   inline void UpdateTask();
 
   constexpr ::System::Guid const& __cordl_internal_get__guid() const;
@@ -291,10 +294,10 @@ public:
 
   constexpr void __cordl_internal_set__taskCompletedDelegate(::HoudiniEngineUnity::__HEU_Task__TaskCallback* value);
 
-  /// @brief Method .ctor, addr 0x258f5ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a64f0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TaskGuid, addr 0x258f5a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_TaskGuid, addr 0x25a64e4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_TaskGuid();
 
 protected:

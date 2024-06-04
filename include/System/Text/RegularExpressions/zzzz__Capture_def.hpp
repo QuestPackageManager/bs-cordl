@@ -41,15 +41,15 @@ public:
   /// @brief Field <Text>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Text_k__BackingField, put = __cordl_internal_set__Text_k__BackingField))::StringW _Text_k__BackingField;
 
-  /// @brief Method GetLeftSubstring, addr 0x2f82578, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetLeftSubstring, addr 0x2fa1c68, size 0x88, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> GetLeftSubstring();
 
-  /// @brief Method GetRightSubstring, addr 0x2f82600, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetRightSubstring, addr 0x2fa1cf0, size 0x90, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> GetRightSubstring();
 
   static inline ::System::Text::RegularExpressions::Capture* New_ctor(::StringW text, int32_t index, int32_t length);
 
-  /// @brief Method ToString, addr 0x2f82574, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2fa1c64, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__Index_k__BackingField() const;
@@ -70,28 +70,28 @@ public:
 
   constexpr void __cordl_internal_set__Text_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f824e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa1bd4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, int32_t index, int32_t length);
 
-  /// @brief Method get_Index, addr 0x2f82520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x2fa1c10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
-  /// @brief Method get_Length, addr 0x2f82530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x2fa1c20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_Text, addr 0x2f82540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Text, addr 0x2fa1c30, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Text();
 
-  /// @brief Method get_Value, addr 0x2f82550, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2fa1c40, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Index, addr 0x2f82528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Index, addr 0x2fa1c18, size 0x8, virtual false, abstract: false, final false
   inline void set_Index(int32_t value);
 
-  /// @brief Method set_Length, addr 0x2f82538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Length, addr 0x2fa1c28, size 0x8, virtual false, abstract: false, final false
   inline void set_Length(int32_t value);
 
-  /// @brief Method set_Text, addr 0x2f82548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Text, addr 0x2fa1c38, size 0x8, virtual false, abstract: false, final false
   inline void set_Text(::StringW value);
 
 protected:

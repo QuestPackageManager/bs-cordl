@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShadowMask(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x33fdab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3426fa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

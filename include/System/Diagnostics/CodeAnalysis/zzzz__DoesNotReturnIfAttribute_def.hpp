@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__ParameterValue_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x29c1af4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29de180, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool parameterValue);
 
-  /// @brief Method get_ParameterValue, addr 0x29c1b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterValue, addr 0x29de1a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ParameterValue();
 
 protected:

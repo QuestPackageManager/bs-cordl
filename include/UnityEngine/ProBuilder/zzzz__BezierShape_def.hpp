@@ -58,12 +58,12 @@ public:
   /// @brief Field smooth, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_smooth, put = __cordl_internal_set_smooth)) bool smooth;
 
-  /// @brief Method Init, addr 0x3271588, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x32988dc, size 0x260, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::UnityEngine::ProBuilder::BezierShape* New_ctor();
 
-  /// @brief Method Refresh, addr 0x32717e8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3298b3c, size 0xc0, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr bool const& __cordl_internal_get_closeLoop() const;
@@ -114,19 +114,19 @@ public:
 
   constexpr void __cordl_internal_set_smooth(bool value);
 
-  /// @brief Method .ctor, addr 0x32718a8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3298bfc, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isEditing, addr 0x32714d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEditing, addr 0x329882c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEditing();
 
-  /// @brief Method get_mesh, addr 0x32714ec, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x3298840, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> get_mesh();
 
-  /// @brief Method set_isEditing, addr 0x32714e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isEditing, addr 0x3298834, size 0xc, virtual false, abstract: false, final false
   inline void set_isEditing(bool value);
 
-  /// @brief Method set_mesh, addr 0x3271580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x32988d4, size 0x8, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
 
 protected:

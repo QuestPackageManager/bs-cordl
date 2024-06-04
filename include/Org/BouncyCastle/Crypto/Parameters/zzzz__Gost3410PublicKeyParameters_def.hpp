@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_y(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x1194df0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119b660, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters);
 
-  /// @brief Method .ctor, addr 0x1194eb0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119b720, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method get_Y, addr 0x1194f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0x119b7e8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Y();
 
 protected:

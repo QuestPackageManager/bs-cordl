@@ -16,6 +16,9 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace System {
@@ -44,26 +47,26 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>*();
 
-  /// @brief Method Equals, addr 0x342c044, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3456540, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x342bfd4, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x34564d0, size 0x70, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ScriptableRenderContext other);
 
-  /// @brief Method GetCameras, addr 0x342b1e0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetCameras, addr 0x34556dc, size 0x8c, virtual false, abstract: false, final false
   inline void GetCameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* results);
 
-  /// @brief Method GetCameras_Internal, addr 0x342bf48, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetCameras_Internal, addr 0x3456444, size 0x8c, virtual false, abstract: false, final false
   inline void GetCameras_Internal(::System::Type* listType, ::System::Object* resultList);
 
-  /// @brief Method GetCameras_Internal_Injected, addr 0x342c0c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetCameras_Internal_Injected, addr 0x34565c0, size 0x54, virtual false, abstract: false, final false
   static inline void GetCameras_Internal_Injected(ByRef<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::Type* listType, ::System::Object* resultList);
 
-  /// @brief Method GetHashCode, addr 0x342c0bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x34565b8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x342b1d8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(void* ptr);
+  /// @brief Method .ctor, addr 0x34556d4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr ptr);
 
   static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_kRenderTypeTag();
 
@@ -76,11 +79,11 @@ public:
   // @brief default ctor
   constexpr ScriptableRenderContext();
 
-  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "void*", modifiers: "", def_value: None }]
-  constexpr ScriptableRenderContext(void* m_Ptr) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr ScriptableRenderContext(::System::IntPtr m_Ptr) noexcept;
 
   /// @brief Field m_Ptr, offset: 0x0, size: 0x8, def value: None
-  void* m_Ptr;
+  ::System::IntPtr m_Ptr;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

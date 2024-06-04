@@ -41,7 +41,7 @@ public:
                                                                                                  ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* uwrResult,
                                                                                                  ::System::Exception* innerException);
 
-  /// @brief Method ToString, addr 0x33065ac, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x332f900, size 0x174, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*& __cordl_internal_get__WebRequestResult_k__BackingField();
@@ -50,14 +50,14 @@ public:
 
   constexpr void __cordl_internal_set__WebRequestResult_k__BackingField(::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* value);
 
-  /// @brief Method .ctor, addr 0x330656c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332f8c0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* uwrResult,
                     ::System::Exception* innerException);
 
-  /// @brief Method get_Message, addr 0x3306598, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x332f8ec, size 0xc, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_WebRequestResult, addr 0x33065a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WebRequestResult, addr 0x332f8f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* get_WebRequestResult();
 
 protected:

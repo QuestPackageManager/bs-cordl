@@ -34,10 +34,10 @@ public:
 
   static inline ::GlobalNamespace::CountdownElementController* New_ctor();
 
-  /// @brief Method SetTextAndRunAnimation, addr 0x262aeb8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetTextAndRunAnimation, addr 0x26444d0, size 0x64, virtual false, abstract: false, final false
   inline void SetTextAndRunAnimation(::StringW text);
 
-  /// @brief Method StopAndHide, addr 0x262b010, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method StopAndHide, addr 0x2644628, size 0x24, virtual false, abstract: false, final false
   inline void StopAndHide();
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x262b198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26447b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

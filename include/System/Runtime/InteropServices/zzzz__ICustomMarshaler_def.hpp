@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ICustomMarshaler)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -26,16 +29,16 @@ public:
   inline void CleanUpManagedData(::System::Object* ManagedObj);
 
   /// @brief Method CleanUpNativeData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void CleanUpNativeData(void* pNativeData);
+  inline void CleanUpNativeData(::System::IntPtr pNativeData);
 
   /// @brief Method GetNativeDataSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetNativeDataSize();
 
   /// @brief Method MarshalManagedToNative, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void* MarshalManagedToNative(::System::Object* ManagedObj);
+  inline ::System::IntPtr MarshalManagedToNative(::System::Object* ManagedObj);
 
   /// @brief Method MarshalNativeToManaged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Object* MarshalNativeToManaged(void* pNativeData);
+  inline ::System::Object* MarshalNativeToManaged(::System::IntPtr pNativeData);
 
   // Ctor Parameters [CppParam { name: "", ty: "ICustomMarshaler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

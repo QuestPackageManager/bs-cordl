@@ -43,16 +43,16 @@ public:
   /// @brief Field _weightMultiplier, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__weightMultiplier, put = __cordl_internal_set__weightMultiplier)) float_t _weightMultiplier;
 
-  /// @brief Method CalculateBadgeData, addr 0x14cc860, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method CalculateBadgeData, addr 0x14d27fc, size 0x14, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                           ::GlobalNamespace::PlayerDataModel* playerDataModel, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                           float_t randomMultiplier);
 
-  /// @brief Method CalculateMax, addr 0x14cc874, size 0x584, virtual false, abstract: false, final false
+  /// @brief Method CalculateMax, addr 0x14d2810, size 0x584, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateMax(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                     float_t randomMultiplier);
 
-  /// @brief Method CalculateMin, addr 0x14ccdf8, size 0x590, virtual false, abstract: false, final false
+  /// @brief Method CalculateMin, addr 0x14d2d94, size 0x590, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateMin(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                     float_t randomMultiplier);
 
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__weightMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x14cc850, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14d27ec, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

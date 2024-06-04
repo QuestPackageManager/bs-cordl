@@ -56,10 +56,10 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* New_ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method ShouldRetryDownloadError, addr 0x3309914, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method ShouldRetryDownloadError, addr 0x3332c68, size 0x2d0, virtual false, abstract: false, final false
   inline bool ShouldRetryDownloadError();
 
-  /// @brief Method ToString, addr 0x3309764, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3332ab8, size 0x180, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__Error_k__BackingField() const;
@@ -92,25 +92,25 @@ public:
 
   constexpr void __cordl_internal_set__Url_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3309654, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33329a8, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method get_Error, addr 0x33098e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x3332c38, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Error();
 
-  /// @brief Method get_Method, addr 0x3309904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Method, addr 0x3332c58, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Method();
 
-  /// @brief Method get_ResponseCode, addr 0x33098f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResponseCode, addr 0x3332c48, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ResponseCode();
 
-  /// @brief Method get_Result, addr 0x33098fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Result, addr 0x3332c50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::__UnityWebRequest__Result get_Result();
 
-  /// @brief Method get_Url, addr 0x330990c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Url, addr 0x3332c60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Url();
 
-  /// @brief Method set_Error, addr 0x33098ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Error, addr 0x3332c40, size 0x8, virtual false, abstract: false, final false
   inline void set_Error(::StringW value);
 
 protected:

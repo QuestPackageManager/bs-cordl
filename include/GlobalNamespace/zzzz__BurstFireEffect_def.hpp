@@ -53,30 +53,30 @@ public:
   /// @brief Field _songTimeTweeningManager, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__songTimeTweeningManager, put = __cordl_internal_set__songTimeTweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _songTimeTweeningManager;
 
-  /// @brief Method Awake, addr 0x105cd08, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x1064458, size 0x124, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method EndEffect, addr 0x105d204, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method EndEffect, addr 0x1064954, size 0x2c, virtual false, abstract: false, final false
   inline void EndEffect();
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x105d0d0, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x1064820, size 0x134, virtual true, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);
 
   static inline ::GlobalNamespace::BurstFireEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x105d014, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x1064764, size 0x90, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetInitialValues, addr 0x105cf64, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetInitialValues, addr 0x10646b4, size 0xb0, virtual false, abstract: false, final false
   inline void SetInitialValues();
 
-  /// @brief Method Start, addr 0x105ce2c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x106457c, size 0x18, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEffect, addr 0x105d230, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method StartEffect, addr 0x1064980, size 0xd8, virtual false, abstract: false, final false
   inline void StartEffect(float_t time);
 
-  /// @brief Method UpdateFadeOutProgress, addr 0x105d390, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method UpdateFadeOutProgress, addr 0x1064ae4, size 0x194, virtual false, abstract: false, final false
   inline void UpdateFadeOutProgress(float_t fadeOutProgress);
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set__songTimeTweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x105d5e4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1064d38, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

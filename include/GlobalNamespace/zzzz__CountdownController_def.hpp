@@ -61,21 +61,21 @@ public:
   /// @brief Field _timeProvider, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__timeProvider, put = __cordl_internal_set__timeProvider))::GlobalNamespace::ITimeProvider* _timeProvider;
 
-  /// @brief Method Awake, addr 0x262acc4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26442dc, size 0x18, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::CountdownController* New_ctor();
 
-  /// @brief Method StartCountdown, addr 0x262af1c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method StartCountdown, addr 0x2644534, size 0xf4, virtual false, abstract: false, final false
   inline void StartCountdown(int64_t countdownEndTime);
 
-  /// @brief Method StopCountdown, addr 0x262b09c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StopCountdown, addr 0x26446b4, size 0x78, virtual false, abstract: false, final false
   inline void StopCountdown();
 
-  /// @brief Method Update, addr 0x262acdc, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26442f4, size 0x1dc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateCountdown, addr 0x262b034, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateCountdown, addr 0x264464c, size 0x68, virtual false, abstract: false, final false
   inline void UpdateCountdown(int64_t countdownEndTime);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set__timeProvider(::GlobalNamespace::ITimeProvider* value);
 
-  /// @brief Method .ctor, addr 0x262b114, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264472c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

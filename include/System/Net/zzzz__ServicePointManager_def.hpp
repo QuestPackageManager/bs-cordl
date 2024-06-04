@@ -67,10 +67,10 @@ public:
   /// @brief Field use_connect, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_use_connect, put = __cordl_internal_set_use_connect)) bool use_connect;
 
-  /// @brief Method Equals, addr 0x300f4d8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x302cbc8, size 0xf4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x300f408, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x302caf8, size 0xd0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::__ServicePointManager__SPKey* New_ctor(::System::Uri* uri, ::System::Uri* proxy, bool use_connect);
@@ -93,10 +93,10 @@ public:
 
   constexpr void __cordl_internal_set_use_connect(bool value);
 
-  /// @brief Method .ctor, addr 0x300eecc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x302c5bc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri, ::System::Uri* proxy, bool use_connect);
 
-  /// @brief Method get_UsesProxy, addr 0x300f3a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_UsesProxy, addr 0x302ca98, size 0x60, virtual false, abstract: false, final false
   inline bool get_UsesProxy();
 
 protected:
@@ -188,16 +188,16 @@ public:
   /// @brief Field useNagle, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_useNagle, put = setStaticF_useNagle)) bool useNagle;
 
-  /// @brief Method CloseConnectionGroup, addr 0x300ef08, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method CloseConnectionGroup, addr 0x302c5f8, size 0x408, virtual false, abstract: false, final false
   static inline void CloseConnectionGroup(::StringW connectionGroupName);
 
-  /// @brief Method FindServicePoint, addr 0x300e864, size 0x668, virtual false, abstract: false, final false
+  /// @brief Method FindServicePoint, addr 0x302bf54, size 0x668, virtual false, abstract: false, final false
   static inline ::System::Net::ServicePoint* FindServicePoint(::System::Uri* address, ::System::Net::IWebProxy* proxy);
 
-  /// @brief Method GetLegacyCertificatePolicy, addr 0x300e624, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetLegacyCertificatePolicy, addr 0x302bd14, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::ICertificatePolicy* GetLegacyCertificatePolicy();
 
-  /// @brief Method RemoveServicePoint, addr 0x300f310, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method RemoveServicePoint, addr 0x302ca00, size 0x98, virtual false, abstract: false, final false
   static inline void RemoveServicePoint(::System::Net::ServicePoint* sp);
 
   static inline bool getStaticF__checkCRL();
@@ -228,19 +228,19 @@ public:
 
   static inline bool getStaticF_useNagle();
 
-  /// @brief Method get_CheckCertificateRevocationList, addr 0x300e67c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_CheckCertificateRevocationList, addr 0x302bd6c, size 0x58, virtual false, abstract: false, final false
   static inline bool get_CheckCertificateRevocationList();
 
-  /// @brief Method get_DnsRefreshTimeout, addr 0x300e6d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DnsRefreshTimeout, addr 0x302bdc4, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_DnsRefreshTimeout();
 
-  /// @brief Method get_SecurityProtocol, addr 0x300e72c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_SecurityProtocol, addr 0x302be1c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::SecurityProtocolType get_SecurityProtocol();
 
-  /// @brief Method get_ServerCertValidationCallback, addr 0x300e784, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_ServerCertValidationCallback, addr 0x302be74, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::ServerCertValidationCallback* get_ServerCertValidationCallback();
 
-  /// @brief Method get_ServerCertificateValidationCallback, addr 0x300e7dc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_ServerCertificateValidationCallback, addr 0x302becc, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Net::Security::RemoteCertificateValidationCallback* get_ServerCertificateValidationCallback();
 
   static inline void setStaticF__checkCRL(bool value);

@@ -54,22 +54,22 @@ public:
   /// @brief Field atomicConverter, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_atomicConverter, put = __cordl_internal_set_atomicConverter))::System::Xml::Schema::XmlValueConverter* atomicConverter;
 
-  /// @brief Method ChangeListType, addr 0x2e42014, size 0xdf8, virtual true, abstract: false, final false
+  /// @brief Method ChangeListType, addr 0x2e63704, size 0xdf8, virtual true, abstract: false, final false
   inline ::System::Object* ChangeListType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x2e46988, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x2e68078, size 0x108, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method Create, addr 0x2e467dc, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2e67ecc, size 0x1ac, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlValueConverter* atomicConverter);
 
-  /// @brief Method CreateInvalidClrMappingException, addr 0x2e46c20, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method CreateInvalidClrMappingException, addr 0x2e68310, size 0x26c, virtual false, abstract: false, final false
   inline ::System::Exception* CreateInvalidClrMappingException(::System::Type* sourceType, ::System::Type* destinationType);
 
-  /// @brief Method IsListType, addr 0x2e46a90, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method IsListType, addr 0x2e68180, size 0x190, virtual false, abstract: false, final false
   inline bool IsListType(::System::Type* type);
 
-  /// @brief Method ListAsString, addr 0x2e46e8c, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method ListAsString, addr 0x2e6857c, size 0x3ac, virtual false, abstract: false, final false
   inline ::StringW ListAsString(::System::Collections::IEnumerable* list, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
   static inline ::System::Xml::Schema::XmlListConverter* New_ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter);
@@ -78,13 +78,13 @@ public:
 
   static inline ::System::Xml::Schema::XmlListConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method StringAsList, addr 0x2e47238, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method StringAsList, addr 0x2e68928, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* StringAsList(::StringW value);
 
   /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<T, ::Array<T>*> ToArray(::System::Object* list, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ToList, addr 0x2e472e8, size 0x644, virtual false, abstract: false, final false
+  /// @brief Method ToList, addr 0x2e689d8, size 0x644, virtual false, abstract: false, final false
   inline ::System::Collections::IList* ToList(::System::Object* list, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
   constexpr ::System::Xml::Schema::XmlValueConverter*& __cordl_internal_get_atomicConverter();
@@ -93,13 +93,13 @@ public:
 
   constexpr void __cordl_internal_set_atomicConverter(::System::Xml::Schema::XmlValueConverter* value);
 
-  /// @brief Method .ctor, addr 0x2e463c4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e67ab4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter);
 
-  /// @brief Method .ctor, addr 0x2e3c408, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e5daf8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter, ::System::Type* clrTypeDefault);
 
-  /// @brief Method .ctor, addr 0x2e3c308, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e5d9f8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:

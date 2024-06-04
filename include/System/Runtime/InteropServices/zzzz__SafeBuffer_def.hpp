@@ -26,29 +26,29 @@ class CORDL_TYPE SafeBuffer : public ::Microsoft::Win32::SafeHandles::SafeHandle
 public:
   // Declarations
   /// @brief Field Uninitialized, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Uninitialized, put = setStaticF_Uninitialized)) void* Uninitialized;
+  static __declspec(property(get = getStaticF_Uninitialized, put = setStaticF_Uninitialized))::System::UIntPtr Uninitialized;
 
   /// @brief Field _numBytes, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__numBytes, put = __cordl_internal_set__numBytes)) void* _numBytes;
+  __declspec(property(get = __cordl_internal_get__numBytes, put = __cordl_internal_set__numBytes))::System::UIntPtr _numBytes;
 
-  /// @brief Method AcquirePointer, addr 0x285775c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AcquirePointer, addr 0x2870de8, size 0x108, virtual false, abstract: false, final false
   inline void AcquirePointer(ByRef<::cordl_internals::Ptr<uint8_t>> pointer);
 
-  /// @brief Method NotInitialized, addr 0x2857864, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NotInitialized, addr 0x2870ef0, size 0x74, virtual false, abstract: false, final false
   static inline ::System::InvalidOperationException* NotInitialized();
 
-  /// @brief Method ReleasePointer, addr 0x28579a8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x2871034, size 0xdc, virtual false, abstract: false, final false
   inline void ReleasePointer();
 
-  constexpr void* const& __cordl_internal_get__numBytes() const;
+  constexpr ::System::UIntPtr const& __cordl_internal_get__numBytes() const;
 
-  constexpr void*& __cordl_internal_get__numBytes();
+  constexpr ::System::UIntPtr& __cordl_internal_get__numBytes();
 
-  constexpr void __cordl_internal_set__numBytes(void* value);
+  constexpr void __cordl_internal_set__numBytes(::System::UIntPtr value);
 
-  static inline void* getStaticF_Uninitialized();
+  static inline ::System::UIntPtr getStaticF_Uninitialized();
 
-  static inline void setStaticF_Uninitialized(void* value);
+  static inline void setStaticF_Uninitialized(::System::UIntPtr value);
 
 protected:
   // Ctor Parameters []
@@ -65,7 +65,7 @@ public:
   SafeBuffer(SafeBuffer const&) = delete;
 
   /// @brief Field _numBytes, offset: 0x20, size: 0x8, def value: None
-  void* ____numBytes;
+  ::System::UIntPtr ____numBytes;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

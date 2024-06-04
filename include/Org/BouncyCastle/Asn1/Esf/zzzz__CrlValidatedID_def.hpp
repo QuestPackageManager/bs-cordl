@@ -44,7 +44,7 @@ public:
   /// @brief Field crlIdentifier, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_crlIdentifier, put = __cordl_internal_set_crlIdentifier))::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* crlIdentifier;
 
-  /// @brief Method GetInstance, addr 0x10f0814, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10f7084, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlValidatedID* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlValidatedID* New_ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* crlHash);
@@ -53,7 +53,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlValidatedID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10f19f4, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10f8264, size 0x138, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHash*& __cordl_internal_get_crlHash();
@@ -68,19 +68,19 @@ public:
 
   constexpr void __cordl_internal_set_crlIdentifier(::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x10f1960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f81d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* crlHash);
 
-  /// @brief Method .ctor, addr 0x10f1968, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f81d8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* crlHash, ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* crlIdentifier);
 
-  /// @brief Method .ctor, addr 0x10f1670, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f7ee0, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CrlHash, addr 0x10f19e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrlHash, addr 0x10f8254, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* get_CrlHash();
 
-  /// @brief Method get_CrlIdentifier, addr 0x10f19ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrlIdentifier, addr 0x10f825c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* get_CrlIdentifier();
 
 protected:

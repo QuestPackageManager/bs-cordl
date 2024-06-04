@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ByReference_1)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace System {
 template <typename T> struct ByReference_1;
@@ -36,11 +39,11 @@ public:
   // @brief default ctor
   constexpr ByReference_1();
 
-  // Ctor Parameters [CppParam { name: "_value", ty: "void*", modifiers: "", def_value: None }]
-  constexpr ByReference_1(void* _value) noexcept;
+  // Ctor Parameters [CppParam { name: "_value", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr ByReference_1(::System::IntPtr _value) noexcept;
 
   /// @brief Field _value, offset: 0x0, size: 0x8, def value: None
-  void* _value;
+  ::System::IntPtr _value;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

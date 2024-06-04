@@ -319,21 +319,32 @@ public:
 
   __declspec(property(get = get_multiTapDelayTime, put = set_multiTapDelayTime)) float_t multiTapDelayTime;
 
+  /// @brief Field optimizedControlsFeatureEnabled, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_optimizedControlsFeatureEnabled, put = setStaticF_optimizedControlsFeatureEnabled)) bool optimizedControlsFeatureEnabled;
+
+  /// @brief Field paranoidReadValueCachingChecksEnabled, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_paranoidReadValueCachingChecksEnabled, put = setStaticF_paranoidReadValueCachingChecksEnabled)) bool paranoidReadValueCachingChecksEnabled;
+
+  /// @brief Field readValueCachingFeatureEnabled, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_readValueCachingFeatureEnabled, put = setStaticF_readValueCachingFeatureEnabled)) bool readValueCachingFeatureEnabled;
+
+  __declspec(property(get = get_shortcutKeysConsumeInput, put = set_shortcutKeysConsumeInput)) bool shortcutKeysConsumeInput;
+
   __declspec(property(get = get_supportedDevices, put = set_supportedDevices))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> supportedDevices;
 
   __declspec(property(get = get_tapRadius, put = set_tapRadius)) float_t tapRadius;
 
   __declspec(property(get = get_updateMode, put = set_updateMode))::UnityEngine::InputSystem::__InputSettings__UpdateMode updateMode;
 
-  /// @brief Method IsFeatureEnabled, addr 0x3128a28, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsFeatureEnabled, addr 0x314a4bc, size 0x7c, virtual false, abstract: false, final false
   inline bool IsFeatureEnabled(::StringW featureName);
 
   static inline ::UnityEngine::InputSystem::InputSettings* New_ctor();
 
-  /// @brief Method OnChange, addr 0x3128428, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnChange, addr 0x3149e2c, size 0xcc, virtual false, abstract: false, final false
   inline void OnChange();
 
-  /// @brief Method SetInternalFeatureFlag, addr 0x3128888, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method SetInternalFeatureFlag, addr 0x314a2b0, size 0x20c, virtual false, abstract: false, final false
   inline void SetInternalFeatureFlag(::StringW featureName, bool enabled);
 
   constexpr ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior const& __cordl_internal_get_m_BackgroundBehavior() const;
@@ -450,115 +461,133 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdateMode(::UnityEngine::InputSystem::__InputSettings__UpdateMode value);
 
-  /// @brief Method .ctor, addr 0x3128ae8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x314a538, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_backgroundBehavior, addr 0x3128660, size 0x8, virtual false, abstract: false, final false
+  static inline bool getStaticF_optimizedControlsFeatureEnabled();
+
+  static inline bool getStaticF_paranoidReadValueCachingChecksEnabled();
+
+  static inline bool getStaticF_readValueCachingFeatureEnabled();
+
+  /// @brief Method get_backgroundBehavior, addr 0x314a064, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior get_backgroundBehavior();
 
-  /// @brief Method get_buttonReleaseThreshold, addr 0x31285a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buttonReleaseThreshold, addr 0x3149fa4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_buttonReleaseThreshold();
 
-  /// @brief Method get_compensateForScreenOrientation, addr 0x31284f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_compensateForScreenOrientation, addr 0x3149ef8, size 0x8, virtual false, abstract: false, final false
   inline bool get_compensateForScreenOrientation();
 
-  /// @brief Method get_defaultButtonPressPoint, addr 0x3128564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultButtonPressPoint, addr 0x3149f68, size 0x8, virtual false, abstract: false, final false
   inline float_t get_defaultButtonPressPoint();
 
-  /// @brief Method get_defaultDeadzoneMax, addr 0x3128544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultDeadzoneMax, addr 0x3149f48, size 0x8, virtual false, abstract: false, final false
   inline float_t get_defaultDeadzoneMax();
 
-  /// @brief Method get_defaultDeadzoneMin, addr 0x3128524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultDeadzoneMin, addr 0x3149f28, size 0x8, virtual false, abstract: false, final false
   inline float_t get_defaultDeadzoneMin();
 
-  /// @brief Method get_defaultHoldTime, addr 0x3128600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultHoldTime, addr 0x314a004, size 0x8, virtual false, abstract: false, final false
   inline float_t get_defaultHoldTime();
 
-  /// @brief Method get_defaultSlowTapTime, addr 0x31285e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultSlowTapTime, addr 0x3149fe4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_defaultSlowTapTime();
 
-  /// @brief Method get_defaultTapTime, addr 0x31285c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultTapTime, addr 0x3149fc4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_defaultTapTime();
 
-  /// @brief Method get_disableRedundantEventsMerging, addr 0x3128864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disableRedundantEventsMerging, addr 0x314a268, size 0x8, virtual false, abstract: false, final false
   inline bool get_disableRedundantEventsMerging();
 
-  /// @brief Method get_editorInputBehaviorInPlayMode, addr 0x3128680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editorInputBehaviorInPlayMode, addr 0x314a084, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode get_editorInputBehaviorInPlayMode();
 
-  /// @brief Method get_filterNoiseOnCurrent, addr 0x3128518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_filterNoiseOnCurrent, addr 0x3149f1c, size 0x8, virtual false, abstract: false, final false
   inline bool get_filterNoiseOnCurrent();
 
-  /// @brief Method get_maxEventBytesPerUpdate, addr 0x31286a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxEventBytesPerUpdate, addr 0x314a0a4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxEventBytesPerUpdate();
 
-  /// @brief Method get_maxQueuedEventsPerUpdate, addr 0x31286c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxQueuedEventsPerUpdate, addr 0x314a0c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxQueuedEventsPerUpdate();
 
-  /// @brief Method get_multiTapDelayTime, addr 0x3128640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiTapDelayTime, addr 0x314a044, size 0x8, virtual false, abstract: false, final false
   inline float_t get_multiTapDelayTime();
 
-  /// @brief Method get_supportedDevices, addr 0x31286e0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_shortcutKeysConsumeInput, addr 0x314a28c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_shortcutKeysConsumeInput();
+
+  /// @brief Method get_supportedDevices, addr 0x314a0e4, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> get_supportedDevices();
 
-  /// @brief Method get_tapRadius, addr 0x3128620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tapRadius, addr 0x314a024, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tapRadius();
 
-  /// @brief Method get_updateMode, addr 0x3128408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updateMode, addr 0x3149e0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputSettings__UpdateMode get_updateMode();
 
-  /// @brief Method set_backgroundBehavior, addr 0x3128668, size 0x18, virtual false, abstract: false, final false
+  static inline void setStaticF_optimizedControlsFeatureEnabled(bool value);
+
+  static inline void setStaticF_paranoidReadValueCachingChecksEnabled(bool value);
+
+  static inline void setStaticF_readValueCachingFeatureEnabled(bool value);
+
+  /// @brief Method set_backgroundBehavior, addr 0x314a06c, size 0x18, virtual false, abstract: false, final false
   inline void set_backgroundBehavior(::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior value);
 
-  /// @brief Method set_buttonReleaseThreshold, addr 0x31285a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_buttonReleaseThreshold, addr 0x3149fac, size 0x18, virtual false, abstract: false, final false
   inline void set_buttonReleaseThreshold(float_t value);
 
-  /// @brief Method set_compensateForScreenOrientation, addr 0x31284fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_compensateForScreenOrientation, addr 0x3149f00, size 0x1c, virtual false, abstract: false, final false
   inline void set_compensateForScreenOrientation(bool value);
 
-  /// @brief Method set_defaultButtonPressPoint, addr 0x312856c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_defaultButtonPressPoint, addr 0x3149f70, size 0x34, virtual false, abstract: false, final false
   inline void set_defaultButtonPressPoint(float_t value);
 
-  /// @brief Method set_defaultDeadzoneMax, addr 0x312854c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_defaultDeadzoneMax, addr 0x3149f50, size 0x18, virtual false, abstract: false, final false
   inline void set_defaultDeadzoneMax(float_t value);
 
-  /// @brief Method set_defaultDeadzoneMin, addr 0x312852c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_defaultDeadzoneMin, addr 0x3149f30, size 0x18, virtual false, abstract: false, final false
   inline void set_defaultDeadzoneMin(float_t value);
 
-  /// @brief Method set_defaultHoldTime, addr 0x3128608, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_defaultHoldTime, addr 0x314a00c, size 0x18, virtual false, abstract: false, final false
   inline void set_defaultHoldTime(float_t value);
 
-  /// @brief Method set_defaultSlowTapTime, addr 0x31285e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_defaultSlowTapTime, addr 0x3149fec, size 0x18, virtual false, abstract: false, final false
   inline void set_defaultSlowTapTime(float_t value);
 
-  /// @brief Method set_defaultTapTime, addr 0x31285c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_defaultTapTime, addr 0x3149fcc, size 0x18, virtual false, abstract: false, final false
   inline void set_defaultTapTime(float_t value);
 
-  /// @brief Method set_disableRedundantEventsMerging, addr 0x312886c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_disableRedundantEventsMerging, addr 0x314a270, size 0x1c, virtual false, abstract: false, final false
   inline void set_disableRedundantEventsMerging(bool value);
 
-  /// @brief Method set_editorInputBehaviorInPlayMode, addr 0x3128688, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_editorInputBehaviorInPlayMode, addr 0x314a08c, size 0x18, virtual false, abstract: false, final false
   inline void set_editorInputBehaviorInPlayMode(::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode value);
 
-  /// @brief Method set_filterNoiseOnCurrent, addr 0x3128520, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_filterNoiseOnCurrent, addr 0x3149f24, size 0x4, virtual false, abstract: false, final false
   inline void set_filterNoiseOnCurrent(bool value);
 
-  /// @brief Method set_maxEventBytesPerUpdate, addr 0x31286a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_maxEventBytesPerUpdate, addr 0x314a0ac, size 0x18, virtual false, abstract: false, final false
   inline void set_maxEventBytesPerUpdate(int32_t value);
 
-  /// @brief Method set_maxQueuedEventsPerUpdate, addr 0x31286c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_maxQueuedEventsPerUpdate, addr 0x314a0cc, size 0x18, virtual false, abstract: false, final false
   inline void set_maxQueuedEventsPerUpdate(int32_t value);
 
-  /// @brief Method set_multiTapDelayTime, addr 0x3128648, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_multiTapDelayTime, addr 0x314a04c, size 0x18, virtual false, abstract: false, final false
   inline void set_multiTapDelayTime(float_t value);
 
-  /// @brief Method set_supportedDevices, addr 0x3128740, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method set_shortcutKeysConsumeInput, addr 0x314a294, size 0x1c, virtual false, abstract: false, final false
+  inline void set_shortcutKeysConsumeInput(bool value);
+
+  /// @brief Method set_supportedDevices, addr 0x314a144, size 0x124, virtual false, abstract: false, final false
   inline void set_supportedDevices(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> value);
 
-  /// @brief Method set_tapRadius, addr 0x3128628, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_tapRadius, addr 0x314a02c, size 0x18, virtual false, abstract: false, final false
   inline void set_tapRadius(float_t value);
 
-  /// @brief Method set_updateMode, addr 0x3128410, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_updateMode, addr 0x3149e14, size 0x18, virtual false, abstract: false, final false
   inline void set_updateMode(::UnityEngine::InputSystem::__InputSettings__UpdateMode value);
 
 protected:

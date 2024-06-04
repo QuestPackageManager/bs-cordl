@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LivestreamingStartResult)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class LivestreamingStartResult;
@@ -24,7 +27,7 @@ public:
   /// @brief Field StreamingResult, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_StreamingResult, put = __cordl_internal_set_StreamingResult))::Oculus::Platform::LivestreamingStartStatus StreamingResult;
 
-  static inline ::Oculus::Platform::Models::LivestreamingStartResult* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::LivestreamingStartResult* New_ctor(::System::IntPtr o);
 
   constexpr ::Oculus::Platform::LivestreamingStartStatus const& __cordl_internal_get_StreamingResult() const;
 
@@ -32,8 +35,8 @@ public:
 
   constexpr void __cordl_internal_set_StreamingResult(::Oculus::Platform::LivestreamingStartStatus value);
 
-  /// @brief Method .ctor, addr 0x2add440, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afdacc, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

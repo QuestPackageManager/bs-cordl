@@ -33,22 +33,22 @@ namespace UnityEngine {
 class CORDL_TYPE ResourcesAPIInternal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindObjectsOfTypeAll, addr 0x341bbd4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FindObjectsOfTypeAll, addr 0x34460c8, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeAll(::System::Type* type);
 
-  /// @brief Method FindShaderByName, addr 0x341bc10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FindShaderByName, addr 0x3446104, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> FindShaderByName(::StringW name);
 
-  /// @brief Method Load, addr 0x341bc4c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x3446140, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAll, addr 0x341bc90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x3446184, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAsyncInternal, addr 0x341bcd4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LoadAsyncInternal, addr 0x34461c8, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceRequest* LoadAsyncInternal(::StringW path, ::System::Type* type);
 
-  /// @brief Method UnloadAsset, addr 0x341bd18, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UnloadAsset, addr 0x344620c, size 0x3c, virtual false, abstract: false, final false
   static inline void UnloadAsset(::UnityEngine::Object* assetToUnload);
 
 protected:

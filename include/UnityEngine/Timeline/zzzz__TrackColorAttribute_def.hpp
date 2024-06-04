@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3396e28, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33c017c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(float_t r, float_t g, float_t b);
 
-  /// @brief Method get_color, addr 0x3396e1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x33c0170, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:

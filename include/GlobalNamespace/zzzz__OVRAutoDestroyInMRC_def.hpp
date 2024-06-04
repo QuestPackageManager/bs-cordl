@@ -21,13 +21,13 @@ public:
   // Declarations
   static inline ::GlobalNamespace::OVRAutoDestroyInMRC* New_ctor();
 
-  /// @brief Method Start, addr 0x2b77044, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2b996d0, size 0x118, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2b7715c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2b997e8, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method .ctor, addr 0x2b77160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b997ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

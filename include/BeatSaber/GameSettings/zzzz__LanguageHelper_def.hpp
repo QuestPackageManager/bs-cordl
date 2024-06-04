@@ -22,7 +22,7 @@ namespace BeatSaber::GameSettings {
 class CORDL_TYPE LanguageHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetDefaultLanguage, addr 0x105f394, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultLanguage, addr 0x1066ae8, size 0x94, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::Language GetDefaultLanguage();
 
 protected:

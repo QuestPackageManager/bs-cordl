@@ -20,6 +20,9 @@ struct __RuntimeStructs__MonoClass;
 namespace Mono {
 struct __RuntimeStructs__RemoteClass;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Mono {
 class RuntimeStructs;
@@ -54,23 +57,23 @@ public:
   // @brief default ctor
   constexpr __RuntimeStructs__RemoteClass();
 
-  // Ctor Parameters [CppParam { name: "default_vtable", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "xdomain_vtable", ty: "void*", modifiers: "", def_value: None }, CppParam {
-  // name: "proxy_class", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>", modifiers: "", def_value: None }, CppParam { name: "proxy_class_name", ty: "void*", modifiers: "",
-  // def_value: None }, CppParam { name: "interface_count", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr __RuntimeStructs__RemoteClass(void* default_vtable, void* xdomain_vtable, ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> proxy_class, void* proxy_class_name,
-                                          uint32_t interface_count) noexcept;
+  // Ctor Parameters [CppParam { name: "default_vtable", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "xdomain_vtable", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None }, CppParam { name: "proxy_class", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>", modifiers: "", def_value: None }, CppParam { name: "proxy_class_name", ty:
+  // "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "interface_count", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr __RuntimeStructs__RemoteClass(::System::IntPtr default_vtable, ::System::IntPtr xdomain_vtable, ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> proxy_class,
+                                          ::System::IntPtr proxy_class_name, uint32_t interface_count) noexcept;
 
   /// @brief Field default_vtable, offset: 0x0, size: 0x8, def value: None
-  void* default_vtable;
+  ::System::IntPtr default_vtable;
 
   /// @brief Field xdomain_vtable, offset: 0x8, size: 0x8, def value: None
-  void* xdomain_vtable;
+  ::System::IntPtr xdomain_vtable;
 
   /// @brief Field proxy_class, offset: 0x10, size: 0x8, def value: None
   ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> proxy_class;
 
   /// @brief Field proxy_class_name, offset: 0x18, size: 0x8, def value: None
-  void* proxy_class_name;
+  ::System::IntPtr proxy_class_name;
 
   /// @brief Field interface_count, offset: 0x20, size: 0x4, def value: None
   uint32_t interface_count;
@@ -132,17 +135,17 @@ public:
   // @brief default ctor
   constexpr __RuntimeStructs__GenericParamInfo();
 
-  // Ctor Parameters [CppParam { name: "pklass", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>", modifiers: "", def_value: None }, CppParam { name: "name", ty: "void*", modifiers:
-  // "", def_value: None }, CppParam { name: "flags", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "token", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "constraints", ty: "::cordl_internals::Ptr<::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>>", modifiers: "", def_value: None }]
-  constexpr __RuntimeStructs__GenericParamInfo(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> pklass, void* name, uint16_t flags, uint32_t token,
+  // Ctor Parameters [CppParam { name: "pklass", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::System::IntPtr",
+  // modifiers: "", def_value: None }, CppParam { name: "flags", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "token", ty: "uint32_t", modifiers: "", def_value: None }, CppParam
+  // { name: "constraints", ty: "::cordl_internals::Ptr<::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>>", modifiers: "", def_value: None }]
+  constexpr __RuntimeStructs__GenericParamInfo(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> pklass, ::System::IntPtr name, uint16_t flags, uint32_t token,
                                                ::cordl_internals::Ptr<::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>> constraints) noexcept;
 
   /// @brief Field pklass, offset: 0x0, size: 0x8, def value: None
   ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> pklass;
 
   /// @brief Field name, offset: 0x8, size: 0x8, def value: None
-  void* name;
+  ::System::IntPtr name;
 
   /// @brief Field flags, offset: 0x10, size: 0x2, def value: None
   uint16_t flags;
@@ -184,11 +187,12 @@ public:
   // @brief default ctor
   constexpr __RuntimeStructs__GPtrArray();
 
-  // Ctor Parameters [CppParam { name: "data", ty: "::cordl_internals::Ptr<void*>", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __RuntimeStructs__GPtrArray(::cordl_internals::Ptr<void*> data, int32_t len) noexcept;
+  // Ctor Parameters [CppParam { name: "data", ty: "::cordl_internals::Ptr<::System::IntPtr>", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None
+  // }]
+  constexpr __RuntimeStructs__GPtrArray(::cordl_internals::Ptr<::System::IntPtr> data, int32_t len) noexcept;
 
   /// @brief Field data, offset: 0x0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<void*> data;
+  ::cordl_internals::Ptr<::System::IntPtr> data;
 
   /// @brief Field len, offset: 0x8, size: 0x4, def value: None
   int32_t len;

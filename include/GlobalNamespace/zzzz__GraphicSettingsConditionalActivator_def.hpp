@@ -111,12 +111,12 @@ public:
   /// @brief Field _sceneSetupData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  /// @brief Method GetGraphicsActivatorType, addr 0x2696540, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsActivatorType, addr 0x26af574, size 0x160, virtual false, abstract: false, final false
   inline bool GetGraphicsActivatorType();
 
   static inline ::GlobalNamespace::GraphicSettingsConditionalActivator* New_ctor();
 
-  /// @brief Method Start, addr 0x26964f0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26af524, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__activateOnFalse() const;
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x26966a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26af6d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

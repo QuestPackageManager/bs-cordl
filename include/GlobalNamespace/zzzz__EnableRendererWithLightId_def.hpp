@@ -35,7 +35,7 @@ public:
   /// @brief Field _renderer, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::Renderer> _renderer;
 
-  /// @brief Method ColorWasSet, addr 0x24f1f50, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x250be20, size 0x44, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::EnableRendererWithLightId* New_ctor();
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method .ctor, addr 0x24f1f94, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250be64, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

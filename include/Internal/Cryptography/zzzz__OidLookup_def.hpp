@@ -44,13 +44,13 @@ public:
 
   static inline ::Internal::Cryptography::__OidLookup____c* New_ctor();
 
-  /// @brief Method <.cctor>b__10_0, addr 0x2c6e640, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__10_0, addr 0x2c8fd30, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__10_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp);
 
-  /// @brief Method <.cctor>b__10_1, addr 0x2c6e67c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__10_1, addr 0x2c8fd6c, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__10_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp);
 
-  /// @brief Method .ctor, addr 0x2c6e638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c8fd28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Internal::Cryptography::__OidLookup____c* getStaticF___9();
@@ -104,19 +104,19 @@ public:
   /// @brief Field s_oidToFriendlyName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_oidToFriendlyName, put = setStaticF_s_oidToFriendlyName))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_oidToFriendlyName;
 
-  /// @brief Method NativeFriendlyNameToOid, addr 0x2c6c5d0, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method NativeFriendlyNameToOid, addr 0x2c8dcc0, size 0x344, virtual false, abstract: false, final false
   static inline ::StringW NativeFriendlyNameToOid(::StringW friendlyName, ::System::Security::Cryptography::OidGroup oidGroup, bool fallBackToAllGroups);
 
-  /// @brief Method NativeOidToFriendlyName, addr 0x2c6c0e4, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method NativeOidToFriendlyName, addr 0x2c8d7d4, size 0x338, virtual false, abstract: false, final false
   static inline ::StringW NativeOidToFriendlyName(::StringW oid, ::System::Security::Cryptography::OidGroup oidGroup, bool fallBackToAllGroups);
 
-  /// @brief Method ShouldUseCache, addr 0x2c6c0dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldUseCache, addr 0x2c8d7cc, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldUseCache(::System::Security::Cryptography::OidGroup oidGroup);
 
-  /// @brief Method ToFriendlyName, addr 0x2c6befc, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ToFriendlyName, addr 0x2c8d5ec, size 0x1e0, virtual false, abstract: false, final false
   static inline ::StringW ToFriendlyName(::StringW oid, ::System::Security::Cryptography::OidGroup oidGroup, bool fallBackToAllGroups);
 
-  /// @brief Method ToOid, addr 0x2c6c41c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ToOid, addr 0x2c8db0c, size 0x1b4, virtual false, abstract: false, final false
   static inline ::StringW ToOid(::StringW friendlyName, ::System::Security::Cryptography::OidGroup oidGroup, bool fallBackToAllGroups);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_compatOids();

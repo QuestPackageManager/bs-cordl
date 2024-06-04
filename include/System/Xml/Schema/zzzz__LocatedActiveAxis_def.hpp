@@ -39,7 +39,7 @@ public:
 
   static inline ::System::Xml::Schema::LocatedActiveAxis* New_ctor(::System::Xml::Schema::Asttree* astfield, ::System::Xml::Schema::KeySequence* ks, int32_t column);
 
-  /// @brief Method Reactivate, addr 0x2ef6904, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reactivate, addr 0x2f17ff4, size 0x18, virtual false, abstract: false, final false
   inline void Reactivate(::System::Xml::Schema::KeySequence* ks);
 
   constexpr ::System::Xml::Schema::KeySequence*& __cordl_internal_get_Ks();
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set_isMatched(bool value);
 
-  /// @brief Method .ctor, addr 0x2ef68d4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f17fc4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::Asttree* astfield, ::System::Xml::Schema::KeySequence* ks, int32_t column);
 
-  /// @brief Method get_Column, addr 0x2ef68cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Column, addr 0x2f17fbc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Column();
 
 protected:

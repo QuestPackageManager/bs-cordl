@@ -10,6 +10,9 @@ CORDL_MODULE_EXPORT(Leaderboard)
 namespace Oculus::Platform::Models {
 class Destination;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class Leaderboard;
@@ -36,7 +39,7 @@ public:
   /// @brief Field ID, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
 
-  static inline ::Oculus::Platform::Models::Leaderboard* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::Leaderboard* New_ctor(::System::IntPtr o);
 
   constexpr ::StringW const& __cordl_internal_get_ApiName() const;
 
@@ -62,8 +65,8 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2adb5e8, size 0x128, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afbc74, size 0x128, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

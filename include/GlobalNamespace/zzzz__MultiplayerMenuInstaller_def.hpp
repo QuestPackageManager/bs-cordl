@@ -19,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerMenuInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x27316c4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2748e4c, size 0x8c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerMenuInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2731750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2748ed8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

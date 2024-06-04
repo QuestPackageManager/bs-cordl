@@ -20,12 +20,12 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE ECBasisType : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x11f0b70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x11f63e0, size 0x14, virtual false, abstract: false, final false
   static inline bool IsValid(uint8_t ecBasisType);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ECBasisType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11f0b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f63f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

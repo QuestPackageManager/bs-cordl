@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UserAccountAgeCategory)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class UserAccountAgeCategory;
@@ -24,7 +27,7 @@ public:
   /// @brief Field AgeCategory, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_AgeCategory, put = __cordl_internal_set_AgeCategory))::Oculus::Platform::AccountAgeCategory AgeCategory;
 
-  static inline ::Oculus::Platform::Models::UserAccountAgeCategory* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::UserAccountAgeCategory* New_ctor(::System::IntPtr o);
 
   constexpr ::Oculus::Platform::AccountAgeCategory const& __cordl_internal_get_AgeCategory() const;
 
@@ -32,8 +35,8 @@ public:
 
   constexpr void __cordl_internal_set_AgeCategory(::Oculus::Platform::AccountAgeCategory value);
 
-  /// @brief Method .ctor, addr 0x2adf174, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2aff800, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

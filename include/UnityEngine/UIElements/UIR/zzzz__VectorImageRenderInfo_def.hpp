@@ -35,7 +35,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x3521d44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x354b240, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::UIElements::UIR::GradientRemap*& __cordl_internal_get_firstGradientRemap();
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_useCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3521cdc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x354b1d8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

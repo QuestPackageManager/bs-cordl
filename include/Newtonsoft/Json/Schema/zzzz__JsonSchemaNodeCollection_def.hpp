@@ -23,12 +23,12 @@ namespace Newtonsoft::Json::Schema {
 class CORDL_TYPE JsonSchemaNodeCollection : public ::System::Collections::ObjectModel::KeyedCollection_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*> {
 public:
   // Declarations
-  /// @brief Method GetKeyForItem, addr 0x2a539c8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetKeyForItem, addr 0x2a72054, size 0x18, virtual true, abstract: false, final false
   inline ::StringW GetKeyForItem(::Newtonsoft::Json::Schema::JsonSchemaNode* item);
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaNodeCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a51e84, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a70510, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

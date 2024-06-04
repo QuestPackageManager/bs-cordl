@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(PurchaseList)
 namespace Oculus::Platform::Models {
 class Purchase;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class PurchaseList;
@@ -23,10 +26,10 @@ namespace Oculus::Platform::Models {
 class CORDL_TYPE PurchaseList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Purchase*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::Models::PurchaseList* New_ctor(void* a);
+  static inline ::Oculus::Platform::Models::PurchaseList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x2adea28, size 0x25c, virtual false, abstract: false, final false
-  inline void _ctor(void* a);
+  /// @brief Method .ctor, addr 0x2aff0b4, size 0x25c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr a);
 
 protected:
   // Ctor Parameters []

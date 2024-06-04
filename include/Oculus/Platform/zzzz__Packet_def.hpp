@@ -11,6 +11,9 @@ CORDL_MODULE_EXPORT(Packet)
 namespace System {
 class IDisposable;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class Packet;
@@ -30,7 +33,7 @@ public:
   __declspec(property(get = get_Size)) uint64_t Size;
 
   /// @brief Field packetHandle, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_packetHandle, put = __cordl_internal_set_packetHandle)) void* packetHandle;
+  __declspec(property(get = __cordl_internal_get_packetHandle, put = __cordl_internal_set_packetHandle))::System::IntPtr packetHandle;
 
   /// @brief Field size, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) uint64_t size;
@@ -38,36 +41,36 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2acae5c, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2aeb4e8, size 0x88, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x2acadc8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2aeb454, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  static inline ::Oculus::Platform::Packet* New_ctor(void* packetHandle);
+  static inline ::Oculus::Platform::Packet* New_ctor(::System::IntPtr packetHandle);
 
-  /// @brief Method ReadBytes, addr 0x2acac24, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ReadBytes, addr 0x2aeb2b0, size 0x144, virtual false, abstract: false, final false
   inline uint64_t ReadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> destination);
 
-  constexpr void* const& __cordl_internal_get_packetHandle() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_packetHandle() const;
 
-  constexpr void*& __cordl_internal_get_packetHandle();
+  constexpr ::System::IntPtr& __cordl_internal_get_packetHandle();
 
   constexpr uint64_t const& __cordl_internal_get_size() const;
 
   constexpr uint64_t& __cordl_internal_get_size();
 
-  constexpr void __cordl_internal_set_packetHandle(void* value);
+  constexpr void __cordl_internal_set_packetHandle(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_size(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2acab74, size 0xb0, virtual false, abstract: false, final false
-  inline void _ctor(void* packetHandle);
+  /// @brief Method .ctor, addr 0x2aeb200, size 0xb0, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr packetHandle);
 
-  /// @brief Method get_SenderID, addr 0x2acad68, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_SenderID, addr 0x2aeb3f4, size 0x58, virtual false, abstract: false, final false
   inline uint64_t get_SenderID();
 
-  /// @brief Method get_Size, addr 0x2acadc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x2aeb44c, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Size();
 
   /// @brief Convert to "::System::IDisposable"
@@ -91,7 +94,7 @@ public:
   uint64_t ___size;
 
   /// @brief Field packetHandle, offset: 0x18, size: 0x8, def value: None
-  void* ___packetHandle;
+  ::System::IntPtr ___packetHandle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

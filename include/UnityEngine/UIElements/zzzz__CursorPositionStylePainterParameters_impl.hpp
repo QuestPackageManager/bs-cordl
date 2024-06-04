@@ -16,9 +16,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::CursorPositionStylePainterParameters (*)(
     ::UnityEngine::UIElements::VisualElement*, ::StringW)>(&::UnityEngine::UIElements::CursorPositionStylePainterParameters::GetDefault)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x350bc7c;
+  constexpr static std::size_t addrs = 0x3535178;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CursorPositionStylePainterParameters>::get(), "GetDefault", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
@@ -32,9 +32,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TextNativeSettings (::UnityEngine::UIElements::CursorPositionStylePainterParameters::*)(
     float_t)>(&::UnityEngine::UIElements::CursorPositionStylePainterParameters::GetTextNativeSettings)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x350bdc4;
+  constexpr static std::size_t addrs = 0x35352c0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CursorPositionStylePainterParameters>::get(), "GetTextNativeSettings",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));

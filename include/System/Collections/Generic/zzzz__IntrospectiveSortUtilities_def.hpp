@@ -23,10 +23,10 @@ namespace System::Collections::Generic {
 class CORDL_TYPE IntrospectiveSortUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FloorLog2PlusOne, addr 0x2911268, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method FloorLog2PlusOne, addr 0x292c8f4, size 0x34, virtual false, abstract: false, final false
   static inline int32_t FloorLog2PlusOne(int32_t n);
 
-  /// @brief Method ThrowOrIgnoreBadComparer, addr 0x291129c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ThrowOrIgnoreBadComparer, addr 0x292c928, size 0x68, virtual false, abstract: false, final false
   static inline void ThrowOrIgnoreBadComparer(::System::Object* comparer);
 
 protected:

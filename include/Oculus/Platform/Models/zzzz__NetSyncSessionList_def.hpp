@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(NetSyncSessionList)
 namespace Oculus::Platform::Models {
 class NetSyncSession;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class NetSyncSessionList;
@@ -23,10 +26,10 @@ namespace Oculus::Platform::Models {
 class CORDL_TYPE NetSyncSessionList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::NetSyncSession*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::Models::NetSyncSessionList* New_ctor(void* a);
+  static inline ::Oculus::Platform::Models::NetSyncSessionList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x2add808, size 0x23c, virtual false, abstract: false, final false
-  inline void _ctor(void* a);
+  /// @brief Method .ctor, addr 0x2afde94, size 0x23c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr a);
 
 protected:
   // Ctor Parameters []

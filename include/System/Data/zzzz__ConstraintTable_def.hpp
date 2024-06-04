@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x2ce7730, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d07e20, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* t, ::System::Xml::Schema::XmlSchemaIdentityConstraint* c);
 
 protected:

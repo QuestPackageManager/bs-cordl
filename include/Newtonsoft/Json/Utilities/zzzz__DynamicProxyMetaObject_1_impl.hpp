@@ -28,15 +28,18 @@
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T>
-inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1__Fallback<T>* Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1__Fallback<T>::New_ctor(::System::Object* object, void* method) {
+inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1__Fallback<T>* Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1__Fallback<T>::New_ctor(::System::Object* object,
+                                                                                                                                                              ::System::IntPtr method) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1__Fallback<T>*>(object, method));
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1__Fallback<T>::_ctor(::System::Object* object, void* method) {
+template <typename T> inline void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1__Fallback<T>::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1__Fallback<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename T> inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1__Fallback<T>::Invoke(::System::Dynamic::DynamicMetaObject* errorSuggestion) {

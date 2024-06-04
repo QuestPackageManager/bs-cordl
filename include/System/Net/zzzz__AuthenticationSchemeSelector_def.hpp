@@ -13,6 +13,9 @@ namespace System::Net {
 class HttpListenerRequest;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -29,13 +32,13 @@ namespace System::Net {
 class CORDL_TYPE AuthenticationSchemeSelector : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2fd15a0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2fedc90, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::AuthenticationSchemes Invoke(::System::Net::HttpListenerRequest* httpRequest);
 
-  static inline ::System::Net::AuthenticationSchemeSelector* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Net::AuthenticationSchemeSelector* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2fd14cc, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2fedbbc, size 0xd4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

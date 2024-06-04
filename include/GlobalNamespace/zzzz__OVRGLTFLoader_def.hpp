@@ -104,7 +104,7 @@ public:
 
   static inline ::GlobalNamespace::__OVRGLTFLoader____c__DisplayClass30_0* New_ctor();
 
-  /// @brief Method <ProcessMesh>b__0, addr 0x2afc934, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <ProcessMesh>b__0, addr 0x2b1efc0, size 0x1c, virtual false, abstract: false, final false
   inline void _ProcessMesh_b__0();
 
   constexpr ::GlobalNamespace::OVRGLTFLoader*& __cordl_internal_get___4__this();
@@ -119,7 +119,7 @@ public:
 
   constexpr void __cordl_internal_set_matData(::GlobalNamespace::OVRMaterialData value);
 
-  /// @brief Method .ctor, addr 0x2afadac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b1d438, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -217,74 +217,74 @@ public:
   __declspec(property(get = __cordl_internal_get_textureUriHandler,
                       put = __cordl_internal_set_textureUriHandler))::System::Func_3<::StringW, ::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Texture2D>>* textureUriHandler;
 
-  /// @brief Method ApplyTextureQuality, addr 0x2af90bc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ApplyTextureQuality, addr 0x2b1b748, size 0x174, virtual false, abstract: false, final false
   static inline void ApplyTextureQuality(::GlobalNamespace::OVRTextureQualityFiltering qualityLevel, ByRef<::UnityEngine::Texture2D*> destTexture);
 
-  /// @brief Method CreateUnityMaterial, addr 0x2afc20c, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method CreateUnityMaterial, addr 0x2b1e898, size 0x274, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> CreateUnityMaterial(::GlobalNamespace::OVRMaterialData matData, bool loadMips);
 
-  /// @brief Method DetectTextureQuality, addr 0x2af8ffc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method DetectTextureQuality, addr 0x2b1b688, size 0xc0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTextureQualityFiltering DetectTextureQuality(ByRef<::UnityEngine::Texture2D*> srcTexture);
 
-  /// @brief Method FlipTraingleIndices, addr 0x2afb614, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method FlipTraingleIndices, addr 0x2b1dca0, size 0x6c, virtual false, abstract: false, final false
   static inline void FlipTraingleIndices(ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> indices);
 
-  /// @brief Method GetInputNodeType, addr 0x2afc534, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetInputNodeType, addr 0x2b1ebc0, size 0x1c4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRGLTFInputNode GetInputNodeType(::StringW name);
 
-  /// @brief Method LoadGLB, addr 0x2af81a4, size 0x638, virtual false, abstract: false, final false
+  /// @brief Method LoadGLB, addr 0x2b1a830, size 0x638, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRGLTFScene LoadGLB(bool supportAnimation, bool loadMips);
 
-  /// @brief Method LoadGLTF, addr 0x2af8bd8, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method LoadGLTF, addr 0x2b1b264, size 0x3f0, virtual false, abstract: false, final false
   inline int32_t LoadGLTF(bool supportAnimation, bool loadMips);
 
   static inline ::GlobalNamespace::OVRGLTFLoader* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::GlobalNamespace::OVRGLTFLoader* New_ctor(::StringW fileName);
 
-  /// @brief Method ProcessAnimations, addr 0x2af9b48, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method ProcessAnimations, addr 0x2b1c1d4, size 0x518, virtual false, abstract: false, final false
   inline void ProcessAnimations();
 
-  /// @brief Method ProcessMaterial, addr 0x2afadb4, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method ProcessMaterial, addr 0x2b1d440, size 0x388, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRMaterialData ProcessMaterial(int32_t matId);
 
-  /// @brief Method ProcessMesh, addr 0x2afa060, size 0x938, virtual false, abstract: false, final false
+  /// @brief Method ProcessMesh, addr 0x2b1c6ec, size 0x938, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRMeshData ProcessMesh(::OVRSimpleJSON::JSONNode* meshNode, bool loadMips);
 
-  /// @brief Method ProcessNode, addr 0x2af9230, size 0x918, virtual false, abstract: false, final false
+  /// @brief Method ProcessNode, addr 0x2b1b8bc, size 0x918, virtual false, abstract: false, final false
   inline void ProcessNode(::OVRSimpleJSON::JSONNode* node, int32_t nodeId, bool loadMips);
 
-  /// @brief Method ProcessSkin, addr 0x2afa998, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method ProcessSkin, addr 0x2b1d024, size 0x414, virtual false, abstract: false, final false
   inline void ProcessSkin(::OVRSimpleJSON::JSONNode* skinNode, ::UnityEngine::SkinnedMeshRenderer* renderer);
 
-  /// @brief Method ProcessTexture, addr 0x2afb13c, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method ProcessTexture, addr 0x2b1d7c8, size 0x4d8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTextureData ProcessTexture(int32_t textureId);
 
-  /// @brief Method ReadChunk, addr 0x2af89e4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ReadChunk, addr 0x2b1b070, size 0xac, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadChunk(::System::IO::Stream* glbStream, ::GlobalNamespace::OVRChunkType type);
 
-  /// @brief Method ReadMeshAttributes, addr 0x2afb680, size 0xb8c, virtual false, abstract: false, final false
+  /// @brief Method ReadMeshAttributes, addr 0x2b1dd0c, size 0xb8c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRMeshAttributes ReadMeshAttributes(::OVRSimpleJSON::JSONNode* jsonAttributes, int32_t totalVertexCount, int32_t vertexOffset);
 
-  /// @brief Method SetMipMapBias, addr 0x2af8fe0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetMipMapBias, addr 0x2b1b66c, size 0x1c, virtual false, abstract: false, final false
   inline void SetMipMapBias(float_t loadedTexturesMipmapBiasing);
 
-  /// @brief Method SetModelAlphaBlendShader, addr 0x2af8fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetModelAlphaBlendShader, addr 0x2b1b65c, size 0x8, virtual false, abstract: false, final false
   inline void SetModelAlphaBlendShader(::UnityEngine::Shader* shader);
 
-  /// @brief Method SetModelShader, addr 0x2af8fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetModelShader, addr 0x2b1b654, size 0x8, virtual false, abstract: false, final false
   inline void SetModelShader(::UnityEngine::Shader* shader);
 
-  /// @brief Method SetTextureQualityFiltering, addr 0x2af8fd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTextureQualityFiltering, addr 0x2b1b664, size 0x8, virtual false, abstract: false, final false
   inline void SetTextureQualityFiltering(::GlobalNamespace::OVRTextureQualityFiltering loadedTexturesQuality);
 
-  /// @brief Method TranscodeTexture, addr 0x2afc480, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method TranscodeTexture, addr 0x2b1eb0c, size 0xb4, virtual false, abstract: false, final false
   inline void TranscodeTexture(ByRef<::GlobalNamespace::OVRTextureData> textureData);
 
-  /// @brief Method ValidateChunk, addr 0x2af8a90, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ValidateChunk, addr 0x2b1b11c, size 0x148, virtual false, abstract: false, final false
   inline bool ValidateChunk(::System::IO::Stream* glbStream, ::GlobalNamespace::OVRChunkType type, ByRef<uint32_t> chunkLength);
 
-  /// @brief Method ValidateGLB, addr 0x2af87dc, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method ValidateGLB, addr 0x2b1ae68, size 0x208, virtual false, abstract: false, final false
   inline bool ValidateGLB(::System::IO::Stream* glbStream);
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_AlphaBlendShader() const;
@@ -366,10 +366,10 @@ public:
 
   constexpr void __cordl_internal_set_textureUriHandler(::System::Func_3<::StringW, ::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Texture2D>>* value);
 
-  /// @brief Method .ctor, addr 0x2af811c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b1a7a8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x2af80e4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b1a770, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW fileName);
 
   static inline ::UnityEngine::Vector3 getStaticF_GLTFToUnitySpace();

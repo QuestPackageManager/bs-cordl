@@ -141,21 +141,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x266a7bc, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2683e54, size 0x2b0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current, addr 0x266ab0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current, addr 0x26841a4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::MonoBehaviour> System_Collections_Generic_IEnumerator_UnityEngine_MonoBehaviour__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x266ab14, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26841ac, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x266ab54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26841ec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x266a704, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2683d9c, size 0xb8, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -191,13 +191,13 @@ public:
 
   constexpr void __cordl_internal_set___7__wrap2(::System::Collections::Generic::__List_1__Enumerator<::UnityW<::UnityEngine::MonoBehaviour>> value);
 
-  /// @brief Method <>m__Finally1, addr 0x266aabc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x2684154, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x266aa6c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x2684104, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method .ctor, addr 0x266a6d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2683d70, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>"
@@ -273,12 +273,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x266a670, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x2683d08, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>* GetEnumerator();
 
   static inline ::GlobalNamespace::__GridView__GridViewCellsEnumerator* New_ctor(::GlobalNamespace::GridView* gridView);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x266a700, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2683d98, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::UnityW<::GlobalNamespace::GridView> const& __cordl_internal_get__gridView() const;
@@ -287,7 +287,7 @@ public:
 
   constexpr void __cordl_internal_set__gridView(::UnityW<::GlobalNamespace::GridView> value);
 
-  /// @brief Method .ctor, addr 0x2669d2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2683444, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GridView* gridView);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>"
@@ -322,7 +322,7 @@ static_assert(offsetof(::GlobalNamespace::__GridView__GridViewCellsEnumerator, _
 
 } // namespace GlobalNamespace
 // Type: ::GridView
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GridView*
@@ -333,29 +333,32 @@ public:
 
   using IDataSource = ::GlobalNamespace::__GridView__IDataSource;
 
-  /// @brief Field _availableCellsPerPrefabDictionary, offset 0x38, size 0x8
+  /// @brief Field _availableCellsPerPrefabDictionary, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__availableCellsPerPrefabDictionary, put = __cordl_internal_set__availableCellsPerPrefabDictionary))::System::Collections::Generic::Dictionary_2<
       ::UnityW<::UnityEngine::MonoBehaviour>, ::System::Collections::Generic::Queue_1<::UnityW<::UnityEngine::MonoBehaviour>>*>* _availableCellsPerPrefabDictionary;
 
-  /// @brief Field <cellsEnumerator>k__BackingField, offset 0x20, size 0x8
+  /// @brief Field <cellsEnumerator>k__BackingField, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__cellsEnumerator_k__BackingField,
                       put = __cordl_internal_set__cellsEnumerator_k__BackingField))::GlobalNamespace::__GridView__GridViewCellsEnumerator* _cellsEnumerator_k__BackingField;
 
-  /// @brief Field _columnCount, offset 0x30, size 0x4
+  /// @brief Field _columnCount, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__columnCount, put = __cordl_internal_set__columnCount)) int32_t _columnCount;
 
   /// @brief Field _contentTransform, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__contentTransform, put = __cordl_internal_set__contentTransform))::UnityW<::UnityEngine::RectTransform> _contentTransform;
 
-  /// @brief Field _dataSource, offset 0x28, size 0x8
+  /// @brief Field _dataSource, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__dataSource, put = __cordl_internal_set__dataSource))::GlobalNamespace::__GridView__IDataSource* _dataSource;
 
-  /// @brief Field _rowCount, offset 0x34, size 0x4
+  /// @brief Field _rowCount, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__rowCount, put = __cordl_internal_set__rowCount)) int32_t _rowCount;
 
-  /// @brief Field _spawnedCellsPerPrefabDictionary, offset 0x40, size 0x8
+  /// @brief Field _spawnedCellsPerPrefabDictionary, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__spawnedCellsPerPrefabDictionary, put = __cordl_internal_set__spawnedCellsPerPrefabDictionary))::System::Collections::Generic::Dictionary_2<
       ::UnityW<::UnityEngine::MonoBehaviour>, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*>* _spawnedCellsPerPrefabDictionary;
+
+  /// @brief Field _visibleColumnCount, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__visibleColumnCount, put = __cordl_internal_set__visibleColumnCount)) int32_t _visibleColumnCount;
 
   __declspec(property(get = get_cellsEnumerator, put = set_cellsEnumerator))::GlobalNamespace::__GridView__GridViewCellsEnumerator* cellsEnumerator;
 
@@ -365,7 +368,9 @@ public:
 
   __declspec(property(get = get_rowCount)) int32_t rowCount;
 
-  /// @brief Method GetActiveCellsForIdentifier, addr 0x266a4c8, size 0xe8, virtual false, abstract: false, final false
+  __declspec(property(get = get_visibleColumnCount)) int32_t visibleColumnCount;
+
+  /// @brief Method GetActiveCellsForIdentifier, addr 0x2683b60, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* GetActiveCellsForIdentifier(::UnityEngine::MonoBehaviour* prefab);
 
   /// @brief Method GetReusableCellView, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -373,10 +378,10 @@ public:
 
   static inline ::GlobalNamespace::GridView* New_ctor();
 
-  /// @brief Method ReloadData, addr 0x2669d54, size 0x774, virtual false, abstract: false, final false
+  /// @brief Method ReloadData, addr 0x268346c, size 0x6f4, virtual false, abstract: false, final false
   inline void ReloadData();
 
-  /// @brief Method SetDataSource, addr 0x2669c94, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetDataSource, addr 0x26833ac, size 0x98, virtual false, abstract: false, final false
   inline void SetDataSource(::GlobalNamespace::__GridView__IDataSource* newDataSource, bool reloadData);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::MonoBehaviour>, ::System::Collections::Generic::Queue_1<::UnityW<::UnityEngine::MonoBehaviour>>*>*&
@@ -413,6 +418,10 @@ public:
       ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::MonoBehaviour>, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*>*> const&
   __cordl_internal_get__spawnedCellsPerPrefabDictionary() const;
 
+  constexpr int32_t const& __cordl_internal_get__visibleColumnCount() const;
+
+  constexpr int32_t& __cordl_internal_get__visibleColumnCount();
+
   constexpr void __cordl_internal_set__availableCellsPerPrefabDictionary(
       ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::MonoBehaviour>, ::System::Collections::Generic::Queue_1<::UnityW<::UnityEngine::MonoBehaviour>>*>* value);
 
@@ -429,22 +438,27 @@ public:
   constexpr void __cordl_internal_set__spawnedCellsPerPrefabDictionary(
       ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::MonoBehaviour>, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*>* value);
 
-  /// @brief Method .ctor, addr 0x266a5b0, size 0xc0, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__visibleColumnCount(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2683c48, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cellsEnumerator, addr 0x2669c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cellsEnumerator, addr 0x2683384, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GridView__GridViewCellsEnumerator* get_cellsEnumerator();
 
-  /// @brief Method get_columnCount, addr 0x2669c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnCount, addr 0x268339c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columnCount();
 
-  /// @brief Method get_dataSource, addr 0x2669c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataSource, addr 0x268337c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GridView__IDataSource* get_dataSource();
 
-  /// @brief Method get_rowCount, addr 0x2669c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rowCount, addr 0x2683394, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rowCount();
 
-  /// @brief Method set_cellsEnumerator, addr 0x2669c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visibleColumnCount, addr 0x26833a4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_visibleColumnCount();
+
+  /// @brief Method set_cellsEnumerator, addr 0x268338c, size 0x8, virtual false, abstract: false, final false
   inline void set_cellsEnumerator(::GlobalNamespace::__GridView__GridViewCellsEnumerator* value);
 
 protected:
@@ -464,44 +478,49 @@ public:
   /// @brief Field _contentTransform, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____contentTransform;
 
-  /// @brief Field <cellsEnumerator>k__BackingField, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::__GridView__GridViewCellsEnumerator* ____cellsEnumerator_k__BackingField;
-
-  /// @brief Field _dataSource, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::__GridView__IDataSource* ____dataSource;
-
-  /// @brief Field _columnCount, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _columnCount, offset: 0x20, size: 0x4, def value: None
   int32_t ____columnCount;
 
-  /// @brief Field _rowCount, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field _visibleColumnCount, offset: 0x24, size: 0x4, def value: None
+  int32_t ____visibleColumnCount;
+
+  /// @brief Field <cellsEnumerator>k__BackingField, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::__GridView__GridViewCellsEnumerator* ____cellsEnumerator_k__BackingField;
+
+  /// @brief Field _dataSource, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::__GridView__IDataSource* ____dataSource;
+
+  /// @brief Field _rowCount, offset: 0x38, size: 0x4, def value: None
   int32_t ____rowCount;
 
-  /// @brief Field _availableCellsPerPrefabDictionary, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _availableCellsPerPrefabDictionary, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::MonoBehaviour>, ::System::Collections::Generic::Queue_1<::UnityW<::UnityEngine::MonoBehaviour>>*>*
       ____availableCellsPerPrefabDictionary;
 
-  /// @brief Field _spawnedCellsPerPrefabDictionary, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _spawnedCellsPerPrefabDictionary, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::MonoBehaviour>, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*>*
       ____spawnedCellsPerPrefabDictionary;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GridView, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GridView, 0x50>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GridView, ____contentTransform) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GridView, ____cellsEnumerator_k__BackingField) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GridView, ____columnCount) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GridView, ____dataSource) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GridView, ____visibleColumnCount) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GridView, ____columnCount) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GridView, ____cellsEnumerator_k__BackingField) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GridView, ____rowCount) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GridView, ____dataSource) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GridView, ____availableCellsPerPrefabDictionary) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GridView, ____rowCount) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GridView, ____spawnedCellsPerPrefabDictionary) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GridView, ____availableCellsPerPrefabDictionary) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GridView, ____spawnedCellsPerPrefabDictionary) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GridView);

@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LaunchFriendRequestFlowResult)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class LaunchFriendRequestFlowResult;
@@ -26,7 +29,7 @@ public:
   /// @brief Field DidSendRequest, offset 0x11, size 0x1
   __declspec(property(get = __cordl_internal_get_DidSendRequest, put = __cordl_internal_set_DidSendRequest)) bool DidSendRequest;
 
-  static inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* New_ctor(::System::IntPtr o);
 
   constexpr bool const& __cordl_internal_get_DidCancel() const;
 
@@ -40,8 +43,8 @@ public:
 
   constexpr void __cordl_internal_set_DidSendRequest(bool value);
 
-  /// @brief Method .ctor, addr 0x2adc788, size 0x90, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afce14, size 0x90, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

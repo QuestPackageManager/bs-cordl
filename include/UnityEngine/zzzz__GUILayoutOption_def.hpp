@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x344f50c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3478a08, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::__GUILayoutOption__Type type, ::System::Object* value);
 
 protected:

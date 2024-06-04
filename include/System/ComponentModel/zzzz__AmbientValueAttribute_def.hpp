@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::System::Object* value);
 
-  /// @brief Method get_Value, addr 0x2f33740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2f53e30, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:

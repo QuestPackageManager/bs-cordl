@@ -31,6 +31,9 @@ namespace System {
 template <typename T> class Comparison_1;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -59,10 +62,10 @@ public:
 
   static inline ::Mono::Globalization::Unicode::__MSCompatUnicodeTable____c* New_ctor();
 
-  /// @brief Method <BuildTailoringTables>b__17_0, addr 0x279577c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <BuildTailoringTables>b__17_0, addr 0x27aede8, size 0x24, virtual false, abstract: false, final false
   inline int32_t _BuildTailoringTables_b__17_0(::Mono::Globalization::Unicode::Level2Map* a, ::Mono::Globalization::Unicode::Level2Map* b);
 
-  /// @brief Method .ctor, addr 0x2795774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27aede0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Mono::Globalization::Unicode::__MSCompatUnicodeTable____c* getStaticF___9();
@@ -161,68 +164,68 @@ public:
   static __declspec(property(get = getStaticF_tailoringInfos,
                              put = setStaticF_tailoringInfos))::ArrayW<::Mono::Globalization::Unicode::TailoringInfo*, ::Array<::Mono::Globalization::Unicode::TailoringInfo*>*> tailoringInfos;
 
-  /// @brief Method BuildTailoringTables, addr 0x2793a30, size 0x750, virtual false, abstract: false, final false
+  /// @brief Method BuildTailoringTables, addr 0x27ad09c, size 0x750, virtual false, abstract: false, final false
   static inline void BuildTailoringTables(::System::Globalization::CultureInfo* culture, ::Mono::Globalization::Unicode::TailoringInfo* t,
                                           ByRef<::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*>> contractions,
                                           ByRef<::ArrayW<::Mono::Globalization::Unicode::Level2Map*, ::Array<::Mono::Globalization::Unicode::Level2Map*>*>> diacriticals);
 
-  /// @brief Method Category, addr 0x27943b8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Category, addr 0x27ada24, size 0xa4, virtual false, abstract: false, final false
   static inline uint8_t Category(int32_t cp);
 
-  /// @brief Method FillCJK, addr 0x27950e4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method FillCJK, addr 0x27ae750, size 0x164, virtual false, abstract: false, final false
   static inline void FillCJK(::StringW culture, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ByRef<::cordl_internals::Ptr<uint8_t>> catTable,
                              ByRef<::cordl_internals::Ptr<uint8_t>> lv1Table, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer, ByRef<::cordl_internals::Ptr<uint8_t>> lv2Table);
 
-  /// @brief Method FillCJKCore, addr 0x2795248, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method FillCJKCore, addr 0x27ae8b4, size 0x4c8, virtual false, abstract: false, final false
   static inline void FillCJKCore(::StringW culture, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ByRef<::cordl_internals::Ptr<uint8_t>> catTable,
                                  ByRef<::cordl_internals::Ptr<uint8_t>> lv1Table, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkLv2Indexer,
                                  ByRef<::cordl_internals::Ptr<uint8_t>> lv2Table);
 
-  /// @brief Method GetResource, addr 0x2794b50, size 0xb8, virtual false, abstract: false, final false
-  static inline void* GetResource(::StringW name);
+  /// @brief Method GetResource, addr 0x27ae1bc, size 0xb8, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetResource(::StringW name);
 
-  /// @brief Method GetTailoringInfo, addr 0x279392c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetTailoringInfo, addr 0x27acf98, size 0x104, virtual false, abstract: false, final false
   static inline ::Mono::Globalization::Unicode::TailoringInfo* GetTailoringInfo(int32_t lcid);
 
-  /// @brief Method HasSpecialWeight, addr 0x2794964, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HasSpecialWeight, addr 0x27adfd0, size 0x80, virtual false, abstract: false, final false
   static inline bool HasSpecialWeight(char16_t c);
 
-  /// @brief Method IsHalfWidthKana, addr 0x27949e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsHalfWidthKana, addr 0x27ae050, size 0x14, virtual false, abstract: false, final false
   static inline bool IsHalfWidthKana(char16_t c);
 
-  /// @brief Method IsHiragana, addr 0x27949f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsHiragana, addr 0x27ae064, size 0x18, virtual false, abstract: false, final false
   static inline bool IsHiragana(char16_t c);
 
-  /// @brief Method IsIgnorable, addr 0x2794648, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method IsIgnorable, addr 0x27adcb4, size 0x118, virtual false, abstract: false, final false
   static inline bool IsIgnorable(int32_t cp, uint8_t flag);
 
-  /// @brief Method IsIgnorableNonSpacing, addr 0x2794760, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsIgnorableNonSpacing, addr 0x27addcc, size 0x58, virtual false, abstract: false, final false
   static inline bool IsIgnorableNonSpacing(int32_t cp);
 
-  /// @brief Method IsJapaneseSmallLetter, addr 0x2794a10, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IsJapaneseSmallLetter, addr 0x27ae07c, size 0xe8, virtual false, abstract: false, final false
   static inline bool IsJapaneseSmallLetter(char16_t c);
 
-  /// @brief Method Level1, addr 0x279445c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Level1, addr 0x27adac8, size 0xa4, virtual false, abstract: false, final false
   static inline uint8_t Level1(int32_t cp);
 
-  /// @brief Method Level2, addr 0x2794500, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Level2, addr 0x27adb6c, size 0xa4, virtual false, abstract: false, final false
   static inline uint8_t Level2(int32_t cp);
 
-  /// @brief Method Level3, addr 0x27945a4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Level3, addr 0x27adc10, size 0xa4, virtual false, abstract: false, final false
   static inline uint8_t Level3(int32_t cp);
 
-  /// @brief Method SetCJKReferences, addr 0x2794180, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method SetCJKReferences, addr 0x27ad7ec, size 0x238, virtual false, abstract: false, final false
   static inline void SetCJKReferences(::StringW name, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ByRef<::cordl_internals::Ptr<uint8_t>> catTable,
                                       ByRef<::cordl_internals::Ptr<uint8_t>> lv1Table, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer,
                                       ByRef<::cordl_internals::Ptr<uint8_t>> lv2Table);
 
-  /// @brief Method ToKanaTypeInsensitive, addr 0x27947b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ToKanaTypeInsensitive, addr 0x27ade24, size 0x20, virtual false, abstract: false, final false
   static inline int32_t ToKanaTypeInsensitive(int32_t i);
 
-  /// @brief Method ToWidthCompat, addr 0x27947d8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ToWidthCompat, addr 0x27ade44, size 0x18c, virtual false, abstract: false, final false
   static inline int32_t ToWidthCompat(int32_t i);
 
-  /// @brief Method UInt32FromBytePtr, addr 0x2794c08, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method UInt32FromBytePtr, addr 0x27ae274, size 0x30, virtual false, abstract: false, final false
   static inline uint32_t UInt32FromBytePtr(::cordl_internals::Ptr<uint8_t> raw, uint32_t idx);
 
   static inline int32_t getStaticF_MaxExpansionLength();
@@ -263,7 +266,7 @@ public:
 
   static inline ::ArrayW<::Mono::Globalization::Unicode::TailoringInfo*, ::Array<::Mono::Globalization::Unicode::TailoringInfo*>*> getStaticF_tailoringInfos();
 
-  /// @brief Method get_IsReady, addr 0x2794af8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_IsReady, addr 0x27ae164, size 0x58, virtual false, abstract: false, final false
   static inline bool get_IsReady();
 
   static inline void setStaticF_MaxExpansionLength(int32_t value);

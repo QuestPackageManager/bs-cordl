@@ -28,13 +28,13 @@ public:
   // Declarations
   static inline ::Zenject::ScriptableObjectInstaller* New_ctor();
 
-  /// @brief Method __zenCreate, addr 0x364941c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3675918, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3649478, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3675974, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x364940c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3675908, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

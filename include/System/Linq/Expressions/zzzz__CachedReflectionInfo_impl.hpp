@@ -9,9 +9,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)()>(
     &::System::Linq::Expressions::CachedReflectionInfo::get_CallSiteOps_SetNotMatched)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2be1040;
+  constexpr static std::size_t addrs = 0x2c02730;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::CachedReflectionInfo*>::get(),
                                                                                "get_CallSiteOps_SetNotMatched", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -23,9 +23,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)()>(
     &::System::Linq::Expressions::CachedReflectionInfo::get_CallSiteOps_CreateMatchmaker)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2be1108;
+  constexpr static std::size_t addrs = 0x2c027f8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::CachedReflectionInfo*>::get(), "get_CallSiteOps_CreateMatchmaker",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -38,9 +38,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)()>(
     &::System::Linq::Expressions::CachedReflectionInfo::get_CallSiteOps_GetMatch)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2be11d0;
+  constexpr static std::size_t addrs = 0x2c028c0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::CachedReflectionInfo*>::get(),
                                                                                "get_CallSiteOps_GetMatch", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -52,9 +52,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)()>(
     &::System::Linq::Expressions::CachedReflectionInfo::get_CallSiteOps_ClearMatch)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2be1298;
+  constexpr static std::size_t addrs = 0x2c02988;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::CachedReflectionInfo*>::get(),
                                                                                "get_CallSiteOps_ClearMatch", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -66,9 +66,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)()>(
     &::System::Linq::Expressions::CachedReflectionInfo::get_CallSiteOps_UpdateRules)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2be1360;
+  constexpr static std::size_t addrs = 0x2c02a50;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::CachedReflectionInfo*>::get(),
                                                                                "get_CallSiteOps_UpdateRules", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -80,9 +80,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)()>(
     &::System::Linq::Expressions::CachedReflectionInfo::get_CallSiteOps_GetRules)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2be1428;
+  constexpr static std::size_t addrs = 0x2c02b18;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::CachedReflectionInfo*>::get(),
                                                                                "get_CallSiteOps_GetRules", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -94,9 +94,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)()>(
     &::System::Linq::Expressions::CachedReflectionInfo::get_CallSiteOps_GetRuleCache)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2be14f0;
+  constexpr static std::size_t addrs = 0x2c02be0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::CachedReflectionInfo*>::get(),
                                                                                "get_CallSiteOps_GetRuleCache", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -108,9 +108,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)()>(
     &::System::Linq::Expressions::CachedReflectionInfo::get_CallSiteOps_GetCachedRules)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2be15b8;
+  constexpr static std::size_t addrs = 0x2c02ca8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::CachedReflectionInfo*>::get(),
                                                                                "get_CallSiteOps_GetCachedRules", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -122,9 +122,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)()>(
     &::System::Linq::Expressions::CachedReflectionInfo::get_CallSiteOps_AddRule)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2be1680;
+  constexpr static std::size_t addrs = 0x2c02d70;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::CachedReflectionInfo*>::get(),
                                                                                "get_CallSiteOps_AddRule", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -136,9 +136,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)()>(
     &::System::Linq::Expressions::CachedReflectionInfo::get_CallSiteOps_MoveRule)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2be1748;
+  constexpr static std::size_t addrs = 0x2c02e38;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::CachedReflectionInfo*>::get(),
                                                                                "get_CallSiteOps_MoveRule", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -149,9 +149,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)()>(&::System::Linq::Expressions::CachedReflectionInfo::get_CallSiteOps_Bind)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2be1810;
+  constexpr static std::size_t addrs = 0x2c02f00;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::CachedReflectionInfo*>::get(),
                                                                                "get_CallSiteOps_Bind", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -163,9 +163,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)()>(
     &::System::Linq::Expressions::CachedReflectionInfo::get_String_op_Equality_String_String)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x2be18d8;
+  constexpr static std::size_t addrs = 0x2c02fc8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::CachedReflectionInfo*>::get(),
                                                  "get_String_op_Equality_String_String", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -178,9 +178,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)()>(
     &::System::Linq::Expressions::CachedReflectionInfo::get_Math_Pow_Double_Double)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x2be1a60;
+  constexpr static std::size_t addrs = 0x2c03150;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::CachedReflectionInfo*>::get(),
                                                                                "get_Math_Pow_Double_Double", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;

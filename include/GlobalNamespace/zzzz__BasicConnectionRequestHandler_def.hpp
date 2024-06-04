@@ -38,12 +38,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnectionRequestHandler"
   constexpr operator ::GlobalNamespace::IConnectionRequestHandler*() noexcept;
 
-  /// @brief Method GetConnectionMessage, addr 0x1088190, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetConnectionMessage, addr 0x108e978, size 0x70, virtual true, abstract: false, final true
   inline void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
 
   static inline ::GlobalNamespace::BasicConnectionRequestHandler* New_ctor();
 
-  /// @brief Method ValidateConnectionMessage, addr 0x1088200, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method ValidateConnectionMessage, addr 0x108e9e8, size 0xbc, virtual true, abstract: false, final true
   inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
 
   constexpr ::StringW const& __cordl_internal_get__secret_k__BackingField() const;
@@ -52,16 +52,16 @@ public:
 
   constexpr void __cordl_internal_set__secret_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x10882bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x108eaa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_secret, addr 0x1088180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_secret, addr 0x108e968, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_secret();
 
   /// @brief Convert to "::GlobalNamespace::IConnectionRequestHandler"
   constexpr ::GlobalNamespace::IConnectionRequestHandler* i___GlobalNamespace__IConnectionRequestHandler() noexcept;
 
-  /// @brief Method set_secret, addr 0x1088188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_secret, addr 0x108e970, size 0x8, virtual false, abstract: false, final false
   inline void set_secret(::StringW value);
 
 protected:

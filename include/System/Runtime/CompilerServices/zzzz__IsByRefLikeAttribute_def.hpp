@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::IsByRefLikeAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x285c084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2875710, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

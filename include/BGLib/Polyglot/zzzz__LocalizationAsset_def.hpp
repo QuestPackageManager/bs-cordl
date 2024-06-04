@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method .ctor, addr 0x107d830, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1084b78, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextAsset* textAsset, ::BGLib::Polyglot::GoogleDriveDownloadFormat format);
 
-  /// @brief Method get_Format, addr 0x107d828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x1084b70, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::GoogleDriveDownloadFormat get_Format();
 
-  /// @brief Method get_TextAsset, addr 0x107d820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TextAsset, addr 0x1084b68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
 
 protected:

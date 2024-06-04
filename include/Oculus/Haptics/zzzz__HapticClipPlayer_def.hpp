@@ -57,21 +57,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2a9e724, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2abedb0, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::Oculus::Haptics::HapticClipPlayer* New_ctor(::Oculus::Haptics::HapticClip* clip);
 
-  /// @brief Method Play, addr 0x2a9da28, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x2abe0b4, size 0x20, virtual false, abstract: false, final false
   inline void Play(::Oculus::Haptics::Controller controller);
 
-  /// @brief Method Release, addr 0x2a9e660, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2abecec, size 0xa8, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method SetHaptics, addr 0x2a9d968, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method SetHaptics, addr 0x2abdff4, size 0x18, virtual true, abstract: false, final false
   inline void SetHaptics();
 
-  /// @brief Method Stop, addr 0x2a9db60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x2abe1ec, size 0x1c, virtual false, abstract: false, final false
   inline void Stop();
 
   constexpr int32_t const& __cordl_internal_get__clipId() const;
@@ -92,40 +92,40 @@ public:
 
   constexpr void __cordl_internal_set__playerId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2a9d718, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2abdda4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Oculus::Haptics::HapticClip* clip);
 
-  /// @brief Method get_amplitude, addr 0x2a9dee0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_amplitude, addr 0x2abe56c, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_amplitude();
 
-  /// @brief Method get_clipDuration, addr 0x2a9de18, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_clipDuration, addr 0x2abe4a4, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_clipDuration();
 
-  /// @brief Method get_frequencyShift, addr 0x2a9e128, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_frequencyShift, addr 0x2abe7b4, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_frequencyShift();
 
-  /// @brief Method get_isLooping, addr 0x2a9dc88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_isLooping, addr 0x2abe314, size 0x1c, virtual false, abstract: false, final false
   inline bool get_isLooping();
 
-  /// @brief Method get_priority, addr 0x2a9e36c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_priority, addr 0x2abe9f8, size 0x1c, virtual false, abstract: false, final false
   inline uint32_t get_priority();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_amplitude, addr 0x2a9dfac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_amplitude, addr 0x2abe638, size 0x1c, virtual false, abstract: false, final false
   inline void set_amplitude(float_t value);
 
-  /// @brief Method set_clip, addr 0x2a9e5e0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_clip, addr 0x2abec6c, size 0x64, virtual false, abstract: false, final false
   inline void set_clip(::Oculus::Haptics::HapticClip* value);
 
-  /// @brief Method set_frequencyShift, addr 0x2a9e1f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_frequencyShift, addr 0x2abe87c, size 0x1c, virtual false, abstract: false, final false
   inline void set_frequencyShift(float_t value);
 
-  /// @brief Method set_isLooping, addr 0x2a9dd50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_isLooping, addr 0x2abe3dc, size 0x24, virtual false, abstract: false, final false
   inline void set_isLooping(bool value);
 
-  /// @brief Method set_priority, addr 0x2a9e44c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_priority, addr 0x2abead8, size 0x20, virtual false, abstract: false, final false
   inline void set_priority(uint32_t value);
 
 protected:

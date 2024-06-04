@@ -83,13 +83,13 @@ public:
   /// @brief Field tbsCert, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_tbsCert, put = __cordl_internal_set_tbsCert))::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* tbsCert;
 
-  /// @brief Method GetInstance, addr 0x13ffb44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x14073b4, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x13ffb5c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x14073cc, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetSignatureOctets, addr 0x13fff00, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureOctets, addr 0x1407770, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignatureOctets();
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -97,7 +97,7 @@ public:
   static inline ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* New_ctor(::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* tbsCert,
                                                                                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgID, ::Org::BouncyCastle::Asn1::DerBitString* sig);
 
-  /// @brief Method ToAsn1Object, addr 0x13fff20, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x1407790, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __cordl_internal_get_sig();
@@ -118,40 +118,40 @@ public:
 
   constexpr void __cordl_internal_set_tbsCert(::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* value);
 
-  /// @brief Method .ctor, addr 0x13ffc00, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1407470, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x13ffd4c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14075bc, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* tbsCert, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgID, ::Org::BouncyCastle::Asn1::DerBitString* sig);
 
-  /// @brief Method get_EndDate, addr 0x13ffe9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_EndDate, addr 0x140770c, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_EndDate();
 
-  /// @brief Method get_Issuer, addr 0x13ffe64, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x14076d4, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_SerialNumber, addr 0x13ffe48, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x14076b8, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SerialNumber();
 
-  /// @brief Method get_Signature, addr 0x13ffef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x1407768, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_Signature();
 
-  /// @brief Method get_SignatureAlgorithm, addr 0x13ffef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgorithm, addr 0x1407760, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
 
-  /// @brief Method get_StartDate, addr 0x13ffe80, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_StartDate, addr 0x14076f0, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_StartDate();
 
-  /// @brief Method get_Subject, addr 0x13ffeb8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Subject, addr 0x1407728, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
 
-  /// @brief Method get_SubjectPublicKeyInfo, addr 0x13ffed4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectPublicKeyInfo, addr 0x1407744, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_SubjectPublicKeyInfo();
 
-  /// @brief Method get_TbsCertificate, addr 0x13ffe28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TbsCertificate, addr 0x1407698, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* get_TbsCertificate();
 
-  /// @brief Method get_Version, addr 0x13ffe30, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x14076a0, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
 protected:

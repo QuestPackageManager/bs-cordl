@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::NavigationSubmitEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35a811c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d3618, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

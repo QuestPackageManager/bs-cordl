@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationStream)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace UnityEngine::Animations {
 struct AnimationStream;
@@ -25,32 +28,33 @@ public:
   // @brief default ctor
   constexpr AnimationStream();
 
-  // Ctor Parameters [CppParam { name: "m_AnimatorBindingsVersion", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "constant", ty: "void*", modifiers: "", def_value: None },
-  // CppParam { name: "input", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "output", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "workspace", ty: "void*",
-  // modifiers: "", def_value: None }, CppParam { name: "inputStreamAccessor", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "animationHandleBinder", ty: "void*", modifiers: "",
-  // def_value: None }]
-  constexpr AnimationStream(uint32_t m_AnimatorBindingsVersion, void* constant, void* input, void* output, void* workspace, void* inputStreamAccessor, void* animationHandleBinder) noexcept;
+  // Ctor Parameters [CppParam { name: "m_AnimatorBindingsVersion", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "constant", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None }, CppParam { name: "input", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "output", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name:
+  // "workspace", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "inputStreamAccessor", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name:
+  // "animationHandleBinder", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr AnimationStream(uint32_t m_AnimatorBindingsVersion, ::System::IntPtr constant, ::System::IntPtr input, ::System::IntPtr output, ::System::IntPtr workspace,
+                            ::System::IntPtr inputStreamAccessor, ::System::IntPtr animationHandleBinder) noexcept;
 
   /// @brief Field m_AnimatorBindingsVersion, offset: 0x0, size: 0x4, def value: None
   uint32_t m_AnimatorBindingsVersion;
 
   /// @brief Field constant, offset: 0x8, size: 0x8, def value: None
-  void* constant;
+  ::System::IntPtr constant;
 
   /// @brief Field input, offset: 0x10, size: 0x8, def value: None
-  void* input;
+  ::System::IntPtr input;
 
   /// @brief Field output, offset: 0x18, size: 0x8, def value: None
-  void* output;
+  ::System::IntPtr output;
 
   /// @brief Field workspace, offset: 0x20, size: 0x8, def value: None
-  void* workspace;
+  ::System::IntPtr workspace;
 
   /// @brief Field inputStreamAccessor, offset: 0x28, size: 0x8, def value: None
-  void* inputStreamAccessor;
+  ::System::IntPtr inputStreamAccessor;
 
   /// @brief Field animationHandleBinder, offset: 0x30, size: 0x8, def value: None
-  void* animationHandleBinder;
+  ::System::IntPtr animationHandleBinder;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

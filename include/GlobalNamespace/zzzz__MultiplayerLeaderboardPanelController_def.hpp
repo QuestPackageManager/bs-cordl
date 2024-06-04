@@ -36,10 +36,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerLeaderboardPanelController* New_ctor();
 
-  /// @brief Method Start, addr 0x26e0d40, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26f82c0, size 0x60, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x26e0dcc, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26f834c, size 0x248, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>, ::Array<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>>*> const& __cordl_internal_get__items() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
 
-  /// @brief Method .ctor, addr 0x26e12e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f8864, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

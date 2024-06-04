@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetFileDeleteResult)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class AssetFileDeleteResult;
@@ -33,7 +36,7 @@ public:
   /// @brief Field Success, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_Success, put = __cordl_internal_set_Success)) bool Success;
 
-  static inline ::Oculus::Platform::Models::AssetFileDeleteResult* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::AssetFileDeleteResult* New_ctor(::System::IntPtr o);
 
   constexpr uint64_t const& __cordl_internal_get_AssetFileId() const;
 
@@ -59,8 +62,8 @@ public:
 
   constexpr void __cordl_internal_set_Success(bool value);
 
-  /// @brief Method .ctor, addr 0x2adab78, size 0xac, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afb204, size 0xac, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

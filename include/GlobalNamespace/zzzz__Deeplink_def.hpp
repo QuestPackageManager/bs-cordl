@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(Deeplink)
 // Forward declare root types
 namespace GlobalNamespace {
@@ -14,7 +13,7 @@ class Deeplink;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Deeplink);
 // Type: ::Deeplink
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::Deeplink*
@@ -36,14 +35,14 @@ public:
   /// @brief Field MultiplayerLobbyCode, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_MultiplayerLobbyCode, put = __cordl_internal_set_MultiplayerLobbyCode))::StringW MultiplayerLobbyCode;
 
-  /// @brief Field MultiplayerRoomId, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_MultiplayerRoomId, put = __cordl_internal_set_MultiplayerRoomId)) uint64_t MultiplayerRoomId;
-
   /// @brief Field MultiplayerSecret, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_MultiplayerSecret, put = __cordl_internal_set_MultiplayerSecret))::StringW MultiplayerSecret;
 
   /// @brief Field PackID, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_PackID, put = __cordl_internal_set_PackID))::StringW PackID;
+
+  /// @brief Method FromJson, addr 0x14a2684, size 0x48, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::Deeplink* FromJson(::StringW jsonDeeplink);
 
   static inline ::GlobalNamespace::Deeplink* New_ctor();
 
@@ -67,10 +66,6 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_MultiplayerLobbyCode();
 
-  constexpr uint64_t const& __cordl_internal_get_MultiplayerRoomId() const;
-
-  constexpr uint64_t& __cordl_internal_get_MultiplayerRoomId();
-
   constexpr ::StringW const& __cordl_internal_get_MultiplayerSecret() const;
 
   constexpr ::StringW& __cordl_internal_get_MultiplayerSecret();
@@ -89,13 +84,11 @@ public:
 
   constexpr void __cordl_internal_set_MultiplayerLobbyCode(::StringW value);
 
-  constexpr void __cordl_internal_set_MultiplayerRoomId(uint64_t value);
-
   constexpr void __cordl_internal_set_MultiplayerSecret(::StringW value);
 
   constexpr void __cordl_internal_set_PackID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x149cda8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a26cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,13 +126,10 @@ public:
   /// @brief Field MultiplayerSecret, offset: 0x40, size: 0x8, def value: None
   ::StringW ___MultiplayerSecret;
 
-  /// @brief Field MultiplayerRoomId, offset: 0x48, size: 0x8, def value: None
-  uint64_t ___MultiplayerRoomId;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Deeplink, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Deeplink, 0x48>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::Deeplink, ___Destination) == 0x10, "Offset mismatch!");
 
@@ -154,8 +144,6 @@ static_assert(offsetof(::GlobalNamespace::Deeplink, ___Characteristic) == 0x30, 
 static_assert(offsetof(::GlobalNamespace::Deeplink, ___MultiplayerLobbyCode) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::Deeplink, ___MultiplayerSecret) == 0x40, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::Deeplink, ___MultiplayerRoomId) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Deeplink);

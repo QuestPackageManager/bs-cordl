@@ -34,7 +34,7 @@ public:
   static inline ::Zenject::FactoryFromBinderUntyped* New_ctor(::Zenject::DiContainer* bindContainer, ::System::Type* contractType, ::Zenject::BindInfo* bindInfo,
                                                               ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method .ctor, addr 0x3620738, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x364bc34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::System::Type* contractType, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
 protected:

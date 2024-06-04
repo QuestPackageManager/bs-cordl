@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextNative)
+namespace System {
+struct IntPtr;
+}
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
@@ -40,54 +43,54 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE TextNative : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ComputeTextHeight, addr 0x35f99b4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ComputeTextHeight, addr 0x3624eb0, size 0x108, virtual false, abstract: false, final false
   static inline float_t ComputeTextHeight(::UnityEngine::UIElements::TextNativeSettings settings);
 
-  /// @brief Method ComputeTextScaling, addr 0x35f9ed0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ComputeTextScaling, addr 0x36253cc, size 0xfc, virtual false, abstract: false, final false
   static inline float_t ComputeTextScaling(::UnityEngine::Matrix4x4 worldMatrix, float_t pixelsPerPoint);
 
-  /// @brief Method ComputeTextWidth, addr 0x35f9870, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ComputeTextWidth, addr 0x3624d6c, size 0x108, virtual false, abstract: false, final false
   static inline float_t ComputeTextWidth(::UnityEngine::UIElements::TextNativeSettings settings);
 
-  /// @brief Method DoComputeTextHeight, addr 0x35f9abc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DoComputeTextHeight, addr 0x3624fb8, size 0x3c, virtual false, abstract: false, final false
   static inline float_t DoComputeTextHeight(::UnityEngine::UIElements::TextNativeSettings settings);
 
-  /// @brief Method DoComputeTextHeight_Injected, addr 0x35fa008, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DoComputeTextHeight_Injected, addr 0x3625504, size 0x3c, virtual false, abstract: false, final false
   static inline float_t DoComputeTextHeight_Injected(ByRef<::UnityEngine::UIElements::TextNativeSettings> settings);
 
-  /// @brief Method DoComputeTextWidth, addr 0x35f9978, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DoComputeTextWidth, addr 0x3624e74, size 0x3c, virtual false, abstract: false, final false
   static inline float_t DoComputeTextWidth(::UnityEngine::UIElements::TextNativeSettings settings);
 
-  /// @brief Method DoComputeTextWidth_Injected, addr 0x35f9fcc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DoComputeTextWidth_Injected, addr 0x36254c8, size 0x3c, virtual false, abstract: false, final false
   static inline float_t DoComputeTextWidth_Injected(ByRef<::UnityEngine::UIElements::TextNativeSettings> settings);
 
-  /// @brief Method DoGetCursorPosition, addr 0x35f9808, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method DoGetCursorPosition, addr 0x3624d04, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 DoGetCursorPosition(::UnityEngine::UIElements::TextNativeSettings settings, ::UnityEngine::Rect rect, int32_t cursorPosition);
 
-  /// @brief Method DoGetCursorPosition_Injected, addr 0x35fa044, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method DoGetCursorPosition_Injected, addr 0x3625540, size 0x5c, virtual false, abstract: false, final false
   static inline void DoGetCursorPosition_Injected(ByRef<::UnityEngine::UIElements::TextNativeSettings> settings, ByRef<::UnityEngine::Rect> rect, int32_t cursorPosition,
                                                   ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method DoGetOffset, addr 0x35f9e74, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method DoGetOffset, addr 0x3625370, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 DoGetOffset(::UnityEngine::UIElements::TextNativeSettings settings, ::UnityEngine::Rect rect);
 
-  /// @brief Method DoGetOffset_Injected, addr 0x35fa0fc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DoGetOffset_Injected, addr 0x36255f8, size 0x54, virtual false, abstract: false, final false
   static inline void DoGetOffset_Injected(ByRef<::UnityEngine::UIElements::TextNativeSettings> settings, ByRef<::UnityEngine::Rect> rect, ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method GetCursorPosition, addr 0x35f96c4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetCursorPosition, addr 0x3624bc0, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetCursorPosition(::UnityEngine::UIElements::TextNativeSettings settings, ::UnityEngine::Rect rect, int32_t cursorIndex);
 
-  /// @brief Method GetOffset, addr 0x35f9d44, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetOffset, addr 0x3625240, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetOffset(::UnityEngine::UIElements::TextNativeSettings settings, ::UnityEngine::Rect screenRect);
 
-  /// @brief Method GetVertices, addr 0x35f9af8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method GetVertices, addr 0x3624ff4, size 0x1f0, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::TextVertex> GetVertices(::UnityEngine::UIElements::TextNativeSettings settings);
 
-  /// @brief Method GetVertices, addr 0x35f9ce8, size 0x5c, virtual false, abstract: false, final false
-  static inline void GetVertices(::UnityEngine::UIElements::TextNativeSettings settings, void* buffer, int32_t vertexSize, ByRef<int32_t> vertexCount);
+  /// @brief Method GetVertices, addr 0x36251e4, size 0x5c, virtual false, abstract: false, final false
+  static inline void GetVertices(::UnityEngine::UIElements::TextNativeSettings settings, ::System::IntPtr buffer, int32_t vertexSize, ByRef<int32_t> vertexCount);
 
-  /// @brief Method GetVertices_Injected, addr 0x35fa0a0, size 0x5c, virtual false, abstract: false, final false
-  static inline void GetVertices_Injected(ByRef<::UnityEngine::UIElements::TextNativeSettings> settings, void* buffer, int32_t vertexSize, ByRef<int32_t> vertexCount);
+  /// @brief Method GetVertices_Injected, addr 0x362559c, size 0x5c, virtual false, abstract: false, final false
+  static inline void GetVertices_Injected(ByRef<::UnityEngine::UIElements::TextNativeSettings> settings, ::System::IntPtr buffer, int32_t vertexSize, ByRef<int32_t> vertexCount);
 
 protected:
   // Ctor Parameters []

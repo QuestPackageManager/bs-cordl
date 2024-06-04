@@ -36,7 +36,7 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x282757c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x2841c08, size 0x68, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
   static inline ::System::Runtime::Remoting::Messaging::CallContextRemotingData* New_ctor();
@@ -47,19 +47,19 @@ public:
 
   constexpr void __cordl_internal_set__logicalCallID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2827758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2841de4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HasInfo, addr 0x282764c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasInfo, addr 0x2841cd8, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasInfo();
 
-  /// @brief Method get_LogicalCallID, addr 0x2827748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LogicalCallID, addr 0x2841dd4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LogicalCallID();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_LogicalCallID, addr 0x2827750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LogicalCallID, addr 0x2841ddc, size 0x8, virtual false, abstract: false, final false
   inline void set_LogicalCallID(::StringW value);
 
 protected:

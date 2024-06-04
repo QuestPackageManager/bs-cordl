@@ -70,7 +70,7 @@ public:
                                                                         ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix,
                                                                         ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft);
 
-  /// @brief Method OpcodeBacktracks, addr 0x2f92e94, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OpcodeBacktracks, addr 0x2fb1584, size 0x30, virtual false, abstract: false, final false
   static inline bool OpcodeBacktracks(int32_t Op);
 
   constexpr int32_t const& __cordl_internal_get_Anchors() const;
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set_TrackCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2f92dc4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fb14b4, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> codes, ::System::Collections::Generic::List_1<::StringW>* stringlist, int32_t trackcount, ::System::Collections::Hashtable* caps,
                     int32_t capsize, ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix, ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors,
                     bool rightToLeft);

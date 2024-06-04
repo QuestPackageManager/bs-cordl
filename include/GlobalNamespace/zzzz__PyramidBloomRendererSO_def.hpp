@@ -229,16 +229,16 @@ public:
 
   static inline ::GlobalNamespace::PyramidBloomRendererSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x24e3d88, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x24fdb60, size 0x24, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x24e3c78, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x24fda50, size 0x110, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RenderBloom, addr 0x24e3dac, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method RenderBloom, addr 0x24fdb84, size 0x90, virtual false, abstract: false, final false
   inline void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t radius, bool alphaWeights, bool betterQuality, bool gammaCorrection, bool legacyAutoExposure);
 
-  /// @brief Method RenderBloom, addr 0x24e3e3c, size 0x81c, virtual false, abstract: false, final false
+  /// @brief Method RenderBloom, addr 0x24fdc14, size 0x81c, virtual false, abstract: false, final false
   inline void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t radius, float_t intensity, float_t autoExposureLimit, float_t downIntensityOffset,
                           bool uniformPyramidWeights, bool downsampleOnFirstPass, float_t pyramidWeightsParam, float_t alphaWeights, float_t firstUpsampleBrightness, float_t finalUpsampleBrightness,
                           ::GlobalNamespace::__PyramidBloomRendererSO__Pass preFilterPass, ::GlobalNamespace::__PyramidBloomRendererSO__Pass downsamplePass,
@@ -281,7 +281,7 @@ public:
 
   constexpr void __cordl_internal_set_kLegacyAutoExposureKeyword(::StringW value);
 
-  /// @brief Method .ctor, addr 0x24e4658, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fe430, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__alphaWeightsID();

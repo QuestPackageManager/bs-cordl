@@ -47,17 +47,17 @@ public:
   /// @brief Field iv, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_iv, put = __cordl_internal_set_iv))::Org::BouncyCastle::Asn1::Asn1OctetString* iv;
 
-  /// @brief Method GetIV, addr 0x11e96cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetIV, addr 0x11eff3c, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
 
-  /// @brief Method GetInstance, addr 0x11e9528, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11efd98, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterations);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x11e96ec, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11eff5c, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_iterations();
@@ -72,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x11e938c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11efbfc, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterations);
 
-  /// @brief Method .ctor, addr 0x11e9440, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11efcb0, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Iterations, addr 0x11e96b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Iterations, addr 0x11eff20, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Iterations();
 
 protected:

@@ -21,15 +21,15 @@ namespace Org::BouncyCastle::Pkcs {
 class CORDL_TYPE Pkcs12Utilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToDefiniteLength, addr 0x1347ad4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ConvertToDefiniteLength, addr 0x1350344, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertToDefiniteLength(::ArrayW<uint8_t, ::Array<uint8_t>*> berPkcs12File);
 
-  /// @brief Method ConvertToDefiniteLength, addr 0x1347b70, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method ConvertToDefiniteLength, addr 0x13503e0, size 0x46c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertToDefiniteLength(::ArrayW<uint8_t, ::Array<uint8_t>*> berPkcs12File, ::ArrayW<char16_t, ::Array<char16_t>*> passwd);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs12Utilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1347fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x135084c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

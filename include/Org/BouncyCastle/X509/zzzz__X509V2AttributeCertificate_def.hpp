@@ -99,43 +99,43 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::X509::IX509Extension"
   constexpr operator ::Org::BouncyCastle::X509::IX509Extension*() noexcept;
 
-  /// @brief Method CheckSignature, addr 0x13e7050, size 0x4bc, virtual true, abstract: false, final false
+  /// @brief Method CheckSignature, addr 0x13ed8c0, size 0x4bc, virtual true, abstract: false, final false
   inline void CheckSignature(::Org::BouncyCastle::Crypto::IVerifierFactory* verifier);
 
-  /// @brief Method CheckValidity, addr 0x13e6c8c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CheckValidity, addr 0x13ed4fc, size 0x6c, virtual true, abstract: false, final false
   inline void CheckValidity();
 
-  /// @brief Method CheckValidity, addr 0x13e6cf8, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method CheckValidity, addr 0x13ed568, size 0x1c8, virtual true, abstract: false, final false
   inline void CheckValidity(::System::DateTime date);
 
-  /// @brief Method Equals, addr 0x13e7aec, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x13ee35c, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetAttributes, addr 0x13e754c, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x13eddbc, size 0x168, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::X509::X509Attribute*, ::Array<::Org::BouncyCastle::X509::X509Attribute*>*> GetAttributes();
 
-  /// @brief Method GetAttributes, addr 0x13e76b4, size 0x438, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x13edf24, size 0x438, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::X509::X509Attribute*, ::Array<::Org::BouncyCastle::X509::X509Attribute*>*> GetAttributes(::StringW oid);
 
-  /// @brief Method GetEncoded, addr 0x13e750c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x13edd7c, size 0x1c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetHashCode, addr 0x13e7b9c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x13ee40c, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetIssuerUniqueID, addr 0x13e6a40, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method GetIssuerUniqueID, addr 0x13ed2b0, size 0x110, virtual true, abstract: false, final false
   inline ::ArrayW<bool, ::Array<bool>*> GetIssuerUniqueID();
 
-  /// @brief Method GetObject, addr 0x13e66b4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetObject, addr 0x13ecf24, size 0x124, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* GetObject(::System::IO::Stream* input);
 
-  /// @brief Method GetSignature, addr 0x13e6edc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x13ed74c, size 0x1c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignature();
 
-  /// @brief Method GetX509Extensions, addr 0x13e7528, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetX509Extensions, addr 0x13edd98, size 0x24, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
-  /// @brief Method IsValid, addr 0x13e6bbc, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x13ed42c, size 0xd0, virtual true, abstract: false, final false
   inline bool IsValid(::System::DateTime date);
 
   static inline ::Org::BouncyCastle::X509::X509V2AttributeCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* cert);
@@ -144,10 +144,10 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509V2AttributeCertificate* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
-  /// @brief Method Verify, addr 0x13e6ef8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Verify, addr 0x13ed768, size 0x90, virtual true, abstract: false, final false
   inline void Verify(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method Verify, addr 0x13e6f88, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Verify, addr 0x13ed7f8, size 0xc8, virtual true, abstract: false, final false
   inline void Verify(::Org::BouncyCastle::Crypto::IVerifierFactoryProvider* verifierProvider);
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AttributeCertificate*& __cordl_internal_get_cert();
@@ -168,37 +168,37 @@ public:
 
   constexpr void __cordl_internal_set_notBefore(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x13d9cd8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13e0548, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* cert);
 
-  /// @brief Method .ctor, addr 0x13e67d8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13ed048, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* encIn);
 
-  /// @brief Method .ctor, addr 0x13e67f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13ed068, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
-  /// @brief Method get_Holder, addr 0x13e68d8, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method get_Holder, addr 0x13ed148, size 0xe0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::X509::AttributeCertificateHolder* get_Holder();
 
-  /// @brief Method get_IsValidNow, addr 0x13e6b50, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_IsValidNow, addr 0x13ed3c0, size 0x6c, virtual true, abstract: false, final false
   inline bool get_IsValidNow();
 
-  /// @brief Method get_Issuer, addr 0x13e69b8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x13ed228, size 0x78, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::X509::AttributeCertificateIssuer* get_Issuer();
 
-  /// @brief Method get_NotAfter, addr 0x13e6a38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NotAfter, addr 0x13ed2a8, size 0x8, virtual true, abstract: false, final false
   inline ::System::DateTime get_NotAfter();
 
-  /// @brief Method get_NotBefore, addr 0x13e6a30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NotBefore, addr 0x13ed2a0, size 0x8, virtual true, abstract: false, final false
   inline ::System::DateTime get_NotBefore();
 
-  /// @brief Method get_SerialNumber, addr 0x13e68ac, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x13ed11c, size 0x2c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
-  /// @brief Method get_SignatureAlgorithm, addr 0x13e6ec0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_SignatureAlgorithm, addr 0x13ed730, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
 
-  /// @brief Method get_Version, addr 0x13e6878, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_Version, addr 0x13ed0e8, size 0x34, virtual true, abstract: false, final false
   inline int32_t get_Version();
 
   /// @brief Convert to "::Org::BouncyCastle::X509::IX509AttributeCertificate"

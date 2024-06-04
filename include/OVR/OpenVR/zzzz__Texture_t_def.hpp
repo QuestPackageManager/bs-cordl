@@ -15,6 +15,9 @@ struct EColorSpace;
 namespace OVR::OpenVR {
 struct ETextureType;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct Texture_t;
@@ -33,12 +36,12 @@ public:
   // @brief default ctor
   constexpr Texture_t();
 
-  // Ctor Parameters [CppParam { name: "handle", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "eType", ty: "::OVR::OpenVR::ETextureType", modifiers: "", def_value: None }, CppParam
-  // { name: "eColorSpace", ty: "::OVR::OpenVR::EColorSpace", modifiers: "", def_value: None }]
-  constexpr Texture_t(void* handle, ::OVR::OpenVR::ETextureType eType, ::OVR::OpenVR::EColorSpace eColorSpace) noexcept;
+  // Ctor Parameters [CppParam { name: "handle", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "eType", ty: "::OVR::OpenVR::ETextureType", modifiers: "", def_value: None
+  // }, CppParam { name: "eColorSpace", ty: "::OVR::OpenVR::EColorSpace", modifiers: "", def_value: None }]
+  constexpr Texture_t(::System::IntPtr handle, ::OVR::OpenVR::ETextureType eType, ::OVR::OpenVR::EColorSpace eColorSpace) noexcept;
 
   /// @brief Field handle, offset: 0x0, size: 0x8, def value: None
-  void* handle;
+  ::System::IntPtr handle;
 
   /// @brief Field eType, offset: 0x8, size: 0x4, def value: None
   ::OVR::OpenVR::ETextureType eType;

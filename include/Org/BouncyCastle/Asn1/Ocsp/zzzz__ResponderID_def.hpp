@@ -50,20 +50,20 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x11e1018, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11e7888, size 0x1c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x11e0d3c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11e75ac, size 0x1ec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetKeyHash, addr 0x11e1034, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetKeyHash, addr 0x11e78a4, size 0x88, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetKeyHash();
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* id);
 
-  /// @brief Method ToAsn1Object, addr 0x11e116c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11e79dc, size 0xc0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_id();
@@ -72,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x11e0f28, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e7798, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
-  /// @brief Method .ctor, addr 0x11e0fa0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e7810, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* id);
 
-  /// @brief Method get_Name, addr 0x11e10bc, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x11e792c, size 0xb0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Name();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

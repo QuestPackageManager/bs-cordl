@@ -97,43 +97,43 @@ public:
 
   constexpr void __cordl_internal_set_serverKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14a2a7c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a827c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(bool succeeded, ::StringW playerId, ::StringW playerName, ::StringW playerKey, ::StringW authType, ::StringW playerFriends);
 
-  /// @brief Method get_authType, addr 0x14a2a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_authType, addr 0x14a8248, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_authType();
 
-  /// @brief Method get_playerFriends, addr 0x14a2a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerFriends, addr 0x14a8258, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerFriends();
 
-  /// @brief Method get_playerId, addr 0x14a2a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerId, addr 0x14a8218, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerId();
 
-  /// @brief Method get_playerKey, addr 0x14a2a38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerKey, addr 0x14a8238, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerKey();
 
-  /// @brief Method get_playerName, addr 0x14a2a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerName, addr 0x14a8228, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerName();
 
-  /// @brief Method get_succeeded, addr 0x14a2a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_succeeded, addr 0x14a8268, size 0x8, virtual false, abstract: false, final false
   inline bool get_succeeded();
 
-  /// @brief Method set_authType, addr 0x14a2a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_authType, addr 0x14a8250, size 0x8, virtual false, abstract: false, final false
   inline void set_authType(::StringW value);
 
-  /// @brief Method set_playerFriends, addr 0x14a2a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerFriends, addr 0x14a8260, size 0x8, virtual false, abstract: false, final false
   inline void set_playerFriends(::StringW value);
 
-  /// @brief Method set_playerId, addr 0x14a2a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerId, addr 0x14a8220, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(::StringW value);
 
-  /// @brief Method set_playerKey, addr 0x14a2a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerKey, addr 0x14a8240, size 0x8, virtual false, abstract: false, final false
   inline void set_playerKey(::StringW value);
 
-  /// @brief Method set_playerName, addr 0x14a2a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerName, addr 0x14a8230, size 0x8, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
-  /// @brief Method set_succeeded, addr 0x14a2a70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_succeeded, addr 0x14a8270, size 0xc, virtual false, abstract: false, final false
   inline void set_succeeded(bool value);
 
 protected:

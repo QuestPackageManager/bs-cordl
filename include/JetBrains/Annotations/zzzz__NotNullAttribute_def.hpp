@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::JetBrains::Annotations::NotNullAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33d5ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x363a0c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

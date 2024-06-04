@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_alert(::Mono::Security::Interface::Alert* value);
 
-  /// @brief Method .ctor, addr 0x27813f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x279aa64, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::Alert* alert, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x278146c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x279aad8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::AlertDescription description, ::StringW message);
 
 protected:

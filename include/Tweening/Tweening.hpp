@@ -5,6 +5,8 @@ module;
 #pragma once
 #include "Tweening/ColorTween.hpp"
 #include "Tweening/FloatTween.hpp"
+#include "Tweening/FrameParity.hpp"
+#include "Tweening/FrameParityExtensions.hpp"
 #include "Tweening/SongTimeTweeningManager.hpp"
 #include "Tweening/TimeTweeningManager.hpp"
 #include "Tweening/Tween.hpp"

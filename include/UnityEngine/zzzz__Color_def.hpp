@@ -52,94 +52,94 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Equals, addr 0x34186b4, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3442ba8, size 0xd4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x3418788, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3442c7c, size 0x80, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Color other);
 
-  /// @brief Method GetHashCode, addr 0x3418630, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3442b24, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method HSVToRGB, addr 0x3418f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HSVToRGB, addr 0x34433f4, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color HSVToRGB(float_t H, float_t S, float_t V);
 
-  /// @brief Method HSVToRGB, addr 0x3418f08, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method HSVToRGB, addr 0x34433fc, size 0x14c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color HSVToRGB(float_t H, float_t S, float_t V, bool hdr);
 
-  /// @brief Method Lerp, addr 0x3418904, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x3442df8, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color Lerp(::UnityEngine::Color a, ::UnityEngine::Color b, float_t t);
 
-  /// @brief Method LerpUnclamped, addr 0x3418950, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method LerpUnclamped, addr 0x3442e44, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color LerpUnclamped(::UnityEngine::Color a, ::UnityEngine::Color b, float_t t);
 
-  /// @brief Method RGBMultiplied, addr 0x3418988, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RGBMultiplied, addr 0x3442e7c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color RGBMultiplied(float_t multiplier);
 
-  /// @brief Method RGBToHSV, addr 0x3418d7c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method RGBToHSV, addr 0x3443270, size 0x114, virtual false, abstract: false, final false
   static inline void RGBToHSV(::UnityEngine::Color rgbColor, ByRef<float_t> H, ByRef<float_t> S, ByRef<float_t> V);
 
-  /// @brief Method RGBToHSVHelper, addr 0x3418e90, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method RGBToHSVHelper, addr 0x3443384, size 0x70, virtual false, abstract: false, final false
   static inline void RGBToHSVHelper(float_t offset, float_t dominantcolor, float_t colorone, float_t colortwo, ByRef<float_t> H, ByRef<float_t> S, ByRef<float_t> V);
 
-  /// @brief Method ToString, addr 0x3418414, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3442908, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x3418628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3442b1c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW ToString(::StringW format);
 
-  /// @brief Method ToString, addr 0x3418420, size 0x208, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x3442914, size 0x208, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x3418400, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34428f4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t r, float_t g, float_t b);
 
-  /// @brief Method .ctor, addr 0x34183f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34428e8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t r, float_t g, float_t b, float_t a);
 
-  /// @brief Method get_Item, addr 0x3418bcc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x34430c0, size 0xd8, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t index);
 
-  /// @brief Method get_black, addr 0x34189f4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_black, addr 0x3442ee8, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_black();
 
-  /// @brief Method get_blue, addr 0x34189cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_blue, addr 0x3442ec0, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_blue();
 
-  /// @brief Method get_clear, addr 0x3418a74, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_clear, addr 0x3442f68, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_clear();
 
-  /// @brief Method get_cyan, addr 0x3418a24, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_cyan, addr 0x3442f18, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_cyan();
 
-  /// @brief Method get_gray, addr 0x3418a4c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_gray, addr 0x3442f40, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_gray();
 
-  /// @brief Method get_grayscale, addr 0x3418a88, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_grayscale, addr 0x3442f7c, size 0x38, virtual false, abstract: false, final false
   inline float_t get_grayscale();
 
-  /// @brief Method get_green, addr 0x34189b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_green, addr 0x3442eac, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_green();
 
-  /// @brief Method get_grey, addr 0x3418a60, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_grey, addr 0x3442f54, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_grey();
 
-  /// @brief Method get_linear, addr 0x3418ac0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_linear, addr 0x3442fb4, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_linear();
 
-  /// @brief Method get_magenta, addr 0x3418a38, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_magenta, addr 0x3442f2c, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_magenta();
 
-  /// @brief Method get_maxColorComponent, addr 0x3418ba8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_maxColorComponent, addr 0x344309c, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_maxColorComponent();
 
-  /// @brief Method get_red, addr 0x34189a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_red, addr 0x3442e98, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_red();
 
-  /// @brief Method get_white, addr 0x34189e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_white, addr 0x3442ed4, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_white();
 
-  /// @brief Method get_yellow, addr 0x3418a08, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_yellow, addr 0x3442efc, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_yellow();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Color>"
@@ -148,37 +148,37 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Addition, addr 0x3418808, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x3442cfc, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Addition(::UnityEngine::Color a, ::UnityEngine::Color b);
 
-  /// @brief Method op_Division, addr 0x3418870, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x3442d64, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Division(::UnityEngine::Color a, float_t b);
 
-  /// @brief Method op_Equality, addr 0x3418884, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3442d78, size 0x40, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Color lhs, ::UnityEngine::Color rhs);
 
-  /// @brief Method op_Implicit, addr 0x3418bc8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x34430bc, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Implicit___UnityEngine__Color(::UnityEngine::Vector4 v);
 
-  /// @brief Method op_Implicit, addr 0x3418bc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x34430b8, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 op_Implicit___UnityEngine__Vector4(::UnityEngine::Color c);
 
-  /// @brief Method op_Inequality, addr 0x34188c4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3442db8, size 0x40, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Color lhs, ::UnityEngine::Color rhs);
 
-  /// @brief Method op_Multiply, addr 0x3418830, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x3442d24, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Multiply(::UnityEngine::Color a, ::UnityEngine::Color b);
 
-  /// @brief Method op_Multiply, addr 0x3418844, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x3442d38, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Multiply(::UnityEngine::Color a, float_t b);
 
-  /// @brief Method op_Multiply, addr 0x3418858, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x3442d4c, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Multiply(float_t b, ::UnityEngine::Color a);
 
-  /// @brief Method op_Subtraction, addr 0x341881c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x3442d10, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Subtraction(::UnityEngine::Color a, ::UnityEngine::Color b);
 
-  /// @brief Method set_Item, addr 0x3418ca4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x3443198, size 0xd8, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, float_t value);
 
   // Ctor Parameters []

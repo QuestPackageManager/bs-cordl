@@ -123,13 +123,13 @@ public:
 
   constexpr void __cordl_internal_set__wrapper(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x260d244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2624eb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_menuEnvironmentType, addr 0x260d234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menuEnvironmentType, addr 0x2624ea0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType get_menuEnvironmentType();
 
-  /// @brief Method get_wrapper, addr 0x260d23c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wrapper, addr 0x2624ea8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_wrapper();
 
 protected:
@@ -184,10 +184,10 @@ public:
 
   static inline ::GlobalNamespace::MenuEnvironmentManager* New_ctor();
 
-  /// @brief Method ShowEnvironmentType, addr 0x260d0ac, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ShowEnvironmentType, addr 0x2624d18, size 0x180, virtual false, abstract: false, final false
   inline void ShowEnvironmentType(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType menuEnvironmentType);
 
-  /// @brief Method Start, addr 0x260d0a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2624d10, size 0x8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects*, ::Array<::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects*>*> const&
@@ -205,7 +205,7 @@ public:
 
   constexpr void __cordl_internal_set__prevMenuEnvironmentType(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType value);
 
-  /// @brief Method .ctor, addr 0x260d22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2624e98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

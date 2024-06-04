@@ -74,10 +74,10 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c* New_ctor();
 
-  /// @brief Method <Start>b__6_0, addr 0x305d264, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__6_0, addr 0x3079a0c, size 0x9c, virtual false, abstract: false, final false
   inline bool _Start_b__6_0(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp);
 
-  /// @brief Method .ctor, addr 0x305d25c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3079a04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c* getStaticF___9();
@@ -125,7 +125,7 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::__UpdateCatalogsOperation____c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <OnCleanCacheCompleted>b__0, addr 0x305d300, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method <OnCleanCacheCompleted>b__0, addr 0x3079aa8, size 0x190, virtual false, abstract: false, final false
   inline void _OnCleanCacheCompleted_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> obj);
 
   constexpr ::UnityEngine::AddressableAssets::UpdateCatalogsOperation*& __cordl_internal_get___4__this();
@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set_catalogs(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* value);
 
-  /// @brief Method .ctor, addr 0x305d1f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3079998, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -205,25 +205,25 @@ public:
   __declspec(property(get = __cordl_internal_get_m_LocatorInfos,
                       put = __cordl_internal_set_m_LocatorInfos))::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* m_LocatorInfos;
 
-  /// @brief Method Destroy, addr 0x305ca24, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Destroy, addr 0x30791cc, size 0x74, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Execute, addr 0x305cbc0, size 0x558, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x3079368, size 0x558, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method GetDependencies, addr 0x305ca98, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x3079240, size 0x128, virtual true, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* dependencies);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x305c874, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x307901c, size 0x1b0, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::AddressableAssets::UpdateCatalogsOperation* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
 
-  /// @brief Method OnCleanCacheCompleted, addr 0x305d118, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnCleanCacheCompleted, addr 0x30798c0, size 0xd8, virtual false, abstract: false, final false
   inline void OnCleanCacheCompleted(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> handle,
                                     ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* catalogs);
 
-  /// @brief Method Start, addr 0x3057b74, size 0x6f4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x307431c, size 0x6f4, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*>
   Start(::System::Collections::Generic::IEnumerable_1<::StringW>* catalogIds, bool autoCleanBundleCache);
 
@@ -264,7 +264,7 @@ public:
 
   constexpr void __cordl_internal_set_m_LocatorInfos(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x3057b18, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30742c0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
 
 protected:

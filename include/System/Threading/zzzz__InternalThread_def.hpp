@@ -37,7 +37,7 @@ public:
   __declspec(property(get = __cordl_internal_get_abort_exc, put = __cordl_internal_set_abort_exc))::System::Object* abort_exc;
 
   /// @brief Field abort_protected_block_count, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_abort_protected_block_count, put = __cordl_internal_set_abort_protected_block_count)) void* abort_protected_block_count;
+  __declspec(property(get = __cordl_internal_get_abort_protected_block_count, put = __cordl_internal_set_abort_protected_block_count))::System::IntPtr abort_protected_block_count;
 
   /// @brief Field abort_state_handle, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_abort_state_handle, put = __cordl_internal_set_abort_state_handle)) int32_t abort_state_handle;
@@ -46,7 +46,7 @@ public:
   __declspec(property(get = __cordl_internal_get_apartment_state, put = __cordl_internal_set_apartment_state)) uint8_t apartment_state;
 
   /// @brief Field appdomain_refs, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_appdomain_refs, put = __cordl_internal_set_appdomain_refs)) void* appdomain_refs;
+  __declspec(property(get = __cordl_internal_get_appdomain_refs, put = __cordl_internal_set_appdomain_refs))::System::IntPtr appdomain_refs;
 
   /// @brief Field critical_region_level, offset 0xb4, size 0x4
   __declspec(property(get = __cordl_internal_get_critical_region_level, put = __cordl_internal_set_critical_region_level)) int32_t critical_region_level;
@@ -55,34 +55,34 @@ public:
   __declspec(property(get = __cordl_internal_get_current_appcontext, put = __cordl_internal_set_current_appcontext))::System::Object* current_appcontext;
 
   /// @brief Field debugger_thread, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_debugger_thread, put = __cordl_internal_set_debugger_thread)) void* debugger_thread;
+  __declspec(property(get = __cordl_internal_get_debugger_thread, put = __cordl_internal_set_debugger_thread))::System::IntPtr debugger_thread;
 
   /// @brief Field flags, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags)) void* flags;
+  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags))::System::IntPtr flags;
 
   /// @brief Field handle, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_handle, put = __cordl_internal_set_handle)) void* handle;
+  __declspec(property(get = __cordl_internal_get_handle, put = __cordl_internal_set_handle))::System::IntPtr handle;
 
   /// @brief Field interruption_requested, offset 0x98, size 0x4
   __declspec(property(get = __cordl_internal_get_interruption_requested, put = __cordl_internal_set_interruption_requested)) int32_t interruption_requested;
 
   /// @brief Field last, offset 0x120, size 0x8
-  __declspec(property(get = __cordl_internal_get_last, put = __cordl_internal_set_last)) void* last;
+  __declspec(property(get = __cordl_internal_get_last, put = __cordl_internal_set_last))::System::IntPtr last;
 
   /// @brief Field lock_thread_id, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_lock_thread_id, put = __cordl_internal_set_lock_thread_id)) int32_t lock_thread_id;
 
   /// @brief Field longlived, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_longlived, put = __cordl_internal_set_longlived)) void* longlived;
+  __declspec(property(get = __cordl_internal_get_longlived, put = __cordl_internal_set_longlived))::System::IntPtr longlived;
 
   /// @brief Field manage_callback, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_manage_callback, put = __cordl_internal_set_manage_callback)) void* manage_callback;
+  __declspec(property(get = __cordl_internal_get_manage_callback, put = __cordl_internal_set_manage_callback))::System::IntPtr manage_callback;
 
   /// @brief Field managed_id, offset 0xb8, size 0x4
   __declspec(property(get = __cordl_internal_get_managed_id, put = __cordl_internal_set_managed_id)) int32_t managed_id;
 
   /// @brief Field name_chars, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_name_chars, put = __cordl_internal_set_name_chars)) void* name_chars;
+  __declspec(property(get = __cordl_internal_get_name_chars, put = __cordl_internal_set_name_chars))::System::IntPtr name_chars;
 
   /// @brief Field name_free, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_name_free, put = __cordl_internal_set_name_free)) int32_t name_free;
@@ -91,19 +91,19 @@ public:
   __declspec(property(get = __cordl_internal_get_name_length, put = __cordl_internal_set_name_length)) int32_t name_length;
 
   /// @brief Field native_handle, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_native_handle, put = __cordl_internal_set_native_handle)) void* native_handle;
+  __declspec(property(get = __cordl_internal_get_native_handle, put = __cordl_internal_set_native_handle))::System::IntPtr native_handle;
 
   /// @brief Field netcore0, offset 0x108, size 0x8
-  __declspec(property(get = __cordl_internal_get_netcore0, put = __cordl_internal_set_netcore0)) void* netcore0;
+  __declspec(property(get = __cordl_internal_get_netcore0, put = __cordl_internal_set_netcore0))::System::IntPtr netcore0;
 
   /// @brief Field netcore1, offset 0x110, size 0x8
-  __declspec(property(get = __cordl_internal_get_netcore1, put = __cordl_internal_set_netcore1)) void* netcore1;
+  __declspec(property(get = __cordl_internal_get_netcore1, put = __cordl_internal_set_netcore1))::System::IntPtr netcore1;
 
   /// @brief Field netcore2, offset 0x118, size 0x8
-  __declspec(property(get = __cordl_internal_get_netcore2, put = __cordl_internal_set_netcore2)) void* netcore2;
+  __declspec(property(get = __cordl_internal_get_netcore2, put = __cordl_internal_set_netcore2))::System::IntPtr netcore2;
 
   /// @brief Field owned_mutex, offset 0xe8, size 0x8
-  __declspec(property(get = __cordl_internal_get_owned_mutex, put = __cordl_internal_set_owned_mutex)) void* owned_mutex;
+  __declspec(property(get = __cordl_internal_get_owned_mutex, put = __cordl_internal_set_owned_mutex))::System::IntPtr owned_mutex;
 
   /// @brief Field priority, offset 0xe0, size 0x4
   __declspec(property(get = __cordl_internal_get_priority, put = __cordl_internal_set_priority)) int32_t priority;
@@ -112,7 +112,7 @@ public:
   __declspec(property(get = __cordl_internal_get_root_domain_thread, put = __cordl_internal_set_root_domain_thread))::System::Object* root_domain_thread;
 
   /// @brief Field runtime_thread_info, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_runtime_thread_info, put = __cordl_internal_set_runtime_thread_info)) void* runtime_thread_info;
+  __declspec(property(get = __cordl_internal_get_runtime_thread_info, put = __cordl_internal_set_runtime_thread_info))::System::IntPtr runtime_thread_info;
 
   /// @brief Field self_suspended, offset 0xf8, size 0x4
   __declspec(property(get = __cordl_internal_get_self_suspended, put = __cordl_internal_set_self_suspended)) int32_t self_suspended;
@@ -127,10 +127,10 @@ public:
   __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Threading::ThreadState state;
 
   /// @brief Field static_data, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_static_data, put = __cordl_internal_set_static_data)) void* static_data;
+  __declspec(property(get = __cordl_internal_get_static_data, put = __cordl_internal_set_static_data))::System::UIntPtr static_data;
 
   /// @brief Field suspended_event, offset 0xf0, size 0x8
-  __declspec(property(get = __cordl_internal_get_suspended_event, put = __cordl_internal_set_suspended_event)) void* suspended_event;
+  __declspec(property(get = __cordl_internal_get_suspended_event, put = __cordl_internal_set_suspended_event))::System::IntPtr suspended_event;
 
   /// @brief Field thread_id, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_thread_id, put = __cordl_internal_set_thread_id)) int64_t thread_id;
@@ -139,20 +139,20 @@ public:
   __declspec(property(get = __cordl_internal_get_thread_interrupt_requested, put = __cordl_internal_set_thread_interrupt_requested)) bool thread_interrupt_requested;
 
   /// @brief Field thread_pinning_ref, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get_thread_pinning_ref, put = __cordl_internal_set_thread_pinning_ref)) void* thread_pinning_ref;
+  __declspec(property(get = __cordl_internal_get_thread_pinning_ref, put = __cordl_internal_set_thread_pinning_ref))::System::IntPtr thread_pinning_ref;
 
   /// @brief Field thread_state, offset 0x100, size 0x8
-  __declspec(property(get = __cordl_internal_get_thread_state, put = __cordl_internal_set_thread_state)) void* thread_state;
+  __declspec(property(get = __cordl_internal_get_thread_state, put = __cordl_internal_set_thread_state))::System::IntPtr thread_state;
 
   /// @brief Field threadpool_thread, offset 0xa8, size 0x1
   __declspec(property(get = __cordl_internal_get_threadpool_thread, put = __cordl_internal_set_threadpool_thread)) bool threadpool_thread;
 
-  /// @brief Method Finalize, addr 0x29a7264, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x29c38f0, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Threading::InternalThread* New_ctor();
 
-  /// @brief Method Thread_free_internal, addr 0x29a7260, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Thread_free_internal, addr 0x29c38ec, size 0x4, virtual false, abstract: false, final false
   inline void Thread_free_internal();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__serialized_principal() const;
@@ -167,9 +167,9 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_abort_exc() const;
 
-  constexpr void* const& __cordl_internal_get_abort_protected_block_count() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_abort_protected_block_count() const;
 
-  constexpr void*& __cordl_internal_get_abort_protected_block_count();
+  constexpr ::System::IntPtr& __cordl_internal_get_abort_protected_block_count();
 
   constexpr int32_t const& __cordl_internal_get_abort_state_handle() const;
 
@@ -179,9 +179,9 @@ public:
 
   constexpr uint8_t& __cordl_internal_get_apartment_state();
 
-  constexpr void* const& __cordl_internal_get_appdomain_refs() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_appdomain_refs() const;
 
-  constexpr void*& __cordl_internal_get_appdomain_refs();
+  constexpr ::System::IntPtr& __cordl_internal_get_appdomain_refs();
 
   constexpr int32_t const& __cordl_internal_get_critical_region_level() const;
 
@@ -191,45 +191,45 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_current_appcontext() const;
 
-  constexpr void* const& __cordl_internal_get_debugger_thread() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_debugger_thread() const;
 
-  constexpr void*& __cordl_internal_get_debugger_thread();
+  constexpr ::System::IntPtr& __cordl_internal_get_debugger_thread();
 
-  constexpr void* const& __cordl_internal_get_flags() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_flags() const;
 
-  constexpr void*& __cordl_internal_get_flags();
+  constexpr ::System::IntPtr& __cordl_internal_get_flags();
 
-  constexpr void* const& __cordl_internal_get_handle() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_handle() const;
 
-  constexpr void*& __cordl_internal_get_handle();
+  constexpr ::System::IntPtr& __cordl_internal_get_handle();
 
   constexpr int32_t const& __cordl_internal_get_interruption_requested() const;
 
   constexpr int32_t& __cordl_internal_get_interruption_requested();
 
-  constexpr void* const& __cordl_internal_get_last() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_last() const;
 
-  constexpr void*& __cordl_internal_get_last();
+  constexpr ::System::IntPtr& __cordl_internal_get_last();
 
   constexpr int32_t const& __cordl_internal_get_lock_thread_id() const;
 
   constexpr int32_t& __cordl_internal_get_lock_thread_id();
 
-  constexpr void* const& __cordl_internal_get_longlived() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_longlived() const;
 
-  constexpr void*& __cordl_internal_get_longlived();
+  constexpr ::System::IntPtr& __cordl_internal_get_longlived();
 
-  constexpr void* const& __cordl_internal_get_manage_callback() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_manage_callback() const;
 
-  constexpr void*& __cordl_internal_get_manage_callback();
+  constexpr ::System::IntPtr& __cordl_internal_get_manage_callback();
 
   constexpr int32_t const& __cordl_internal_get_managed_id() const;
 
   constexpr int32_t& __cordl_internal_get_managed_id();
 
-  constexpr void* const& __cordl_internal_get_name_chars() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_name_chars() const;
 
-  constexpr void*& __cordl_internal_get_name_chars();
+  constexpr ::System::IntPtr& __cordl_internal_get_name_chars();
 
   constexpr int32_t const& __cordl_internal_get_name_free() const;
 
@@ -239,25 +239,25 @@ public:
 
   constexpr int32_t& __cordl_internal_get_name_length();
 
-  constexpr void* const& __cordl_internal_get_native_handle() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_native_handle() const;
 
-  constexpr void*& __cordl_internal_get_native_handle();
+  constexpr ::System::IntPtr& __cordl_internal_get_native_handle();
 
-  constexpr void* const& __cordl_internal_get_netcore0() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_netcore0() const;
 
-  constexpr void*& __cordl_internal_get_netcore0();
+  constexpr ::System::IntPtr& __cordl_internal_get_netcore0();
 
-  constexpr void* const& __cordl_internal_get_netcore1() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_netcore1() const;
 
-  constexpr void*& __cordl_internal_get_netcore1();
+  constexpr ::System::IntPtr& __cordl_internal_get_netcore1();
 
-  constexpr void* const& __cordl_internal_get_netcore2() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_netcore2() const;
 
-  constexpr void*& __cordl_internal_get_netcore2();
+  constexpr ::System::IntPtr& __cordl_internal_get_netcore2();
 
-  constexpr void* const& __cordl_internal_get_owned_mutex() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_owned_mutex() const;
 
-  constexpr void*& __cordl_internal_get_owned_mutex();
+  constexpr ::System::IntPtr& __cordl_internal_get_owned_mutex();
 
   constexpr int32_t const& __cordl_internal_get_priority() const;
 
@@ -267,9 +267,9 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_root_domain_thread() const;
 
-  constexpr void* const& __cordl_internal_get_runtime_thread_info() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_runtime_thread_info() const;
 
-  constexpr void*& __cordl_internal_get_runtime_thread_info();
+  constexpr ::System::IntPtr& __cordl_internal_get_runtime_thread_info();
 
   constexpr int32_t const& __cordl_internal_get_self_suspended() const;
 
@@ -287,13 +287,13 @@ public:
 
   constexpr ::System::Threading::ThreadState& __cordl_internal_get_state();
 
-  constexpr void* const& __cordl_internal_get_static_data() const;
+  constexpr ::System::UIntPtr const& __cordl_internal_get_static_data() const;
 
-  constexpr void*& __cordl_internal_get_static_data();
+  constexpr ::System::UIntPtr& __cordl_internal_get_static_data();
 
-  constexpr void* const& __cordl_internal_get_suspended_event() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_suspended_event() const;
 
-  constexpr void*& __cordl_internal_get_suspended_event();
+  constexpr ::System::IntPtr& __cordl_internal_get_suspended_event();
 
   constexpr int64_t const& __cordl_internal_get_thread_id() const;
 
@@ -303,13 +303,13 @@ public:
 
   constexpr bool& __cordl_internal_get_thread_interrupt_requested();
 
-  constexpr void* const& __cordl_internal_get_thread_pinning_ref() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_thread_pinning_ref() const;
 
-  constexpr void*& __cordl_internal_get_thread_pinning_ref();
+  constexpr ::System::IntPtr& __cordl_internal_get_thread_pinning_ref();
 
-  constexpr void* const& __cordl_internal_get_thread_state() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_thread_state() const;
 
-  constexpr void*& __cordl_internal_get_thread_state();
+  constexpr ::System::IntPtr& __cordl_internal_get_thread_state();
 
   constexpr bool const& __cordl_internal_get_threadpool_thread() const;
 
@@ -321,57 +321,57 @@ public:
 
   constexpr void __cordl_internal_set_abort_exc(::System::Object* value);
 
-  constexpr void __cordl_internal_set_abort_protected_block_count(void* value);
+  constexpr void __cordl_internal_set_abort_protected_block_count(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_abort_state_handle(int32_t value);
 
   constexpr void __cordl_internal_set_apartment_state(uint8_t value);
 
-  constexpr void __cordl_internal_set_appdomain_refs(void* value);
+  constexpr void __cordl_internal_set_appdomain_refs(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_critical_region_level(int32_t value);
 
   constexpr void __cordl_internal_set_current_appcontext(::System::Object* value);
 
-  constexpr void __cordl_internal_set_debugger_thread(void* value);
+  constexpr void __cordl_internal_set_debugger_thread(::System::IntPtr value);
 
-  constexpr void __cordl_internal_set_flags(void* value);
+  constexpr void __cordl_internal_set_flags(::System::IntPtr value);
 
-  constexpr void __cordl_internal_set_handle(void* value);
+  constexpr void __cordl_internal_set_handle(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_interruption_requested(int32_t value);
 
-  constexpr void __cordl_internal_set_last(void* value);
+  constexpr void __cordl_internal_set_last(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_lock_thread_id(int32_t value);
 
-  constexpr void __cordl_internal_set_longlived(void* value);
+  constexpr void __cordl_internal_set_longlived(::System::IntPtr value);
 
-  constexpr void __cordl_internal_set_manage_callback(void* value);
+  constexpr void __cordl_internal_set_manage_callback(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_managed_id(int32_t value);
 
-  constexpr void __cordl_internal_set_name_chars(void* value);
+  constexpr void __cordl_internal_set_name_chars(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_name_free(int32_t value);
 
   constexpr void __cordl_internal_set_name_length(int32_t value);
 
-  constexpr void __cordl_internal_set_native_handle(void* value);
+  constexpr void __cordl_internal_set_native_handle(::System::IntPtr value);
 
-  constexpr void __cordl_internal_set_netcore0(void* value);
+  constexpr void __cordl_internal_set_netcore0(::System::IntPtr value);
 
-  constexpr void __cordl_internal_set_netcore1(void* value);
+  constexpr void __cordl_internal_set_netcore1(::System::IntPtr value);
 
-  constexpr void __cordl_internal_set_netcore2(void* value);
+  constexpr void __cordl_internal_set_netcore2(::System::IntPtr value);
 
-  constexpr void __cordl_internal_set_owned_mutex(void* value);
+  constexpr void __cordl_internal_set_owned_mutex(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_priority(int32_t value);
 
   constexpr void __cordl_internal_set_root_domain_thread(::System::Object* value);
 
-  constexpr void __cordl_internal_set_runtime_thread_info(void* value);
+  constexpr void __cordl_internal_set_runtime_thread_info(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_self_suspended(int32_t value);
 
@@ -381,21 +381,21 @@ public:
 
   constexpr void __cordl_internal_set_state(::System::Threading::ThreadState value);
 
-  constexpr void __cordl_internal_set_static_data(void* value);
+  constexpr void __cordl_internal_set_static_data(::System::UIntPtr value);
 
-  constexpr void __cordl_internal_set_suspended_event(void* value);
+  constexpr void __cordl_internal_set_suspended_event(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_thread_id(int64_t value);
 
   constexpr void __cordl_internal_set_thread_interrupt_requested(bool value);
 
-  constexpr void __cordl_internal_set_thread_pinning_ref(void* value);
+  constexpr void __cordl_internal_set_thread_pinning_ref(::System::IntPtr value);
 
-  constexpr void __cordl_internal_set_thread_state(void* value);
+  constexpr void __cordl_internal_set_thread_state(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_threadpool_thread(bool value);
 
-  /// @brief Method .ctor, addr 0x29a72f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c3984, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -416,13 +416,13 @@ public:
   int32_t ___lock_thread_id;
 
   /// @brief Field handle, offset: 0x18, size: 0x8, def value: None
-  void* ___handle;
+  ::System::IntPtr ___handle;
 
   /// @brief Field native_handle, offset: 0x20, size: 0x8, def value: None
-  void* ___native_handle;
+  ::System::IntPtr ___native_handle;
 
   /// @brief Field name_chars, offset: 0x28, size: 0x8, def value: None
-  void* ___name_chars;
+  ::System::IntPtr ___name_chars;
 
   /// @brief Field name_free, offset: 0x30, size: 0x4, def value: None
   int32_t ___name_free;
@@ -443,13 +443,13 @@ public:
   int64_t ___thread_id;
 
   /// @brief Field debugger_thread, offset: 0x58, size: 0x8, def value: None
-  void* ___debugger_thread;
+  ::System::IntPtr ___debugger_thread;
 
   /// @brief Field static_data, offset: 0x60, size: 0x8, def value: None
-  void* ___static_data;
+  ::System::UIntPtr ___static_data;
 
   /// @brief Field runtime_thread_info, offset: 0x68, size: 0x8, def value: None
-  void* ___runtime_thread_info;
+  ::System::IntPtr ___runtime_thread_info;
 
   /// @brief Field current_appcontext, offset: 0x70, size: 0x8, def value: None
   ::System::Object* ___current_appcontext;
@@ -464,13 +464,13 @@ public:
   int32_t ____serialized_principal_version;
 
   /// @brief Field appdomain_refs, offset: 0x90, size: 0x8, def value: None
-  void* ___appdomain_refs;
+  ::System::IntPtr ___appdomain_refs;
 
   /// @brief Field interruption_requested, offset: 0x98, size: 0x4, def value: None
   int32_t ___interruption_requested;
 
   /// @brief Field longlived, offset: 0xa0, size: 0x8, def value: None
-  void* ___longlived;
+  ::System::IntPtr ___longlived;
 
   /// @brief Field threadpool_thread, offset: 0xa8, size: 0x1, def value: None
   bool ___threadpool_thread;
@@ -494,43 +494,43 @@ public:
   int32_t ___small_id;
 
   /// @brief Field manage_callback, offset: 0xc0, size: 0x8, def value: None
-  void* ___manage_callback;
+  ::System::IntPtr ___manage_callback;
 
   /// @brief Field flags, offset: 0xc8, size: 0x8, def value: None
-  void* ___flags;
+  ::System::IntPtr ___flags;
 
   /// @brief Field thread_pinning_ref, offset: 0xd0, size: 0x8, def value: None
-  void* ___thread_pinning_ref;
+  ::System::IntPtr ___thread_pinning_ref;
 
   /// @brief Field abort_protected_block_count, offset: 0xd8, size: 0x8, def value: None
-  void* ___abort_protected_block_count;
+  ::System::IntPtr ___abort_protected_block_count;
 
   /// @brief Field priority, offset: 0xe0, size: 0x4, def value: None
   int32_t ___priority;
 
   /// @brief Field owned_mutex, offset: 0xe8, size: 0x8, def value: None
-  void* ___owned_mutex;
+  ::System::IntPtr ___owned_mutex;
 
   /// @brief Field suspended_event, offset: 0xf0, size: 0x8, def value: None
-  void* ___suspended_event;
+  ::System::IntPtr ___suspended_event;
 
   /// @brief Field self_suspended, offset: 0xf8, size: 0x4, def value: None
   int32_t ___self_suspended;
 
   /// @brief Field thread_state, offset: 0x100, size: 0x8, def value: None
-  void* ___thread_state;
+  ::System::IntPtr ___thread_state;
 
   /// @brief Field netcore0, offset: 0x108, size: 0x8, def value: None
-  void* ___netcore0;
+  ::System::IntPtr ___netcore0;
 
   /// @brief Field netcore1, offset: 0x110, size: 0x8, def value: None
-  void* ___netcore1;
+  ::System::IntPtr ___netcore1;
 
   /// @brief Field netcore2, offset: 0x118, size: 0x8, def value: None
-  void* ___netcore2;
+  ::System::IntPtr ___netcore2;
 
   /// @brief Field last, offset: 0x120, size: 0x8, def value: None
-  void* ___last;
+  ::System::IntPtr ___last;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

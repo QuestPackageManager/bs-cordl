@@ -46,39 +46,39 @@ public:
   /// @brief Field rightLinePointer, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_rightLinePointer, put = __cordl_internal_set_rightLinePointer))::UnityW<::UnityEngine::LineRenderer> rightLinePointer;
 
-  /// @brief Method Awake, addr 0x2af0af8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2b12184, size 0xdc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x2af1120, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2b127ac, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::OVRControllerDrivenHandPosesSample* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2af0e4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2b124d8, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x2af0e54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2b124e0, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2af0e50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2b124dc, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToControllerConforming, addr 0x2af0ca4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToControllerConforming, addr 0x2b12330, size 0xd4, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToControllerConforming();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToNatural, addr 0x2af0d78, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToNatural, addr 0x2b12404, size 0xd4, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToNatural();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToNone, addr 0x2af0bd4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToNone, addr 0x2b12260, size 0xd0, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToNone();
 
-  /// @brief Method Update, addr 0x2af0e58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2b124e4, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateLineRenderer, addr 0x2af0e5c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method UpdateLineRenderer, addr 0x2b124e8, size 0x50, virtual false, abstract: false, final false
   inline void UpdateLineRenderer();
 
-  /// @brief Method UpdateLineRendererForHand, addr 0x2af0eac, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method UpdateLineRendererForHand, addr 0x2b12538, size 0x274, virtual false, abstract: false, final false
   inline void UpdateLineRendererForHand(bool isLeft);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_buttonConforming() const;
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set_rightLinePointer(::UnityW<::UnityEngine::LineRenderer> value);
 
-  /// @brief Method .ctor, addr 0x2af1124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b127b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

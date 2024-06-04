@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithHttpTransferUpdate)
 namespace Oculus::Platform::Models {
 class HttpTransferUpdate;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithHttpTransferUpdate;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithHttpTransferUpdate : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::HttpTransferUpdate*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2aca540, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::HttpTransferUpdate* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2aeabcc, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::HttpTransferUpdate* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetHttpTransferUpdate, addr 0x2aca504, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetHttpTransferUpdate, addr 0x2aeab90, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::HttpTransferUpdate* GetHttpTransferUpdate();
 
-  static inline ::Oculus::Platform::MessageWithHttpTransferUpdate* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithHttpTransferUpdate* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac5d3c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae63c8, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

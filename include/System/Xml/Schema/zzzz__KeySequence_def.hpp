@@ -49,18 +49,18 @@ public:
   /// @brief Field posline, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_posline, put = __cordl_internal_set_posline)) int32_t posline;
 
-  /// @brief Method Equals, addr 0x2ef7bcc, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2f192bc, size 0xec, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x2ef7878, size 0x354, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2f18f68, size 0x354, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsQualified, addr 0x2ef7818, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsQualified, addr 0x2f18f08, size 0x60, virtual false, abstract: false, final false
   inline bool IsQualified();
 
   static inline ::System::Xml::Schema::KeySequence* New_ctor(int32_t dim, int32_t line, int32_t col);
 
-  /// @brief Method ToString, addr 0x2ef7cb8, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2f193a8, size 0x12c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_dim() const;
@@ -93,19 +93,19 @@ public:
 
   constexpr void __cordl_internal_set_posline(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2ef6ce4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f183d4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t dim, int32_t line, int32_t col);
 
-  /// @brief Method get_Item, addr 0x2ef76f0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2f18de0, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(int32_t index);
 
-  /// @brief Method get_PosCol, addr 0x2ef76e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PosCol, addr 0x2f18dd8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PosCol();
 
-  /// @brief Method get_PosLine, addr 0x2ef76e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PosLine, addr 0x2f18dd0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PosLine();
 
-  /// @brief Method set_Item, addr 0x2ef7720, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x2f18e10, size 0xf8, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, ::System::Object* value);
 
 protected:

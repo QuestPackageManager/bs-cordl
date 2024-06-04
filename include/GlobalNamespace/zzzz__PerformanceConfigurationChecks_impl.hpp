@@ -172,7 +172,8 @@ constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__OculusXRConfig::_
 // name: "mirrorGraphicsSettings", ty: "::BeatSaber::PerformancePresets::MirrorQualityPreset", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxNumberOfCutSoundEffects", ty: "int32_t",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "maxShockwaveParticles", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "burnMarkTrailsEnabled", ty: "bool",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "smokeGraphicsSettings", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "screenDisplacementEffectsEnabled", ty:
-// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "obstaclesQuality", ty: "::BeatSaber::PerformancePresets::ObstaclesQuality", modifiers: "", def_value: Some("{}") }]
+// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "obstaclesQuality", ty: "::BeatSaber::PerformancePresets::ObstaclesQuality", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "cpuLevel", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "gpuLevel", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig::__PerformanceConfigurationChecks__GameConfig(
     ::UnityEngine::Vector3 roomCenter, double_t roomRotation, ::UnityEngine::Vector3 controllerPosition, ::UnityEngine::Vector3 controllerRotation, bool hapticFeedback, bool smoothCameraEnabled,
     double_t smoothCameraFieldOfView, double_t smoothCameraPositionSmooth, double_t smoothCameraRotationSmooth, bool smoothCameraThirdPersonEnabled,
@@ -182,8 +183,8 @@ constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig::__Per
     ::BeatSaber::GameSettings::WindowMode windowMode, ::StringW performancePresetKey, double_t renderViewportScale, double_t targetFramerate, int32_t vSyncCount, int32_t maxQueuedFrames,
     double_t vrResolutionScale, double_t menuVRResolutionScaleMultiplier, int32_t antiAliasingLevel, ::BeatSaber::PerformancePresets::BloomPrepassTextureEffectPreset bloomPrePassTextureEffect,
     ::BeatSaber::PerformancePresets::MainEffectPreset mainEffectGraphicsSettings, ::BeatSaber::PerformancePresets::MirrorQualityPreset mirrorGraphicsSettings, int32_t maxNumberOfCutSoundEffects,
-    int32_t maxShockwaveParticles, bool burnMarkTrailsEnabled, bool smokeGraphicsSettings, bool screenDisplacementEffectsEnabled,
-    ::BeatSaber::PerformancePresets::ObstaclesQuality obstaclesQuality) noexcept {
+    int32_t maxShockwaveParticles, bool burnMarkTrailsEnabled, bool smokeGraphicsSettings, bool screenDisplacementEffectsEnabled, ::BeatSaber::PerformancePresets::ObstaclesQuality obstaclesQuality,
+    int32_t cpuLevel, int32_t gpuLevel) noexcept {
   this->roomCenter = roomCenter;
   this->roomRotation = roomRotation;
   this->controllerPosition = controllerPosition;
@@ -228,6 +229,8 @@ constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig::__Per
   this->smokeGraphicsSettings = smokeGraphicsSettings;
   this->screenDisplacementEffectsEnabled = screenDisplacementEffectsEnabled;
   this->obstaclesQuality = obstaclesQuality;
+  this->cpuLevel = cpuLevel;
+  this->gpuLevel = gpuLevel;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig::__PerformanceConfigurationChecks__GameConfig() {}
@@ -282,9 +285,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(
     &::GlobalNamespace::PerformanceConfigurationChecks::IsValid)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x268914c;
+  constexpr static std::size_t addrs = 0x26a256c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),
                                                                                "IsValid", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -296,9 +299,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(
     &::GlobalNamespace::PerformanceConfigurationChecks::CreateErrorLog)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x26891a8;
+  constexpr static std::size_t addrs = 0x26a25c8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),
                                                                                "CreateErrorLog", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -310,10 +313,10 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)(
     ::BeatSaber::GameSettings::MainSettingsHandler*, ::BeatSaber::GameSettings::GraphicSettingsHandler*, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::PerformanceConfigurationChecks::SetExpected)> {
-  constexpr static std::size_t size = 0xad0;
-  constexpr static std::size_t addrs = 0x2689444;
+  constexpr static std::size_t size = 0x6f4;
+  constexpr static std::size_t addrs = 0x26a2864;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(), "SetExpected", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::MainSettingsHandler*>::get(),
@@ -329,10 +332,10 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)(
     ::BeatSaber::GameSettings::MainSettingsHandler*, ::BeatSaber::GameSettings::GraphicSettingsHandler*, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::PerformanceConfigurationChecks::VerifyExpected)> {
-  constexpr static std::size_t size = 0x1e58;
-  constexpr static std::size_t addrs = 0x2689f14;
+  constexpr static std::size_t size = 0x1cb4;
+  constexpr static std::size_t addrs = 0x26a3008;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(), "VerifyExpected", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::MainSettingsHandler*>::get(),
@@ -348,9 +351,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(
     &::GlobalNamespace::PerformanceConfigurationChecks::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x268bd6c;
+  constexpr static std::size_t addrs = 0x26a4cbc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -465,19 +468,19 @@ inline ::StringW GlobalNamespace::PerformanceConfigurationChecks::CreateErrorLog
                                                                              "CreateErrorLog", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::PerformanceConfigurationChecks::SetExpected(::BeatSaber::GameSettings::MainSettingsHandler* mainSettings,
-                                                                         ::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings,
-                                                                         ::GlobalNamespace::GameplayModifierMask modifiers) {
+inline bool GlobalNamespace::PerformanceConfigurationChecks::SetExpected(::BeatSaber::GameSettings::MainSettingsHandler* mainSettingsHandler,
+                                                                         ::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettingsHandler,
+                                                                         ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(), "SetExpected", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::MainSettingsHandler*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::GraphicSettingsHandler*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierMask>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, mainSettings, graphicSettings, playerSettings, modifiers);
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, mainSettingsHandler, graphicSettingsHandler, playerSettings, modifiers);
 }
-inline bool GlobalNamespace::PerformanceConfigurationChecks::VerifyExpected(::BeatSaber::GameSettings::MainSettingsHandler* mainSettings,
-                                                                            ::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettings,
+inline bool GlobalNamespace::PerformanceConfigurationChecks::VerifyExpected(::BeatSaber::GameSettings::MainSettingsHandler* mainSettingsHandler,
+                                                                            ::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettingsHandler,
                                                                             ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(), "VerifyExpected", std::span<Il2CppClass const* const, 0>(),
@@ -485,7 +488,7 @@ inline bool GlobalNamespace::PerformanceConfigurationChecks::VerifyExpected(::Be
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::GraphicSettingsHandler*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierMask>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, mainSettings, graphicSettings, playerSettings, modifiers);
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, mainSettingsHandler, graphicSettingsHandler, playerSettings, modifiers);
 }
 template <typename T> inline void GlobalNamespace::PerformanceConfigurationChecks::VerifyEntry(::StringW name, T expected, T actual) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),

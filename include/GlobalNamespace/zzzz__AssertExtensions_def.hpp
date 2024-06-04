@@ -21,7 +21,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE AssertExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LessThan, addr 0x1082d98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LessThan, addr 0x10890e0, size 0x4, virtual false, abstract: false, final false
   static inline void LessThan(float_t expected, float_t value, ::StringW message);
 
 protected:

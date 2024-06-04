@@ -30,10 +30,10 @@ public:
   // Declarations
   static inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithConcreteId, addr 0x361c060, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithConcreteId, addr 0x364755c, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ArgConditionCopyNonLazyBinder* WithConcreteId(::System::Object* id);
 
-  /// @brief Method .ctor, addr 0x361c058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3647554, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:

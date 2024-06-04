@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_volume(float_t value);
 
-  /// @brief Method .ctor, addr 0x3396e6c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33c01c0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

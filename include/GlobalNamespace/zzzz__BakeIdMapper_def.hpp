@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::BakeIdMapper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2680c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269a060, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

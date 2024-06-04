@@ -52,7 +52,7 @@ public:
 
   static inline ::System::NotSupportedException* getStaticF_s_notSupported();
 
-  /// @brief Method get_DataViewSettings, addr 0x2cbdbe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataViewSettings, addr 0x2cde2d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataViewSettingCollection* get_DataViewSettings();
 
   static inline void setStaticF_s_notSupported(::System::NotSupportedException* value);

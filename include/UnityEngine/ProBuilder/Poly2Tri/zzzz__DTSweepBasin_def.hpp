@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_width(double_t value);
 
-  /// @brief Method .ctor, addr 0x326d730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3294a84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

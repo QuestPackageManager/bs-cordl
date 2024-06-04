@@ -40,39 +40,39 @@ public:
   /// @brief Convert operator to "::UnityEngine::ICanvasRaycastFilter"
   constexpr operator ::UnityEngine::ICanvasRaycastFilter*() noexcept;
 
-  /// @brief Method IsRaycastLocationValid, addr 0x35ff7d4, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method IsRaycastLocationValid, addr 0x362acd0, size 0x3c, virtual true, abstract: false, final true
   inline bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
 
   static inline ::UnityEngine::CanvasGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35ff810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x362ad0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alpha, addr 0x35ff5cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_alpha, addr 0x362aac8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_alpha();
 
-  /// @brief Method get_blocksRaycasts, addr 0x35ff6d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_blocksRaycasts, addr 0x362abd0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_blocksRaycasts();
 
-  /// @brief Method get_ignoreParentGroups, addr 0x35ff754, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreParentGroups, addr 0x362ac50, size 0x3c, virtual false, abstract: false, final false
   inline bool get_ignoreParentGroups();
 
-  /// @brief Method get_interactable, addr 0x35ff654, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x362ab50, size 0x3c, virtual false, abstract: false, final false
   inline bool get_interactable();
 
   /// @brief Convert to "::UnityEngine::ICanvasRaycastFilter"
   constexpr ::UnityEngine::ICanvasRaycastFilter* i___UnityEngine__ICanvasRaycastFilter() noexcept;
 
-  /// @brief Method set_alpha, addr 0x35ff608, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x362ab04, size 0x4c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method set_blocksRaycasts, addr 0x35ff710, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_blocksRaycasts, addr 0x362ac0c, size 0x44, virtual false, abstract: false, final false
   inline void set_blocksRaycasts(bool value);
 
-  /// @brief Method set_ignoreParentGroups, addr 0x35ff790, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreParentGroups, addr 0x362ac8c, size 0x44, virtual false, abstract: false, final false
   inline void set_ignoreParentGroups(bool value);
 
-  /// @brief Method set_interactable, addr 0x35ff690, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x362ab8c, size 0x44, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
 protected:

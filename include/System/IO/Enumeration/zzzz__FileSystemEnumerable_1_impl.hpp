@@ -11,16 +11,18 @@
 #include "System/IO/Enumeration/zzzz__FileSystemEntry_def.hpp"
 #include "System/IO/Enumeration/zzzz__FileSystemEnumerable_1_def.hpp"
 #include "System/IO/zzzz__EnumerationOptions_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename TResult>
 inline ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>::New_ctor(::System::Object* object,
-                                                                                                                                                                        void* method) {
+                                                                                                                                                                        ::System::IntPtr method) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>*>(object, method));
 }
-template <typename TResult> inline void System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>::_ctor(::System::Object* object, void* method) {
+template <typename TResult> inline void System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename TResult> inline bool System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>::Invoke(ByRef<::System::IO::Enumeration::FileSystemEntry> entry) {
@@ -33,13 +35,14 @@ template <typename TResult> inline bool System::IO::Enumeration::__FileSystemEnu
 template <typename TResult> constexpr ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>::__FileSystemEnumerable_1__FindPredicate() {}
 template <typename TResult>
 inline ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>::New_ctor(::System::Object* object,
-                                                                                                                                                                        void* method) {
+                                                                                                                                                                        ::System::IntPtr method) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>*>(object, method));
 }
-template <typename TResult> inline void System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>::_ctor(::System::Object* object, void* method) {
+template <typename TResult> inline void System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename TResult> inline TResult System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>::Invoke(ByRef<::System::IO::Enumeration::FileSystemEntry> entry) {

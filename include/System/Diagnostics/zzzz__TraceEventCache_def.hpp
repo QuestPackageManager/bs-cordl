@@ -55,13 +55,13 @@ public:
   /// @brief Field timeStamp, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_timeStamp, put = __cordl_internal_set_timeStamp)) int64_t timeStamp;
 
-  /// @brief Method GetProcessId, addr 0x2fa1c24, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetProcessId, addr 0x2fbf314, size 0x54, virtual false, abstract: false, final false
   static inline int32_t GetProcessId();
 
-  /// @brief Method GetThreadId, addr 0x2fa1ce8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetThreadId, addr 0x2fbf3d8, size 0x20, virtual false, abstract: false, final false
   static inline int32_t GetThreadId();
 
-  /// @brief Method InitProcessInfo, addr 0x2fa1d70, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method InitProcessInfo, addr 0x2fbf460, size 0x130, virtual false, abstract: false, final false
   static inline void InitProcessInfo();
 
   static inline ::System::Diagnostics::TraceEventCache* New_ctor();
@@ -84,29 +84,29 @@ public:
 
   constexpr void __cordl_internal_set_timeStamp(int64_t value);
 
-  /// @brief Method .ctor, addr 0x2fa2174, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fbf864, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_processId();
 
   static inline ::StringW getStaticF_processName();
 
-  /// @brief Method get_Callstack, addr 0x2fa1b54, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Callstack, addr 0x2fbf244, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_Callstack();
 
-  /// @brief Method get_DateTime, addr 0x2fa1b8c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_DateTime, addr 0x2fbf27c, size 0x94, virtual false, abstract: false, final false
   inline ::System::DateTime get_DateTime();
 
-  /// @brief Method get_LogicalOperationStack, addr 0x2fa1b74, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_LogicalOperationStack, addr 0x2fbf264, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Stack* get_LogicalOperationStack();
 
-  /// @brief Method get_ProcessId, addr 0x2fa1c20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessId, addr 0x2fbf310, size 0x4, virtual false, abstract: false, final false
   inline int32_t get_ProcessId();
 
-  /// @brief Method get_ThreadId, addr 0x2fa1c78, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_ThreadId, addr 0x2fbf368, size 0x70, virtual false, abstract: false, final false
   inline ::StringW get_ThreadId();
 
-  /// @brief Method get_Timestamp, addr 0x2fa1d08, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Timestamp, addr 0x2fbf3f8, size 0x64, virtual false, abstract: false, final false
   inline int64_t get_Timestamp();
 
   static inline void setStaticF_processId(int32_t value);

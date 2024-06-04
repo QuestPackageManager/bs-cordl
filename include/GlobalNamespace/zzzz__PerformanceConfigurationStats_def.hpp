@@ -54,10 +54,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __PerformanceConfigurationStats__BoolStats {
 public:
   // Declarations
-  /// @brief Method CreateLogValue, addr 0x268c0e4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateLogValue, addr 0x26a5054, size 0xa4, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
-  /// @brief Method Update, addr 0x268c02c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26a4f90, size 0x1c, virtual false, abstract: false, final false
   inline void Update(bool value);
 
   // Ctor Parameters []
@@ -97,10 +97,10 @@ public:
   /// @brief Field kInitial, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_kInitial, put = setStaticF_kInitial))::GlobalNamespace::__PerformanceConfigurationStats__IntStats kInitial;
 
-  /// @brief Method CreateLogValue, addr 0x268c188, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateLogValue, addr 0x26a50f8, size 0xc4, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
-  /// @brief Method Update, addr 0x268bf14, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26a4e78, size 0x8c, virtual false, abstract: false, final false
   inline void Update(int32_t value);
 
   static inline ::GlobalNamespace::__PerformanceConfigurationStats__IntStats getStaticF_kInitial();
@@ -144,10 +144,10 @@ public:
   /// @brief Field kInitial, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_kInitial, put = setStaticF_kInitial))::GlobalNamespace::__PerformanceConfigurationStats__FloatStats kInitial;
 
-  /// @brief Method CreateLogValue, addr 0x268c298, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateLogValue, addr 0x26a5208, size 0xc4, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
-  /// @brief Method Update, addr 0x268bfa0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26a4f04, size 0x8c, virtual false, abstract: false, final false
   inline void Update(float_t value);
 
   static inline ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats getStaticF_kInitial();
@@ -214,7 +214,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::PerformanceConfigurationStats
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PerformanceConfigurationStats*
@@ -236,14 +236,17 @@ public:
   __declspec(property(get = __cordl_internal_get_batteryStatus,
                       put = __cordl_internal_set_batteryStatus))::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::BatteryStatus> batteryStatus;
 
-  /// @brief Field boundaryVisible, offset 0x30, size 0x8
+  /// @brief Field boundaryVisible, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_boundaryVisible, put = __cordl_internal_set_boundaryVisible))::GlobalNamespace::__PerformanceConfigurationStats__BoolStats boundaryVisible;
+
+  /// @brief Field gpuUtilLevel, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_gpuUtilLevel, put = __cordl_internal_set_gpuUtilLevel))::GlobalNamespace::__PerformanceConfigurationStats__FloatStats gpuUtilLevel;
 
   /// @brief Field internetReachability, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_internetReachability,
                       put = __cordl_internal_set_internetReachability))::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::NetworkReachability> internetReachability;
 
-  /// @brief Field powerSaving, offset 0x28, size 0x8
+  /// @brief Field powerSaving, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_powerSaving, put = __cordl_internal_set_powerSaving))::GlobalNamespace::__PerformanceConfigurationStats__BoolStats powerSaving;
 
   /// @brief Field processorFrequency, offset 0x10, size 0x8
@@ -257,7 +260,7 @@ public:
 
   static inline ::GlobalNamespace::PerformanceConfigurationStats* New_ctor();
 
-  /// @brief Method Update, addr 0x268bde8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26a4d38, size 0x140, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats const& __cordl_internal_get_batteryLevel() const;
@@ -271,6 +274,10 @@ public:
   constexpr ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats const& __cordl_internal_get_boundaryVisible() const;
 
   constexpr ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats& __cordl_internal_get_boundaryVisible();
+
+  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats const& __cordl_internal_get_gpuUtilLevel() const;
+
+  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats& __cordl_internal_get_gpuUtilLevel();
 
   constexpr ::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::NetworkReachability> const& __cordl_internal_get_internetReachability() const;
 
@@ -290,13 +297,15 @@ public:
 
   constexpr void __cordl_internal_set_boundaryVisible(::GlobalNamespace::__PerformanceConfigurationStats__BoolStats value);
 
+  constexpr void __cordl_internal_set_gpuUtilLevel(::GlobalNamespace::__PerformanceConfigurationStats__FloatStats value);
+
   constexpr void __cordl_internal_set_internetReachability(::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::NetworkReachability> value);
 
   constexpr void __cordl_internal_set_powerSaving(::GlobalNamespace::__PerformanceConfigurationStats__BoolStats value);
 
   constexpr void __cordl_internal_set_processorFrequency(::GlobalNamespace::__PerformanceConfigurationStats__IntStats value);
 
-  /// @brief Method .ctor, addr 0x268c048, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a4fac, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -325,16 +334,19 @@ public:
   /// @brief Field internetReachability, offset: 0x24, size: 0x4, def value: None
   ::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::NetworkReachability> ___internetReachability;
 
-  /// @brief Field powerSaving, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field gpuUtilLevel, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats ___gpuUtilLevel;
+
+  /// @brief Field powerSaving, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats ___powerSaving;
 
-  /// @brief Field boundaryVisible, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field boundaryVisible, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats ___boundaryVisible;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceConfigurationStats, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceConfigurationStats, 0x40>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationStats, ___processorFrequency) == 0x10, "Offset mismatch!");
 
@@ -344,9 +356,11 @@ static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationStats, ___batt
 
 static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationStats, ___internetReachability) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationStats, ___powerSaving) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationStats, ___gpuUtilLevel) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationStats, ___boundaryVisible) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationStats, ___powerSaving) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationStats, ___boundaryVisible) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PerformanceConfigurationStats);

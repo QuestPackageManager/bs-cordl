@@ -34,18 +34,18 @@ public:
   /// @brief Field _toggle, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle))::UnityW<::UnityEngine::UI::Toggle> _toggle;
 
-  /// @brief Method HandleToggleValueChanged, addr 0x24f9c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleToggleValueChanged, addr 0x2512ad4, size 0x8, virtual false, abstract: false, final false
   inline void HandleToggleValueChanged(bool isOn);
 
   static inline ::GlobalNamespace::ToggleableCanvasGroup* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x24f9b5c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2512a2c, size 0xa8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x24f9a70, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2512940, size 0xbc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetCanvasGroupData, addr 0x24f9b2c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetCanvasGroupData, addr 0x25129fc, size 0x30, virtual false, abstract: false, final false
   inline void SetCanvasGroupData(bool isOn);
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x24f9c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2512adc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set__localPositionOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x26d5dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ed36c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localPositionOffset, addr 0x26d5de0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localPositionOffset, addr 0x26ed360, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localPositionOffset();
 
 protected:
@@ -137,24 +137,24 @@ public:
   /// @brief Field _transitionSpeed, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__transitionSpeed, put = __cordl_internal_set__transitionSpeed)) float_t _transitionSpeed;
 
-  /// @brief Method FixedUpdate, addr 0x26d5c04, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x26ed184, size 0x110, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method HandleBeatmapEvent, addr 0x26d5da0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x26ed320, size 0x38, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method LateUpdate, addr 0x26d5d14, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x26ed294, size 0x8c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MovementBeatmapEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26d5be8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26ed168, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetLocalPositionOffsetsForAllObjects, addr 0x26d5b2c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPositionOffsetsForAllObjects, addr 0x26ed0ac, size 0xbc, virtual false, abstract: false, final false
   inline void SetLocalPositionOffsetsForAllObjects(::UnityEngine::Vector3 localPositionOffset);
 
-  /// @brief Method Start, addr 0x26d5934, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26eceb4, size 0x1f8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -219,7 +219,7 @@ public:
 
   constexpr void __cordl_internal_set__transitionSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x26d5dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ed358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -19,15 +19,15 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE FocusOutEvent : public ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::FocusOutEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x35a6e08, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x35d2304, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x35a6e5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x35d2358, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::FocusOutEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35a6e68, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d2364, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

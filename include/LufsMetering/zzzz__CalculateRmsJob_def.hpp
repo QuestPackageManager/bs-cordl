@@ -31,10 +31,10 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x26a800c, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x26c131c, size 0x288, virtual true, abstract: false, final true
   inline void Execute(int32_t i);
 
-  /// @brief Method .ctor, addr 0x26a7ff8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c1308, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<float_t> inputData, ::Unity::Collections::NativeArray_1<float_t> outputData, float_t step, float_t timeGate, int32_t rate);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"

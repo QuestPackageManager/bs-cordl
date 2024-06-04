@@ -59,7 +59,7 @@ public:
   __declspec(property(get = __cordl_internal_get_disposedValue, put = __cordl_internal_set_disposedValue)) bool disposedValue;
 
   /// @brief Field encoder, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_encoder, put = __cordl_internal_set_encoder)) void* encoder;
+  __declspec(property(get = __cordl_internal_get_encoder, put = __cordl_internal_set_encoder))::System::IntPtr encoder;
 
   /// @brief Field signal, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_signal, put = __cordl_internal_set_signal))::UnityOpus::OpusSignal signal;
@@ -67,16 +67,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x25dcd00, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x25f4c44, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x25dcb60, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x25f4aa4, size 0x84, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Encode, addr 0x25dc9f4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x25f4938, size 0xb0, virtual false, abstract: false, final false
   inline int32_t Encode(::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t count, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method Finalize, addr 0x25dcc60, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x25f4ba4, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityOpus::Encoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels, ::UnityOpus::OpusApplication application);
@@ -97,9 +97,9 @@ public:
 
   constexpr bool& __cordl_internal_get_disposedValue();
 
-  constexpr void* const& __cordl_internal_get_encoder() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_encoder() const;
 
-  constexpr void*& __cordl_internal_get_encoder();
+  constexpr ::System::IntPtr& __cordl_internal_get_encoder();
 
   constexpr ::UnityOpus::OpusSignal const& __cordl_internal_get_signal() const;
 
@@ -113,32 +113,32 @@ public:
 
   constexpr void __cordl_internal_set_disposedValue(bool value);
 
-  constexpr void __cordl_internal_set_encoder(void* value);
+  constexpr void __cordl_internal_set_encoder(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_signal(::UnityOpus::OpusSignal value);
 
-  /// @brief Method .ctor, addr 0x25dc828, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f476c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels, ::UnityOpus::OpusApplication application);
 
-  /// @brief Method get_Bitrate, addr 0x25dc60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Bitrate, addr 0x25f4550, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Bitrate();
 
-  /// @brief Method get_Complexity, addr 0x25dc6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Complexity, addr 0x25f4604, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Complexity();
 
-  /// @brief Method get_Signal, addr 0x25dc774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Signal, addr 0x25f46b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityOpus::OpusSignal get_Signal();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_Bitrate, addr 0x25dc614, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Bitrate, addr 0x25f4558, size 0x28, virtual false, abstract: false, final false
   inline void set_Bitrate(int32_t value);
 
-  /// @brief Method set_Complexity, addr 0x25dc6c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Complexity, addr 0x25f460c, size 0x28, virtual false, abstract: false, final false
   inline void set_Complexity(int32_t value);
 
-  /// @brief Method set_Signal, addr 0x25dc77c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Signal, addr 0x25f46c0, size 0x28, virtual false, abstract: false, final false
   inline void set_Signal(::UnityOpus::OpusSignal value);
 
 protected:
@@ -165,7 +165,7 @@ public:
   ::UnityOpus::OpusSignal ___signal;
 
   /// @brief Field encoder, offset: 0x20, size: 0x8, def value: None
-  void* ___encoder;
+  ::System::IntPtr ___encoder;
 
   /// @brief Field channels, offset: 0x28, size: 0x4, def value: None
   ::UnityOpus::NumChannels ___channels;

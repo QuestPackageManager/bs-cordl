@@ -23,7 +23,7 @@ public:
   /// @brief Field RandomSeed, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_RandomSeed, put = setStaticF_RandomSeed)) int32_t RandomSeed;
 
-  /// @brief Method Combine, addr 0x287b250, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x28958dc, size 0x10, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t h1, int32_t h2);
 
   static inline int32_t getStaticF_RandomSeed();

@@ -112,7 +112,7 @@ public:
 
   static inline ::GlobalNamespace::ReflectionProbeBakingOverride* New_ctor();
 
-  /// @brief Method UpdateForProbeBaking, addr 0x2681ef0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method UpdateForProbeBaking, addr 0x269b310, size 0xe8, virtual false, abstract: false, final false
   inline void UpdateForProbeBaking();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__localPosition() const;
@@ -157,7 +157,7 @@ public:
 
   constexpr void __cordl_internal_set__stateHandling(::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling value);
 
-  /// @brief Method .ctor, addr 0x2681fd8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269b3f8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

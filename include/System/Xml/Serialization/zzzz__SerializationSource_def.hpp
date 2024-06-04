@@ -33,7 +33,7 @@ public:
   /// @brief Field namspace, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_namspace, put = __cordl_internal_set_namspace))::StringW namspace;
 
-  /// @brief Method BaseEquals, addr 0x2ec3ddc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method BaseEquals, addr 0x2ee44cc, size 0xfc, virtual false, abstract: false, final false
   inline bool BaseEquals(::System::Xml::Serialization::SerializationSource* other);
 
   static inline ::System::Xml::Serialization::SerializationSource* New_ctor(::StringW namspace, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> includedTypes);
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_namspace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ec3da8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ee4498, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW namspace, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> includedTypes);
 
 protected:

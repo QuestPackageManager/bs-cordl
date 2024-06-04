@@ -44,28 +44,28 @@ public:
   /// @brief Field _defaultAlgorithm, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__defaultAlgorithm, put = setStaticF__defaultAlgorithm))::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm _defaultAlgorithm;
 
-  /// @brief Method CreateContext, addr 0x3266efc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateContext, addr 0x328e250, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* CreateContext(::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm algorithm);
 
-  /// @brief Method Triangulate, addr 0x3267020, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Triangulate, addr 0x328e374, size 0x3c, virtual false, abstract: false, final false
   static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm algorithm, ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* t);
 
-  /// @brief Method Triangulate, addr 0x326705c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Triangulate, addr 0x328e3b0, size 0x3c, virtual false, abstract: false, final false
   static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet* cps);
 
-  /// @brief Method Triangulate, addr 0x3266fe4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Triangulate, addr 0x328e338, size 0x3c, virtual false, abstract: false, final false
   static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::Polygon* p);
 
-  /// @brief Method Triangulate, addr 0x3267098, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Triangulate, addr 0x328e3ec, size 0x3c, virtual false, abstract: false, final false
   static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::PointSet* ps);
 
-  /// @brief Method Triangulate, addr 0x3266bd8, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method Triangulate, addr 0x328df2c, size 0x324, virtual false, abstract: false, final false
   static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::PolygonSet* ps);
 
-  /// @brief Method Triangulate, addr 0x3266f54, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Triangulate, addr 0x328e2a8, size 0x90, virtual false, abstract: false, final false
   static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
 
-  /// @brief Method Warmup, addr 0x3267200, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Warmup, addr 0x328e554, size 0x4, virtual false, abstract: false, final false
   static inline void Warmup();
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm getStaticF__defaultAlgorithm();

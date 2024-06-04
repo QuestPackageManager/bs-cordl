@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithLeaderboardDidUpdate)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithLeaderboardDidUpdate;
@@ -20,16 +23,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLeaderboardDidUpdate : public ::Oculus::Platform::Message_1<bool> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2aca4a8, size 0x5c, virtual true, abstract: false, final false
-  inline bool GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2aeab34, size 0x5c, virtual true, abstract: false, final false
+  inline bool GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetLeaderboardDidUpdate, addr 0x2aca46c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLeaderboardDidUpdate, addr 0x2aeaaf8, size 0x3c, virtual true, abstract: false, final false
   inline bool GetLeaderboardDidUpdate();
 
-  static inline ::Oculus::Platform::MessageWithLeaderboardDidUpdate* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithLeaderboardDidUpdate* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac54fc, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae5b88, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

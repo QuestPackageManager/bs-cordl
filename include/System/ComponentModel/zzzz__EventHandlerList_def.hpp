@@ -115,7 +115,7 @@ public:
   /// @brief Field _parent, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent))::System::ComponentModel::Component* _parent;
 
-  /// @brief Method Find, addr 0x2f33254, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x2f53944, size 0x18, virtual false, abstract: false, final false
   inline ::System::ComponentModel::__EventHandlerList__ListEntry* Find(::System::Object* key);
 
   constexpr ::System::ComponentModel::__EventHandlerList__ListEntry*& __cordl_internal_get__head();
@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set__parent(::System::ComponentModel::Component* value);
 
-  /// @brief Method get_Item, addr 0x2f331f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2f538e4, size 0x60, virtual false, abstract: false, final false
   inline ::System::Delegate* get_Item(::System::Object* key);
 
 protected:

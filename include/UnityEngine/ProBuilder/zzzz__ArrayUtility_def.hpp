@@ -63,16 +63,16 @@ namespace UnityEngine::ProBuilder {
 struct CORDL_TYPE __ArrayUtility__SearchRange {
 public:
   // Declarations
-  /// @brief Method Center, addr 0x326fd54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Center, addr 0x32970a8, size 0x18, virtual false, abstract: false, final false
   inline int32_t Center();
 
-  /// @brief Method ToString, addr 0x326fd6c, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x32970c0, size 0x1fc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Valid, addr 0x326fd40, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Valid, addr 0x3297094, size 0x14, virtual false, abstract: false, final false
   inline bool Valid();
 
-  /// @brief Method .ctor, addr 0x326fd38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x329708c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t begin, int32_t end);
 
   // Ctor Parameters []

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::OVRCameraComposition* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ae2c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b042d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

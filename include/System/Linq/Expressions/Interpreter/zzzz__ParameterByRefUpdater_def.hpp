@@ -34,7 +34,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::ParameterByRefUpdater* New_ctor(::System::Linq::Expressions::Interpreter::LocalVariable* parameter, int32_t argumentIndex);
 
-  /// @brief Method Update, addr 0x2c36578, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x2c57c68, size 0x1e0, virtual true, abstract: false, final false
   inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Object* value);
 
   constexpr ::System::Linq::Expressions::Interpreter::LocalVariable*& __cordl_internal_get__parameter();
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__parameter(::System::Linq::Expressions::Interpreter::LocalVariable* value);
 
-  /// @brief Method .ctor, addr 0x2c36548, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c57c38, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::LocalVariable* parameter, int32_t argumentIndex);
 
 protected:

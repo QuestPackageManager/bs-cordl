@@ -64,15 +64,15 @@ public:
   /// @brief Convert operator to "::HMUI::__SegmentedControl__IDataSource"
   constexpr operator ::HMUI::__SegmentedControl__IDataSource*() noexcept;
 
-  /// @brief Method CellForCellNumber, addr 0x25032b8, size 0x2ac, virtual true, abstract: false, final true
+  /// @brief Method CellForCellNumber, addr 0x251c1fc, size 0x2ac, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
 
   static inline ::HMUI::TextSegmentedControl* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x250320c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x251c150, size 0xac, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetTexts, addr 0x25031f4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetTexts, addr 0x251c138, size 0x18, virtual false, abstract: false, final false
   inline void SetTexts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* texts);
 
   constexpr ::UnityW<::HMUI::TextSegmentedControlCell> const& __cordl_internal_get__firstCellPrefab() const;
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set__texts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x25035ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251c530, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::__SegmentedControl__IDataSource"

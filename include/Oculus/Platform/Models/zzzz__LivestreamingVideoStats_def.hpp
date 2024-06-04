@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LivestreamingVideoStats)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class LivestreamingVideoStats;
@@ -30,7 +33,7 @@ public:
   /// @brief Field TotalViews, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_TotalViews, put = __cordl_internal_set_TotalViews))::StringW TotalViews;
 
-  static inline ::Oculus::Platform::Models::LivestreamingVideoStats* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::LivestreamingVideoStats* New_ctor(::System::IntPtr o);
 
   constexpr int32_t const& __cordl_internal_get_CommentCount() const;
 
@@ -50,8 +53,8 @@ public:
 
   constexpr void __cordl_internal_set_TotalViews(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2add580, size 0x98, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afdc0c, size 0x98, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

@@ -14,7 +14,7 @@ template <typename T> class OptionalArgument_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::OptionalArgument_1);
 // Type: ::OptionalArgument`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 49, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -23,13 +23,13 @@ template <typename T>
 class CORDL_TYPE OptionalArgument_1 : public ::GlobalNamespace::ArgumentBase {
 public:
   // Declarations
-  /// @brief Field <hasValue>k__BackingField, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__hasValue_k__BackingField, put = __cordl_internal_set__hasValue_k__BackingField)) bool _hasValue_k__BackingField;
+  /// @brief Field _hasValue, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get__hasValue, put = __cordl_internal_set__hasValue)) bool _hasValue;
 
-  /// @brief Field _value, offset 0x30, size 0x8
+  /// @brief Field _value, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) T _value;
 
-  __declspec(property(get = get_hasValue, put = set_hasValue)) bool hasValue;
+  __declspec(property(get = get_hasValue)) bool hasValue;
 
   __declspec(property(get = get_isOptional)) bool isOptional;
 
@@ -49,15 +49,15 @@ public:
   /// @brief Method TryParseWithValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool TryParseWithValue(::StringW inValue, ByRef<::StringW> outError);
 
-  constexpr bool const& __cordl_internal_get__hasValue_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__hasValue() const;
 
-  constexpr bool& __cordl_internal_get__hasValue_k__BackingField();
+  constexpr bool& __cordl_internal_get__hasValue();
 
   constexpr T const& __cordl_internal_get__value() const;
 
   constexpr T& __cordl_internal_get__value();
 
-  constexpr void __cordl_internal_set__hasValue_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__hasValue(bool value);
 
   constexpr void __cordl_internal_set__value(T value);
 
@@ -73,9 +73,6 @@ public:
   /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_value();
 
-  /// @brief Method set_hasValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void set_hasValue(bool value);
-
 protected:
   // Ctor Parameters []
   // @brief default ctor
@@ -90,11 +87,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OptionalArgument_1(OptionalArgument_1 const&) = delete;
 
-  /// @brief Field <hasValue>k__BackingField, offset: 0x28, size: 0x1, def value: None
-  bool ____hasValue_k__BackingField;
-
-  /// @brief Field _value, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _value, offset: 0x28, size: 0x8, def value: None
   T ____value;
+
+  /// @brief Field _hasValue, offset: 0x30, size: 0x1, def value: None
+  bool ____hasValue;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

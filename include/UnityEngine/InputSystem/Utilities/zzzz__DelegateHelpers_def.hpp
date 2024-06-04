@@ -17,6 +17,9 @@ namespace System {
 class Action;
 }
 namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace System {
@@ -39,7 +42,7 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE DelegateHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvokeCallbacksSafe, addr 0x317cdc0, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallbacksSafe, addr 0x31a4168, size 0x2bc, virtual false, abstract: false, final false
   static inline void InvokeCallbacksSafe(ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>> callbacks, ::StringW callbackName, ::System::Object* context);
 
   /// @brief Method InvokeCallbacksSafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -51,6 +54,16 @@ public:
   template <typename TValue1, typename TValue2>
   static inline void InvokeCallbacksSafe(ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<TValue1, TValue2>*>> callbacks, TValue1 argument1, TValue2 argument2,
                                          ::StringW callbackName, ::System::Object* context);
+
+  /// @brief Method InvokeCallbacksSafe_AndInvokeReturnedActions, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TValue>
+  static inline void InvokeCallbacksSafe_AndInvokeReturnedActions(ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_2<TValue, ::System::Action*>*>> callbacks,
+                                                                  TValue argument, ::StringW callbackName, ::System::Object* context);
+
+  /// @brief Method InvokeCallbacksSafe_AnyCallbackReturnsObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TValue, typename TReturn>
+  static inline bool InvokeCallbacksSafe_AnyCallbackReturnsObject(ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_2<TValue, TReturn>*>> callbacks, TValue argument,
+                                                                  ::StringW callbackName, ::System::Object* context);
 
   /// @brief Method InvokeCallbacksSafe_AnyCallbackReturnsTrue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue1, typename TValue2>

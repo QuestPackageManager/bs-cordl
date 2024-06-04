@@ -10,6 +10,9 @@ CORDL_MODULE_EXPORT(WindowsImpersonationContext)
 namespace System {
 class IDisposable;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace System::Security::Principal {
 class WindowsImpersonationContext;
@@ -25,7 +28,7 @@ class CORDL_TYPE WindowsImpersonationContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _token, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__token, put = __cordl_internal_set__token)) void* _token;
+  __declspec(property(get = __cordl_internal_get__token, put = __cordl_internal_set__token))::System::IntPtr _token;
 
   /// @brief Field undo, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_undo, put = __cordl_internal_set_undo)) bool undo;
@@ -33,40 +36,40 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CloseToken, addr 0x27fc474, size 0x4, virtual false, abstract: false, final false
-  static inline bool CloseToken(void* token);
+  /// @brief Method CloseToken, addr 0x2816b00, size 0x4, virtual false, abstract: false, final false
+  static inline bool CloseToken(::System::IntPtr token);
 
-  /// @brief Method Dispose, addr 0x27fc39c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2816a28, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DuplicateToken, addr 0x27fc394, size 0x4, virtual false, abstract: false, final false
-  static inline void* DuplicateToken(void* token);
+  /// @brief Method DuplicateToken, addr 0x2816a20, size 0x4, virtual false, abstract: false, final false
+  static inline ::System::IntPtr DuplicateToken(::System::IntPtr token);
 
-  static inline ::System::Security::Principal::WindowsImpersonationContext* New_ctor(void* token);
+  static inline ::System::Security::Principal::WindowsImpersonationContext* New_ctor(::System::IntPtr token);
 
-  /// @brief Method RevertToSelf, addr 0x27fc470, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RevertToSelf, addr 0x2816afc, size 0x4, virtual false, abstract: false, final false
   static inline bool RevertToSelf();
 
-  /// @brief Method SetCurrentToken, addr 0x27fc398, size 0x4, virtual false, abstract: false, final false
-  static inline bool SetCurrentToken(void* token);
+  /// @brief Method SetCurrentToken, addr 0x2816a24, size 0x4, virtual false, abstract: false, final false
+  static inline bool SetCurrentToken(::System::IntPtr token);
 
-  /// @brief Method Undo, addr 0x27fc3ac, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Undo, addr 0x2816a38, size 0xc4, virtual false, abstract: false, final false
   inline void Undo();
 
-  constexpr void* const& __cordl_internal_get__token() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get__token() const;
 
-  constexpr void*& __cordl_internal_get__token();
+  constexpr ::System::IntPtr& __cordl_internal_get__token();
 
   constexpr bool const& __cordl_internal_get_undo() const;
 
   constexpr bool& __cordl_internal_get_undo();
 
-  constexpr void __cordl_internal_set__token(void* value);
+  constexpr void __cordl_internal_set__token(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_undo(bool value);
 
-  /// @brief Method .ctor, addr 0x27fbc90, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(void* token);
+  /// @brief Method .ctor, addr 0x281631c, size 0x8c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr token);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
@@ -86,7 +89,7 @@ public:
   WindowsImpersonationContext(WindowsImpersonationContext const&) = delete;
 
   /// @brief Field _token, offset: 0x10, size: 0x8, def value: None
-  void* ____token;
+  ::System::IntPtr ____token;
 
   /// @brief Field undo, offset: 0x18, size: 0x1, def value: None
   bool ___undo;

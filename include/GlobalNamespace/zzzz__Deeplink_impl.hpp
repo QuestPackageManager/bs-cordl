@@ -2,14 +2,28 @@
 // IWYU pragma private; include "GlobalNamespace/Deeplink.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__Deeplink_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::Deeplink.FromJson
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::Deeplink* (*)(::StringW)>(&::GlobalNamespace::Deeplink::FromJson)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x14a2684;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Deeplink*>::get(), "FromJson", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::Deeplink._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Deeplink::*)()>(&::GlobalNamespace::Deeplink::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x149cda8;
+  constexpr static std::size_t addrs = 0x14a26cc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Deeplink*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -99,17 +113,11 @@ constexpr void GlobalNamespace::Deeplink::__cordl_internal_set_MultiplayerSecret
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MultiplayerSecret)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr uint64_t& GlobalNamespace::Deeplink::__cordl_internal_get_MultiplayerRoomId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___MultiplayerRoomId;
-}
-constexpr uint64_t const& GlobalNamespace::Deeplink::__cordl_internal_get_MultiplayerRoomId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___MultiplayerRoomId;
-}
-constexpr void GlobalNamespace::Deeplink::__cordl_internal_set_MultiplayerRoomId(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___MultiplayerRoomId = value;
+inline ::GlobalNamespace::Deeplink* GlobalNamespace::Deeplink::FromJson(::StringW jsonDeeplink) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Deeplink*>::get(), "FromJson", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::Deeplink*, false>(nullptr, ___internal_method, jsonDeeplink);
 }
 inline ::GlobalNamespace::Deeplink* GlobalNamespace::Deeplink::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::Deeplink*>());

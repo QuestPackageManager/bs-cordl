@@ -59,7 +59,7 @@ public:
   // Declarations
   using TestClass = ::UnityEngine::__ScriptingUtility__TestClass;
 
-  /// @brief Method IsManagedCodeWorking, addr 0x341159c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsManagedCodeWorking, addr 0x343aa90, size 0x8, virtual false, abstract: false, final false
   static inline bool IsManagedCodeWorking();
 
 protected:

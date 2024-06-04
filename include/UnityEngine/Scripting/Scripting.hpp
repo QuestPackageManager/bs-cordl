@@ -3,6 +3,7 @@ module;
 #endif
 
 #pragma once
+#include "UnityEngine/Scripting/AlwaysLinkAssemblyAttribute.hpp"
 #include "UnityEngine/Scripting/GarbageCollector.hpp"
 #include "UnityEngine/Scripting/PreserveAttribute.hpp"
 #include "UnityEngine/Scripting/RequiredByNativeCodeAttribute.hpp"

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::OVRSandwichComposition* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ae705c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b086e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

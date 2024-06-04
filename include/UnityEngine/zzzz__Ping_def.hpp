@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Ping)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace UnityEngine {
 class Ping;
@@ -25,40 +28,40 @@ public:
   __declspec(property(get = get_isDone)) bool isDone;
 
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
 
   __declspec(property(get = get_time)) int32_t time;
 
-  /// @brief Method DestroyPing, addr 0x33d99cc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DestroyPing, addr 0x3402ec0, size 0xa0, virtual false, abstract: false, final false
   inline void DestroyPing();
 
-  /// @brief Method Finalize, addr 0x33d9938, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3402e2c, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Internal_Create, addr 0x33d98fc, size 0x3c, virtual false, abstract: false, final false
-  static inline void* Internal_Create(::StringW address);
+  /// @brief Method Internal_Create, addr 0x3402df0, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr Internal_Create(::StringW address);
 
-  /// @brief Method Internal_Destroy, addr 0x33d9a6c, size 0x3c, virtual false, abstract: false, final false
-  static inline void Internal_Destroy(void* ptr);
+  /// @brief Method Internal_Destroy, addr 0x3402f60, size 0x3c, virtual false, abstract: false, final false
+  static inline void Internal_Destroy(::System::IntPtr ptr);
 
-  /// @brief Method Internal_IsDone, addr 0x33d9b38, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_IsDone, addr 0x340302c, size 0x3c, virtual false, abstract: false, final false
   inline bool Internal_IsDone();
 
   static inline ::UnityEngine::Ping* New_ctor(::StringW address);
 
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x33d98ac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3402da0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::StringW address);
 
-  /// @brief Method get_isDone, addr 0x33d9aa8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_isDone, addr 0x3402f9c, size 0x90, virtual false, abstract: false, final false
   inline bool get_isDone();
 
-  /// @brief Method get_time, addr 0x33d9b74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x3403068, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_time();
 
 protected:
@@ -76,7 +79,7 @@ public:
   Ping(Ping const&) = delete;
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  void* ___m_Ptr;
+  ::System::IntPtr ___m_Ptr;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Newtonsoft::Json::JsonIgnoreAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29c6820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29e2eac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

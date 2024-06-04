@@ -12,7 +12,7 @@ class OculusGoController;
 // Write type traits
 MARK_REF_PTR_T(::Unity::XR::Oculus::Input::OculusGoController);
 // Type: Unity.XR.Oculus.Input::OculusGoController
-// SizeInfo { instance_size: 480, native_size: -1, calculated_instance_size: 480, calculated_native_size: 480, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 504, native_size: -1, calculated_instance_size: 504, calculated_native_size: 504, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus::Input {
 // Is value type: false
 // CS Name: ::Unity.XR.Oculus.Input::OculusGoController*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Unity::XR::Oculus::Input::OculusGoController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33b0f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33da418, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::Input::OculusGoController, 0x1e0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::Input::OculusGoController, 0x1f8>, "Size mismatch!");
 
 } // namespace Unity::XR::Oculus::Input
 NEED_NO_BOX(::Unity::XR::Oculus::Input::OculusGoController);

@@ -6,7 +6,7 @@
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 template <typename TValue> inline TValue UnityEngine::InputSystem::InputProcessor_1<TValue>::Process(TValue value, ::UnityEngine::InputSystem::InputControl* control) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputProcessor_1<TValue>*>::get(), 6)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputProcessor_1<TValue>*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, value, control);
 }
 template <typename TValue> inline ::System::Object* UnityEngine::InputSystem::InputProcessor_1<TValue>::ProcessAsObject(::System::Object* value, ::UnityEngine::InputSystem::InputControl* control) {

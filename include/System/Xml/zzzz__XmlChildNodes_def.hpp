@@ -31,10 +31,10 @@ public:
   /// @brief Field container, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container))::System::Xml::XmlNode* container;
 
-  /// @brief Method GetEnumerator, addr 0x2e8f288, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2eb0978, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method Item, addr 0x2e8f1e0, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Item, addr 0x2eb08d0, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* Item(int32_t i);
 
   static inline ::System::Xml::XmlChildNodes* New_ctor(::System::Xml::XmlNode* container);
@@ -45,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set_container(::System::Xml::XmlNode* value);
 
-  /// @brief Method .ctor, addr 0x2e8f1b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eb08a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* container);
 
-  /// @brief Method get_Count, addr 0x2e8f23c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2eb092c, size 0x4c, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
 protected:

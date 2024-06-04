@@ -13,6 +13,9 @@ namespace System::Net {
 class ServicePoint;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -29,13 +32,13 @@ namespace System::Net {
 class CORDL_TYPE BindIPEndPoint : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2ff2144, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x300e834, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::IPEndPoint* Invoke(::System::Net::ServicePoint* servicePoint, ::System::Net::IPEndPoint* remoteEndPoint, int32_t retryCount);
 
-  static inline ::System::Net::BindIPEndPoint* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Net::BindIPEndPoint* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2ff2014, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x300e704, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

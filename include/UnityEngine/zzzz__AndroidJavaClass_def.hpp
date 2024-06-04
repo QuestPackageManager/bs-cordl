@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AndroidJavaClass)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace UnityEngine {
 class AndroidJavaClass;
@@ -23,16 +26,16 @@ public:
   // Declarations
   static inline ::UnityEngine::AndroidJavaClass* New_ctor(::StringW className);
 
-  static inline ::UnityEngine::AndroidJavaClass* New_ctor(void* jclass);
+  static inline ::UnityEngine::AndroidJavaClass* New_ctor(::System::IntPtr jclass);
 
-  /// @brief Method _AndroidJavaClass, addr 0x33bb524, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method _AndroidJavaClass, addr 0x33e4a18, size 0xc0, virtual false, abstract: false, final false
   inline void _AndroidJavaClass(::StringW className);
 
-  /// @brief Method .ctor, addr 0x33b7ed0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33e13c4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW className);
 
-  /// @brief Method .ctor, addr 0x33bad38, size 0xf4, virtual false, abstract: false, final false
-  inline void _ctor(void* jclass);
+  /// @brief Method .ctor, addr 0x33e422c, size 0xf4, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr jclass);
 
 protected:
   // Ctor Parameters []

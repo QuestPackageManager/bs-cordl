@@ -47,19 +47,19 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::ISerializationBinder"
   constexpr operator ::Newtonsoft::Json::Serialization::ISerializationBinder*() noexcept;
 
-  /// @brief Method BindToName, addr 0x2a2b608, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method BindToName, addr 0x2a49c94, size 0x68, virtual true, abstract: false, final false
   inline void BindToName(::System::Type* serializedType, ByRef<::StringW> assemblyName, ByRef<::StringW> typeName);
 
-  /// @brief Method BindToType, addr 0x2a2b58c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method BindToType, addr 0x2a49c18, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Type* BindToType(::StringW assemblyName, ::StringW typeName);
 
-  /// @brief Method GetGenericTypeFromTypeName, addr 0x2a2b264, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method GetGenericTypeFromTypeName, addr 0x2a498f0, size 0x2c0, virtual false, abstract: false, final false
   inline ::System::Type* GetGenericTypeFromTypeName(::StringW typeName, ::System::Reflection::Assembly* assembly);
 
-  /// @brief Method GetTypeByName, addr 0x2a2b524, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetTypeByName, addr 0x2a49bb0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Type* GetTypeByName(::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW> typeNameKey);
 
-  /// @brief Method GetTypeFromTypeNameKey, addr 0x2a2ae64, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method GetTypeFromTypeNameKey, addr 0x2a494f0, size 0x400, virtual false, abstract: false, final false
   inline ::System::Type* GetTypeFromTypeNameKey(::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW> typeNameKey);
 
   static inline ::Newtonsoft::Json::Serialization::DefaultSerializationBinder* New_ctor();
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__typeCache(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW>, ::System::Type*>* value);
 
-  /// @brief Method .ctor, addr 0x2a2ad98, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a49424, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Serialization::DefaultSerializationBinder* getStaticF_Instance();

@@ -41,16 +41,16 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKInputFrame {
 public:
   // Declarations
-  /// @brief Method ObtainControl, addr 0x25f8764, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ObtainControl, addr 0x26106a8, size 0x14, virtual false, abstract: false, final false
   inline void ObtainControl();
 
-  /// @brief Method ReleaseControl, addr 0x25f8754, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ReleaseControl, addr 0x2610698, size 0x10, virtual false, abstract: false, final false
   inline void ReleaseControl();
 
-  /// @brief Method ToString, addr 0x25fa178, size 0x334, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x26120bc, size 0x334, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x25f4228, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x260c16c, size 0x144, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKInputFrame get_empty();
 
   // Ctor Parameters []

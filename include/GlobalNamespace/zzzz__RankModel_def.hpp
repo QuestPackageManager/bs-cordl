@@ -108,10 +108,10 @@ public:
   // Declarations
   using Rank = ::GlobalNamespace::__RankModel__Rank;
 
-  /// @brief Method GetRankForScore, addr 0x1506da0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetRankForScore, addr 0x150d1e4, size 0xc8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__RankModel__Rank GetRankForScore(int32_t multipliedScore, int32_t modifiedScore, int32_t maxMultipliedScore, int32_t maxModifiedScore);
 
-  /// @brief Method GetRankName, addr 0x1506ce4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetRankName, addr 0x150d128, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetRankName(::GlobalNamespace::__RankModel__Rank rank);
 
 protected:

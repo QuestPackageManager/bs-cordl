@@ -22,13 +22,13 @@ namespace UnityEngine::Tilemaps {
 class CORDL_TYPE TilemapRenderer : public ::UnityEngine::Renderer {
 public:
   // Declarations
-  /// @brief Method OnSpriteAtlasRegistered, addr 0x34a50d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OnSpriteAtlasRegistered, addr 0x34ce5d0, size 0x44, virtual false, abstract: false, final false
   inline void OnSpriteAtlasRegistered(::UnityEngine::U2D::SpriteAtlas* atlas);
 
-  /// @brief Method RegisterSpriteAtlasRegistered, addr 0x34a4fd4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RegisterSpriteAtlasRegistered, addr 0x34ce4d0, size 0x80, virtual false, abstract: false, final false
   inline void RegisterSpriteAtlasRegistered();
 
-  /// @brief Method UnregisterSpriteAtlasRegistered, addr 0x34a5054, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UnregisterSpriteAtlasRegistered, addr 0x34ce550, size 0x80, virtual false, abstract: false, final false
   inline void UnregisterSpriteAtlasRegistered();
 
 protected:

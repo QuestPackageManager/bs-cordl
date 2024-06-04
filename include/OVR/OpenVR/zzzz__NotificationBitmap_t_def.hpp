@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NotificationBitmap_t)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct NotificationBitmap_t;
@@ -25,12 +28,12 @@ public:
   // @brief default ctor
   constexpr NotificationBitmap_t();
 
-  // Ctor Parameters [CppParam { name: "m_pImageData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_nWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_nHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_nBytesPerPixel", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr NotificationBitmap_t(void* m_pImageData, int32_t m_nWidth, int32_t m_nHeight, int32_t m_nBytesPerPixel) noexcept;
+  // Ctor Parameters [CppParam { name: "m_pImageData", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_nWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam
+  // { name: "m_nHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_nBytesPerPixel", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr NotificationBitmap_t(::System::IntPtr m_pImageData, int32_t m_nWidth, int32_t m_nHeight, int32_t m_nBytesPerPixel) noexcept;
 
   /// @brief Field m_pImageData, offset: 0x0, size: 0x8, def value: None
-  void* m_pImageData;
+  ::System::IntPtr m_pImageData;
 
   /// @brief Field m_nWidth, offset: 0x8, size: 0x4, def value: None
   int32_t m_nWidth;

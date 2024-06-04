@@ -45,13 +45,13 @@ public:
   /// @brief Field mSupportedSignatureAlgorithms, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_mSupportedSignatureAlgorithms, put = __cordl_internal_set_mSupportedSignatureAlgorithms))::System::Collections::IList* mSupportedSignatureAlgorithms;
 
-  /// @brief Method Encode, addr 0x11bc7f8, size 0x920, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x11c3068, size 0x920, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateRequest* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateTypes, ::System::Collections::IList* supportedSignatureAlgorithms,
                                                                                ::System::Collections::IList* certificateAuthorities);
 
-  /// @brief Method Parse, addr 0x11bd118, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x11c3988, size 0x308, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateRequest* Parse(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* input);
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_mCertificateAuthorities();
@@ -72,16 +72,16 @@ public:
 
   constexpr void __cordl_internal_set_mSupportedSignatureAlgorithms(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x11bc7a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c3014, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateTypes, ::System::Collections::IList* supportedSignatureAlgorithms, ::System::Collections::IList* certificateAuthorities);
 
-  /// @brief Method get_CertificateAuthorities, addr 0x11bc7f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertificateAuthorities, addr 0x11c3060, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_CertificateAuthorities();
 
-  /// @brief Method get_CertificateTypes, addr 0x11bc7e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertificateTypes, addr 0x11c3050, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_CertificateTypes();
 
-  /// @brief Method get_SupportedSignatureAlgorithms, addr 0x11bc7e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportedSignatureAlgorithms, addr 0x11c3058, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_SupportedSignatureAlgorithms();
 
 protected:

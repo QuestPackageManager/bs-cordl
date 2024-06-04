@@ -21,7 +21,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE MurmurHash : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MurmurHash2, addr 0x15043d8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method MurmurHash2, addr 0x150a81c, size 0x174, virtual false, abstract: false, final false
   static inline uint32_t MurmurHash2(::StringW key);
 
 protected:

@@ -10,6 +10,9 @@ namespace System {
 class IOAsyncResult;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -26,13 +29,13 @@ namespace System {
 class CORDL_TYPE IOAsyncCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2f81740, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2fa0e30, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::IOAsyncResult* ioares);
 
-  static inline ::System::IOAsyncCallback* New_ctor(::System::Object* object, void* method);
+  static inline ::System::IOAsyncCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2f81614, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2fa0d04, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

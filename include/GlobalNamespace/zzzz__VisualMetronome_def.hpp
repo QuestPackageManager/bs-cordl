@@ -87,21 +87,21 @@ public:
 
   __declspec(property(get = get_zeroOffset, put = set_zeroOffset)) float_t zeroOffset;
 
-  /// @brief Method Awake, addr 0x2732f58, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x274a6e0, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::VisualMetronome* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2733038, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x274a7c0, size 0x48, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2732ff0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x274a778, size 0x48, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetMovingTickerNormalizedPosition, addr 0x27331d0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetMovingTickerNormalizedPosition, addr 0x274a958, size 0xc8, virtual false, abstract: false, final false
   inline void SetMovingTickerNormalizedPosition(float_t t);
 
-  /// @brief Method Update, addr 0x2733080, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x274a808, size 0x150, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -200,19 +200,19 @@ public:
 
   constexpr void __cordl_internal_set__zeroOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x2733298, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x274aa20, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_zeroOffset, addr 0x2732f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zeroOffset, addr 0x274a6d8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_zeroOffset();
 
-  /// @brief Method set_movingTickerColor, addr 0x2732f1c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_movingTickerColor, addr 0x274a6a4, size 0x24, virtual false, abstract: false, final false
   inline void set_movingTickerColor(::UnityEngine::Color value);
 
-  /// @brief Method set_tickerColor, addr 0x2732ef8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_tickerColor, addr 0x274a680, size 0x24, virtual false, abstract: false, final false
   inline void set_tickerColor(::UnityEngine::Color value);
 
-  /// @brief Method set_zeroOffset, addr 0x2732f40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_zeroOffset, addr 0x274a6c8, size 0x10, virtual false, abstract: false, final false
   inline void set_zeroOffset(float_t value);
 
 protected:

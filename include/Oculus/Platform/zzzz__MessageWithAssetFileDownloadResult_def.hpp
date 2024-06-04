@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithAssetFileDownloadResult)
 namespace Oculus::Platform::Models {
 class AssetFileDownloadResult;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithAssetFileDownloadResult;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAssetFileDownloadResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*> {
 public:
   // Declarations
-  /// @brief Method GetAssetFileDownloadResult, addr 0x2ac7384, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAssetFileDownloadResult, addr 0x2ae7a10, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetFileDownloadResult* GetAssetFileDownloadResult();
 
-  /// @brief Method GetDataFromMessage, addr 0x2ac73c0, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::AssetFileDownloadResult* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2ae7a4c, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::AssetFileDownloadResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  static inline ::Oculus::Platform::MessageWithAssetFileDownloadResult* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithAssetFileDownloadResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac4e74, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae5500, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

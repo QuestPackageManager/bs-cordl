@@ -24,21 +24,21 @@ public:
   // Declarations
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  /// @brief Method DecryptBlock, addr 0x114f608, size 0x1738, virtual true, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x1156e78, size 0x1738, virtual true, abstract: false, final false
   inline void DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method EncryptBlock, addr 0x114e0c8, size 0x1540, virtual true, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x1155938, size 0x1540, virtual true, abstract: false, final false
   inline void EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method MakeWorkingKey, addr 0x114cae8, size 0x15e0, virtual true, abstract: false, final false
+  /// @brief Method MakeWorkingKey, addr 0x1154358, size 0x15e0, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> MakeWorkingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::TnepresEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1150d40, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11585b0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x114caa8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x1154318, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
 protected:

@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(AchievementDefinitionList)
 namespace Oculus::Platform::Models {
 class AchievementDefinition;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class AchievementDefinitionList;
@@ -23,10 +26,10 @@ namespace Oculus::Platform::Models {
 class CORDL_TYPE AchievementDefinitionList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::AchievementDefinition*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::Models::AchievementDefinitionList* New_ctor(void* a);
+  static inline ::Oculus::Platform::Models::AchievementDefinitionList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x2ad999c, size 0x25c, virtual false, abstract: false, final false
-  inline void _ctor(void* a);
+  /// @brief Method .ctor, addr 0x2afa028, size 0x25c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr a);
 
 protected:
   // Ctor Parameters []

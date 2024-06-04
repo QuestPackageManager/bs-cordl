@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set__TestValues_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method get_Body, addr 0x2c0c81c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x2c2cf0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
-  /// @brief Method get_TestValues, addr 0x2c0c814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TestValues, addr 0x2c2cf04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* get_TestValues();
 
 protected:

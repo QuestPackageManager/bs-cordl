@@ -50,13 +50,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_Gradient_Extensions____c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x25cadc0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x25e2d04, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Gradient* _ToTestObject_b__1_0(::UnityEngine::Gradient* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x25cae24, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x25e2d68, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Gradient* _ToTestObject_b__2_0(::UnityEngine::Gradient* lod);
 
-  /// @brief Method .ctor, addr 0x25cadb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e2cfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_Gradient_Extensions____c* getStaticF___9();
@@ -101,14 +101,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_Gradient_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x25cab60, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x25e2aa4, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Gradient*, ::Array<::HoudiniEngineUnity::Test_Gradient*>*>
   ToTestObject(::ArrayW<::UnityEngine::Gradient*, ::Array<::UnityEngine::Gradient*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x25caafc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x25e2a40, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_Gradient* ToTestObject(::UnityEngine::Gradient* self);
 
-  /// @brief Method ToTestObject, addr 0x25cac58, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x25e2b9c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Gradient*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::Gradient*>* self);
 
 protected:

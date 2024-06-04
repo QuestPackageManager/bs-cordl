@@ -90,13 +90,13 @@ public:
   /// @brief Convert operator to "::System::Xml::Serialization::IXmlSerializable"
   constexpr operator ::System::Xml::Serialization::IXmlSerializable*() noexcept;
 
-  /// @brief Method CopyStreamToBuffer, addr 0x2d17e60, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CopyStreamToBuffer, addr 0x2d38550, size 0x140, virtual false, abstract: false, final false
   inline void CopyStreamToBuffer();
 
-  /// @brief Method FStream, addr 0x2d17e50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FStream, addr 0x2d38540, size 0x10, virtual false, abstract: false, final false
   inline bool FStream();
 
-  /// @brief Method GetXsdType, addr 0x2d18438, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetXsdType, addr 0x2d38b28, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetXsdType(::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
   static inline ::System::Data::SqlTypes::SqlChars* New_ctor();
@@ -105,22 +105,22 @@ public:
 
   static inline ::System::Data::SqlTypes::SqlChars* New_ctor(::System::Data::SqlTypes::SqlString value);
 
-  /// @brief Method SetBuffer, addr 0x2d181ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetBuffer, addr 0x2d388dc, size 0x28, virtual false, abstract: false, final false
   inline void SetBuffer(::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
-  /// @brief Method SetNull, addr 0x2d17d18, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetNull, addr 0x2d38408, size 0x10, virtual false, abstract: false, final false
   inline void SetNull();
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2d184c4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2d38bb4, size 0x40, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x2d18214, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x2d38904, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x2d1821c, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x2d3890c, size 0x11c, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader* r);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x2d18338, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x2d38a28, size 0x100, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter* writer);
 
   constexpr int64_t const& __cordl_internal_get__lCurLen() const;
@@ -153,28 +153,28 @@ public:
 
   constexpr void __cordl_internal_set__stream(::System::Data::SqlTypes::SqlStreamChars* value);
 
-  /// @brief Method .ctor, addr 0x2d17cf4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d383e4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2d17d28, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d38418, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
-  /// @brief Method .ctor, addr 0x2d17d78, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d38468, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::SqlTypes::SqlString value);
 
-  /// @brief Method get_Buffer, addr 0x2d17e28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Buffer, addr 0x2d38518, size 0x28, virtual false, abstract: false, final false
   inline ::ArrayW<char16_t, ::Array<char16_t>*> get_Buffer();
 
-  /// @brief Method get_IsNull, addr 0x2d17e18, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x2d38508, size 0x10, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_Length, addr 0x2d17fa0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x2d38690, size 0x74, virtual false, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Null, addr 0x2d18504, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_Null, addr 0x2d38bf4, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlChars* get_Null();
 
-  /// @brief Method get_Value, addr 0x2d18014, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2d38704, size 0x1d8, virtual false, abstract: false, final false
   inline ::ArrayW<char16_t, ::Array<char16_t>*> get_Value();
 
   /// @brief Convert to "::System::Data::SqlTypes::INullable"

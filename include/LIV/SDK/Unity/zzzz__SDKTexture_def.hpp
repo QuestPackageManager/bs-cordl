@@ -28,6 +28,9 @@ struct TEXTURE_ID;
 namespace LIV::SDK::Unity {
 struct TEXTURE_TYPE;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace LIV::SDK::Unity {
 struct SDKTexture;
@@ -42,32 +45,32 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKTexture {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x25fa818, size 0x3a4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x261275c, size 0x3a4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x25f4540, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x260c484, size 0x5c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKTexture get_empty();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SDKTexture();
 
-  // Ctor Parameters [CppParam { name: "id", ty: "::LIV::SDK::Unity::TEXTURE_ID", modifiers: "", def_value: None }, CppParam { name: "texturePtr", ty: "void*", modifiers: "", def_value: None },
-  // CppParam { name: "SharedHandle", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "device", ty: "::LIV::SDK::Unity::TEXTURE_DEVICE", modifiers: "", def_value: None }, CppParam {
-  // name: "dummy", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::LIV::SDK::Unity::TEXTURE_TYPE", modifiers: "", def_value: None }, CppParam { name: "format", ty:
-  // "::LIV::SDK::Unity::TEXTURE_FORMAT", modifiers: "", def_value: None }, CppParam { name: "colorSpace", ty: "::LIV::SDK::Unity::TEXTURE_COLOR_SPACE", modifiers: "", def_value: None }, CppParam {
-  // name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr SDKTexture(::LIV::SDK::Unity::TEXTURE_ID id, void* texturePtr, void* SharedHandle, ::LIV::SDK::Unity::TEXTURE_DEVICE device, int32_t dummy, ::LIV::SDK::Unity::TEXTURE_TYPE type,
-                       ::LIV::SDK::Unity::TEXTURE_FORMAT format, ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE colorSpace, int32_t width, int32_t height) noexcept;
+  // Ctor Parameters [CppParam { name: "id", ty: "::LIV::SDK::Unity::TEXTURE_ID", modifiers: "", def_value: None }, CppParam { name: "texturePtr", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None }, CppParam { name: "SharedHandle", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "device", ty: "::LIV::SDK::Unity::TEXTURE_DEVICE", modifiers: "", def_value:
+  // None }, CppParam { name: "dummy", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::LIV::SDK::Unity::TEXTURE_TYPE", modifiers: "", def_value: None }, CppParam {
+  // name: "format", ty: "::LIV::SDK::Unity::TEXTURE_FORMAT", modifiers: "", def_value: None }, CppParam { name: "colorSpace", ty: "::LIV::SDK::Unity::TEXTURE_COLOR_SPACE", modifiers: "", def_value:
+  // None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr SDKTexture(::LIV::SDK::Unity::TEXTURE_ID id, ::System::IntPtr texturePtr, ::System::IntPtr SharedHandle, ::LIV::SDK::Unity::TEXTURE_DEVICE device, int32_t dummy,
+                       ::LIV::SDK::Unity::TEXTURE_TYPE type, ::LIV::SDK::Unity::TEXTURE_FORMAT format, ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE colorSpace, int32_t width, int32_t height) noexcept;
 
   /// @brief Field id, offset: 0x0, size: 0x4, def value: None
   ::LIV::SDK::Unity::TEXTURE_ID id;
 
   /// @brief Field texturePtr, offset: 0x8, size: 0x8, def value: None
-  void* texturePtr;
+  ::System::IntPtr texturePtr;
 
   /// @brief Field SharedHandle, offset: 0x10, size: 0x8, def value: None
-  void* SharedHandle;
+  ::System::IntPtr SharedHandle;
 
   /// @brief Field device, offset: 0x18, size: 0x4, def value: None
   ::LIV::SDK::Unity::TEXTURE_DEVICE device;

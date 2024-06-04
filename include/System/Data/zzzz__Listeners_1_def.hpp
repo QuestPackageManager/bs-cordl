@@ -17,6 +17,9 @@ namespace System::Data {
 template <typename TElem, typename T1, typename TResult> class __Listeners_1__Func_2;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -46,10 +49,10 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4);
 
-  static inline ::System::Data::__Listeners_1__Action_4<TElem, T1, T2, T3, T4>* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Data::__Listeners_1__Action_4<TElem, T1, T2, T3, T4>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -82,10 +85,10 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TResult Invoke(T1 arg1);
 
-  static inline ::System::Data::__Listeners_1__Func_2<TElem, T1, TResult>* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Data::__Listeners_1__Func_2<TElem, T1, TResult>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

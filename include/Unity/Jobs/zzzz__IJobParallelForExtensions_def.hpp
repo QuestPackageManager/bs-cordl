@@ -14,6 +14,9 @@ namespace GlobalNamespace {
 template <typename T> class __IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace Unity::Jobs::LowLevel::Unsafe {
@@ -50,12 +53,12 @@ class CORDL_TYPE __IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJob
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Invoke(ByRef<T> data, void* additionalPtr, void* bufferRangePatchData, ByRef<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex);
+  inline void Invoke(ByRef<T> data, ::System::IntPtr additionalPtr, ::System::IntPtr bufferRangePatchData, ByRef<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex);
 
-  static inline ::GlobalNamespace::__IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction<T>* New_ctor(::System::Object* object, void* method);
+  static inline ::GlobalNamespace::__IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction<T>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -89,14 +92,14 @@ public:
   using ExecuteJobFunction = ::GlobalNamespace::__IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction<T>;
 
   /// @brief Field jobReflectionData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_jobReflectionData, put = setStaticF_jobReflectionData)) void* jobReflectionData;
+  static __declspec(property(get = getStaticF_jobReflectionData, put = setStaticF_jobReflectionData))::System::IntPtr jobReflectionData;
 
   /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void Execute(ByRef<T> jobData, void* additionalPtr, void* bufferRangePatchData, ByRef<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex);
+  static inline void Execute(ByRef<T> jobData, ::System::IntPtr additionalPtr, ::System::IntPtr bufferRangePatchData, ByRef<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex);
 
-  static inline void* getStaticF_jobReflectionData();
+  static inline ::System::IntPtr getStaticF_jobReflectionData();
 
-  static inline void setStaticF_jobReflectionData(void* value);
+  static inline void setStaticF_jobReflectionData(::System::IntPtr value);
 
   // Ctor Parameters []
   // @brief default ctor

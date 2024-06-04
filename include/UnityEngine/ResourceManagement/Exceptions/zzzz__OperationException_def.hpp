@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::UnityEngine::ResourceManagement::Exceptions::OperationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method ToString, addr 0x33064b4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x332f808, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3306444, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332f798, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

@@ -26,10 +26,10 @@ public:
 
   static inline ::System::Net::Configuration::SocketElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f78228, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f98918, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x2f78260, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x2f98950, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:

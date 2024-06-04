@@ -47,16 +47,16 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApproximatelyEquals, addr 0x2597ef0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ApproximatelyEquals, addr 0x25aee34, size 0x3c, virtual false, abstract: false, final false
   static inline bool ApproximatelyEquals(::UnityEngine::Quaternion quatA, ::UnityEngine::Quaternion value);
 
-  /// @brief Method ApproximatelyEquals, addr 0x2597f2c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ApproximatelyEquals, addr 0x25aee70, size 0x10, virtual false, abstract: false, final false
   static inline bool ApproximatelyEquals(float_t self, float_t other, float_t epsilon);
 
-  /// @brief Method AsByteArray, addr 0x2597f3c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method AsByteArray, addr 0x25aee80, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> AsByteArray(::StringW self);
 
-  /// @brief Method AsString, addr 0x2597fb4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AsString, addr 0x25aeef8, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW AsString(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
   /// @brief Method ConvertArrayToEquivable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -68,13 +68,13 @@ public:
   /// @brief Method ConvertListToEquivable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::IEquivable_1<T>*>* ConvertListToEquivable(::System::Collections::Generic::List_1<T>* self);
 
-  /// @brief Method DecomposeToPosition, addr 0x2598064, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DecomposeToPosition, addr 0x25aefa8, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 DecomposeToPosition(::UnityEngine::Matrix4x4 self);
 
-  /// @brief Method DecomposeToRotation, addr 0x2598070, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DecomposeToRotation, addr 0x25aefb4, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion DecomposeToRotation(::UnityEngine::Matrix4x4 self);
 
-  /// @brief Method DecomposeToScale, addr 0x25980d4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method DecomposeToScale, addr 0x25af018, size 0x194, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 DecomposeToScale(::UnityEngine::Matrix4x4 self);
 
   /// @brief Method Filter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -92,13 +92,13 @@ public:
   /// @brief Method Reduce, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Reduce(::System::Collections::Generic::IEnumerable_1<T>* self, ::System::Func_3<T, T, T>* func);
 
-  /// @brief Method SwapXAndY, addr 0x2598034, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SwapXAndY, addr 0x25aef78, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 SwapXAndY(::UnityEngine::Vector3 self);
 
-  /// @brief Method SwapXAndZ, addr 0x2598044, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SwapXAndZ, addr 0x25aef88, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 SwapXAndZ(::UnityEngine::Vector3 self);
 
-  /// @brief Method SwapYAndZ, addr 0x2598054, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SwapYAndZ, addr 0x25aef98, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 SwapYAndZ(::UnityEngine::Vector3 self);
 
 protected:

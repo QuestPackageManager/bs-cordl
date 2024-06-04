@@ -33,13 +33,13 @@ public:
   static inline ::System::Net::NetworkInformation::NetworkInformationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                                          ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x3021870, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x303ef60, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x30218d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x303efc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_ErrorCode, addr 0x30218dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x303efcc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
 protected:

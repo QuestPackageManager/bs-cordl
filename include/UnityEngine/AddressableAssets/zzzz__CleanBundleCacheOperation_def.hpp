@@ -71,42 +71,42 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::IUpdateReceiver"
   constexpr operator ::UnityEngine::ResourceManagement::IUpdateReceiver*() noexcept;
 
-  /// @brief Method CompleteInternal, addr 0x305b420, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CompleteInternal, addr 0x3077bc8, size 0x90, virtual false, abstract: false, final false
   inline void CompleteInternal(bool result, bool success, ::StringW errorMsg);
 
-  /// @brief Method Destroy, addr 0x305b714, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Destroy, addr 0x3077ebc, size 0x7c, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method DetermineCacheDirsNotInUse, addr 0x305c3a4, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method DetermineCacheDirsNotInUse, addr 0x3078b4c, size 0x400, virtual false, abstract: false, final false
   inline void DetermineCacheDirsNotInUse(::System::Collections::Generic::HashSet_1<::StringW>* cacheDirsInUse);
 
-  /// @brief Method DetermineCacheDirsNotInUse, addr 0x305c7e4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DetermineCacheDirsNotInUse, addr 0x3078f8c, size 0x84, virtual false, abstract: false, final false
   inline void DetermineCacheDirsNotInUse(::System::Object* data);
 
-  /// @brief Method Execute, addr 0x305b8b4, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x307805c, size 0x1c0, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method GetCacheDirsInUse, addr 0x305ba74, size 0x930, virtual false, abstract: false, final false
+  /// @brief Method GetCacheDirsInUse, addr 0x307821c, size 0x930, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::StringW>*
   GetCacheDirsInUse(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* catalogOps);
 
-  /// @brief Method GetDependencies, addr 0x305b790, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x3077f38, size 0x124, virtual true, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* dependencies);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x305b4b0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x3077c58, size 0xd0, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::AddressableAssets::CleanBundleCacheOperation* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa, bool forceSingleThreading);
 
-  /// @brief Method RemoveCacheEntries, addr 0x305b580, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method RemoveCacheEntries, addr 0x3077d28, size 0x194, virtual false, abstract: false, final false
   inline void RemoveCacheEntries();
 
-  /// @brief Method Start, addr 0x3058af0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3075298, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>
   Start(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
             depOp);
 
-  /// @brief Method UnityEngine.ResourceManagement.IUpdateReceiver.Update, addr 0x305c7a4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ResourceManagement.IUpdateReceiver.Update, addr 0x3078f4c, size 0x40, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_IUpdateReceiver_Update(float_t unscaledDeltaTime);
 
   constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get_m_Addressables();
@@ -151,7 +151,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UseMultiThreading(bool value);
 
-  /// @brief Method .ctor, addr 0x3058a6c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3075214, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa, bool forceSingleThreading);
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::IUpdateReceiver"

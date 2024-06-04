@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ifa_ifu)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace System::Net::NetworkInformation {
 struct ifa_ifu;
@@ -22,29 +25,30 @@ struct CORDL_TYPE ifa_ifu {
 public:
   // Declarations
   /// @brief Field ifu_broadaddr, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_ifu_broadaddr, put = __cordl_internal_set_ifu_broadaddr)) void* ifu_broadaddr;
+  __declspec(property(get = __cordl_internal_get_ifu_broadaddr, put = __cordl_internal_set_ifu_broadaddr))::System::IntPtr ifu_broadaddr;
 
   /// @brief Field ifu_dstaddr, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_ifu_dstaddr, put = __cordl_internal_set_ifu_dstaddr)) void* ifu_dstaddr;
+  __declspec(property(get = __cordl_internal_get_ifu_dstaddr, put = __cordl_internal_set_ifu_dstaddr))::System::IntPtr ifu_dstaddr;
 
-  constexpr void* const& __cordl_internal_get_ifu_broadaddr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_ifu_broadaddr() const;
 
-  constexpr void*& __cordl_internal_get_ifu_broadaddr();
+  constexpr ::System::IntPtr& __cordl_internal_get_ifu_broadaddr();
 
-  constexpr void* const& __cordl_internal_get_ifu_dstaddr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_ifu_dstaddr() const;
 
-  constexpr void*& __cordl_internal_get_ifu_dstaddr();
+  constexpr ::System::IntPtr& __cordl_internal_get_ifu_dstaddr();
 
-  constexpr void __cordl_internal_set_ifu_broadaddr(void* value);
+  constexpr void __cordl_internal_set_ifu_broadaddr(::System::IntPtr value);
 
-  constexpr void __cordl_internal_set_ifu_dstaddr(void* value);
+  constexpr void __cordl_internal_set_ifu_dstaddr(::System::IntPtr value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ifa_ifu();
 
-  // Ctor Parameters [CppParam { name: "ifu_broadaddr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "ifu_dstaddr", ty: "void*", modifiers: "", def_value: None }]
-  constexpr ifa_ifu(void* ifu_broadaddr, void* ifu_dstaddr) noexcept;
+  // Ctor Parameters [CppParam { name: "ifu_broadaddr", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "ifu_dstaddr", ty: "::System::IntPtr", modifiers: "", def_value: None
+  // }]
+  constexpr ifa_ifu(::System::IntPtr ifu_broadaddr, ::System::IntPtr ifu_dstaddr) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -54,28 +58,28 @@ private:
       /// @brief Padding field 0x0
       uint8_t ___ifu_broadaddr_padding[0x0];
       /// @brief Field ifu_broadaddr, offset: 0x0, size: 0x8, def value: None
-      void* ___ifu_broadaddr;
+      ::System::IntPtr ___ifu_broadaddr;
     };
 #pragma pack(pop, tp)
     struct {
       /// @brief Padding field 0x0 for alignment
       uint8_t ___ifu_broadaddr_padding_forAlignment[0x0];
       /// @brief Field ifu_broadaddr, offset: 0x0, size: 0x8, def value: None
-      void* ___ifu_broadaddr_forAlignment;
+      ::System::IntPtr ___ifu_broadaddr_forAlignment;
     };
 #pragma pack(push, tp, 1)
     struct {
       /// @brief Padding field 0x0
       uint8_t ___ifu_dstaddr_padding[0x0];
       /// @brief Field ifu_dstaddr, offset: 0x0, size: 0x8, def value: None
-      void* ___ifu_dstaddr;
+      ::System::IntPtr ___ifu_dstaddr;
     };
 #pragma pack(pop, tp)
     struct {
       /// @brief Padding field 0x0 for alignment
       uint8_t ___ifu_dstaddr_padding_forAlignment[0x0];
       /// @brief Field ifu_dstaddr, offset: 0x0, size: 0x8, def value: None
-      void* ___ifu_dstaddr_forAlignment;
+      ::System::IntPtr ___ifu_dstaddr_forAlignment;
     };
   };
 

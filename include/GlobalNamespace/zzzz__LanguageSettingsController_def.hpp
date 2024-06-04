@@ -28,15 +28,15 @@ public:
   /// @brief Field _mainSettingsHandler, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__mainSettingsHandler, put = __cordl_internal_set__mainSettingsHandler))::BeatSaber::GameSettings::MainSettingsHandler* _mainSettingsHandler;
 
-  /// @brief Method ApplyValue, addr 0x2632fa8, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x264c5c8, size 0xf8, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x2632e84, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x264c4a4, size 0x124, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::LanguageSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x26330a0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x264c6c0, size 0x64, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::BeatSaber::GameSettings::MainSettingsHandler*& __cordl_internal_get__mainSettingsHandler();
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__mainSettingsHandler(::BeatSaber::GameSettings::MainSettingsHandler* value);
 
-  /// @brief Method .ctor, addr 0x2633104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264c724, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

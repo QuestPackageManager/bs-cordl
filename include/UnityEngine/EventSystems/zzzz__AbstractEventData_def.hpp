@@ -26,10 +26,10 @@ public:
 
   static inline ::UnityEngine::EventSystems::AbstractEventData* New_ctor();
 
-  /// @brief Method Reset, addr 0x34ea2c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x35137c0, size 0x8, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Use, addr 0x34ea2cc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Use, addr 0x35137c8, size 0xc, virtual true, abstract: false, final false
   inline void Use();
 
   constexpr bool const& __cordl_internal_get_m_Used() const;
@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Used(bool value);
 
-  /// @brief Method .ctor, addr 0x34ea2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35137dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_used, addr 0x34ea2d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_used, addr 0x35137d4, size 0x8, virtual true, abstract: false, final false
   inline bool get_used();
 
 protected:

@@ -16,6 +16,9 @@ template <typename T1, typename T2> class Action_2;
 namespace System {
 class Action;
 }
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine::Rendering {
 class RenderPipelineAsset;
 }
@@ -67,26 +70,26 @@ public:
   /// @brief Field s_currentPipelineType, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_currentPipelineType, put = setStaticF_s_currentPipelineType))::StringW s_currentPipelineType;
 
-  /// @brief Method CleanupRenderPipeline, addr 0x342ab60, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CleanupRenderPipeline, addr 0x345505c, size 0x188, virtual false, abstract: false, final false
   static inline void CleanupRenderPipeline();
 
-  /// @brief Method DoRenderLoop_Internal, addr 0x342aea4, size 0x1c8, virtual false, abstract: false, final false
-  static inline void DoRenderLoop_Internal(::UnityEngine::Rendering::RenderPipelineAsset* pipe, void* loopPtr,
+  /// @brief Method DoRenderLoop_Internal, addr 0x34553a0, size 0x1c8, virtual false, abstract: false, final false
+  static inline void DoRenderLoop_Internal(::UnityEngine::Rendering::RenderPipelineAsset* pipe, ::System::IntPtr loopPtr,
                                            ::System::Collections::Generic::List_1<::UnityEngine::__Camera__RenderRequest>* renderRequests);
 
-  /// @brief Method GetCurrentPipelineAssetType, addr 0x342ae4c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentPipelineAssetType, addr 0x3455348, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW GetCurrentPipelineAssetType();
 
-  /// @brief Method HandleRenderPipelineChange, addr 0x342aae0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleRenderPipelineChange, addr 0x3454fdc, size 0x80, virtual false, abstract: false, final false
   static inline void HandleRenderPipelineChange(::UnityEngine::Rendering::RenderPipelineAsset* pipelineAsset);
 
-  /// @brief Method OnActiveRenderPipelineTypeChanged, addr 0x342aa6c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnActiveRenderPipelineTypeChanged, addr 0x3454f68, size 0x74, virtual false, abstract: false, final false
   static inline void OnActiveRenderPipelineTypeChanged();
 
-  /// @brief Method PrepareRenderPipeline, addr 0x342b06c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method PrepareRenderPipeline, addr 0x3455568, size 0x16c, virtual false, abstract: false, final false
   static inline void PrepareRenderPipeline(::UnityEngine::Rendering::RenderPipelineAsset* pipelineAsset);
 
-  /// @brief Method add_beginCameraRendering, addr 0x342a884, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method add_beginCameraRendering, addr 0x3454d80, size 0xf4, virtual false, abstract: false, final false
   static inline void add_beginCameraRendering(::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityW<::UnityEngine::Camera>>* value);
 
   static inline ::System::Action* getStaticF_activeRenderPipelineTypeChanged();
@@ -103,10 +106,10 @@ public:
 
   static inline ::StringW getStaticF_s_currentPipelineType();
 
-  /// @brief Method get_currentPipeline, addr 0x342a77c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_currentPipeline, addr 0x3454c78, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderPipeline* get_currentPipeline();
 
-  /// @brief Method remove_beginCameraRendering, addr 0x342a978, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method remove_beginCameraRendering, addr 0x3454e74, size 0xf4, virtual false, abstract: false, final false
   static inline void remove_beginCameraRendering(::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityW<::UnityEngine::Camera>>* value);
 
   static inline void setStaticF_activeRenderPipelineTypeChanged(::System::Action* value);
@@ -123,7 +126,7 @@ public:
 
   static inline void setStaticF_s_currentPipelineType(::StringW value);
 
-  /// @brief Method set_currentPipeline, addr 0x342a7d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_currentPipeline, addr 0x3454cd0, size 0xb0, virtual false, abstract: false, final false
   static inline void set_currentPipeline(::UnityEngine::Rendering::RenderPipeline* value);
 
 protected:

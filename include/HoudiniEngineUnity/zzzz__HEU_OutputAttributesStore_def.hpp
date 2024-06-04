@@ -29,15 +29,15 @@ public:
   /// @brief Field _attributes, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__attributes, put = __cordl_internal_set__attributes))::HoudiniEngineUnity::HEU_OutputAttributeDictionary* _attributes;
 
-  /// @brief Method Clear, addr 0x2568a8c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x257e9d0, size 0x50, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetAttribute, addr 0x2568a1c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetAttribute, addr 0x257e960, size 0x70, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_OutputAttribute* GetAttribute(::StringW name);
 
   static inline ::HoudiniEngineUnity::HEU_OutputAttributesStore* New_ctor();
 
-  /// @brief Method SetAttribute, addr 0x2568920, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetAttribute, addr 0x257e864, size 0xfc, virtual false, abstract: false, final false
   inline void SetAttribute(::HoudiniEngineUnity::HEU_OutputAttribute* attribute);
 
   constexpr ::HoudiniEngineUnity::HEU_OutputAttributeDictionary*& __cordl_internal_get__attributes();
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__attributes(::HoudiniEngineUnity::HEU_OutputAttributeDictionary* value);
 
-  /// @brief Method .ctor, addr 0x2568adc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x257ea20, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

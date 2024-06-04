@@ -31,23 +31,23 @@ public:
   // Declarations
   __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
 
-  /// @brief Method CloneNode, addr 0x2d98684, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x2db7d74, size 0x60, virtual true, abstract: false, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
   static inline ::System::Xml::Linq::XCData* New_ctor(::System::Xml::Linq::XCData* other);
 
   static inline ::System::Xml::Linq::XCData* New_ctor(::StringW value);
 
-  /// @brief Method WriteTo, addr 0x2d98610, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x2db7d00, size 0x74, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method .ctor, addr 0x2d98588, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2db7c78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XCData* other);
 
-  /// @brief Method .ctor, addr 0x2d9850c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2db7bfc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method get_NodeType, addr 0x2d98608, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x2db7cf8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
 protected:

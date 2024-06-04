@@ -58,6 +58,9 @@ namespace System {
 class IDisposable;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace System {
@@ -125,10 +128,10 @@ public:
 
   constexpr void __cordl_internal_set_m_DurationMilliseconds(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2fe136c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ffca5c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t durationMilliseconds);
 
-  /// @brief Method get_Duration, addr 0x2fe1394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Duration, addr 0x2ffca84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Duration();
 
 protected:
@@ -182,7 +185,7 @@ public:
   /// @brief Method Cancel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Cancel();
 
-  /// @brief Method Dispose, addr 0x2fe13e4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2ffcad4, size 0xc, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::System::Net::__TimerThread__Timer* New_ctor(int32_t durationMilliseconds);
@@ -199,16 +202,16 @@ public:
 
   constexpr void __cordl_internal_set_m_StartTimeMilliseconds(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2fe139c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ffca8c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t durationMilliseconds);
 
-  /// @brief Method get_Expiration, addr 0x2fe13d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Expiration, addr 0x2ffcac8, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Expiration();
 
   /// @brief Method get_HasExpired, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_HasExpired();
 
-  /// @brief Method get_StartTime, addr 0x2fe13d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StartTime, addr 0x2ffcac0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StartTime();
 
   /// @brief Convert to "::System::IDisposable"
@@ -252,13 +255,13 @@ namespace System::Net {
 class CORDL_TYPE __TimerThread__Callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2fe1520, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ffcc10, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Net::__TimerThread__Timer* timer, int32_t timeNoticed, ::System::Object* context);
 
-  static inline ::System::Net::__TimerThread__Callback* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Net::__TimerThread__Callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2fe13f0, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2ffcae0, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -289,32 +292,32 @@ class CORDL_TYPE __TimerThread__TimerQueue : public ::System::Net::__TimerThread
 public:
   // Declarations
   /// @brief Field m_ThisHandle, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ThisHandle, put = __cordl_internal_set_m_ThisHandle)) void* m_ThisHandle;
+  __declspec(property(get = __cordl_internal_get_m_ThisHandle, put = __cordl_internal_set_m_ThisHandle))::System::IntPtr m_ThisHandle;
 
   /// @brief Field m_Timers, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Timers, put = __cordl_internal_set_m_Timers))::System::Net::__TimerThread__TimerNode* m_Timers;
 
-  /// @brief Method CreateTimer, addr 0x2fe1564, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method CreateTimer, addr 0x2ffcc54, size 0x20c, virtual true, abstract: false, final false
   inline ::System::Net::__TimerThread__Timer* CreateTimer(::System::Net::__TimerThread__Callback* callback, ::System::Object* context);
 
-  /// @brief Method Fire, addr 0x2fe1038, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Fire, addr 0x2ffc728, size 0x1d0, virtual false, abstract: false, final false
   inline bool Fire(ByRef<int32_t> nextExpiration);
 
   static inline ::System::Net::__TimerThread__TimerQueue* New_ctor(int32_t durationMilliseconds);
 
-  constexpr void* const& __cordl_internal_get_m_ThisHandle() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_ThisHandle() const;
 
-  constexpr void*& __cordl_internal_get_m_ThisHandle();
+  constexpr ::System::IntPtr& __cordl_internal_get_m_ThisHandle();
 
   constexpr ::System::Net::__TimerThread__TimerNode*& __cordl_internal_get_m_Timers();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__TimerNode*> const& __cordl_internal_get_m_Timers() const;
 
-  constexpr void __cordl_internal_set_m_ThisHandle(void* value);
+  constexpr void __cordl_internal_set_m_ThisHandle(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_m_Timers(::System::Net::__TimerThread__TimerNode* value);
 
-  /// @brief Method .ctor, addr 0x2fdfd28, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ffb418, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(int32_t durationMilliseconds);
 
 protected:
@@ -332,7 +335,7 @@ public:
   __TimerThread__TimerQueue(__TimerThread__TimerQueue const&) = delete;
 
   /// @brief Field m_ThisHandle, offset: 0x18, size: 0x8, def value: None
-  void* ___m_ThisHandle;
+  ::System::IntPtr ___m_ThisHandle;
 
   /// @brief Field m_Timers, offset: 0x20, size: 0x8, def value: None
   ::System::Net::__TimerThread__TimerNode* ___m_Timers;
@@ -355,12 +358,12 @@ namespace System::Net {
 class CORDL_TYPE __TimerThread__InfiniteTimerQueue : public ::System::Net::__TimerThread__Queue {
 public:
   // Declarations
-  /// @brief Method CreateTimer, addr 0x2fe1a44, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method CreateTimer, addr 0x2ffd134, size 0x70, virtual true, abstract: false, final false
   inline ::System::Net::__TimerThread__Timer* CreateTimer(::System::Net::__TimerThread__Callback* callback, ::System::Object* context);
 
   static inline ::System::Net::__TimerThread__InfiniteTimerQueue* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2fdfd08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ffb3f8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -478,10 +481,10 @@ public:
   /// @brief Field prev, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_prev, put = __cordl_internal_set_prev))::System::Net::__TimerThread__TimerNode* prev;
 
-  /// @brief Method Cancel, addr 0x2fe1b10, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Cancel, addr 0x2ffd200, size 0x138, virtual true, abstract: false, final false
   inline bool Cancel();
 
-  /// @brief Method Fire, addr 0x2fe17c8, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method Fire, addr 0x2ffceb8, size 0x27c, virtual false, abstract: false, final false
   inline bool Fire();
 
   static inline ::System::Net::__TimerThread__TimerNode* New_ctor();
@@ -525,25 +528,25 @@ public:
 
   constexpr void __cordl_internal_set_prev(::System::Net::__TimerThread__TimerNode* value);
 
-  /// @brief Method .ctor, addr 0x2fe1534, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ffcc24, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2fe1770, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ffce60, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::__TimerThread__Callback* callback, ::System::Object* context, int32_t durationMilliseconds, ::System::Object* queueLock);
 
-  /// @brief Method get_HasExpired, addr 0x2fe1ae0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_HasExpired, addr 0x2ffd1d0, size 0x10, virtual true, abstract: false, final false
   inline bool get_HasExpired();
 
-  /// @brief Method get_Next, addr 0x2fe1af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Next, addr 0x2ffd1e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::__TimerThread__TimerNode* get_Next();
 
-  /// @brief Method get_Prev, addr 0x2fe1b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prev, addr 0x2ffd1f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::__TimerThread__TimerNode* get_Prev();
 
-  /// @brief Method set_Next, addr 0x2fe1af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Next, addr 0x2ffd1e8, size 0x8, virtual false, abstract: false, final false
   inline void set_Next(::System::Net::__TimerThread__TimerNode* value);
 
-  /// @brief Method set_Prev, addr 0x2fe1b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Prev, addr 0x2ffd1f8, size 0x8, virtual false, abstract: false, final false
   inline void set_Prev(::System::Net::__TimerThread__TimerNode* value);
 
 protected:
@@ -609,7 +612,7 @@ public:
   /// @brief Field cancelled, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_cancelled, put = __cordl_internal_set_cancelled)) int32_t cancelled;
 
-  /// @brief Method Cancel, addr 0x2fe1c50, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Cancel, addr 0x2ffd340, size 0x24, virtual true, abstract: false, final false
   inline bool Cancel();
 
   static inline ::System::Net::__TimerThread__InfiniteTimer* New_ctor();
@@ -620,10 +623,10 @@ public:
 
   constexpr void __cordl_internal_set_cancelled(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2fe1ab4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ffd1a4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HasExpired, addr 0x2fe1c48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasExpired, addr 0x2ffd338, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasExpired();
 
 protected:
@@ -697,25 +700,25 @@ public:
   /// @brief Field s_ThreadState, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_ThreadState, put = setStaticF_s_ThreadState)) int32_t s_ThreadState;
 
-  /// @brief Method CreateQueue, addr 0x2fdb360, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method CreateQueue, addr 0x2ff6a50, size 0x264, virtual false, abstract: false, final false
   static inline ::System::Net::__TimerThread__Queue* CreateQueue(int32_t durationMilliseconds);
 
-  /// @brief Method GetOrCreateQueue, addr 0x2fdfdc0, size 0x99c, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateQueue, addr 0x2ffb4b0, size 0x99c, virtual false, abstract: false, final false
   static inline ::System::Net::__TimerThread__Queue* GetOrCreateQueue(int32_t durationMilliseconds);
 
-  /// @brief Method IsTickBetween, addr 0x2fe1208, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsTickBetween, addr 0x2ffc8f8, size 0x24, virtual false, abstract: false, final false
   static inline bool IsTickBetween(int32_t start, int32_t end, int32_t comparand);
 
-  /// @brief Method OnDomainUnload, addr 0x2fe12a8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OnDomainUnload, addr 0x2ffc998, size 0xc4, virtual false, abstract: false, final false
   static inline void OnDomainUnload(::System::Object* sender, ::System::EventArgs* e);
 
-  /// @brief Method Prod, addr 0x2fe075c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Prod, addr 0x2ffbe4c, size 0x114, virtual false, abstract: false, final false
   static inline void Prod();
 
-  /// @brief Method StopTimerThread, addr 0x2fe122c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method StopTimerThread, addr 0x2ffc91c, size 0x7c, virtual false, abstract: false, final false
   static inline void StopTimerThread();
 
-  /// @brief Method ThreadProc, addr 0x2fe0870, size 0x7c8, virtual false, abstract: false, final false
+  /// @brief Method ThreadProc, addr 0x2ffbf60, size 0x7c8, virtual false, abstract: false, final false
   static inline void ThreadProc();
 
   static inline int32_t getStaticF_s_CacheScanIteration();

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::TransitionCancelEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35a387c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ced78, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

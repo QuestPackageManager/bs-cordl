@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SubsystemBindings)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace UnityEngine {
 class SubsystemBindings;
@@ -20,8 +23,8 @@ namespace UnityEngine {
 class CORDL_TYPE SubsystemBindings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DestroySubsystem, addr 0x3471b08, size 0x3c, virtual false, abstract: false, final false
-  static inline void DestroySubsystem(void* nativePtr);
+  /// @brief Method DestroySubsystem, addr 0x349a004, size 0x3c, virtual false, abstract: false, final false
+  static inline void DestroySubsystem(::System::IntPtr nativePtr);
 
 protected:
   // Ctor Parameters []

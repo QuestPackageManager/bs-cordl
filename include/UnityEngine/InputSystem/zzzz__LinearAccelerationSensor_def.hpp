@@ -15,14 +15,14 @@ class LinearAccelerationSensor;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::LinearAccelerationSensor);
 // Type: UnityEngine.InputSystem::LinearAccelerationSensor
-// SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem::LinearAccelerationSensor*
 class CORDL_TYPE LinearAccelerationSensor : public ::UnityEngine::InputSystem::Sensor {
 public:
   // Declarations
-  /// @brief Field <acceleration>k__BackingField, offset 0x158, size 0x8
+  /// @brief Field <acceleration>k__BackingField, offset 0x170, size 0x8
   __declspec(property(get = __cordl_internal_get__acceleration_k__BackingField,
                       put = __cordl_internal_set__acceleration_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _acceleration_k__BackingField;
 
@@ -31,15 +31,15 @@ public:
 
   __declspec(property(get = get_acceleration, put = set_acceleration))::UnityEngine::InputSystem::Controls::Vector3Control* acceleration;
 
-  /// @brief Method FinishSetup, addr 0x3118bf0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x313a37c, size 0x78, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x3118b18, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x313a2a4, size 0x54, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::LinearAccelerationSensor* New_ctor();
 
-  /// @brief Method OnRemoved, addr 0x3118b6c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x313a2f8, size 0x84, virtual true, abstract: false, final false
   inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__acceleration_k__BackingField();
@@ -48,23 +48,23 @@ public:
 
   constexpr void __cordl_internal_set__acceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method .ctor, addr 0x3118c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x313a3f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::LinearAccelerationSensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_acceleration, addr 0x3118a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_acceleration, addr 0x313a200, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_acceleration();
 
-  /// @brief Method get_current, addr 0x3118a84, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x313a210, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LinearAccelerationSensor* get_current();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::LinearAccelerationSensor* value);
 
-  /// @brief Method set_acceleration, addr 0x3118a7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_acceleration, addr 0x313a208, size 0x8, virtual false, abstract: false, final false
   inline void set_acceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_current, addr 0x3118acc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x313a258, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::LinearAccelerationSensor* value);
 
 protected:
@@ -81,15 +81,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LinearAccelerationSensor(LinearAccelerationSensor const&) = delete;
 
-  /// @brief Field <acceleration>k__BackingField, offset: 0x158, size: 0x8, def value: None
+  /// @brief Field <acceleration>k__BackingField, offset: 0x170, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____acceleration_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LinearAccelerationSensor, 0x160>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LinearAccelerationSensor, 0x178>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::LinearAccelerationSensor, ____acceleration_k__BackingField) == 0x158, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::LinearAccelerationSensor, ____acceleration_k__BackingField) == 0x170, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::LinearAccelerationSensor);

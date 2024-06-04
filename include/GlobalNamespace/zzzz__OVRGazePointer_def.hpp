@@ -89,33 +89,33 @@ public:
 
   __declspec(property(get = get_visibilityStrength)) float_t visibilityStrength;
 
-  /// @brief Method Awake, addr 0x2b7fea8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2ba2534, size 0x170, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Hide, addr 0x2b801ac, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x2ba2838, size 0x11c, virtual false, abstract: false, final false
   inline void Hide();
 
-  /// @brief Method LateUpdate, addr 0x2b805e4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2ba2c70, size 0x178, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::OVRGazePointer* New_ctor();
 
-  /// @brief Method RequestHide, addr 0x2b8075c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method RequestHide, addr 0x2ba2de8, size 0x2c, virtual false, abstract: false, final false
   inline void RequestHide();
 
-  /// @brief Method RequestShow, addr 0x2b805c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RequestShow, addr 0x2ba2c4c, size 0x20, virtual false, abstract: false, final false
   inline void RequestShow();
 
-  /// @brief Method SetCursorRay, addr 0x2b805e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetCursorRay, addr 0x2ba2c6c, size 0x4, virtual true, abstract: false, final false
   inline void SetCursorRay(::UnityEngine::Transform* ray);
 
-  /// @brief Method SetCursorStartDest, addr 0x2b803e0, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method SetCursorStartDest, addr 0x2ba2a6c, size 0x1e0, virtual true, abstract: false, final false
   inline void SetCursorStartDest(::UnityEngine::Vector3 _, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
 
-  /// @brief Method Show, addr 0x2b802c8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x2ba2954, size 0x118, virtual false, abstract: false, final false
   inline void Show();
 
-  /// @brief Method Update, addr 0x2b80018, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2ba26a4, size 0x194, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__currentScale_k__BackingField() const;
@@ -214,35 +214,35 @@ public:
 
   constexpr void __cordl_internal_set_showTimeoutPeriod(float_t value);
 
-  /// @brief Method .ctor, addr 0x2b80788, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ba2e14, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::GlobalNamespace::OVRGazePointer> getStaticF__instance();
 
-  /// @brief Method get_SelectionProgress, addr 0x2b7fdb0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_SelectionProgress, addr 0x2ba243c, size 0x78, virtual false, abstract: false, final false
   inline float_t get_SelectionProgress();
 
-  /// @brief Method get_currentScale, addr 0x2b7faf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentScale, addr 0x2ba217c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_currentScale();
 
-  /// @brief Method get_hidden, addr 0x2b7fadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hidden, addr 0x2ba2168, size 0x8, virtual false, abstract: false, final false
   inline bool get_hidden();
 
-  /// @brief Method get_instance, addr 0x2b7fb00, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x2ba218c, size 0x214, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::OVRGazePointer> get_instance();
 
-  /// @brief Method get_visibilityStrength, addr 0x2b7fd14, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_visibilityStrength, addr 0x2ba23a0, size 0x9c, virtual false, abstract: false, final false
   inline float_t get_visibilityStrength();
 
   static inline void setStaticF__instance(::UnityW<::GlobalNamespace::OVRGazePointer> value);
 
-  /// @brief Method set_SelectionProgress, addr 0x2b7fe28, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_SelectionProgress, addr 0x2ba24b4, size 0x80, virtual false, abstract: false, final false
   inline void set_SelectionProgress(float_t value);
 
-  /// @brief Method set_currentScale, addr 0x2b7faf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentScale, addr 0x2ba2184, size 0x8, virtual false, abstract: false, final false
   inline void set_currentScale(float_t value);
 
-  /// @brief Method set_hidden, addr 0x2b7fae4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_hidden, addr 0x2ba2170, size 0xc, virtual false, abstract: false, final false
   inline void set_hidden(bool value);
 
 protected:

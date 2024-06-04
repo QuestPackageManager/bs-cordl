@@ -69,7 +69,7 @@ public:
 
   static inline ::BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0* New_ctor();
 
-  /// @brief Method <InputFilesContains>b__0, addr 0x1080080, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <InputFilesContains>b__0, addr 0x10873c8, size 0xa8, virtual false, abstract: false, final false
   inline bool _InputFilesContains_b__0(::BGLib::Polyglot::LocalizationAsset* inputFile);
 
   constexpr ::BGLib::Polyglot::LocalizationDocument*& __cordl_internal_get_doc();
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set_doc(::BGLib::Polyglot::LocalizationDocument* value);
 
-  /// @brief Method .ctor, addr 0x107fc14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1086f5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -146,40 +146,40 @@ public:
   /// @brief Field selectedCulture, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_selectedCulture, put = __cordl_internal_set_selectedCulture))::System::Globalization::CultureInfo* selectedCulture;
 
-  /// @brief Method AddOnLocalizeEvent, addr 0x107cf24, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method AddOnLocalizeEvent, addr 0x108426c, size 0x1b8, virtual false, abstract: false, final false
   inline void AddOnLocalizeEvent(::BGLib::Polyglot::ILocalize* localize);
 
-  /// @brief Method Get, addr 0x107d660, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x10849a8, size 0xd8, virtual false, abstract: false, final false
   inline ::StringW Get(::StringW key);
 
-  /// @brief Method GetCultureInfo, addr 0x107f66c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetCultureInfo, addr 0x10869b4, size 0xac, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* GetCultureInfo(::BGLib::Polyglot::Language language);
 
-  /// @brief Method GetFormatOrKey, addr 0x107ff68, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetFormatOrKey, addr 0x10872b0, size 0x58, virtual false, abstract: false, final false
   inline ::StringW GetFormatOrKey(::StringW key, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments);
 
-  /// @brief Method GetOrKey, addr 0x107fec4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetOrKey, addr 0x108720c, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW GetOrKey(::StringW key);
 
-  /// @brief Method InputFilesContains, addr 0x107fb3c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method InputFilesContains, addr 0x1086e84, size 0xd8, virtual false, abstract: false, final false
   inline bool InputFilesContains(::BGLib::Polyglot::LocalizationDocument* doc);
 
-  /// @brief Method IsValueValid, addr 0x107fef0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsValueValid, addr 0x1087238, size 0x78, virtual false, abstract: false, final false
   static inline bool IsValueValid(::StringW value);
 
-  /// @brief Method KeyExist, addr 0x107ffc0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method KeyExist, addr 0x1087308, size 0x20, virtual false, abstract: false, final false
   inline bool KeyExist(::StringW key);
 
-  /// @brief Method KeyExist, addr 0x107ffe0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method KeyExist, addr 0x1087328, size 0xa0, virtual false, abstract: false, final false
   static inline bool KeyExist(::StringW key, ::BGLib::Polyglot::Language language);
 
   static inline ::BGLib::Polyglot::LocalizationModel* New_ctor(::BGLib::Polyglot::Localization* localization, ::BGLib::Polyglot::Language language,
                                                                ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* inputFiles);
 
-  /// @brief Method SelectLanguage, addr 0x107fa64, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SelectLanguage, addr 0x1086dac, size 0xd8, virtual false, abstract: false, final false
   inline void SelectLanguage(int32_t selected);
 
-  /// @brief Method TryGet, addr 0x107fc1c, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method TryGet, addr 0x1086f64, size 0x2a8, virtual false, abstract: false, final false
   inline bool TryGet(::StringW key, ::BGLib::Polyglot::Language language, ByRef<::StringW> value);
 
   constexpr ::System::Action_1<::BGLib::Polyglot::LocalizationModel*>*& __cordl_internal_get__onChangeLanguage();
@@ -206,46 +206,46 @@ public:
 
   constexpr void __cordl_internal_set_selectedCulture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method .ctor, addr 0x107f954, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1086c9c, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::BGLib::Polyglot::Localization* localization, ::BGLib::Polyglot::Language language, ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* inputFiles);
 
-  /// @brief Method add__onChangeLanguage, addr 0x107f7f4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add__onChangeLanguage, addr 0x1086b3c, size 0xb0, virtual false, abstract: false, final false
   inline void add__onChangeLanguage(::System::Action_1<::BGLib::Polyglot::LocalizationModel*>* value);
 
-  /// @brief Method get_EnglishLanguageNames, addr 0x107d0dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_EnglishLanguageNames, addr 0x1084424, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_EnglishLanguageNames();
 
-  /// @brief Method get_InputFiles, addr 0x107f484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InputFiles, addr 0x10867cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* get_InputFiles();
 
-  /// @brief Method get_LocalizedLanguageNames, addr 0x107f778, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_LocalizedLanguageNames, addr 0x1086ac0, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_LocalizedLanguageNames();
 
-  /// @brief Method get_SelectedCultureInfo, addr 0x107f48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SelectedCultureInfo, addr 0x10867d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_SelectedCultureInfo();
 
-  /// @brief Method get_SelectedLanguage, addr 0x107f520, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_SelectedLanguage, addr 0x1086868, size 0x1c, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::Language get_SelectedLanguage();
 
-  /// @brief Method get_SelectedLanguageDirection, addr 0x107f734, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_SelectedLanguageDirection, addr 0x1086a7c, size 0x28, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::LanguageDirection get_SelectedLanguageDirection();
 
-  /// @brief Method get_SelectedLanguageIndex, addr 0x107d158, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_SelectedLanguageIndex, addr 0x10844a0, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_SelectedLanguageIndex();
 
-  /// @brief Method get_SupportedLanguages, addr 0x107f75c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_SupportedLanguages, addr 0x1086aa4, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BGLib::Polyglot::Language>* get_SupportedLanguages();
 
-  /// @brief Method get_fallbackLanguage, addr 0x107f718, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_fallbackLanguage, addr 0x1086a60, size 0x1c, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::Language get_fallbackLanguage();
 
-  /// @brief Method remove__onChangeLanguage, addr 0x107f8a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove__onChangeLanguage, addr 0x1086bec, size 0xb0, virtual false, abstract: false, final false
   inline void remove__onChangeLanguage(::System::Action_1<::BGLib::Polyglot::LocalizationModel*>* value);
 
-  /// @brief Method set_SelectedCultureInfo, addr 0x107f494, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method set_SelectedCultureInfo, addr 0x10867dc, size 0x8c, virtual false, abstract: false, final false
   inline void set_SelectedCultureInfo(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method set_SelectedLanguage, addr 0x107f53c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method set_SelectedLanguage, addr 0x1086884, size 0x130, virtual false, abstract: false, final false
   inline void set_SelectedLanguage(::BGLib::Polyglot::Language value);
 
 protected:

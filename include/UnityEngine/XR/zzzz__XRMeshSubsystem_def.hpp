@@ -14,6 +14,9 @@ template <typename T> class Action_1;
 namespace System {
 class IDisposable;
 }
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine::XR {
 struct MeshGenerationResult;
 }
@@ -41,11 +44,11 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x3608a9c, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3633f98, size 0x3c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3608ad8, size 0x3c, virtual false, abstract: false, final false
-  static inline void Dispose(void* self);
+  /// @brief Method Dispose, addr 0x3633fd4, size 0x3c, virtual false, abstract: false, final false
+  static inline void Dispose(::System::IntPtr self);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
@@ -54,11 +57,11 @@ public:
   // @brief default ctor
   constexpr __XRMeshSubsystem__MeshTransformList();
 
-  // Ctor Parameters [CppParam { name: "m_Self", ty: "void*", modifiers: "", def_value: None }]
-  constexpr __XRMeshSubsystem__MeshTransformList(void* m_Self) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Self", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr __XRMeshSubsystem__MeshTransformList(::System::IntPtr m_Self) noexcept;
 
   /// @brief Field m_Self, offset: 0x0, size: 0x8, def value: None
-  void* m_Self;
+  ::System::IntPtr m_Self;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -81,12 +84,12 @@ public:
   // Declarations
   using MeshTransformList = ::UnityEngine::XR::__XRMeshSubsystem__MeshTransformList;
 
-  /// @brief Method InvokeMeshReadyDelegate, addr 0x36089fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method InvokeMeshReadyDelegate, addr 0x3633ef8, size 0x58, virtual false, abstract: false, final false
   inline void InvokeMeshReadyDelegate(::UnityEngine::XR::MeshGenerationResult result, ::System::Action_1<::UnityEngine::XR::MeshGenerationResult>* onMeshGenerationComplete);
 
   static inline ::UnityEngine::XR::XRMeshSubsystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3608a54, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3633f50, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

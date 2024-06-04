@@ -33,21 +33,21 @@ public:
 
   __declspec(property(get = get_rootElement))::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method DetachElement, addr 0x35dc828, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method DetachElement, addr 0x3606d24, size 0x8c, virtual true, abstract: false, final false
   inline void DetachElement();
 
-  /// @brief Method Init, addr 0x35da7ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3604ce8, size 0x10, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item, bool usesAnimatedDragger);
 
   static inline ::UnityEngine::UIElements::ReusableListViewItem* New_ctor();
 
-  /// @brief Method PreAttachElement, addr 0x35dc6e0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method PreAttachElement, addr 0x3606bdc, size 0x8c, virtual true, abstract: false, final false
   inline void PreAttachElement();
 
-  /// @brief Method UpdateDragHandle, addr 0x35da8e8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method UpdateDragHandle, addr 0x3604de4, size 0x13c, virtual false, abstract: false, final false
   inline void UpdateDragHandle(bool needsDragHandle);
 
-  /// @brief Method UpdateHierarchy, addr 0x35dc46c, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method UpdateHierarchy, addr 0x3606968, size 0x274, virtual false, abstract: false, final false
   inline void UpdateHierarchy(bool usesAnimatedDragger);
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Container();
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ItemContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x35dc9ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3606ea8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rootElement, addr 0x35dc44c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_rootElement, addr 0x3606948, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
 protected:

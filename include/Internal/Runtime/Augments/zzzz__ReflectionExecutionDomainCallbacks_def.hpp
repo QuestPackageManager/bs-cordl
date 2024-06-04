@@ -25,12 +25,12 @@ namespace Internal::Runtime::Augments {
 class CORDL_TYPE ReflectionExecutionDomainCallbacks : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateMissingMetadataException, addr 0x27ab908, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateMissingMetadataException, addr 0x27c4f74, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Exception* CreateMissingMetadataException(::System::Type* attributeType);
 
   static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27ab900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c4f6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

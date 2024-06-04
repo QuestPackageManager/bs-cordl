@@ -120,67 +120,67 @@ public:
   /// @brief Convert operator to "::System::Xml::Serialization::IXmlSerializable"
   constexpr operator ::System::Xml::Serialization::IXmlSerializable*();
 
-  /// @brief Method Compare, addr 0x2d28998, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x2d49088, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean Compare(::System::Data::SqlTypes::SqlString x, ::System::Data::SqlTypes::SqlString y, ::System::Data::SqlTypes::EComparison ecExpectedResult);
 
-  /// @brief Method CompareBinary, addr 0x2d285b8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method CompareBinary, addr 0x2d48ca8, size 0x1c4, virtual false, abstract: false, final false
   static inline int32_t CompareBinary(::System::Data::SqlTypes::SqlString x, ::System::Data::SqlTypes::SqlString y);
 
-  /// @brief Method CompareBinary2, addr 0x2d2877c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method CompareBinary2, addr 0x2d48e6c, size 0x178, virtual false, abstract: false, final false
   static inline int32_t CompareBinary2(::System::Data::SqlTypes::SqlString x, ::System::Data::SqlTypes::SqlString y);
 
-  /// @brief Method CompareOptionsFromSqlCompareOptions, addr 0x2d288f4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CompareOptionsFromSqlCompareOptions, addr 0x2d48fe4, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Globalization::CompareOptions CompareOptionsFromSqlCompareOptions(::System::Data::SqlTypes::SqlCompareOptions compareOptions);
 
-  /// @brief Method CompareTo, addr 0x2d28d24, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CompareTo, addr 0x2d49414, size 0xc0, virtual false, abstract: false, final false
   inline int32_t CompareTo(::System::Data::SqlTypes::SqlString value);
 
-  /// @brief Method CompareTo, addr 0x2d28c28, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x2d49318, size 0xfc, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* value);
 
-  /// @brief Method Equals, addr 0x2d28de4, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2d494d4, size 0x150, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method FBinarySort, addr 0x2d28c08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method FBinarySort, addr 0x2d492f8, size 0x20, virtual false, abstract: false, final false
   inline bool FBinarySort();
 
-  /// @brief Method GetHashCode, addr 0x2d28f34, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2d49624, size 0x20c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetXsdType, addr 0x2d29308, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetXsdType, addr 0x2d499f8, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetXsdType(::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
-  /// @brief Method SetCompareInfo, addr 0x2d281b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetCompareInfo, addr 0x2d488a0, size 0x80, virtual false, abstract: false, final false
   inline void SetCompareInfo();
 
-  /// @brief Method StringCompare, addr 0x2d2838c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method StringCompare, addr 0x2d48a7c, size 0x22c, virtual false, abstract: false, final false
   static inline int32_t StringCompare(::System::Data::SqlTypes::SqlString x, ::System::Data::SqlTypes::SqlString y);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x2d29140, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x2d49830, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x2d29148, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x2d49838, size 0xf4, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader* reader);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x2d2923c, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x2d4992c, size 0xcc, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method ToString, addr 0x2d28244, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2d48934, size 0x18, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ValidateSqlCompareOptions, addr 0x2d27fb0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ValidateSqlCompareOptions, addr 0x2d486a0, size 0xb0, virtual false, abstract: false, final false
   static inline void ValidateSqlCompareOptions(::System::Data::SqlTypes::SqlCompareOptions compareOptions);
 
-  /// @brief Method .ctor, addr 0x2d28060, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d48750, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::StringW data);
 
-  /// @brief Method .ctor, addr 0x2d27f24, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d48614, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW data, int32_t lcid, ::System::Data::SqlTypes::SqlCompareOptions compareOptions);
 
-  /// @brief Method .ctor, addr 0x2d27f14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d48604, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool fNull);
 
-  /// @brief Method .ctor, addr 0x2d2811c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d4880c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(int32_t lcid, ::System::Data::SqlTypes::SqlCompareOptions compareOptions, ::StringW data, ::System::Globalization::CompareInfo* cmpInfo);
 
   static inline int32_t getStaticF_BinarySort();
@@ -209,10 +209,10 @@ public:
 
   static inline ::System::Text::UnicodeEncoding* getStaticF_s_unicodeEncoding();
 
-  /// @brief Method get_IsNull, addr 0x2d17db8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x2d384a8, size 0x10, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_Value, addr 0x2d17dc8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2d384b8, size 0x50, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   /// @brief Convert to "::System::Data::SqlTypes::INullable"
@@ -224,13 +224,13 @@ public:
   /// @brief Convert to "::System::Xml::Serialization::IXmlSerializable"
   constexpr ::System::Xml::Serialization::IXmlSerializable* i___System__Xml__Serialization__IXmlSerializable();
 
-  /// @brief Method op_Addition, addr 0x2d2825c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x2d4894c, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlString op_Addition(::System::Data::SqlTypes::SqlString x, ::System::Data::SqlTypes::SqlString y);
 
-  /// @brief Method op_Equality, addr 0x2d28ae0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2d491d0, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_Equality(::System::Data::SqlTypes::SqlString x, ::System::Data::SqlTypes::SqlString y);
 
-  /// @brief Method op_Implicit, addr 0x2d28230, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2d48920, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlString op_Implicit___System__Data__SqlTypes__SqlString(::StringW x);
 
   static inline void setStaticF_BinarySort(int32_t value);

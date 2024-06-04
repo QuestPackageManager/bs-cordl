@@ -63,10 +63,10 @@ public:
 
   constexpr void __cordl_internal_set_materialHashCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3335a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335fddc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_instanceID, addr 0x3335a60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_instanceID, addr 0x335fdb4, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_instanceID();
 
 protected:

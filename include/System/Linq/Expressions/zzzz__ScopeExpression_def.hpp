@@ -34,12 +34,12 @@ public:
   __declspec(property(get = __cordl_internal_get__variables,
                       put = __cordl_internal_set__variables))::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* _variables;
 
-  /// @brief Method GetOrMakeVariables, addr 0x2bfd22c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetOrMakeVariables, addr 0x2c1d91c, size 0x48, virtual true, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* GetOrMakeVariables();
 
   static inline ::System::Linq::Expressions::ScopeExpression* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* variables);
 
-  /// @brief Method ReuseOrValidateVariables, addr 0x2bfd27c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ReuseOrValidateVariables, addr 0x2c1d96c, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>*
   ReuseOrValidateVariables(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* variables);
 
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set__variables(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* value);
 
-  /// @brief Method .ctor, addr 0x2bfd208, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c1d8f8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* variables);
 
-  /// @brief Method get_VariablesList, addr 0x2bfd274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VariablesList, addr 0x2c1d964, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* get_VariablesList();
 
 protected:

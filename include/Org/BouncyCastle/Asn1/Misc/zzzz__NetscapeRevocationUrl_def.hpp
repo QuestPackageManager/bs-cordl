@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
-  /// @brief Method ToString, addr 0x11dbc44, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x11e24b4, size 0x60, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x11dbc0c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e247c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
 protected:

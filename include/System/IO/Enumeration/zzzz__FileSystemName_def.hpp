@@ -30,16 +30,16 @@ public:
   /// @brief Field s_wildcardChars, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_wildcardChars, put = setStaticF_s_wildcardChars))::ArrayW<char16_t, ::Array<char16_t>*> s_wildcardChars;
 
-  /// @brief Method MatchPattern, addr 0x28cb378, size 0x754, virtual false, abstract: false, final false
+  /// @brief Method MatchPattern, addr 0x28e7a04, size 0x754, virtual false, abstract: false, final false
   static inline bool MatchPattern(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase, bool useExtendedWildcards);
 
-  /// @brief Method MatchesSimpleExpression, addr 0x28ca238, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MatchesSimpleExpression, addr 0x28e68c4, size 0x88, virtual false, abstract: false, final false
   static inline bool MatchesSimpleExpression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase);
 
-  /// @brief Method MatchesWin32Expression, addr 0x28ca2c0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MatchesWin32Expression, addr 0x28e694c, size 0x88, virtual false, abstract: false, final false
   static inline bool MatchesWin32Expression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase);
 
-  /// @brief Method TranslateWin32Expression, addr 0x28c9c78, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method TranslateWin32Expression, addr 0x28e6304, size 0x39c, virtual false, abstract: false, final false
   static inline ::StringW TranslateWin32Expression(::StringW expression);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_simpleWildcardChars();

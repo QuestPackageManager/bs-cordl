@@ -25,7 +25,7 @@ class CORDL_TYPE MonoAsyncCall : public ::System::Object {
 public:
   // Declarations
   /// @brief Field cb_method, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_cb_method, put = __cordl_internal_set_cb_method)) void* cb_method;
+  __declspec(property(get = __cordl_internal_get_cb_method, put = __cordl_internal_set_cb_method))::System::IntPtr cb_method;
 
   /// @brief Field cb_target, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_cb_target, put = __cordl_internal_set_cb_target))::System::Object* cb_target;
@@ -44,9 +44,9 @@ public:
 
   static inline ::System::MonoAsyncCall* New_ctor();
 
-  constexpr void* const& __cordl_internal_get_cb_method() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_cb_method() const;
 
-  constexpr void*& __cordl_internal_get_cb_method();
+  constexpr ::System::IntPtr& __cordl_internal_get_cb_method();
 
   constexpr ::System::Object*& __cordl_internal_get_cb_target();
 
@@ -68,7 +68,7 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_state() const;
 
-  constexpr void __cordl_internal_set_cb_method(void* value);
+  constexpr void __cordl_internal_set_cb_method(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_cb_target(::System::Object* value);
 
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_state(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x298041c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299aaa8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   ::System::Object* ___msg;
 
   /// @brief Field cb_method, offset: 0x18, size: 0x8, def value: None
-  void* ___cb_method;
+  ::System::IntPtr ___cb_method;
 
   /// @brief Field cb_target, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ___cb_target;

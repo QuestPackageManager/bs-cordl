@@ -39,10 +39,10 @@ public:
   /// @brief Field m_currentActivator, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get_m_currentActivator, put = __cordl_internal_set_m_currentActivator))::UnityEngine::UIElements::ManipulatorActivationFilter m_currentActivator;
 
-  /// @brief Method CanStartManipulation, addr 0x350fe64, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CanStartManipulation, addr 0x3539360, size 0x17c, virtual false, abstract: false, final false
   inline bool CanStartManipulation(::UnityEngine::UIElements::IMouseEvent* e);
 
-  /// @brief Method CanStopManipulation, addr 0x350ffe0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CanStopManipulation, addr 0x35394dc, size 0xb8, virtual false, abstract: false, final false
   inline bool CanStopManipulation(::UnityEngine::UIElements::IMouseEvent* e);
 
   static inline ::UnityEngine::UIElements::MouseManipulator* New_ctor();
@@ -60,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set_m_currentActivator(::UnityEngine::UIElements::ManipulatorActivationFilter value);
 
-  /// @brief Method .ctor, addr 0x350fde4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35392e0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activators, addr 0x350fdd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activators, addr 0x35392d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* get_activators();
 
-  /// @brief Method set_activators, addr 0x350fddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activators, addr 0x35392d8, size 0x8, virtual false, abstract: false, final false
   inline void set_activators(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* value);
 
 protected:

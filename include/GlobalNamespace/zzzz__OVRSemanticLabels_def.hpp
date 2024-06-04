@@ -63,48 +63,48 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRSemanticLabels>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRSemanticLabels>*();
 
-  /// @brief Method Equals, addr 0x2aea330, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2b0b9bc, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2aea308, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2b0b994, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRSemanticLabels other);
 
-  /// @brief Method GetHashCode, addr 0x2aea3a8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2b0ba34, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IOVRAnchorComponent<OVRSemanticLabels>.FromAnchor, addr 0x2aea1ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRSemanticLabels>.FromAnchor, addr 0x2b0b878, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRSemanticLabels IOVRAnchorComponent_OVRSemanticLabels__FromAnchor(::GlobalNamespace::OVRAnchor anchor);
 
-  /// @brief Method IOVRAnchorComponent<OVRSemanticLabels>.SetEnabledAsync, addr 0x2aea2b8, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRSemanticLabels>.SetEnabledAsync, addr 0x2b0b944, size 0x50, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRTask_1<bool> IOVRAnchorComponent_OVRSemanticLabels__SetEnabledAsync(bool enabled, double_t timeout);
 
-  /// @brief Method IOVRAnchorComponent<OVRSemanticLabels>.get_Handle, addr 0x2aea1e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRSemanticLabels>.get_Handle, addr 0x2b0b870, size 0x8, virtual true, abstract: false, final true
   inline uint64_t IOVRAnchorComponent_OVRSemanticLabels__get_Handle();
 
-  /// @brief Method IOVRAnchorComponent<OVRSemanticLabels>.get_Type, addr 0x2aea1d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRSemanticLabels>.get_Type, addr 0x2b0b860, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__OVRPlugin__SpaceComponentType IOVRAnchorComponent_OVRSemanticLabels__get_Type();
 
-  /// @brief Method ToString, addr 0x2aea3f4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b0ba80, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2aea1f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0b880, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRAnchor anchor);
 
   static inline ::GlobalNamespace::OVRSemanticLabels getStaticF_Null();
 
-  /// @brief Method get_Handle, addr 0x2aea478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x2b0bb04, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_IsEnabled, addr 0x2aea210, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_IsEnabled, addr 0x2b0b89c, size 0xa8, virtual true, abstract: false, final true
   inline bool get_IsEnabled();
 
-  /// @brief Method get_IsNull, addr 0x2aea200, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x2b0b88c, size 0x10, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_Labels, addr 0x2aea480, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_Labels, addr 0x2b0bb0c, size 0xcc, virtual false, abstract: false, final false
   inline ::StringW get_Labels();
 
-  /// @brief Method get_Type, addr 0x2aea1dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2b0b868, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__SpaceComponentType get_Type();
 
   /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRSemanticLabels>"
@@ -113,10 +113,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRSemanticLabels>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRSemanticLabels>* i___System__IEquatable_1___GlobalNamespace__OVRSemanticLabels_();
 
-  /// @brief Method op_Equality, addr 0x2aea318, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2b0b9a4, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRSemanticLabels lhs, ::GlobalNamespace::OVRSemanticLabels rhs);
 
-  /// @brief Method op_Inequality, addr 0x2aea324, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2b0b9b0, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRSemanticLabels lhs, ::GlobalNamespace::OVRSemanticLabels rhs);
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRSemanticLabels value);

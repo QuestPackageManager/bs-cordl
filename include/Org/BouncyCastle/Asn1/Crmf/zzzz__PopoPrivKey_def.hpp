@@ -48,14 +48,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x10e6454, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10eccc4, size 0x80, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* New_ctor(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* msg);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj);
 
-  /// @brief Method ToAsn1Object, addr 0x10e6514, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10ecd84, size 0x74, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_obj();
@@ -70,16 +70,16 @@ public:
 
   constexpr void __cordl_internal_set_tagNo(int32_t value);
 
-  /// @brief Method .ctor, addr 0x10e64d4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ecd44, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* msg);
 
-  /// @brief Method .ctor, addr 0x10e61c8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10eca38, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj);
 
-  /// @brief Method get_Type, addr 0x10e6504, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x10ecd74, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Type();
 
-  /// @brief Method get_Value, addr 0x10e650c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x10ecd7c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

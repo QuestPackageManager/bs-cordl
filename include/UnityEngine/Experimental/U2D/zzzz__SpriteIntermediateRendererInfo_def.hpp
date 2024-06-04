@@ -10,6 +10,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpriteIntermediateRendererInfo)
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine {
 struct Bounds;
 }
@@ -41,12 +44,12 @@ public:
   // "MaterialID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "Transform", ty:
   // "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "Bounds", ty: "::UnityEngine::Bounds", modifiers: "", def_value: None }, CppParam { name: "Layer", ty: "int32_t",
   // modifiers: "", def_value: None }, CppParam { name: "SortingLayer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "SortingOrder", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "SceneCullingMask", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "IndexData", ty: "void*", modifiers: "", def_value: None }, CppParam { name:
-  // "VertexData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "IndexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "VertexCount", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "ShaderChannelMask", ty: "int32_t", modifiers: "", def_value: None }]
+  // }, CppParam { name: "SceneCullingMask", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "IndexData", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name:
+  // "VertexData", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "IndexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "VertexCount", ty:
+  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "ShaderChannelMask", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr SpriteIntermediateRendererInfo(int32_t SpriteID, int32_t TextureID, int32_t MaterialID, ::UnityEngine::Color Color, ::UnityEngine::Matrix4x4 Transform, ::UnityEngine::Bounds Bounds,
-                                           int32_t Layer, int32_t SortingLayer, int32_t SortingOrder, uint64_t SceneCullingMask, void* IndexData, void* VertexData, int32_t IndexCount,
-                                           int32_t VertexCount, int32_t ShaderChannelMask) noexcept;
+                                           int32_t Layer, int32_t SortingLayer, int32_t SortingOrder, uint64_t SceneCullingMask, ::System::IntPtr IndexData, ::System::IntPtr VertexData,
+                                           int32_t IndexCount, int32_t VertexCount, int32_t ShaderChannelMask) noexcept;
 
   /// @brief Field SpriteID, offset: 0x0, size: 0x4, def value: None
   int32_t SpriteID;
@@ -79,10 +82,10 @@ public:
   uint64_t SceneCullingMask;
 
   /// @brief Field IndexData, offset: 0x88, size: 0x8, def value: None
-  void* IndexData;
+  ::System::IntPtr IndexData;
 
   /// @brief Field VertexData, offset: 0x90, size: 0x8, def value: None
-  void* VertexData;
+  ::System::IntPtr VertexData;
 
   /// @brief Field IndexCount, offset: 0x98, size: 0x4, def value: None
   int32_t IndexCount;

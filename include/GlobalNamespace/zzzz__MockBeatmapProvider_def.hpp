@@ -39,20 +39,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IServerBeatmapProvider"
   constexpr operator ::GlobalNamespace::IServerBeatmapProvider*() noexcept;
 
-  /// @brief Method Dispose, addr 0x26ff8b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2717ff0, size 0x4, virtual false, abstract: false, final false
   inline void Dispose();
 
   static inline ::GlobalNamespace::MockBeatmapProvider* New_ctor();
 
-  /// @brief Method SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks, addr 0x26ff824, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks, addr 0x2717f60, size 0x90, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapKeyNetSerializable* SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(
       int32_t playerCount, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* suggestedBeatmaps,
       ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>* ownedSongPacks);
 
-  /// @brief Method VerifyBeatmapForSelectionMask, addr 0x26ff81c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method VerifyBeatmapForSelectionMask, addr 0x2717f58, size 0x8, virtual true, abstract: false, final true
   inline bool VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask);
 
-  /// @brief Method .ctor, addr 0x26ff8b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2717ff4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IServerBeatmapProvider"

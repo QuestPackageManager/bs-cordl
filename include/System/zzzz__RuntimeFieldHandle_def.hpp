@@ -27,6 +27,9 @@ namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace System {
@@ -46,39 +49,39 @@ namespace System {
 struct CORDL_TYPE RuntimeFieldHandle {
 public:
   // Declarations
-  __declspec(property(get = get_Value)) void* Value;
+  __declspec(property(get = get_Value))::System::IntPtr Value;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*();
 
-  /// @brief Method Equals, addr 0x298500c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x299f698, size 0xfc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2985108, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x299f794, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetObjectData, addr 0x2984e50, size 0x1bc, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x299f4dc, size 0x1bc, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SetValue, addr 0x2985114, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x299f7a0, size 0x4, virtual false, abstract: false, final false
   static inline void SetValue(::System::Reflection::RuntimeFieldInfo* field, ::System::Object* obj, ::System::Object* value, ::System::RuntimeType* fieldType,
                               ::System::Reflection::FieldAttributes fieldAttr, ::System::RuntimeType* declaringType, ByRef<bool> domainInitialized);
 
-  /// @brief Method SetValueDirect, addr 0x2985118, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetValueDirect, addr 0x299f7a4, size 0x4, virtual false, abstract: false, final false
   static inline void SetValueDirect(::System::Reflection::RuntimeFieldInfo* field, ::System::RuntimeType* fieldType, ::cordl_internals::Ptr<void> pTypedRef, ::System::Object* value,
                                     ::System::RuntimeType* contextType);
 
-  /// @brief Method SetValueInternal, addr 0x2985110, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetValueInternal, addr 0x299f79c, size 0x4, virtual false, abstract: false, final false
   static inline void SetValueInternal(::System::Reflection::FieldInfo* fi, ::System::Object* obj, ::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2984c94, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299f320, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2984c8c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(void* v);
+  /// @brief Method .ctor, addr 0x299f318, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr v);
 
-  /// @brief Method get_Value, addr 0x2984e48, size 0x8, virtual false, abstract: false, final false
-  inline void* get_Value();
+  /// @brief Method get_Value, addr 0x299f4d4, size 0x8, virtual false, abstract: false, final false
+  inline ::System::IntPtr get_Value();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable();
@@ -87,11 +90,11 @@ public:
   // @brief default ctor
   constexpr RuntimeFieldHandle();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }]
-  constexpr RuntimeFieldHandle(void* value) noexcept;
+  // Ctor Parameters [CppParam { name: "value", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr RuntimeFieldHandle(::System::IntPtr value) noexcept;
 
   /// @brief Field value, offset: 0x0, size: 0x8, def value: None
-  void* value;
+  ::System::IntPtr value;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -26,7 +26,7 @@ public:
 
   static inline ::System::Runtime::CompilerServices::CustomConstantAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x285bdac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2875438, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

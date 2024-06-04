@@ -54,7 +54,7 @@ public:
   /// @brief Convert operator to "::BGLib::SaveDataCore::ISerializableSaveData"
   constexpr operator ::BGLib::SaveDataCore::ISerializableSaveData*() noexcept;
 
-  /// @brief Method GetAudioLatency, addr 0x10604fc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetAudioLatency, addr 0x1067c50, size 0x4c, virtual false, abstract: false, final false
   inline float_t GetAudioLatency(::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettingsHandler);
 
   static inline ::BeatSaber::GameSettings::Audio* New_ctor();
@@ -89,37 +89,37 @@ public:
 
   constexpr void __cordl_internal_set__volume(float_t value);
 
-  /// @brief Method .ctor, addr 0x1060548, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1067c9c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ambientVolumeScale, addr 0x10604ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ambientVolumeScale, addr 0x1067c40, size 0x8, virtual false, abstract: false, final false
   inline float_t get_ambientVolumeScale();
 
-  /// @brief Method get_isDirty, addr 0x10604d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isDirty, addr 0x1067c24, size 0x8, virtual true, abstract: false, final true
   inline bool get_isDirty();
 
-  /// @brief Method get_overrideAudioLatency, addr 0x10604f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideAudioLatency, addr 0x1067c48, size 0x8, virtual false, abstract: false, final false
   inline bool get_overrideAudioLatency();
 
-  /// @brief Method get_volume, addr 0x10604e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volume, addr 0x1067c38, size 0x8, virtual false, abstract: false, final false
   inline float_t get_volume();
 
   /// @brief Convert to "::BGLib::SaveDataCore::ISerializableSaveData"
   constexpr ::BGLib::SaveDataCore::ISerializableSaveData* i___BGLib__SaveDataCore__ISerializableSaveData() noexcept;
 
-  /// @brief Method set_ambientVolumeScale, addr 0x10602f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_ambientVolumeScale, addr 0x1067a4c, size 0x10, virtual false, abstract: false, final false
   inline void set_ambientVolumeScale(float_t value);
 
-  /// @brief Method set_audioLatency, addr 0x106031c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_audioLatency, addr 0x1067a70, size 0x10, virtual false, abstract: false, final false
   inline void set_audioLatency(float_t value);
 
-  /// @brief Method set_isDirty, addr 0x10604d8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isDirty, addr 0x1067c2c, size 0xc, virtual true, abstract: false, final true
   inline void set_isDirty(bool value);
 
-  /// @brief Method set_overrideAudioLatency, addr 0x1060308, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_overrideAudioLatency, addr 0x1067a5c, size 0x14, virtual false, abstract: false, final false
   inline void set_overrideAudioLatency(bool value);
 
-  /// @brief Method set_volume, addr 0x10602e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_volume, addr 0x1067a3c, size 0x10, virtual false, abstract: false, final false
   inline void set_volume(float_t value);
 
 protected:

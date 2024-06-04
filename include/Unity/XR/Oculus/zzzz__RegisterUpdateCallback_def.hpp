@@ -19,13 +19,13 @@ namespace Unity::XR::Oculus {
 class CORDL_TYPE RegisterUpdateCallback : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Deinitialize, addr 0x33aca2c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x33d5f20, size 0x7c, virtual false, abstract: false, final false
   static inline void Deinitialize();
 
-  /// @brief Method Initialize, addr 0x33ac7cc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x33d5cc0, size 0x7c, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method Update, addr 0x33b013c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x33d9630, size 0x10, virtual false, abstract: false, final false
   static inline void Update();
 
 protected:

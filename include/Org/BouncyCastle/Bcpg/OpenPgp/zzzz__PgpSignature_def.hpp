@@ -90,43 +90,43 @@ public:
   /// @brief Field trustPck, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_trustPck, put = __cordl_internal_set_trustPck))::Org::BouncyCastle::Bcpg::TrustPacket* trustPck;
 
-  /// @brief Method Cast, addr 0x1329908, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Cast, addr 0x1332178, size 0xd0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::SignaturePacket* Cast(::Org::BouncyCastle::Bcpg::Packet* packet);
 
-  /// @brief Method Encode, addr 0x13236e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x132bf54, size 0x58, virtual false, abstract: false, final false
   inline void Encode(::System::IO::Stream* outStream);
 
-  /// @brief Method GetCreationTime, addr 0x132af6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetCreationTime, addr 0x13337dc, size 0x4, virtual false, abstract: false, final false
   inline ::System::DateTime GetCreationTime();
 
-  /// @brief Method GetEncoded, addr 0x132b0dc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x133394c, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetEncodedPublicKey, addr 0x132a894, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetEncodedPublicKey, addr 0x1333104, size 0xfc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncodedPublicKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pubKey);
 
-  /// @brief Method GetHashedSubPackets, addr 0x132b00c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetHashedSubPackets, addr 0x133387c, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* GetHashedSubPackets();
 
-  /// @brief Method GetSig, addr 0x1329a9c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetSig, addr 0x133230c, size 0x7c, virtual false, abstract: false, final false
   inline void GetSig();
 
-  /// @brief Method GetSignature, addr 0x132a434, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x1332ca4, size 0x2d0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignature();
 
-  /// @brief Method GetSignatureTrailer, addr 0x132a418, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureTrailer, addr 0x1332c88, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignatureTrailer();
 
-  /// @brief Method GetUnhashedSubPackets, addr 0x132b098, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetUnhashedSubPackets, addr 0x1333908, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* GetUnhashedSubPackets();
 
-  /// @brief Method InitVerify, addr 0x1329d40, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method InitVerify, addr 0x13325b0, size 0x1a4, virtual false, abstract: false, final false
   inline void InitVerify(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pubKey);
 
-  /// @brief Method IsCertification, addr 0x1329cec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsCertification, addr 0x133255c, size 0x28, virtual false, abstract: false, final false
   inline bool IsCertification();
 
-  /// @brief Method IsCertification, addr 0x1329d30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsCertification, addr 0x13325a0, size 0x10, virtual false, abstract: false, final false
   static inline bool IsCertification(int32_t signatureType);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
@@ -135,34 +135,34 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* New_ctor(::Org::BouncyCastle::Bcpg::SignaturePacket* sigPacket, ::Org::BouncyCastle::Bcpg::TrustPacket* trustPacket);
 
-  /// @brief Method Update, addr 0x1329ee4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1332754, size 0xcc, virtual false, abstract: false, final false
   inline void Update(uint8_t b);
 
-  /// @brief Method Update, addr 0x132a1a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1332a10, size 0x1c, virtual false, abstract: false, final false
   inline void Update(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method Update, addr 0x132a1bc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1332a2c, size 0x114, virtual false, abstract: false, final false
   inline void Update(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off, int32_t length);
 
-  /// @brief Method UpdateWithIdData, addr 0x132a704, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method UpdateWithIdData, addr 0x1332f74, size 0xd0, virtual false, abstract: false, final false
   inline void UpdateWithIdData(int32_t header, ::ArrayW<uint8_t, ::Array<uint8_t>*> idBytes);
 
-  /// @brief Method UpdateWithPublicKey, addr 0x132a7d4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method UpdateWithPublicKey, addr 0x1333044, size 0xc0, virtual false, abstract: false, final false
   inline void UpdateWithPublicKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* key);
 
-  /// @brief Method Verify, addr 0x132a2d0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x1332b40, size 0x148, virtual false, abstract: false, final false
   inline bool Verify();
 
-  /// @brief Method VerifyCertification, addr 0x132ac0c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method VerifyCertification, addr 0x133347c, size 0x108, virtual false, abstract: false, final false
   inline bool VerifyCertification(::StringW id, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* key);
 
-  /// @brief Method VerifyCertification, addr 0x132ad14, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method VerifyCertification, addr 0x1333584, size 0xf8, virtual false, abstract: false, final false
   inline bool VerifyCertification(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* masterKey, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pubKey);
 
-  /// @brief Method VerifyCertification, addr 0x132ae0c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method VerifyCertification, addr 0x133367c, size 0x144, virtual false, abstract: false, final false
   inline bool VerifyCertification(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pubKey);
 
-  /// @brief Method VerifyCertification, addr 0x132a990, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method VerifyCertification, addr 0x1333200, size 0x27c, virtual false, abstract: false, final false
   inline bool VerifyCertification(::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector* userAttributes, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* key);
 
   constexpr uint8_t const& __cordl_internal_get_lastb() const;
@@ -195,44 +195,44 @@ public:
 
   constexpr void __cordl_internal_set_trustPck(::Org::BouncyCastle::Bcpg::TrustPacket* value);
 
-  /// @brief Method .ctor, addr 0x13299d8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1332248, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method .ctor, addr 0x1329a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x133227c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SignaturePacket* sigPacket);
 
-  /// @brief Method .ctor, addr 0x1329a14, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1332284, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SignaturePacket* sigPacket, ::Org::BouncyCastle::Bcpg::TrustPacket* trustPacket);
 
-  /// @brief Method createSubpacketVector, addr 0x132b028, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method createSubpacketVector, addr 0x1333898, size 0x70, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*
   createSubpacketVector(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> pcks);
 
-  /// @brief Method doCanonicalUpdateByte, addr 0x1329fb0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method doCanonicalUpdateByte, addr 0x1332820, size 0xe0, virtual false, abstract: false, final false
   inline void doCanonicalUpdateByte(uint8_t b);
 
-  /// @brief Method doUpdateCRLF, addr 0x132a090, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method doUpdateCRLF, addr 0x1332900, size 0x110, virtual false, abstract: false, final false
   inline void doUpdateCRLF();
 
-  /// @brief Method get_CreationTime, addr 0x132af70, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_CreationTime, addr 0x13337e0, size 0x68, virtual false, abstract: false, final false
   inline ::System::DateTime get_CreationTime();
 
-  /// @brief Method get_HasSubpackets, addr 0x132afd8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_HasSubpackets, addr 0x1333848, size 0x34, virtual false, abstract: false, final false
   inline bool get_HasSubpackets();
 
-  /// @brief Method get_HashAlgorithm, addr 0x1329cd0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x1332540, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::HashAlgorithmTag get_HashAlgorithm();
 
-  /// @brief Method get_KeyAlgorithm, addr 0x1329cb4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyAlgorithm, addr 0x1332524, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_KeyAlgorithm();
 
-  /// @brief Method get_KeyId, addr 0x132af50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x13337c0, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_SignatureType, addr 0x1329d14, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureType, addr 0x1332584, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_SignatureType();
 
-  /// @brief Method get_Version, addr 0x1329c98, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x1332508, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
 protected:

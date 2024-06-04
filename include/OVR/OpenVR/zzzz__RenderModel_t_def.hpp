@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderModel_t)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct RenderModel_t;
@@ -25,19 +28,19 @@ public:
   // @brief default ctor
   constexpr RenderModel_t();
 
-  // Ctor Parameters [CppParam { name: "rVertexData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "unVertexCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "rIndexData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "unTriangleCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "diffuseTextureId", ty:
-  // "int32_t", modifiers: "", def_value: None }]
-  constexpr RenderModel_t(void* rVertexData, uint32_t unVertexCount, void* rIndexData, uint32_t unTriangleCount, int32_t diffuseTextureId) noexcept;
+  // Ctor Parameters [CppParam { name: "rVertexData", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "unVertexCount", ty: "uint32_t", modifiers: "", def_value: None },
+  // CppParam { name: "rIndexData", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "unTriangleCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "diffuseTextureId", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr RenderModel_t(::System::IntPtr rVertexData, uint32_t unVertexCount, ::System::IntPtr rIndexData, uint32_t unTriangleCount, int32_t diffuseTextureId) noexcept;
 
   /// @brief Field rVertexData, offset: 0x0, size: 0x8, def value: None
-  void* rVertexData;
+  ::System::IntPtr rVertexData;
 
   /// @brief Field unVertexCount, offset: 0x8, size: 0x4, def value: None
   uint32_t unVertexCount;
 
   /// @brief Field rIndexData, offset: 0x10, size: 0x8, def value: None
-  void* rIndexData;
+  ::System::IntPtr rIndexData;
 
   /// @brief Field unTriangleCount, offset: 0x18, size: 0x4, def value: None
   uint32_t unTriangleCount;

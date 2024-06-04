@@ -5,15 +5,18 @@
 #include "System/Data/zzzz__Listeners_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Data/zzzz__Listeners_1_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename TElem, typename T1, typename T2, typename T3, typename T4>
-inline ::System::Data::__Listeners_1__Action_4<TElem, T1, T2, T3, T4>* System::Data::__Listeners_1__Action_4<TElem, T1, T2, T3, T4>::New_ctor(::System::Object* object, void* method) {
+inline ::System::Data::__Listeners_1__Action_4<TElem, T1, T2, T3, T4>* System::Data::__Listeners_1__Action_4<TElem, T1, T2, T3, T4>::New_ctor(::System::Object* object, ::System::IntPtr method) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::__Listeners_1__Action_4<TElem, T1, T2, T3, T4>*>(object, method));
 }
-template <typename TElem, typename T1, typename T2, typename T3, typename T4> inline void System::Data::__Listeners_1__Action_4<TElem, T1, T2, T3, T4>::_ctor(::System::Object* object, void* method) {
+template <typename TElem, typename T1, typename T2, typename T3, typename T4>
+inline void System::Data::__Listeners_1__Action_4<TElem, T1, T2, T3, T4>::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::__Listeners_1__Action_4<TElem, T1, T2, T3, T4>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename TElem, typename T1, typename T2, typename T3, typename T4> inline void System::Data::__Listeners_1__Action_4<TElem, T1, T2, T3, T4>::Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4) {
@@ -25,13 +28,14 @@ template <typename TElem, typename T1, typename T2, typename T3, typename T4> in
 // Ctor Parameters []
 template <typename TElem, typename T1, typename T2, typename T3, typename T4> constexpr ::System::Data::__Listeners_1__Action_4<TElem, T1, T2, T3, T4>::__Listeners_1__Action_4() {}
 template <typename TElem, typename T1, typename TResult>
-inline ::System::Data::__Listeners_1__Func_2<TElem, T1, TResult>* System::Data::__Listeners_1__Func_2<TElem, T1, TResult>::New_ctor(::System::Object* object, void* method) {
+inline ::System::Data::__Listeners_1__Func_2<TElem, T1, TResult>* System::Data::__Listeners_1__Func_2<TElem, T1, TResult>::New_ctor(::System::Object* object, ::System::IntPtr method) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::__Listeners_1__Func_2<TElem, T1, TResult>*>(object, method));
 }
-template <typename TElem, typename T1, typename TResult> inline void System::Data::__Listeners_1__Func_2<TElem, T1, TResult>::_ctor(::System::Object* object, void* method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::__Listeners_1__Func_2<TElem, T1, TResult>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+template <typename TElem, typename T1, typename TResult> inline void System::Data::__Listeners_1__Func_2<TElem, T1, TResult>::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::__Listeners_1__Func_2<TElem, T1, TResult>*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename TElem, typename T1, typename TResult> inline TResult System::Data::__Listeners_1__Func_2<TElem, T1, TResult>::Invoke(T1 arg1) {

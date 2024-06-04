@@ -55,10 +55,10 @@ public:
   /// @brief Field _skinColorSet, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__skinColorSet, put = __cordl_internal_set__skinColorSet))::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSetSO> _skinColorSet;
 
-  /// @brief Method InstallBindings, addr 0x1046b3c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x104f3c8, size 0x10, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method InstallBindings, addr 0x1046b4c, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x104f3d8, size 0x210, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO* New_ctor();
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set__skinColorSet(::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSetSO> value);
 
-  /// @brief Method .ctor, addr 0x1046d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x104f5e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

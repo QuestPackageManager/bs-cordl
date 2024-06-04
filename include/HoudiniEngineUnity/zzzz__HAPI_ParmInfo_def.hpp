@@ -49,22 +49,22 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_ParmInfo {
 public:
   // Declarations
-  /// @brief Method isFloat, addr 0x2576a90, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method isFloat, addr 0x258c9d4, size 0x14, virtual false, abstract: false, final false
   inline bool isFloat();
 
-  /// @brief Method isInt, addr 0x2576a70, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method isInt, addr 0x258c9b4, size 0x20, virtual false, abstract: false, final false
   inline bool isInt();
 
-  /// @brief Method isNode, addr 0x2576af4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method isNode, addr 0x258ca38, size 0x10, virtual false, abstract: false, final false
   inline bool isNode();
 
-  /// @brief Method isNonValue, addr 0x2576b04, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method isNonValue, addr 0x258ca48, size 0x14, virtual false, abstract: false, final false
   inline bool isNonValue();
 
-  /// @brief Method isPath, addr 0x2576ad4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method isPath, addr 0x258ca18, size 0x20, virtual false, abstract: false, final false
   inline bool isPath();
 
-  /// @brief Method isString, addr 0x2576aa4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method isString, addr 0x258c9e8, size 0x30, virtual false, abstract: false, final false
   inline bool isString();
 
   // Ctor Parameters []

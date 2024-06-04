@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UserCapability)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class UserCapability;
@@ -33,7 +36,7 @@ public:
   /// @brief Field ReasonCode, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_ReasonCode, put = __cordl_internal_set_ReasonCode))::StringW ReasonCode;
 
-  static inline ::Oculus::Platform::Models::UserCapability* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::UserCapability* New_ctor(::System::IntPtr o);
 
   constexpr ::StringW const& __cordl_internal_get_Description() const;
 
@@ -59,8 +62,8 @@ public:
 
   constexpr void __cordl_internal_set_ReasonCode(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2adf1ec, size 0xac, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2aff878, size 0xac, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

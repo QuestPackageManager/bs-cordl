@@ -32,7 +32,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11b7b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11be37c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Certificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

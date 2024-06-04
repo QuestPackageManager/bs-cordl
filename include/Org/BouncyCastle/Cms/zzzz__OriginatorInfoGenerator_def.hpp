@@ -37,7 +37,7 @@ public:
   /// @brief Field origCrls, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_origCrls, put = __cordl_internal_set_origCrls))::System::Collections::IList* origCrls;
 
-  /// @brief Method Generate, addr 0x146a2c0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Generate, addr 0x146fb30, size 0x90, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* Generate();
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* origCert);
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_origCrls(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x146a134, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x146f9a4, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* origCert);
 
-  /// @brief Method .ctor, addr 0x146a244, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x146fab4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts);
 
-  /// @brief Method .ctor, addr 0x146a274, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x146fae4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts, ::Org::BouncyCastle::X509::Store::IX509Store* origCrls);
 
 protected:

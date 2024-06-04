@@ -24,7 +24,7 @@ namespace TMPro {
 struct CORDL_TYPE TMP_WordInfo {
 public:
   // Declarations
-  /// @brief Method GetWord, addr 0x3335380, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetWord, addr 0x335f6d4, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW GetWord();
 
   // Ctor Parameters []

@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityAction)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -23,13 +26,13 @@ namespace UnityEngine::Events {
 class CORDL_TYPE UnityAction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x343ba58, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3464f54, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
-  static inline ::UnityEngine::Events::UnityAction* New_ctor(::System::Object* object, void* method);
+  static inline ::UnityEngine::Events::UnityAction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x343b99c, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x3464e98, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

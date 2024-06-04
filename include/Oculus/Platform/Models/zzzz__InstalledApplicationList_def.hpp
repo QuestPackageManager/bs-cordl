@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(InstalledApplicationList)
 namespace Oculus::Platform::Models {
 class InstalledApplication;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class InstalledApplicationList;
@@ -23,10 +26,10 @@ namespace Oculus::Platform::Models {
 class CORDL_TYPE InstalledApplicationList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::InstalledApplication*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::Models::InstalledApplicationList* New_ctor(void* a);
+  static inline ::Oculus::Platform::Models::InstalledApplicationList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x2adc300, size 0x23c, virtual false, abstract: false, final false
-  inline void _ctor(void* a);
+  /// @brief Method .ctor, addr 0x2afc98c, size 0x23c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr a);
 
 protected:
   // Ctor Parameters []

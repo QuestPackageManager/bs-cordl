@@ -2,17 +2,21 @@
 // IWYU pragma private; include "OVR/OpenVR/COpenVRContext.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "OVR/OpenVR/zzzz__COpenVRContext_def.hpp"
-// Ctor Parameters [CppParam { name: "m_pVRSystem", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRChaperone", ty: "void*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_pVRChaperoneSetup", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRCompositor", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_pVROverlay", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRResources", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_pVRRenderModels", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRExtendedDisplay", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_pVRSettings", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRApplications", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_pVRTrackedCamera", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRScreenshots", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_pVRDriverManager", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRInput", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRIOBuffer", ty:
-// "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRSpatialAnchors", ty: "void*", modifiers: "", def_value: Some("{}") }]
-constexpr ::OVR::OpenVR::COpenVRContext::COpenVRContext(void* m_pVRSystem, void* m_pVRChaperone, void* m_pVRChaperoneSetup, void* m_pVRCompositor, void* m_pVROverlay, void* m_pVRResources,
-                                                        void* m_pVRRenderModels, void* m_pVRExtendedDisplay, void* m_pVRSettings, void* m_pVRApplications, void* m_pVRTrackedCamera,
-                                                        void* m_pVRScreenshots, void* m_pVRDriverManager, void* m_pVRInput, void* m_pVRIOBuffer, void* m_pVRSpatialAnchors) noexcept {
+#include "System/zzzz__IntPtr_def.hpp"
+// Ctor Parameters [CppParam { name: "m_pVRSystem", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRChaperone", ty: "::System::IntPtr", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "m_pVRChaperoneSetup", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRCompositor", ty: "::System::IntPtr", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "m_pVROverlay", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRResources", ty: "::System::IntPtr", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "m_pVRRenderModels", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRExtendedDisplay", ty: "::System::IntPtr",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRSettings", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRApplications", ty:
+// "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRTrackedCamera", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "m_pVRScreenshots", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRDriverManager", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "m_pVRInput", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRIOBuffer", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "m_pVRSpatialAnchors", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+constexpr ::OVR::OpenVR::COpenVRContext::COpenVRContext(::System::IntPtr m_pVRSystem, ::System::IntPtr m_pVRChaperone, ::System::IntPtr m_pVRChaperoneSetup, ::System::IntPtr m_pVRCompositor,
+                                                        ::System::IntPtr m_pVROverlay, ::System::IntPtr m_pVRResources, ::System::IntPtr m_pVRRenderModels, ::System::IntPtr m_pVRExtendedDisplay,
+                                                        ::System::IntPtr m_pVRSettings, ::System::IntPtr m_pVRApplications, ::System::IntPtr m_pVRTrackedCamera, ::System::IntPtr m_pVRScreenshots,
+                                                        ::System::IntPtr m_pVRDriverManager, ::System::IntPtr m_pVRInput, ::System::IntPtr m_pVRIOBuffer,
+                                                        ::System::IntPtr m_pVRSpatialAnchors) noexcept {
   this->m_pVRSystem = m_pVRSystem;
   this->m_pVRChaperone = m_pVRChaperone;
   this->m_pVRChaperoneSetup = m_pVRChaperoneSetup;

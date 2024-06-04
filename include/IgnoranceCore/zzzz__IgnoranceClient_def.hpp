@@ -200,16 +200,16 @@ public:
 
   static inline ::IgnoranceCore::IgnoranceClient* New_ctor();
 
-  /// @brief Method SetupRingBuffersIfNull, addr 0x25d9510, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method SetupRingBuffersIfNull, addr 0x25f1454, size 0x244, virtual false, abstract: false, final false
   inline void SetupRingBuffersIfNull();
 
-  /// @brief Method Start, addr 0x25d91a0, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25f10e4, size 0x370, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x25d9754, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x25f1698, size 0x90, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method ThreadWorker, addr 0x25d97e4, size 0xe90, virtual false, abstract: false, final false
+  /// @brief Method ThreadWorker, addr 0x25f1728, size 0xe90, virtual false, abstract: false, final false
   inline void ThreadWorker(::System::Object* parameters);
 
   constexpr bool const& __cordl_internal_get_CeaseOperation() const;
@@ -332,10 +332,10 @@ public:
 
   constexpr void __cordl_internal_set_WorkerThread(::System::Threading::Thread* value);
 
-  /// @brief Method .ctor, addr 0x25da674, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f25b8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsAlive, addr 0x25d918c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_IsAlive, addr 0x25f10d0, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsAlive();
 
 protected:

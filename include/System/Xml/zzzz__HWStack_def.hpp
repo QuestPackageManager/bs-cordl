@@ -49,10 +49,10 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method AddToTop, addr 0x2ea4530, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AddToTop, addr 0x2ec5c20, size 0x6c, virtual false, abstract: false, final false
   inline void AddToTop(::System::Object* o);
 
-  /// @brief Method Clone, addr 0x2ea4714, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x2ec5e04, size 0xdc, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
   static inline ::System::Xml::HWStack* New_ctor(int32_t GrowthRate);
@@ -61,13 +61,13 @@ public:
 
   static inline ::System::Xml::HWStack* New_ctor(::ArrayW<::System::Object*, ::Array<::System::Object*>*> stack, int32_t growthRate, int32_t used, int32_t size);
 
-  /// @brief Method Peek, addr 0x2ea44ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Peek, addr 0x2ec5bdc, size 0x44, virtual false, abstract: false, final false
   inline ::System::Object* Peek();
 
-  /// @brief Method Pop, addr 0x2ea44a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x2ec5b94, size 0x48, virtual false, abstract: false, final false
   inline ::System::Object* Pop();
 
-  /// @brief Method Push, addr 0x2ea4368, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x2ec5a58, size 0x13c, virtual false, abstract: false, final false
   inline ::System::Object* Push();
 
   constexpr int32_t const& __cordl_internal_get_growthRate() const;
@@ -100,25 +100,25 @@ public:
 
   constexpr void __cordl_internal_set_used(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2ea42ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ec59dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t GrowthRate);
 
-  /// @brief Method .ctor, addr 0x2ea42f4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ec59e4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t GrowthRate, int32_t limit);
 
-  /// @brief Method .ctor, addr 0x2ea46d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ec5dc0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Object*, ::Array<::System::Object*>*> stack, int32_t growthRate, int32_t used, int32_t size);
 
-  /// @brief Method get_Item, addr 0x2ea459c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2ec5c8c, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(int32_t index);
 
-  /// @brief Method get_Length, addr 0x2ea46c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x2ec5db8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Item, addr 0x2ea4618, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x2ec5d08, size 0xb0, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, ::System::Object* value);
 
 protected:

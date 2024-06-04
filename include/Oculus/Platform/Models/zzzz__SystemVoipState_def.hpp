@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SystemVoipState)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class SystemVoipState;
@@ -28,7 +31,7 @@ public:
   /// @brief Field Status, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_Status, put = __cordl_internal_set_Status))::Oculus::Platform::SystemVoipStatus Status;
 
-  static inline ::Oculus::Platform::Models::SystemVoipState* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::SystemVoipState* New_ctor(::System::IntPtr o);
 
   constexpr ::Oculus::Platform::VoipMuteState const& __cordl_internal_get_MicrophoneMuted() const;
 
@@ -42,8 +45,8 @@ public:
 
   constexpr void __cordl_internal_set_Status(::Oculus::Platform::SystemVoipStatus value);
 
-  /// @brief Method .ctor, addr 0x2adf0ec, size 0x88, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2aff778, size 0x88, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

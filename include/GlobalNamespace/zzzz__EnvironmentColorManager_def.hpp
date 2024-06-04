@@ -57,15 +57,15 @@ public:
 
   __declspec(property(get = get_environmentColor1Boost))::UnityEngine::Color environmentColor1Boost;
 
-  /// @brief Method Awake, addr 0x2677d58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2691168, size 0x28, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitColors, addr 0x2677d80, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InitColors, addr 0x2691190, size 0xbc, virtual false, abstract: false, final false
   inline void InitColors();
 
   static inline ::GlobalNamespace::EnvironmentColorManager* New_ctor();
 
-  /// @brief Method SetColorScheme, addr 0x2677e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetColorScheme, addr 0x269124c, size 0x8, virtual false, abstract: false, final false
   inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
   constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get__colorScheme();
@@ -104,19 +104,19 @@ public:
 
   constexpr void __cordl_internal_set__environmentColor1Boost(::UnityW<::GlobalNamespace::SimpleColorSO> value);
 
-  /// @brief Method .ctor, addr 0x2677e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2691254, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_environmentColor0, addr 0x2672484, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColor0, addr 0x268c54c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColor0();
 
-  /// @brief Method get_environmentColor0Boost, addr 0x26724c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColor0Boost, addr 0x268c58c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColor0Boost();
 
-  /// @brief Method get_environmentColor1, addr 0x26724a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColor1, addr 0x268c56c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColor1();
 
-  /// @brief Method get_environmentColor1Boost, addr 0x2672518, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColor1Boost, addr 0x268c5e0, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColor1Boost();
 
 protected:

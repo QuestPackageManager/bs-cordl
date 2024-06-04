@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26a2a18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26bbc44, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::StringW subtitle);
 
 protected:

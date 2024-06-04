@@ -40,10 +40,10 @@ public:
 
   static inline ::GlobalNamespace::HEU_ScriptParameterExample* New_ctor();
 
-  /// @brief Method Start, addr 0x25318b8, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25487fc, size 0x288, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateGravity, addr 0x2531b40, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method UpdateGravity, addr 0x2548a84, size 0xe4, virtual false, abstract: false, final false
   inline void UpdateGravity();
 
   constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get__evergreenAsset() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__updateRate(float_t value);
 
-  /// @brief Method .ctor, addr 0x2531c24, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2548b68, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

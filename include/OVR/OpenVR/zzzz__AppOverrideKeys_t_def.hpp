@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AppOverrideKeys_t)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct AppOverrideKeys_t;
@@ -25,14 +28,14 @@ public:
   // @brief default ctor
   constexpr AppOverrideKeys_t();
 
-  // Ctor Parameters [CppParam { name: "pchKey", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "pchValue", ty: "void*", modifiers: "", def_value: None }]
-  constexpr AppOverrideKeys_t(void* pchKey, void* pchValue) noexcept;
+  // Ctor Parameters [CppParam { name: "pchKey", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "pchValue", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr AppOverrideKeys_t(::System::IntPtr pchKey, ::System::IntPtr pchValue) noexcept;
 
   /// @brief Field pchKey, offset: 0x0, size: 0x8, def value: None
-  void* pchKey;
+  ::System::IntPtr pchKey;
 
   /// @brief Field pchValue, offset: 0x8, size: 0x8, def value: None
-  void* pchValue;
+  ::System::IntPtr pchValue;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

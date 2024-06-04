@@ -26,10 +26,10 @@ namespace BeatSaber::RecPlay {
 struct CORDL_TYPE PoseNoise {
 public:
   // Declarations
-  /// @brief Method Sample, addr 0x1068eb4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Sample, addr 0x106f5e0, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose Sample(float_t time);
 
-  /// @brief Method SampleLemniscateOfBernoulli, addr 0x1068f70, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SampleLemniscateOfBernoulli, addr 0x106f69c, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 SampleLemniscateOfBernoulli(float_t time);
 
   // Ctor Parameters []

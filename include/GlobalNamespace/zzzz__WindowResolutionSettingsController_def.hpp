@@ -37,15 +37,15 @@ public:
   __declspec(property(get = __cordl_internal_get__windowResolutions,
                       put = __cordl_internal_set__windowResolutions))::ArrayW<::UnityEngine::Vector2Int, ::Array<::UnityEngine::Vector2Int>*> _windowResolutions;
 
-  /// @brief Method ApplyValue, addr 0x2633ea4, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x264d4c4, size 0x80, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x2633c74, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x264d294, size 0x230, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::WindowResolutionSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x2633f24, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x264d544, size 0xcc, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::BeatSaber::GameSettings::GraphicSettingsHandler*& __cordl_internal_get__graphicSettingsHandler();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__windowResolutions(::ArrayW<::UnityEngine::Vector2Int, ::Array<::UnityEngine::Vector2Int>*> value);
 
-  /// @brief Method .ctor, addr 0x2633ff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264d610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PartyID)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class PartyID;
@@ -23,7 +26,7 @@ public:
   /// @brief Field ID, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
 
-  static inline ::Oculus::Platform::Models::PartyID* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::PartyID* New_ctor(::System::IntPtr o);
 
   constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
 
@@ -31,8 +34,8 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2ade0e4, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afe770, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

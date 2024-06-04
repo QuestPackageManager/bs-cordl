@@ -22,12 +22,12 @@ namespace System::Data {
 class CORDL_TYPE DataTableTypeConverter : public ::System::ComponentModel::ReferenceConverter {
 public:
   // Declarations
-  /// @brief Method GetPropertiesSupported, addr 0x2cb9b0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x2cda1fc, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::Data::DataTableTypeConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cb9a58, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cda148, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

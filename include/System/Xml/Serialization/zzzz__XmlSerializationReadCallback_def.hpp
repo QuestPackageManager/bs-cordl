@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlSerializationReadCallback)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -23,13 +26,13 @@ namespace System::Xml::Serialization {
 class CORDL_TYPE XmlSerializationReadCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2ed73b8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ef7aa8, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke();
 
-  static inline ::System::Xml::Serialization::XmlSerializationReadCallback* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Xml::Serialization::XmlSerializationReadCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2ed72fc, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2ef79ec, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

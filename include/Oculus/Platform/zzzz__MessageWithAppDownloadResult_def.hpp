@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithAppDownloadResult)
 namespace Oculus::Platform::Models {
 class AppDownloadResult;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithAppDownloadResult;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAppDownloadResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AppDownloadResult*> {
 public:
   // Declarations
-  /// @brief Method GetAppDownloadResult, addr 0x2ac6d9c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAppDownloadResult, addr 0x2ae7428, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AppDownloadResult* GetAppDownloadResult();
 
-  /// @brief Method GetDataFromMessage, addr 0x2ac6dd8, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::AppDownloadResult* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2ae7464, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::AppDownloadResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  static inline ::Oculus::Platform::MessageWithAppDownloadResult* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithAppDownloadResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac4c0c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae5298, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

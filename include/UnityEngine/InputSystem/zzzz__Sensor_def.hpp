@@ -13,7 +13,7 @@ class Sensor;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Sensor);
 // Type: UnityEngine.InputSystem::Sensor
-// SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 344, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 368, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem::Sensor*
@@ -24,13 +24,13 @@ public:
 
   static inline ::UnityEngine::InputSystem::Sensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x311827c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3139a08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_samplingFrequency, addr 0x31180e8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_samplingFrequency, addr 0x3139874, size 0xf4, virtual false, abstract: false, final false
   inline float_t get_samplingFrequency();
 
-  /// @brief Method set_samplingFrequency, addr 0x31181dc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_samplingFrequency, addr 0x3139968, size 0xa0, virtual false, abstract: false, final false
   inline void set_samplingFrequency(float_t value);
 
 protected:
@@ -50,7 +50,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Sensor, 0x158>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Sensor, 0x170>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::Sensor);

@@ -73,28 +73,28 @@ public:
 
   constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2a4f798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a6de24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2a4f7b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a6de3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2a4f7a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a6de2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2a4f7a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a6de34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2a4f7b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a6de44, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException, ::StringW path, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method get_LineNumber, addr 0x2a4f780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x2a6de0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x2a4f788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x2a6de14, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_Path, addr 0x2a4f790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x2a6de1c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
 protected:

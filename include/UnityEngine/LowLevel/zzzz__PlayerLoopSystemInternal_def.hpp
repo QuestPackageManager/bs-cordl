@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerLoopSystemInternal)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Type;
 }
 namespace UnityEngine::LowLevel {
@@ -32,10 +35,10 @@ public:
   constexpr PlayerLoopSystemInternal();
 
   // Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "updateDelegate", ty:
-  // "::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction*", modifiers: "", def_value: None }, CppParam { name: "updateFunction", ty: "void*", modifiers: "", def_value: None }, CppParam {
-  // name: "loopConditionFunction", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "numSubSystems", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr PlayerLoopSystemInternal(::System::Type* type, ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* updateDelegate, void* updateFunction, void* loopConditionFunction,
-                                     int32_t numSubSystems) noexcept;
+  // "::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction*", modifiers: "", def_value: None }, CppParam { name: "updateFunction", ty: "::System::IntPtr", modifiers: "", def_value: None },
+  // CppParam { name: "loopConditionFunction", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "numSubSystems", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr PlayerLoopSystemInternal(::System::Type* type, ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* updateDelegate, ::System::IntPtr updateFunction,
+                                     ::System::IntPtr loopConditionFunction, int32_t numSubSystems) noexcept;
 
   /// @brief Field type, offset: 0x0, size: 0x8, def value: None
   ::System::Type* type;
@@ -44,10 +47,10 @@ public:
   ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* updateDelegate;
 
   /// @brief Field updateFunction, offset: 0x10, size: 0x8, def value: None
-  void* updateFunction;
+  ::System::IntPtr updateFunction;
 
   /// @brief Field loopConditionFunction, offset: 0x18, size: 0x8, def value: None
-  void* loopConditionFunction;
+  ::System::IntPtr loopConditionFunction;
 
   /// @brief Field numSubSystems, offset: 0x20, size: 0x4, def value: None
   int32_t numSubSystems;

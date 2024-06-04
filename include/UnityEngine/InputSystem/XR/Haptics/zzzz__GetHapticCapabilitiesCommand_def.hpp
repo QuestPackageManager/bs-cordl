@@ -53,7 +53,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x3139c00, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x315c0a0, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -80,13 +80,13 @@ public:
 
   constexpr void __cordl_internal_set_numChannels(uint32_t value);
 
-  /// @brief Method get_Type, addr 0x3139f90, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x315c430, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_capabilities, addr 0x3139c5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_capabilities, addr 0x315c0fc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities();
 
-  /// @brief Method get_typeStatic, addr 0x3139fc0, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x315c460, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"

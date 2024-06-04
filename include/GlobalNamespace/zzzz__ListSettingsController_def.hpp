@@ -31,24 +31,24 @@ public:
   /// @brief Method ApplyValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method DecButtonPressed, addr 0x2763380, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method DecButtonPressed, addr 0x277b9ec, size 0x38, virtual true, abstract: false, final false
   inline void DecButtonPressed();
 
   /// @brief Method GetInitValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method IncButtonPressed, addr 0x2763340, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method IncButtonPressed, addr 0x277b9ac, size 0x40, virtual true, abstract: false, final false
   inline void IncButtonPressed();
 
   static inline ::GlobalNamespace::ListSettingsController* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x276325c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x277b8c8, size 0x34, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x27632e4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x277b950, size 0x5c, virtual false, abstract: false, final false
   inline void Refresh(bool applyValue);
 
-  /// @brief Method RefreshUI, addr 0x2763290, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x277b8fc, size 0x54, virtual false, abstract: false, final false
   inline void RefreshUI();
 
   /// @brief Method TextForValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__numberOfElements(int32_t value);
 
-  /// @brief Method .ctor, addr 0x27633b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x277ba24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

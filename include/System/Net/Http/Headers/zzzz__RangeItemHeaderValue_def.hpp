@@ -44,18 +44,18 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x2d77ff0, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2d976e0, size 0x104, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2d780f4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2d977e4, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::RangeItemHeaderValue* New_ctor(::System::Nullable_1<int64_t> from, ::System::Nullable_1<int64_t> to);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2d77fe8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2d976d8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x2d7816c, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2d9785c, size 0x130, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Nullable_1<int64_t> const& __cordl_internal_get__From_k__BackingField() const;
@@ -70,22 +70,22 @@ public:
 
   constexpr void __cordl_internal_set__To_k__BackingField(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method .ctor, addr 0x2d77cc4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d973b4, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<int64_t> from, ::System::Nullable_1<int64_t> to);
 
-  /// @brief Method get_From, addr 0x2d77fc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_From, addr 0x2d976b0, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_From();
 
-  /// @brief Method get_To, addr 0x2d77fd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_To, addr 0x2d976c4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_To();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_From, addr 0x2d77fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_From, addr 0x2d976bc, size 0x8, virtual false, abstract: false, final false
   inline void set_From(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_To, addr 0x2d77fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_To, addr 0x2d976d0, size 0x8, virtual false, abstract: false, final false
   inline void set_To(::System::Nullable_1<int64_t> value);
 
 protected:

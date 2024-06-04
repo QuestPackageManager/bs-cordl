@@ -53,7 +53,7 @@ public:
 
   static inline ::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <Hide>b__0, addr 0x2667120, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <Hide>b__0, addr 0x268061c, size 0x44, virtual false, abstract: false, final false
   inline void _Hide_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::DisconnectPromptView> const& __cordl_internal_get___4__this() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2667070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268056c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,24 +132,24 @@ public:
   /// @brief Field didViewFinishEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_didViewFinishEvent, put = __cordl_internal_set_didViewFinishEvent))::System::Action_1<bool>* didViewFinishEvent;
 
-  /// @brief Method Hide, addr 0x2666fa4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x26804a0, size 0xcc, virtual false, abstract: false, final false
   inline void Hide(::System::Action* finishedCallback);
 
   static inline ::GlobalNamespace::DisconnectPromptView* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2666f50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x268044c, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2666e60, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x268035c, size 0xf0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Show, addr 0x2666f6c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x2680468, size 0x38, virtual false, abstract: false, final false
   inline void Show();
 
-  /// @brief Method <OnEnable>b__9_0, addr 0x26670e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__9_0, addr 0x26805dc, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__9_0();
 
-  /// @brief Method <OnEnable>b__9_1, addr 0x2667100, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__9_1, addr 0x26805fc, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__9_1();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
@@ -194,13 +194,13 @@ public:
 
   constexpr void __cordl_internal_set_didViewFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x2667078, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2680574, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didViewFinishEvent, addr 0x2666d00, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didViewFinishEvent, addr 0x26801fc, size 0xb0, virtual false, abstract: false, final false
   inline void add_didViewFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_didViewFinishEvent, addr 0x2666db0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didViewFinishEvent, addr 0x26802ac, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didViewFinishEvent(::System::Action_1<bool>* value);
 
 protected:

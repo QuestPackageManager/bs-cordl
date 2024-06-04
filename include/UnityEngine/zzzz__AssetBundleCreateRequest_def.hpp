@@ -26,10 +26,10 @@ public:
 
   static inline ::UnityEngine::AssetBundleCreateRequest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33ce58c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f7a80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetBundle, addr 0x33ce550, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_assetBundle, addr 0x33f7a44, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AssetBundle> get_assetBundle();
 
 protected:

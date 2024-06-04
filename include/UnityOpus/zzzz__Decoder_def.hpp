@@ -37,7 +37,7 @@ public:
   __declspec(property(get = __cordl_internal_get_channels, put = __cordl_internal_set_channels))::UnityOpus::NumChannels channels;
 
   /// @brief Field decoder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_decoder, put = __cordl_internal_set_decoder)) void* decoder;
+  __declspec(property(get = __cordl_internal_get_decoder, put = __cordl_internal_set_decoder))::System::IntPtr decoder;
 
   /// @brief Field disposedValue, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_disposedValue, put = __cordl_internal_set_disposedValue)) bool disposedValue;
@@ -48,16 +48,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Decode, addr 0x25dc1c4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x25f4108, size 0xcc, virtual false, abstract: false, final false
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t dataLength, ::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t decodeFec);
 
-  /// @brief Method Dispose, addr 0x25dc5a0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x25f44e4, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x25dc400, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x25f4344, size 0x84, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x25dc500, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x25f4444, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityOpus::Decoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
@@ -66,9 +66,9 @@ public:
 
   constexpr ::UnityOpus::NumChannels& __cordl_internal_get_channels();
 
-  constexpr void* const& __cordl_internal_get_decoder() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_decoder() const;
 
-  constexpr void*& __cordl_internal_get_decoder();
+  constexpr ::System::IntPtr& __cordl_internal_get_decoder();
 
   constexpr bool const& __cordl_internal_get_disposedValue() const;
 
@@ -80,13 +80,13 @@ public:
 
   constexpr void __cordl_internal_set_channels(::UnityOpus::NumChannels value);
 
-  constexpr void __cordl_internal_set_decoder(void* value);
+  constexpr void __cordl_internal_set_decoder(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_disposedValue(bool value);
 
   constexpr void __cordl_internal_set_softclipMem(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x25dbfdc, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f3f20, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
 
   /// @brief Convert to "::System::IDisposable"
@@ -107,7 +107,7 @@ public:
   Decoder(Decoder const&) = delete;
 
   /// @brief Field decoder, offset: 0x10, size: 0x8, def value: None
-  void* ___decoder;
+  ::System::IntPtr ___decoder;
 
   /// @brief Field channels, offset: 0x18, size: 0x4, def value: None
   ::UnityOpus::NumChannels ___channels;

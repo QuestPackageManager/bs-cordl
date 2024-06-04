@@ -85,7 +85,7 @@ public:
   /// @brief Field _scoreController, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
 
-  /// @brief Method FillLevelCompletionResults, addr 0x2722504, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method FillLevelCompletionResults, addr 0x2738c8c, size 0x250, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LevelCompletionResults* FillLevelCompletionResults(::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType,
                                                                                ::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction);
 
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  /// @brief Method .ctor, addr 0x272278c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2738f14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

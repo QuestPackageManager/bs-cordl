@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithPartyUpdateNotification)
 namespace Oculus::Platform::Models {
 class PartyUpdateNotification;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithPartyUpdateNotification;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithPartyUpdateNotification : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PartyUpdateNotification*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2ac9568, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::PartyUpdateNotification* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2ae9bf4, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::PartyUpdateNotification* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetPartyUpdateNotification, addr 0x2ac952c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetPartyUpdateNotification, addr 0x2ae9bb8, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PartyUpdateNotification* GetPartyUpdateNotification();
 
-  static inline ::Oculus::Platform::MessageWithPartyUpdateNotification* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithPartyUpdateNotification* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac5764, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae5df0, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

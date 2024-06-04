@@ -12,7 +12,7 @@ class AndroidJoystick;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidJoystick);
 // Type: UnityEngine.InputSystem.Android::AndroidJoystick
-// SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 400, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Android::AndroidJoystick*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidJoystick* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3155060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3178b3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::AndroidJoystick, 0x178>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::AndroidJoystick, 0x190>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Android
 NEED_NO_BOX(::UnityEngine::InputSystem::Android::AndroidJoystick);

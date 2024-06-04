@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__YieldInstruction_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Coroutine)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace UnityEngine {
 class Coroutine;
@@ -22,23 +25,23 @@ class CORDL_TYPE Coroutine : public ::UnityEngine::YieldInstruction {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
 
-  /// @brief Method Finalize, addr 0x34115b4, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x343aaa8, size 0xbc, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityEngine::Coroutine* New_ctor();
 
-  /// @brief Method ReleaseCoroutine, addr 0x3411670, size 0x3c, virtual false, abstract: false, final false
-  static inline void ReleaseCoroutine(void* ptr);
+  /// @brief Method ReleaseCoroutine, addr 0x343ab64, size 0x3c, virtual false, abstract: false, final false
+  static inline void ReleaseCoroutine(::System::IntPtr ptr);
 
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x34115ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x343aaa0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,7 +59,7 @@ public:
   Coroutine(Coroutine const&) = delete;
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  void* ___m_Ptr;
+  ::System::IntPtr ___m_Ptr;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

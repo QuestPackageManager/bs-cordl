@@ -74,21 +74,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method GetObjectCall, addr 0x343a5ac, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method GetObjectCall, addr 0x3463aa8, size 0x430, virtual false, abstract: false, final false
   static inline ::UnityEngine::Events::BaseInvokableCall* GetObjectCall(::UnityEngine::Object* target, ::System::Reflection::MethodInfo* method, ::UnityEngine::Events::ArgumentCache* arguments);
 
-  /// @brief Method GetRuntimeCall, addr 0x343a0fc, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeCall, addr 0x34635f8, size 0x2e8, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::BaseInvokableCall* GetRuntimeCall(::UnityEngine::Events::UnityEventBase* theEvent);
 
-  /// @brief Method IsValid, addr 0x343a0c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x34635bc, size 0x3c, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::UnityEngine::Events::PersistentCall* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x343a9f8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x3463ef4, size 0x1c, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x343a9dc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x3463ed8, size 0x1c, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
   constexpr ::UnityEngine::Events::ArgumentCache*& __cordl_internal_get_m_Arguments();
@@ -127,22 +127,22 @@ public:
 
   constexpr void __cordl_internal_set_m_TargetAssemblyTypeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x343aa14, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3463f10, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_arguments, addr 0x343a0b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arguments, addr 0x34635b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::ArgumentCache* get_arguments();
 
-  /// @brief Method get_methodName, addr 0x343a0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_methodName, addr 0x34635a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_methodName();
 
-  /// @brief Method get_mode, addr 0x343a0b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x34635ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::PersistentListenerMode get_mode();
 
-  /// @brief Method get_target, addr 0x3439ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_target, addr 0x34634f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_target();
 
-  /// @brief Method get_targetAssemblyTypeName, addr 0x3439ffc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_targetAssemblyTypeName, addr 0x34634f8, size 0xac, virtual false, abstract: false, final false
   inline ::StringW get_targetAssemblyTypeName();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"

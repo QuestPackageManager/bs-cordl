@@ -24,7 +24,7 @@ public:
   /// @brief Field Table, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Table, put = setStaticF_Table))::ArrayW<uint32_t, ::Array<uint32_t>*> Table;
 
-  /// @brief Method Compute, addr 0x25ed228, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method Compute, addr 0x260516c, size 0x410, virtual false, abstract: false, final false
   static inline uint32_t Compute(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t offset, int32_t length);
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_Table();

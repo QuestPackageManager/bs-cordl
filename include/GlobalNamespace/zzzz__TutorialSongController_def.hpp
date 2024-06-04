@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set_songBpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x272dd2c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27444b4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t songBpm, ::GlobalNamespace::BeatmapData* beatmapData);
 
 protected:
@@ -204,7 +204,7 @@ public:
 
   constexpr void __cordl_internal_set_signal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x272dd64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27444ec, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex);
 
 protected:
@@ -267,7 +267,7 @@ public:
 
   constexpr void __cordl_internal_set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method .ctor, addr 0x272dda8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2744530, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
 protected:
@@ -325,7 +325,7 @@ public:
 
   constexpr void __cordl_internal_set_cutDirection(::GlobalNamespace::NoteCutDirection value);
 
-  /// @brief Method .ctor, addr 0x272d3a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2743b28, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer,
                     ::GlobalNamespace::NoteCutDirection cutDirection, ::GlobalNamespace::ColorType colorType);
 
@@ -370,7 +370,7 @@ public:
   static inline ::GlobalNamespace::__TutorialSongController__TutorialBombNoteSpawnData* New_ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex,
                                                                                                  ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method .ctor, addr 0x272d404, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2743b8c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
 protected:
@@ -431,7 +431,7 @@ public:
 
   constexpr void __cordl_internal_set_width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x272d454, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2743bdc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, int32_t width, int32_t height,
                     ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
@@ -570,51 +570,51 @@ public:
   /// @brief Field _tutorialBeatmapObjectIndex, offset 0xb0, size 0x4
   __declspec(property(get = __cordl_internal_get__tutorialBeatmapObjectIndex, put = __cordl_internal_set__tutorialBeatmapObjectIndex)) int32_t _tutorialBeatmapObjectIndex;
 
-  /// @brief Method Awake, addr 0x272ce94, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x274361c, size 0x50c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateBasicNoteData, addr 0x272dbfc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CreateBasicNoteData, addr 0x2744384, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteData* CreateBasicNoteData(float_t time, ::GlobalNamespace::__TutorialSongController__TutorialBasicNoteSpawnData* tutorialBasicNoteSpawnData);
 
-  /// @brief Method CreateBombNoteData, addr 0x272dc20, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CreateBombNoteData, addr 0x27443a8, size 0x20, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteData* CreateBombNoteData(float_t time, ::GlobalNamespace::__TutorialSongController__TutorialBombNoteSpawnData* tutorialBombNoteSpawnData);
 
-  /// @brief Method CreateObstacleData, addr 0x272dc40, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CreateObstacleData, addr 0x27443c8, size 0xcc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ObstacleData* CreateObstacleData(float_t time, ::GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData* tutorialObstacleSpawnData);
 
-  /// @brief Method GetNextBeatmapObjectTime, addr 0x272db84, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetNextBeatmapObjectTime, addr 0x274430c, size 0x78, virtual false, abstract: false, final false
   inline float_t GetNextBeatmapObjectTime(int32_t beatOffset);
 
-  /// @brief Method HandleNoteWasCut, addr 0x272da1c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x27441a4, size 0xe8, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteWasMissed, addr 0x272db04, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x274428c, size 0x6c, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleObstacleDidPassThreeQuartersOfMove2, addr 0x272db70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleDidPassThreeQuartersOfMove2, addr 0x27442f8, size 0x14, virtual false, abstract: false, final false
   inline void HandleObstacleDidPassThreeQuartersOfMove2(::GlobalNamespace::ObstacleController* obstacleController);
 
   static inline ::GlobalNamespace::TutorialSongController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x272d624, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2743dac, size 0x154, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PauseSong, addr 0x272d9d8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method PauseSong, addr 0x2744160, size 0x28, virtual true, abstract: false, final false
   inline void PauseSong();
 
-  /// @brief Method ResumeSong, addr 0x272da00, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ResumeSong, addr 0x2744188, size 0x1c, virtual true, abstract: false, final false
   inline void ResumeSong();
 
-  /// @brief Method Start, addr 0x272d4b8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2743c40, size 0x16c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartSong, addr 0x272c33c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method StartSong, addr 0x2742ac4, size 0x80, virtual false, abstract: false, final false
   inline void StartSong(float_t startTimeOffset);
 
-  /// @brief Method StopSong, addr 0x272d9b0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method StopSong, addr 0x2744138, size 0x28, virtual true, abstract: false, final false
   inline void StopSong();
 
-  /// @brief Method UpdateBeatmapData, addr 0x272d778, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method UpdateBeatmapData, addr 0x2743f00, size 0x238, virtual false, abstract: false, final false
   inline void UpdateBeatmapData(float_t noteTime);
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -758,7 +758,7 @@ public:
 
   constexpr void __cordl_internal_set__tutorialBeatmapObjectIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x272dd0c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2744494, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

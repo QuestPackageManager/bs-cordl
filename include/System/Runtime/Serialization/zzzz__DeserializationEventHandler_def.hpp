@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeserializationEventHandler)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -23,13 +26,13 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE DeserializationEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x28356f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x284fd7c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender);
 
-  static inline ::System::Runtime::Serialization::DeserializationEventHandler* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Runtime::Serialization::DeserializationEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x28355c4, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x284fc50, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

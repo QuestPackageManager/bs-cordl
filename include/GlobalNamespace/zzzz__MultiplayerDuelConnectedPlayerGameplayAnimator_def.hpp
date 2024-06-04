@@ -35,21 +35,21 @@ public:
   __declspec(property(get = __cordl_internal_get__failController,
                       put = __cordl_internal_set__failController))::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController> _failController;
 
-  /// @brief Method AnimateNewLeaderSelected, addr 0x26f283c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method AnimateNewLeaderSelected, addr 0x270af6c, size 0xdc, virtual true, abstract: false, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandlePlayerDidFail, addr 0x26f2a28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDidFail, addr 0x270b158, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerDidFail();
 
-  /// @brief Method HandleStateChanged, addr 0x26f2918, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x270b048, size 0x110, virtual true, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
   static inline ::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26f268c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x270adbc, size 0xdc, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method TransitionIntoFailedState, addr 0x26f2768, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method TransitionIntoFailedState, addr 0x270ae98, size 0xd4, virtual false, abstract: false, final false
   inline void TransitionIntoFailedState();
 
   constexpr ::UnityW<::GlobalNamespace::ScaleAnimator> const& __cordl_internal_get__avatarScaleAnimator() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__failController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController> value);
 
-  /// @brief Method .ctor, addr 0x26f2a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270b15c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

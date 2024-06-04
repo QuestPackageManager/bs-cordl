@@ -75,7 +75,7 @@ public:
                                                             ::ArrayW<::System::Type*, ::Array<::System::Type*>*> indexes,
                                                             ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers);
 
-  /// @brief Method .ctor, addr 0x2865a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x287f114, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

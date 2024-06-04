@@ -15,6 +15,9 @@ class SupplementaryMetric;
 namespace Oculus::Platform::Models {
 class User;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class LeaderboardEntry;
@@ -57,7 +60,7 @@ public:
   /// @brief Field ID, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
 
-  static inline ::Oculus::Platform::Models::LeaderboardEntry* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::LeaderboardEntry* New_ctor(::System::IntPtr o);
 
   constexpr ::StringW const& __cordl_internal_get_DisplayScore() const;
 
@@ -113,8 +116,8 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2adcc40, size 0x1ac, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afd2cc, size 0x1ac, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []
