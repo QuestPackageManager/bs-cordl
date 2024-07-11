@@ -63,12 +63,12 @@ public:
   /// @brief Field _rightHandPoseTarget, offset 0x110, size 0x1c
   __declspec(property(get = __cordl_internal_get__rightHandPoseTarget, put = __cordl_internal_set__rightHandPoseTarget))::UnityEngine::Pose _rightHandPoseTarget;
 
-  /// @brief Method Init, addr 0x2782710, size 0x2d0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2797124, size 0x2d0, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method Tick, addr 0x27829e0, size 0x9ec, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x27973f4, size 0x9ec, virtual true, abstract: false, final false
   inline void Tick();
 
   constexpr ::UnityEngine::Pose const& __cordl_internal_get__headPose() const;
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set__rightHandPoseTarget(::UnityEngine::Pose value);
 
-  /// @brief Method .ctor, addr 0x2781cb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27966c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
 protected:

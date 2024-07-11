@@ -66,10 +66,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherBuilderWithKey"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*() noexcept;
 
-  /// @brief Method BuildCipher, addr 0x118d4c4, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method BuildCipher, addr 0x11997bc, size 0x198, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::ICipher* BuildCipher(::System::IO::Stream* stream);
 
-  /// @brief Method GetMaxOutputSize, addr 0x118d484, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method GetMaxOutputSize, addr 0x119977c, size 0x40, virtual true, abstract: false, final true
   inline int32_t GetMaxOutputSize(int32_t inputLen);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize,
@@ -87,13 +87,13 @@ public:
 
   constexpr void __cordl_internal_set_encKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x118d25c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1199554, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_AlgorithmDetails, addr 0x118d47c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmDetails, addr 0x1199774, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method get_Key, addr 0x118d6e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Key, addr 0x11999e0, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Key();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherBuilder"

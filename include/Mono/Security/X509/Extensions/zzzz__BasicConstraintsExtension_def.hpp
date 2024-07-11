@@ -32,15 +32,15 @@ public:
   /// @brief Field pathLenConstraint, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_pathLenConstraint, put = __cordl_internal_set_pathLenConstraint)) int32_t pathLenConstraint;
 
-  /// @brief Method Decode, addr 0x2795fd0, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x27a99e4, size 0x138, virtual true, abstract: false, final false
   inline void Decode();
 
-  /// @brief Method Encode, addr 0x2796108, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x27a9b1c, size 0x134, virtual true, abstract: false, final false
   inline void Encode();
 
   static inline ::Mono::Security::X509::Extensions::BasicConstraintsExtension* New_ctor(::Mono::Security::X509::X509Extension* extension);
 
-  /// @brief Method ToString, addr 0x2796244, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x27a9c58, size 0x1a8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_cA() const;
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set_pathLenConstraint(int32_t value);
 
-  /// @brief Method .ctor, addr 0x27943e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27a7df4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::X509::X509Extension* extension);
 
-  /// @brief Method get_CertificateAuthority, addr 0x279623c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateAuthority, addr 0x27a9c50, size 0x8, virtual false, abstract: false, final false
   inline bool get_CertificateAuthority();
 
 protected:

@@ -33,13 +33,13 @@ public:
 
   static inline ::UnityEngine::Audio::AudioMixerSnapshot* New_ctor();
 
-  /// @brief Method TransitionTo, addr 0x33fcb3c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TransitionTo, addr 0x340b9c0, size 0x5c, virtual false, abstract: false, final false
   inline void TransitionTo(float_t timeToReach);
 
-  /// @brief Method .ctor, addr 0x33fcae4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340b968, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioMixer, addr 0x33fc884, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioMixer, addr 0x340b708, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixer> get_audioMixer();
 
   /// @brief Convert to "::UnityEngine::Internal::ISubAssetNotDuplicatable"

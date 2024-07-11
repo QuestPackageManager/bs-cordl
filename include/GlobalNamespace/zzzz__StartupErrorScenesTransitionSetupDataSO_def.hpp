@@ -22,12 +22,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE StartupErrorScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x26ba45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26d074c, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::StartupErrorSceneSetupData* startupErrorSceneSetupData);
 
   static inline ::GlobalNamespace::StartupErrorScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26bfcec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d6038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

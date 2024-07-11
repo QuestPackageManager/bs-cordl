@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongSpeedData::*)(float_t)>(&::GlobalNamespace::SongSpeedData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x14a41dc;
+  constexpr static std::size_t addrs = 0x14ad894;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

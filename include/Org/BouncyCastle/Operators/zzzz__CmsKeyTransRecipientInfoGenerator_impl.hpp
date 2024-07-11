@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator::*)(
     ::Org::BouncyCastle::X509::X509Certificate*, ::Org::BouncyCastle::Crypto::IKeyWrapper*)>(&::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x11929a4;
+  constexpr static std::size_t addrs = 0x119ec9c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Crypto::IKeyWrapper*)>(&::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x1192af0;
+  constexpr static std::size_t addrs = 0x119ede8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (
     ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator::*)()>(&::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator::get_AlgorithmDetails)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x1192b64;
+  constexpr static std::size_t addrs = 0x119ee5c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator::*)(
     ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*)>(&::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator::GenerateWrappedKey)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x1192c50;
+  constexpr static std::size_t addrs = 0x119ef48;
 
   inline static const ::MethodInfo* methodInfo() {
 

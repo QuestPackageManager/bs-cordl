@@ -66,18 +66,18 @@ public:
   __declspec(property(get = __cordl_internal_get_lastProcessedNode,
                       put = __cordl_internal_set_lastProcessedNode))::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* lastProcessedNode;
 
-  /// @brief Method AddCallback, addr 0x2629a34, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method AddCallback, addr 0x263e354, size 0x308, virtual false, abstract: false, final false
   inline void AddCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
 
-  /// @brief Method CallCallbacks, addr 0x2628904, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CallCallbacks, addr 0x263d224, size 0xd4, virtual false, abstract: false, final false
   inline void CallCallbacks(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
-  /// @brief Method CallCallbacks, addr 0x2629d3c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method CallCallbacks, addr 0x263e65c, size 0x2cc, virtual false, abstract: false, final false
   inline void CallCallbacks(::System::Type* beatmapEventDataType, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   static inline ::GlobalNamespace::CallbacksInTime* New_ctor(float_t aheadTime);
 
-  /// @brief Method RemoveCallback, addr 0x2628534, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method RemoveCallback, addr 0x263ce54, size 0x1e4, virtual false, abstract: false, final false
   inline void RemoveCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*& __cordl_internal_get__callbacks();
@@ -117,10 +117,10 @@ public:
 
   constexpr void __cordl_internal_set_lastProcessedNode(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* value);
 
-  /// @brief Method .ctor, addr 0x2629960, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263e280, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(float_t aheadTime);
 
-  /// @brief Method get_isEmpty, addr 0x2628718, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x263d038, size 0x8c, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
 protected:

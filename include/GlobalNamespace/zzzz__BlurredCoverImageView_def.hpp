@@ -65,10 +65,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x267fb24, size 0x6cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26934a0, size 0x6cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26801f0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2693b6c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -154,10 +154,10 @@ public:
 
   static inline ::GlobalNamespace::BlurredCoverImageView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x267f9d8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2693354, size 0xa4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetTextureAsync, addr 0x267fa7c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetTextureAsync, addr 0x26933f8, size 0xa0, virtual false, abstract: false, final false
   inline void SetTextureAsync(::GlobalNamespace::BeatmapLevel* level);
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__blurredCoverTexture() const;
@@ -190,7 +190,7 @@ public:
 
   constexpr void __cordl_internal_set__settingTextureForLevelId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x267fb1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2693498, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

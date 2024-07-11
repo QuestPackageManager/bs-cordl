@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_obstaclesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x14bef80, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14c8b4c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, ::GlobalNamespace::EnvironmentName environmentName, ::GlobalNamespace::ColorScheme* beatmapColorScheme,
                     int32_t notesCount, int32_t obstaclesCount, int32_t bombsCount, ::ArrayW<::StringW, ::Array<::StringW>*> mappers, ::ArrayW<::StringW, ::Array<::StringW>*> lighters);
 

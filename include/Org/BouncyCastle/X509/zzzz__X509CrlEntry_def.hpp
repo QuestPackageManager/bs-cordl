@@ -64,26 +64,26 @@ public:
   /// @brief Field previousCertificateIssuer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_previousCertificateIssuer, put = __cordl_internal_set_previousCertificateIssuer))::Org::BouncyCastle::Asn1::X509::X509Name* previousCertificateIssuer;
 
-  /// @brief Method Equals, addr 0x13e7c18, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x13f0f10, size 0xf4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetCertificateIssuer, addr 0x13e7a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCertificateIssuer, addr 0x13f0d84, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetCertificateIssuer();
 
-  /// @brief Method GetEncoded, addr 0x13e7ab0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x13f0da8, size 0xf8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetHashCode, addr 0x13e7d0c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x13f1004, size 0x5c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetX509Extensions, addr 0x13e7a94, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetX509Extensions, addr 0x13f0d8c, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
   static inline ::Org::BouncyCastle::X509::X509CrlEntry* New_ctor(::Org::BouncyCastle::Asn1::X509::CrlEntry* c);
 
   static inline ::Org::BouncyCastle::X509::X509CrlEntry* New_ctor(::Org::BouncyCastle::Asn1::X509::CrlEntry* c, bool isIndirect, ::Org::BouncyCastle::Asn1::X509::X509Name* previousCertificateIssuer);
 
-  /// @brief Method ToString, addr 0x13e7d68, size 0x7f8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x13f1060, size 0x7f8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::CrlEntry*& __cordl_internal_get_c();
@@ -122,22 +122,22 @@ public:
 
   constexpr void __cordl_internal_set_previousCertificateIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* value);
 
-  /// @brief Method .ctor, addr 0x13e78b4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13f0bac, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::CrlEntry* c);
 
-  /// @brief Method .ctor, addr 0x13e5e40, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13ef138, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::CrlEntry* c, bool isIndirect, ::Org::BouncyCastle::Asn1::X509::X509Name* previousCertificateIssuer);
 
-  /// @brief Method get_HasExtensions, addr 0x13e7bf0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_HasExtensions, addr 0x13f0ee8, size 0x28, virtual false, abstract: false, final false
   inline bool get_HasExtensions();
 
-  /// @brief Method get_RevocationDate, addr 0x13e7bcc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationDate, addr 0x13f0ec4, size 0x24, virtual false, abstract: false, final false
   inline ::System::DateTime get_RevocationDate();
 
-  /// @brief Method get_SerialNumber, addr 0x13e7ba8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x13f0ea0, size 0x24, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
-  /// @brief Method loadCertificateIssuer, addr 0x13e78e8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method loadCertificateIssuer, addr 0x13f0be0, size 0x1a4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* loadCertificateIssuer();
 
 protected:

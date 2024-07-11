@@ -48,39 +48,39 @@ public:
   /// @brief Field _right, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__right, put = __cordl_internal_set__right))::System::Data::ExpressionNode* _right;
 
-  /// @brief Method Bind, addr 0x2cf20f8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x2d07b0c, size 0x28, virtual true, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method DependsOn, addr 0x2cf29e4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x2d083f8, size 0x24, virtual true, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Eval, addr 0x2cf2120, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x2d07b34, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Eval();
 
-  /// @brief Method Eval, addr 0x2cf2944, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x2d08358, size 0x20, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::ArrayW<int32_t, ::Array<int32_t>*> recordNos);
 
-  /// @brief Method Eval, addr 0x2cf2134, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x2d07b48, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method EvalUnaryOp, addr 0x2cf2174, size 0x7d0, virtual false, abstract: false, final false
+  /// @brief Method EvalUnaryOp, addr 0x2d07b88, size 0x7d0, virtual false, abstract: false, final false
   inline ::System::Object* EvalUnaryOp(int32_t op, ::System::Object* vl);
 
-  /// @brief Method HasLocalAggregate, addr 0x2cf29a4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x2d083b8, size 0x20, virtual true, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x2cf29c4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x2d083d8, size 0x20, virtual true, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method IsConstant, addr 0x2cf2964, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method IsConstant, addr 0x2d08378, size 0x20, virtual true, abstract: false, final false
   inline bool IsConstant();
 
-  /// @brief Method IsTableConstant, addr 0x2cf2984, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method IsTableConstant, addr 0x2d08398, size 0x20, virtual true, abstract: false, final false
   inline bool IsTableConstant();
 
   static inline ::System::Data::UnaryNode* New_ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* right);
 
-  /// @brief Method Optimize, addr 0x2cf2a08, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Optimize, addr 0x2d0841c, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Data::ExpressionNode* Optimize();
 
   constexpr int32_t const& __cordl_internal_get__op() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__right(::System::Data::ExpressionNode* value);
 
-  /// @brief Method .ctor, addr 0x2cf20c8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d07adc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* right);
 
 protected:

@@ -59,10 +59,10 @@ public:
 
   static inline ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* New_ctor();
 
-  /// @brief Method <InstallBindings>b__10_0, addr 0x274535c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <InstallBindings>b__10_0, addr 0x275bbd0, size 0x94, virtual false, abstract: false, final false
   inline bool _InstallBindings_b__10_0(::Zenject::BindingId t);
 
-  /// @brief Method .ctor, addr 0x2745354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275bbc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* getStaticF___9();
@@ -137,7 +137,7 @@ public:
 
   __declspec(property(get = get_mirroredGameNoteControllerPrefab))::UnityW<::GlobalNamespace::MirroredGameNoteController> mirroredGameNoteControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x2744dcc, size 0x51c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x275b640, size 0x51c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::FakeMirrorObjectsInstaller* New_ctor();
@@ -190,10 +190,10 @@ public:
 
   constexpr void __cordl_internal_set__mirroredSliderControllerPrefab(::UnityW<::GlobalNamespace::MirroredSliderController> value);
 
-  /// @brief Method .ctor, addr 0x27452e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275bb5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mirroredGameNoteControllerPrefab, addr 0x2744dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirroredGameNoteControllerPrefab, addr 0x275b638, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MirroredGameNoteController> get_mirroredGameNoteControllerPrefab();
 
 protected:

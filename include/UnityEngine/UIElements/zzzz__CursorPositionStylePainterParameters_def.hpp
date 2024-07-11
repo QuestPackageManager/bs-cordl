@@ -43,10 +43,10 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE CursorPositionStylePainterParameters {
 public:
   // Declarations
-  /// @brief Method GetDefault, addr 0x3535178, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x354bffc, size 0x148, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::CursorPositionStylePainterParameters GetDefault(::UnityEngine::UIElements::VisualElement* ve, ::StringW text);
 
-  /// @brief Method GetTextNativeSettings, addr 0x35352c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetTextNativeSettings, addr 0x354c144, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextNativeSettings GetTextNativeSettings(float_t scaling);
 
   // Ctor Parameters []

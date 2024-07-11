@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set__id_k__BackingField(::UnityEngine::PropertyName value);
 
-  /// @brief Method .ctor, addr 0x24f0a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505774, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x24f09f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x2505764, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::PropertyName get_id();
 
-  /// @brief Method get_jumpDestination, addr 0x24f09f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_jumpDestination, addr 0x250576c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::JumpDestinationMarker> get_jumpDestination();
 
   /// @brief Convert to "::UnityEngine::Playables::INotification"

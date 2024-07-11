@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__QuestGraphicSettingsViewController___InitializeSettingsAsync_d__8::*)()>(
     &::GlobalNamespace::__QuestGraphicSettingsViewController___InitializeSettingsAsync_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x26792b0;
+  constexpr static std::size_t addrs = 0x268cc18;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__QuestGraphicSettingsViewController___InitializeSettingsAsync_d__8::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__QuestGraphicSettingsViewController___InitializeSettingsAsync_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2679728;
+  constexpr static std::size_t addrs = 0x268d090;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__QuestGraphicSettingsViewController___UpdatePreset_d__12::*)()>(
     &::GlobalNamespace::__QuestGraphicSettingsViewController___UpdatePreset_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x2679734;
+  constexpr static std::size_t addrs = 0x268d09c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__QuestGraphicSettingsViewController___UpdatePreset_d__12::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__QuestGraphicSettingsViewController___UpdatePreset_d__12::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2679bfc;
+  constexpr static std::size_t addrs = 0x268d564;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::QuestGraphicSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x2678dc4;
+  constexpr static std::size_t addrs = 0x268c72c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController::*)(bool, bool)>(
     &::GlobalNamespace::QuestGraphicSettingsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2679078;
+  constexpr static std::size_t addrs = 0x268c9e0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController::*)(bool)>(
     &::GlobalNamespace::QuestGraphicSettingsViewController::InitializeSettingsAsync)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2678fd8;
+  constexpr static std::size_t addrs = 0x268c940;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController::*)(int32_t)>(
     &::GlobalNamespace::QuestGraphicSettingsViewController::HandleMirrorChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2679104;
+  constexpr static std::size_t addrs = 0x268ca6c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController::*)(bool)>(
     &::GlobalNamespace::QuestGraphicSettingsViewController::Handle120HzToggleValueChangedAsync)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x267919c;
+  constexpr static std::size_t addrs = 0x268cb04;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::QuestGraphicSettingsViewController::*)()>(
     &::GlobalNamespace::QuestGraphicSettingsViewController::GetPresetKey)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x26791a0;
+  constexpr static std::size_t addrs = 0x268cb08;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuestGraphicSettingsViewController*>::get(),
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController::*)()>(
     &::GlobalNamespace::QuestGraphicSettingsViewController::UpdatePreset)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2679108;
+  constexpr static std::size_t addrs = 0x268ca70;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuestGraphicSettingsViewController*>::get(),
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController::*)()>(
     &::GlobalNamespace::QuestGraphicSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26792a8;
+  constexpr static std::size_t addrs = 0x268cc10;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuestGraphicSettingsViewController*>::get(),

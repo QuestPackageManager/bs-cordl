@@ -42,7 +42,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_Defines* New_ctor();
 
-  /// @brief Method .ctor, addr 0x258050c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25957c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_DEFAULT_MATERIAL_KEY();

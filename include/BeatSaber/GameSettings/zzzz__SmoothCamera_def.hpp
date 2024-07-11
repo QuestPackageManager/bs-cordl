@@ -120,58 +120,58 @@ public:
 
   constexpr void __cordl_internal_set__thirdPersonPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x1068018, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x106ebc8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enabled, addr 0x1068aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x106f658, size 0x8, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method get_fov, addr 0x1068ab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fov, addr 0x106f660, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fov();
 
-  /// @brief Method get_isDirty, addr 0x1068a94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isDirty, addr 0x106f644, size 0x8, virtual true, abstract: false, final true
   inline bool get_isDirty();
 
-  /// @brief Method get_positionSmooth, addr 0x1068ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positionSmooth, addr 0x106f670, size 0x8, virtual false, abstract: false, final false
   inline float_t get_positionSmooth();
 
-  /// @brief Method get_rotationSmooth, addr 0x1068ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationSmooth, addr 0x106f668, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotationSmooth();
 
-  /// @brief Method get_thirdPersonEnabled, addr 0x1068ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_thirdPersonEnabled, addr 0x106f678, size 0x8, virtual false, abstract: false, final false
   inline bool get_thirdPersonEnabled();
 
-  /// @brief Method get_thirdPersonEulerAngles, addr 0x1068adc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_thirdPersonEulerAngles, addr 0x106f68c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_thirdPersonEulerAngles();
 
-  /// @brief Method get_thirdPersonPosition, addr 0x1068ad0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_thirdPersonPosition, addr 0x106f680, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_thirdPersonPosition();
 
   /// @brief Convert to "::BGLib::SaveDataCore::ISerializableSaveData"
   constexpr ::BGLib::SaveDataCore::ISerializableSaveData* i___BGLib__SaveDataCore__ISerializableSaveData() noexcept;
 
-  /// @brief Method set_enabled, addr 0x1067a80, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x106e630, size 0x14, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
-  /// @brief Method set_fov, addr 0x1067a94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_fov, addr 0x106e644, size 0x10, virtual false, abstract: false, final false
   inline void set_fov(float_t value);
 
-  /// @brief Method set_isDirty, addr 0x1068a9c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isDirty, addr 0x106f64c, size 0xc, virtual true, abstract: false, final true
   inline void set_isDirty(bool value);
 
-  /// @brief Method set_positionSmooth, addr 0x1067ab4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_positionSmooth, addr 0x106e664, size 0x10, virtual false, abstract: false, final false
   inline void set_positionSmooth(float_t value);
 
-  /// @brief Method set_rotationSmooth, addr 0x1067aa4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_rotationSmooth, addr 0x106e654, size 0x10, virtual false, abstract: false, final false
   inline void set_rotationSmooth(float_t value);
 
-  /// @brief Method set_thirdPersonEnabled, addr 0x1067ac4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_thirdPersonEnabled, addr 0x106e674, size 0x14, virtual false, abstract: false, final false
   inline void set_thirdPersonEnabled(bool value);
 
-  /// @brief Method set_thirdPersonEulerAngles, addr 0x1067aec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_thirdPersonEulerAngles, addr 0x106e69c, size 0x14, virtual false, abstract: false, final false
   inline void set_thirdPersonEulerAngles(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_thirdPersonPosition, addr 0x1067ad8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_thirdPersonPosition, addr 0x106e688, size 0x14, virtual false, abstract: false, final false
   inline void set_thirdPersonPosition(::UnityEngine::Vector3 value);
 
 protected:

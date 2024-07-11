@@ -38,16 +38,16 @@ public:
   /// @brief Field _mainSettingsHandler, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__mainSettingsHandler, put = __cordl_internal_set__mainSettingsHandler))::BeatSaber::GameSettings::MainSettingsHandler* _mainSettingsHandler;
 
-  /// @brief Method DidActivate, addr 0x267bd38, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x268f6a0, size 0x1a4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x267bedc, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x268f844, size 0xa4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleEnabledChanged, addr 0x267bf80, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleEnabledChanged, addr 0x268f8e8, size 0x6c, virtual false, abstract: false, final false
   inline void HandleEnabledChanged(bool newValue);
 
-  /// @brief Method HandleFovChanged, addr 0x267bfec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleFovChanged, addr 0x268f954, size 0x74, virtual false, abstract: false, final false
   inline void HandleFovChanged(::GlobalNamespace::FormattedFloatListSettingsController* controller, float_t newValue);
 
   static inline ::GlobalNamespace::SmoothCameraSettingsViewController* New_ctor();
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__mainSettingsHandler(::BeatSaber::GameSettings::MainSettingsHandler* value);
 
-  /// @brief Method .ctor, addr 0x267c060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268f9c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -43,31 +43,31 @@ public:
   /// @brief Field IpList, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_IpList, put = setStaticF_IpList))::System::Collections::Generic::List_1<::StringW>* IpList;
 
-  /// @brief Method GetLocalIp, addr 0x25f8278, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetLocalIp, addr 0x260b52c, size 0x21c, virtual false, abstract: false, final false
   static inline ::StringW GetLocalIp(::LiteNetLib::LocalAddrType addrType);
 
-  /// @brief Method GetLocalIpList, addr 0x2602eb0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetLocalIpList, addr 0x2616164, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetLocalIpList(::LiteNetLib::LocalAddrType addrType);
 
-  /// @brief Method GetLocalIpList, addr 0x2602f54, size 0x84c, virtual false, abstract: false, final false
+  /// @brief Method GetLocalIpList, addr 0x2616208, size 0x84c, virtual false, abstract: false, final false
   static inline void GetLocalIpList(::System::Collections::Generic::IList_1<::StringW>* targetList, ::LiteNetLib::LocalAddrType addrType);
 
-  /// @brief Method MakeEndPoint, addr 0x25f80b4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method MakeEndPoint, addr 0x260b368, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::Net::IPEndPoint* MakeEndPoint(::StringW hostStr, int32_t port);
 
-  /// @brief Method PrintInterfaceInfos, addr 0x26037a0, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method PrintInterfaceInfos, addr 0x2616a54, size 0x41c, virtual false, abstract: false, final false
   static inline void PrintInterfaceInfos();
 
-  /// @brief Method RelativeSequenceNumber, addr 0x26019d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method RelativeSequenceNumber, addr 0x2614c84, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t RelativeSequenceNumber(int32_t number, int32_t expected);
 
-  /// @brief Method ResolveAddress, addr 0x25fe118, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ResolveAddress, addr 0x26113cc, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::Net::IPAddress* ResolveAddress(::StringW hostStr);
 
-  /// @brief Method ResolveAddress, addr 0x2602dc4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ResolveAddress, addr 0x2616078, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Net::IPAddress* ResolveAddress(::StringW hostStr, ::System::Net::Sockets::AddressFamily addressFamily);
 
-  /// @brief Method ResolveAddresses, addr 0x2602e90, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ResolveAddresses, addr 0x2616144, size 0x20, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> ResolveAddresses(::StringW hostStr);
 
   static inline ::System::Collections::Generic::List_1<::StringW>* getStaticF_IpList();

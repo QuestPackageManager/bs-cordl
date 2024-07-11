@@ -126,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set_userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2bf2794, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c061a8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName);
 
 protected:

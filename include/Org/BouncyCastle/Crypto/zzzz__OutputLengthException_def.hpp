@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::OutputLengthException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x122ca24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1236d1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x122c8c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1236bc0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x122ca28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1236d20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

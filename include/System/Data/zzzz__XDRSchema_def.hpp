@@ -61,7 +61,7 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x2d045e8, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x2d19ffc, size 0x70, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
   static inline ::System::Data::__XDRSchema__NameType* New_ctor(::StringW n, ::System::Type* t);
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2d045bc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d19fd0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW n, ::System::Type* t);
 
   /// @brief Convert to "::System::IComparable"
@@ -146,48 +146,48 @@ public:
   static __declspec(property(get = getStaticF_s_mapNameTypeXdr,
                              put = setStaticF_s_mapNameTypeXdr))::ArrayW<::System::Data::__XDRSchema__NameType*, ::Array<::System::Data::__XDRSchema__NameType*>*> s_mapNameTypeXdr;
 
-  /// @brief Method FindNameType, addr 0x2d01d68, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method FindNameType, addr 0x2d1777c, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Data::__XDRSchema__NameType* FindNameType(::StringW name);
 
-  /// @brief Method FindTypeNode, addr 0x2d00e3c, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method FindTypeNode, addr 0x2d16850, size 0x324, virtual false, abstract: false, final false
   inline ::System::Xml::XmlElement* FindTypeNode(::System::Xml::XmlElement* node);
 
-  /// @brief Method GetInstanceName, addr 0x2d01f78, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceName, addr 0x2d1798c, size 0x178, virtual false, abstract: false, final false
   inline ::StringW GetInstanceName(::System::Xml::XmlElement* node);
 
-  /// @brief Method GetMinMax, addr 0x2d02a78, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method GetMinMax, addr 0x2d1848c, size 0x348, virtual false, abstract: false, final false
   inline void GetMinMax(::System::Xml::XmlElement* elNode, bool isAttribute, ByRef<int32_t> minOccurs, ByRef<int32_t> maxOccurs);
 
-  /// @brief Method GetMinMax, addr 0x2d01474, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetMinMax, addr 0x2d16e88, size 0x10, virtual false, abstract: false, final false
   inline void GetMinMax(::System::Xml::XmlElement* elNode, ByRef<int32_t> minOccurs, ByRef<int32_t> maxOccurs);
 
-  /// @brief Method HandleColumn, addr 0x2d020f0, size 0x860, virtual false, abstract: false, final false
+  /// @brief Method HandleColumn, addr 0x2d17b04, size 0x860, virtual false, abstract: false, final false
   inline void HandleColumn(::System::Xml::XmlElement* node, ::System::Data::DataTable* table);
 
-  /// @brief Method HandleTable, addr 0x2d00c7c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method HandleTable, addr 0x2d16690, size 0x1c0, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* HandleTable(::System::Xml::XmlElement* node);
 
-  /// @brief Method HandleTypeNode, addr 0x2d03208, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method HandleTypeNode, addr 0x2d18c1c, size 0x1e8, virtual false, abstract: false, final false
   inline void HandleTypeNode(::System::Xml::XmlElement* typeNode, ::System::Data::DataTable* table, ::System::Collections::ArrayList* tableChildren);
 
-  /// @brief Method InstantiateSimpleTable, addr 0x2d01484, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method InstantiateSimpleTable, addr 0x2d16e98, size 0x22c, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* InstantiateSimpleTable(::System::Data::DataSet* dataSet, ::System::Xml::XmlElement* node);
 
-  /// @brief Method InstantiateTable, addr 0x2d016b0, size 0x6b8, virtual false, abstract: false, final false
+  /// @brief Method InstantiateTable, addr 0x2d170c4, size 0x6b8, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* InstantiateTable(::System::Data::DataSet* dataSet, ::System::Xml::XmlElement* node, ::System::Xml::XmlElement* typeNode);
 
-  /// @brief Method IsTextOnlyContent, addr 0x2d01160, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method IsTextOnlyContent, addr 0x2d16b74, size 0x1d0, virtual false, abstract: false, final false
   inline bool IsTextOnlyContent(::System::Xml::XmlElement* node);
 
-  /// @brief Method IsXDRField, addr 0x2d01330, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method IsXDRField, addr 0x2d16d44, size 0x144, virtual false, abstract: false, final false
   inline bool IsXDRField(::System::Xml::XmlElement* node, ::System::Xml::XmlElement* typeNode);
 
-  /// @brief Method LoadSchema, addr 0x2d009fc, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method LoadSchema, addr 0x2d16410, size 0x20c, virtual false, abstract: false, final false
   inline void LoadSchema(::System::Xml::XmlElement* schemaRoot, ::System::Data::DataSet* ds);
 
   static inline ::System::Data::XDRSchema* New_ctor(::System::Data::DataSet* ds, bool fInline);
 
-  /// @brief Method ParseDataType, addr 0x2d01e3c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ParseDataType, addr 0x2d17850, size 0x13c, virtual false, abstract: false, final false
   inline ::System::Type* ParseDataType(::StringW dt, ::StringW dtValues);
 
   constexpr ::System::Data::DataSet*& __cordl_internal_get__ds();
@@ -214,7 +214,7 @@ public:
 
   constexpr void __cordl_internal_set__schemaUri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2d00984, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d16398, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* ds, bool fInline);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_colonArray();

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_SessionHAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x259e8b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b3b64, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

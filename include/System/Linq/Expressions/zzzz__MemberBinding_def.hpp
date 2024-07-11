@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set__Member_k__BackingField(::System::Reflection::MemberInfo* value);
 
-  /// @brief Method get_BindingType, addr 0x2c2a4d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindingType, addr 0x2c3eee4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::MemberBindingType get_BindingType();
 
-  /// @brief Method get_Member, addr 0x2c2a4d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Member, addr 0x2c3eeec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_Member();
 
 protected:

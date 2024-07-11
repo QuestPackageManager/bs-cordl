@@ -37,13 +37,13 @@ namespace Mono::Unity {
 class CORDL_TYPE UnityTlsStream : public ::Mono::Net::Security::MobileAuthenticatedStream {
 public:
   // Declarations
-  /// @brief Method CreateContext, addr 0x2c84578, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method CreateContext, addr 0x2c97f8c, size 0x70, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::MobileTlsContext* CreateContext(::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 
   static inline ::Mono::Unity::UnityTlsStream* New_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::SslStream* owner,
                                                         ::Mono::Security::Interface::MonoTlsSettings* settings, ::Mono::Net::Security::MobileTlsProvider* provider);
 
-  /// @brief Method .ctor, addr 0x2c83a28, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9743c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::SslStream* owner, ::Mono::Security::Interface::MonoTlsSettings* settings,
                     ::Mono::Net::Security::MobileTlsProvider* provider);
 

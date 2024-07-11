@@ -72,34 +72,34 @@ public:
 
   constexpr void __cordl_internal_set__useCustomServerEnvironment(bool value);
 
-  /// @brief Method .ctor, addr 0x1067d7c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x106e92c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_customServerHostName, addr 0x1067d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customServerHostName, addr 0x106e924, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_customServerHostName();
 
-  /// @brief Method get_forceGameLiftServerEnvironment, addr 0x1067d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_forceGameLiftServerEnvironment, addr 0x106e91c, size 0x8, virtual false, abstract: false, final false
   inline bool get_forceGameLiftServerEnvironment();
 
-  /// @brief Method get_isDirty, addr 0x1067d50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isDirty, addr 0x106e900, size 0x8, virtual true, abstract: false, final true
   inline bool get_isDirty();
 
-  /// @brief Method get_useCustomServerEnvironment, addr 0x1067d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useCustomServerEnvironment, addr 0x106e914, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCustomServerEnvironment();
 
   /// @brief Convert to "::BGLib::SaveDataCore::ISerializableSaveData"
   constexpr ::BGLib::SaveDataCore::ISerializableSaveData* i___BGLib__SaveDataCore__ISerializableSaveData() noexcept;
 
-  /// @brief Method set_customServerHostName, addr 0x1067b80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_customServerHostName, addr 0x106e730, size 0x10, virtual false, abstract: false, final false
   inline void set_customServerHostName(::StringW value);
 
-  /// @brief Method set_forceGameLiftServerEnvironment, addr 0x1067b6c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_forceGameLiftServerEnvironment, addr 0x106e71c, size 0x14, virtual false, abstract: false, final false
   inline void set_forceGameLiftServerEnvironment(bool value);
 
-  /// @brief Method set_isDirty, addr 0x1067d58, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isDirty, addr 0x106e908, size 0xc, virtual true, abstract: false, final true
   inline void set_isDirty(bool value);
 
-  /// @brief Method set_useCustomServerEnvironment, addr 0x1067b58, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_useCustomServerEnvironment, addr 0x106e708, size 0x14, virtual false, abstract: false, final false
   inline void set_useCustomServerEnvironment(bool value);
 
 protected:

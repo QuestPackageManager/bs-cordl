@@ -113,15 +113,15 @@ public:
   /// @brief Field version, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x1402608, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x140a900, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x1402620, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x140a918, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x140310c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x140b404, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::Time*& __cordl_internal_get_endDate();
@@ -196,43 +196,43 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x14026c4, size 0x620, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x140a9bc, size 0x620, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_EndDate, addr 0x14030dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EndDate, addr 0x140b3d4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_EndDate();
 
-  /// @brief Method get_Extensions, addr 0x1403104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x140b3fc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method get_Issuer, addr 0x14030cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x140b3c4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_IssuerUniqueID, addr 0x14030f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerUniqueID, addr 0x140b3ec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_IssuerUniqueID();
 
-  /// @brief Method get_SerialNumber, addr 0x14030bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x140b3b4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SerialNumber();
 
-  /// @brief Method get_Signature, addr 0x14030c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x140b3bc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Signature();
 
-  /// @brief Method get_StartDate, addr 0x14030d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StartDate, addr 0x140b3cc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_StartDate();
 
-  /// @brief Method get_Subject, addr 0x14030e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Subject, addr 0x140b3dc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
 
-  /// @brief Method get_SubjectPublicKeyInfo, addr 0x14030ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectPublicKeyInfo, addr 0x140b3e4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_SubjectPublicKeyInfo();
 
-  /// @brief Method get_SubjectUniqueID, addr 0x14030fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectUniqueID, addr 0x140b3f4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_SubjectUniqueID();
 
-  /// @brief Method get_Version, addr 0x1403090, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x140b388, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_VersionNumber, addr 0x14030b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VersionNumber, addr 0x140b3ac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_VersionNumber();
 
 protected:

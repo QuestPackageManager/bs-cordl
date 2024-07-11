@@ -25,7 +25,7 @@ namespace Zenject {
 class CORDL_TYPE SubContainerCreatorUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApplyBindSettings, addr 0x368b718, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindSettings, addr 0x36a259c, size 0x304, virtual false, abstract: false, final false
   static inline void ApplyBindSettings(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::DiContainer* subContainer);
 
 protected:

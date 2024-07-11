@@ -48,16 +48,16 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1088fb8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10952b0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isDirty, addr 0x1088fa0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_isDirty, addr 0x1095298, size 0xc, virtual true, abstract: false, final false
   inline bool get_isDirty();
 
   /// @brief Convert to "::BGLib::SaveDataCore::ISerializableSaveData"
   constexpr ::BGLib::SaveDataCore::ISerializableSaveData* i___BGLib__SaveDataCore__ISerializableSaveData() noexcept;
 
-  /// @brief Method set_isDirty, addr 0x1088fac, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_isDirty, addr 0x10952a4, size 0xc, virtual true, abstract: false, final false
   inline void set_isDirty(bool value);
 
 protected:

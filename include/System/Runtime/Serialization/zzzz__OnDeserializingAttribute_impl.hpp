@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::OnDeserializingAttribute::*)()>(
     &::System::Runtime::Serialization::OnDeserializingAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28592b8;
+  constexpr static std::size_t addrs = 0x286bccc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

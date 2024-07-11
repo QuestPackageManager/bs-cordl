@@ -31,16 +31,16 @@ public:
   // Declarations
   static inline ::Zenject::FixedTickablesTaskUpdater* New_ctor();
 
-  /// @brief Method UpdateItem, addr 0x3699810, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method UpdateItem, addr 0x36b0694, size 0x9c, virtual true, abstract: false, final false
   inline void UpdateItem(::Zenject::IFixedTickable* task);
 
-  /// @brief Method __zenCreate, addr 0x36998f4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x36b0778, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x369994c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36b07d0, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x36998ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36b0730, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

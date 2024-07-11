@@ -166,7 +166,7 @@ static_assert(offsetof(::GlobalNamespace::__LevelCompletionResults__LevelEndActi
 
 } // namespace GlobalNamespace
 // Type: ::LevelCompletionResults
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 117, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LevelCompletionResults*
@@ -206,6 +206,9 @@ public:
   /// @brief Field goodCutsCountForNotesWithFullScoreScoringType, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_goodCutsCountForNotesWithFullScoreScoringType,
                       put = __cordl_internal_set_goodCutsCountForNotesWithFullScoreScoringType)) int32_t goodCutsCountForNotesWithFullScoreScoringType;
+
+  /// @brief Field invalidated, offset 0x74, size 0x1
+  __declspec(property(get = __cordl_internal_get_invalidated, put = __cordl_internal_set_invalidated)) bool invalidated;
 
   /// @brief Field leftHandMovementDistance, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_leftHandMovementDistance, put = __cordl_internal_set_leftHandMovementDistance)) float_t leftHandMovementDistance;
@@ -258,13 +261,13 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x1509948, size 0x124, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x1514684, size 0x124, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
-  /// @brief Method CreateFromSerializedData, addr 0x1509c58, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method CreateFromSerializedData, addr 0x15149a4, size 0x36c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelCompletionResults* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData, addr 0x1509c50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData, addr 0x151499c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::LevelCompletionResults* LiteNetLib_Utils_INetImmutableSerializable_LevelCompletionResults__CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
   static inline ::GlobalNamespace::LevelCompletionResults* New_ctor();
@@ -276,9 +279,9 @@ public:
                                                                     ::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy, int32_t goodCutsCount,
                                                                     int32_t badCutsCount, int32_t missedCount, int32_t notGoodCount, int32_t okCount, int32_t maxCutScore, int32_t totalCutScore,
                                                                     int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType,
-                                                                    float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime);
+                                                                    float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime, bool invalidated);
 
-  /// @brief Method Serialize, addr 0x1509a6c, size 0x1d4, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x15147a8, size 0x1e4, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr float_t const& __cordl_internal_get_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType() const;
@@ -316,6 +319,10 @@ public:
   constexpr int32_t const& __cordl_internal_get_goodCutsCountForNotesWithFullScoreScoringType() const;
 
   constexpr int32_t& __cordl_internal_get_goodCutsCountForNotesWithFullScoreScoringType();
+
+  constexpr bool const& __cordl_internal_get_invalidated() const;
+
+  constexpr bool& __cordl_internal_get_invalidated();
 
   constexpr float_t const& __cordl_internal_get_leftHandMovementDistance() const;
 
@@ -395,6 +402,8 @@ public:
 
   constexpr void __cordl_internal_set_goodCutsCountForNotesWithFullScoreScoringType(int32_t value);
 
+  constexpr void __cordl_internal_set_invalidated(bool value);
+
   constexpr void __cordl_internal_set_leftHandMovementDistance(float_t value);
 
   constexpr void __cordl_internal_set_leftSaberMovementDistance(float_t value);
@@ -425,16 +434,16 @@ public:
 
   constexpr void __cordl_internal_set_totalCutScore(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1509814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x151453c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x150981c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1514544, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayModifiers* gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore, ::GlobalNamespace::__RankModel__Rank rank, bool fullCombo,
                     float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, float_t leftHandMovementDistance, float_t rightHandMovementDistance,
                     ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType, ::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy,
                     int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t notGoodCount, int32_t okCount, int32_t maxCutScore, int32_t totalCutScore,
                     int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType,
-                    float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime);
+                    float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime, bool invalidated);
 
   /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>"
   constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>*
@@ -529,6 +538,9 @@ public:
   /// @brief Field endSongTime, offset: 0x70, size: 0x4, def value: None
   float_t ___endSongTime;
 
+  /// @brief Field invalidated, offset: 0x74, size: 0x1, def value: None
+  bool ___invalidated;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -581,6 +593,8 @@ static_assert(offsetof(::GlobalNamespace::LevelCompletionResults, ___averageCutS
 static_assert(offsetof(::GlobalNamespace::LevelCompletionResults, ___maxCombo) == 0x6c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LevelCompletionResults, ___endSongTime) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelCompletionResults, ___invalidated) == 0x74, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelCompletionResults__LevelEndAction, "", "LevelCompletionResults/LevelEndAction");

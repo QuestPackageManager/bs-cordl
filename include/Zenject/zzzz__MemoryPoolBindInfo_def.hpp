@@ -70,31 +70,31 @@ public:
 
   constexpr void __cordl_internal_set__ShowExpandWarning_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x365f7e8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367666c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ExpandMethod, addr 0x365f828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExpandMethod, addr 0x36766ac, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::PoolExpandMethods get_ExpandMethod();
 
-  /// @brief Method get_InitialSize, addr 0x365f838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitialSize, addr 0x36766bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_InitialSize();
 
-  /// @brief Method get_MaxSize, addr 0x365f848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxSize, addr 0x36766cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxSize();
 
-  /// @brief Method get_ShowExpandWarning, addr 0x365f814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShowExpandWarning, addr 0x3676698, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShowExpandWarning();
 
-  /// @brief Method set_ExpandMethod, addr 0x365f830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExpandMethod, addr 0x36766b4, size 0x8, virtual false, abstract: false, final false
   inline void set_ExpandMethod(::Zenject::PoolExpandMethods value);
 
-  /// @brief Method set_InitialSize, addr 0x365f840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InitialSize, addr 0x36766c4, size 0x8, virtual false, abstract: false, final false
   inline void set_InitialSize(int32_t value);
 
-  /// @brief Method set_MaxSize, addr 0x365f850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxSize, addr 0x36766d4, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxSize(int32_t value);
 
-  /// @brief Method set_ShowExpandWarning, addr 0x365f81c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ShowExpandWarning, addr 0x36766a0, size 0xc, virtual false, abstract: false, final false
   inline void set_ShowExpandWarning(bool value);
 
 protected:

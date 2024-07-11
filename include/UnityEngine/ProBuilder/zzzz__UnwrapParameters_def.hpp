@@ -45,10 +45,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::UnwrapParameters* New_ctor(::UnityEngine::ProBuilder::UnwrapParameters* other);
 
-  /// @brief Method Reset, addr 0x32de728, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x32ed5ac, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ToString, addr 0x32de7c0, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x32ed644, size 0x1ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_m_AngleError() const;
@@ -75,34 +75,34 @@ public:
 
   constexpr void __cordl_internal_set_m_PackMargin(float_t value);
 
-  /// @brief Method .ctor, addr 0x32d6e34, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e5cb8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x32de738, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ed5bc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::UnwrapParameters* other);
 
-  /// @brief Method get_angleError, addr 0x32de708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angleError, addr 0x32ed58c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_angleError();
 
-  /// @brief Method get_areaError, addr 0x32de718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_areaError, addr 0x32ed59c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_areaError();
 
-  /// @brief Method get_hardAngle, addr 0x32de6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hardAngle, addr 0x32ed56c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_hardAngle();
 
-  /// @brief Method get_packMargin, addr 0x32de6f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packMargin, addr 0x32ed57c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_packMargin();
 
-  /// @brief Method set_angleError, addr 0x32de710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_angleError, addr 0x32ed594, size 0x8, virtual false, abstract: false, final false
   inline void set_angleError(float_t value);
 
-  /// @brief Method set_areaError, addr 0x32de720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_areaError, addr 0x32ed5a4, size 0x8, virtual false, abstract: false, final false
   inline void set_areaError(float_t value);
 
-  /// @brief Method set_hardAngle, addr 0x32de6f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hardAngle, addr 0x32ed574, size 0x8, virtual false, abstract: false, final false
   inline void set_hardAngle(float_t value);
 
-  /// @brief Method set_packMargin, addr 0x32de700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_packMargin, addr 0x32ed584, size 0x8, virtual false, abstract: false, final false
   inline void set_packMargin(float_t value);
 
 protected:

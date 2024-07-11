@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem::get_beat)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x14fa868;
+  constexpr static std::size_t addrs = 0x1505a94;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14fa604;
+  constexpr static std::size_t addrs = 0x1505830;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

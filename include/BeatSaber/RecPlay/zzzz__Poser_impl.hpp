@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(ByRef<::UnityEngine::Pose>, ByRef<::UnityEngine::Pose>, float_t)>(
     &::BeatSaber::RecPlay::Poser::InterpolatePose)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x106f38c;
+  constexpr static std::size_t addrs = 0x1076028;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose)>(&::BeatSaber::RecPlay::Poser::InvertPose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x106f6dc;
+  constexpr static std::size_t addrs = 0x1076378;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose)>(&::BeatSaber::RecPlay::Poser::MirrorPoseYZ)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x106f744;
+  constexpr static std::size_t addrs = 0x10763e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

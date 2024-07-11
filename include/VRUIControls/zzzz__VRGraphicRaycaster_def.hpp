@@ -77,7 +77,7 @@ namespace VRUIControls {
 struct CORDL_TYPE __VRGraphicRaycaster__VRGraphicRaycastResult {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3635f54, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x364cdd8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UI::Graphic* graphic, float_t distance, ::UnityEngine::Vector3 position, ::UnityEngine::Vector2 insideRootCanvasPosition);
 
   // Ctor Parameters []
@@ -135,10 +135,10 @@ public:
 
   static inline ::VRUIControls::__VRGraphicRaycaster____c* New_ctor();
 
-  /// @brief Method <RaycastCanvas>b__12_0, addr 0x36360f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <RaycastCanvas>b__12_0, addr 0x364cf7c, size 0x54, virtual false, abstract: false, final false
   inline int32_t _RaycastCanvas_b__12_0(::VRUIControls::__VRGraphicRaycaster__VRGraphicRaycastResult g1, ::VRUIControls::__VRGraphicRaycaster__VRGraphicRaycastResult g2);
 
-  /// @brief Method .ctor, addr 0x36360f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x364cf74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::VRUIControls::__VRGraphicRaycaster____c* getStaticF___9();
@@ -205,13 +205,13 @@ public:
 
   static inline ::VRUIControls::VRGraphicRaycaster* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3634d0c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x364bb90, size 0x70, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Raycast, addr 0x3634d7c, size 0x690, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x364bc00, size 0x690, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method RaycastCanvas, addr 0x363540c, size 0xb48, virtual false, abstract: false, final false
+  /// @brief Method RaycastCanvas, addr 0x364c290, size 0xb48, virtual false, abstract: false, final false
   static inline void RaycastCanvas(::UnityEngine::Canvas* canvas, ::UnityEngine::Ray ray, float_t hitDistance, float_t curvedUIRadius,
                                    ::System::Collections::Generic::List_1<::VRUIControls::__VRGraphicRaycaster__VRGraphicRaycastResult>* results);
 
@@ -246,12 +246,12 @@ public:
 
   constexpr void __cordl_internal_set__raycastResults(::System::Collections::Generic::List_1<::VRUIControls::__VRGraphicRaycaster__VRGraphicRaycastResult>* value);
 
-  /// @brief Method .ctor, addr 0x3635f68, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x364cdec, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<float_t, ::Array<float_t>*> getStaticF__ray2DCircleIntersectionDistances();
 
-  /// @brief Method get_eventCamera, addr 0x3634d04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x364bb88, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
   static inline void setStaticF__ray2DCircleIntersectionDistances(::ArrayW<float_t, ::Array<float_t>*> value);

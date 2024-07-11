@@ -40,7 +40,7 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x14456a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x144f9a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_Aes128Ccm();

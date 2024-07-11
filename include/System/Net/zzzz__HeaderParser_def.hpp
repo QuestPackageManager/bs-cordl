@@ -28,12 +28,12 @@ namespace System::Net {
 class CORDL_TYPE HeaderParser : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2ff873c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3008150, size 0x14, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> Invoke(::StringW value);
 
   static inline ::System::Net::HeaderParser* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2ff8668, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x300807c, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

@@ -22,7 +22,7 @@ namespace BGLib::SaveDataCore {
 class CORDL_TYPE SaveDataResultExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsError, addr 0x1088954, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsError, addr 0x1094c4c, size 0xc, virtual false, abstract: false, final false
   static inline bool IsError(::BGLib::SaveDataCore::SaveDataResult result);
 
 protected:

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Security::Cryptography::DSASignatureDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2805750, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2818164, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

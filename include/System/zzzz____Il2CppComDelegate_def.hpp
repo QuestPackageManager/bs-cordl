@@ -19,7 +19,7 @@ namespace System {
 class CORDL_TYPE __Il2CppComDelegate : public ::System::__Il2CppComObject {
 public:
   // Declarations
-  /// @brief Method Finalize, addr 0x36a9c90, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x36c0b14, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Finalize();
 
 protected:

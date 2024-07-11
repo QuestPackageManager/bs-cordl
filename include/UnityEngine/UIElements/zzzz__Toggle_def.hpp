@@ -53,7 +53,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Toggle__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35b3c40, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35caac4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   /// @brief Field m_Text, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x35b3c88, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x35cab0c, size 0x118, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__Toggle__UxmlTraits* New_ctor();
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x35b3da0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35cac24, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -156,17 +156,17 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
 
-  /// @brief Method InitLabel, addr 0x35b3a58, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method InitLabel, addr 0x35ca8dc, size 0x78, virtual true, abstract: false, final false
   inline void InitLabel();
 
   static inline ::UnityEngine::UIElements::Toggle* New_ctor();
 
   static inline ::UnityEngine::UIElements::Toggle* New_ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x35b3078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35c9efc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x35b395c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ca7e0, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_checkmarkUssClassName();

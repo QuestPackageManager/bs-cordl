@@ -50,13 +50,13 @@ public:
   /// @brief Field organization, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_organization, put = __cordl_internal_set_organization))::Org::BouncyCastle::Asn1::X509::DisplayText* organization;
 
-  /// @brief Method ConvertVector, addr 0x13fcf08, size 0x47c, virtual false, abstract: false, final false
+  /// @brief Method ConvertVector, addr 0x1405200, size 0x47c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* ConvertVector(::System::Collections::IList* numbers);
 
-  /// @brief Method GetInstance, addr 0x13fd5cc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x14058c4, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::NoticeReference* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetNoticeNumbers, addr 0x13fd678, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method GetNoticeNumbers, addr 0x1405970, size 0x114, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*> GetNoticeNumbers();
 
   static inline ::Org::BouncyCastle::Asn1::X509::NoticeReference* New_ctor(::Org::BouncyCastle::Asn1::X509::DisplayText* organization, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* noticeNumbers);
@@ -67,7 +67,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::NoticeReference* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x13fd78c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x1405a84, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_noticeNumbers();
@@ -82,19 +82,19 @@ public:
 
   constexpr void __cordl_internal_set_organization(::Org::BouncyCastle::Asn1::X509::DisplayText* value);
 
-  /// @brief Method .ctor, addr 0x13fd42c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1405724, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::DisplayText* organization, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* noticeNumbers);
 
-  /// @brief Method .ctor, addr 0x13fd3b4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14056ac, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW organization, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* noticeNumbers);
 
-  /// @brief Method .ctor, addr 0x13fd384, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x140567c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW organization, ::System::Collections::IList* numbers);
 
-  /// @brief Method .ctor, addr 0x13fd4b0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14057a8, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Organization, addr 0x13fd670, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Organization, addr 0x1405968, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::DisplayText* get_Organization();
 
 protected:

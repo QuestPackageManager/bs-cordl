@@ -32,28 +32,28 @@ public:
   /// @brief Field m_positiveBuffer, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_positiveBuffer, put = setStaticF_m_positiveBuffer))::ArrayW<::StringW, ::Array<::StringW>*> m_positiveBuffer;
 
-  /// @brief Method Dispose, addr 0x3057630, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3067044, size 0x98, virtual false, abstract: false, final false
   static inline void Dispose();
 
-  /// @brief Method FromIndex, addr 0x305b258, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method FromIndex, addr 0x306ac6c, size 0x64, virtual false, abstract: false, final false
   static inline float_t FromIndex(int32_t i);
 
-  /// @brief Method Init, addr 0x305b324, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x306ad38, size 0x298, virtual false, abstract: false, final false
   static inline void Init(float_t minNegativeValue, float_t maxPositiveValue);
 
-  /// @brief Method ToFloat, addr 0x305b918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToFloat, addr 0x306b32c, size 0x8, virtual false, abstract: false, final false
   static inline float_t ToFloat(int32_t i);
 
-  /// @brief Method ToIndex, addr 0x305b5bc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ToIndex, addr 0x306afd0, size 0xc0, virtual false, abstract: false, final false
   static inline int32_t ToIndex(float_t f);
 
-  /// @brief Method ToInt, addr 0x305b8fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ToInt, addr 0x306b310, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t ToInt(float_t f);
 
-  /// @brief Method ToStringNonAlloc, addr 0x305b67c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ToStringNonAlloc, addr 0x306b090, size 0x140, virtual false, abstract: false, final false
   static inline ::StringW ToStringNonAlloc(float_t value);
 
-  /// @brief Method ToStringNonAlloc, addr 0x305b7bc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ToStringNonAlloc, addr 0x306b1d0, size 0x140, virtual false, abstract: false, final false
   static inline ::StringW ToStringNonAlloc(float_t value, ::StringW format);
 
   static inline float_t getStaticF_m_decimalMultiplier();
@@ -62,10 +62,10 @@ public:
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_positiveBuffer();
 
-  /// @brief Method get_MaxValue, addr 0x305b2bc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_MaxValue, addr 0x306acd0, size 0x68, virtual false, abstract: false, final false
   static inline float_t get_MaxValue();
 
-  /// @brief Method get_MinValue, addr 0x305b1e8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_MinValue, addr 0x306abfc, size 0x70, virtual false, abstract: false, final false
   static inline float_t get_MinValue();
 
   static inline void setStaticF_m_decimalMultiplier(float_t value);

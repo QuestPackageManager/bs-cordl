@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::RecPlay::PoseOffsets::*)(ByRef<::UnityEngine::Pose>)>(
     &::BeatSaber::RecPlay::PoseOffsets::AdjustHead)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x106f0fc;
+  constexpr static std::size_t addrs = 0x1075d98;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::RecPlay::PoseOffsets::*)(ByRef<::UnityEngine::Pose>)>(
     &::BeatSaber::RecPlay::PoseOffsets::AdjustLeftHand)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x106f024;
+  constexpr static std::size_t addrs = 0x1075cc0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::RecPlay::PoseOffsets::*)(ByRef<::UnityEngine::Pose>)>(
     &::BeatSaber::RecPlay::PoseOffsets::AdjustRightHand)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x106f090;
+  constexpr static std::size_t addrs = 0x1075d2c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Pose>, ByRef<::UnityEngine::Pose>, ByRef<::UnityEngine::Pose>)>(
     &::BeatSaber::RecPlay::PoseOffsets::AdjustPose)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x106f418;
+  constexpr static std::size_t addrs = 0x10760b4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

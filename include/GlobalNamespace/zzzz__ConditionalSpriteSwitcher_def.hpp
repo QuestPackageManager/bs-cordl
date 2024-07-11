@@ -53,10 +53,10 @@ public:
 
   __declspec(property(get = get_trueSprite, put = set_trueSprite))::UnityW<::UnityEngine::Sprite> trueSprite;
 
-  /// @brief Method Apply, addr 0x26af478, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x26c51c0, size 0xa4, virtual false, abstract: false, final false
   inline void Apply();
 
-  /// @brief Method Awake, addr 0x26af474, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26c51bc, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ConditionalSpriteSwitcher* New_ctor();
@@ -97,19 +97,19 @@ public:
 
   constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x26af51c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c5264, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_falseSprite, addr 0x26af454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_falseSprite, addr 0x26c519c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_falseSprite();
 
-  /// @brief Method get_trueSprite, addr 0x26af464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trueSprite, addr 0x26c51ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_trueSprite();
 
-  /// @brief Method set_falseSprite, addr 0x26af45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_falseSprite, addr 0x26c51a4, size 0x8, virtual false, abstract: false, final false
   inline void set_falseSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_trueSprite, addr 0x26af46c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trueSprite, addr 0x26c51b4, size 0x8, virtual false, abstract: false, final false
   inline void set_trueSprite(::UnityEngine::Sprite* value);
 
 protected:

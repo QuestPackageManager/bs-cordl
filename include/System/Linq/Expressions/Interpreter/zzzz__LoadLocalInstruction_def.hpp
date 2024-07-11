@@ -37,21 +37,21 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
   constexpr operator ::System::Linq::Expressions::Interpreter::IBoxableInstruction*() noexcept;
 
-  /// @brief Method BoxIfIndexMatches, addr 0x2c5b7a8, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method BoxIfIndexMatches, addr 0x2c6f1bc, size 0x78, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(int32_t index);
 
   static inline ::System::Linq::Expressions::Interpreter::LoadLocalInstruction* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x2c5b720, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c6f134, size 0x88, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c5b6b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6f0c4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_InstructionName, addr 0x2c5b6e0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c6f0f4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2c5b6d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2c6f0ec, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   /// @brief Convert to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"

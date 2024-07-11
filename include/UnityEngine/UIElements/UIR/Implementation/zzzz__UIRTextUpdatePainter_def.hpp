@@ -91,22 +91,22 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStylePainter"
   constexpr operator ::UnityEngine::UIElements::IStylePainter*() noexcept;
 
-  /// @brief Method Begin, addr 0x355d5a8, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x357542c, size 0x244, virtual false, abstract: false, final false
   inline void Begin(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::UIRenderDevice* device);
 
-  /// @brief Method Dispose, addr 0x355d878, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x35756fc, size 0xc4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DrawImmediate, addr 0x355d940, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method DrawImmediate, addr 0x35757c4, size 0x4, virtual true, abstract: false, final true
   inline void DrawImmediate(::System::Action* callback, bool cullingEnabled);
 
-  /// @brief Method DrawRectangle, addr 0x355d93c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method DrawRectangle, addr 0x35757c0, size 0x4, virtual true, abstract: false, final true
   inline void DrawRectangle(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams);
 
-  /// @brief Method DrawText, addr 0x355d944, size 0x368, virtual true, abstract: false, final true
+  /// @brief Method DrawText, addr 0x35757c8, size 0x368, virtual true, abstract: false, final true
   inline void DrawText(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, ::UnityEngine::UIElements::ITextHandle* handle, float_t pixelsPerPoint);
 
-  /// @brief Method End, addr 0x355d7ec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method End, addr 0x3575670, size 0x8c, virtual false, abstract: false, final false
   inline void End();
 
   static inline ::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter* New_ctor();
@@ -171,10 +171,10 @@ public:
 
   constexpr void __cordl_internal_set_m_XFormClipPages(::UnityEngine::Color32 value);
 
-  /// @brief Method .ctor, addr 0x355d538, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35753bc, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_meshGenerationContext, addr 0x355d530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_meshGenerationContext, addr 0x35753b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshGenerationContext* get_meshGenerationContext();
 
   /// @brief Convert to "::System::IDisposable"

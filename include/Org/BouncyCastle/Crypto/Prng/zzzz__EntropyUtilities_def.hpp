@@ -24,12 +24,12 @@ namespace Org::BouncyCastle::Crypto::Prng {
 class CORDL_TYPE EntropyUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GenerateSeed, addr 0x11a6838, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GenerateSeed, addr 0x11b3b30, size 0x15c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSeed(::Org::BouncyCastle::Crypto::IEntropySource* entropySource, int32_t numBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::EntropyUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11a6994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11b3c8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

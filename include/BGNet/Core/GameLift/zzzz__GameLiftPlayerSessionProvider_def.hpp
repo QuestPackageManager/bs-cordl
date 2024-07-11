@@ -147,10 +147,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x10c3f4c, size 0x173c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x10d0244, size 0x173c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x10c56e4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x10d19dc, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -329,10 +329,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x10c573c, size 0x368, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x10d1a34, size 0x368, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x10c5aa4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x10d1d9c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -404,16 +404,16 @@ public:
 
   static inline ::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider____c* New_ctor();
 
-  /// @brief Method <GetAverageLatencies>b__16_0, addr 0x10c5b1c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <GetAverageLatencies>b__16_0, addr 0x10d1e14, size 0x48, virtual false, abstract: false, final false
   inline bool _GetAverageLatencies_b__16_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
 
-  /// @brief Method <GetAverageLatencies>b__16_1, addr 0x10c5b64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <GetAverageLatencies>b__16_1, addr 0x10d1e5c, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW _GetAverageLatencies_b__16_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
 
-  /// @brief Method <GetAverageLatencies>b__16_2, addr 0x10c5ba0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <GetAverageLatencies>b__16_2, addr 0x10d1e98, size 0x5c, virtual false, abstract: false, final false
   inline int64_t _GetAverageLatencies_b__16_2(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
 
-  /// @brief Method .ctor, addr 0x10c5b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10d1e0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider____c* getStaticF___9();
@@ -463,10 +463,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x10c5bfc, size 0x2ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x10d1ef4, size 0x2ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x10c5ee8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x10d21e0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -557,34 +557,34 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPollable"
   constexpr operator ::GlobalNamespace::IPollable*() noexcept;
 
-  /// @brief Method GetAverageLatencies, addr 0x10c3638, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method GetAverageLatencies, addr 0x10cf930, size 0x24c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* GetAverageLatencies();
 
-  /// @brief Method GetAwsGameLiftRegionEndpoint, addr 0x10c3974, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetAwsGameLiftRegionEndpoint, addr 0x10cfc6c, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW GetAwsGameLiftRegionEndpoint(::StringW awsRegion);
 
-  /// @brief Method GetGameLiftPlayerSessionInfo, addr 0x10c34dc, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method GetGameLiftPlayerSessionInfo, addr 0x10cf7d4, size 0x15c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>*
   GetGameLiftPlayerSessionInfo(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
                                ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW secret, ::StringW code, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetXPlatformAccessToken, addr 0x10c39e0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetXPlatformAccessToken, addr 0x10cfcd8, size 0x168, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* GetXPlatformAccessToken(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider,
                                                                                                                   ::System::Threading::CancellationToken cancellationToken, bool skipCache);
 
   static inline ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* New_ctor(::GlobalNamespace::INetworkConfig* networkConfig,
                                                                                  ::GlobalNamespace::XPlatformAuthFeatureFlag* xPlatformAuthFeatureFlag);
 
-  /// @brief Method PingAllAwsGameLiftRegions, addr 0x10c3448, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method PingAllAwsGameLiftRegions, addr 0x10cf740, size 0x94, virtual false, abstract: false, final false
   inline void PingAllAwsGameLiftRegions();
 
-  /// @brief Method PingRegionAsync, addr 0x10c3884, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method PingRegionAsync, addr 0x10cfb7c, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* PingRegionAsync(::StringW awsRegion);
 
-  /// @brief Method PollUpdate, addr 0x10c3388, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method PollUpdate, addr 0x10cf680, size 0xc0, virtual true, abstract: false, final true
   inline void PollUpdate();
 
-  /// @brief Method <PingAllAwsGameLiftRegions>b__15_0, addr 0x10c3f48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <PingAllAwsGameLiftRegions>b__15_0, addr 0x10d0240, size 0x4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* _PingAllAwsGameLiftRegions_b__15_0(::StringW region);
 
   constexpr ::GlobalNamespace::GraphAPIClient*& __cordl_internal_get__graphAPIClient();
@@ -623,7 +623,7 @@ public:
 
   constexpr void __cordl_internal_set__xPlatformAuthFeatureFlag(::GlobalNamespace::XPlatformAuthFeatureFlag* value);
 
-  /// @brief Method .ctor, addr 0x10c31e4, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10cf4dc, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::GlobalNamespace::XPlatformAuthFeatureFlag* xPlatformAuthFeatureFlag);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF__awsGameLiftRegions();

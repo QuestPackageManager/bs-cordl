@@ -42,43 +42,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>*();
 
-  /// @brief Method Add, addr 0x329edb0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x32afc34, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge Add(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method Contains, addr 0x329ef9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x32afe20, size 0x24, virtual false, abstract: false, final false
   inline bool Contains(int32_t index);
 
-  /// @brief Method Contains, addr 0x329eff0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x32afe74, size 0xa4, virtual false, abstract: false, final false
   inline bool Contains(int32_t index, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup);
 
-  /// @brief Method Contains, addr 0x329efc0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x32afe44, size 0x30, virtual false, abstract: false, final false
   inline bool Contains(::UnityEngine::ProBuilder::Edge other);
 
-  /// @brief Method Equals, addr 0x329ebcc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x32afa50, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x329eb88, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x32afa0c, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ProBuilder::Edge other);
 
-  /// @brief Method Equals, addr 0x329ee90, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x32afd14, size 0x10c, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ProBuilder::Edge other, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup);
 
-  /// @brief Method GetHashCode, addr 0x329ec6c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x32afaf0, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetIndices, addr 0x329f094, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method GetIndices, addr 0x32aff18, size 0x3d8, virtual false, abstract: false, final false
   static inline void GetIndices(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, ::System::Collections::Generic::List_1<int32_t>* indices);
 
-  /// @brief Method IsValid, addr 0x329e9b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x32af83c, size 0x2c, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method Subtract, addr 0x329ee20, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x32afca4, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge Subtract(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method ToString, addr 0x329e9e4, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x32af868, size 0x1a4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x329e9b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32af834, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t a, int32_t b);
 
   static inline ::UnityEngine::ProBuilder::Edge getStaticF_Empty();
@@ -86,22 +86,22 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>"
   constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>* i___System__IEquatable_1___UnityEngine__ProBuilder__Edge_();
 
-  /// @brief Method op_Addition, addr 0x329ec90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x32afb14, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge op_Addition(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method op_Addition, addr 0x329ecc0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x32afb44, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge op_Addition(::UnityEngine::ProBuilder::Edge a, int32_t b);
 
-  /// @brief Method op_Equality, addr 0x329ece8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x32afb6c, size 0x38, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method op_Inequality, addr 0x329ed20, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x32afba4, size 0x90, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method op_Subtraction, addr 0x329eca8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x32afb2c, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge op_Subtraction(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method op_Subtraction, addr 0x329ecd4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x32afb58, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge op_Subtraction(::UnityEngine::ProBuilder::Edge a, int32_t b);
 
   static inline void setStaticF_Empty(::UnityEngine::ProBuilder::Edge value);

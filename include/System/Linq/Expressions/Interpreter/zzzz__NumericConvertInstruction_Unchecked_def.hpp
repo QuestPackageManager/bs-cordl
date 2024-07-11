@@ -30,27 +30,27 @@ public:
   // Declarations
   __declspec(property(get = get_InstructionName))::StringW InstructionName;
 
-  /// @brief Method Convert, addr 0x2c64964, size 0x368, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x2c78378, size 0x368, virtual true, abstract: false, final false
   inline ::System::Object* Convert(::System::Object* obj);
 
-  /// @brief Method ConvertDouble, addr 0x2c6538c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method ConvertDouble, addr 0x2c78da0, size 0x2cc, virtual false, abstract: false, final false
   inline ::System::Object* ConvertDouble(double_t obj);
 
-  /// @brief Method ConvertInt32, addr 0x2c64ccc, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method ConvertInt32, addr 0x2c786e0, size 0x25c, virtual false, abstract: false, final false
   inline ::System::Object* ConvertInt32(int32_t obj);
 
-  /// @brief Method ConvertInt64, addr 0x2c64f28, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ConvertInt64, addr 0x2c7893c, size 0x230, virtual false, abstract: false, final false
   inline ::System::Object* ConvertInt64(int64_t obj);
 
-  /// @brief Method ConvertUInt64, addr 0x2c65158, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ConvertUInt64, addr 0x2c78b6c, size 0x234, virtual false, abstract: false, final false
   inline ::System::Object* ConvertUInt64(uint64_t obj);
 
   static inline ::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__Unchecked* New_ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method .ctor, addr 0x2c64928, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c7833c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method get_InstructionName, addr 0x2c648e8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c782fc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:

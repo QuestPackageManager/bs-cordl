@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithString : public ::Oculus::Platform::Message_1<::StringW> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2aea38c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2afdda0, size 0x54, virtual true, abstract: false, final false
   inline ::StringW GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetString, addr 0x2aea350, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x2afdd64, size 0x3c, virtual true, abstract: false, final false
   inline ::StringW GetString();
 
   static inline ::Oculus::Platform::MessageWithString* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ae6108, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af9b1c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

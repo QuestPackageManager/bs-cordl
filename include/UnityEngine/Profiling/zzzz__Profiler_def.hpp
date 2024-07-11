@@ -21,28 +21,28 @@ namespace UnityEngine::Profiling {
 class CORDL_TYPE Profiler : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMonoUsedSizeLong, addr 0x344ed60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMonoUsedSizeLong, addr 0x345dbe4, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetMonoUsedSizeLong();
 
-  /// @brief Method GetTotalAllocatedMemoryLong, addr 0x344ed88, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTotalAllocatedMemoryLong, addr 0x345dc0c, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetTotalAllocatedMemoryLong();
 
-  /// @brief Method GetTotalReservedMemoryLong, addr 0x344edb0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTotalReservedMemoryLong, addr 0x345dc34, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetTotalReservedMemoryLong();
 
-  /// @brief Method get_enabled, addr 0x344ecfc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x345db80, size 0x28, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
-  /// @brief Method set_enableBinaryLog, addr 0x344ec84, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_enableBinaryLog, addr 0x345db08, size 0x3c, virtual false, abstract: false, final false
   static inline void set_enableBinaryLog(bool value);
 
-  /// @brief Method set_enabled, addr 0x344ed24, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x345dba8, size 0x3c, virtual false, abstract: false, final false
   static inline void set_enabled(bool value);
 
-  /// @brief Method set_logFile, addr 0x344ec48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_logFile, addr 0x345dacc, size 0x3c, virtual false, abstract: false, final false
   static inline void set_logFile(::StringW value);
 
-  /// @brief Method set_maxUsedMemory, addr 0x344ecc0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_maxUsedMemory, addr 0x345db44, size 0x3c, virtual false, abstract: false, final false
   static inline void set_maxUsedMemory(int32_t value);
 
 protected:

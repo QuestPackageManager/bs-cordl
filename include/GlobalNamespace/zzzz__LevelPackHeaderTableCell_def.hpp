@@ -46,18 +46,18 @@ public:
   /// @brief Field _selectedBackgroundColor, offset 0x78, size 0x10
   __declspec(property(get = __cordl_internal_get__selectedBackgroundColor, put = __cordl_internal_set__selectedBackgroundColor))::UnityEngine::Color _selectedBackgroundColor;
 
-  /// @brief Method HighlightDidChange, addr 0x27510bc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x2766a44, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   static inline ::GlobalNamespace::LevelPackHeaderTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x2751020, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x27669a8, size 0x9c, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x275101c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x27669a4, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method SetData, addr 0x2750ff8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x2766980, size 0x24, virtual false, abstract: false, final false
   inline void SetData(::StringW headerText);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__selectedBackgroundColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x27510c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2766a48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

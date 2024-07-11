@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*, bool)>(
         &::Tayx::Graphy::Utils::G_ExtensionMethods::SetAllActive)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x305ae54;
+  constexpr static std::size_t addrs = 0x306a868;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*, int32_t)>(
         &::Tayx::Graphy::Utils::G_ExtensionMethods::SetOneActive)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x305afb8;
+  constexpr static std::size_t addrs = 0x306a9cc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*, bool)>(
         &::Tayx::Graphy::Utils::G_ExtensionMethods::SetAllActive)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x305b06c;
+  constexpr static std::size_t addrs = 0x306aa80;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -5,6 +5,9 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IBeatmapLevelLoader)
 namespace GlobalNamespace {
+struct BeatmapLevelDataVersion;
+}
+namespace GlobalNamespace {
 class BeatmapLevel;
 }
 namespace GlobalNamespace {
@@ -43,13 +46,15 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// @brief Method CheckBeatmapLevelDataExistsAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task_1<bool>* CheckBeatmapLevelDataExistsAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::System::Threading::CancellationToken cancellationToken);
+  inline ::System::Threading::Tasks::Task_1<bool>* CheckBeatmapLevelDataExistsAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
+                                                                                    ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method ClearCache, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ClearCache();
 
   /// @brief Method LoadBeatmapLevelDataAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>* LoadBeatmapLevelDataAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                                                                                      ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                                                                       ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method add_levelDownloadingUpdateEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

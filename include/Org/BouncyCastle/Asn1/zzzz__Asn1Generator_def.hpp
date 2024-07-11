@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set__out(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x141cdf0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14260e8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method get_Out, addr 0x141ce18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Out, addr 0x1426110, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_Out();
 
 protected:

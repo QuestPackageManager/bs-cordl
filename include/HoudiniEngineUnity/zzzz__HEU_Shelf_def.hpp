@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__tools(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>* value);
 
-  /// @brief Method .ctor, addr 0x25cc534, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e07e8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

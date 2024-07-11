@@ -83,21 +83,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x262403c, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2638324, size 0x2b0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x26242ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x26385d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26242f4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26385dc, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2624334, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x263861c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2624038, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2638320, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -148,7 +148,7 @@ public:
 
   constexpr void __cordl_internal_set_folderName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2623db0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2638098, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -236,30 +236,30 @@ public:
   /// @brief Field _sceneSetupData, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  /// @brief Method CreateCaptureFolder, addr 0x2623cb8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateCaptureFolder, addr 0x2637fa0, size 0x74, virtual false, abstract: false, final false
   inline void CreateCaptureFolder(::StringW folderName);
 
-  /// @brief Method CreateLogPath, addr 0x2623dd8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method CreateLogPath, addr 0x26380c0, size 0x14c, virtual false, abstract: false, final false
   inline ::StringW CreateLogPath(::StringW folder, float_t startTime);
 
-  /// @brief Method FinishProfiling, addr 0x2623b88, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FinishProfiling, addr 0x2637e70, size 0x9c, virtual false, abstract: false, final false
   inline void FinishProfiling();
 
   static inline ::GlobalNamespace::SongProfilingController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2623dac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2638094, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ProfileCoroutine, addr 0x2623d38, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ProfileCoroutine, addr 0x2638020, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ProfileCoroutine(::StringW folderName);
 
-  /// @brief Method SetupProfiler, addr 0x2623d2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetupProfiler, addr 0x2638014, size 0xc, virtual false, abstract: false, final false
   inline void SetupProfiler();
 
-  /// @brief Method Start, addr 0x2623c24, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2637f0c, size 0x94, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartProfilingToFile, addr 0x2623f24, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method StartProfilingToFile, addr 0x263820c, size 0xbc, virtual false, abstract: false, final false
   inline void StartProfilingToFile(::StringW filePath);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__fps() const;
@@ -274,7 +274,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x2623fe0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26382c8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

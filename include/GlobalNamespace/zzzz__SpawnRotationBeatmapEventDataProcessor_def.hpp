@@ -30,13 +30,13 @@ public:
   // Declarations
   static inline ::GlobalNamespace::SpawnRotationBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x103fdf0, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x1047884, size 0x240, virtual true, abstract: false, final false
   inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
-  /// @brief Method ProcessInsertedEventDataInternal, addr 0x103fc00, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method ProcessInsertedEventDataInternal, addr 0x1047694, size 0x1f0, virtual true, abstract: false, final false
   inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
-  /// @brief Method .ctor, addr 0x1040030, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1047ac4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

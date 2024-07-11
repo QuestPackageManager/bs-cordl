@@ -45,12 +45,12 @@ public:
   __declspec(property(get = __cordl_internal_get_moreAttributes,
                       put = __cordl_internal_set_moreAttributes))::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> moreAttributes;
 
-  /// @brief Method AddAnnotation, addr 0x2e2eff4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x2e3fa08, size 0x8, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
   static inline ::System::Xml::Schema::XmlSchemaAnnotated* New_ctor();
 
-  /// @brief Method SetUnhandledAttributes, addr 0x2e2efec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetUnhandledAttributes, addr 0x2e3fa00, size 0x8, virtual true, abstract: false, final false
   inline void SetUnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> moreAttributes);
 
   constexpr ::System::Xml::Schema::XmlSchemaAnnotation*& __cordl_internal_get_annotation();
@@ -71,31 +71,31 @@ public:
 
   constexpr void __cordl_internal_set_moreAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> value);
 
-  /// @brief Method .ctor, addr 0x2e2effc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e3fa10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Annotation, addr 0x2e2efbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Annotation, addr 0x2e3f9d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnnotation* get_Annotation();
 
-  /// @brief Method get_Id, addr 0x2e2efac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x2e3f9c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_IdAttribute, addr 0x2e2efdc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IdAttribute, addr 0x2e3f9f0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_IdAttribute();
 
-  /// @brief Method get_UnhandledAttributes, addr 0x2e2efcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnhandledAttributes, addr 0x2e3f9e0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> get_UnhandledAttributes();
 
-  /// @brief Method set_Annotation, addr 0x2e2efc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Annotation, addr 0x2e3f9d8, size 0x8, virtual false, abstract: false, final false
   inline void set_Annotation(::System::Xml::Schema::XmlSchemaAnnotation* value);
 
-  /// @brief Method set_Id, addr 0x2e2efb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x2e3f9c8, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
-  /// @brief Method set_IdAttribute, addr 0x2e2efe4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_IdAttribute, addr 0x2e3f9f8, size 0x8, virtual true, abstract: false, final false
   inline void set_IdAttribute(::StringW value);
 
-  /// @brief Method set_UnhandledAttributes, addr 0x2e2efd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UnhandledAttributes, addr 0x2e3f9e8, size 0x8, virtual false, abstract: false, final false
   inline void set_UnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> value);
 
 protected:

@@ -54,48 +54,48 @@ public:
 
   __declspec(property(get = get_ReflectedType))::System::Type* ReflectedType;
 
-  /// @brief Method GetCustomAttributes, addr 0x2894e78, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x28a888c, size 0x40, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x2894e38, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x28a884c, size 0x40, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetGetMethod, addr 0x2894eb8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetGetMethod, addr 0x28a88cc, size 0x40, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetGetMethod(bool nonPublic);
 
-  /// @brief Method GetIndexParameters, addr 0x2894ef8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetIndexParameters, addr 0x28a890c, size 0x40, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetIndexParameters();
 
-  /// @brief Method GetSetMethod, addr 0x2894f38, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetSetMethod, addr 0x28a894c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetSetMethod(bool nonPublic);
 
-  /// @brief Method GetValue, addr 0x2894f78, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x28a898c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                                     ::ArrayW<::System::Object*, ::Array<::System::Object*>*> index, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method IsDefined, addr 0x2894fb8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x28a89cc, size 0x40, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method SetValue, addr 0x2894ff8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x28a8a0c, size 0x40, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                        ::ArrayW<::System::Object*, ::Array<::System::Object*>*> index, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method get_CanRead, addr 0x2894cb8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x28a86cc, size 0x40, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanWrite, addr 0x2894cf8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x28a870c, size 0x40, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_DeclaringType, addr 0x2894d38, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_DeclaringType, addr 0x28a874c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Type* get_DeclaringType();
 
-  /// @brief Method get_Name, addr 0x2894d78, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x28a878c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_PropertyType, addr 0x2894db8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x28a87cc, size 0x40, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
-  /// @brief Method get_ReflectedType, addr 0x2894df8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_ReflectedType, addr 0x28a880c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Type* get_ReflectedType();
 
 protected:

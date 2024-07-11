@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Threading::Tasks::Task_1<int32_t>*, ::Array<::System::Threading::Tasks::Task_1<int32_t>*>*> (*)()>(
     &::System::Runtime::CompilerServices::AsyncTaskCache::CreateInt32Tasks)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x2876fd0;
+  constexpr static std::size_t addrs = 0x288b9e4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncTaskCache*>::get(),

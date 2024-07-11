@@ -53,24 +53,24 @@ public:
   /// @brief Field _pressedStateSprite, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__pressedStateSprite, put = __cordl_internal_set__pressedStateSprite))::UnityW<::UnityEngine::Sprite> _pressedStateSprite;
 
-  /// @brief Method Awake, addr 0x252b07c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2540330, size 0x78, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x252b390, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x2540644, size 0xcc, virtual true, abstract: false, final false
   inline void HandleButtonSelectionStateDidChange(::HMUI::__NoTransitionsButton__SelectionState state);
 
   static inline ::HMUI::ButtonSpriteSwap* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x252b21c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x25404d0, size 0xc0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x252b1f8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x25404ac, size 0x24, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshVisualState, addr 0x252b1d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisualState, addr 0x2540488, size 0x24, virtual false, abstract: false, final false
   inline void RefreshVisualState();
 
-  /// @brief Method Start, addr 0x252b1a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x254045c, size 0x2c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::HMUI::NoTransitionsButton> const& __cordl_internal_get__button() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set__pressedStateSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x252b45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2540710, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -29,12 +29,12 @@ namespace System::Data {
 class CORDL_TYPE DataSetClearEventhandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2cca828, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ce023c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Data::DataTable* table);
 
   static inline ::System::Data::DataSetClearEventhandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2cca6f8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ce010c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

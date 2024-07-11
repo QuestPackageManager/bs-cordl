@@ -45,15 +45,15 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x281bd0c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x282e720, size 0x58, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Security::AccessControl::AceEnumerator* New_ctor(::System::Security::AccessControl::GenericAcl* owner);
 
-  /// @brief Method Reset, addr 0x281bd64, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x282e778, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x281bd08, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x282e71c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr int32_t const& __cordl_internal_get_current() const;
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set_owner(::System::Security::AccessControl::GenericAcl* value);
 
-  /// @brief Method .ctor, addr 0x281bca4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x282e6b8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::AccessControl::GenericAcl* owner);
 
-  /// @brief Method get_Current, addr 0x281bcd4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x282e6e8, size 0x34, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::GenericAce* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"

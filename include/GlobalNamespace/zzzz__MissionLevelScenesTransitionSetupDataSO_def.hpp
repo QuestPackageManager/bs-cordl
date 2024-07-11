@@ -83,10 +83,10 @@ public:
 
   __declspec(property(get = get_missionId, put = set_missionId))::StringW missionId;
 
-  /// @brief Method Finish, addr 0x26bf210, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x26d555c, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::MissionCompletionResults* levelCompletionResults);
 
-  /// @brief Method Init, addr 0x26bd888, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26d3c70, size 0x3e8, virtual false, abstract: false, final false
   inline void Init(::StringW missionId, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                    ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, ::GlobalNamespace::ColorScheme* overrideColorScheme,
                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
@@ -94,7 +94,7 @@ public:
                    ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset,
                    ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::StringW backButtonText);
 
-  /// @brief Method Init, addr 0x26b9924, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26cfbf8, size 0x3cc, virtual false, abstract: false, final false
   inline void Init(::StringW missionId, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                    ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, ::GlobalNamespace::ColorScheme* overrideColorScheme,
                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
@@ -128,19 +128,19 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x26bf238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d5584, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x26bc73c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x26d2afc, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method get_missionId, addr 0x26bf200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionId, addr 0x26d554c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionId();
 
-  /// @brief Method remove_didFinishEvent, addr 0x26bcc4c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x26d300c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method set_missionId, addr 0x26bf208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missionId, addr 0x26d5554, size 0x8, virtual false, abstract: false, final false
   inline void set_missionId(::StringW value);
 
 protected:

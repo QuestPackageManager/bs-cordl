@@ -47,7 +47,7 @@ public:
 
   static inline ::GlobalNamespace::__SimpleDialogPromptViewController____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <DidActivate>b__0, addr 0x267c398, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__0, addr 0x268fd00, size 0x38, virtual false, abstract: false, final false
   inline void _DidActivate_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> const& __cordl_internal_get___4__this() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_buttonNum(int32_t value);
 
-  /// @brief Method .ctor, addr 0x267c194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268fafc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,19 +121,19 @@ public:
   /// @brief Field _titleText, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__titleText, put = __cordl_internal_set__titleText))::UnityW<::TMPro::TextMeshProUGUI> _titleText;
 
-  /// @brief Method DidActivate, addr 0x267c068, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x268f9d0, size 0x12c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x267c19c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x268fb04, size 0xc, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Init, addr 0x267c1a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x268fb10, size 0x10, virtual false, abstract: false, final false
   inline void Init(::StringW title, ::StringW message, ::StringW buttonText, ::System::Action_1<int32_t>* didFinishAction);
 
-  /// @brief Method Init, addr 0x267c38c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x268fcf4, size 0xc, virtual false, abstract: false, final false
   inline void Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText, ::System::Action_1<int32_t>* didFinishAction);
 
-  /// @brief Method Init, addr 0x267c1b8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x268fb20, size 0x1d4, virtual false, abstract: false, final false
   inline void Init(::StringW title, ::StringW message, ::StringW firstButtonText, ::StringW secondButtonText, ::StringW thirdButtonText, ::System::Action_1<int32_t>* didFinishAction);
 
   static inline ::GlobalNamespace::SimpleDialogPromptViewController* New_ctor();
@@ -168,7 +168,7 @@ public:
 
   constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x26752bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2688c24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

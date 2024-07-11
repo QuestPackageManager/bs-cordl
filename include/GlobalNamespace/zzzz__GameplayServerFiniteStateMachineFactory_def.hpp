@@ -25,7 +25,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE GameplayServerFiniteStateMachineFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x10a1140, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x10ad438, size 0x8c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayServerFiniteStateMachine* Create(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams initParams);
 
 protected:

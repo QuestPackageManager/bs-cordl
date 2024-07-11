@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream::*)(
     ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*, ::System::IO::Stream*)>(&::Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x1339db4;
+  constexpr static std::size_t addrs = 0x13430ac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream::Close)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x1339de0;
+  constexpr static std::size_t addrs = 0x13430d8;
 
   inline static const ::MethodInfo* methodInfo() {
 

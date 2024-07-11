@@ -25,10 +25,10 @@ namespace BeatSaber::BeatAvatarAdapter {
 class CORDL_TYPE AvatarDataMultiplayerAvatarsDataConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateAvatarData, addr 0x104eb78, size 0x5e8, virtual false, abstract: false, final false
+  /// @brief Method CreateAvatarData, addr 0x105660c, size 0x5e8, virtual false, abstract: false, final false
   static inline ::BeatSaber::BeatAvatarSDK::AvatarData* CreateAvatarData(::GlobalNamespace::MultiplayerAvatarData multiplayerAvatarsData);
 
-  /// @brief Method CreateMultiplayerAvatarsData, addr 0x104e670, size 0x508, virtual false, abstract: false, final false
+  /// @brief Method CreateMultiplayerAvatarsData, addr 0x1056104, size 0x508, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MultiplayerAvatarData CreateMultiplayerAvatarsData(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData);
 
 protected:

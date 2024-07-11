@@ -33,6 +33,8 @@ public:
 
   __declspec(property(get = get_immediateMaxPossibleMultipliedScore)) int32_t immediateMaxPossibleMultipliedScore;
 
+  __declspec(property(get = get_invalidated)) bool invalidated;
+
   __declspec(property(get = get_modifiedScore)) int32_t modifiedScore;
 
   __declspec(property(get = get_multipliedScore)) int32_t multipliedScore;
@@ -57,6 +59,9 @@ public:
 
   /// @brief Method get_immediateMaxPossibleMultipliedScore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_immediateMaxPossibleMultipliedScore();
+
+  /// @brief Method get_invalidated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_invalidated();
 
   /// @brief Method get_modifiedScore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_modifiedScore();

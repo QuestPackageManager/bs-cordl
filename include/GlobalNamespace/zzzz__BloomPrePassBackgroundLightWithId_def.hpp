@@ -31,7 +31,7 @@ public:
 
   __declspec(property(get = get_color))::UnityEngine::Color color;
 
-  /// @brief Method ColorWasSet, addr 0x250b5bc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x251f870, size 0x20, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color newColor);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundLightWithId* New_ctor();
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__bloomPrePassBackgroundColor(::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> value);
 
-  /// @brief Method .ctor, addr 0x250b5dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251f890, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x250b59c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x251f850, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)()>(
     &::System::Net::Http::Headers::ContentDispositionHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d8df34;
+  constexpr static std::size_t addrs = 0x2da0948;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)(
     ::System::Net::Http::Headers::ContentDispositionHeaderValue*)>(&::System::Net::Http::Headers::ContentDispositionHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x2d8df3c;
+  constexpr static std::size_t addrs = 0x2da0950;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* (
     ::System::Net::Http::Headers::ContentDispositionHeaderValue::*)()>(&::System::Net::Http::Headers::ContentDispositionHeaderValue::get_Parameters)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2d8e1b4;
+  constexpr static std::size_t addrs = 0x2da0bc8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)()>(
     &::System::Net::Http::Headers::ContentDispositionHeaderValue::System_ICloneable_Clone)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2d8e268;
+  constexpr static std::size_t addrs = 0x2da0c7c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)(::System::Object*)>(
     &::System::Net::Http::Headers::ContentDispositionHeaderValue::Equals)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2d8e2c8;
+  constexpr static std::size_t addrs = 0x2da0cdc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)()>(
     &::System::Net::Http::Headers::ContentDispositionHeaderValue::GetHashCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2d8e390;
+  constexpr static std::size_t addrs = 0x2da0da4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)()>(
     &::System::Net::Http::Headers::ContentDispositionHeaderValue::ToString)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2d8e40c;
+  constexpr static std::size_t addrs = 0x2da0e20;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::System::Net::Http::Headers::ContentDispositionHeaderValue*>)>(
     &::System::Net::Http::Headers::ContentDispositionHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x2d8e464;
+  constexpr static std::size_t addrs = 0x2da0e78;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

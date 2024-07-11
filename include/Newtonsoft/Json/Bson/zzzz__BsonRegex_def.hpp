@@ -52,22 +52,22 @@ public:
 
   constexpr void __cordl_internal_set__Pattern_k__BackingField(::Newtonsoft::Json::Bson::BsonString* value);
 
-  /// @brief Method .ctor, addr 0x2abc3cc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2acede0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::StringW pattern, ::StringW options);
 
-  /// @brief Method get_Options, addr 0x2abc3bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Options, addr 0x2acedd0, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonString* get_Options();
 
-  /// @brief Method get_Pattern, addr 0x2abc3ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pattern, addr 0x2acedc0, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonString* get_Pattern();
 
-  /// @brief Method get_Type, addr 0x2abc488, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2acee9c, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method set_Options, addr 0x2abc3c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Options, addr 0x2acedd8, size 0x8, virtual false, abstract: false, final false
   inline void set_Options(::Newtonsoft::Json::Bson::BsonString* value);
 
-  /// @brief Method set_Pattern, addr 0x2abc3b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Pattern, addr 0x2acedc8, size 0x8, virtual false, abstract: false, final false
   inline void set_Pattern(::Newtonsoft::Json::Bson::BsonString* value);
 
 protected:

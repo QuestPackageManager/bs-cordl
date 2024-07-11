@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::__BasicEntropySourceProvider__BasicEntropySource::*)(
     ::Org::BouncyCastle::Security::SecureRandom*, bool, int32_t)>(&::Org::BouncyCastle::Crypto::Prng::__BasicEntropySourceProvider__BasicEntropySource::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x11a5b80;
+  constexpr static std::size_t addrs = 0x11b2e78;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Prng::__BasicEntropySourceProvider__BasicEntropySource::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::__BasicEntropySourceProvider__BasicEntropySource::Org_BouncyCastle_Crypto_IEntropySource_get_IsPredictionResistant)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11a5bc0;
+  constexpr static std::size_t addrs = 0x11b2eb8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Prng::__BasicEntropySourceProvider__BasicEntropySource::*)()>(
         &::Org::BouncyCastle::Crypto::Prng::__BasicEntropySourceProvider__BasicEntropySource::Org_BouncyCastle_Crypto_IEntropySource_GetEntropy)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x11a5bc8;
+  constexpr static std::size_t addrs = 0x11b2ec0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Prng::__BasicEntropySourceProvider__BasicEntropySource::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::__BasicEntropySourceProvider__BasicEntropySource::Org_BouncyCastle_Crypto_IEntropySource_get_EntropySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11a5cb4;
+  constexpr static std::size_t addrs = 0x11b2fac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider::*)(
     ::Org::BouncyCastle::Security::SecureRandom*, bool)>(&::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x11a5ad0;
+  constexpr static std::size_t addrs = 0x11b2dc8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IEntropySource* (
     ::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider::Get)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x11a5b00;
+  constexpr static std::size_t addrs = 0x11b2df8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

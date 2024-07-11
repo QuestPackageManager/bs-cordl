@@ -115,28 +115,28 @@ public:
 
   constexpr void __cordl_internal_set__mouths(::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x1056044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x105dad8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Clothes, addr 0x105603c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Clothes, addr 0x105dad0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> get_Clothes();
 
-  /// @brief Method get_Eyes, addr 0x1056014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Eyes, addr 0x105daa8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*> get_Eyes();
 
-  /// @brief Method get_FacialHair, addr 0x105602c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FacialHair, addr 0x105dac0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> get_FacialHair();
 
-  /// @brief Method get_Glasses, addr 0x1056024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Glasses, addr 0x105dab8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> get_Glasses();
 
-  /// @brief Method get_Hands, addr 0x1056034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Hands, addr 0x105dac8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> get_Hands();
 
-  /// @brief Method get_Mouths, addr 0x105601c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mouths, addr 0x105dab0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*> get_Mouths();
 
-  /// @brief Method get_headTops, addr 0x105600c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headTops, addr 0x105daa0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> get_headTops();
 
 protected:

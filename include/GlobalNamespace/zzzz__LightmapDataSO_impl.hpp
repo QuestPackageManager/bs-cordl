@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (::GlobalNamespace::LightmapDataSO::*)()>(
     &::GlobalNamespace::LightmapDataSO::get_lightmap1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x269b0f8;
+  constexpr static std::size_t addrs = 0x26ae0d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapDataSO*>::get(), "get_lightmap1",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightmapDataSO::*)(::UnityEngine::Texture2D*)>(
     &::GlobalNamespace::LightmapDataSO::set_lightmap1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x269b100;
+  constexpr static std::size_t addrs = 0x26ae0dc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (::GlobalNamespace::LightmapDataSO::*)()>(
     &::GlobalNamespace::LightmapDataSO::get_lightmap2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x269b108;
+  constexpr static std::size_t addrs = 0x26ae0e4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapDataSO*>::get(), "get_lightmap2",
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightmapDataSO::*)(::UnityEngine::Texture2D*)>(
     &::GlobalNamespace::LightmapDataSO::set_lightmap2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x269b110;
+  constexpr static std::size_t addrs = 0x26ae0ec;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightmapDataSO::*)()>(&::GlobalNamespace::LightmapDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x269b118;
+  constexpr static std::size_t addrs = 0x26ae0f4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapDataSO*>::get(), ".ctor",

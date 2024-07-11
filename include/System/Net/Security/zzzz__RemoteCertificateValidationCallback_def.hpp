@@ -35,13 +35,13 @@ namespace System::Net::Security {
 class CORDL_TYPE RemoteCertificateValidationCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2f4e6ac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2f5b0c0, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::System::Object* sender, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                      ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 
   static inline ::System::Net::Security::RemoteCertificateValidationCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2f4e57c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5af90, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

@@ -63,42 +63,42 @@ public:
   /// @brief Field <UnderlyingType>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__UnderlyingType_k__BackingField, put = __cordl_internal_set__UnderlyingType_k__BackingField))::System::Type* _UnderlyingType_k__BackingField;
 
-  /// @brief Method CanConvertFrom, addr 0x2f6146c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x2f6de80, size 0xc4, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x2f6166c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x2f6e080, size 0xc4, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x2f61530, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x2f6df44, size 0x13c, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x2f61730, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x2f6e144, size 0x1f0, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method CreateInstance, addr 0x2f61920, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x2f6e334, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* CreateInstance(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Collections::IDictionary* propertyValues);
 
-  /// @brief Method GetCreateInstanceSupported, addr 0x2f61944, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetCreateInstanceSupported, addr 0x2f6e358, size 0x24, virtual true, abstract: false, final false
   inline bool GetCreateInstanceSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetProperties, addr 0x2f61968, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x2f6e37c, size 0x24, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value,
                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetPropertiesSupported, addr 0x2f6198c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x2f6e3a0, size 0x24, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValues, addr 0x2f619b0, size 0x3b0, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValues, addr 0x2f6e3c4, size 0x3b0, virtual true, abstract: false, final false
   inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x2f61d60, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesExclusive, addr 0x2f6e774, size 0x28, virtual true, abstract: false, final false
   inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesSupported, addr 0x2f61d88, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesSupported, addr 0x2f6e79c, size 0x28, virtual true, abstract: false, final false
   inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method IsValid, addr 0x2f61db0, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2f6e7c4, size 0x34, virtual true, abstract: false, final false
   inline bool IsValid(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value);
 
   static inline ::System::ComponentModel::NullableConverter* New_ctor(::System::Type* type);
@@ -121,16 +121,16 @@ public:
 
   constexpr void __cordl_internal_set__UnderlyingType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2f61340, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f6dd54, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_NullableType, addr 0x2f61de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NullableType, addr 0x2f6e7f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_NullableType();
 
-  /// @brief Method get_UnderlyingType, addr 0x2f61dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnderlyingType, addr 0x2f6e800, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_UnderlyingType();
 
-  /// @brief Method get_UnderlyingTypeConverter, addr 0x2f61df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnderlyingTypeConverter, addr 0x2f6e808, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::TypeConverter* get_UnderlyingTypeConverter();
 
 protected:

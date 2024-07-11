@@ -112,37 +112,37 @@ public:
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> inline TValue ReadValue();
 
-  /// @brief Method ReadValue, addr 0x31a395c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x31b47e0, size 0x104, virtual false, abstract: false, final false
   inline void ReadValue(::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
 
-  /// @brief Method ReadValueAsObject, addr 0x31a3718, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method ReadValueAsObject, addr 0x31b459c, size 0x244, virtual false, abstract: false, final false
   inline ::System::Object* ReadValueAsObject();
 
-  /// @brief Method ToString, addr 0x31a2f34, size 0x2f4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x31b3db8, size 0x2f4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_action, addr 0x31a35e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_action, addr 0x31b446c, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_action();
 
-  /// @brief Method get_control, addr 0x31a361c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_control, addr 0x31b44a0, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_control();
 
-  /// @brief Method get_duration, addr 0x31a36dc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x31b4560, size 0x30, virtual false, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_interaction, addr 0x31a365c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_interaction, addr 0x31b44e0, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::IInputInteraction* get_interaction();
 
-  /// @brief Method get_phase, addr 0x31a3610, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_phase, addr 0x31b4494, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionPhase get_phase();
 
-  /// @brief Method get_startTime, addr 0x31a36d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x31b4554, size 0xc, virtual false, abstract: false, final false
   inline double_t get_startTime();
 
-  /// @brief Method get_time, addr 0x31a36b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x31b4538, size 0x1c, virtual false, abstract: false, final false
   inline double_t get_time();
 
-  /// @brief Method get_valueSizeInBytes, addr 0x31a370c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_valueSizeInBytes, addr 0x31b4590, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_valueSizeInBytes();
 
   // Ctor Parameters []
@@ -193,22 +193,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x31a3ad0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x31b4954, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x31a3a60, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31b48e4, size 0x64, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x31a3ac4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x31b4948, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x31a3b38, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x31b49bc, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x31a3240, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b40c4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::Utilities::InputActionTrace* trace);
 
-  /// @brief Method get_Current, addr 0x31a3ad4, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x31b4958, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::__InputActionTrace__ActionEventPtr get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::__InputActionTrace__ActionEventPtr>"
@@ -324,25 +324,25 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Clear, addr 0x31a2978, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x31b37fc, size 0x54, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CloneActionStateBeforeBindingsChange, addr 0x31a34f0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method CloneActionStateBeforeBindingsChange, addr 0x31b4374, size 0xf8, virtual false, abstract: false, final false
   inline void CloneActionStateBeforeBindingsChange(::UnityEngine::InputSystem::InputActionMap* actionMap);
 
-  /// @brief Method Dispose, addr 0x31a3228, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x31b40ac, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeInternal, addr 0x31a2a60, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method DisposeInternal, addr 0x31b38e4, size 0x100, virtual false, abstract: false, final false
   inline void DisposeInternal();
 
-  /// @brief Method Finalize, addr 0x31a29cc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x31b3850, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetEnumerator, addr 0x31a2ebc, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x31b3d40, size 0x78, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::__InputActionTrace__ActionEventPtr>* GetEnumerator();
 
-  /// @brief Method HookOnActionChange, addr 0x31a2388, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method HookOnActionChange, addr 0x31b320c, size 0xc4, virtual false, abstract: false, final false
   inline void HookOnActionChange();
 
   static inline ::UnityEngine::InputSystem::Utilities::InputActionTrace* New_ctor();
@@ -351,37 +351,37 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::InputActionTrace* New_ctor(::UnityEngine::InputSystem::InputActionMap* actionMap);
 
-  /// @brief Method OnActionChange, addr 0x31a328c, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method OnActionChange, addr 0x31b4110, size 0x264, virtual false, abstract: false, final false
   inline void OnActionChange(::System::Object* actionOrMapOrAsset, ::UnityEngine::InputSystem::InputActionChange change);
 
-  /// @brief Method RecordAction, addr 0x31a27a8, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method RecordAction, addr 0x31b362c, size 0x1d0, virtual false, abstract: false, final false
   inline void RecordAction(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
 
-  /// @brief Method SubscribeTo, addr 0x31a1fe8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SubscribeTo, addr 0x31b2e6c, size 0x134, virtual false, abstract: false, final false
   inline void SubscribeTo(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method SubscribeTo, addr 0x31a2198, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SubscribeTo, addr 0x31b301c, size 0x114, virtual false, abstract: false, final false
   inline void SubscribeTo(::UnityEngine::InputSystem::InputActionMap* actionMap);
 
-  /// @brief Method SubscribeToAll, addr 0x31a22ac, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SubscribeToAll, addr 0x31b3130, size 0xdc, virtual false, abstract: false, final false
   inline void SubscribeToAll();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x31a3288, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x31b410c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method ToString, addr 0x31a2b60, size 0x35c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x31b39e4, size 0x35c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UnhookOnActionChange, addr 0x31a273c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UnhookOnActionChange, addr 0x31b35c0, size 0x6c, virtual false, abstract: false, final false
   inline void UnhookOnActionChange();
 
-  /// @brief Method UnsubscribeFrom, addr 0x31a244c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method UnsubscribeFrom, addr 0x31b32d0, size 0x11c, virtual false, abstract: false, final false
   inline void UnsubscribeFrom(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method UnsubscribeFrom, addr 0x31a2568, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method UnsubscribeFrom, addr 0x31b33ec, size 0xfc, virtual false, abstract: false, final false
   inline void UnsubscribeFrom(::UnityEngine::InputSystem::InputActionMap* actionMap);
 
-  /// @brief Method UnsubscribeFromAll, addr 0x31a2664, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UnsubscribeFromAll, addr 0x31b34e8, size 0xd8, virtual false, abstract: false, final false
   inline void UnsubscribeFromAll();
 
   constexpr ::System::Action_2<::System::Object*, ::UnityEngine::InputSystem::InputActionChange>*& __cordl_internal_get_m_ActionChangeDelegate();
@@ -438,19 +438,19 @@ public:
 
   constexpr void __cordl_internal_set_m_SubscribedToAll(bool value);
 
-  /// @brief Method .ctor, addr 0x31a1f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b2de8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x31a1f6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b2df0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method .ctor, addr 0x31a211c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b2fa0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputActionMap* actionMap);
 
-  /// @brief Method get_buffer, addr 0x31a1f4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_buffer, addr 0x31b2dd0, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventBuffer get_buffer();
 
-  /// @brief Method get_count, addr 0x31a1f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x31b2de0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_count();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::__InputActionTrace__ActionEventPtr>"

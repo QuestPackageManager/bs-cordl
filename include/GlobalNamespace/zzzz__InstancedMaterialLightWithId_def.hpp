@@ -57,10 +57,10 @@ public:
 
   __declspec(property(get = get_intensity, put = set_intensity)) float_t intensity;
 
-  /// @brief Method AddNecessaryComponents, addr 0x250bf4c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddNecessaryComponents, addr 0x2520200, size 0x104, virtual false, abstract: false, final false
   inline void AddNecessaryComponents();
 
-  /// @brief Method ColorWasSet, addr 0x250bea0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x2520154, size 0xac, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color newColor);
 
   static inline ::GlobalNamespace::InstancedMaterialLightWithId* New_ctor();
@@ -119,13 +119,13 @@ public:
 
   constexpr void __cordl_internal_set__startColorWasSet(bool value);
 
-  /// @brief Method .ctor, addr 0x250c050, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2520304, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_intensity, addr 0x250be80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x2520134, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x250be88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x252013c, size 0x18, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
 protected:

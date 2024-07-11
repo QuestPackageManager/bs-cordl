@@ -66,28 +66,28 @@ public:
   /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Copy(ByRef<T> destination, ::cordl_internals::Ptr<void> source);
 
-  /// @brief Method CopyBlock, addr 0x30aebd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlock, addr 0x30bfa5c, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlock(::cordl_internals::Ptr<void> destination, ::cordl_internals::Ptr<void> source, uint32_t byteCount);
 
-  /// @brief Method CopyBlock, addr 0x30aebe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlock, addr 0x30bfa64, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlock(ByRef<uint8_t> destination, ByRef<uint8_t> source, uint32_t byteCount);
 
-  /// @brief Method CopyBlockUnaligned, addr 0x30aebe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlockUnaligned, addr 0x30bfa6c, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlockUnaligned(::cordl_internals::Ptr<void> destination, ::cordl_internals::Ptr<void> source, uint32_t byteCount);
 
-  /// @brief Method CopyBlockUnaligned, addr 0x30aebf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlockUnaligned, addr 0x30bfa74, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlockUnaligned(ByRef<uint8_t> destination, ByRef<uint8_t> source, uint32_t byteCount);
 
-  /// @brief Method InitBlock, addr 0x30aebf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlock, addr 0x30bfa7c, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlock(::cordl_internals::Ptr<void> startAddress, uint8_t value, uint32_t byteCount);
 
-  /// @brief Method InitBlock, addr 0x30aec00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlock, addr 0x30bfa84, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlock(ByRef<uint8_t> startAddress, uint8_t value, uint32_t byteCount);
 
-  /// @brief Method InitBlockUnaligned, addr 0x30aec08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlockUnaligned, addr 0x30bfa8c, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlockUnaligned(::cordl_internals::Ptr<void> startAddress, uint8_t value, uint32_t byteCount);
 
-  /// @brief Method InitBlockUnaligned, addr 0x30aec10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlockUnaligned, addr 0x30bfa94, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlockUnaligned(ByRef<uint8_t> startAddress, uint8_t value, uint32_t byteCount);
 
   /// @brief Method IsAddressGreaterThan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

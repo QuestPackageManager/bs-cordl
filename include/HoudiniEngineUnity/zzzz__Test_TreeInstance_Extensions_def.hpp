@@ -50,13 +50,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x25e453c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x25f87f0, size 0x88, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_TreeInstance* _ToTestObject_b__1_0(::UnityEngine::TreeInstance lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x25e45c4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x25f8878, size 0x88, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_TreeInstance* _ToTestObject_b__2_0(::UnityEngine::TreeInstance lod);
 
-  /// @brief Method .ctor, addr 0x25e4534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f87e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c* getStaticF___9();
@@ -101,14 +101,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x25e42dc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x25f8590, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_TreeInstance*, ::Array<::HoudiniEngineUnity::Test_TreeInstance*>*>
   ToTestObject(::ArrayW<::UnityEngine::TreeInstance, ::Array<::UnityEngine::TreeInstance>*> self);
 
-  /// @brief Method ToTestObject, addr 0x25e4254, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x25f8508, size 0x88, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_TreeInstance* ToTestObject(::UnityEngine::TreeInstance self);
 
-  /// @brief Method ToTestObject, addr 0x25e43d4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x25f8688, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_TreeInstance*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::TreeInstance>* self);
 
 protected:

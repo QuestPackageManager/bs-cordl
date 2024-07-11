@@ -34,32 +34,32 @@ namespace Oculus::Platform {
 class CORDL_TYPE Achievements : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddCount, addr 0x2af0878, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method AddCount, addr 0x2b0428c, size 0x170, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* AddCount(::StringW name, uint64_t count);
 
-  /// @brief Method AddFields, addr 0x2af09e8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method AddFields, addr 0x2b043fc, size 0x170, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* AddFields(::StringW name, ::StringW fields);
 
-  /// @brief Method GetAllDefinitions, addr 0x2af0b58, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetAllDefinitions, addr 0x2b0456c, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>* GetAllDefinitions();
 
-  /// @brief Method GetAllProgress, addr 0x2af0cb0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetAllProgress, addr 0x2b046c4, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* GetAllProgress();
 
-  /// @brief Method GetDefinitionsByName, addr 0x2af0e08, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetDefinitionsByName, addr 0x2b0481c, size 0x174, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>* GetDefinitionsByName(::ArrayW<::StringW, ::Array<::StringW>*> names);
 
-  /// @brief Method GetNextAchievementDefinitionListPage, addr 0x2af1250, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetNextAchievementDefinitionListPage, addr 0x2b04c64, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>*
   GetNextAchievementDefinitionListPage(::Oculus::Platform::Models::AchievementDefinitionList* list);
 
-  /// @brief Method GetNextAchievementProgressListPage, addr 0x2af142c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetNextAchievementProgressListPage, addr 0x2b04e40, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* GetNextAchievementProgressListPage(::Oculus::Platform::Models::AchievementProgressList* list);
 
-  /// @brief Method GetProgressByName, addr 0x2af0f7c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetProgressByName, addr 0x2b04990, size 0x174, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* GetProgressByName(::ArrayW<::StringW, ::Array<::StringW>*> names);
 
-  /// @brief Method Unlock, addr 0x2af10f0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Unlock, addr 0x2b04b04, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* Unlock(::StringW name);
 
 protected:

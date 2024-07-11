@@ -29,7 +29,7 @@ namespace UnityEngine::Events {
 class CORDL_TYPE BaseInvokableCall : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AllowInvoke, addr 0x3463138, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AllowInvoke, addr 0x3472fbc, size 0xa8, virtual false, abstract: false, final false
   static inline bool AllowInvoke(::System::Delegate* delegate);
 
   /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -45,10 +45,10 @@ public:
   /// @brief Method ThrowOnInvalidArg, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ThrowOnInvalidArg(::System::Object* arg);
 
-  /// @brief Method .ctor, addr 0x3463048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3472ecc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3463050, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3472ed4, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target, ::System::Reflection::MethodInfo* function);
 
 protected:

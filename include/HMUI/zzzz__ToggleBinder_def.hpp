@@ -52,7 +52,7 @@ public:
 
   static inline ::HMUI::__ToggleBinder____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <AddBinding>b__0, addr 0x2516eb4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <AddBinding>b__0, addr 0x252b168, size 0x3c, virtual false, abstract: false, final false
   inline void _AddBinding_b__0(bool b);
 
   constexpr ::System::Action*& __cordl_internal_get_action();
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_enabled(bool value);
 
-  /// @brief Method .ctor, addr 0x251686c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252ab20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,25 +118,25 @@ public:
   /// @brief Field _enabled, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__enabled, put = __cordl_internal_set__enabled)) bool _enabled;
 
-  /// @brief Method AddBinding, addr 0x2516678, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x252a92c, size 0xd8, virtual false, abstract: false, final false
   inline void AddBinding(::UnityEngine::UI::Toggle* toggle, ::System::Action_1<bool>* action);
 
-  /// @brief Method AddBinding, addr 0x2516750, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x252aa04, size 0x11c, virtual false, abstract: false, final false
   inline void AddBinding(::UnityEngine::UI::Toggle* toggle, bool enabled, ::System::Action* action);
 
-  /// @brief Method AddBindings, addr 0x2516514, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AddBindings, addr 0x252a7c8, size 0x164, virtual false, abstract: false, final false
   inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData);
 
-  /// @brief Method ClearBindings, addr 0x2516874, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x252ab28, size 0x234, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Disable, addr 0x2516aa8, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x252ad5c, size 0x204, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Enable, addr 0x2516cac, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x252af60, size 0x208, virtual false, abstract: false, final false
   inline void Enable();
 
-  /// @brief Method Init, addr 0x2516464, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x252a718, size 0x74, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::HMUI::ToggleBinder* New_ctor();
@@ -156,10 +156,10 @@ public:
 
   constexpr void __cordl_internal_set__enabled(bool value);
 
-  /// @brief Method .ctor, addr 0x2516440, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252a6f4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25164d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252a78c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData);
 
 protected:

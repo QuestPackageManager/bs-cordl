@@ -91,10 +91,10 @@ public:
 
   constexpr void __cordl_internal_set_tr(float_t value);
 
-  /// @brief Method .ctor, addr 0x14f6fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1503124, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beat, addr 0x14f6fd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beat, addr 0x150311c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beat();
 
   /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"

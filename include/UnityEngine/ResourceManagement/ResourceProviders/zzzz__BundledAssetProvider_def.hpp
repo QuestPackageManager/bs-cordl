@@ -70,25 +70,25 @@ public:
   /// @brief Field subObjectName, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_subObjectName, put = __cordl_internal_set_subObjectName))::StringW subObjectName;
 
-  /// @brief Method ActionComplete, addr 0x3335ea8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ActionComplete, addr 0x3344d2c, size 0x194, virtual false, abstract: false, final false
   inline void ActionComplete(::UnityEngine::AsyncOperation* obj);
 
-  /// @brief Method BeginAssetLoad, addr 0x3335a94, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method BeginAssetLoad, addr 0x3344918, size 0x368, virtual false, abstract: false, final false
   inline void BeginAssetLoad();
 
-  /// @brief Method CompleteOperation, addr 0x3336320, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method CompleteOperation, addr 0x33451a4, size 0xf0, virtual false, abstract: false, final false
   inline void CompleteOperation();
 
-  /// @brief Method GetArrayResult, addr 0x3336134, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetArrayResult, addr 0x3344fb8, size 0x30, virtual false, abstract: false, final false
   inline void GetArrayResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
-  /// @brief Method GetAssetResult, addr 0x3336194, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetAssetResult, addr 0x3345018, size 0xc0, virtual false, abstract: false, final false
   inline void GetAssetResult(::UnityEngine::Object* asset);
 
-  /// @brief Method GetAssetSubObjectResult, addr 0x3336254, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetAssetSubObjectResult, addr 0x33450d8, size 0xcc, virtual false, abstract: false, final false
   inline void GetAssetSubObjectResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
-  /// @brief Method GetListResult, addr 0x3336164, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetListResult, addr 0x3344fe8, size 0x30, virtual false, abstract: false, final false
   inline void GetListResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
   /// @brief Method LoadBundleFromDependecies, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -96,16 +96,16 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::__BundledAssetProvider__InternalOp* New_ctor();
 
-  /// @brief Method ProgressCallback, addr 0x3336410, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ProgressCallback, addr 0x3345294, size 0x18, virtual false, abstract: false, final false
   inline float_t ProgressCallback();
 
-  /// @brief Method Start, addr 0x3335610, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3344494, size 0x3c8, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method WaitForCompletionHandler, addr 0x333603c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionHandler, addr 0x3344ec0, size 0xf8, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
-  /// @brief Method <Start>b__7_0, addr 0x3336428, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__7_0, addr 0x33452ac, size 0x4, virtual false, abstract: false, final false
   inline void _Start_b__7_0(::UnityEngine::AsyncOperation* operation);
 
   constexpr ::UnityW<::UnityEngine::AssetBundle> const& __cordl_internal_get_m_AssetBundle() const;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set_subObjectName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3335608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334448c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -209,10 +209,10 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider* New_ctor();
 
-  /// @brief Method Provide, addr 0x3335588, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x334440c, size 0x80, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method .ctor, addr 0x33359d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334485c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

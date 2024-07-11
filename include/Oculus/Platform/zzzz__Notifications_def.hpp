@@ -23,7 +23,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE Notifications : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MarkAsRead, addr 0x2af55d4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method MarkAsRead, addr 0x2b08fe8, size 0x14c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* MarkAsRead(uint64_t notificationID);
 
 protected:

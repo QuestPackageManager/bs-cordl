@@ -32,13 +32,13 @@ public:
 
   static inline ::System::InvalidProgramException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x294ddd0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29627e4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x294de50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2962864, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x294de2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2962840, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

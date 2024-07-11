@@ -22,7 +22,7 @@ namespace BGNet::Core {
 class CORDL_TYPE DefaultTimeProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_instance, addr 0x10c318c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x10cf484, size 0x58, virtual false, abstract: false, final false
   static inline ::BGNet::Core::ITimeProvider* get_instance();
 
 protected:

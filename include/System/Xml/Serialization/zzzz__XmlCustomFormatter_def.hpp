@@ -31,19 +31,19 @@ public:
   /// @brief Field allTimeFormats, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_allTimeFormats, put = setStaticF_allTimeFormats))::ArrayW<::StringW, ::Array<::StringW>*> allTimeFormats;
 
-  /// @brief Method FromEnum, addr 0x2eeea7c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method FromEnum, addr 0x2efd490, size 0x288, virtual false, abstract: false, final false
   static inline ::StringW FromEnum(int64_t value, ::ArrayW<::StringW, ::Array<::StringW>*> values, ::ArrayW<int64_t, ::Array<int64_t>*> ids, ::StringW typeName);
 
-  /// @brief Method FromXmlNCName, addr 0x2eeed5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FromXmlNCName, addr 0x2efd770, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW FromXmlNCName(::StringW ncName);
 
-  /// @brief Method FromXmlName, addr 0x2eeed04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FromXmlName, addr 0x2efd718, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW FromXmlName(::StringW name);
 
-  /// @brief Method FromXmlString, addr 0x2eeedb4, size 0xa78, virtual false, abstract: false, final false
+  /// @brief Method FromXmlString, addr 0x2efd7c8, size 0xa78, virtual false, abstract: false, final false
   static inline ::System::Object* FromXmlString(::System::Xml::Serialization::TypeData* type, ::StringW value);
 
-  /// @brief Method ToXmlString, addr 0x2eed798, size 0xcc4, virtual false, abstract: false, final false
+  /// @brief Method ToXmlString, addr 0x2efc1ac, size 0xcc4, virtual false, abstract: false, final false
   static inline ::StringW ToXmlString(::System::Xml::Serialization::TypeData* type, ::System::Object* value);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_allTimeFormats();

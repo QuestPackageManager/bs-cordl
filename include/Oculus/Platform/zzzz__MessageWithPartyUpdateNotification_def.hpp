@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithPartyUpdateNotification : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PartyUpdateNotification*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2ae9bf4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2afd608, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PartyUpdateNotification* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetPartyUpdateNotification, addr 0x2ae9bb8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetPartyUpdateNotification, addr 0x2afd5cc, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PartyUpdateNotification* GetPartyUpdateNotification();
 
   static inline ::Oculus::Platform::MessageWithPartyUpdateNotification* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ae5df0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af9804, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<void>)>(
     &::Unity::Burst::CompilerServices::Aliasing::ExpectAliased)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x30c2b30;
+  constexpr static std::size_t addrs = 0x30d49b4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<void>)>(
     &::Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x30c2b34;
+  constexpr static std::size_t addrs = 0x30d49b8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

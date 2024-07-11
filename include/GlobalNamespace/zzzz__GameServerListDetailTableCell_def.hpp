@@ -39,10 +39,10 @@ public:
 
   static inline ::GlobalNamespace::GameServerListDetailTableCell* New_ctor();
 
-  /// @brief Method Start, addr 0x274e2bc, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x2763c44, size 0xa8, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <Start>b__5_0, addr 0x274e3cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__5_0, addr 0x2763d54, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__5_0();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
@@ -63,13 +63,13 @@ public:
 
   constexpr void __cordl_internal_set_joinServerButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x274e364, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2763cec, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_joinServerButtonWasPressedEvent, addr 0x274e184, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_joinServerButtonWasPressedEvent, addr 0x2763b0c, size 0x9c, virtual false, abstract: false, final false
   inline void add_joinServerButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_joinServerButtonWasPressedEvent, addr 0x274e220, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_joinServerButtonWasPressedEvent, addr 0x2763ba8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_joinServerButtonWasPressedEvent(::System::Action* value);
 
 protected:

@@ -28,13 +28,13 @@ public:
 
   static inline ::UnityEngine::AndroidJavaClass* New_ctor(::System::IntPtr jclass);
 
-  /// @brief Method _AndroidJavaClass, addr 0x33e4a18, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method _AndroidJavaClass, addr 0x33f489c, size 0xc0, virtual false, abstract: false, final false
   inline void _AndroidJavaClass(::StringW className);
 
-  /// @brief Method .ctor, addr 0x33e13c4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f1248, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW className);
 
-  /// @brief Method .ctor, addr 0x33e422c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f40b0, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr jclass);
 
 protected:

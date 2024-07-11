@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableBinding (*)(::StringW, ::UnityEngine::Object*)>(
     &::UnityEngine::Animations::AnimationPlayableBinding::Create)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x33f6fb4;
+  constexpr static std::size_t addrs = 0x3405e38;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableOutput (*)(::UnityEngine::Playables::PlayableGraph, ::StringW)>(
     &::UnityEngine::Animations::AnimationPlayableBinding::CreateAnimationOutput)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x33f70f0;
+  constexpr static std::size_t addrs = 0x3405f74;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

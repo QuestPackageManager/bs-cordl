@@ -24,15 +24,15 @@ public:
   // Declarations
   __declspec(property(get = get_EncodingName))::StringW EncodingName;
 
-  /// @brief Method GetPreamble, addr 0x2edb864, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetPreamble, addr 0x2eeb278, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreamble();
 
   static inline ::System::Xml::Ucs4Encoding2143* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2edb57c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eeaf90, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EncodingName, addr 0x2edb824, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_EncodingName, addr 0x2eeb238, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_EncodingName();
 
 protected:

@@ -33,16 +33,16 @@ public:
 
   static inline ::Unity::XR::Oculus::InputFocus* New_ctor();
 
-  /// @brief Method Update, addr 0x33d4e38, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x33e3cbc, size 0xa0, virtual false, abstract: false, final false
   static inline void Update();
 
-  /// @brief Method .ctor, addr 0x33d4ed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33e3d5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_InputFocusAcquired, addr 0x33d4b48, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method add_InputFocusAcquired, addr 0x33e39cc, size 0xb8, virtual false, abstract: false, final false
   static inline void add_InputFocusAcquired(::System::Action* value);
 
-  /// @brief Method add_InputFocusLost, addr 0x33d4cb8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method add_InputFocusLost, addr 0x33e3b3c, size 0xbc, virtual false, abstract: false, final false
   static inline void add_InputFocusLost(::System::Action* value);
 
   static inline ::System::Action* getStaticF_InputFocusAcquired();
@@ -51,13 +51,13 @@ public:
 
   static inline bool getStaticF_hadInputFocus();
 
-  /// @brief Method get_hasInputFocus, addr 0x33d4e30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_hasInputFocus, addr 0x33e3cb4, size 0x4, virtual false, abstract: false, final false
   static inline bool get_hasInputFocus();
 
-  /// @brief Method remove_InputFocusAcquired, addr 0x33d4c00, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method remove_InputFocusAcquired, addr 0x33e3a84, size 0xb8, virtual false, abstract: false, final false
   static inline void remove_InputFocusAcquired(::System::Action* value);
 
-  /// @brief Method remove_InputFocusLost, addr 0x33d4d74, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method remove_InputFocusLost, addr 0x33e3bf8, size 0xbc, virtual false, abstract: false, final false
   static inline void remove_InputFocusLost(::System::Action* value);
 
   static inline void setStaticF_InputFocusAcquired(::System::Action* value);

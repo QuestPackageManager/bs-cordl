@@ -84,10 +84,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x1065eec, size 0x380, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x106ca9c, size 0x380, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x106626c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x106ce1c, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -145,10 +145,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x10662c4, size 0x4c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x106ce74, size 0x4c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x106678c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x106d33c, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -214,10 +214,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x10667e4, size 0x2ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x106d394, size 0x2ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x1066a90, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x106d640, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -292,26 +292,26 @@ public:
 
   __declspec(property(get = get_version))::System::Version* version;
 
-  /// @brief Method InternalLoadAsync, addr 0x1065d28, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method InternalLoadAsync, addr 0x106c8d8, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BGLib::SaveDataCore::SaveDataResult>* InternalLoadAsync();
 
-  /// @brief Method Load, addr 0x1065e18, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Load, addr 0x106c9c8, size 0x8c, virtual true, abstract: false, final false
   inline ::BGLib::SaveDataCore::SaveDataResult Load();
 
   static inline ::BeatSaber::GameSettings::GraphicSettingsHandler* New_ctor(::GlobalNamespace::IFileStorage* fileStorage);
 
   static inline ::BeatSaber::GameSettings::GraphicSettingsHandler* New_ctor(::GlobalNamespace::IFileStorage* fileStorage, ::BeatSaber::GameSettings::GraphicSettings* instance);
 
-  /// @brief Method PerformPostLoadAsync, addr 0x1065c34, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method PerformPostLoadAsync, addr 0x106c7e4, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BGLib::SaveDataCore::SaveDataResult>* PerformPostLoadAsync();
 
-  /// @brief Method TryGetCurrentPerformancePreset, addr 0x1065964, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryGetCurrentPerformancePreset, addr 0x106c514, size 0x9c, virtual false, abstract: false, final false
   inline bool TryGetCurrentPerformancePreset(ByRef<::BeatSaber::PerformancePresets::PerformancePreset*> currentPreset);
 
-  /// @brief Method TryGetCurrentPerformancePreset, addr 0x1065a00, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method TryGetCurrentPerformancePreset, addr 0x106c5b0, size 0x144, virtual false, abstract: false, final false
   inline bool TryGetCurrentPerformancePreset(::StringW serializedEnvironmentName, ByRef<::BeatSaber::PerformancePresets::PerformancePreset*> currentPreset);
 
-  /// @brief Method TryUpdateCurrentPerformancePresetAsync, addr 0x1065b44, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method TryUpdateCurrentPerformancePresetAsync, addr 0x106c6f4, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BGLib::SaveDataCore::SaveDataResult>* TryUpdateCurrentPerformancePresetAsync();
 
   constexpr ::BeatSaber::PerformancePresets::PerformancePreset*& __cordl_internal_get__currentPreset();
@@ -326,25 +326,25 @@ public:
 
   constexpr void __cordl_internal_set__currentPresetKey(::StringW value);
 
-  /// @brief Method <>n__0, addr 0x1065ea4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x106ca54, size 0x48, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BGLib::SaveDataCore::SaveDataResult>* __n__0();
 
-  /// @brief Method .ctor, addr 0x10658ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x106c45c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IFileStorage* fileStorage);
 
-  /// @brief Method .ctor, addr 0x1065904, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x106c4b4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IFileStorage* fileStorage, ::BeatSaber::GameSettings::GraphicSettings* instance);
 
-  /// @brief Method get_fileNameWithExtension, addr 0x1065864, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_fileNameWithExtension, addr 0x106c414, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_fileNameWithExtension();
 
-  /// @brief Method get_firstVersion, addr 0x10657f0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_firstVersion, addr 0x106c3a0, size 0x74, virtual true, abstract: false, final false
   inline ::System::Version* get_firstVersion();
 
-  /// @brief Method get_preferredStorageLocation, addr 0x10658a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_preferredStorageLocation, addr 0x106c454, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::StoragePreference get_preferredStorageLocation();
 
-  /// @brief Method get_version, addr 0x106577c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_version, addr 0x106c32c, size 0x74, virtual true, abstract: false, final false
   inline ::System::Version* get_version();
 
 protected:

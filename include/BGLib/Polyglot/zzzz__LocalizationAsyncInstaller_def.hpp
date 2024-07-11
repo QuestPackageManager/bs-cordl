@@ -60,10 +60,10 @@ public:
 
   static inline ::BGLib::Polyglot::__LocalizationAsyncInstaller____c* New_ctor();
 
-  /// @brief Method <LocalizationContentToAsset>b__6_0, addr 0x1084f78, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <LocalizationContentToAsset>b__6_0, addr 0x1090270, size 0x68, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::LocalizationAsset* _LocalizationContentToAsset_b__6_0(::UnityEngine::TextAsset* localizationTextAsset);
 
-  /// @brief Method .ctor, addr 0x1084f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1090268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::Polyglot::__LocalizationAsyncInstaller____c* getStaticF___9();
@@ -112,17 +112,17 @@ public:
 
   __declspec(property(get = get_assetLabelRuntimeKey))::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x1084d18, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x1090010, size 0x150, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadLocalizationAssetsSync, addr 0x1084e68, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LoadLocalizationAssetsSync, addr 0x1090160, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* LoadLocalizationAssetsSync();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x1084be8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x108fee0, size 0x1c, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>* assets,
                                          ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
 
-  /// @brief Method LocalizationContentToAsset, addr 0x1084c04, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method LocalizationContentToAsset, addr 0x108fefc, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*
   LocalizationContentToAsset(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::TextAsset>>* content);
 
@@ -140,10 +140,10 @@ public:
 
   constexpr void __cordl_internal_set__mainPolyglotAsset(::UnityW<::BGLib::Polyglot::Localization> value);
 
-  /// @brief Method .ctor, addr 0x1084ec4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10901bc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x1084ba8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x108fea0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:

@@ -32,30 +32,30 @@ namespace Org::BouncyCastle::Asn1::X500::Style {
 class CORDL_TYPE IetfUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AtvAreEqual, addr 0x12e9608, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AtvAreEqual, addr 0x12f2900, size 0xcc, virtual false, abstract: false, final false
   static inline bool AtvAreEqual(::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* atv1, ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* atv2);
 
-  /// @brief Method CanonicalString, addr 0x12e9510, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CanonicalString, addr 0x12f2808, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW CanonicalString(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method Canonicalize, addr 0x12e8ff0, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method Canonicalize, addr 0x12f22e8, size 0x2a4, virtual false, abstract: false, final false
   static inline ::StringW Canonicalize(::StringW s);
 
-  /// @brief Method DecodeObject, addr 0x12e9294, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method DecodeObject, addr 0x12f258c, size 0x150, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* DecodeObject(::StringW oValue);
 
   static inline ::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities* New_ctor();
 
-  /// @brief Method RdnAreEqual, addr 0x12e9520, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method RdnAreEqual, addr 0x12f2818, size 0xe8, virtual false, abstract: false, final false
   static inline bool RdnAreEqual(::Org::BouncyCastle::Asn1::X500::Rdn* rdn1, ::Org::BouncyCastle::Asn1::X500::Rdn* rdn2);
 
-  /// @brief Method StripInternalSpaces, addr 0x12e93e4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method StripInternalSpaces, addr 0x12f26dc, size 0x12c, virtual false, abstract: false, final false
   static inline ::StringW StripInternalSpaces(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x12e8af4, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x12f1dec, size 0x4fc, virtual false, abstract: false, final false
   static inline ::StringW ValueToString(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x12e96d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f29cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

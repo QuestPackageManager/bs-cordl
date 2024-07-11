@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::KeySizes::*)()>(
     &::System::Security::Cryptography::KeySizes::get_MinSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f6460;
+  constexpr static std::size_t addrs = 0x2809e74;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::KeySizes*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::KeySizes::*)()>(
     &::System::Security::Cryptography::KeySizes::get_MaxSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f6468;
+  constexpr static std::size_t addrs = 0x2809e7c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::KeySizes*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::KeySizes::*)()>(
     &::System::Security::Cryptography::KeySizes::get_SkipSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f6470;
+  constexpr static std::size_t addrs = 0x2809e84;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::KeySizes*>::get(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::KeySizes::*)(int32_t, int32_t, int32_t)>(
     &::System::Security::Cryptography::KeySizes::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x27f620c;
+  constexpr static std::size_t addrs = 0x2809c20;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::KeySizes::*)(int32_t)>(
     &::System::Security::Cryptography::KeySizes::IsLegal)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x27f6478;
+  constexpr static std::size_t addrs = 0x2809e8c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>,
                                                                                            int32_t)>(&::System::Security::Cryptography::KeySizes::IsLegalKeySize)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x27f64c4;
+  constexpr static std::size_t addrs = 0x2809ed8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

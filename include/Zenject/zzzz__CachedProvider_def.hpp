@@ -60,14 +60,14 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method ClearCache, addr 0x3685cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearCache, addr 0x369cb5c, size 0x8, virtual false, abstract: false, final false
   inline void ClearCache();
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x36856f8, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x369c57c, size 0x288, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x3685ce0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x369cb64, size 0xac, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::CachedProvider* New_ctor(::Zenject::IProvider* creator);
@@ -90,16 +90,16 @@ public:
 
   constexpr void __cordl_internal_set__isCreatingInstance(bool value);
 
-  /// @brief Method .ctor, addr 0x36856d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369c554, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IProvider* creator);
 
-  /// @brief Method get_IsCached, addr 0x3685ca8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x369cb2c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_NumInstances, addr 0x3685a40, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_NumInstances, addr 0x369c8c4, size 0x4c, virtual false, abstract: false, final false
   inline int32_t get_NumInstances();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x3685cb0, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x369cb34, size 0x28, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"

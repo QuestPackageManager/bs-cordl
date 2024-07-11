@@ -51,18 +51,18 @@ public:
   /// @brief Field _nextHapticSamplePlayTimeEnd, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__nextHapticSamplePlayTimeEnd, put = __cordl_internal_set__nextHapticSamplePlayTimeEnd)) float_t _nextHapticSamplePlayTimeEnd;
 
-  /// @brief Method HandleHapticSettingValueDidChange, addr 0x264c444, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleHapticSettingValueDidChange, addr 0x2660288, size 0x50, virtual false, abstract: false, final false
   inline void HandleHapticSettingValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* controller, float_t newValue);
 
   static inline ::GlobalNamespace::HeadsetHapticSettingsSampleController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x264c30c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2660150, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x264c274, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26600b8, size 0x98, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x264c3dc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2660220, size 0x68, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__formattedFloatListSettingsController() const;
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set__nextHapticSamplePlayTimeEnd(float_t value);
 
-  /// @brief Method .ctor, addr 0x264c494, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26602d8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

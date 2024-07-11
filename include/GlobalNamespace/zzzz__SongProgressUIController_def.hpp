@@ -36,7 +36,7 @@ class SongProgressUIController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SongProgressUIController);
 // Type: ::SongProgressUIController
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SongProgressUIController*
@@ -89,27 +89,30 @@ public:
   /// @brief Field _songController, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__songController, put = __cordl_internal_set__songController))::UnityW<::GlobalNamespace::SongController> _songController;
 
+  /// @brief Field _songDidFinish, offset 0x90, size 0x1
+  __declspec(property(get = __cordl_internal_get__songDidFinish, put = __cordl_internal_set__songDidFinish)) bool _songDidFinish;
+
   /// @brief Field _songLength, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get__songLength, put = __cordl_internal_set__songLength)) float_t _songLength;
 
   /// @brief Field _stringBuilder, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder))::System::Text::StringBuilder* _stringBuilder;
 
-  /// @brief Method HandleSongDidFinish, addr 0x26fa2e8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleSongDidFinish, addr 0x270e7f4, size 0x4c, virtual false, abstract: false, final false
   inline void HandleSongDidFinish();
 
   static inline ::GlobalNamespace::SongProgressUIController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26f9ef0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x270e3e4, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x26f9c78, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x270e16c, size 0x278, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x26f9fc4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x270e4b8, size 0xf8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateSongProgressUIElements, addr 0x26fa0a4, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method UpdateSongProgressUIElements, addr 0x270e5b0, size 0x244, virtual false, abstract: false, final false
   inline void UpdateSongProgressUIElements(int32_t minutes, int32_t seconds);
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -172,6 +175,10 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::SongController>& __cordl_internal_get__songController();
 
+  constexpr bool const& __cordl_internal_get__songDidFinish() const;
+
+  constexpr bool& __cordl_internal_get__songDidFinish();
+
   constexpr float_t const& __cordl_internal_get__songLength() const;
 
   constexpr float_t& __cordl_internal_get__songLength();
@@ -210,11 +217,13 @@ public:
 
   constexpr void __cordl_internal_set__songController(::UnityW<::GlobalNamespace::SongController> value);
 
+  constexpr void __cordl_internal_set__songDidFinish(bool value);
+
   constexpr void __cordl_internal_set__songLength(float_t value);
 
   constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x26fa328, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270e840, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -282,10 +291,13 @@ public:
   /// @brief Field _progressMinutesFormatString, offset: 0x88, size: 0x8, def value: None
   ::StringW ____progressMinutesFormatString;
 
+  /// @brief Field _songDidFinish, offset: 0x90, size: 0x1, def value: None
+  bool ____songDidFinish;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongProgressUIController, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongProgressUIController, 0x98>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____slider) == 0x18, "Offset mismatch!");
 
@@ -320,6 +332,8 @@ static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____progress
 static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____songLength) == 0x80, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____progressMinutesFormatString) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____songDidFinish) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongProgressUIController);

@@ -36,7 +36,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerConnectedPlayerBombNoteController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x270b928, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271fe50, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,13 +69,13 @@ public:
   // Declarations
   using Pool = ::GlobalNamespace::__MultiplayerConnectedPlayerBombNoteController__Pool;
 
-  /// @brief Method Init, addr 0x2707cfc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x271c21c, size 0x58, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, float_t worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos,
                    float_t moveDuration, float_t jumpDuration, float_t jumpGravity);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x270b918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271fe40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

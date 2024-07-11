@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::DotnetExtension::CommandLine::CommandLineParserResult (::BeatSaber::Init::BSAppInit::*)()>(
     &::BeatSaber::Init::BSAppInit::get_commandLineArguments)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x1068bc0;
+  constexpr static std::size_t addrs = 0x106f770;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSAppInit*>::get(), "get_commandLineArguments",
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Init::BSAppInit::*)(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult)>(
     &::BeatSaber::Init::BSAppInit::set_commandLineArguments)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x1068bd4;
+  constexpr static std::size_t addrs = 0x106f784;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::Init::BSAppInit::*)()>(&::BeatSaber::Init::BSAppInit::PreloadAsync)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x1068be8;
+  constexpr static std::size_t addrs = 0x106f798;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Init::BSAppInit::*)()>(&::BeatSaber::Init::BSAppInit::InstallBindings)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x1068c90;
+  constexpr static std::size_t addrs = 0x106f840;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Init::BSAppInit::*)()>(&::BeatSaber::Init::BSAppInit::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1068d3c;
+  constexpr static std::size_t addrs = 0x106f8ec;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSAppInit*>::get(), ".ctor",
@@ -104,6 +104,15 @@ inline void BeatSaber::Init::BSAppInit::setStaticF_kEditorModeOption(::BGLib::Do
 }
 inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption BeatSaber::Init::BSAppInit::getStaticF_kEditorModeOption() {
   return ::cordl_internals::getStaticField<::BGLib::DotnetExtension::CommandLine::ArgumentOption, "kEditorModeOption",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSAppInit*>::get>();
+}
+inline void BeatSaber::Init::BSAppInit::setStaticF_kAutoPlayOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value) {
+  ::cordl_internals::setStaticField<::BGLib::DotnetExtension::CommandLine::ArgumentOption, "kAutoPlayOption",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSAppInit*>::get>(
+      std::forward<::BGLib::DotnetExtension::CommandLine::ArgumentOption>(value));
+}
+inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption BeatSaber::Init::BSAppInit::getStaticF_kAutoPlayOption() {
+  return ::cordl_internals::getStaticField<::BGLib::DotnetExtension::CommandLine::ArgumentOption, "kAutoPlayOption",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSAppInit*>::get>();
 }
 inline void BeatSaber::Init::BSAppInit::setStaticF_kRecordingToolOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value) {

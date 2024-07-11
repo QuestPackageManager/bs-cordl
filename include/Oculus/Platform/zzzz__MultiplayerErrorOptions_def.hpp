@@ -30,12 +30,12 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle))::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x2aeae64, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2afe878, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::MultiplayerErrorOptions* New_ctor();
 
-  /// @brief Method SetErrorKey, addr 0x2aeada4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetErrorKey, addr 0x2afe7b8, size 0x68, virtual false, abstract: false, final false
   inline void SetErrorKey(::Oculus::Platform::MultiplayerErrorErrorKey value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
@@ -44,10 +44,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x2aead40, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2afe754, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x2aeae0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2afe820, size 0x58, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::MultiplayerErrorOptions* options);
 
 protected:

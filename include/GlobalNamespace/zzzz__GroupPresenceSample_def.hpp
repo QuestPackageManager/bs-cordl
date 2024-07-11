@@ -84,87 +84,87 @@ public:
   /// @brief Field SuggestedUserID, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_SuggestedUserID, put = __cordl_internal_set_SuggestedUserID)) uint64_t SuggestedUserID;
 
-  /// @brief Method ClearPresence, addr 0x2ac0f48, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ClearPresence, addr 0x2ad495c, size 0xb4, virtual false, abstract: false, final false
   inline void ClearPresence();
 
-  /// @brief Method LaunchInvitePanel, addr 0x2ac1140, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method LaunchInvitePanel, addr 0x2ad4b54, size 0x10c, virtual false, abstract: false, final false
   inline void LaunchInvitePanel();
 
-  /// @brief Method LaunchRosterPanel, addr 0x2ac14b8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method LaunchRosterPanel, addr 0x2ad4ecc, size 0xf0, virtual false, abstract: false, final false
   inline void LaunchRosterPanel();
 
   static inline ::GlobalNamespace::GroupPresenceSample* New_ctor();
 
-  /// @brief Method OnGetDestinations, addr 0x2ac21b0, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method OnGetDestinations, addr 0x2ad5bc4, size 0x360, virtual false, abstract: false, final false
   inline void OnGetDestinations(::Oculus::Platform::Message_1<::Oculus::Platform::Models::DestinationList*>* message);
 
-  /// @brief Method OnInviteSentNotif, addr 0x2ac1dd4, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method OnInviteSentNotif, addr 0x2ad57e8, size 0x3dc, virtual false, abstract: false, final false
   inline void OnInviteSentNotif(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchInvitePanelFlowResult*>* message);
 
-  /// @brief Method OnJoinIntentChangeNotif, addr 0x2ac1800, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method OnJoinIntentChangeNotif, addr 0x2ad5214, size 0x35c, virtual false, abstract: false, final false
   inline void OnJoinIntentChangeNotif(::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceJoinIntent*>* message);
 
-  /// @brief Method OnLeaveIntentChangeNotif, addr 0x2ac1b6c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method OnLeaveIntentChangeNotif, addr 0x2ad5580, size 0x268, virtual false, abstract: false, final false
   inline void OnLeaveIntentChangeNotif(::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceLeaveIntent*>* message);
 
-  /// @brief Method OnLoggedInUser, addr 0x2ac2880, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnLoggedInUser, addr 0x2ad6294, size 0xa8, virtual false, abstract: false, final false
   inline void OnLoggedInUser(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* message);
 
-  /// @brief Method PressAButton, addr 0x2ac2764, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method PressAButton, addr 0x2ad6178, size 0xc, virtual false, abstract: false, final false
   inline bool PressAButton();
 
-  /// @brief Method PressBButton, addr 0x2ac2770, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method PressBButton, addr 0x2ad6184, size 0xc, virtual false, abstract: false, final false
   inline bool PressBButton();
 
-  /// @brief Method PressDown, addr 0x2ac2874, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method PressDown, addr 0x2ad6288, size 0xc, virtual false, abstract: false, final false
   inline bool PressDown();
 
-  /// @brief Method PressUp, addr 0x2ac2868, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method PressUp, addr 0x2ad627c, size 0xc, virtual false, abstract: false, final false
   inline bool PressUp();
 
-  /// @brief Method PressXButton, addr 0x2ac277c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method PressXButton, addr 0x2ad6190, size 0xc, virtual false, abstract: false, final false
   inline bool PressXButton();
 
-  /// @brief Method PressYButton, addr 0x2ac2788, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method PressYButton, addr 0x2ad619c, size 0xc, virtual false, abstract: false, final false
   inline bool PressYButton();
 
-  /// @brief Method ScrollThroughDestinations, addr 0x2ac2794, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ScrollThroughDestinations, addr 0x2ad61a8, size 0xd4, virtual false, abstract: false, final false
   inline void ScrollThroughDestinations();
 
-  /// @brief Method SetPresence, addr 0x2ac0888, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method SetPresence, addr 0x2ad429c, size 0x198, virtual false, abstract: false, final false
   inline void SetPresence();
 
-  /// @brief Method Start, addr 0x2ac0424, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2ad3e38, size 0xf8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2ac267c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2ad6090, size 0xe8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateConsole, addr 0x2ac051c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method UpdateConsole, addr 0x2ad3f30, size 0xac, virtual false, abstract: false, final false
   inline void UpdateConsole(::StringW value);
 
-  /// @brief Method UpdateDestinationsConsole, addr 0x2ac2510, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method UpdateDestinationsConsole, addr 0x2ad5f24, size 0x16c, virtual false, abstract: false, final false
   inline void UpdateDestinationsConsole();
 
-  /// @brief Method <ClearPresence>b__10_0, addr 0x2ac3474, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <ClearPresence>b__10_0, addr 0x2ad6e88, size 0xe4, virtual false, abstract: false, final false
   inline void _ClearPresence_b__10_0(::Oculus::Platform::Message* message);
 
-  /// @brief Method <ClearPresence>b__10_1, addr 0x2ac3558, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <ClearPresence>b__10_1, addr 0x2ad6f6c, size 0xb4, virtual false, abstract: false, final false
   inline void _ClearPresence_b__10_1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* message2);
 
-  /// @brief Method <LaunchInvitePanel>b__11_0, addr 0x2ac360c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <LaunchInvitePanel>b__11_0, addr 0x2ad7020, size 0x48, virtual false, abstract: false, final false
   inline void _LaunchInvitePanel_b__11_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::InvitePanelResultInfo*>* message);
 
-  /// @brief Method <LaunchRosterPanel>b__12_0, addr 0x2ac3654, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <LaunchRosterPanel>b__12_0, addr 0x2ad7068, size 0x48, virtual false, abstract: false, final false
   inline void _LaunchRosterPanel_b__12_0(::Oculus::Platform::Message* message);
 
-  /// @brief Method <SetPresence>b__9_0, addr 0x2ac3030, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <SetPresence>b__9_0, addr 0x2ad6a44, size 0xe4, virtual false, abstract: false, final false
   inline void _SetPresence_b__9_0(::Oculus::Platform::Message* message);
 
-  /// @brief Method <SetPresence>b__9_1, addr 0x2ac3274, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method <SetPresence>b__9_1, addr 0x2ad6c88, size 0x200, virtual false, abstract: false, final false
   inline void _SetPresence_b__9_1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* message2);
 
-  /// @brief Method <Start>b__8_0, addr 0x2ac29ac, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__8_0, addr 0x2ad63c0, size 0x278, virtual false, abstract: false, final false
   inline void _Start_b__8_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>* message);
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_DestinationAPINames();
@@ -227,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set_SuggestedUserID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2ac2928, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad633c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

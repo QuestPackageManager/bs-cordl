@@ -20,7 +20,7 @@ namespace TMPro {
 struct CORDL_TYPE KerningPairKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x336e9e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337c86c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t ascii_left, uint32_t ascii_right);
 
   // Ctor Parameters []

@@ -37,18 +37,18 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
   constexpr operator ::GlobalNamespace::IOVRSceneComponent*() noexcept;
 
-  /// @brief Method Awake, addr 0x2b837fc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2b94210, size 0xd0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Contains, addr 0x2b8369c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x2b940b0, size 0x160, virtual false, abstract: false, final false
   inline bool Contains(::StringW label);
 
-  /// @brief Method IOVRSceneComponent.Initialize, addr 0x2b838cc, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method IOVRSceneComponent.Initialize, addr 0x2b942e0, size 0x120, virtual true, abstract: false, final true
   inline void IOVRSceneComponent_Initialize();
 
   static inline ::GlobalNamespace::OVRSemanticClassification* New_ctor();
 
-  /// @brief Method ValidateAndUpgradeLabels, addr 0x2b839ec, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method ValidateAndUpgradeLabels, addr 0x2b94400, size 0x478, virtual false, abstract: false, final false
   static inline ::StringW ValidateAndUpgradeLabels(::StringW labels);
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__labels();
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set__labels(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x2b83e64, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b94878, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Labels, addr 0x2b83694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Labels, addr 0x2b940a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_Labels();
 
   /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"

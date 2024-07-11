@@ -27,7 +27,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10c7ae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10d3de0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_FRP256v1();

@@ -63,10 +63,10 @@ public:
   /// @brief Field _shortestWord, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__shortestWord, put = __cordl_internal_set__shortestWord)) int32_t _shortestWord;
 
-  /// @brief Method AddWord, addr 0x10b89e0, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method AddWord, addr 0x10c4cd8, size 0x4c4, virtual false, abstract: false, final false
   inline void AddWord(::StringW word, int32_t index);
 
-  /// @brief Method IsMatch, addr 0x10b8f0c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x10c5204, size 0x178, virtual false, abstract: false, final false
   inline bool IsMatch(::StringW word, int32_t index);
 
   static inline ::GlobalNamespace::__ProfanityFilter__TrieNode* New_ctor();
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__shortestWord(int32_t value);
 
-  /// @brief Method .ctor, addr 0x10b89d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c4cc8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -158,27 +158,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x10b91a0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x10c5498, size 0xa4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator, addr 0x10b92e8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator, addr 0x10c55e0, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<char16_t>* System_Collections_Generic_IEnumerable_System_Char__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Char>.get_Current, addr 0x10b9244, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Char>.get_Current, addr 0x10c553c, size 0x8, virtual true, abstract: false, final true
   inline char16_t System_Collections_Generic_IEnumerator_System_Char__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x10b938c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x10c5684, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x10b924c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x10c5544, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x10b928c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x10c5584, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x10b919c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x10c5494, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -211,7 +211,7 @@ public:
 
   constexpr void __cordl_internal_set_c(char16_t value);
 
-  /// @brief Method .ctor, addr 0x10b90fc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c53f4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<char16_t>"
@@ -289,13 +289,13 @@ public:
   /// @brief Field _trie, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__trie, put = __cordl_internal_set__trie))::GlobalNamespace::__ProfanityFilter__TrieNode* _trie;
 
-  /// @brief Method GetLeetEquivalent, addr 0x10b9130, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetLeetEquivalent, addr 0x10c5428, size 0x6c, virtual false, abstract: false, final false
   static inline char16_t GetLeetEquivalent(char16_t c);
 
-  /// @brief Method GetLookalikeLetters, addr 0x10b9084, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLookalikeLetters, addr 0x10c537c, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<char16_t>* GetLookalikeLetters(char16_t c);
 
-  /// @brief Method IsProfane, addr 0x10b8ea4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsProfane, addr 0x10c519c, size 0x68, virtual false, abstract: false, final false
   inline bool IsProfane(::StringW word);
 
   static inline ::GlobalNamespace::ProfanityFilter* New_ctor(::System::Collections::Generic::IEnumerable_1<::StringW>* wordList);
@@ -306,7 +306,7 @@ public:
 
   constexpr void __cordl_internal_set__trie(::GlobalNamespace::__ProfanityFilter__TrieNode* value);
 
-  /// @brief Method .ctor, addr 0x10b8690, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c4988, size 0x340, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::StringW>* wordList);
 
 protected:

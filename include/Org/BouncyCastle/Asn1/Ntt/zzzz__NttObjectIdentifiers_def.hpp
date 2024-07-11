@@ -42,7 +42,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11e4420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ef718, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdCamellia128Cbc();

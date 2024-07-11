@@ -20,10 +20,10 @@ namespace System::Xml {
 struct CORDL_TYPE LineInfo {
 public:
   // Declarations
-  /// @brief Method Set, addr 0x2ec61d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x2ed5be8, size 0x8, virtual false, abstract: false, final false
   inline void Set(int32_t lineNo, int32_t linePos);
 
-  /// @brief Method .ctor, addr 0x2ec61cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed5be0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNo, int32_t linePos);
 
   // Ctor Parameters []

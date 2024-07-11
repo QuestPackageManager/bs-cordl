@@ -40,7 +40,7 @@ public:
   /// @brief Field modDate, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_modDate, put = __cordl_internal_set_modDate)) int64_t modDate;
 
-  /// @brief Method GetRawFileName, addr 0x143ad24, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetRawFileName, addr 0x144501c, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawFileName();
 
   static inline ::Org::BouncyCastle::Bcpg::LiteralDataPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_modDate(int64_t value);
 
-  /// @brief Method .ctor, addr 0x1437c18, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1441f10, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method get_FileName, addr 0x143ad18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x1445010, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
-  /// @brief Method get_Format, addr 0x143ad08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x1445000, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Format();
 
-  /// @brief Method get_ModificationTime, addr 0x143ad10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ModificationTime, addr 0x1445008, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ModificationTime();
 
 protected:

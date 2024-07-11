@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Assets::OVR::Scripts::FixMethodDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::Assets::OVR::Scripts::FixMethodDelegate::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2bedb98;
+  constexpr static std::size_t addrs = 0x2c015ac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Assets::OVR::Scripts::FixMethodDelegate::*)(::UnityEngine::Object*, bool, int32_t)>(
     &::Assets::OVR::Scripts::FixMethodDelegate::Invoke)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2bedcc8;
+  constexpr static std::size_t addrs = 0x2c016dc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::Assets::OVR::Scripts::FixMethodDelegate::*)(::UnityEngine::Object*, bool, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::Assets::OVR::Scripts::FixMethodDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2bedce0;
+  constexpr static std::size_t addrs = 0x2c016f4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Assets::OVR::Scripts::FixMethodDelegate::*)(::System::IAsyncResult*)>(
     &::Assets::OVR::Scripts::FixMethodDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2bedda4;
+  constexpr static std::size_t addrs = 0x2c017b8;
 
   inline static const ::MethodInfo* methodInfo() {
 

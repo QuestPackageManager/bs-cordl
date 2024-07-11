@@ -32,14 +32,14 @@ public:
   /// @brief Field k_UndoSetParentTrackText, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_UndoSetParentTrackText, put = setStaticF_k_UndoSetParentTrackText))::StringW k_UndoSetParentTrackText;
 
-  /// @brief Method MoveToTrack, addr 0x33ced1c, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method MoveToTrack, addr 0x33deba0, size 0x3c0, virtual false, abstract: false, final false
   static inline void MoveToTrack(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack);
 
-  /// @brief Method MoveToTrack_Impl, addr 0x33cf0dc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method MoveToTrack_Impl, addr 0x33def60, size 0x120, virtual false, abstract: false, final false
   static inline void MoveToTrack_Impl(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack, ::UnityEngine::Object* asset,
                                       ::UnityEngine::Timeline::TrackAsset* parentTrack);
 
-  /// @brief Method TryMoveToTrack, addr 0x33cf1fc, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method TryMoveToTrack, addr 0x33df080, size 0x1a4, virtual false, abstract: false, final false
   static inline bool TryMoveToTrack(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack);
 
   static inline ::StringW getStaticF_k_UndoSetParentTrackText();

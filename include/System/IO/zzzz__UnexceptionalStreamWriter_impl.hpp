@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::UnexceptionalStreamWriter::*)(::System::IO::Stream*, ::System::Text::Encoding*)>(
     &::System::IO::UnexceptionalStreamWriter::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x28e4678;
+  constexpr static std::size_t addrs = 0x28f708c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::UnexceptionalStreamWriter::*)()>(&::System::IO::UnexceptionalStreamWriter::Flush)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x28e46f0;
+  constexpr static std::size_t addrs = 0x28f7104;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::UnexceptionalStreamWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::IO::UnexceptionalStreamWriter::Write)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x28e4774;
+  constexpr static std::size_t addrs = 0x28f7188;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::UnexceptionalStreamWriter::*)(char16_t)>(&::System::IO::UnexceptionalStreamWriter::Write)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x28e47f8;
+  constexpr static std::size_t addrs = 0x28f720c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::UnexceptionalStreamWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(
     &::System::IO::UnexceptionalStreamWriter::Write)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x28e487c;
+  constexpr static std::size_t addrs = 0x28f7290;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::UnexceptionalStreamWriter::*)(::StringW)>(&::System::IO::UnexceptionalStreamWriter::Write)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x28e4900;
+  constexpr static std::size_t addrs = 0x28f7314;
 
   inline static const ::MethodInfo* methodInfo() {
 

@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::InfoBoxAttribute::*)(::StringW, ::BGLib::UnityExtension::__InfoBoxAttribute__Type)>(
     &::BGLib::UnityExtension::InfoBoxAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x108d478;
+  constexpr static std::size_t addrs = 0x1099770;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -49,19 +49,19 @@ public:
 
   constexpr void __cordl_internal_set__levelID_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x10b1e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10be148, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatmaps, addr 0x10b1e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmaps, addr 0x10be138, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BeatmapInfo*, ::Array<::GlobalNamespace::BeatmapInfo*>*> get_beatmaps();
 
-  /// @brief Method get_levelID, addr 0x10b1e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelID, addr 0x10be128, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelID();
 
-  /// @brief Method set_beatmaps, addr 0x10b1e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmaps, addr 0x10be140, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmaps(::ArrayW<::GlobalNamespace::BeatmapInfo*, ::Array<::GlobalNamespace::BeatmapInfo*>*> value);
 
-  /// @brief Method set_levelID, addr 0x10b1e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levelID, addr 0x10be130, size 0x8, virtual false, abstract: false, final false
   inline void set_levelID(::StringW value);
 
 protected:

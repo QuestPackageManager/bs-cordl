@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::Unity::Burst::SafeStringArrayHelper::SerialiseStringArraySafe)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x30889d0;
+  constexpr static std::size_t addrs = 0x3098854;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)(::StringW)>(
     &::Unity::Burst::SafeStringArrayHelper::DeserialiseStringArraySafe)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x3088bc8;
+  constexpr static std::size_t addrs = 0x3098a4c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::System::Configuration::ConfigurationCollectionAttribute* New_ctor(::System::Type* itemType);
 
-  /// @brief Method .ctor, addr 0x2bfb290, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0eca4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* itemType);
 
 protected:

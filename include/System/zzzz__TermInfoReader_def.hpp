@@ -47,35 +47,35 @@ public:
   /// @brief Field strOffsets, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_strOffsets, put = __cordl_internal_set_strOffsets)) int32_t strOffsets;
 
-  /// @brief Method DetermineVersion, addr 0x29a6a54, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method DetermineVersion, addr 0x29bc468, size 0xb0, virtual false, abstract: false, final false
   inline void DetermineVersion(int16_t magic);
 
-  /// @brief Method Get, addr 0x29a16c0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x29b70d4, size 0x90, virtual false, abstract: false, final false
   inline ::StringW Get(::System::TermInfoStrings tstr);
 
-  /// @brief Method Get, addr 0x29a1750, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x29b7164, size 0x60, virtual false, abstract: false, final false
   inline int32_t Get(::System::TermInfoNumbers number);
 
-  /// @brief Method GetInt16, addr 0x29a6b04, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetInt16, addr 0x29bc518, size 0x50, virtual false, abstract: false, final false
   inline int16_t GetInt16(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-  /// @brief Method GetString, addr 0x29a6b54, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x29bc568, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW GetString(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-  /// @brief Method GetStringBytes, addr 0x29a6bd0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetStringBytes, addr 0x29bc5e4, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetStringBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-  /// @brief Method GetStringBytes, addr 0x29a5604, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetStringBytes, addr 0x29bb018, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetStringBytes(::System::TermInfoStrings tstr);
 
   static inline ::System::TermInfoReader* New_ctor(::StringW term, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
   static inline ::System::TermInfoReader* New_ctor(::StringW term, ::StringW filename);
 
-  /// @brief Method ReadHeader, addr 0x29a6960, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ReadHeader, addr 0x29bc374, size 0xc0, virtual false, abstract: false, final false
   inline void ReadHeader(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> position);
 
-  /// @brief Method ReadNames, addr 0x29a6a20, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ReadNames, addr 0x29bc434, size 0x34, virtual false, abstract: false, final false
   inline void ReadNames(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> position);
 
   constexpr int32_t const& __cordl_internal_get_boolSize() const;
@@ -114,10 +114,10 @@ public:
 
   constexpr void __cordl_internal_set_strOffsets(int32_t value);
 
-  /// @brief Method .ctor, addr 0x29a0dc8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b67dc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW term, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method .ctor, addr 0x29a0af0, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b6504, size 0x2d8, virtual false, abstract: false, final false
   inline void _ctor(::StringW term, ::StringW filename);
 
 protected:

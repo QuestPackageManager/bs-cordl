@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::Vector3Extensions::InverseLerp)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x108c8d0;
+  constexpr static std::size_t addrs = 0x1098bc8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::Vector3Extensions::RotatedAroundPivot)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x108c924;
+  constexpr static std::size_t addrs = 0x1098c1c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(&::GlobalNamespace::Vector3Extensions::MirrorOnYZPlane)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x108c984;
+  constexpr static std::size_t addrs = 0x1098c7c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::Vector3Extensions::MirrorEulerAnglesOnYZPlane)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x108c98c;
+  constexpr static std::size_t addrs = 0x1098c84;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(ByRef<::UnityEngine::Vector3>)>(&::GlobalNamespace::Vector3Extensions::Abs)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x108c998;
+  constexpr static std::size_t addrs = 0x1098c90;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

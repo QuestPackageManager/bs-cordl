@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::__FeatureAsyncPreloader____c::*)()>(
     &::BGLib::AppFlow::Initialization::__FeatureAsyncPreloader____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1079338;
+  constexpr static std::size_t addrs = 0x107ffd4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::BGLib::AppFlow::Initialization::__FeatureAsyncPreloader____c::*)(::BGLib::AppFlow::Initialization::AsyncPreloader*)>(
         &::BGLib::AppFlow::Initialization::__FeatureAsyncPreloader____c::_PreloadAsync_b__1_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x1079340;
+  constexpr static std::size_t addrs = 0x107ffdc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::__FeatureAsyncPreloader___PreloadAsync_d__1::*)()>(
     &::BGLib::AppFlow::Initialization::__FeatureAsyncPreloader___PreloadAsync_d__1::MoveNext)> {
   constexpr static std::size_t size = 0x880;
-  constexpr static std::size_t addrs = 0x1079360;
+  constexpr static std::size_t addrs = 0x107fffc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::__FeatureAsyncPreloader___PreloadAsync_d__1::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::AppFlow::Initialization::__FeatureAsyncPreloader___PreloadAsync_d__1::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1079be0;
+  constexpr static std::size_t addrs = 0x108087c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::BGLib::AppFlow::Initialization::FeatureAsyncPreloader::*)()>(
     &::BGLib::AppFlow::Initialization::FeatureAsyncPreloader::PreloadAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x1079208;
+  constexpr static std::size_t addrs = 0x107fea4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::FeatureAsyncPreloader::*)()>(
     &::BGLib::AppFlow::Initialization::FeatureAsyncPreloader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10792cc;
+  constexpr static std::size_t addrs = 0x107ff68;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::FeatureAsyncPreloader*>::get(),

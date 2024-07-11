@@ -52,10 +52,10 @@ public:
 
   static inline ::LiteNetLib::SequencedChannel* New_ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id);
 
-  /// @brief Method ProcessPacket, addr 0x2604d30, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x2617fe4, size 0x1d0, virtual true, abstract: false, final false
   inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method SendNextPackets, addr 0x2604a28, size 0x308, virtual true, abstract: false, final false
+  /// @brief Method SendNextPackets, addr 0x2617cdc, size 0x308, virtual true, abstract: false, final false
   inline void SendNextPackets();
 
   constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__ackPacket();
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set__remoteSequence(uint16_t value);
 
-  /// @brief Method .ctor, addr 0x26006a4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2613958, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id);
 
 protected:

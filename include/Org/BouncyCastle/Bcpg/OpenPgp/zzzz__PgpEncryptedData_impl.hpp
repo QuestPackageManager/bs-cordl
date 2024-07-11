@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x13139cc;
+  constexpr static std::size_t addrs = 0x131ccc4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::FillBuffer)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x1313aa4;
+  constexpr static std::size_t addrs = 0x131cd9c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::ReadByte)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x1313afc;
+  constexpr static std::size_t addrs = 0x131cdf4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::Read)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x1313b60;
+  constexpr static std::size_t addrs = 0x131ce58;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::GetLookAhead)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x1313958;
+  constexpr static std::size_t addrs = 0x131cc50;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::*)(::Org::BouncyCastle::Bcpg::InputStreamPacket*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1313638;
+  constexpr static std::size_t addrs = 0x131c930;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::GetInputStream)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x1313660;
+  constexpr static std::size_t addrs = 0x131c958;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::IsIntegrityProtected)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x131367c;
+  constexpr static std::size_t addrs = 0x131c974;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData*>::get(),
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::Verify)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x13136f8;
+  constexpr static std::size_t addrs = 0x131c9f0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData*>::get(),

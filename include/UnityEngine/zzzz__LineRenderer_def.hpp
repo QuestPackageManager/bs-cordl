@@ -90,189 +90,189 @@ public:
 
   __declspec(property(get = get_widthMultiplier, put = set_widthMultiplier)) float_t widthMultiplier;
 
-  /// @brief Method BakeMesh, addr 0x3404d30, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method BakeMesh, addr 0x3413bb4, size 0x5c, virtual false, abstract: false, final false
   inline void BakeMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Camera* camera, bool useTransform);
 
-  /// @brief Method BakeMesh, addr 0x3404ccc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method BakeMesh, addr 0x3413b50, size 0x64, virtual false, abstract: false, final false
   inline void BakeMesh(::UnityEngine::Mesh* mesh, bool useTransform);
 
-  /// @brief Method GetColorGradientCopy, addr 0x3404ec8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetColorGradientCopy, addr 0x3413d4c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Gradient* GetColorGradientCopy();
 
-  /// @brief Method GetPosition, addr 0x34049c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetPosition, addr 0x3413844, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPosition(int32_t index);
 
-  /// @brief Method GetPosition_Injected, addr 0x3404a24, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetPosition_Injected, addr 0x34138a8, size 0x54, virtual false, abstract: false, final false
   inline void GetPosition_Injected(int32_t index, ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method GetPositions, addr 0x3404f8c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetPositions, addr 0x3413e10, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetPositions(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> positions);
 
-  /// @brief Method GetPositions, addr 0x34051d4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetPositions, addr 0x3414058, size 0x98, virtual false, abstract: false, final false
   inline int32_t GetPositions(ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>> positions);
 
-  /// @brief Method GetPositions, addr 0x34052c0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetPositions, addr 0x3414144, size 0xd4, virtual false, abstract: false, final false
   inline int32_t GetPositions(ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::Vector3>> positions);
 
-  /// @brief Method GetPositionsWithNativeContainer, addr 0x340526c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetPositionsWithNativeContainer, addr 0x34140f0, size 0x54, virtual false, abstract: false, final false
   inline int32_t GetPositionsWithNativeContainer(::System::IntPtr positions, int32_t length);
 
-  /// @brief Method GetWidthCurveCopy, addr 0x3404dc8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetWidthCurveCopy, addr 0x3413c4c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationCurve* GetWidthCurveCopy();
 
   static inline ::UnityEngine::LineRenderer* New_ctor();
 
-  /// @brief Method SetColorGradient, addr 0x3404f48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetColorGradient, addr 0x3413dcc, size 0x44, virtual false, abstract: false, final false
   inline void SetColorGradient(::UnityEngine::Gradient* curve);
 
-  /// @brief Method SetColors, addr 0x3405410, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x3414294, size 0x48, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color start, ::UnityEngine::Color end);
 
-  /// @brief Method SetPosition, addr 0x3404910, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetPosition, addr 0x3413794, size 0x5c, virtual false, abstract: false, final false
   inline void SetPosition(int32_t index, ::UnityEngine::Vector3 position);
 
-  /// @brief Method SetPosition_Injected, addr 0x340496c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetPosition_Injected, addr 0x34137f0, size 0x54, virtual false, abstract: false, final false
   inline void SetPosition_Injected(int32_t index, ByRef<::UnityEngine::Vector3> position);
 
-  /// @brief Method SetPositions, addr 0x3404fd0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetPositions, addr 0x3413e54, size 0x44, virtual false, abstract: false, final false
   inline void SetPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions);
 
-  /// @brief Method SetPositions, addr 0x3405014, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetPositions, addr 0x3413e98, size 0x98, virtual false, abstract: false, final false
   inline void SetPositions(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> positions);
 
-  /// @brief Method SetPositions, addr 0x3405100, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetPositions, addr 0x3413f84, size 0xd4, virtual false, abstract: false, final false
   inline void SetPositions(::Unity::Collections::NativeSlice_1<::UnityEngine::Vector3> positions);
 
-  /// @brief Method SetPositionsWithNativeContainer, addr 0x34050ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetPositionsWithNativeContainer, addr 0x3413f30, size 0x54, virtual false, abstract: false, final false
   inline void SetPositionsWithNativeContainer(::System::IntPtr positions, int32_t count);
 
-  /// @brief Method SetVertexCount, addr 0x3405458, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetVertexCount, addr 0x34142dc, size 0x44, virtual false, abstract: false, final false
   inline void SetVertexCount(int32_t count);
 
-  /// @brief Method SetWidth, addr 0x3405394, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetWidth, addr 0x3414218, size 0x7c, virtual false, abstract: false, final false
   inline void SetWidth(float_t start, float_t end);
 
-  /// @brief Method SetWidthCurve, addr 0x3404e48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetWidthCurve, addr 0x3413ccc, size 0x44, virtual false, abstract: false, final false
   inline void SetWidthCurve(::UnityEngine::AnimationCurve* curve);
 
-  /// @brief Method Simplify, addr 0x3404c80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Simplify, addr 0x3413b04, size 0x4c, virtual false, abstract: false, final false
   inline void Simplify(float_t tolerance);
 
-  /// @brief Method .ctor, addr 0x340551c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34143a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alignment, addr 0x3404c00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_alignment, addr 0x3413a84, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::LineAlignment get_alignment();
 
-  /// @brief Method get_colorGradient, addr 0x3404e8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_colorGradient, addr 0x3413d10, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Gradient* get_colorGradient();
 
-  /// @brief Method get_endColor, addr 0x340475c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_endColor, addr 0x34135e0, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_endColor();
 
-  /// @brief Method get_endColor_Injected, addr 0x34047b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_endColor_Injected, addr 0x3413638, size 0x44, virtual false, abstract: false, final false
   inline void get_endColor_Injected(ByRef<::UnityEngine::Color> ret);
 
-  /// @brief Method get_endWidth, addr 0x3404318, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_endWidth, addr 0x341319c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_endWidth();
 
-  /// @brief Method get_generateLightingData, addr 0x3404b00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_generateLightingData, addr 0x3413984, size 0x3c, virtual false, abstract: false, final false
   inline bool get_generateLightingData();
 
-  /// @brief Method get_loop, addr 0x34045a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_loop, addr 0x341342c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_loop();
 
-  /// @brief Method get_numCapVertices, addr 0x34044a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_numCapVertices, addr 0x341332c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_numCapVertices();
 
-  /// @brief Method get_numCornerVertices, addr 0x3404428, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_numCornerVertices, addr 0x34132ac, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_numCornerVertices();
 
-  /// @brief Method get_numPositions, addr 0x340549c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_numPositions, addr 0x3414320, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_numPositions();
 
-  /// @brief Method get_positionCount, addr 0x3404890, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_positionCount, addr 0x3413714, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_positionCount();
 
-  /// @brief Method get_shadowBias, addr 0x3404a78, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_shadowBias, addr 0x34138fc, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_shadowBias();
 
-  /// @brief Method get_startColor, addr 0x3404628, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_startColor, addr 0x34134ac, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_startColor();
 
-  /// @brief Method get_startColor_Injected, addr 0x3404680, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_startColor_Injected, addr 0x3413504, size 0x44, virtual false, abstract: false, final false
   inline void get_startColor_Injected(ByRef<::UnityEngine::Color> ret);
 
-  /// @brief Method get_startWidth, addr 0x3404290, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_startWidth, addr 0x3413114, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_startWidth();
 
-  /// @brief Method get_textureMode, addr 0x3404b80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_textureMode, addr 0x3413a04, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::LineTextureMode get_textureMode();
 
-  /// @brief Method get_useWorldSpace, addr 0x3404528, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_useWorldSpace, addr 0x34133ac, size 0x3c, virtual false, abstract: false, final false
   inline bool get_useWorldSpace();
 
-  /// @brief Method get_widthCurve, addr 0x3404d8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_widthCurve, addr 0x3413c10, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationCurve* get_widthCurve();
 
-  /// @brief Method get_widthMultiplier, addr 0x34043a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_widthMultiplier, addr 0x3413224, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_widthMultiplier();
 
-  /// @brief Method set_alignment, addr 0x3404c3c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_alignment, addr 0x3413ac0, size 0x44, virtual false, abstract: false, final false
   inline void set_alignment(::UnityEngine::LineAlignment value);
 
-  /// @brief Method set_colorGradient, addr 0x3404f04, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_colorGradient, addr 0x3413d88, size 0x44, virtual false, abstract: false, final false
   inline void set_colorGradient(::UnityEngine::Gradient* value);
 
-  /// @brief Method set_endColor, addr 0x34047f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_endColor, addr 0x341367c, size 0x54, virtual false, abstract: false, final false
   inline void set_endColor(::UnityEngine::Color value);
 
-  /// @brief Method set_endColor_Injected, addr 0x340484c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_endColor_Injected, addr 0x34136d0, size 0x44, virtual false, abstract: false, final false
   inline void set_endColor_Injected(ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method set_endWidth, addr 0x3404354, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_endWidth, addr 0x34131d8, size 0x4c, virtual false, abstract: false, final false
   inline void set_endWidth(float_t value);
 
-  /// @brief Method set_generateLightingData, addr 0x3404b3c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_generateLightingData, addr 0x34139c0, size 0x44, virtual false, abstract: false, final false
   inline void set_generateLightingData(bool value);
 
-  /// @brief Method set_loop, addr 0x34045e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_loop, addr 0x3413468, size 0x44, virtual false, abstract: false, final false
   inline void set_loop(bool value);
 
-  /// @brief Method set_numCapVertices, addr 0x34044e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_numCapVertices, addr 0x3413368, size 0x44, virtual false, abstract: false, final false
   inline void set_numCapVertices(int32_t value);
 
-  /// @brief Method set_numCornerVertices, addr 0x3404464, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_numCornerVertices, addr 0x34132e8, size 0x44, virtual false, abstract: false, final false
   inline void set_numCornerVertices(int32_t value);
 
-  /// @brief Method set_numPositions, addr 0x34054d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_numPositions, addr 0x341435c, size 0x44, virtual false, abstract: false, final false
   inline void set_numPositions(int32_t value);
 
-  /// @brief Method set_positionCount, addr 0x34048cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_positionCount, addr 0x3413750, size 0x44, virtual false, abstract: false, final false
   inline void set_positionCount(int32_t value);
 
-  /// @brief Method set_shadowBias, addr 0x3404ab4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_shadowBias, addr 0x3413938, size 0x4c, virtual false, abstract: false, final false
   inline void set_shadowBias(float_t value);
 
-  /// @brief Method set_startColor, addr 0x34046c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_startColor, addr 0x3413548, size 0x54, virtual false, abstract: false, final false
   inline void set_startColor(::UnityEngine::Color value);
 
-  /// @brief Method set_startColor_Injected, addr 0x3404718, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_startColor_Injected, addr 0x341359c, size 0x44, virtual false, abstract: false, final false
   inline void set_startColor_Injected(ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method set_startWidth, addr 0x34042cc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_startWidth, addr 0x3413150, size 0x4c, virtual false, abstract: false, final false
   inline void set_startWidth(float_t value);
 
-  /// @brief Method set_textureMode, addr 0x3404bbc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_textureMode, addr 0x3413a40, size 0x44, virtual false, abstract: false, final false
   inline void set_textureMode(::UnityEngine::LineTextureMode value);
 
-  /// @brief Method set_useWorldSpace, addr 0x3404564, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_useWorldSpace, addr 0x34133e8, size 0x44, virtual false, abstract: false, final false
   inline void set_useWorldSpace(bool value);
 
-  /// @brief Method set_widthCurve, addr 0x3404e04, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_widthCurve, addr 0x3413c88, size 0x44, virtual false, abstract: false, final false
   inline void set_widthCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method set_widthMultiplier, addr 0x34043dc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_widthMultiplier, addr 0x3413260, size 0x4c, virtual false, abstract: false, final false
   inline void set_widthMultiplier(float_t value);
 
 protected:

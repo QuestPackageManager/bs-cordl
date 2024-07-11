@@ -63,30 +63,30 @@ public:
   __declspec(property(get = __cordl_internal_get_supportedLanguages,
                       put = __cordl_internal_set_supportedLanguages))::System::Collections::Generic::List_1<::BGLib::Polyglot::Language>* supportedLanguages;
 
-  /// @brief Method ConvertSystemLanguage, addr 0x10848dc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ConvertSystemLanguage, addr 0x108fbd4, size 0xcc, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::Language ConvertSystemLanguage(::UnityEngine::SystemLanguage selected);
 
-  /// @brief Method Get, addr 0x108487c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x108fb74, size 0x20, virtual false, abstract: false, final false
   static inline ::StringW Get(::StringW key);
 
-  /// @brief Method GetKeys, addr 0x1084a80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetKeys, addr 0x108fd78, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetKeys();
 
-  /// @brief Method GetLanguageDirection, addr 0x10846ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetLanguageDirection, addr 0x108f9e4, size 0x1c, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::LanguageDirection GetLanguageDirection(::BGLib::Polyglot::Language language);
 
-  /// @brief Method HasNoSupportedLanguage, addr 0x1084778, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HasNoSupportedLanguage, addr 0x108fa70, size 0x50, virtual false, abstract: false, final false
   inline bool HasNoSupportedLanguage();
 
-  /// @brief Method IsLanguageSupported, addr 0x10847c8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsLanguageSupported, addr 0x108fac0, size 0x74, virtual false, abstract: false, final false
   inline bool IsLanguageSupported(::BGLib::Polyglot::Language language);
 
   static inline ::BGLib::Polyglot::Localization* New_ctor();
 
-  /// @brief Method NoDomainReloadInit, addr 0x10845f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x108f8f0, size 0x48, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
-  /// @brief Method SetSingletonInstance, addr 0x1084640, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetSingletonInstance, addr 0x108f938, size 0x9c, virtual false, abstract: false, final false
   static inline void SetSingletonInstance(::BGLib::Polyglot::LocalizationModel* model);
 
   constexpr ::BGLib::Polyglot::Language const& __cordl_internal_get_fallbackLanguage() const;
@@ -107,27 +107,27 @@ public:
 
   constexpr void __cordl_internal_set_supportedLanguages(::System::Collections::Generic::List_1<::BGLib::Polyglot::Language>* value);
 
-  /// @brief Method .ctor, addr 0x1084b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x108fe58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::Polyglot::LocalizationModel* getStaticF__instance();
 
-  /// @brief Method get_EnglishLanguageName, addr 0x108483c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_EnglishLanguageName, addr 0x108fb34, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_EnglishLanguageName();
 
-  /// @brief Method get_FallbackLanguage, addr 0x10846e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FallbackLanguage, addr 0x108f9dc, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::Language get_FallbackLanguage();
 
-  /// @brief Method get_Instance, addr 0x10841d4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x108f4cc, size 0x98, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::LocalizationModel* get_Instance();
 
-  /// @brief Method get_LocalizedLanguageName, addr 0x108489c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_LocalizedLanguageName, addr 0x108fb94, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_LocalizedLanguageName();
 
-  /// @brief Method get_SupportedLanguages, addr 0x10846dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SupportedLanguages, addr 0x108f9d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BGLib::Polyglot::Language>* get_SupportedLanguages();
 
-  /// @brief Method get_selectedLanguageIndex, addr 0x1084708, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_selectedLanguageIndex, addr 0x108fa00, size 0x70, virtual false, abstract: false, final false
   inline int32_t get_selectedLanguageIndex();
 
   static inline void setStaticF__instance(::BGLib::Polyglot::LocalizationModel* value);

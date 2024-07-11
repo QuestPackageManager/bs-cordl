@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/GameplayCoreInstaller.hpp"
+#include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParserResult_impl.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__ArcAndObstacleHapticEffectManager_def.hpp"
@@ -18,8 +19,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(&::GlobalNamespace::GameplayCoreInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x15bc;
-  constexpr static std::size_t addrs = 0x27453f0;
+  constexpr static std::size_t size = 0x1698;
+  constexpr static std::size_t addrs = 0x275bc64;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -33,8 +34,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(
     &::GlobalNamespace::GameplayCoreInstaller::InstallRecordingTool)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x27469ac;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x275d2fc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreInstaller*>::get(),
@@ -47,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(&::GlobalNamespace::GameplayCoreInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2746a6c;
+  constexpr static std::size_t addrs = 0x275d3f4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreInstaller*>::get(), ".ctor",
@@ -200,6 +201,18 @@ GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__perceivedLoudnessP
 constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__perceivedLoudnessPerLevelModel(::GlobalNamespace::PerceivedLoudnessPerLevelModel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____perceivedLoudnessPerLevelModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__commandLineArguments() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____commandLineArguments;
+}
+constexpr ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult const& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__commandLineArguments() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____commandLineArguments;
+}
+constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__commandLineArguments(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____commandLineArguments = value;
 }
 inline void GlobalNamespace::GameplayCoreInstaller::InstallBindings() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

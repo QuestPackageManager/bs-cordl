@@ -150,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_startSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x14a27c4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14abe7c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                     ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice, float_t startSongTime,
                     float_t songSpeedMultiplier, bool overrideEnvironments, ::StringW environmentType, ::StringW environmentName, bool quitAppAfterRun);

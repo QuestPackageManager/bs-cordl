@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__GradientRemapPool____c::*)()>(
     &::UnityEngine::UIElements::UIR::__GradientRemapPool____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x354b43c;
+  constexpr static std::size_t addrs = 0x35622c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__GradientRemapPool____c*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::GradientRemap* (::UnityEngine::UIElements::UIR::__GradientRemapPool____c::*)()>(
     &::UnityEngine::UIElements::UIR::__GradientRemapPool____c::__ctor_b__0_0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x354b444;
+  constexpr static std::size_t addrs = 0x35622c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__GradientRemapPool____c*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__GradientRemapPool____c::*)(::UnityEngine::UIElements::UIR::GradientRemap*)>(
     &::UnityEngine::UIElements::UIR::__GradientRemapPool____c::__ctor_b__0_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x354b4e4;
+  constexpr static std::size_t addrs = 0x3562368;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GradientRemapPool::*)()>(
     &::UnityEngine::UIElements::UIR::GradientRemapPool::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x354b250;
+  constexpr static std::size_t addrs = 0x35620d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GradientRemapPool*>::get(),

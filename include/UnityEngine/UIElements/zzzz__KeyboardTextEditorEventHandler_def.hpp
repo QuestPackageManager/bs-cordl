@@ -86,46 +86,46 @@ public:
   /// @brief Field m_SelectAllOnMouseUp, offset 0x23, size 0x1
   __declspec(property(get = __cordl_internal_get_m_SelectAllOnMouseUp, put = __cordl_internal_set_m_SelectAllOnMouseUp)) bool m_SelectAllOnMouseUp;
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x359e9fc, size 0x5bc, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x35b5880, size 0x5bc, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method MoveDistanceQualifiesForDrag, addr 0x35a075c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method MoveDistanceQualifiesForDrag, addr 0x35b75e0, size 0x24, virtual false, abstract: false, final false
   inline bool MoveDistanceQualifiesForDrag(::UnityEngine::Vector2 start, ::UnityEngine::Vector2 current);
 
   static inline ::UnityEngine::UIElements::KeyboardTextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine,
                                                                                     ::UnityEngine::UIElements::ITextInputField* textInputField);
 
-  /// @brief Method OnBlur, addr 0x359f148, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnBlur, addr 0x35b5fcc, size 0xc, virtual false, abstract: false, final false
   inline void OnBlur(::UnityEngine::UIElements::BlurEvent* _);
 
-  /// @brief Method OnExecuteCommandEvent, addr 0x35a0164, size 0x5f8, virtual false, abstract: false, final false
+  /// @brief Method OnExecuteCommandEvent, addr 0x35b6fe8, size 0x5f8, virtual false, abstract: false, final false
   inline void OnExecuteCommandEvent(::UnityEngine::UIElements::ExecuteCommandEvent* evt);
 
-  /// @brief Method OnFocus, addr 0x359efb8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method OnFocus, addr 0x35b5e3c, size 0x190, virtual false, abstract: false, final false
   inline void OnFocus(::UnityEngine::UIElements::FocusEvent* _);
 
-  /// @brief Method OnKeyDown, addr 0x359f7f8, size 0x608, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x35b667c, size 0x608, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
-  /// @brief Method OnMouseDown, addr 0x359f154, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method OnMouseDown, addr 0x35b5fd8, size 0x3f4, virtual false, abstract: false, final false
   inline void OnMouseDown(::UnityEngine::UIElements::MouseDownEvent* evt);
 
-  /// @brief Method OnMouseMove, addr 0x359f6b0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnMouseMove, addr 0x35b6534, size 0x148, virtual false, abstract: false, final false
   inline void OnMouseMove(::UnityEngine::UIElements::MouseMoveEvent* evt);
 
-  /// @brief Method OnMouseUp, addr 0x359f548, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method OnMouseUp, addr 0x35b63cc, size 0x168, virtual false, abstract: false, final false
   inline void OnMouseUp(::UnityEngine::UIElements::MouseUpEvent* evt);
 
-  /// @brief Method OnValidateCommandEvent, addr 0x359fe00, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method OnValidateCommandEvent, addr 0x35b6c84, size 0x364, virtual false, abstract: false, final false
   inline void OnValidateCommandEvent(::UnityEngine::UIElements::ValidateCommandEvent* evt);
 
-  /// @brief Method PostDrawCursor, addr 0x35a0bf4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method PostDrawCursor, addr 0x35b7a78, size 0x24, virtual false, abstract: false, final false
   inline void PostDrawCursor();
 
-  /// @brief Method PreDrawCursor, addr 0x35a08b4, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method PreDrawCursor, addr 0x35b7738, size 0x340, virtual false, abstract: false, final false
   inline void PreDrawCursor(::StringW newText);
 
-  /// @brief Method ProcessDragMove, addr 0x35a0780, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ProcessDragMove, addr 0x35b7604, size 0x134, virtual false, abstract: false, final false
   inline void ProcessDragMove(::UnityEngine::UIElements::MouseMoveEvent* evt);
 
   constexpr bool const& __cordl_internal_get_m_Changed() const;
@@ -176,13 +176,13 @@ public:
 
   constexpr void __cordl_internal_set_m_SelectAllOnMouseUp(bool value);
 
-  /// @brief Method .ctor, addr 0x359e97c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b5800, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine, ::UnityEngine::UIElements::ITextInputField* textInputField);
 
-  /// @brief Method get_isClicking, addr 0x359e940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isClicking, addr 0x35b57c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isClicking();
 
-  /// @brief Method set_isClicking, addr 0x359e948, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_isClicking, addr 0x35b57cc, size 0x34, virtual false, abstract: false, final false
   inline void set_isClicking(bool value);
 
 protected:

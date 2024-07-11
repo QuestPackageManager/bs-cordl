@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidGamepad* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3178b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x318b9a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

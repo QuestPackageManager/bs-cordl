@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Sockets::IPPacketInformation::*)(::System::Object*)>(
     &::System::Net::Sockets::IPPacketInformation::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2f4afa0;
+  constexpr static std::size_t addrs = 0x2f579b4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Sockets::IPPacketInformation::*)()>(
     &::System::Net::Sockets::IPPacketInformation::GetHashCode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2f4b03c;
+  constexpr static std::size_t addrs = 0x2f57a50;
 
   inline static const ::MethodInfo* methodInfo() {
 

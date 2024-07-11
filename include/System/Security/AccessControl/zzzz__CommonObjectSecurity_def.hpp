@@ -25,12 +25,12 @@ namespace System::Security::AccessControl {
 class CORDL_TYPE CommonObjectSecurity : public ::System::Security::AccessControl::ObjectSecurity {
 public:
   // Declarations
-  /// @brief Method GetAccessRules, addr 0x281e06c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAccessRules, addr 0x2830a80, size 0xc, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AuthorizationRuleCollection* GetAccessRules(bool includeExplicit, bool includeInherited, ::System::Type* targetType);
 
   static inline ::System::Security::AccessControl::CommonObjectSecurity* New_ctor(bool isContainer);
 
-  /// @brief Method .ctor, addr 0x281df64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2830978, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer);
 
 protected:

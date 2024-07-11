@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_CustomLabel(::StringW value);
 
-  /// @brief Method .ctor, addr 0x108c9b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1098ca8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW customLabel);
 
 protected:

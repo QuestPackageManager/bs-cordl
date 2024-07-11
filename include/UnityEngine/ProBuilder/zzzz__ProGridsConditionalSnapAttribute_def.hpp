@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::ProBuilder::ProGridsConditionalSnapAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x32c1498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32d131c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

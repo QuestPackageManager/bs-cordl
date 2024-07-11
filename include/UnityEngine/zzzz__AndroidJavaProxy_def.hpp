@@ -50,19 +50,19 @@ public:
   /// @brief Field s_JavaLangSystemClass, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_JavaLangSystemClass, put = setStaticF_s_JavaLangSystemClass))::UnityEngine::GlobalJavaObjectRef* s_JavaLangSystemClass;
 
-  /// @brief Method Finalize, addr 0x33e145c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x33f12e0, size 0x98, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetProxyObject, addr 0x33e34f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetProxyObject, addr 0x33f337c, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::AndroidJavaObject* GetProxyObject();
 
-  /// @brief Method GetRawProxy, addr 0x33e2574, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetRawProxy, addr 0x33f23f8, size 0x144, virtual false, abstract: false, final false
   inline ::System::IntPtr GetRawProxy();
 
-  /// @brief Method Invoke, addr 0x33e14f4, size 0x728, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x33f1378, size 0x728, virtual true, abstract: false, final false
   inline ::UnityEngine::AndroidJavaObject* Invoke(::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Invoke, addr 0x33e27c4, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x33f2648, size 0x164, virtual true, abstract: false, final false
   inline ::UnityEngine::AndroidJavaObject* Invoke(::StringW methodName, ::ArrayW<::UnityEngine::AndroidJavaObject*, ::Array<::UnityEngine::AndroidJavaObject*>*> javaArgs);
 
   static inline ::UnityEngine::AndroidJavaProxy* New_ctor(::StringW javaInterface);
@@ -81,27 +81,27 @@ public:
 
   constexpr void __cordl_internal_set_proxyObject(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x33e1324, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f11a8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW javaInterface);
 
-  /// @brief Method .ctor, addr 0x33e13f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f1274, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AndroidJavaClass* javaInterface);
 
-  /// @brief Method equals, addr 0x33e328c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method equals, addr 0x33f3110, size 0xb8, virtual true, abstract: false, final false
   inline bool equals(::UnityEngine::AndroidJavaObject* obj);
 
   static inline ::System::IntPtr getStaticF_s_HashCodeMethodID();
 
   static inline ::UnityEngine::GlobalJavaObjectRef* getStaticF_s_JavaLangSystemClass();
 
-  /// @brief Method hashCode, addr 0x33e33e4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method hashCode, addr 0x33f3268, size 0xb0, virtual true, abstract: false, final false
   inline int32_t hashCode();
 
   static inline void setStaticF_s_HashCodeMethodID(::System::IntPtr value);
 
   static inline void setStaticF_s_JavaLangSystemClass(::UnityEngine::GlobalJavaObjectRef* value);
 
-  /// @brief Method toString, addr 0x33e3494, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method toString, addr 0x33f3318, size 0x64, virtual true, abstract: false, final false
   inline ::StringW toString();
 
 protected:

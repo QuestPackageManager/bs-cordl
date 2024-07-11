@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_ReplySink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x283e73c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2851150, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessage* msgRequest, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
 protected:

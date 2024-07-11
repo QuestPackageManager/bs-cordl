@@ -31,10 +31,10 @@ public:
   /// @brief Field textureUnloaded, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_textureUnloaded, put = setStaticF_textureUnloaded))::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* textureUnloaded;
 
-  /// @brief Method InvokeOnTextureLoaded_Internal, addr 0x3419a84, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnTextureLoaded_Internal, addr 0x3428908, size 0x6c, virtual false, abstract: false, final false
   static inline void InvokeOnTextureLoaded_Internal(::UnityEngine::CustomRenderTexture* source);
 
-  /// @brief Method InvokeOnTextureUnloaded_Internal, addr 0x3419af0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnTextureUnloaded_Internal, addr 0x3428974, size 0x6c, virtual false, abstract: false, final false
   static inline void InvokeOnTextureUnloaded_Internal(::UnityEngine::CustomRenderTexture* source);
 
   static inline ::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* getStaticF_textureLoaded();

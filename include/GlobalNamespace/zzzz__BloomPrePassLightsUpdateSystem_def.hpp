@@ -19,13 +19,20 @@ namespace GlobalNamespace {
 class CORDL_TYPE BloomPrePassLightsUpdateSystem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method LateUpdate, addr 0x250372c, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Field disableUpdateAlways, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_disableUpdateAlways, put = setStaticF_disableUpdateAlways)) bool disableUpdateAlways;
+
+  /// @brief Method LateUpdate, addr 0x2517a00, size 0x2d4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BloomPrePassLightsUpdateSystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2503a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2517cd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
+
+  static inline bool getStaticF_disableUpdateAlways();
+
+  static inline void setStaticF_disableUpdateAlways(bool value);
 
 protected:
   // Ctor Parameters []

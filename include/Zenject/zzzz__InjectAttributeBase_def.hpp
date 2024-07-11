@@ -61,25 +61,25 @@ public:
 
   constexpr void __cordl_internal_set__Source_k__BackingField(::Zenject::InjectSources value);
 
-  /// @brief Method .ctor, addr 0x363994c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36507d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Id, addr 0x363992c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x36507b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Id();
 
-  /// @brief Method get_Optional, addr 0x3639918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Optional, addr 0x365079c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Optional();
 
-  /// @brief Method get_Source, addr 0x363993c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Source, addr 0x36507c0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::InjectSources get_Source();
 
-  /// @brief Method set_Id, addr 0x3639934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x36507b8, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::System::Object* value);
 
-  /// @brief Method set_Optional, addr 0x3639920, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Optional, addr 0x36507a4, size 0xc, virtual false, abstract: false, final false
   inline void set_Optional(bool value);
 
-  /// @brief Method set_Source, addr 0x3639944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Source, addr 0x36507c8, size 0x8, virtual false, abstract: false, final false
   inline void set_Source(::Zenject::InjectSources value);
 
 protected:

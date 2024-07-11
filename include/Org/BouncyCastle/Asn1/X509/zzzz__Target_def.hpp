@@ -111,14 +111,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x1401b4c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x1409e44, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Target* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Target* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Target* New_ctor(::Org::BouncyCastle::Asn1::X509::__Target__Choice type, ::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method ToAsn1Object, addr 0x1401e74, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x140a16c, size 0x94, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_targetGroup();
@@ -133,16 +133,16 @@ public:
 
   constexpr void __cordl_internal_set_targetName(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  /// @brief Method .ctor, addr 0x1401cd4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1409fcc, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj);
 
-  /// @brief Method .ctor, addr 0x1401de8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x140a0e0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::__Target__Choice type, ::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method get_TargetGroup, addr 0x1401e64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TargetGroup, addr 0x140a15c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_TargetGroup();
 
-  /// @brief Method get_TargetName, addr 0x1401e6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TargetName, addr 0x140a164, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_TargetName();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

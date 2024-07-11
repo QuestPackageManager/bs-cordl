@@ -69,7 +69,7 @@ public:
 
   static inline ::TMPro::__KerningTable____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <AddKerningPair>b__0, addr 0x336f514, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <AddKerningPair>b__0, addr 0x337d398, size 0x3c, virtual false, abstract: false, final false
   inline bool _AddKerningPair_b__0(::TMPro::KerningPair* item);
 
   constexpr uint32_t const& __cordl_internal_get_first() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_second(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x336efa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337ce24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,7 +133,7 @@ public:
 
   static inline ::TMPro::__KerningTable____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <AddGlyphPairAdjustmentRecord>b__0, addr 0x336f550, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <AddGlyphPairAdjustmentRecord>b__0, addr 0x337d3d4, size 0x3c, virtual false, abstract: false, final false
   inline bool _AddGlyphPairAdjustmentRecord_b__0(::TMPro::KerningPair* item);
 
   constexpr uint32_t const& __cordl_internal_get_first() const;
@@ -148,7 +148,7 @@ public:
 
   constexpr void __cordl_internal_set_second(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x336f1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337d024, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -197,7 +197,7 @@ public:
 
   static inline ::TMPro::__KerningTable____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <RemoveKerningPair>b__0, addr 0x336f58c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <RemoveKerningPair>b__0, addr 0x337d410, size 0x3c, virtual false, abstract: false, final false
   inline bool _RemoveKerningPair_b__0(::TMPro::KerningPair* item);
 
   constexpr int32_t const& __cordl_internal_get_left() const;
@@ -212,7 +212,7 @@ public:
 
   constexpr void __cordl_internal_set_right(int32_t value);
 
-  /// @brief Method .ctor, addr 0x336f2c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337d14c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -264,13 +264,13 @@ public:
 
   static inline ::TMPro::__KerningTable____c* New_ctor();
 
-  /// @brief Method <SortKerningPairs>b__7_0, addr 0x336f634, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortKerningPairs>b__7_0, addr 0x337d4b8, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _SortKerningPairs_b__7_0(::TMPro::KerningPair* s);
 
-  /// @brief Method <SortKerningPairs>b__7_1, addr 0x336f64c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortKerningPairs>b__7_1, addr 0x337d4d0, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _SortKerningPairs_b__7_1(::TMPro::KerningPair* s);
 
-  /// @brief Method .ctor, addr 0x336f62c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337d4b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::TMPro::__KerningTable____c* getStaticF___9();
@@ -324,24 +324,24 @@ public:
   /// @brief Field kerningPairs, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_kerningPairs, put = __cordl_internal_set_kerningPairs))::System::Collections::Generic::List_1<::TMPro::KerningPair*>* kerningPairs;
 
-  /// @brief Method AddGlyphPairAdjustmentRecord, addr 0x336efa8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method AddGlyphPairAdjustmentRecord, addr 0x337ce2c, size 0x1f8, virtual false, abstract: false, final false
   inline int32_t AddGlyphPairAdjustmentRecord(uint32_t first, ::TMPro::GlyphValueRecord_Legacy firstAdjustments, uint32_t second, ::TMPro::GlyphValueRecord_Legacy secondAdjustments);
 
-  /// @brief Method AddKerningPair, addr 0x336ede8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method AddKerningPair, addr 0x337cc6c, size 0x1b8, virtual false, abstract: false, final false
   inline int32_t AddKerningPair(uint32_t first, uint32_t second, float_t offset);
 
-  /// @brief Method AddKerningPair, addr 0x336ec14, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method AddKerningPair, addr 0x337ca98, size 0x1d4, virtual false, abstract: false, final false
   inline void AddKerningPair();
 
   static inline ::TMPro::KerningTable* New_ctor();
 
-  /// @brief Method RemoveKerningPair, addr 0x336f2d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveKerningPair, addr 0x337d154, size 0x58, virtual false, abstract: false, final false
   inline void RemoveKerningPair(int32_t index);
 
-  /// @brief Method RemoveKerningPair, addr 0x336f1a8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method RemoveKerningPair, addr 0x337d02c, size 0x120, virtual false, abstract: false, final false
   inline void RemoveKerningPair(int32_t left, int32_t right);
 
-  /// @brief Method SortKerningPairs, addr 0x336f328, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SortKerningPairs, addr 0x337d1ac, size 0x1ec, virtual false, abstract: false, final false
   inline void SortKerningPairs();
 
   constexpr ::System::Collections::Generic::List_1<::TMPro::KerningPair*>*& __cordl_internal_get_kerningPairs();
@@ -350,7 +350,7 @@ public:
 
   constexpr void __cordl_internal_set_kerningPairs(::System::Collections::Generic::List_1<::TMPro::KerningPair*>* value);
 
-  /// @brief Method .ctor, addr 0x336e48c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337c310, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

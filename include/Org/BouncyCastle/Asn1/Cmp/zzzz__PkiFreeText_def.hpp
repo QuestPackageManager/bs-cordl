@@ -44,20 +44,20 @@ public:
   /// @brief Field strings, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_strings, put = __cordl_internal_set_strings))::Org::BouncyCastle::Asn1::Asn1Sequence* strings;
 
-  /// @brief Method GetInstance, addr 0x10d0488, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10dc780, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x10cc0d0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10d83c8, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetStringAt, addr 0x10d092c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetStringAt, addr 0x10dcc24, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerUtf8String* GetStringAt(int32_t index);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* New_ctor(::Org::BouncyCastle::Asn1::DerUtf8String* p);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10d0930, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10dcc28, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_strings();
@@ -66,19 +66,19 @@ public:
 
   constexpr void __cordl_internal_set_strings(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x10d07d4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10dcacc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerUtf8String* p);
 
-  /// @brief Method .ctor, addr 0x10d04a0, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10dc798, size 0x334, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Count, addr 0x10d0874, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x10dcb6c, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x10d0898, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x10dcb90, size 0x94, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerUtf8String* get_Item(int32_t index);
 
-  /// @brief Method get_Size, addr 0x10d0850, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x10dcb48, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Size();
 
 protected:

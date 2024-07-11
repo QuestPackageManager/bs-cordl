@@ -25,25 +25,25 @@ namespace System {
 class CORDL_TYPE IPv4AddressHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x2c91cb4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2ca56c8, size 0x30, virtual false, abstract: false, final false
   static inline bool IsValid(::cordl_internals::Ptr<char16_t> name, int32_t start, ByRef<int32_t> end, bool allowIPv6, bool notImplicitFile, bool unknownScheme);
 
-  /// @brief Method IsValidCanonical, addr 0x2c91ce4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method IsValidCanonical, addr 0x2ca56f8, size 0x140, virtual false, abstract: false, final false
   static inline bool IsValidCanonical(::cordl_internals::Ptr<char16_t> name, int32_t start, ByRef<int32_t> end, bool allowIPv6, bool notImplicitFile);
 
-  /// @brief Method Parse, addr 0x2c92340, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2ca5d54, size 0x106c, virtual false, abstract: false, final false
   static inline bool Parse(::StringW name, ::cordl_internals::Ptr<uint8_t> numbers, int32_t start, int32_t end);
 
-  /// @brief Method ParseCanonical, addr 0x2c91c28, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ParseCanonical, addr 0x2ca563c, size 0x8c, virtual false, abstract: false, final false
   static inline bool ParseCanonical(::System::ReadOnlySpan_1<char16_t> name, ::cordl_internals::Ptr<uint8_t> numbers, int32_t start, int32_t end);
 
-  /// @brief Method ParseCanonicalName, addr 0x2c92118, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method ParseCanonicalName, addr 0x2ca5b2c, size 0x228, virtual false, abstract: false, final false
   static inline ::StringW ParseCanonicalName(::StringW str, int32_t start, int32_t end, ByRef<bool> isLoopback);
 
-  /// @brief Method ParseHostNumber, addr 0x2c91bf8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ParseHostNumber, addr 0x2ca560c, size 0x30, virtual false, abstract: false, final false
   static inline int32_t ParseHostNumber(::System::ReadOnlySpan_1<char16_t> str, int32_t start, int32_t end);
 
-  /// @brief Method ParseNonCanonical, addr 0x2c91e24, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method ParseNonCanonical, addr 0x2ca5838, size 0x2f4, virtual false, abstract: false, final false
   static inline int64_t ParseNonCanonical(::cordl_internals::Ptr<char16_t> name, int32_t start, ByRef<int32_t> end, bool notImplicitFile);
 
 protected:

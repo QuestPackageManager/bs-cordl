@@ -131,34 +131,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>*();
 
-  /// @brief Method Equals, addr 0x3568714, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3580598, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x35686ec, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3580570, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleSheets::Dimension other);
 
-  /// @brief Method GetHashCode, addr 0x35687a0, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3580624, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToAngle, addr 0x3567934, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ToAngle, addr 0x357f7b8, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Angle ToAngle();
 
-  /// @brief Method ToLength, addr 0x3564c60, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x357cae4, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length ToLength();
 
-  /// @brief Method ToString, addr 0x356408c, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x357bf10, size 0x130, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToTime, addr 0x3564c90, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToTime, addr 0x357cb14, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TimeValue ToTime();
 
-  /// @brief Method .ctor, addr 0x35686b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x358053c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit unit);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>* i___System__IEquatable_1___UnityEngine__UIElements__StyleSheets__Dimension_();
 
-  /// @brief Method op_Equality, addr 0x35686c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3580548, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleSheets::Dimension lhs, ::UnityEngine::UIElements::StyleSheets::Dimension rhs);
 
   // Ctor Parameters []

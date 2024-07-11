@@ -29,10 +29,10 @@ public:
   /// @brief Field bpm, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_bpm, put = __cordl_internal_set_bpm)) float_t bpm;
 
-  /// @brief Method GetCopy, addr 0x103dc28, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x10456bc, size 0x8c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x103dcb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x1045748, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::BPMChangeBeatmapEventData* New_ctor(float_t time, float_t bpm);
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_bpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x103dbe4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1045678, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t bpm);
 
 protected:

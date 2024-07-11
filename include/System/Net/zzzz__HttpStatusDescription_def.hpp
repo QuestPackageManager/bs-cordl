@@ -24,10 +24,10 @@ namespace System::Net {
 class CORDL_TYPE HttpStatusDescription : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x2fdae90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2fe98a4, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW Get(::System::Net::HttpStatusCode code);
 
-  /// @brief Method Get, addr 0x2fdae94, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2fe98a8, size 0x698, virtual false, abstract: false, final false
   static inline ::StringW Get(int32_t code);
 
 protected:

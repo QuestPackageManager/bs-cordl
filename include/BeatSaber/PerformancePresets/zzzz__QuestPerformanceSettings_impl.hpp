@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::PerformancePresets::ProcessorPerformanceLevel (
     ::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(&::BeatSaber::PerformancePresets::QuestPerformanceSettings::get_gpuLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d63c;
+  constexpr static std::size_t addrs = 0x10742d8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::PerformancePresets::ProcessorPerformanceLevel (
     ::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(&::BeatSaber::PerformancePresets::QuestPerformanceSettings::get_cpuLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d644;
+  constexpr static std::size_t addrs = 0x10742e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::PerformancePresets::FoveatedRenderingLevel (
     ::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(&::BeatSaber::PerformancePresets::QuestPerformanceSettings::get_foveatedRenderingLevelMenu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d64c;
+  constexpr static std::size_t addrs = 0x10742e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::PerformancePresets::FoveatedRenderingLevel (
     ::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(&::BeatSaber::PerformancePresets::QuestPerformanceSettings::get_foveatedRenderingLevelGameplay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d654;
+  constexpr static std::size_t addrs = 0x10742f0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(
     &::BeatSaber::PerformancePresets::QuestPerformanceSettings::get_eyeTrackedFoveatedRenderingEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d65c;
+  constexpr static std::size_t addrs = 0x10742f8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(
     &::BeatSaber::PerformancePresets::QuestPerformanceSettings::get_dynamicFoveatedRenderingEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d664;
+  constexpr static std::size_t addrs = 0x1074300;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(
     &::BeatSaber::PerformancePresets::QuestPerformanceSettings::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x106d66c;
+  constexpr static std::size_t addrs = 0x1074308;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

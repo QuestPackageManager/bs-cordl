@@ -54,7 +54,7 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO* New_ctor();
 
-  /// @brief Method Render, addr 0x2bf9d14, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x2c0d728, size 0x38, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   constexpr float_t const& __cordl_internal_get__bloom1Boost() const;
@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set__kawaseBlurRenderer(::UnityW<::GlobalNamespace::KawaseBlurRendererSO> value);
 
-  /// @brief Method .ctor, addr 0x2bf9d4c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0d760, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

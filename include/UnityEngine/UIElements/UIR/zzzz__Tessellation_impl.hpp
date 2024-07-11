@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, float_t, ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData, bool)>(
         &::UnityEngine::UIElements::UIR::Tessellation::TessellateRect)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x3611e48;
+  constexpr static std::size_t addrs = 0x3627ccc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, float_t, ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData)>(
         &::UnityEngine::UIElements::UIR::Tessellation::TessellateQuad)> {
   constexpr static std::size_t size = 0x78c;
-  constexpr static std::size_t addrs = 0x36116bc;
+  constexpr static std::size_t addrs = 0x3627540;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, float_t, ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData)>(
         &::UnityEngine::UIElements::UIR::Tessellation::TessellateBorder)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x36112ec;
+  constexpr static std::size_t addrs = 0x3627170;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(ByRef<::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams>, float_t, ::UnityEngine::UIElements::MeshWriteData*, ::UnityEngine::UIElements::ColorPage,
                          ByRef<uint16_t>, ByRef<uint16_t>, bool)>(&::UnityEngine::UIElements::UIR::Tessellation::TessellateRoundedCorners)> {
   constexpr static std::size_t size = 0xe64;
-  constexpr static std::size_t addrs = 0x3619afc;
+  constexpr static std::size_t addrs = 0x362f980;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(ByRef<::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams>, float_t, ::UnityEngine::UIElements::MeshWriteData*, ByRef<uint16_t>, ByRef<uint16_t>, bool)>(
         &::UnityEngine::UIElements::UIR::Tessellation::TessellateRoundedBorders)> {
   constexpr static std::size_t size = 0xec8;
-  constexpr static std::size_t addrs = 0x361aca8;
+  constexpr static std::size_t addrs = 0x3630b2c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rect, ::UnityEngine::Color32, float_t, ::UnityEngine::Vector2, ::UnityEngine::UIElements::MeshWriteData*, ::UnityEngine::UIElements::ColorPage, ByRef<uint16_t>,
                          ByRef<uint16_t>, bool)>(&::UnityEngine::UIElements::UIR::Tessellation::TessellateRoundedCorner)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x361bb70;
+  constexpr static std::size_t addrs = 0x36319f4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rect, ::UnityEngine::Color32, ::UnityEngine::Color32, float_t, ::UnityEngine::Vector2, float_t, float_t, ::UnityEngine::UIElements::MeshWriteData*,
     ::UnityEngine::UIElements::ColorPage, ::UnityEngine::UIElements::ColorPage, ByRef<uint16_t>, ByRef<uint16_t>, bool)>(&::UnityEngine::UIElements::UIR::Tessellation::TessellateRoundedBorder)> {
   constexpr static std::size_t size = 0x784;
-  constexpr static std::size_t addrs = 0x361c1c0;
+  constexpr static std::size_t addrs = 0x3632044;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2,
                                                                                                              ::UnityEngine::Vector2)>(&::UnityEngine::UIElements::UIR::Tessellation::IntersectLines)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x361facc;
+  constexpr static std::size_t addrs = 0x3635950;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(float_t, float_t)>(&::UnityEngine::UIElements::UIR::Tessellation::LooseCompare)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x361efc0;
+  constexpr static std::size_t addrs = 0x3634e44;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -206,7 +206,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::UnityEngine::UIElements::ColorPage, ::UnityEngine::UIElements::ColorPage, ByRef<uint16_t>, ByRef<uint16_t>, bool)>(
         &::UnityEngine::UIElements::UIR::Tessellation::TessellateComplexBorderCorner)> {
   constexpr static std::size_t size = 0x6ec;
-  constexpr static std::size_t addrs = 0x361f3e0;
+  constexpr static std::size_t addrs = 0x3635264;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,7 +229,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::UnityEngine::UIElements::ColorPage, ByRef<uint16_t>, ByRef<uint16_t>, bool)>(
     &::UnityEngine::UIElements::UIR::Tessellation::TessellateQuad)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x36203c0;
+  constexpr static std::size_t addrs = 0x3636244;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -249,7 +249,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rect, ::UnityEngine::UIElements::UIR::__Tessellation__Edges, ::UnityEngine::Color32, float_t, ::UnityEngine::UIElements::MeshWriteData*,
                          ::UnityEngine::UIElements::ColorPage, ByRef<uint16_t>, ByRef<uint16_t>, bool)>(&::UnityEngine::UIElements::UIR::Tessellation::TessellateQuad)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x361abbc;
+  constexpr static std::size_t addrs = 0x3630a40;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::UIElements::UIR::__Tessellation__Edges)>(
     &::UnityEngine::UIElements::UIR::Tessellation::EdgesCount)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x36206fc;
+  constexpr static std::size_t addrs = 0x3636580;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -286,7 +286,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rect, ::UnityEngine::UIElements::UIR::__Tessellation__Edges, ::cordl_internals::Ptr<::UnityEngine::Vector2>, ::UnityEngine::Color32, float_t,
     ::UnityEngine::UIElements::MeshWriteData*, ::UnityEngine::UIElements::ColorPage, ByRef<uint16_t>, ByRef<uint16_t>, bool)>(&::UnityEngine::UIElements::UIR::Tessellation::TessellateQuad)> {
   constexpr static std::size_t size = 0x7f0;
-  constexpr static std::size_t addrs = 0x361fbd0;
+  constexpr static std::size_t addrs = 0x3635a54;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -309,7 +309,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(ByRef<::UnityEngine::UIElements::Vertex>, ByRef<::UnityEngine::UIElements::Vertex>, ByRef<::UnityEngine::UIElements::Vertex>, float_t)>(
         &::UnityEngine::UIElements::UIR::Tessellation::EncodeStraightArc)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3620c44;
+  constexpr static std::size_t addrs = 0x3636ac8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>, ::UnityEngine::Vector3, float_t)>(
     &::UnityEngine::UIElements::UIR::Tessellation::ExpandTriangle)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x3620dcc;
+  constexpr static std::size_t addrs = 0x3636c50;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -345,7 +345,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rect, ::UnityEngine::UIElements::UIR::__Tessellation__Edges, ::UnityEngine::Color32, float_t, ::UnityEngine::UIElements::MeshWriteData*,
                          ::UnityEngine::UIElements::ColorPage, ByRef<uint16_t>, ByRef<uint16_t>, bool)>(&::UnityEngine::UIElements::UIR::Tessellation::TessellateQuadSingleEdge)> {
   constexpr static std::size_t size = 0x524;
-  constexpr static std::size_t addrs = 0x3620720;
+  constexpr static std::size_t addrs = 0x36365a4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -367,7 +367,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rect, ::UnityEngine::UIElements::UIR::__Tessellation__Edges, float_t, ::UnityEngine::Color, float_t, ::UnityEngine::UIElements::MeshWriteData*,
                          ::UnityEngine::UIElements::ColorPage, ByRef<uint16_t>, ByRef<uint16_t>, bool)>(&::UnityEngine::UIElements::UIR::Tessellation::TessellateStraightBorder)> {
   constexpr static std::size_t size = 0x1ef4;
-  constexpr static std::size_t addrs = 0x361d0cc;
+  constexpr static std::size_t addrs = 0x3632f50;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -389,7 +389,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Vector2, ByRef<::UnityEngine::UIElements::Vertex>, ByRef<::UnityEngine::UIElements::Vertex>, ByRef<::UnityEngine::UIElements::Vertex>)>(
         &::UnityEngine::UIElements::UIR::Tessellation::GetInterpolatedCircle)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3620fb8;
+  constexpr static std::size_t addrs = 0x3636e3c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -408,7 +408,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ByRef<float_t>, ByRef<float_t>, ByRef<float_t>)>(
         &::UnityEngine::UIElements::UIR::Tessellation::ComputeBarycentricCoordinates)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x36210d0;
+  constexpr static std::size_t addrs = 0x3636f54;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -428,7 +428,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, float_t, ::UnityEngine::Color32, ::UnityEngine::Color32, float_t, ::UnityEngine::UIElements::MeshWriteData*,
     ::UnityEngine::UIElements::ColorPage, ::UnityEngine::UIElements::ColorPage, ByRef<uint16_t>, ByRef<uint16_t>, bool)>(&::UnityEngine::UIElements::UIR::Tessellation::TessellateFilledFan)> {
   constexpr static std::size_t size = 0x788;
-  constexpr static std::size_t addrs = 0x361c944;
+  constexpr static std::size_t addrs = 0x36327c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -452,7 +452,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, float_t, ::UnityEngine::Color32, ::UnityEngine::Color32, float_t, ::UnityEngine::UIElements::MeshWriteData*,
     ::UnityEngine::UIElements::ColorPage, ::UnityEngine::UIElements::ColorPage, ByRef<uint16_t>, ByRef<uint16_t>, bool)>(&::UnityEngine::UIElements::UIR::Tessellation::TessellateBorderedFan)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x361f060;
+  constexpr static std::size_t addrs = 0x3634ee4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rect, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, int32_t,
                                                                                            int32_t, bool)>(&::UnityEngine::UIElements::UIR::Tessellation::MirrorVertices)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x361beb4;
+  constexpr static std::size_t addrs = 0x3631d38;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Unity::Collections::NativeSlice_1<uint16_t>, int32_t, int32_t)>(
     &::UnityEngine::UIElements::UIR::Tessellation::FlipWinding)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x361c0d8;
+  constexpr static std::size_t addrs = 0x3631f5c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -509,7 +509,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::Rect, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>)>(
         &::UnityEngine::UIElements::UIR::Tessellation::ComputeUVs)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x361a960;
+  constexpr static std::size_t addrs = 0x36307e4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

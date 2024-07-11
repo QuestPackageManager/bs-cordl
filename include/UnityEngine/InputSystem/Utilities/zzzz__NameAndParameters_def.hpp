@@ -55,10 +55,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::__NameAndParameters____c* New_ctor();
 
-  /// @brief Method <ToString>b__8_0, addr 0x31a8c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__8_0, addr 0x31b9af8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__8_0(::UnityEngine::InputSystem::Utilities::NamedValue x);
 
-  /// @brief Method .ctor, addr 0x31a8c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b9af0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Utilities::__NameAndParameters____c* getStaticF___9();
@@ -103,34 +103,34 @@ public:
 
   __declspec(property(get = get_parameters, put = set_parameters))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> parameters;
 
-  /// @brief Method Parse, addr 0x31a89dc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x31b9860, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters Parse(::StringW text);
 
-  /// @brief Method ParseMultiple, addr 0x31a8358, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ParseMultiple, addr 0x31b91dc, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>* ParseMultiple(::StringW text);
 
-  /// @brief Method ParseMultiple, addr 0x31a83f4, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method ParseMultiple, addr 0x31b9278, size 0x1dc, virtual false, abstract: false, final false
   static inline bool ParseMultiple(::StringW text, ByRef<::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>*> list);
 
-  /// @brief Method ParseName, addr 0x31a895c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ParseName, addr 0x31b97e0, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ParseName(::StringW text);
 
-  /// @brief Method ParseNameAndParameters, addr 0x31a85d0, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method ParseNameAndParameters, addr 0x31b9454, size 0x38c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters ParseNameAndParameters(::StringW text, ByRef<int32_t> index, bool nameOnly);
 
-  /// @brief Method ToString, addr 0x31a8170, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x31b8ff4, size 0x1e8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_name, addr 0x31a814c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x31b8fd0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_parameters, addr 0x31a815c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_parameters, addr 0x31b8fe0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> get_parameters();
 
-  /// @brief Method set_name, addr 0x31a8154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x31b8fd8, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_parameters, addr 0x31a8168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parameters, addr 0x31b8fec, size 0x8, virtual false, abstract: false, final false
   inline void set_parameters(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> value);
 
   // Ctor Parameters []

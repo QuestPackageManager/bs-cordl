@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__ThrowsException_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3498408, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34ab28c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_ThrowsException, addr 0x34983fc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_ThrowsException, addr 0x34ab280, size 0xc, virtual true, abstract: false, final true
   inline void set_ThrowsException(bool value);
 
 protected:

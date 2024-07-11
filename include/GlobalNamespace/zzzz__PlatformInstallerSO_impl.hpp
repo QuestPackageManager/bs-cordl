@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformInstallerSO::*)()>(&::GlobalNamespace::PlatformInstallerSO::InstallBindings)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x261ac0c;
+  constexpr static std::size_t addrs = 0x262eeec;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformInstallerSO::*)()>(&::GlobalNamespace::PlatformInstallerSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x261ac9c;
+  constexpr static std::size_t addrs = 0x262ef7c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformInstallerSO*>::get(), ".ctor",

@@ -42,14 +42,14 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction* New_ctor(uint32_t index);
 
-  /// @brief Method Run, addr 0x2c6837c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c7bd90, size 0x98, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToDebugString, addr 0x2c68414, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x2c7be28, size 0x144, virtual true, abstract: false, final false
   inline ::StringW ToDebugString(int32_t instructionIndex, ::System::Object* cookie, ::System::Func_2<int32_t, int32_t>* labelIndexer,
                                  ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* objects);
 
-  /// @brief Method ToString, addr 0x2c68558, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c7bf6c, size 0x7c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr uint32_t const& __cordl_internal_get__index() const;
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__index(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x2c6830c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c7bd20, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index);
 
-  /// @brief Method get_InstructionName, addr 0x2c6833c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c7bd50, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2c68334, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2c7bd48, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:

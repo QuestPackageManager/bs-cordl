@@ -27,12 +27,12 @@ public:
   /// @brief Field _numberFormatInfo, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__numberFormatInfo, put = setStaticF__numberFormatInfo))::System::Globalization::NumberFormatInfo* _numberFormatInfo;
 
-  /// @brief Method Format, addr 0x14f5b2c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x1501c7c, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW Format(int32_t score);
 
   static inline ::GlobalNamespace::ScoreFormatter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x14f5bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1501cfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Globalization::NumberFormatInfo* getStaticF__numberFormatInfo();

@@ -35,21 +35,21 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x2c5c458, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c6fe6c, size 0x44, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c5c49c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6feb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* getStaticF_Instruction();
 
-  /// @brief Method get_ConsumedStack, addr 0x2c5c408, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2c6fe1c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2c5c418, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c6fe2c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2c5c410, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2c6fe24, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_Instruction(::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* value);

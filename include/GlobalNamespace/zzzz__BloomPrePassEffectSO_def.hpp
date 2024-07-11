@@ -87,25 +87,25 @@ public:
 
   constexpr void __cordl_internal_set__textureWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25031c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2517498, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fov, addr 0x25031ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_fov, addr 0x2517480, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_fov();
 
-  /// @brief Method get_linesWidth, addr 0x25031b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_linesWidth, addr 0x2517488, size 0x8, virtual true, abstract: false, final true
   inline float_t get_linesWidth();
 
-  /// @brief Method get_textureEffect, addr 0x2503198, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_textureEffect, addr 0x251746c, size 0x4, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::TextureEffectSO> get_textureEffect();
 
-  /// @brief Method get_textureHeight, addr 0x25031a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_textureHeight, addr 0x2517478, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_textureHeight();
 
-  /// @brief Method get_textureWidth, addr 0x250319c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_textureWidth, addr 0x2517470, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_textureWidth();
 
-  /// @brief Method get_toneMapping, addr 0x25031bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_toneMapping, addr 0x2517490, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ToneMapping get_toneMapping();
 
   /// @brief Convert to "::GlobalNamespace::IBloomPrePassParams"

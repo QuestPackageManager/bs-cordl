@@ -39,7 +39,7 @@ public:
 
   static inline ::GlobalNamespace::__ConnectionErrorDialogViewController____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <Init>b__0, addr 0x264f41c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Init>b__0, addr 0x2663260, size 0x1c, virtual false, abstract: false, final false
   inline void _Init_b__0(int32_t btnIdx);
 
   constexpr ::System::Action*& __cordl_internal_get_buttonAction();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_buttonAction(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x264f40c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2663250, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,12 +86,12 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::__ConnectionErrorDialogViewController____c__DisplayClass0_0;
 
-  /// @brief Method Init, addr 0x264f274, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26630b8, size 0x198, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::DisconnectedReason reason, ::System::Action* buttonAction);
 
   static inline ::GlobalNamespace::ConnectionErrorDialogViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x264f414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2663258, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

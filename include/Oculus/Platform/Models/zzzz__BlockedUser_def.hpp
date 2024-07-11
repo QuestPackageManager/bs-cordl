@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_Id(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2afb51c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0ef30, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:

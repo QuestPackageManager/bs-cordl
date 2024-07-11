@@ -35,7 +35,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __PackedPlayModeBuildLogs__RuntimeBuildLog {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x30619c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30713d8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::LogType type, ::StringW message);
 
   // Ctor Parameters []
@@ -89,13 +89,13 @@ public:
 
   constexpr void __cordl_internal_set_m_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* value);
 
-  /// @brief Method .ctor, addr 0x3061948, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x307135c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RuntimeBuildLogs, addr 0x3061938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RuntimeBuildLogs, addr 0x307134c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* get_RuntimeBuildLogs();
 
-  /// @brief Method set_RuntimeBuildLogs, addr 0x3061940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RuntimeBuildLogs, addr 0x3071354, size 0x8, virtual false, abstract: false, final false
   inline void set_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* value);
 
 protected:

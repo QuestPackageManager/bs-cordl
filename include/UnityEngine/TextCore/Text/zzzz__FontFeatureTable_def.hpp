@@ -50,13 +50,13 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::__FontFeatureTable____c* New_ctor();
 
-  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_0, addr 0x34c20cc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_0, addr 0x34d5f50, size 0x48, virtual false, abstract: false, final false
   inline uint32_t _SortGlyphPairAdjustmentRecords_b__6_0(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s);
 
-  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_1, addr 0x34c2114, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_1, addr 0x34d5f98, size 0x48, virtual false, abstract: false, final false
   inline uint32_t _SortGlyphPairAdjustmentRecords_b__6_1(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s);
 
-  /// @brief Method .ctor, addr 0x34c20c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34d5f48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::TextCore::Text::__FontFeatureTable____c* getStaticF___9();
@@ -114,7 +114,7 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::FontFeatureTable* New_ctor();
 
-  /// @brief Method SortGlyphPairAdjustmentRecords, addr 0x34b870c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SortGlyphPairAdjustmentRecords, addr 0x34cc590, size 0x1ec, virtual false, abstract: false, final false
   inline void SortGlyphPairAdjustmentRecords();
 
   constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*& __cordl_internal_get_m_GlyphPairAdjustmentRecordLookup();
@@ -131,10 +131,10 @@ public:
 
   constexpr void __cordl_internal_set_m_GlyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* value);
 
-  /// @brief Method .ctor, addr 0x34bd30c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34d1190, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_glyphPairAdjustmentRecords, addr 0x34bdc64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphPairAdjustmentRecords, addr 0x34d1ae8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* get_glyphPairAdjustmentRecords();
 
 protected:

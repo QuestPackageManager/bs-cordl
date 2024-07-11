@@ -28,7 +28,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::DestinationList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x2afc3a4, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0fdb8, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:

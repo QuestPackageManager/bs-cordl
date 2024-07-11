@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_strength(float_t value);
 
-  /// @brief Method .ctor, addr 0x24f8cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250df80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -161,21 +161,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IHapticFeedbackPlayer"
   constexpr operator ::GlobalNamespace::IHapticFeedbackPlayer*() noexcept;
 
-  /// @brief Method CanPlayHapticPreset, addr 0x24f87e4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method CanPlayHapticPreset, addr 0x250dab8, size 0x40, virtual true, abstract: false, final true
   inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset, ::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetRumble, addr 0x24f8660, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetRumble, addr 0x250d934, size 0x184, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData* GetRumble(::UnityEngine::XR::XRNode node, ::System::Object* preset);
 
-  /// @brief Method LateUpdate, addr 0x24f8824, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x250daf8, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::RumbleHapticFeedbackPlayer* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x24f1d7c, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method PlayHapticFeedback, addr 0x2506af0, size 0xc8, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method UpdateRumbles, addr 0x24f8828, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method UpdateRumbles, addr 0x250dafc, size 0x484, virtual false, abstract: false, final false
   inline void UpdateRumbles();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode,
@@ -196,7 +196,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x24f8cb4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250df88, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"

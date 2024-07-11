@@ -33,21 +33,21 @@ public:
   /// @brief Convert operator to "::System::Xml::IXmlLineInfo"
   constexpr operator ::System::Xml::IXmlLineInfo*() noexcept;
 
-  /// @brief Method GetPositionInfo, addr 0x2ec5ef8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetPositionInfo, addr 0x2ed590c, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Xml::PositionInfo* GetPositionInfo(::System::Object* o);
 
-  /// @brief Method HasLineInfo, addr 0x2ec5ee0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method HasLineInfo, addr 0x2ed58f4, size 0x8, virtual true, abstract: false, final false
   inline bool HasLineInfo();
 
   static inline ::System::Xml::PositionInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ec5fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed59f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LineNumber, addr 0x2ec5ee8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x2ed58fc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x2ec5ef0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x2ed5904, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_LinePosition();
 
   /// @brief Convert to "::System::Xml::IXmlLineInfo"

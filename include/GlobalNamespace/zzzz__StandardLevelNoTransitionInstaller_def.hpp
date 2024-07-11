@@ -38,7 +38,7 @@ public:
 
   __declspec(property(get = get_standardLevelNoTransitionInstallerData))::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> standardLevelNoTransitionInstallerData;
 
-  /// @brief Method InstallBindings, addr 0x26b9d70, size 0x30c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26d0048, size 0x310, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::StandardLevelNoTransitionInstaller* New_ctor();
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelNoTransitionInstallerData(::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> value);
 
-  /// @brief Method .ctor, addr 0x26ba394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d0684, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_standardLevelNoTransitionInstallerData, addr 0x26b9d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_standardLevelNoTransitionInstallerData, addr 0x26d0040, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> get_standardLevelNoTransitionInstallerData();
 
 protected:

@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAssetFileDeleteResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDeleteResult*> {
 public:
   // Declarations
-  /// @brief Method GetAssetFileDeleteResult, addr 0x2ae7860, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAssetFileDeleteResult, addr 0x2afb274, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetFileDeleteResult* GetAssetFileDeleteResult();
 
-  /// @brief Method GetDataFromMessage, addr 0x2ae789c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2afb2b0, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetFileDeleteResult* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithAssetFileDeleteResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ae5450, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af8e64, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

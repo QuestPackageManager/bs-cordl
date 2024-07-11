@@ -22,12 +22,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE RecordingToolScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x26b9d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26d0030, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::RecordingToolSceneSetupData* recordingToolSceneSetupData);
 
   static inline ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26bf73c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d5a88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithUserDataStoreUpdateResponse : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserDataStoreUpdateResponse*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2aea854, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2afe268, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserDataStoreUpdateResponse* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetUserDataStoreUpdateResponse, addr 0x2aea818, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetUserDataStoreUpdateResponse, addr 0x2afe22c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserDataStoreUpdateResponse* GetUserDataStoreUpdateResponse();
 
   static inline ::Oculus::Platform::MessageWithUserDataStoreUpdateResponse* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ae6318, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af9d2c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

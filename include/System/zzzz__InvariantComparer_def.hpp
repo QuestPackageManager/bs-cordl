@@ -38,7 +38,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x2f9ba78, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x2fa848c, size 0xec, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
   static inline ::System::InvariantComparer* New_ctor();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_m_compareInfo(::System::Globalization::CompareInfo* value);
 
-  /// @brief Method .ctor, addr 0x2f9b9fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa8410, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::InvariantComparer* getStaticF_Default();

@@ -105,11 +105,14 @@ public:
   __declspec(property(get = __cordl_internal_get__goodCutScoringElementPool,
                       put = __cordl_internal_set__goodCutScoringElementPool))::GlobalNamespace::__GoodCutScoringElement__Pool* _goodCutScoringElementPool;
 
-  /// @brief Field _immediateMaxPossibleModifiedScore, offset 0x94, size 0x4
+  /// @brief Field _immediateMaxPossibleModifiedScore, offset 0x98, size 0x4
   __declspec(property(get = __cordl_internal_get__immediateMaxPossibleModifiedScore, put = __cordl_internal_set__immediateMaxPossibleModifiedScore)) int32_t _immediateMaxPossibleModifiedScore;
 
-  /// @brief Field _immediateMaxPossibleMultipliedScore, offset 0x90, size 0x4
+  /// @brief Field _immediateMaxPossibleMultipliedScore, offset 0x94, size 0x4
   __declspec(property(get = __cordl_internal_get__immediateMaxPossibleMultipliedScore, put = __cordl_internal_set__immediateMaxPossibleMultipliedScore)) int32_t _immediateMaxPossibleMultipliedScore;
+
+  /// @brief Field _invalidated, offset 0x88, size 0x1
+  __declspec(property(get = __cordl_internal_get__invalidated, put = __cordl_internal_set__invalidated)) bool _invalidated;
 
   /// @brief Field _maxScoreMultiplierCounter, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__maxScoreMultiplierCounter,
@@ -118,17 +121,17 @@ public:
   /// @brief Field _missScoringElementPool, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__missScoringElementPool, put = __cordl_internal_set__missScoringElementPool))::GlobalNamespace::__MissScoringElement__Pool* _missScoringElementPool;
 
-  /// @brief Field _modifiedScore, offset 0x88, size 0x4
+  /// @brief Field _modifiedScore, offset 0x8c, size 0x4
   __declspec(property(get = __cordl_internal_get__modifiedScore, put = __cordl_internal_set__modifiedScore)) int32_t _modifiedScore;
 
-  /// @brief Field _multipliedScore, offset 0x8c, size 0x4
+  /// @brief Field _multipliedScore, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get__multipliedScore, put = __cordl_internal_set__multipliedScore)) int32_t _multipliedScore;
 
   /// @brief Field _playerHeadAndObstacleInteraction, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__playerHeadAndObstacleInteraction,
                       put = __cordl_internal_set__playerHeadAndObstacleInteraction))::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> _playerHeadAndObstacleInteraction;
 
-  /// @brief Field _prevMultiplierFromModifiers, offset 0x98, size 0x4
+  /// @brief Field _prevMultiplierFromModifiers, offset 0x9c, size 0x4
   __declspec(property(get = __cordl_internal_get__prevMultiplierFromModifiers, put = __cordl_internal_set__prevMultiplierFromModifiers)) float_t _prevMultiplierFromModifiers;
 
   /// @brief Field _scoreMultiplierCounter, offset 0xa8, size 0x8
@@ -155,6 +158,8 @@ public:
 
   __declspec(property(get = get_immediateMaxPossibleMultipliedScore)) int32_t immediateMaxPossibleMultipliedScore;
 
+  __declspec(property(get = get_invalidated)) bool invalidated;
+
   __declspec(property(get = get_modifiedScore)) int32_t modifiedScore;
 
   __declspec(property(get = get_multipliedScore)) int32_t multipliedScore;
@@ -176,33 +181,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IScoreController"
   constexpr operator ::GlobalNamespace::IScoreController*() noexcept;
 
-  /// @brief Method DespawnScoringElement, addr 0x273fcfc, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method DespawnScoringElement, addr 0x2756570, size 0x188, virtual false, abstract: false, final false
   inline void DespawnScoringElement(::GlobalNamespace::ScoringElement* scoringElement);
 
-  /// @brief Method HandleNoteWasCut, addr 0x273ff20, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x2756794, size 0x178, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteWasMissed, addr 0x2740154, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x27569c8, size 0x10c, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleNoteWasSpawned, addr 0x273fe84, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasSpawned, addr 0x27566f8, size 0x9c, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x27402ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x2756b20, size 0x6c, virtual false, abstract: false, final false
   inline void HandlePlayerHeadDidEnterObstacles();
 
-  /// @brief Method LateUpdate, addr 0x273f4dc, size 0x788, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2755d10, size 0x7c8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::ScoreController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x273f2f4, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2755b28, size 0x1e8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetEnabled, addr 0x273f09c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetEnabled, addr 0x27558d0, size 0xc, virtual true, abstract: false, final true
   inline void SetEnabled(bool enabled);
 
-  /// @brief Method Start, addr 0x273f0a8, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x27558dc, size 0x24c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -245,6 +250,10 @@ public:
   constexpr int32_t const& __cordl_internal_get__immediateMaxPossibleMultipliedScore() const;
 
   constexpr int32_t& __cordl_internal_get__immediateMaxPossibleMultipliedScore();
+
+  constexpr bool const& __cordl_internal_get__invalidated() const;
+
+  constexpr bool& __cordl_internal_get__invalidated();
 
   constexpr ::GlobalNamespace::ScoreMultiplierCounter*& __cordl_internal_get__maxScoreMultiplierCounter();
 
@@ -327,6 +336,8 @@ public:
 
   constexpr void __cordl_internal_set__immediateMaxPossibleMultipliedScore(int32_t value);
 
+  constexpr void __cordl_internal_set__invalidated(bool value);
+
   constexpr void __cordl_internal_set__maxScoreMultiplierCounter(::GlobalNamespace::ScoreMultiplierCounter* value);
 
   constexpr void __cordl_internal_set__missScoringElementPool(::GlobalNamespace::__MissScoringElement__Pool* value);
@@ -357,46 +368,49 @@ public:
 
   constexpr void __cordl_internal_set_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method .ctor, addr 0x2740318, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2756b8c, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_multiplierDidChangeEvent, addr 0x273ec5c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_multiplierDidChangeEvent, addr 0x2755488, size 0xb0, virtual true, abstract: false, final true
   inline void add_multiplierDidChangeEvent(::System::Action_2<int32_t, float_t>* value);
 
-  /// @brief Method add_scoreDidChangeEvent, addr 0x273eafc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_scoreDidChangeEvent, addr 0x2755328, size 0xb0, virtual true, abstract: false, final true
   inline void add_scoreDidChangeEvent(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method add_scoringForNoteFinishedEvent, addr 0x273ef1c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_scoringForNoteFinishedEvent, addr 0x2755748, size 0xb0, virtual true, abstract: false, final true
   inline void add_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method add_scoringForNoteStartedEvent, addr 0x273edbc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_scoringForNoteStartedEvent, addr 0x27555e8, size 0xb0, virtual true, abstract: false, final true
   inline void add_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method get_immediateMaxPossibleModifiedScore, addr 0x273f094, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_immediateMaxPossibleModifiedScore, addr 0x27558c8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_immediateMaxPossibleModifiedScore();
 
-  /// @brief Method get_immediateMaxPossibleMultipliedScore, addr 0x273f08c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_immediateMaxPossibleMultipliedScore, addr 0x27558c0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_immediateMaxPossibleMultipliedScore();
 
-  /// @brief Method get_modifiedScore, addr 0x273f084, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_invalidated, addr 0x27558a8, size 0x8, virtual true, abstract: false, final true
+  inline bool get_invalidated();
+
+  /// @brief Method get_modifiedScore, addr 0x27558b8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_modifiedScore();
 
-  /// @brief Method get_multipliedScore, addr 0x273f07c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multipliedScore, addr 0x27558b0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_multipliedScore();
 
   /// @brief Convert to "::GlobalNamespace::IScoreController"
   constexpr ::GlobalNamespace::IScoreController* i___GlobalNamespace__IScoreController() noexcept;
 
-  /// @brief Method remove_multiplierDidChangeEvent, addr 0x273ed0c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_multiplierDidChangeEvent, addr 0x2755538, size 0xb0, virtual true, abstract: false, final true
   inline void remove_multiplierDidChangeEvent(::System::Action_2<int32_t, float_t>* value);
 
-  /// @brief Method remove_scoreDidChangeEvent, addr 0x273ebac, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_scoreDidChangeEvent, addr 0x27553d8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_scoreDidChangeEvent(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method remove_scoringForNoteFinishedEvent, addr 0x273efcc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_scoringForNoteFinishedEvent, addr 0x27557f8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method remove_scoringForNoteStartedEvent, addr 0x273ee6c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_scoringForNoteStartedEvent, addr 0x2755698, size 0xb0, virtual true, abstract: false, final true
   inline void remove_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
 protected:
@@ -455,19 +469,22 @@ public:
   /// @brief Field _gameplayModifierParams, offset: 0x80, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* ____gameplayModifierParams;
 
-  /// @brief Field _modifiedScore, offset: 0x88, size: 0x4, def value: None
+  /// @brief Field _invalidated, offset: 0x88, size: 0x1, def value: None
+  bool ____invalidated;
+
+  /// @brief Field _modifiedScore, offset: 0x8c, size: 0x4, def value: None
   int32_t ____modifiedScore;
 
-  /// @brief Field _multipliedScore, offset: 0x8c, size: 0x4, def value: None
+  /// @brief Field _multipliedScore, offset: 0x90, size: 0x4, def value: None
   int32_t ____multipliedScore;
 
-  /// @brief Field _immediateMaxPossibleMultipliedScore, offset: 0x90, size: 0x4, def value: None
+  /// @brief Field _immediateMaxPossibleMultipliedScore, offset: 0x94, size: 0x4, def value: None
   int32_t ____immediateMaxPossibleMultipliedScore;
 
-  /// @brief Field _immediateMaxPossibleModifiedScore, offset: 0x94, size: 0x4, def value: None
+  /// @brief Field _immediateMaxPossibleModifiedScore, offset: 0x98, size: 0x4, def value: None
   int32_t ____immediateMaxPossibleModifiedScore;
 
-  /// @brief Field _prevMultiplierFromModifiers, offset: 0x98, size: 0x4, def value: None
+  /// @brief Field _prevMultiplierFromModifiers, offset: 0x9c, size: 0x4, def value: None
   float_t ____prevMultiplierFromModifiers;
 
   /// @brief Field _maxScoreMultiplierCounter, offset: 0xa0, size: 0x8, def value: None
@@ -521,15 +538,17 @@ static_assert(offsetof(::GlobalNamespace::ScoreController, ___scoringForNoteFini
 
 static_assert(offsetof(::GlobalNamespace::ScoreController, ____gameplayModifierParams) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScoreController, ____modifiedScore) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScoreController, ____invalidated) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScoreController, ____multipliedScore) == 0x8c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScoreController, ____modifiedScore) == 0x8c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScoreController, ____immediateMaxPossibleMultipliedScore) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScoreController, ____multipliedScore) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScoreController, ____immediateMaxPossibleModifiedScore) == 0x94, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScoreController, ____immediateMaxPossibleMultipliedScore) == 0x94, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScoreController, ____prevMultiplierFromModifiers) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScoreController, ____immediateMaxPossibleModifiedScore) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScoreController, ____prevMultiplierFromModifiers) == 0x9c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ScoreController, ____maxScoreMultiplierCounter) == 0xa0, "Offset mismatch!");
 

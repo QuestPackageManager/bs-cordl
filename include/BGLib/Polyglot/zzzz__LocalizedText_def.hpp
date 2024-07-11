@@ -29,24 +29,24 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE LocalizedText : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::UnityEngine::UI::Text>> {
 public:
   // Declarations
-  /// @brief Method IsAlignmentLeft, addr 0x10876d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentLeft, addr 0x10929c8, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentLeft(::UnityEngine::TextAnchor alignment);
 
-  /// @brief Method IsAlignmentRight, addr 0x10876a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentRight, addr 0x10929a0, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentRight(::UnityEngine::TextAnchor alignment);
 
-  /// @brief Method IsOppositeDirection, addr 0x1087650, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsOppositeDirection, addr 0x1092948, size 0x58, virtual false, abstract: false, final false
   inline bool IsOppositeDirection(::UnityEngine::TextAnchor alignment, ::BGLib::Polyglot::LanguageDirection direction);
 
   static inline ::BGLib::Polyglot::LocalizedText* New_ctor();
 
-  /// @brief Method SetText, addr 0x1087470, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method SetText, addr 0x1092768, size 0x11c, virtual true, abstract: false, final false
   inline void SetText(::UnityEngine::UI::Text* text, ::StringW value);
 
-  /// @brief Method UpdateAlignment, addr 0x108758c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method UpdateAlignment, addr 0x1092884, size 0xc4, virtual true, abstract: false, final false
   inline void UpdateAlignment(::UnityEngine::UI::Text* text, ::BGLib::Polyglot::LanguageDirection direction);
 
-  /// @brief Method .ctor, addr 0x10876f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10929f0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

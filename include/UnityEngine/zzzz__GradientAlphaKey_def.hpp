@@ -20,7 +20,7 @@ namespace UnityEngine {
 struct CORDL_TYPE GradientAlphaKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3445658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34544dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t alpha, float_t time);
 
   // Ctor Parameters []

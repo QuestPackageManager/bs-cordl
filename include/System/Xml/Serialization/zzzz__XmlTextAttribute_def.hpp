@@ -36,7 +36,7 @@ public:
   /// @brief Field type, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
-  /// @brief Method AddKeyHash, addr 0x2f0dca8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x2f1b6bc, size 0x90, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlTextAttribute* New_ctor();
@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2f0dc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f1b658, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DataType, addr 0x2f0dc4c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x2f1b660, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DataType();
 
-  /// @brief Method get_Type, addr 0x2f0dca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2f1b6b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:

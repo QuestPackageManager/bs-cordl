@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE MissionDataExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Name, addr 0x14d073c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Name, addr 0x14da2e0, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW Name(::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType comparisonType);
 
 protected:

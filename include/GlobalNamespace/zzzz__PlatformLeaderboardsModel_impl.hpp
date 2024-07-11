@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler::*)(
     ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x14af408;
+  constexpr static std::size_t addrs = 0x14b89e4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>*>, int32_t)>(
     &::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x14af4cc;
+  constexpr static std::size_t addrs = 0x14b8ce0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -110,7 +110,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                    int32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler::BeginInvoke)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x14af4e0;
+  constexpr static std::size_t addrs = 0x14b8cf4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x14af598;
+  constexpr static std::size_t addrs = 0x14b8dac;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler::*)(
     ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x14af5a4;
+  constexpr static std::size_t addrs = 0x14b8db8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler::*)(
     ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreResult)>(&::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x14af668;
+  constexpr static std::size_t addrs = 0x14b8e7c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -212,7 +212,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler::*)(::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreResult, ::System::AsyncCallback*, ::System::Object*)>(
     &::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler::BeginInvoke)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x14af67c;
+  constexpr static std::size_t addrs = 0x14b8e90;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x14af700;
+  constexpr static std::size_t addrs = 0x14b8f14;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -277,7 +277,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::StringW, ::StringW, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*)>(
     &::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x14af70c;
+  constexpr static std::size_t addrs = 0x14b8f20;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore::*)(
     ::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*)>(&::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore::CompareTo)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x14af74c;
+  constexpr static std::size_t addrs = 0x14b8f60;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -384,53 +384,53 @@ inline int32_t GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore::C
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore::__PlatformLeaderboardsModel__LeaderboardScore() {}
-//  Writing Method size for method: ::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__23.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21::*)()>(
-    &::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21::MoveNext)> {
-  constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x14af76c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__23::*)()>(
+    &::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__23::MoveNext)> {
+  constexpr static std::size_t size = 0x364;
+  constexpr static std::size_t addrs = 0x14b8f80;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__23>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__23.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__23::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__23::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x14afad4;
+  constexpr static std::size_t addrs = 0x14b92e4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__23>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__23::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__23::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-inline void GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21::MoveNext() {
+inline void GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__23::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__23>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__23::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__23>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
@@ -438,7 +438,7 @@ inline void GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21::Set
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformLeaderboardsModel>",
 // modifiers: "", def_value: Some("nullptr") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*>", modifiers: "", def_value: Some("{}")
 // }]
-constexpr ::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21::__PlatformLeaderboardsModel___Initialize_d__21(
+constexpr ::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__23::__PlatformLeaderboardsModel___Initialize_d__23(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -447,50 +447,50 @@ constexpr ::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21::__P
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__21::__PlatformLeaderboardsModel___Initialize_d__21() {}
-//  Writing Method size for method: ::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0._ctor
+constexpr ::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__23::__PlatformLeaderboardsModel___Initialize_d__23() {}
+//  Writing Method size for method: ::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::*)()>(
-    &::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::*)()>(
+    &::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14afae0;
+  constexpr static std::size_t addrs = 0x14b88b8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0._GetScores_b__0
+//  Writing Method size for method: ::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0._GetScores_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::*)(::GlobalNamespace::HMAsyncRequest*)>(
-    &::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::_GetScores_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::*)(::GlobalNamespace::HMAsyncRequest*)>(
+    &::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::_GetScores_b__0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x14afae8;
+  constexpr static std::size_t addrs = 0x14b92f0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0*>::get(), "<GetScores>b__0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0*>::get(), "<GetScores>b__0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::HMAsyncRequest*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0._GetScores_g__HandleGetScoresCompleted_1
+//  Writing Method size for method: ::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0._GetScores_g__HandleGetScoresCompleted_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::*)(
     ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresResult,
     ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>*>, int32_t)>(
-    &::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::_GetScores_g__HandleGetScoresCompleted_1)> {
+    &::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::_GetScores_g__HandleGetScoresCompleted_1)> {
   constexpr static std::size_t size = 0x534;
-  constexpr static std::size_t addrs = 0x14afb18;
+  constexpr static std::size_t addrs = 0x14b9320;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0*>::get(), "<GetScores>g__HandleGetScoresCompleted|1",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0*>::get(), "<GetScores>g__HandleGetScoresCompleted|1",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresResult>::get(),
@@ -500,165 +500,165 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0._GetScores_b__3
+//  Writing Method size for method: ::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0._GetScores_b__3
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::*)(
-    ::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*)>(&::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::_GetScores_b__3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::*)(
+    ::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*)>(&::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::_GetScores_b__3)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x14b004c;
+  constexpr static std::size_t addrs = 0x14b9854;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0*>::get(), "<GetScores>b__3",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0*>::get(), "<GetScores>b__3",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel>& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel>& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> value) {
+constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler*& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_completionHandler() {
+constexpr ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler*& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_completionHandler() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completionHandler;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler*> const&
-GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_completionHandler() const {
+GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_completionHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completionHandler;
 }
 constexpr void
-GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_set_completionHandler(::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler* value) {
+GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_set_completionHandler(::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___completionHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_maxPossibleScore() {
+constexpr float_t& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_maxPossibleScore() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxPossibleScore;
 }
-constexpr float_t const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_maxPossibleScore() const {
+constexpr float_t const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_maxPossibleScore() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxPossibleScore;
 }
-constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_set_maxPossibleScore(float_t value) {
+constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_set_maxPossibleScore(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxPossibleScore = value;
 }
-constexpr int32_t& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_count() {
+constexpr int32_t& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_count() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
-constexpr int32_t const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_count() const {
+constexpr int32_t const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_count() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___count;
 }
-constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_set_count(int32_t value) {
+constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_set_count(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___count = value;
 }
-constexpr int32_t& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_previousRequestEntriesCount() {
+constexpr int32_t& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_previousRequestEntriesCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___previousRequestEntriesCount;
 }
-constexpr int32_t const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_previousRequestEntriesCount() const {
+constexpr int32_t const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_previousRequestEntriesCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___previousRequestEntriesCount;
 }
-constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_set_previousRequestEntriesCount(int32_t value) {
+constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_set_previousRequestEntriesCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___previousRequestEntriesCount = value;
 }
-constexpr int32_t& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_searchAttemptCount() {
+constexpr int32_t& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_searchAttemptCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___searchAttemptCount;
 }
-constexpr int32_t const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_searchAttemptCount() const {
+constexpr int32_t const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_searchAttemptCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___searchAttemptCount;
 }
-constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_set_searchAttemptCount(int32_t value) {
+constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_set_searchAttemptCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___searchAttemptCount = value;
 }
-constexpr int32_t& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_searchRange() {
+constexpr int32_t& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_searchRange() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___searchRange;
 }
-constexpr int32_t const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_searchRange() const {
+constexpr int32_t const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_searchRange() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___searchRange;
 }
-constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_set_searchRange(int32_t value) {
+constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_set_searchRange(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___searchRange = value;
 }
-constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_beatmapKey() {
+constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_beatmapKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapKey;
 }
-constexpr ::GlobalNamespace::BeatmapKey const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_beatmapKey() const {
+constexpr ::GlobalNamespace::BeatmapKey const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_beatmapKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapKey;
 }
-constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey value) {
+constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___beatmapKey = value;
 }
-constexpr int32_t& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_fromRank() {
+constexpr int32_t& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_fromRank() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fromRank;
 }
-constexpr int32_t const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_fromRank() const {
+constexpr int32_t const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_fromRank() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fromRank;
 }
-constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_set_fromRank(int32_t value) {
+constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_set_fromRank(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fromRank = value;
 }
-constexpr ::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_scope() {
+constexpr ::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_scope() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scope;
 }
-constexpr ::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_get_scope() const {
+constexpr ::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope const& GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_get_scope() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scope;
 }
-constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__cordl_internal_set_scope(::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope value) {
+constexpr void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__cordl_internal_set_scope(::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___scope = value;
 }
-inline ::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0* GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0*>());
+inline ::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0* GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0*>());
 }
-inline void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::_ctor() {
+inline void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::_GetScores_b__0(::GlobalNamespace::HMAsyncRequest* _) {
+inline void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::_GetScores_b__0(::GlobalNamespace::HMAsyncRequest* _) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0*>::get(), "<GetScores>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0*>::get(), "<GetScores>b__0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::HMAsyncRequest*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _);
 }
-inline void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::_GetScores_g__HandleGetScoresCompleted_1(
+inline void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::_GetScores_g__HandleGetScoresCompleted_1(
     ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresResult result,
     ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>*> entries,
     int32_t referencePlayerScoreIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0*>::get(), "<GetScores>g__HandleGetScoresCompleted|1",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0*>::get(), "<GetScores>g__HandleGetScoresCompleted|1",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresResult>::get(),
@@ -667,22 +667,22 @@ inline void GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0:
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result, entries, referencePlayerScoreIndex);
 }
-inline bool GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::_GetScores_b__3(::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore* entry) {
+inline bool GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::_GetScores_b__3(::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore* entry) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0*>::get(), "<GetScores>b__3",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0*>::get(), "<GetScores>b__3",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, entry);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass25_0::__PlatformLeaderboardsModel____c__DisplayClass25_0() {}
+constexpr ::GlobalNamespace::__PlatformLeaderboardsModel____c__DisplayClass27_0::__PlatformLeaderboardsModel____c__DisplayClass27_0() {}
 //  Writing Method size for method: ::GlobalNamespace::__PlatformLeaderboardsModel____c._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformLeaderboardsModel____c::*)()>(
     &::GlobalNamespace::__PlatformLeaderboardsModel____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14b00d8;
+  constexpr static std::size_t addrs = 0x14b98e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c*>::get(),
@@ -690,17 +690,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PlatformLeaderboardsModel____c._GetScores_b__25_2
+//  Writing Method size for method: ::GlobalNamespace::__PlatformLeaderboardsModel____c._GetScores_b__27_2
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__PlatformLeaderboardsModel____c::*)(
-    ::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*)>(&::GlobalNamespace::__PlatformLeaderboardsModel____c::_GetScores_b__25_2)> {
+    ::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*)>(&::GlobalNamespace::__PlatformLeaderboardsModel____c::_GetScores_b__27_2)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x14b00e0;
+  constexpr static std::size_t addrs = 0x14b98e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c*>::get(), "<GetScores>b__25_2", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c*>::get(), "<GetScores>b__27_2", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>::get() })));
     return ___internal_method;
   }
@@ -714,13 +714,13 @@ inline ::GlobalNamespace::__PlatformLeaderboardsModel____c* GlobalNamespace::__P
   return ::cordl_internals::getStaticField<::GlobalNamespace::__PlatformLeaderboardsModel____c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c*>::get>();
 }
-inline void GlobalNamespace::__PlatformLeaderboardsModel____c::setStaticF___9__25_2(::System::Func_2<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*, bool>*, "<>9__25_2",
+inline void GlobalNamespace::__PlatformLeaderboardsModel____c::setStaticF___9__27_2(::System::Func_2<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*, bool>*, "<>9__27_2",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c*>::get>(
       std::forward<::System::Func_2<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*, bool>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*, bool>* GlobalNamespace::__PlatformLeaderboardsModel____c::getStaticF___9__25_2() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*, bool>*, "<>9__25_2",
+inline ::System::Func_2<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*, bool>* GlobalNamespace::__PlatformLeaderboardsModel____c::getStaticF___9__27_2() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*, bool>*, "<>9__27_2",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c*>::get>();
 }
 inline ::GlobalNamespace::__PlatformLeaderboardsModel____c* GlobalNamespace::__PlatformLeaderboardsModel____c::New_ctor() {
@@ -731,9 +731,9 @@ inline void GlobalNamespace::__PlatformLeaderboardsModel____c::_ctor() {
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__PlatformLeaderboardsModel____c::_GetScores_b__25_2(::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore* entry) {
+inline bool GlobalNamespace::__PlatformLeaderboardsModel____c::_GetScores_b__27_2(::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore* entry) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c*>::get(), "<GetScores>b__25_2", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PlatformLeaderboardsModel____c*>::get(), "<GetScores>b__27_2", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, entry);
 }
@@ -745,7 +745,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardsModel::*)(::System::Action*)>(
     &::GlobalNamespace::PlatformLeaderboardsModel::add_allScoresDidUploadEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x14ad980;
+  constexpr static std::size_t addrs = 0x14b803c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -760,12 +760,26 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardsModel::*)(::System::Action*)>(
     &::GlobalNamespace::PlatformLeaderboardsModel::remove_allScoresDidUploadEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x14ada1c;
+  constexpr static std::size_t addrs = 0x14b80d8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformLeaderboardsModel*>::get(), "remove_allScoresDidUploadEvent",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PlatformLeaderboardsModel.get_playerId
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlatformLeaderboardsModel::*)()>(
+    &::GlobalNamespace::PlatformLeaderboardsModel::get_playerId)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x14b8174;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformLeaderboardsModel*>::get(),
+                                                                               "get_playerId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -775,7 +789,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlatformLeaderboardsModel::*)()>(
     &::GlobalNamespace::PlatformLeaderboardsModel::get_initialized)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x14adab8;
+  constexpr static std::size_t addrs = 0x14b817c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformLeaderboardsModel*>::get(),
@@ -787,8 +801,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardsModel::*)()>(&::GlobalNamespace::PlatformLeaderboardsModel::OnDestroy)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x14adb74;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x14b8238;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformLeaderboardsModel*>::get(),
@@ -802,7 +816,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardsModel::*)()>(
     &::GlobalNamespace::PlatformLeaderboardsModel::Initialize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x14adae0;
+  constexpr static std::size_t addrs = 0x14b81a4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformLeaderboardsModel*>::get(),
@@ -815,8 +829,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardsModel::*)(::GlobalNamespace::UserInfo*)>(
     &::GlobalNamespace::PlatformLeaderboardsModel::InitializeForUserInfo)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x14add20;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x14b83e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -831,7 +845,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardsModel::*)(::GlobalNamespace::UserInfo*)>(
     &::GlobalNamespace::PlatformLeaderboardsModel::HandlePlatformUserInfoDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x14adebc;
+  constexpr static std::size_t addrs = 0x14b859c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -847,7 +861,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::PlatformLeaderboardsModel::*)(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*, ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler*)>(
     &::GlobalNamespace::PlatformLeaderboardsModel::UploadScore)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x14adec0;
+  constexpr static std::size_t addrs = 0x14b85a0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -863,8 +877,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::HMAsyncRequest* (
     ::GlobalNamespace::PlatformLeaderboardsModel::*)(::GlobalNamespace::BeatmapKey, int32_t, int32_t, ::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope,
                                                      ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler*)>(&::GlobalNamespace::PlatformLeaderboardsModel::GetScores)> {
-  constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x14adf40;
+  constexpr static std::size_t size = 0x298;
+  constexpr static std::size_t addrs = 0x14b8620;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -882,7 +896,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardsModel::*)()>(
     &::GlobalNamespace::PlatformLeaderboardsModel::HandleAllScoresDidUpload)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x14ae1dc;
+  constexpr static std::size_t addrs = 0x14b8aa8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformLeaderboardsModel*>::get(),
@@ -897,7 +911,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::PlatformLeaderboardsModel::*)(ByRef<::GlobalNamespace::BeatmapKey>, int32_t, int32_t, ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler*)>(
     &::GlobalNamespace::PlatformLeaderboardsModel::GetScores)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x14ae1f8;
+  constexpr static std::size_t addrs = 0x14b8ac4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -915,7 +929,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::PlatformLeaderboardsModel::*)(ByRef<::GlobalNamespace::BeatmapKey>, int32_t, ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler*)>(
     &::GlobalNamespace::PlatformLeaderboardsModel::GetScoresAroundPlayer)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x14ae22c;
+  constexpr static std::size_t addrs = 0x14b8af8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -933,7 +947,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::PlatformLeaderboardsModel::*)(ByRef<::GlobalNamespace::BeatmapKey>, int32_t, int32_t, ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler*)>(
     &::GlobalNamespace::PlatformLeaderboardsModel::GetFriendsScores)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x14ae264;
+  constexpr static std::size_t addrs = 0x14b8b30;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -950,8 +964,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardsModel::*)(
     ByRef<::GlobalNamespace::BeatmapKey>, int32_t, int32_t, int32_t, bool, int32_t, int32_t, int32_t, int32_t, float_t, ::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::PlatformLeaderboardsModel::UploadScore)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x14ae298;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x14b8b64;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -970,8 +984,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardsModel::*)()>(&::GlobalNamespace::PlatformLeaderboardsModel::_ctor)> {
-  constexpr static std::size_t size = 0x1008;
-  constexpr static std::size_t addrs = 0x14ae400;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x14b8cd8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformLeaderboardsModel*>::get(), ".ctor",
@@ -1099,6 +1113,11 @@ inline void GlobalNamespace::PlatformLeaderboardsModel::remove_allScoresDidUploa
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformLeaderboardsModel*>::get(), "remove_allScoresDidUploadEvent",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::StringW GlobalNamespace::PlatformLeaderboardsModel::get_playerId() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformLeaderboardsModel*>::get(),
+                                                                             "get_playerId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::PlatformLeaderboardsModel::get_initialized() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformLeaderboardsModel*>::get(),

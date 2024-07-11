@@ -40,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set__mainSettingsHandler(::BeatSaber::GameSettings::MainSettingsHandler* value);
 
-  /// @brief Method .ctor, addr 0x14f6fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x15030f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_positionOffset, addr 0x14f6edc, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_positionOffset, addr 0x1503024, size 0x68, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_positionOffset();
 
-  /// @brief Method get_rotationOffset, addr 0x14f6f44, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_rotationOffset, addr 0x150308c, size 0x68, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rotationOffset();
 
 protected:

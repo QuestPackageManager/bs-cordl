@@ -46,10 +46,10 @@ public:
 
   static inline ::GlobalNamespace::__BookmarksFoldersModel____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x14a2660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14abd18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_bookmarksFolders>b__3_0, addr 0x14a2668, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <get_bookmarksFolders>b__3_0, addr 0x14abd20, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _get_bookmarksFolders_b__3_0(::System::__Environment__SpecialFolder specialFolder);
 
   static inline ::GlobalNamespace::__BookmarksFoldersModel____c* getStaticF___9();
@@ -113,10 +113,10 @@ public:
 
   constexpr void __cordl_internal_set_myFolders(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x14a25f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14abcac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bookmarksFolders, addr 0x14a2020, size 0x594, virtual false, abstract: false, final false
+  /// @brief Method get_bookmarksFolders, addr 0x14ab6d8, size 0x594, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> get_bookmarksFolders();
 
 protected:

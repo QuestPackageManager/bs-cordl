@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::StringW)>(&::Newtonsoft::Json::Utilities::ValidationUtils::ArgumentNotNull)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2a3ce30;
+  constexpr static std::size_t addrs = 0x2a51844;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ValidationUtils*>::get(),

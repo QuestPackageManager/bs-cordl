@@ -38,10 +38,10 @@ public:
   /// @brief Field header, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_header, put = setStaticF_header))::ArrayW<uint8_t, ::Array<uint8_t>*> header;
 
-  /// @brief Method CheckHeader, addr 0x2798a70, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method CheckHeader, addr 0x27ac484, size 0x114, virtual false, abstract: false, final false
   inline bool CheckHeader(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method Decode, addr 0x27988cc, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x27ac2e0, size 0x1a4, virtual true, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
   /// @brief Method GetBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -49,7 +49,7 @@ public:
 
   static inline ::Mono::Security::Protocol::Ntlm::MessageBase* New_ctor(int32_t messageType);
 
-  /// @brief Method PrepareMessage, addr 0x27987cc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method PrepareMessage, addr 0x27ac1e0, size 0x100, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PrepareMessage(int32_t messageSize);
 
   constexpr ::Mono::Security::Protocol::Ntlm::NtlmFlags const& __cordl_internal_get__flags() const;
@@ -64,20 +64,20 @@ public:
 
   constexpr void __cordl_internal_set__type(int32_t value);
 
-  /// @brief Method .ctor, addr 0x279878c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27ac1a0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t messageType);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_header();
 
-  /// @brief Method get_Flags, addr 0x27987b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x27ac1c8, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Protocol::Ntlm::NtlmFlags get_Flags();
 
-  /// @brief Method get_Type, addr 0x27987c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x27ac1d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Type();
 
   static inline void setStaticF_header(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method set_Flags, addr 0x27987bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Flags, addr 0x27ac1d0, size 0x8, virtual false, abstract: false, final false
   inline void set_Flags(::Mono::Security::Protocol::Ntlm::NtlmFlags value);
 
 protected:

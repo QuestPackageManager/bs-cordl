@@ -33,12 +33,12 @@ public:
 
   __declspec(property(get = get_targetTexture))::UnityW<::UnityEngine::RenderTexture> targetTexture;
 
-  /// @brief Method Awake, addr 0x2bf879c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2c0c1b0, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::RenderTextureFromPostEffect* New_ctor();
 
-  /// @brief Method OnRenderImage, addr 0x2bf87ec, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method OnRenderImage, addr 0x2c0c200, size 0x1f8, virtual false, abstract: false, final false
   inline void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dst);
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__targetTexture(::UnityW<::UnityEngine::RenderTexture> value);
 
-  /// @brief Method .ctor, addr 0x2bf89e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0c3f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_targetTexture, addr 0x2bf8794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetTexture, addr 0x2c0c1a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_targetTexture();
 
 protected:

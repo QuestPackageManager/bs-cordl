@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsProcessableInputStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsProcessableInputStream::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x144d4c8;
+  constexpr static std::size_t addrs = 0x14577c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Cms::CmsProcessableInputStream::*)()>(
     &::Org::BouncyCastle::Cms::CmsProcessableInputStream::GetInputStream)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x144e38c;
+  constexpr static std::size_t addrs = 0x1458684;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsProcessableInputStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsProcessableInputStream::Write)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x144e3ac;
+  constexpr static std::size_t addrs = 0x14586a4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Cms::CmsProcessableInputStream::*)()>(
     &::Org::BouncyCastle::Cms::CmsProcessableInputStream::GetContent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x144e434;
+  constexpr static std::size_t addrs = 0x145872c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsProcessableInputStream::*)()>(
     &::Org::BouncyCastle::Cms::CmsProcessableInputStream::CheckSingleUsage)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x144e440;
+  constexpr static std::size_t addrs = 0x1458738;
 
   inline static const ::MethodInfo* methodInfo() {
 

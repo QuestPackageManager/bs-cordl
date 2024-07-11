@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__DivInstruction__DivUInt16* New_ctor();
 
-  /// @brief Method Run, addr 0x2c37010, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c4ba24, size 0x148, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c36c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c4b634, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

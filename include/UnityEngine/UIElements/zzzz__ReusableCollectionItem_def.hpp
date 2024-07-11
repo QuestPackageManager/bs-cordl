@@ -72,21 +72,21 @@ public:
 
   __declspec(property(get = get_rootElement))::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method DetachElement, addr 0x3606db0, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method DetachElement, addr 0x361dc34, size 0xf8, virtual true, abstract: false, final false
   inline void DetachElement();
 
-  /// @brief Method Init, addr 0x3606960, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x361d7e4, size 0x8, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item);
 
   static inline ::UnityEngine::UIElements::ReusableCollectionItem* New_ctor();
 
-  /// @brief Method OnGeometryChanged, addr 0x36071fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnGeometryChanged, addr 0x361e080, size 0x20, virtual false, abstract: false, final false
   inline void OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method PreAttachElement, addr 0x3606c68, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method PreAttachElement, addr 0x361daec, size 0xbc, virtual true, abstract: false, final false
   inline void PreAttachElement();
 
-  /// @brief Method SetSelected, addr 0x360710c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method SetSelected, addr 0x361df90, size 0xf0, virtual true, abstract: false, final false
   inline void SetSelected(bool selected);
 
   constexpr ::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>*& __cordl_internal_get__animator_k__BackingField();
@@ -127,40 +127,40 @@ public:
 
   constexpr void __cordl_internal_set_onGeometryChanged(::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* value);
 
-  /// @brief Method .ctor, addr 0x3606eac, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x361dd30, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onGeometryChanged, addr 0x3606fac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_onGeometryChanged, addr 0x361de30, size 0xb0, virtual false, abstract: false, final false
   inline void add_onGeometryChanged(::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* value);
 
-  /// @brief Method get_animator, addr 0x3606f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animator, addr 0x361de00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>* get_animator();
 
-  /// @brief Method get_bindableElement, addr 0x3606f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindableElement, addr 0x361ddf0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_bindableElement();
 
-  /// @brief Method get_id, addr 0x3606f9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x361de20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_index, addr 0x3606f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x361de10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_index();
 
-  /// @brief Method get_rootElement, addr 0x3606f64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_rootElement, addr 0x361dde8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
-  /// @brief Method remove_onGeometryChanged, addr 0x360705c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_onGeometryChanged, addr 0x361dee0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_onGeometryChanged(::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* value);
 
-  /// @brief Method set_animator, addr 0x3606f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_animator, addr 0x361de08, size 0x8, virtual false, abstract: false, final false
   inline void set_animator(::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>* value);
 
-  /// @brief Method set_bindableElement, addr 0x3606f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bindableElement, addr 0x361ddf8, size 0x8, virtual false, abstract: false, final false
   inline void set_bindableElement(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method set_id, addr 0x3606fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x361de28, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
-  /// @brief Method set_index, addr 0x3606f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_index, addr 0x361de18, size 0x8, virtual false, abstract: false, final false
   inline void set_index(int32_t value);
 
 protected:

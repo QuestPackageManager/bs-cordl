@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::UnixDateTimeConverter::*)()>(
     &::Newtonsoft::Json::Converters::UnixDateTimeConverter::get_AllowPreEpoch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2aab7fc;
+  constexpr static std::size_t addrs = 0x2abe210;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::UnixDateTimeConverter*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::UnixDateTimeConverter::*)(bool)>(
     &::Newtonsoft::Json::Converters::UnixDateTimeConverter::set_AllowPreEpoch)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2aab804;
+  constexpr static std::size_t addrs = 0x2abe218;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::UnixDateTimeConverter::*)()>(
     &::Newtonsoft::Json::Converters::UnixDateTimeConverter::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2aab810;
+  constexpr static std::size_t addrs = 0x2abe224;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::UnixDateTimeConverter*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::UnixDateTimeConverter::*)(bool)>(
     &::Newtonsoft::Json::Converters::UnixDateTimeConverter::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2aab82c;
+  constexpr static std::size_t addrs = 0x2abe240;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::UnixDateTimeConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::UnixDateTimeConverter::WriteJson)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x2aab858;
+  constexpr static std::size_t addrs = 0x2abe26c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -89,7 +89,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::Newtonsoft::Json::Converters::UnixDateTimeConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::Newtonsoft::Json::Converters::UnixDateTimeConverter::ReadJson)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x2aabaa8;
+  constexpr static std::size_t addrs = 0x2abe4bc;
 
   inline static const ::MethodInfo* methodInfo() {
 

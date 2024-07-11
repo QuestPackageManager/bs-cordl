@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2fc6ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd54cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

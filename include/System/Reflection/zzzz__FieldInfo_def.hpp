@@ -80,28 +80,28 @@ public:
 
   __declspec(property(get = get_MemberType))::System::Reflection::MemberTypes MemberType;
 
-  /// @brief Method Equals, addr 0x287f8a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x28942b8, size 0x8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetFieldFromHandle, addr 0x287fa4c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetFieldFromHandle, addr 0x2894460, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Reflection::FieldInfo* GetFieldFromHandle(::System::RuntimeFieldHandle handle);
 
-  /// @brief Method GetFieldFromHandle, addr 0x287fb04, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetFieldFromHandle, addr 0x2894518, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Reflection::FieldInfo* GetFieldFromHandle(::System::RuntimeFieldHandle handle, ::System::RuntimeTypeHandle declaringType);
 
-  /// @brief Method GetFieldOffset, addr 0x287fbec, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetFieldOffset, addr 0x2894600, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetFieldOffset();
 
-  /// @brief Method GetHashCode, addr 0x287f8ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x28942c0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetPseudoCustomAttributes, addr 0x287fc40, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method GetPseudoCustomAttributes, addr 0x2894654, size 0x214, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetPseudoCustomAttributes();
 
-  /// @brief Method GetPseudoCustomAttributesData, addr 0x287fe54, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method GetPseudoCustomAttributesData, addr 0x2894868, size 0x58c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Reflection::CustomAttributeData*, ::Array<::System::Reflection::CustomAttributeData*>*> GetPseudoCustomAttributesData();
 
-  /// @brief Method GetRawConstantValue, addr 0x287f9f8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetRawConstantValue, addr 0x289440c, size 0x50, virtual true, abstract: false, final false
   inline ::System::Object* GetRawConstantValue();
 
   /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -109,17 +109,17 @@ public:
 
   static inline ::System::Reflection::FieldInfo* New_ctor();
 
-  /// @brief Method SetValue, addr 0x287f91c, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method SetValue, addr 0x2894330, size 0x8c, virtual true, abstract: false, final true
   inline void SetValue(::System::Object* obj, ::System::Object* value);
 
   /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                        ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method SetValueDirect, addr 0x287f9a8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method SetValueDirect, addr 0x28943bc, size 0x50, virtual true, abstract: false, final false
   inline void SetValueDirect(::System::TypedReference obj, ::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x287f7c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28941d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Attributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -131,37 +131,37 @@ public:
   /// @brief Method get_FieldType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_FieldType();
 
-  /// @brief Method get_IsInitOnly, addr 0x287f7d4, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_IsInitOnly, addr 0x28941e8, size 0x20, virtual true, abstract: false, final true
   inline bool get_IsInitOnly();
 
-  /// @brief Method get_IsLiteral, addr 0x287f7f4, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_IsLiteral, addr 0x2894208, size 0x20, virtual true, abstract: false, final true
   inline bool get_IsLiteral();
 
-  /// @brief Method get_IsNotSerialized, addr 0x287f814, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_IsNotSerialized, addr 0x2894228, size 0x20, virtual true, abstract: false, final true
   inline bool get_IsNotSerialized();
 
-  /// @brief Method get_IsPrivate, addr 0x287f854, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_IsPrivate, addr 0x2894268, size 0x28, virtual true, abstract: false, final true
   inline bool get_IsPrivate();
 
-  /// @brief Method get_IsPublic, addr 0x287f87c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_IsPublic, addr 0x2894290, size 0x28, virtual true, abstract: false, final true
   inline bool get_IsPublic();
 
-  /// @brief Method get_IsStatic, addr 0x287f834, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_IsStatic, addr 0x2894248, size 0x20, virtual true, abstract: false, final true
   inline bool get_IsStatic();
 
-  /// @brief Method get_MemberType, addr 0x287f7cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x28941e0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberTypes get_MemberType();
 
-  /// @brief Method get_marshal_info, addr 0x287fc3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_marshal_info, addr 0x2894650, size 0x4, virtual false, abstract: false, final false
   inline ::System::Runtime::InteropServices::MarshalAsAttribute* get_marshal_info();
 
-  /// @brief Method internal_from_handle_type, addr 0x287fa48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method internal_from_handle_type, addr 0x289445c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Reflection::FieldInfo* internal_from_handle_type(::System::IntPtr field_handle, ::System::IntPtr type_handle);
 
-  /// @brief Method op_Equality, addr 0x287f8b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x28942c8, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::FieldInfo* left, ::System::Reflection::FieldInfo* right);
 
-  /// @brief Method op_Inequality, addr 0x287f8e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x28942f4, size 0x3c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::FieldInfo* left, ::System::Reflection::FieldInfo* right);
 
 protected:

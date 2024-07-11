@@ -74,33 +74,33 @@ public:
   /// @brief Field didFinishEvent, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<bool>* didFinishEvent;
 
-  /// @brief Method ChangeColor, addr 0x1053ba0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ChangeColor, addr 0x105b634, size 0x94, virtual false, abstract: false, final false
   inline void ChangeColor(::UnityEngine::Color color);
 
-  /// @brief Method HandleApplyButtonWasPressed, addr 0x1053d08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleApplyButtonWasPressed, addr 0x105b79c, size 0x20, virtual false, abstract: false, final false
   inline void HandleApplyButtonWasPressed();
 
-  /// @brief Method HandleCancelButtonWasPressed, addr 0x1053cac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HandleCancelButtonWasPressed, addr 0x105b740, size 0x5c, virtual false, abstract: false, final false
   inline void HandleCancelButtonWasPressed();
 
-  /// @brief Method HandleHSVPanelControllerColorDidChange, addr 0x1053b30, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleHSVPanelControllerColorDidChange, addr 0x105b5c4, size 0x70, virtual false, abstract: false, final false
   inline void HandleHSVPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
 
-  /// @brief Method HandlePreviousColorPanelControllerColorWasSelected, addr 0x1053c34, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HandlePreviousColorPanelControllerColorWasSelected, addr 0x105b6c8, size 0x78, virtual false, abstract: false, final false
   inline void HandlePreviousColorPanelControllerColorWasSelected(::UnityEngine::Color color);
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x10539c8, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x105b45c, size 0x168, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetColor, addr 0x104e1f8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x1055c8c, size 0x68, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method SetColorCallback, addr 0x1053808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetColorCallback, addr 0x105b29c, size 0x8, virtual false, abstract: false, final false
   inline void SetColorCallback(::System::Action_1<::UnityEngine::Color>* colorCallback);
 
-  /// @brief Method Start, addr 0x1053810, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x105b2a4, size 0x1b8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__applyButton() const;
@@ -163,22 +163,22 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x1053d28, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x105b7bc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeColorEvent, addr 0x104d4a0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeColorEvent, addr 0x1054f34, size 0xb0, virtual false, abstract: false, final false
   inline void add_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x104d550, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x1054fe4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method get_color, addr 0x104e40c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x1055ea0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method remove_didChangeColorEvent, addr 0x104df58, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeColorEvent, addr 0x10559ec, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x104e008, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x1055a9c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<bool>* value);
 
 protected:

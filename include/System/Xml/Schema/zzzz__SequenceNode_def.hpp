@@ -40,7 +40,7 @@ namespace System::Xml::Schema {
 struct CORDL_TYPE __SequenceNode__SequenceConstructPosContext {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2f1b960, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f29374, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::SequenceNode* node, ::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos);
 
   // Ctor Parameters []
@@ -99,19 +99,19 @@ public:
 
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructPos, addr 0x2f1b618, size 0x348, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x2f2902c, size 0x348, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method ExpandTree, addr 0x2f1bacc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x2f294e0, size 0x4, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::SequenceNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f1bad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f294e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsNullable, addr 0x2f1b970, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x2f29384, size 0x15c, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
 protected:

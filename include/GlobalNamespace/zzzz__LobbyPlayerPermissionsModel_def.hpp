@@ -70,18 +70,18 @@ public:
   /// @brief Field permissionsChangedEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_permissionsChangedEvent, put = __cordl_internal_set_permissionsChangedEvent))::System::Action* permissionsChangedEvent;
 
-  /// @brief Method Activate, addr 0x14d647c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x14e0020, size 0xf0, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0x14d670c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x14e02b0, size 0xf0, virtual false, abstract: false, final false
   inline void Deactivate();
 
-  /// @brief Method HandleMenuRpcManagerSetPlayersPermissionConfiguration, addr 0x14d6dac, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerSetPlayersPermissionConfiguration, addr 0x14e0950, size 0x2ac, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
 
   static inline ::GlobalNamespace::LobbyPlayerPermissionsModel* New_ctor();
 
-  /// @brief Method SetPlayerPermissions, addr 0x14d6d68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerPermissions, addr 0x14e090c, size 0x44, virtual false, abstract: false, final false
   inline void SetPlayerPermissions(bool isPartyOwner, bool hasRecommendBeatmapPermission, bool hasRecommendModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission);
 
   constexpr bool const& __cordl_internal_get__hasInvitePermission_k__BackingField() const;
@@ -132,43 +132,43 @@ public:
 
   constexpr void __cordl_internal_set_permissionsChangedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x14d7058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14e0bfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_permissionsChangedEvent, addr 0x14d6c30, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_permissionsChangedEvent, addr 0x14e07d4, size 0x9c, virtual false, abstract: false, final false
   inline void add_permissionsChangedEvent(::System::Action* value);
 
-  /// @brief Method get_hasInvitePermission, addr 0x14d6c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasInvitePermission, addr 0x14e07c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasInvitePermission();
 
-  /// @brief Method get_hasKickVotePermission, addr 0x14d6c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasKickVotePermission, addr 0x14e07ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasKickVotePermission();
 
-  /// @brief Method get_hasRecommendBeatmapPermission, addr 0x14d6be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasRecommendBeatmapPermission, addr 0x14e0784, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasRecommendBeatmapPermission();
 
-  /// @brief Method get_hasRecommendModifiersPermission, addr 0x14d6bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasRecommendModifiersPermission, addr 0x14e0798, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasRecommendModifiersPermission();
 
-  /// @brief Method get_isPartyOwner, addr 0x14d6bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isPartyOwner, addr 0x14e0770, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPartyOwner();
 
-  /// @brief Method remove_permissionsChangedEvent, addr 0x14d6ccc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_permissionsChangedEvent, addr 0x14e0870, size 0x9c, virtual false, abstract: false, final false
   inline void remove_permissionsChangedEvent(::System::Action* value);
 
-  /// @brief Method set_hasInvitePermission, addr 0x14d6c24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_hasInvitePermission, addr 0x14e07c8, size 0xc, virtual false, abstract: false, final false
   inline void set_hasInvitePermission(bool value);
 
-  /// @brief Method set_hasKickVotePermission, addr 0x14d6c10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_hasKickVotePermission, addr 0x14e07b4, size 0xc, virtual false, abstract: false, final false
   inline void set_hasKickVotePermission(bool value);
 
-  /// @brief Method set_hasRecommendBeatmapPermission, addr 0x14d6be8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_hasRecommendBeatmapPermission, addr 0x14e078c, size 0xc, virtual false, abstract: false, final false
   inline void set_hasRecommendBeatmapPermission(bool value);
 
-  /// @brief Method set_hasRecommendModifiersPermission, addr 0x14d6bfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_hasRecommendModifiersPermission, addr 0x14e07a0, size 0xc, virtual false, abstract: false, final false
   inline void set_hasRecommendModifiersPermission(bool value);
 
-  /// @brief Method set_isPartyOwner, addr 0x14d6bd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isPartyOwner, addr 0x14e0778, size 0xc, virtual false, abstract: false, final false
   inline void set_isPartyOwner(bool value);
 
 protected:

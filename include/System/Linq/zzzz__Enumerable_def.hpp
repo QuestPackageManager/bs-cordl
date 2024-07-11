@@ -3812,27 +3812,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2c02578, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2c15f8c, size 0x64, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Linq::__Enumerable___RangeIterator_d__115* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x2c02680, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x2c16094, size 0xac, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x2c025dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x2c15ff0, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEnumerator_System_Int32__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2c0272c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2c16140, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2c025e4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2c15ff8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2c02624, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2c16038, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2c02574, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2c15f88, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -3883,7 +3883,7 @@ public:
 
   constexpr void __cordl_internal_set_start(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c00d90, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c147a4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<int32_t>"
@@ -4033,7 +4033,7 @@ public:
   /// @brief Method Any, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline bool Any(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, bool>* predicate);
 
-  /// @brief Method Average, addr 0x2c021c0, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method Average, addr 0x2c15bd4, size 0x3b4, virtual false, abstract: false, final false
   static inline double_t Average(::System::Collections::Generic::IEnumerable_1<int32_t>* source);
 
   /// @brief Method Cast, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -4148,13 +4148,13 @@ public:
   /// @brief Method Max, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline TSource Max(::System::Collections::Generic::IEnumerable_1<TSource>* source);
 
-  /// @brief Method Max, addr 0x2c01e10, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x2c15824, size 0x3b0, virtual false, abstract: false, final false
   static inline float_t Max(::System::Collections::Generic::IEnumerable_1<float_t>* source);
 
   /// @brief Method Max, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline int32_t Max(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, int32_t>* selector);
 
-  /// @brief Method Max, addr 0x2c01ae8, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x2c154fc, size 0x328, virtual false, abstract: false, final false
   static inline int32_t Max(::System::Collections::Generic::IEnumerable_1<int32_t>* source);
 
   /// @brief Method Min, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -4163,10 +4163,10 @@ public:
   /// @brief Method Min, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline TSource Min(::System::Collections::Generic::IEnumerable_1<TSource>* source);
 
-  /// @brief Method Min, addr 0x2c0173c, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x2c15150, size 0x3ac, virtual false, abstract: false, final false
   static inline float_t Min(::System::Collections::Generic::IEnumerable_1<float_t>* source);
 
-  /// @brief Method Min, addr 0x2c01414, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x2c14e28, size 0x328, virtual false, abstract: false, final false
   static inline int32_t Min(::System::Collections::Generic::IEnumerable_1<int32_t>* source);
 
   /// @brief Method OfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -4188,10 +4188,10 @@ public:
   template <typename TSource, typename TKey>
   static inline ::System::Linq::IOrderedEnumerable_1<TSource>* OrderByDescending(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector);
 
-  /// @brief Method Range, addr 0x2c00cbc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Range, addr 0x2c146d0, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<int32_t>* Range(int32_t start, int32_t count);
 
-  /// @brief Method RangeIterator, addr 0x2c00d08, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RangeIterator, addr 0x2c1471c, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<int32_t>* RangeIterator(int32_t start, int32_t count);
 
   /// @brief Method Reverse, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -4249,13 +4249,13 @@ public:
   /// @brief Method SkipIterator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline ::System::Collections::Generic::IEnumerable_1<TSource>* SkipIterator(::System::Collections::Generic::IEnumerable_1<TSource>* source, int32_t count);
 
-  /// @brief Method Sum, addr 0x2c010f4, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method Sum, addr 0x2c14b08, size 0x320, virtual false, abstract: false, final false
   static inline float_t Sum(::System::Collections::Generic::IEnumerable_1<float_t>* source);
 
   /// @brief Method Sum, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline int32_t Sum(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, int32_t>* selector);
 
-  /// @brief Method Sum, addr 0x2c00dc4, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method Sum, addr 0x2c147d8, size 0x330, virtual false, abstract: false, final false
   static inline int32_t Sum(::System::Collections::Generic::IEnumerable_1<int32_t>* source);
 
   /// @brief Method Take, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE FileUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPlatformPersistentDataPath, addr 0x269125c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformPersistentDataPath, addr 0x26a4fe4, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetPlatformPersistentDataPath();
 
 protected:

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::OVROnCompleteListener* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b3d6b8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b4f0cc, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method onFailure, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

@@ -66,7 +66,7 @@ public:
   /// @brief Field _alphaToLengthCurve, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__alphaToLengthCurve, put = __cordl_internal_set__alphaToLengthCurve))::UnityEngine::AnimationCurve* _alphaToLengthCurve;
 
-  /// @brief Field _bakedGlowOnceParInitialized, offset 0xe2, size 0x1
+  /// @brief Field _bakedGlowOnceParInitialized, offset 0xe3, size 0x1
   __declspec(property(get = __cordl_internal_get__bakedGlowOnceParInitialized, put = __cordl_internal_set__bakedGlowOnceParInitialized)) bool _bakedGlowOnceParInitialized;
 
   /// @brief Field _bakedGlowWidthScale, offset 0x8c, size 0x4
@@ -97,6 +97,9 @@ public:
   __declspec(property(get = __cordl_internal_get__dynamic3SliceSprite,
                       put = __cordl_internal_set__dynamic3SliceSprite))::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> _dynamic3SliceSprite;
 
+  /// @brief Field _enabledRenderers, offset 0xe1, size 0x1
+  __declspec(property(get = __cordl_internal_get__enabledRenderers, put = __cordl_internal_set__enabledRenderers)) bool _enabledRenderers;
+
   /// @brief Field _endAlpha, offset 0xbc, size 0x4
   __declspec(property(get = __cordl_internal_get__endAlpha, put = __cordl_internal_set__endAlpha)) float_t _endAlpha;
 
@@ -115,10 +118,10 @@ public:
   /// @brief Field _isDirty, offset 0x100, size 0x1
   __declspec(property(get = __cordl_internal_get__isDirty, put = __cordl_internal_set__isDirty)) bool _isDirty;
 
-  /// @brief Field _isDynamic3SliceSpriteValid, offset 0xe4, size 0x1
+  /// @brief Field _isDynamic3SliceSpriteValid, offset 0xe5, size 0x1
   __declspec(property(get = __cordl_internal_get__isDynamic3SliceSpriteValid, put = __cordl_internal_set__isDynamic3SliceSpriteValid)) bool _isDynamic3SliceSpriteValid;
 
-  /// @brief Field _isParametricBoxControllerValid, offset 0xe3, size 0x1
+  /// @brief Field _isParametricBoxControllerValid, offset 0xe4, size 0x1
   __declspec(property(get = __cordl_internal_get__isParametricBoxControllerValid, put = __cordl_internal_set__isParametricBoxControllerValid)) bool _isParametricBoxControllerValid;
 
   /// @brief Field _length, offset 0x40, size 0x4
@@ -175,7 +178,7 @@ public:
   __declspec(property(get = __cordl_internal_get__parametricBoxController,
                       put = __cordl_internal_set__parametricBoxController))::UnityW<::GlobalNamespace::ParametricBoxController> _parametricBoxController;
 
-  /// @brief Field _parametricBoxControllerOnceParInitialized, offset 0xe1, size 0x1
+  /// @brief Field _parametricBoxControllerOnceParInitialized, offset 0xe2, size 0x1
   __declspec(property(get = __cordl_internal_get__parametricBoxControllerOnceParInitialized,
                       put = __cordl_internal_set__parametricBoxControllerOnceParInitialized)) bool _parametricBoxControllerOnceParInitialized;
 
@@ -222,8 +225,6 @@ public:
 
   __declspec(property(get = get_enabledRenderers)) bool enabledRenderers;
 
-  __declspec(property(get = get_isDirty)) bool isDirty;
-
   __declspec(property(get = get_length, put = set_length)) float_t length;
 
   __declspec(property(get = get_lightWidthMultiplier, put = set_lightWidthMultiplier)) float_t lightWidthMultiplier;
@@ -234,38 +235,41 @@ public:
 
   __declspec(property(get = get_width, put = set_width)) float_t width;
 
-  /// @brief Method Awake, addr 0x25067b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x251aa38, size 0x14, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ClipPoints, addr 0x2507658, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ClipPoints, addr 0x251b90c, size 0x94, virtual false, abstract: false, final false
   static inline void ClipPoints(ByRef<::UnityEngine::Vector4> fromPointClipPos, ByRef<::UnityEngine::Vector4> toPointClipPos, ByRef<::UnityEngine::Vector3> fromPointViewPos,
                                 ByRef<::UnityEngine::Vector3> toPointViewPos, bool fromPointInside, float_t t);
 
-  /// @brief Method DidRegisterLight, addr 0x25067e8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method DidRegisterLight, addr 0x251aa6c, size 0x1c, virtual true, abstract: false, final false
   inline void DidRegisterLight();
 
-  /// @brief Method FillMeshData, addr 0x2506bd4, size 0x9ec, virtual true, abstract: false, final false
+  /// @brief Method FillMeshData, addr 0x251ae88, size 0x9ec, virtual true, abstract: false, final false
   inline void FillMeshData(ByRef<int32_t> lightNum, ::ArrayW<::GlobalNamespace::__BloomPrePassLight__QuadData, ::Array<::GlobalNamespace::__BloomPrePassLight__QuadData>*> lightQuads,
                            ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix, float_t lineWidth);
 
-  /// @brief Method InitIfNeeded, addr 0x250650c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x251a7a0, size 0xc4, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
-  /// @brief Method MarkDirty, addr 0x2506668, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MarkDirty, addr 0x251a908, size 0xc, virtual false, abstract: false, final false
   inline void MarkDirty();
+
+  /// @brief Method NeedsRefresh, addr 0x251aa88, size 0x68, virtual false, abstract: false, final false
+  inline bool NeedsRefresh();
 
   static inline ::GlobalNamespace::TubeBloomPrePassLight* New_ctor();
 
-  /// @brief Method OnDrawGizmos, addr 0x25076ec, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmos, addr 0x251b9a0, size 0x174, virtual false, abstract: false, final false
   inline void OnDrawGizmos();
 
-  /// @brief Method OnEnable, addr 0x25067c8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x251aa4c, size 0x20, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x2506804, size 0x3d0, virtual true, abstract: false, final false
+  /// @brief Method Refresh, addr 0x251aaf0, size 0x398, virtual true, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method ZeroQuad, addr 0x25075c0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ZeroQuad, addr 0x251b874, size 0x98, virtual false, abstract: false, final false
   static inline void ZeroQuad(ByRef<::GlobalNamespace::__BloomPrePassLight__QuadData> quad);
 
   constexpr bool const& __cordl_internal_get__addWidthToLength() const;
@@ -319,6 +323,10 @@ public:
   constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> const& __cordl_internal_get__dynamic3SliceSprite() const;
 
   constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController>& __cordl_internal_get__dynamic3SliceSprite();
+
+  constexpr bool const& __cordl_internal_get__enabledRenderers() const;
+
+  constexpr bool& __cordl_internal_get__enabledRenderers();
 
   constexpr float_t const& __cordl_internal_get__endAlpha() const;
 
@@ -486,6 +494,8 @@ public:
 
   constexpr void __cordl_internal_set__dynamic3SliceSprite(::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> value);
 
+  constexpr void __cordl_internal_set__enabledRenderers(bool value);
+
   constexpr void __cordl_internal_set__endAlpha(float_t value);
 
   constexpr void __cordl_internal_set__endWidth(float_t value);
@@ -556,79 +566,76 @@ public:
 
   constexpr void __cordl_internal_set_didRefreshEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2507860, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251bb14, size 0x124, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didRefreshEvent, addr 0x2506344, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didRefreshEvent, addr 0x251a5f8, size 0x9c, virtual false, abstract: false, final false
   inline void add_didRefreshEvent(::System::Action* value);
 
-  /// @brief Method get_bloomFogIntensityMultiplier, addr 0x25066cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bloomFogIntensityMultiplier, addr 0x251a96c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bloomFogIntensityMultiplier();
 
-  /// @brief Method get_calculatedCollisionLength, addr 0x2506624, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_calculatedCollisionLength, addr 0x251a8e4, size 0x24, virtual false, abstract: false, final false
   inline float_t get_calculatedCollisionLength();
 
-  /// @brief Method get_center, addr 0x25064ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x251a740, size 0x8, virtual false, abstract: false, final false
   inline float_t get_center();
 
-  /// @brief Method get_collisionEndAlpha, addr 0x25065bc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_collisionEndAlpha, addr 0x251a87c, size 0x68, virtual false, abstract: false, final false
   inline float_t get_collisionEndAlpha();
 
-  /// @brief Method get_collisionLength, addr 0x25065a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_collisionLength, addr 0x251a864, size 0x8, virtual false, abstract: false, final false
   inline float_t get_collisionLength();
 
-  /// @brief Method get_color, addr 0x25067a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x251aa2c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_colorAlphaMultiplier, addr 0x25064a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorAlphaMultiplier, addr 0x251a738, size 0x8, virtual false, abstract: false, final false
   inline float_t get_colorAlphaMultiplier();
 
-  /// @brief Method get_enabledRenderers, addr 0x250647c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_enabledRenderers, addr 0x251a730, size 0x8, virtual false, abstract: false, final false
   inline bool get_enabledRenderers();
 
-  /// @brief Method get_isDirty, addr 0x2506648, size 0x20, virtual true, abstract: false, final false
-  inline bool get_isDirty();
-
-  /// @brief Method get_length, addr 0x2506674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x251a914, size 0x8, virtual false, abstract: false, final false
   inline float_t get_length();
 
-  /// @brief Method get_lightWidthMultiplier, addr 0x25066bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightWidthMultiplier, addr 0x251a95c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_lightWidthMultiplier();
 
-  /// @brief Method get_startAlpha, addr 0x25066a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startAlpha, addr 0x251a944, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startAlpha();
 
-  /// @brief Method get_useCollision, addr 0x25064b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useCollision, addr 0x251a748, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCollision();
 
-  /// @brief Method get_width, addr 0x250668c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x251a92c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
-  /// @brief Method remove_didRefreshEvent, addr 0x25063e0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didRefreshEvent, addr 0x251a694, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didRefreshEvent(::System::Action* value);
 
-  /// @brief Method set_bloomFogIntensityMultiplier, addr 0x25066d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bloomFogIntensityMultiplier, addr 0x251a974, size 0x8, virtual false, abstract: false, final false
   inline void set_bloomFogIntensityMultiplier(float_t value);
 
-  /// @brief Method set_collisionLength, addr 0x25065ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_collisionLength, addr 0x251a86c, size 0x10, virtual false, abstract: false, final false
   inline void set_collisionLength(float_t value);
 
-  /// @brief Method set_color, addr 0x25066dc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x251a97c, size 0xb0, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_length, addr 0x250667c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_length, addr 0x251a91c, size 0x10, virtual false, abstract: false, final false
   inline void set_length(float_t value);
 
-  /// @brief Method set_lightWidthMultiplier, addr 0x25066c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightWidthMultiplier, addr 0x251a964, size 0x8, virtual false, abstract: false, final false
   inline void set_lightWidthMultiplier(float_t value);
 
-  /// @brief Method set_startAlpha, addr 0x25066ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_startAlpha, addr 0x251a94c, size 0x10, virtual false, abstract: false, final false
   inline void set_startAlpha(float_t value);
 
-  /// @brief Method set_useCollision, addr 0x25064bc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_useCollision, addr 0x251a750, size 0x50, virtual false, abstract: false, final false
   inline void set_useCollision(bool value);
 
-  /// @brief Method set_width, addr 0x2506694, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x251a934, size 0x10, virtual false, abstract: false, final false
   inline void set_width(float_t value);
 
 protected:
@@ -756,16 +763,19 @@ public:
   /// @brief Field _initialized, offset: 0xe0, size: 0x1, def value: None
   bool ____initialized;
 
-  /// @brief Field _parametricBoxControllerOnceParInitialized, offset: 0xe1, size: 0x1, def value: None
+  /// @brief Field _enabledRenderers, offset: 0xe1, size: 0x1, def value: None
+  bool ____enabledRenderers;
+
+  /// @brief Field _parametricBoxControllerOnceParInitialized, offset: 0xe2, size: 0x1, def value: None
   bool ____parametricBoxControllerOnceParInitialized;
 
-  /// @brief Field _bakedGlowOnceParInitialized, offset: 0xe2, size: 0x1, def value: None
+  /// @brief Field _bakedGlowOnceParInitialized, offset: 0xe3, size: 0x1, def value: None
   bool ____bakedGlowOnceParInitialized;
 
-  /// @brief Field _isParametricBoxControllerValid, offset: 0xe3, size: 0x1, def value: None
+  /// @brief Field _isParametricBoxControllerValid, offset: 0xe4, size: 0x1, def value: None
   bool ____isParametricBoxControllerValid;
 
-  /// @brief Field _isDynamic3SliceSpriteValid, offset: 0xe4, size: 0x1, def value: None
+  /// @brief Field _isDynamic3SliceSpriteValid, offset: 0xe5, size: 0x1, def value: None
   bool ____isDynamic3SliceSpriteValid;
 
   /// @brief Field didRefreshEvent, offset: 0xe8, size: 0x8, def value: None
@@ -868,13 +878,15 @@ static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLight, ____dynamic3Sli
 
 static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLight, ____initialized) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLight, ____parametricBoxControllerOnceParInitialized) == 0xe1, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLight, ____enabledRenderers) == 0xe1, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLight, ____bakedGlowOnceParInitialized) == 0xe2, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLight, ____parametricBoxControllerOnceParInitialized) == 0xe2, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLight, ____isParametricBoxControllerValid) == 0xe3, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLight, ____bakedGlowOnceParInitialized) == 0xe3, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLight, ____isDynamic3SliceSpriteValid) == 0xe4, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLight, ____isParametricBoxControllerValid) == 0xe4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLight, ____isDynamic3SliceSpriteValid) == 0xe5, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLight, ___didRefreshEvent) == 0xe8, "Offset mismatch!");
 

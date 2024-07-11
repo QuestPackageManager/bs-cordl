@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* (
     ::Org::BouncyCastle::Pkix::PkixCertPathBuilder::*)(::Org::BouncyCastle::Pkix::PkixBuilderParameters*)>(&::Org::BouncyCastle::Pkix::PkixCertPathBuilder::Build)> {
   constexpr static std::size_t size = 0x8dc;
-  constexpr static std::size_t addrs = 0x135ca50;
+  constexpr static std::size_t addrs = 0x1364d48;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Pkix::PkixCertPathBuilder::*)(::Org::BouncyCastle::X509::X509Certificate*, ::Org::BouncyCastle::Pkix::PkixBuilderParameters*, ::System::Collections::IList*)>(
     &::Org::BouncyCastle::Pkix::PkixCertPathBuilder::Build)> {
   constexpr static std::size_t size = 0xbb4;
-  constexpr static std::size_t addrs = 0x135d32c;
+  constexpr static std::size_t addrs = 0x1365624;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixCertPathBuilder::*)()>(&::Org::BouncyCastle::Pkix::PkixCertPathBuilder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x135dee8;
+  constexpr static std::size_t addrs = 0x13661e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::PkixCertPathBuilder*>::get(), ".ctor",

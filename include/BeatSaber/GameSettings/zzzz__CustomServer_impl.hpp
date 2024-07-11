@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::GameSettings::CustomServer::*)()>(&::BeatSaber::GameSettings::CustomServer::get_isDirty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1067d50;
+  constexpr static std::size_t addrs = 0x106e900;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::CustomServer*>::get(), "get_isDirty",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::CustomServer::*)(bool)>(&::BeatSaber::GameSettings::CustomServer::set_isDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1067d58;
+  constexpr static std::size_t addrs = 0x106e908;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::GameSettings::CustomServer::*)()>(
     &::BeatSaber::GameSettings::CustomServer::get_useCustomServerEnvironment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1067d64;
+  constexpr static std::size_t addrs = 0x106e914;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::CustomServer*>::get(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::CustomServer::*)(bool)>(
     &::BeatSaber::GameSettings::CustomServer::set_useCustomServerEnvironment)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x1067b58;
+  constexpr static std::size_t addrs = 0x106e708;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::GameSettings::CustomServer::*)()>(
     &::BeatSaber::GameSettings::CustomServer::get_forceGameLiftServerEnvironment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1067d6c;
+  constexpr static std::size_t addrs = 0x106e91c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::CustomServer::*)(bool)>(
     &::BeatSaber::GameSettings::CustomServer::set_forceGameLiftServerEnvironment)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x1067b6c;
+  constexpr static std::size_t addrs = 0x106e71c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BeatSaber::GameSettings::CustomServer::*)()>(
     &::BeatSaber::GameSettings::CustomServer::get_customServerHostName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1067d74;
+  constexpr static std::size_t addrs = 0x106e924;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::CustomServer*>::get(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::CustomServer::*)(::StringW)>(
     &::BeatSaber::GameSettings::CustomServer::set_customServerHostName)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1067b80;
+  constexpr static std::size_t addrs = 0x106e730;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::CustomServer::*)()>(&::BeatSaber::GameSettings::CustomServer::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x1067d7c;
+  constexpr static std::size_t addrs = 0x106e92c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::CustomServer*>::get(), ".ctor",

@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GraphAPIClient::*)(::GlobalNamespace::INetworkConfig*)>(
     &::GlobalNamespace::GraphAPIClient::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x10a11f4;
+  constexpr static std::size_t addrs = 0x10ad4ec;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, ::GlobalNamespace::__GraphAPIClient__PostOptions)>(
     &::GlobalNamespace::GraphAPIClient::CalculateDelayMsBeforeRetry)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x10a1270;
+  constexpr static std::size_t addrs = 0x10ad568;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::DynamicMetaObjectBinder::*)()>(&::System::Dynamic::DynamicMetaObjectBinder::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2c6f7a4;
+  constexpr static std::size_t addrs = 0x2c831b8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::DynamicMetaObjectBinder*>::get(), ".ctor",
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Dynamic::DynamicMetaObjectBinder::*)()>(
     &::System::Dynamic::DynamicMetaObjectBinder::get_ReturnType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2c6f7fc;
+  constexpr static std::size_t addrs = 0x2c83210;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                    ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*,
                                                    ::System::Linq::Expressions::LabelTarget*)>(&::System::Dynamic::DynamicMetaObjectBinder::Bind)> {
   constexpr static std::size_t size = 0x5fc;
-  constexpr static std::size_t addrs = 0x2c6f868;
+  constexpr static std::size_t addrs = 0x2c8327c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::System::Object*, ::Array<::System::Object*>*>, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*)>(
     &::System::Dynamic::DynamicMetaObjectBinder::CreateArgumentMetaObjects)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x2c6fe64;
+  constexpr static std::size_t addrs = 0x2c83878;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::DynamicMetaObjectBinder::*)(::System::Type*)>(
     &::System::Dynamic::DynamicMetaObjectBinder::GetUpdateExpression)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2c6fff0;
+  constexpr static std::size_t addrs = 0x2c83a04;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::DynamicMetaObjectBinder::*)()>(
     &::System::Dynamic::DynamicMetaObjectBinder::get_IsStandardBinder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c700b0;
+  constexpr static std::size_t addrs = 0x2c83ac4;
 
   inline static const ::MethodInfo* methodInfo() {
 

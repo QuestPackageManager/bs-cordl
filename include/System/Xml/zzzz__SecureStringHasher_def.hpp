@@ -38,12 +38,12 @@ namespace System::Xml {
 class CORDL_TYPE __SecureStringHasher__HashCodeOfStringDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2e85ca0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2e956b4, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::StringW s, int32_t sLen, int64_t additionalEntropy);
 
   static inline ::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2e85bc8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e955dc, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -85,16 +85,16 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::StringW>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::StringW>*() noexcept;
 
-  /// @brief Method Equals, addr 0x2e85950, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2e95364, size 0x18, virtual true, abstract: false, final true
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x2e85968, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x2e9537c, size 0x9c, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::StringW key);
 
-  /// @brief Method GetHashCodeDelegate, addr 0x2e85a04, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeDelegate, addr 0x2e95418, size 0x158, virtual false, abstract: false, final false
   static inline ::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* GetHashCodeDelegate();
 
-  /// @brief Method GetHashCodeOfString, addr 0x2e85b5c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeOfString, addr 0x2e95570, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetHashCodeOfString(::StringW key, int32_t sLen, int64_t additionalEntropy);
 
   static inline ::System::Xml::SecureStringHasher* New_ctor();
@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set_hashCodeRandomizer(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2e8592c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e95340, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* getStaticF_hashCodeDelegate();

@@ -28,27 +28,27 @@ public:
   /// @brief Field permutation, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_permutation, put = setStaticF_permutation))::ArrayW<int32_t, ::Array<int32_t>*> permutation;
 
-  /// @brief Method Fade, addr 0x24ef2b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Fade, addr 0x2504028, size 0x2c, virtual false, abstract: false, final false
   static inline float_t Fade(float_t t);
 
-  /// @brief Method Grad3D, addr 0x24ef2f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Grad3D, addr 0x250406c, size 0x74, virtual false, abstract: false, final false
   static inline float_t Grad3D(int32_t hash, float_t x, float_t y, float_t z);
 
-  /// @brief Method Inc, addr 0x24ef2e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Inc, addr 0x2504054, size 0x18, virtual false, abstract: false, final false
   static inline int32_t Inc(int32_t num, int32_t repeat);
 
-  /// @brief Method Lerp, addr 0x24ef36c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x25040e0, size 0x10, virtual false, abstract: false, final false
   static inline float_t Lerp(float_t a, float_t b, float_t x);
 
   static inline ::GlobalNamespace::PerlinNoise* New_ctor();
 
-  /// @brief Method OctavePerlin3D, addr 0x24eeca0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OctavePerlin3D, addr 0x2503a14, size 0xdc, virtual false, abstract: false, final false
   static inline float_t OctavePerlin3D(float_t x, float_t y, float_t z, int32_t octaves, float_t persistence, int32_t repeat);
 
-  /// @brief Method Perlin3D, addr 0x24eed7c, size 0x538, virtual false, abstract: false, final false
+  /// @brief Method Perlin3D, addr 0x2503af0, size 0x538, virtual false, abstract: false, final false
   static inline float_t Perlin3D(float_t x, float_t y, float_t z, int32_t repeat);
 
-  /// @brief Method .ctor, addr 0x24ef37c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25040f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_p();

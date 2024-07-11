@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* (*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(
         &::UnityEngine::UIElements::VisualElementListPool::Copy)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3541b3c;
+  constexpr static std::size_t addrs = 0x35589c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* (*)(int32_t)>(
     &::UnityEngine::UIElements::VisualElementListPool::Get)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3541be8;
+  constexpr static std::size_t addrs = 0x3558a6c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::VisualElementListPool::Release)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3541cc8;
+  constexpr static std::size_t addrs = 0x3558b4c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

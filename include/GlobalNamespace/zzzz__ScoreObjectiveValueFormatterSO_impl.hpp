@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ScoreObjectiveValueFormatterSO::*)(int32_t)>(
     &::GlobalNamespace::ScoreObjectiveValueFormatterSO::FormatValue)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x14d08bc;
+  constexpr static std::size_t addrs = 0x14da460;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreObjectiveValueFormatterSO::*)()>(
     &::GlobalNamespace::ScoreObjectiveValueFormatterSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14d0914;
+  constexpr static std::size_t addrs = 0x14da4b8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreObjectiveValueFormatterSO*>::get(),

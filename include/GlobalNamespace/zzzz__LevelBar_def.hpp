@@ -103,10 +103,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26847ac, size 0x1ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2698128, size 0x1ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2684958, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26982d4, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -168,10 +168,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2684964, size 0x184, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26982e0, size 0x184, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2684ae8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2698464, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -245,10 +245,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2684af4, size 0x69c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2698470, size 0x69c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2685190, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2698b0c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -385,16 +385,16 @@ public:
 
   static inline ::GlobalNamespace::LevelBar* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2684790, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x269810c, size 0x14, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Setup, addr 0x2684534, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2697eb0, size 0xb0, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapKey beatmapKey);
 
-  /// @brief Method Setup, addr 0x26845e4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2697f60, size 0xb8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  /// @brief Method SetupData, addr 0x268469c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetupData, addr 0x2698018, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SetupData(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                                                      ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
@@ -494,10 +494,10 @@ public:
 
   constexpr void __cordl_internal_set__useArtworkBackground(bool value);
 
-  /// @brief Method .ctor, addr 0x26847a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2698120, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_hide, addr 0x2684508, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x2697e84, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:

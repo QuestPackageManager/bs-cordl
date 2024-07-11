@@ -103,13 +103,13 @@ public:
 
   static inline ::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c* New_ctor();
 
-  /// @brief Method <Awake>b__10_0, addr 0x26dce68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__10_0, addr 0x26f2394, size 0x18, virtual false, abstract: false, final false
   inline int32_t _Awake_b__10_0(::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex item);
 
-  /// @brief Method <Awake>b__10_1, addr 0x26dce80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__10_1, addr 0x26f23ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t _Awake_b__10_1(::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex item);
 
-  /// @brief Method .ctor, addr 0x26dce60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f238c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c* getStaticF___9();
@@ -188,24 +188,24 @@ public:
   /// @brief Field _propertyName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName))::StringW _propertyName;
 
-  /// @brief Method Awake, addr 0x26dc8c0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26f1dec, size 0x19c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame, addr 0x26dcd98, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame, addr 0x26f22c4, size 0x5c, virtual false, abstract: false, final false
   inline void HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame();
 
   static inline ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26dcae8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26f2014, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetValue, addr 0x26dcb80, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x26f20ac, size 0x10c, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method Start, addr 0x26dca5c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26f1f88, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TriggerValue, addr 0x26dcc8c, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x26f21b8, size 0x10c, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -268,7 +268,7 @@ public:
 
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26dcdf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f2320, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

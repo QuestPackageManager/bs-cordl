@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2c1edd4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c337e8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, ::System::Type* type);
 
-  /// @brief Method get_Type, addr 0x2c1edf8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x2c3380c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:

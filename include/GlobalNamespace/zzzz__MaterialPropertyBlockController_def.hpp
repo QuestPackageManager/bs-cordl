@@ -47,12 +47,12 @@ public:
 
   __declspec(property(get = get_renderers))::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> renderers;
 
-  /// @brief Method ApplyChanges, addr 0x2510748, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ApplyChanges, addr 0x25249fc, size 0x1f0, virtual false, abstract: false, final false
   inline void ApplyChanges();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockController* New_ctor();
 
-  /// @brief Method SetRendererState, addr 0x2510ba8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetRendererState, addr 0x2524e5c, size 0x68, virtual false, abstract: false, final false
   inline void SetRendererState(bool newState);
 
   constexpr bool const& __cordl_internal_get__isInitialized() const;
@@ -79,13 +79,13 @@ public:
 
   constexpr void __cordl_internal_set__renderers(::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> value);
 
-  /// @brief Method .ctor, addr 0x2510d50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2525004, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_materialPropertyBlock, addr 0x25109ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlock, addr 0x2524c60, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
 
-  /// @brief Method get_renderers, addr 0x2510d48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderers, addr 0x2524ffc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> get_renderers();
 
 protected:

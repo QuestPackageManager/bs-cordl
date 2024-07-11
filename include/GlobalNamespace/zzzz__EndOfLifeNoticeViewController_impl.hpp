@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__EndOfLifeNoticeViewController___EnableOkButton_d__10::*)(int32_t)>(
     &::GlobalNamespace::__EndOfLifeNoticeViewController___EnableOkButton_d__10::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x264f7cc;
+  constexpr static std::size_t addrs = 0x2663610;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__EndOfLifeNoticeViewController___EnableOkButton_d__10::*)()>(
     &::GlobalNamespace::__EndOfLifeNoticeViewController___EnableOkButton_d__10::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x264f818;
+  constexpr static std::size_t addrs = 0x266365c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__EndOfLifeNoticeViewController___EnableOkButton_d__10::*)()>(
     &::GlobalNamespace::__EndOfLifeNoticeViewController___EnableOkButton_d__10::MoveNext)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x264f81c;
+  constexpr static std::size_t addrs = 0x2663660;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__EndOfLifeNoticeViewController___EnableOkButton_d__10::*)()>(
     &::GlobalNamespace::__EndOfLifeNoticeViewController___EnableOkButton_d__10::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264f8dc;
+  constexpr static std::size_t addrs = 0x2663720;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__EndOfLifeNoticeViewController___EnableOkButton_d__10::*)()>(
     &::GlobalNamespace::__EndOfLifeNoticeViewController___EnableOkButton_d__10::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x264f8e4;
+  constexpr static std::size_t addrs = 0x2663728;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__EndOfLifeNoticeViewController___EnableOkButton_d__10::*)()>(
     &::GlobalNamespace::__EndOfLifeNoticeViewController___EnableOkButton_d__10::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264f924;
+  constexpr static std::size_t addrs = 0x2663768;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EndOfLifeNoticeViewController::*)(::System::Action*)>(
     &::GlobalNamespace::EndOfLifeNoticeViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x264f4b8;
+  constexpr static std::size_t addrs = 0x26632fc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EndOfLifeNoticeViewController::*)(::System::Action*)>(
     &::GlobalNamespace::EndOfLifeNoticeViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x264f554;
+  constexpr static std::size_t addrs = 0x2663398;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EndOfLifeNoticeViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::EndOfLifeNoticeViewController::DidActivate)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x264f5f0;
+  constexpr static std::size_t addrs = 0x2663434;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::EndOfLifeNoticeViewController::*)()>(
     &::GlobalNamespace::EndOfLifeNoticeViewController::EnableOkButton)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x264f764;
+  constexpr static std::size_t addrs = 0x26635a8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EndOfLifeNoticeViewController*>::get(),
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EndOfLifeNoticeViewController::*)()>(
     &::GlobalNamespace::EndOfLifeNoticeViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264f7f4;
+  constexpr static std::size_t addrs = 0x2663638;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EndOfLifeNoticeViewController*>::get(),
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EndOfLifeNoticeViewController::*)()>(
     &::GlobalNamespace::EndOfLifeNoticeViewController::_DidActivate_b__9_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x264f7fc;
+  constexpr static std::size_t addrs = 0x2663640;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EndOfLifeNoticeViewController*>::get(),

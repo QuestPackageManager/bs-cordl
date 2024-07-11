@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Rect (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>*, ByRef<bool>)>(&::UnityEngine::UI::Clipping::FindCullAndClipWorldRect)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x34d16f0;
+  constexpr static std::size_t addrs = 0x34e4574;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

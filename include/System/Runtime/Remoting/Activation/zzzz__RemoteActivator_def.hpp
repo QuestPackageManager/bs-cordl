@@ -33,10 +33,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
   constexpr operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
 
-  /// @brief Method Activate, addr 0x28401ec, size 0x374, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x2852c00, size 0x374, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
-  /// @brief Method get_NextActivator, addr 0x2840560, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_NextActivator, addr 0x2852f74, size 0x40, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
   /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"

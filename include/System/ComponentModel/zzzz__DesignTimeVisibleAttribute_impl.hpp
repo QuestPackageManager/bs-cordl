@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DesignTimeVisibleAttribute::*)(bool)>(
     &::System::ComponentModel::DesignTimeVisibleAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2f5da6c;
+  constexpr static std::size_t addrs = 0x2f6a480;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DesignTimeVisibleAttribute::*)()>(
     &::System::ComponentModel::DesignTimeVisibleAttribute::get_Visible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f5da94;
+  constexpr static std::size_t addrs = 0x2f6a4a8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignTimeVisibleAttribute*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DesignTimeVisibleAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::DesignTimeVisibleAttribute::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2f5da9c;
+  constexpr static std::size_t addrs = 0x2f6a4b0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::DesignTimeVisibleAttribute::*)()>(
     &::System::ComponentModel::DesignTimeVisibleAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2f5db34;
+  constexpr static std::size_t addrs = 0x2f6a548;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DesignTimeVisibleAttribute::*)()>(
     &::System::ComponentModel::DesignTimeVisibleAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2f5dbd0;
+  constexpr static std::size_t addrs = 0x2f6a5e4;
 
   inline static const ::MethodInfo* methodInfo() {
 

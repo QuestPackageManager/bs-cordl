@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set__transformNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x2875a20, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x288a434, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> transformNames);
 
 protected:

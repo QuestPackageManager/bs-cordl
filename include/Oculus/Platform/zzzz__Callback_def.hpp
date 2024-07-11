@@ -55,7 +55,7 @@ public:
   /// @brief Field messageCallback, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_messageCallback, put = __cordl_internal_set_messageCallback))::Oculus::Platform::__Message__Callback* messageCallback;
 
-  /// @brief Method HandleMessage, addr 0x2ac6314, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method HandleMessage, addr 0x2ad9d28, size 0x1c, virtual true, abstract: false, final false
   inline void HandleMessage(::Oculus::Platform::Message* msg);
 
   static inline ::Oculus::Platform::__Callback__RequestCallback* New_ctor();
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set_messageCallback(::Oculus::Platform::__Message__Callback* value);
 
-  /// @brief Method .ctor, addr 0x2ac630c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad9d20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2ac5be4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad95f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Oculus::Platform::__Message__Callback* callback);
 
 protected:
@@ -175,28 +175,28 @@ public:
   static __declspec(property(get = getStaticF_requestIDsToRequests,
                              put = setStaticF_requestIDsToRequests))::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Request*>* requestIDsToRequests;
 
-  /// @brief Method AddRequest, addr 0x2ac5c0c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method AddRequest, addr 0x2ad9620, size 0xdc, virtual false, abstract: false, final false
   static inline void AddRequest(::Oculus::Platform::Request* request);
 
-  /// @brief Method FlushJoinIntentNotificationQueue, addr 0x2ac6190, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FlushJoinIntentNotificationQueue, addr 0x2ad9ba4, size 0xa0, virtual false, abstract: false, final false
   static inline void FlushJoinIntentNotificationQueue();
 
-  /// @brief Method HandleMessage, addr 0x2ac5e28, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method HandleMessage, addr 0x2ad983c, size 0x23c, virtual false, abstract: false, final false
   static inline void HandleMessage(::Oculus::Platform::Message* msg);
 
-  /// @brief Method OnApplicationQuit, addr 0x2ac60ec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x2ad9b00, size 0xa4, virtual false, abstract: false, final false
   static inline void OnApplicationQuit();
 
-  /// @brief Method RunCallbacks, addr 0x2ac5ce8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RunCallbacks, addr 0x2ad96fc, size 0x6c, virtual false, abstract: false, final false
   static inline void RunCallbacks();
 
-  /// @brief Method RunLimitedCallbacks, addr 0x2ac6064, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RunLimitedCallbacks, addr 0x2ad9a78, size 0x88, virtual false, abstract: false, final false
   static inline void RunLimitedCallbacks(uint32_t limit);
 
   /// @brief Method SetNotificationCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void SetNotificationCallback(::Oculus::Platform::__Message__MessageType type, ::Oculus::Platform::__Message_1__Callback<T>* callback);
 
-  /// @brief Method SetNotificationCallback, addr 0x2ac5ad0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SetNotificationCallback, addr 0x2ad94e4, size 0x114, virtual false, abstract: false, final false
   static inline void SetNotificationCallback(::Oculus::Platform::__Message__MessageType type, ::Oculus::Platform::__Message__Callback* callback);
 
   static inline bool getStaticF_hasRegisteredJoinIntentNotificationHandler();

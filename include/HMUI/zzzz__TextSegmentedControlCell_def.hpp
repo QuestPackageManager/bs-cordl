@@ -55,25 +55,25 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x251c580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2530834, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fontSize, addr 0x251c564, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_fontSize, addr 0x2530818, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_fontSize();
 
-  /// @brief Method get_preferredWidth, addr 0x251c50c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_preferredWidth, addr 0x25307c0, size 0x24, virtual false, abstract: false, final false
   inline float_t get_preferredWidth();
 
-  /// @brief Method get_text, addr 0x251c540, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x25307f4, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_fontSize, addr 0x251c4a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_fontSize, addr 0x253075c, size 0x1c, virtual false, abstract: false, final false
   inline void set_fontSize(float_t value);
 
-  /// @brief Method set_hideBackgroundImage, addr 0x251c4e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_hideBackgroundImage, addr 0x253079c, size 0x24, virtual false, abstract: false, final false
   inline void set_hideBackgroundImage(bool value);
 
-  /// @brief Method set_text, addr 0x251c4c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x2530778, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

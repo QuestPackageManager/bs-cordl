@@ -34,27 +34,27 @@ public:
   /// @brief Field enableButton, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_enableButton, put = __cordl_internal_set_enableButton))::UnityW<::UnityEngine::UI::Button> enableButton;
 
-  /// @brief Method Awake, addr 0x2b3d4b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2b4eecc, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DisableMultiModality, addr 0x2b3d630, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DisableMultiModality, addr 0x2b4f044, size 0x80, virtual false, abstract: false, final false
   inline void DisableMultiModality();
 
-  /// @brief Method EnableMultiModality, addr 0x2b3d5b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method EnableMultiModality, addr 0x2b4efc4, size 0x80, virtual false, abstract: false, final false
   inline void EnableMultiModality();
 
   static inline ::GlobalNamespace::OVRMultimodalHandsAndControllersSample* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2b3d4bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2b4eed0, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x2b3d4c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2b4eed8, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2b3d4c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2b4eed4, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x2b3d4c8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2b4eedc, size 0xe8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_disableButton() const;
@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_enableButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method .ctor, addr 0x2b3d6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b4f0c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

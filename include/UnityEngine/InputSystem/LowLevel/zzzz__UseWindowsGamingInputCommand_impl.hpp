@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::UseWindowsGamingInputCommand::get_Type)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x317b6cc;
+  constexpr static std::size_t addrs = 0x318e550;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (
     ::UnityEngine::InputSystem::LowLevel::UseWindowsGamingInputCommand::*)()>(&::UnityEngine::InputSystem::LowLevel::UseWindowsGamingInputCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x317b6fc;
+  constexpr static std::size_t addrs = 0x318e580;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::UseWindowsGamingInputCommand (*)(bool)>(
     &::UnityEngine::InputSystem::LowLevel::UseWindowsGamingInputCommand::Create)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x317b72c;
+  constexpr static std::size_t addrs = 0x318e5b0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

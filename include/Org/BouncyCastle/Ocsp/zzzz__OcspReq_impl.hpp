@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::OcspReq::*)(::Org::BouncyCastle::Asn1::Ocsp::OcspRequest*)>(
     &::Org::BouncyCastle::Ocsp::OcspReq::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x13096c0;
+  constexpr static std::size_t addrs = 0x13129b8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::OcspReq::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Ocsp::OcspReq::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x13096e8;
+  constexpr static std::size_t addrs = 0x13129e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::OcspReq::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Ocsp::OcspReq::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x13098ac;
+  constexpr static std::size_t addrs = 0x1312ba4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::OcspReq::*)(::Org::BouncyCastle::Asn1::Asn1InputStream*)>(
     &::Org::BouncyCastle::Ocsp::OcspReq::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x130975c;
+  constexpr static std::size_t addrs = 0x1312a54;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Ocsp::OcspReq::*)()>(
     &::Org::BouncyCastle::Ocsp::OcspReq::GetTbsRequest)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x1309920;
+  constexpr static std::size_t addrs = 0x1312c18;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::OcspReq*>::get(), "GetTbsRequest",
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Ocsp::OcspReq::*)()>(&::Org::BouncyCastle::Ocsp::OcspReq::get_Version)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x1309a18;
+  constexpr static std::size_t addrs = 0x1312d10;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::OcspReq*>::get(), "get_Version",
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralName* (::Org::BouncyCastle::Ocsp::OcspReq::*)()>(
     &::Org::BouncyCastle::Ocsp::OcspReq::get_RequestorName)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1309a4c;
+  constexpr static std::size_t addrs = 0x1312d44;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::OcspReq*>::get(), "get_RequestorName",
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::Org::BouncyCastle::Ocsp::Req*, ::Array<::Org::BouncyCastle::Ocsp::Req*>*> (::Org::BouncyCastle::Ocsp::OcspReq::*)()>(&::Org::BouncyCastle::Ocsp::OcspReq::GetRequestList)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x1309a74;
+  constexpr static std::size_t addrs = 0x1312d6c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::OcspReq*>::get(), "GetRequestList",
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (::Org::BouncyCastle::Ocsp::OcspReq::*)()>(
     &::Org::BouncyCastle::Ocsp::OcspReq::get_RequestExtensions)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x1309bdc;
+  constexpr static std::size_t addrs = 0x1312ed4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::OcspReq*>::get(),
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (::Org::BouncyCastle::Ocsp::OcspReq::*)()>(
     &::Org::BouncyCastle::Ocsp::OcspReq::GetX509Extensions)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x1309c4c;
+  constexpr static std::size_t addrs = 0x1312f44;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Ocsp::OcspReq::*)()>(&::Org::BouncyCastle::Ocsp::OcspReq::get_SignatureAlgOid)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1309c50;
+  constexpr static std::size_t addrs = 0x1312f48;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::OcspReq*>::get(),
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Ocsp::OcspReq::*)()>(
     &::Org::BouncyCastle::Ocsp::OcspReq::GetSignature)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x1309cb8;
+  constexpr static std::size_t addrs = 0x1312fb0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::OcspReq*>::get(), "GetSignature",
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::Org::BouncyCastle::Ocsp::OcspReq::*)()>(
     &::Org::BouncyCastle::Ocsp::OcspReq::GetCertList)> {
   constexpr static std::size_t size = 0x4d8;
-  constexpr static std::size_t addrs = 0x1309ce4;
+  constexpr static std::size_t addrs = 0x1312fdc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::OcspReq*>::get(), "GetCertList",
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::X509::X509Certificate*, ::Array<::Org::BouncyCastle::X509::X509Certificate*>*> (
     ::Org::BouncyCastle::Ocsp::OcspReq::*)()>(&::Org::BouncyCastle::Ocsp::OcspReq::GetCerts)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x130a1bc;
+  constexpr static std::size_t addrs = 0x13134b4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::OcspReq*>::get(), "GetCerts",
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::Store::IX509Store* (::Org::BouncyCastle::Ocsp::OcspReq::*)(::StringW)>(
     &::Org::BouncyCastle::Ocsp::OcspReq::GetCertificates)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x130a458;
+  constexpr static std::size_t addrs = 0x1313750;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Ocsp::OcspReq::*)()>(&::Org::BouncyCastle::Ocsp::OcspReq::get_IsSigned)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x1309c94;
+  constexpr static std::size_t addrs = 0x1312f8c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::OcspReq*>::get(), "get_IsSigned",
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Ocsp::OcspReq::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::Ocsp::OcspReq::Verify)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x130a5e8;
+  constexpr static std::size_t addrs = 0x13138e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Ocsp::OcspReq::*)()>(
     &::Org::BouncyCastle::Ocsp::OcspReq::GetEncoded)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x130a930;
+  constexpr static std::size_t addrs = 0x1313c28;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::OcspReq*>::get(), "GetEncoded",

@@ -38,21 +38,21 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::NullCheckInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x2c64498, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c77eac, size 0x64, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c64440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c77e54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_Instance();
 
-  /// @brief Method get_ConsumedStack, addr 0x2c64448, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2c77e5c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2c64458, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c77e6c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2c64450, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2c77e64, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_Instance(::System::Linq::Expressions::Interpreter::Instruction* value);

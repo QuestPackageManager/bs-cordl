@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaMaxExclusiveFacet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e34904, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e45318, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

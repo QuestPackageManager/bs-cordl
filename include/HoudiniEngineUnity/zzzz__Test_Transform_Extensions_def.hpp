@@ -50,13 +50,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_Transform_Extensions____c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x25e0b5c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x25f4e10, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Transform* _ToTestObject_b__1_0(::UnityEngine::Transform* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x25e0bc0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x25f4e74, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Transform* _ToTestObject_b__2_0(::UnityEngine::Transform* lod);
 
-  /// @brief Method .ctor, addr 0x25e0b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f4e08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_Transform_Extensions____c* getStaticF___9();
@@ -101,14 +101,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_Transform_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x25e08fc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x25f4bb0, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Transform*, ::Array<::HoudiniEngineUnity::Test_Transform*>*>
   ToTestObject(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x25de294, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x25f2548, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_Transform* ToTestObject(::UnityEngine::Transform* self);
 
-  /// @brief Method ToTestObject, addr 0x25e09f4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x25f4ca8, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Transform*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* self);
 
 protected:

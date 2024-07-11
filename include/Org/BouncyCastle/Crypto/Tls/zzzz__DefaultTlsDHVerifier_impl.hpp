@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Crypto::Parameters::DHParameters*)>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::AddDefaultGroup)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x11c893c;
+  constexpr static std::size_t addrs = 0x11d4c34;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x11c8488;
+  constexpr static std::size_t addrs = 0x11d4780;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x11c8b64;
+  constexpr static std::size_t addrs = 0x11d4e5c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)(::System::Collections::IList*, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x11c8be0;
+  constexpr static std::size_t addrs = 0x11d4ed8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)(
     ::Org::BouncyCastle::Crypto::Parameters::DHParameters*)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::Accept)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x11c8c10;
+  constexpr static std::size_t addrs = 0x11d4f08;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::get_MinimumPrimeBits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11c8c5c;
+  constexpr static std::size_t addrs = 0x11d4f54;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)(
     ::Org::BouncyCastle::Crypto::Parameters::DHParameters*, ::Org::BouncyCastle::Crypto::Parameters::DHParameters*)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::AreGroupsEqual)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x11c8c64;
+  constexpr static std::size_t addrs = 0x11d4f5c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::AreParametersEqual)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x11c8cdc;
+  constexpr static std::size_t addrs = 0x11d4fd4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)(
     ::Org::BouncyCastle::Crypto::Parameters::DHParameters*)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::CheckGroup)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x11c8d18;
+  constexpr static std::size_t addrs = 0x11d5010;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::*)(
     ::Org::BouncyCastle::Crypto::Parameters::DHParameters*)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::CheckMinimumPrimeBits)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x11c908c;
+  constexpr static std::size_t addrs = 0x11d5384;
 
   inline static const ::MethodInfo* methodInfo() {
 

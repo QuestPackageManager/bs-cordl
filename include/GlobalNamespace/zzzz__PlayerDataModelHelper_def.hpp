@@ -37,23 +37,23 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlayerDataModelHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToPlayerAllOverallStatsData, addr 0x14ef554, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ToPlayerAllOverallStatsData, addr 0x14fa740, size 0xe8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::__PlayerSaveDataV1_0_1__PlayerAllOverallStatsData* playerAllOverallStatsData);
 
-  /// @brief Method ToPlayerAllOverallStatsData, addr 0x14eeeb0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ToPlayerAllOverallStatsData, addr 0x14fa09c, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* playerAllOverallStatsData);
 
-  /// @brief Method ToPlayerAllOverallStatsData, addr 0x14ecae4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ToPlayerAllOverallStatsData, addr 0x14f7cd0, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData* playerAllOverallStatsData);
 
-  /// @brief Method ToPlayerOverallStats, addr 0x14f02c8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ToPlayerOverallStats, addr 0x14fb4b4, size 0xd0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*
   ToPlayerOverallStats(::GlobalNamespace::__PlayerSaveDataV1_0_1__PlayerOverallStatsData* playerAllOverallStatsData);
 
-  /// @brief Method ToPlayerOverallStats, addr 0x14f01f8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ToPlayerOverallStats, addr 0x14fb3e4, size 0xd0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* ToPlayerOverallStats(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* playerAllOverallStatsData);
 
-  /// @brief Method ToPlayerOverallStatsData, addr 0x14f0458, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ToPlayerOverallStatsData, addr 0x14fb644, size 0xec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* ToPlayerOverallStatsData(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* playerOverallStatsData);
 
 protected:

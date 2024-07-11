@@ -28,7 +28,7 @@ namespace BGNet::Core::GameLift {
 struct CORDL_TYPE GetMultiplayerInstanceResponse {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x10c5f40, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10d2238, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo, int32_t pollIntervalMs, ::StringW ticketId,
                     ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus);
 

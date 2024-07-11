@@ -24,24 +24,24 @@ namespace Org::BouncyCastle::Crypto::Generators {
 class CORDL_TYPE Poly1305KeyGenerator : public ::Org::BouncyCastle::Crypto::CipherKeyGenerator {
 public:
   // Declarations
-  /// @brief Method CheckKey, addr 0x116b6c4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CheckKey, addr 0x11769bc, size 0x10c, virtual false, abstract: false, final false
   static inline void CheckKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method CheckMask, addr 0x116b7d0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CheckMask, addr 0x1176ac8, size 0x60, virtual false, abstract: false, final false
   static inline void CheckMask(uint8_t b, uint8_t mask);
 
-  /// @brief Method Clamp, addr 0x116b604, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x11768fc, size 0xc0, virtual false, abstract: false, final false
   static inline void Clamp(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x116b830, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1176b28, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method engineGenerateKey, addr 0x116b5e8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method engineGenerateKey, addr 0x11768e0, size 0x1c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> engineGenerateKey();
 
-  /// @brief Method engineInit, addr 0x116b5c4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method engineInit, addr 0x11768bc, size 0x24, virtual true, abstract: false, final false
   inline void engineInit(::Org::BouncyCastle::Crypto::KeyGenerationParameters* param);
 
 protected:

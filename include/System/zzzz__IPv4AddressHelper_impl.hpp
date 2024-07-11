@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::ReadOnlySpan_1<char16_t>, int32_t, int32_t)>(&::System::IPv4AddressHelper::ParseHostNumber)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2c91bf8;
+  constexpr static std::size_t addrs = 0x2ca560c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<char16_t>, int32_t, ByRef<int32_t>, bool, bool, bool)>(
     &::System::IPv4AddressHelper::IsValid)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2c91cb4;
+  constexpr static std::size_t addrs = 0x2ca56c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::cordl_internals::Ptr<uint8_t>, int32_t, int32_t)>(
     &::System::IPv4AddressHelper::ParseCanonical)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2c91c28;
+  constexpr static std::size_t addrs = 0x2ca563c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<char16_t>, int32_t, ByRef<int32_t>, bool, bool)>(
     &::System::IPv4AddressHelper::IsValidCanonical)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x2c91ce4;
+  constexpr static std::size_t addrs = 0x2ca56f8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::cordl_internals::Ptr<char16_t>, int32_t, ByRef<int32_t>, bool)>(
     &::System::IPv4AddressHelper::ParseNonCanonical)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x2c91e24;
+  constexpr static std::size_t addrs = 0x2ca5838;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int32_t, int32_t, ByRef<bool>)>(&::System::IPv4AddressHelper::ParseCanonicalName)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x2c92118;
+  constexpr static std::size_t addrs = 0x2ca5b2c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,8 +106,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::cordl_internals::Ptr<uint8_t>, int32_t, int32_t)>(&::System::IPv4AddressHelper::Parse)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2c92340;
+  constexpr static std::size_t size = 0x106c;
+  constexpr static std::size_t addrs = 0x2ca5d54;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

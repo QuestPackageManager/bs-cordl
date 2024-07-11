@@ -47,21 +47,21 @@ public:
   /// @brief Field s_instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_instance, put = setStaticF_s_instance))::TMPro::TMP_ResourceManager* s_instance;
 
-  /// @brief Method AddFontAsset, addr 0x339ed98, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AddFontAsset, addr 0x33acc1c, size 0x154, virtual false, abstract: false, final false
   static inline void AddFontAsset(::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method GetTextSettings, addr 0x339ec88, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetTextSettings, addr 0x33acb0c, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_Settings> GetTextSettings();
 
   static inline ::TMPro::TMP_ResourceManager* New_ctor();
 
-  /// @brief Method RebuildFontAssetCache, addr 0x339ef80, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method RebuildFontAssetCache, addr 0x33ace04, size 0x118, virtual false, abstract: false, final false
   static inline void RebuildFontAssetCache(int32_t instanceID);
 
-  /// @brief Method TryGetFontAsset, addr 0x339eeec, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryGetFontAsset, addr 0x33acd70, size 0x94, virtual false, abstract: false, final false
   static inline bool TryGetFontAsset(int32_t hashcode, ByRef<::TMPro::TMP_FontAsset*> fontAsset);
 
-  /// @brief Method .ctor, addr 0x339ec80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33acb04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* getStaticF_s_FontAssetReferenceLookup();

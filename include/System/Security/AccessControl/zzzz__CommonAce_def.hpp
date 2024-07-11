@@ -35,10 +35,10 @@ public:
   // Declarations
   __declspec(property(get = get_BinaryLength)) int32_t BinaryLength;
 
-  /// @brief Method ConvertType, addr 0x281be20, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ConvertType, addr 0x282e834, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Security::AccessControl::AceType ConvertType(::System::Security::AccessControl::AceQualifier qualifier, bool isCallback);
 
-  /// @brief Method GetBinaryForm, addr 0x281c2f8, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method GetBinaryForm, addr 0x282ed0c, size 0xe4, virtual true, abstract: false, final false
   inline void GetBinaryForm(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
   static inline ::System::Security::AccessControl::CommonAce* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
@@ -46,14 +46,14 @@ public:
   static inline ::System::Security::AccessControl::CommonAce* New_ctor(::System::Security::AccessControl::AceFlags flags, ::System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask,
                                                                        ::System::Security::Principal::SecurityIdentifier* sid, bool isCallback, ::ArrayW<uint8_t, ::Array<uint8_t>*> opaque);
 
-  /// @brief Method .ctor, addr 0x281bf58, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x282e96c, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method .ctor, addr 0x281bdc0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x282e7d4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::AccessControl::AceFlags flags, ::System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask,
                     ::System::Security::Principal::SecurityIdentifier* sid, bool isCallback, ::ArrayW<uint8_t, ::Array<uint8_t>*> opaque);
 
-  /// @brief Method get_BinaryLength, addr 0x281c2a8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_BinaryLength, addr 0x282ecbc, size 0x38, virtual true, abstract: false, final false
   inline int32_t get_BinaryLength();
 
 protected:

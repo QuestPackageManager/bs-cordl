@@ -36,10 +36,10 @@ public:
 
   static inline ::GlobalNamespace::PointLight* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2508c88, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x251cf3c, size 0x80, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2508bb8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x251ce6c, size 0xd0, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
@@ -54,12 +54,12 @@ public:
 
   constexpr void __cordl_internal_set_intensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x2508d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251cfbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* getStaticF__lights();
 
-  /// @brief Method get_lights, addr 0x2508b60, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_lights, addr 0x251ce14, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* get_lights();
 
   static inline void setStaticF__lights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* value);

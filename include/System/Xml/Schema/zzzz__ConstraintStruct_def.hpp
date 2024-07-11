@@ -90,10 +90,10 @@ public:
 
   constexpr void __cordl_internal_set_tableDim(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2f17e34, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f25848, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::CompiledIdentityConstraint* constraint);
 
-  /// @brief Method get_TableDim, addr 0x2f17e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TableDim, addr 0x2f25840, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TableDim();
 
 protected:

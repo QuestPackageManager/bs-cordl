@@ -64,37 +64,37 @@ namespace GlobalNamespace {
 class CORDL_TYPE ExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ContainsLayer, addr 0x108aa44, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ContainsLayer, addr 0x1096d3c, size 0x38, virtual false, abstract: false, final false
   static inline bool ContainsLayer(::UnityEngine::LayerMask layerMask, int32_t layer);
 
-  /// @brief Method CreateTexture2D, addr 0x108aec4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method CreateTexture2D, addr 0x10971bc, size 0x148, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> CreateTexture2D(::UnityEngine::RenderTexture* renderTexture, ::UnityEngine::TextureFormat textureFormat);
 
-  /// @brief Method GetPath, addr 0x108ac60, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetPath, addr 0x1096f58, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetPath(::UnityEngine::Transform* current);
 
-  /// @brief Method IsDescendantOf, addr 0x108ab3c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsDescendantOf, addr 0x1096e34, size 0xcc, virtual false, abstract: false, final false
   static inline bool IsDescendantOf(::UnityEngine::Transform* transform, ::UnityEngine::Transform* parent);
 
-  /// @brief Method Reflect, addr 0x108ad60, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Reflect, addr 0x1097058, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Reflect(::UnityEngine::Quaternion source, ::UnityEngine::Vector3 normal);
 
-  /// @brief Method Rotate, addr 0x108b00c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x1097304, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Rotate(::UnityEngine::Vector2 vector, float_t rads);
 
-  /// @brief Method SetLocalPositionAndRotation, addr 0x108ac08, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPositionAndRotation, addr 0x1096f00, size 0x58, virtual false, abstract: false, final false
   static inline void SetLocalPositionAndRotation(::UnityEngine::Transform* tr, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
 
-  /// @brief Method SetSeed, addr 0x108b054, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetSeed, addr 0x109734c, size 0x74, virtual false, abstract: false, final false
   static inline void SetSeed(::UnityEngine::ParticleSystem* particleSystem, uint32_t seed);
 
-  /// @brief Method StartUniqueCoroutine, addr 0x108aa7c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method StartUniqueCoroutine, addr 0x1096d74, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Coroutine* StartUniqueCoroutine(::UnityEngine::MonoBehaviour* m, ::System::Func_1<::System::Collections::IEnumerator*>* func);
 
   /// @brief Method StartUniqueCoroutine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::UnityEngine::Coroutine* StartUniqueCoroutine(::UnityEngine::MonoBehaviour* m, ::System::Func_2<T, ::System::Collections::IEnumerator*>* func, T value);
 
-  /// @brief Method StopUniqueCoroutine, addr 0x108aaf8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopUniqueCoroutine, addr 0x1096df0, size 0x44, virtual false, abstract: false, final false
   static inline void StopUniqueCoroutine(::UnityEngine::MonoBehaviour* m, ::System::Func_1<::System::Collections::IEnumerator*>* func);
 
   /// @brief Method StopUniqueCoroutine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

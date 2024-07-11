@@ -28,10 +28,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanInt16* New_ctor(::System::Object* nullValue);
 
-  /// @brief Method Run, addr 0x2c3c64c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c50060, size 0xdc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c3c3e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c4fdf4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* nullValue);
 
 protected:

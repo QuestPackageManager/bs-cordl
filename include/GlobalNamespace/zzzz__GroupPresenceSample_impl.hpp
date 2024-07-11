@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)()>(&::GlobalNamespace::GroupPresenceSample::Start)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2ac0424;
+  constexpr static std::size_t addrs = 0x2ad3e38;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GroupPresenceSample*>::get(), "Start",
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)()>(&::GlobalNamespace::GroupPresenceSample::SetPresence)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x2ac0888;
+  constexpr static std::size_t addrs = 0x2ad429c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GroupPresenceSample*>::get(), "SetPresence",
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)()>(&::GlobalNamespace::GroupPresenceSample::ClearPresence)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2ac0f48;
+  constexpr static std::size_t addrs = 0x2ad495c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GroupPresenceSample*>::get(), "ClearPresence",
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)()>(&::GlobalNamespace::GroupPresenceSample::LaunchInvitePanel)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2ac1140;
+  constexpr static std::size_t addrs = 0x2ad4b54;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GroupPresenceSample*>::get(),
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)()>(&::GlobalNamespace::GroupPresenceSample::LaunchRosterPanel)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2ac14b8;
+  constexpr static std::size_t addrs = 0x2ad4ecc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GroupPresenceSample*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceJoinIntent*>*)>(&::GlobalNamespace::GroupPresenceSample::OnJoinIntentChangeNotif)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x2ac1800;
+  constexpr static std::size_t addrs = 0x2ad5214;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceLeaveIntent*>*)>(&::GlobalNamespace::GroupPresenceSample::OnLeaveIntentChangeNotif)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x2ac1b6c;
+  constexpr static std::size_t addrs = 0x2ad5580;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchInvitePanelFlowResult*>*)>(&::GlobalNamespace::GroupPresenceSample::OnInviteSentNotif)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x2ac1dd4;
+  constexpr static std::size_t addrs = 0x2ad57e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::DestinationList*>*)>(&::GlobalNamespace::GroupPresenceSample::OnGetDestinations)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x2ac21b0;
+  constexpr static std::size_t addrs = 0x2ad5bc4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)()>(&::GlobalNamespace::GroupPresenceSample::Update)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2ac267c;
+  constexpr static std::size_t addrs = 0x2ad6090;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GroupPresenceSample*>::get(), "Update",
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)()>(
     &::GlobalNamespace::GroupPresenceSample::ScrollThroughDestinations)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2ac2794;
+  constexpr static std::size_t addrs = 0x2ad61a8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GroupPresenceSample*>::get(),
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)()>(
     &::GlobalNamespace::GroupPresenceSample::UpdateDestinationsConsole)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x2ac2510;
+  constexpr static std::size_t addrs = 0x2ad5f24;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GroupPresenceSample*>::get(),
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*)>(
     &::GlobalNamespace::GroupPresenceSample::OnLoggedInUser)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2ac2880;
+  constexpr static std::size_t addrs = 0x2ad6294;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)(::StringW)>(
     &::GlobalNamespace::GroupPresenceSample::UpdateConsole)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2ac051c;
+  constexpr static std::size_t addrs = 0x2ad3f30;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GroupPresenceSample::*)()>(&::GlobalNamespace::GroupPresenceSample::PressAButton)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ac2764;
+  constexpr static std::size_t addrs = 0x2ad6178;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GroupPresenceSample*>::get(), "PressAButton",
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GroupPresenceSample::*)()>(&::GlobalNamespace::GroupPresenceSample::PressBButton)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ac2770;
+  constexpr static std::size_t addrs = 0x2ad6184;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GroupPresenceSample*>::get(), "PressBButton",
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GroupPresenceSample::*)()>(&::GlobalNamespace::GroupPresenceSample::PressXButton)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ac277c;
+  constexpr static std::size_t addrs = 0x2ad6190;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GroupPresenceSample*>::get(), "PressXButton",
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GroupPresenceSample::*)()>(&::GlobalNamespace::GroupPresenceSample::PressYButton)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ac2788;
+  constexpr static std::size_t addrs = 0x2ad619c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GroupPresenceSample*>::get(), "PressYButton",
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GroupPresenceSample::*)()>(&::GlobalNamespace::GroupPresenceSample::PressUp)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ac2868;
+  constexpr static std::size_t addrs = 0x2ad627c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GroupPresenceSample*>::get(), "PressUp",
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GroupPresenceSample::*)()>(&::GlobalNamespace::GroupPresenceSample::PressDown)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ac2874;
+  constexpr static std::size_t addrs = 0x2ad6288;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GroupPresenceSample*>::get(), "PressDown",
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)()>(&::GlobalNamespace::GroupPresenceSample::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2ac2928;
+  constexpr static std::size_t addrs = 0x2ad633c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GroupPresenceSample*>::get(), ".ctor",
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*)>(&::GlobalNamespace::GroupPresenceSample::_Start_b__8_0)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x2ac29ac;
+  constexpr static std::size_t addrs = 0x2ad63c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)(::Oculus::Platform::Message*)>(
     &::GlobalNamespace::GroupPresenceSample::_SetPresence_b__9_0)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2ac3030;
+  constexpr static std::size_t addrs = 0x2ad6a44;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*)>(
     &::GlobalNamespace::GroupPresenceSample::_SetPresence_b__9_1)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x2ac3274;
+  constexpr static std::size_t addrs = 0x2ad6c88;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)(::Oculus::Platform::Message*)>(
     &::GlobalNamespace::GroupPresenceSample::_ClearPresence_b__10_0)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2ac3474;
+  constexpr static std::size_t addrs = 0x2ad6e88;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*)>(
     &::GlobalNamespace::GroupPresenceSample::_ClearPresence_b__10_1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2ac3558;
+  constexpr static std::size_t addrs = 0x2ad6f6c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::InvitePanelResultInfo*>*)>(&::GlobalNamespace::GroupPresenceSample::_LaunchInvitePanel_b__11_0)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2ac360c;
+  constexpr static std::size_t addrs = 0x2ad7020;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -396,7 +396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GroupPresenceSample::*)(::Oculus::Platform::Message*)>(
     &::GlobalNamespace::GroupPresenceSample::_LaunchRosterPanel_b__12_0)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2ac3654;
+  constexpr static std::size_t addrs = 0x2ad7068;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

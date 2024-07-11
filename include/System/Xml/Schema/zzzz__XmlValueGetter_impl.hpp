@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlValueGetter::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Xml::Schema::XmlValueGetter::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2e41708;
+  constexpr static std::size_t addrs = 0x2e5111c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::XmlValueGetter::*)()>(&::System::Xml::Schema::XmlValueGetter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2e417c4;
+  constexpr static std::size_t addrs = 0x2e511d8;
 
   inline static const ::MethodInfo* methodInfo() {
 

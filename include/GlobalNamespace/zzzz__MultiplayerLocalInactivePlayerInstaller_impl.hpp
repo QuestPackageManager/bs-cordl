@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x2715d5c;
+  constexpr static std::size_t size = 0x424;
+  constexpr static std::size_t addrs = 0x272a284;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27160e4;
+  constexpr static std::size_t addrs = 0x272a6f4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

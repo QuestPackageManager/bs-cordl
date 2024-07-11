@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::SaveDataCore::VersionableSaveData::*)()>(&::BGLib::SaveDataCore::VersionableSaveData::get_isDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1088fa0;
+  constexpr static std::size_t addrs = 0x1095298;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::SaveDataCore::VersionableSaveData::*)(bool)>(
     &::BGLib::SaveDataCore::VersionableSaveData::set_isDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1088fac;
+  constexpr static std::size_t addrs = 0x10952a4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::SaveDataCore::VersionableSaveData::*)()>(&::BGLib::SaveDataCore::VersionableSaveData::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x1088fb8;
+  constexpr static std::size_t addrs = 0x10952b0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::SaveDataCore::VersionableSaveData*>::get(), ".ctor",

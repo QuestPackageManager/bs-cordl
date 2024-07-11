@@ -97,16 +97,16 @@ public:
 
   static inline ::GlobalNamespace::FireEffect* New_ctor();
 
-  /// @brief Method NotifyAlphaWasChanged, addr 0x1064c78, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method NotifyAlphaWasChanged, addr 0x106b828, size 0xc0, virtual false, abstract: false, final false
   inline void NotifyAlphaWasChanged(float_t currentAlpha);
 
-  /// @brief Method OnDestroy, addr 0x10647f4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x106b3a4, size 0x2c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetRenderersEnabled, addr 0x1064a58, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetRenderersEnabled, addr 0x106b608, size 0x8c, virtual false, abstract: false, final false
   inline void SetRenderersEnabled(bool enabled);
 
-  /// @brief Method Start, addr 0x1064594, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x106b144, size 0x120, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -193,7 +193,7 @@ public:
 
   constexpr void __cordl_internal_set__privatePointLightPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0x1064dbc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x106b96c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

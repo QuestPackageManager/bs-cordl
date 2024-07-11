@@ -40,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set_next(::System::Xml::XmlLinkedNode* value);
 
-  /// @brief Method .ctor, addr 0x2eb05b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ebffcc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_NextSibling, addr 0x2eb897c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_NextSibling, addr 0x2ec8390, size 0x50, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_NextSibling();
 
-  /// @brief Method get_PreviousSibling, addr 0x2eb8914, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_PreviousSibling, addr 0x2ec8328, size 0x68, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_PreviousSibling();
 
 protected:

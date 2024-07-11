@@ -42,10 +42,10 @@ public:
   /// @brief Field targetNS, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_targetNS, put = __cordl_internal_set_targetNS))::StringW targetNS;
 
-  /// @brief Method Equals, addr 0x2f177ac, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2f251c0, size 0xdc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2f1772c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2f25140, size 0x80, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Xml::Schema::ChameleonKey* New_ctor(::StringW ns, ::System::Xml::Schema::XmlSchema* originalSchema);
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_targetNS(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f176d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f250e8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW ns, ::System::Xml::Schema::XmlSchema* originalSchema);
 
 protected:

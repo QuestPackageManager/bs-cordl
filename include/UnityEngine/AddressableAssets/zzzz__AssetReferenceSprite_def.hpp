@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceSprite* New_ctor(::StringW guid);
 
-  /// @brief Method ValidateAsset, addr 0x3076648, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x30864cc, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
-  /// @brief Method .ctor, addr 0x30765f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3086474, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
 protected:

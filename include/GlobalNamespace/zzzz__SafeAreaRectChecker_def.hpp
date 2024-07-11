@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_checkingEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x27518cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2767254, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool checkingEnabled);
 
 protected:
@@ -124,10 +124,10 @@ public:
 
   static inline ::GlobalNamespace::SafeAreaRectChecker* New_ctor();
 
-  /// @brief Method Start, addr 0x2751618, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2766fa0, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x275167c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2767004, size 0x1ec, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__activeObjectWhenInsideSafeArea() const;
@@ -190,7 +190,7 @@ public:
 
   constexpr void __cordl_internal_set__rectTransformToCheck(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x2751868, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27671f0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

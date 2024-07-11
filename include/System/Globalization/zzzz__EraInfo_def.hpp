@@ -98,10 +98,10 @@ public:
 
   constexpr void __cordl_internal_set_yearOffset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2901d60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2915774, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear);
 
-  /// @brief Method .ctor, addr 0x2901dfc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2915810, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear, ::StringW eraName, ::StringW abbrevEraName,
                     ::StringW englishEraName);
 

@@ -111,60 +111,60 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method DoInvoke, addr 0x289079c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method DoInvoke, addr 0x28a41b0, size 0x1f4, virtual false, abstract: false, final false
   inline ::System::Object* DoInvoke(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                                     ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method GetCustomAttributes, addr 0x2890c90, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x28a46a4, size 0x70, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x2890c28, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x28a463c, size 0x68, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetMethodImplementationFlags, addr 0x2890630, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetMethodImplementationFlags, addr 0x28a4044, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodImplAttributes GetMethodImplementationFlags();
 
-  /// @brief Method GetObjectData, addr 0x2890428, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x28a3e3c, size 0xdc, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetParameters, addr 0x289065c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetParameters, addr 0x28a4070, size 0xc, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParameters();
 
-  /// @brief Method GetParametersCount, addr 0x2890674, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetParametersCount, addr 0x28a4088, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetParametersCount();
 
-  /// @brief Method GetParametersInternal, addr 0x2890668, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetParametersInternal, addr 0x28a407c, size 0xc, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParametersInternal();
 
-  /// @brief Method GetRuntimeModule, addr 0x2890314, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeModule, addr 0x28a3d28, size 0x88, virtual false, abstract: false, final false
   inline ::System::Reflection::RuntimeModule* GetRuntimeModule();
 
-  /// @brief Method InternalInvoke, addr 0x2890694, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalInvoke, addr 0x28a40a8, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* InternalInvoke(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters, ByRef<::System::Exception*> exc);
 
-  /// @brief Method InternalInvoke, addr 0x2890990, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method InternalInvoke, addr 0x28a43a4, size 0x160, virtual false, abstract: false, final false
   inline ::System::Object* InternalInvoke(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters, bool wrapExceptions);
 
-  /// @brief Method Invoke, addr 0x2890af0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x28a4504, size 0x18, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters,
                                   ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method Invoke, addr 0x2890698, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x28a40ac, size 0x104, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                                   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method IsDefined, addr 0x2890bb8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x28a45cc, size 0x70, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
   static inline ::System::Reflection::RuntimeConstructorInfo* New_ctor();
 
-  /// @brief Method SerializationInvoke, addr 0x2890518, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SerializationInvoke, addr 0x28a3f2c, size 0x118, virtual false, abstract: false, final false
   inline void SerializationInvoke(::System::Object* target, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SerializationToString, addr 0x2890504, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SerializationToString, addr 0x28a3f18, size 0x14, virtual false, abstract: false, final false
   inline ::StringW SerializationToString();
 
-  /// @brief Method ToString, addr 0x2890d00, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x28a4714, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::IntPtr const& __cordl_internal_get_mhandle() const;
@@ -185,49 +185,49 @@ public:
 
   constexpr void __cordl_internal_set_reftype(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2890d80, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28a4794, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Attributes, addr 0x2890b10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x28a4524, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodAttributes get_Attributes();
 
-  /// @brief Method get_BindingFlags, addr 0x289039c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindingFlags, addr 0x28a3db0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::BindingFlags get_BindingFlags();
 
-  /// @brief Method get_CallingConvention, addr 0x2890b18, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_CallingConvention, addr 0x28a452c, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Reflection::CallingConventions get_CallingConvention();
 
-  /// @brief Method get_ContainsGenericParameters, addr 0x2890b44, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_ContainsGenericParameters, addr 0x28a4558, size 0x2c, virtual true, abstract: false, final false
   inline bool get_ContainsGenericParameters();
 
-  /// @brief Method get_DeclaringType, addr 0x2890b78, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_DeclaringType, addr 0x28a458c, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Type* get_DeclaringType();
 
-  /// @brief Method get_IsSecurityCritical, addr 0x2890d70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsSecurityCritical, addr 0x28a4784, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsSecurityCritical();
 
-  /// @brief Method get_MetadataToken, addr 0x2890d78, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_MetadataToken, addr 0x28a478c, size 0x4, virtual true, abstract: false, final false
   inline int32_t get_MetadataToken();
 
-  /// @brief Method get_MethodHandle, addr 0x2890b08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MethodHandle, addr 0x28a451c, size 0x8, virtual true, abstract: false, final false
   inline ::System::RuntimeMethodHandle get_MethodHandle();
 
-  /// @brief Method get_Module, addr 0x2890310, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_Module, addr 0x28a3d24, size 0x4, virtual true, abstract: false, final false
   inline ::System::Reflection::Module* get_Module();
 
-  /// @brief Method get_Name, addr 0x2890ba4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x28a45b8, size 0x14, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ReflectedType, addr 0x2890b70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReflectedType, addr 0x28a4584, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_ReflectedType();
 
-  /// @brief Method get_ReflectedTypeInternal, addr 0x28903a4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_ReflectedTypeInternal, addr 0x28a3db8, size 0x84, virtual false, abstract: false, final false
   inline ::System::RuntimeType* get_ReflectedTypeInternal();
 
-  /// @brief Method get_core_clr_security_level, addr 0x2890d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_core_clr_security_level, addr 0x28a477c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t get_core_clr_security_level();
 
-  /// @brief Method get_metadata_token, addr 0x2890d7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_metadata_token, addr 0x28a4790, size 0x4, virtual false, abstract: false, final false
   static inline int32_t get_metadata_token(::System::Reflection::RuntimeConstructorInfo* method);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

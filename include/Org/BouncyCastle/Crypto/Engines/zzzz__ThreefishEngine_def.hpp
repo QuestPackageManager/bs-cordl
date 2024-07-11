@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_t(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x1151930, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x115cc28, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> kw, ::ArrayW<uint64_t, ::Array<uint64_t>*> t);
 
 protected:
@@ -123,15 +123,15 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE __ThreefishEngine__Threefish256Cipher : public ::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__ThreefishCipher {
 public:
   // Declarations
-  /// @brief Method DecryptBlock, addr 0x1151d30, size 0x434, virtual true, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x115d028, size 0x434, virtual true, abstract: false, final false
   inline void DecryptBlock(::ArrayW<uint64_t, ::Array<uint64_t>*> block, ::ArrayW<uint64_t, ::Array<uint64_t>*> state);
 
-  /// @brief Method EncryptBlock, addr 0x115195c, size 0x3d4, virtual true, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x115cc54, size 0x3d4, virtual true, abstract: false, final false
   inline void EncryptBlock(::ArrayW<uint64_t, ::Array<uint64_t>*> block, ::ArrayW<uint64_t, ::Array<uint64_t>*> outWords);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__Threefish256Cipher* New_ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> kw, ::ArrayW<uint64_t, ::Array<uint64_t>*> t);
 
-  /// @brief Method .ctor, addr 0x1150cac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x115bfa4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> kw, ::ArrayW<uint64_t, ::Array<uint64_t>*> t);
 
 protected:
@@ -210,15 +210,15 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE __ThreefishEngine__Threefish512Cipher : public ::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__ThreefishCipher {
 public:
   // Declarations
-  /// @brief Method DecryptBlock, addr 0x11526e8, size 0x6b0, virtual true, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x115d9e0, size 0x6b0, virtual true, abstract: false, final false
   inline void DecryptBlock(::ArrayW<uint64_t, ::Array<uint64_t>*> block, ::ArrayW<uint64_t, ::Array<uint64_t>*> state);
 
-  /// @brief Method EncryptBlock, addr 0x1152164, size 0x584, virtual true, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x115d45c, size 0x584, virtual true, abstract: false, final false
   inline void EncryptBlock(::ArrayW<uint64_t, ::Array<uint64_t>*> block, ::ArrayW<uint64_t, ::Array<uint64_t>*> outWords);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__Threefish512Cipher* New_ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> kw, ::ArrayW<uint64_t, ::Array<uint64_t>*> t);
 
-  /// @brief Method .ctor, addr 0x1150cd8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x115bfd0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> kw, ::ArrayW<uint64_t, ::Array<uint64_t>*> t);
 
 protected:
@@ -345,15 +345,15 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE __ThreefishEngine__Threefish1024Cipher : public ::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__ThreefishCipher {
 public:
   // Declarations
-  /// @brief Method DecryptBlock, addr 0x1153734, size 0xbe4, virtual true, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x115ea2c, size 0xbe4, virtual true, abstract: false, final false
   inline void DecryptBlock(::ArrayW<uint64_t, ::Array<uint64_t>*> block, ::ArrayW<uint64_t, ::Array<uint64_t>*> state);
 
-  /// @brief Method EncryptBlock, addr 0x1152d98, size 0x99c, virtual true, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x115e090, size 0x99c, virtual true, abstract: false, final false
   inline void EncryptBlock(::ArrayW<uint64_t, ::Array<uint64_t>*> block, ::ArrayW<uint64_t, ::Array<uint64_t>*> outWords);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::__ThreefishEngine__Threefish1024Cipher* New_ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> kw, ::ArrayW<uint64_t, ::Array<uint64_t>*> t);
 
-  /// @brief Method .ctor, addr 0x1150d04, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x115bffc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> kw, ::ArrayW<uint64_t, ::Array<uint64_t>*> t);
 
 protected:
@@ -624,42 +624,42 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method BytesToWord, addr 0x1151070, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method BytesToWord, addr 0x115c368, size 0x100, virtual false, abstract: false, final false
   static inline uint64_t BytesToWord(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off);
 
-  /// @brief Method GetBlockSize, addr 0x11514cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x115c7c4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method Init, addr 0x1151170, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x115c468, size 0x4c, virtual false, abstract: false, final false
   inline void Init(bool forEncryption, ::ArrayW<uint64_t, ::Array<uint64_t>*> key, ::ArrayW<uint64_t, ::Array<uint64_t>*> tweak);
 
-  /// @brief Method Init, addr 0x1150d30, size 0x340, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x115c028, size 0x340, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::ThreefishEngine* New_ctor(int32_t blocksizeBits);
 
-  /// @brief Method ProcessBlock, addr 0x11514d8, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x115c7d0, size 0x1d8, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method ProcessBlock, addr 0x11516b0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x115c9a8, size 0x12c, virtual false, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint64_t, ::Array<uint64_t>*> inWords, ::ArrayW<uint64_t, ::Array<uint64_t>*> outWords);
 
-  /// @brief Method Reset, addr 0x11514d4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x115c7cc, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method RotlXor, addr 0x1151914, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method RotlXor, addr 0x115cc0c, size 0x10, virtual false, abstract: false, final false
   static inline uint64_t RotlXor(uint64_t x, int32_t n, uint64_t _cordl_xor);
 
-  /// @brief Method SetKey, addr 0x11511bc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0x115c4b4, size 0x164, virtual false, abstract: false, final false
   inline void SetKey(::ArrayW<uint64_t, ::Array<uint64_t>*> key);
 
-  /// @brief Method SetTweak, addr 0x1151320, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SetTweak, addr 0x115c618, size 0x11c, virtual false, abstract: false, final false
   inline void SetTweak(::ArrayW<uint64_t, ::Array<uint64_t>*> tweak);
 
-  /// @brief Method WordToBytes, addr 0x11517dc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method WordToBytes, addr 0x115cad4, size 0x138, virtual false, abstract: false, final false
   static inline void WordToBytes(uint64_t word, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off);
 
-  /// @brief Method XorRotr, addr 0x1151924, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method XorRotr, addr 0x115cc1c, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t XorRotr(uint64_t x, int32_t n, uint64_t _cordl_xor);
 
   constexpr int32_t const& __cordl_internal_get_blocksizeBytes() const;
@@ -704,7 +704,7 @@ public:
 
   constexpr void __cordl_internal_set_t(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x1150b2c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x115be24, size 0x180, virtual false, abstract: false, final false
   inline void _ctor(int32_t blocksizeBits);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_MOD17();
@@ -715,10 +715,10 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_MOD9();
 
-  /// @brief Method get_AlgorithmName, addr 0x115143c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x115c734, size 0x88, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0x11514c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0x115c7bc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"

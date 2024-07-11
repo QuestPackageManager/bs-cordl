@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_ReasonCode(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2aff878, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b1328c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:

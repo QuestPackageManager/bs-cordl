@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::SystemAcl::*)()>(
     &::System::Security::AccessControl::SystemAcl::ApplyCanonicalSortToExplicitAces)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x281fe5c;
+  constexpr static std::size_t addrs = 0x2832870;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::AccessControl::SystemAcl::*)(::System::Security::AccessControl::AceQualifier)>(
     &::System::Security::AccessControl::SystemAcl::GetAceInsertPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x281fe7c;
+  constexpr static std::size_t addrs = 0x2832890;
 
   inline static const ::MethodInfo* methodInfo() {
 

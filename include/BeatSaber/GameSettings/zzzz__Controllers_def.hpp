@@ -64,28 +64,28 @@ public:
 
   constexpr void __cordl_internal_set__rotationOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x1067cdc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x106e88c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isDirty, addr 0x1067cb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isDirty, addr 0x106e860, size 0x8, virtual true, abstract: false, final true
   inline bool get_isDirty();
 
-  /// @brief Method get_positionOffset, addr 0x1067cc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_positionOffset, addr 0x106e874, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_positionOffset();
 
-  /// @brief Method get_rotationOffset, addr 0x1067cd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rotationOffset, addr 0x106e880, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rotationOffset();
 
   /// @brief Convert to "::BGLib::SaveDataCore::ISerializableSaveData"
   constexpr ::BGLib::SaveDataCore::ISerializableSaveData* i___BGLib__SaveDataCore__ISerializableSaveData() noexcept;
 
-  /// @brief Method set_isDirty, addr 0x1067cb8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isDirty, addr 0x106e868, size 0xc, virtual true, abstract: false, final true
   inline void set_isDirty(bool value);
 
-  /// @brief Method set_positionOffset, addr 0x1067b30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_positionOffset, addr 0x106e6e0, size 0x14, virtual false, abstract: false, final false
   inline void set_positionOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_rotationOffset, addr 0x1067b44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_rotationOffset, addr 0x106e6f4, size 0x14, virtual false, abstract: false, final false
   inline void set_rotationOffset(::UnityEngine::Vector3 value);
 
 protected:

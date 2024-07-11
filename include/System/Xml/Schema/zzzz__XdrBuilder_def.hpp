@@ -200,7 +200,7 @@ public:
 
   static inline ::System::Xml::Schema::__XdrBuilder__DeclBaseInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x2e266a8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2e370bc, size 0x7c, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Xml::Schema::SchemaAttDef*& __cordl_internal_get__Attdef();
@@ -275,7 +275,7 @@ public:
 
   constexpr void __cordl_internal_set__TypePrefix(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e26254, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e36c68, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -381,10 +381,10 @@ public:
   /// @brief Field _Order, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__Order, put = __cordl_internal_set__Order)) int32_t _Order;
 
-  /// @brief Method Copy, addr 0x2e23264, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x2e33c78, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::__XdrBuilder__GroupContent* Copy(::System::Xml::Schema::__XdrBuilder__GroupContent* other);
 
-  /// @brief Method Copy, addr 0x2e294a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x2e39eb8, size 0x28, virtual false, abstract: false, final false
   static inline void Copy(::System::Xml::Schema::__XdrBuilder__GroupContent* from, ::System::Xml::Schema::__XdrBuilder__GroupContent* to);
 
   static inline ::System::Xml::Schema::__XdrBuilder__GroupContent* New_ctor();
@@ -419,7 +419,7 @@ public:
 
   constexpr void __cordl_internal_set__Order(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2e21df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e32804, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -603,7 +603,7 @@ public:
 
   constexpr void __cordl_internal_set__OrderAttr(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2e21de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e327f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -814,7 +814,7 @@ public:
 
   constexpr void __cordl_internal_set__Required(bool value);
 
-  /// @brief Method .ctor, addr 0x2e21de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e327fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -905,12 +905,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE __XdrBuilder__XdrBuildFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2e294cc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2e39ee0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
   static inline ::System::Xml::Schema::__XdrBuilder__XdrBuildFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2e29050, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e39a64, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -941,12 +941,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE __XdrBuilder__XdrInitFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2e294e0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2e39ef4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
 
   static inline ::System::Xml::Schema::__XdrBuilder__XdrInitFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2e29224, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e39c38, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -977,12 +977,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE __XdrBuilder__XdrBeginChildFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2e294f4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2e39f08, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::Schema::XdrBuilder* builder);
 
   static inline ::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2e292fc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e39d10, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1013,12 +1013,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE __XdrBuilder__XdrEndChildFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2e29508, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2e39f1c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::Schema::XdrBuilder* builder);
 
   static inline ::System::Xml::Schema::__XdrBuilder__XdrEndChildFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2e293d0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e39de4, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1091,10 +1091,10 @@ public:
 
   constexpr void __cordl_internal_set__SchemaFlags(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2e29128, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e39b3c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::__SchemaNames__Token a, ::System::Xml::XmlTokenizedType ttype, ::System::Xml::Schema::__XdrBuilder__XdrBuildFunction* build);
 
-  /// @brief Method .ctor, addr 0x2e29170, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e39b84, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::__SchemaNames__Token a, ::System::Xml::XmlTokenizedType ttype, int32_t schemaFlags, ::System::Xml::Schema::__XdrBuilder__XdrBuildFunction* build);
 
 protected:
@@ -1216,7 +1216,7 @@ public:
 
   constexpr void __cordl_internal_set__NextStates(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2e291bc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e39bd0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::__SchemaNames__Token n, ::ArrayW<int32_t, ::Array<int32_t>*> states,
                     ::ArrayW<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*, ::Array<::System::Xml::Schema::__XdrBuilder__XdrAttributeEntry*>*> attributes,
                     ::System::Xml::Schema::__XdrBuilder__XdrInitFunction* init, ::System::Xml::Schema::__XdrBuilder__XdrBeginChildFunction* begin,
@@ -1436,257 +1436,257 @@ public:
   /// @brief Field xmlResolver, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get_xmlResolver, put = __cordl_internal_set_xmlResolver))::System::Xml::XmlResolver* xmlResolver;
 
-  /// @brief Method AddOrder, addr 0x2e25d40, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AddOrder, addr 0x2e36754, size 0xc0, virtual false, abstract: false, final false
   inline void AddOrder();
 
-  /// @brief Method CheckDatatype, addr 0x2e2544c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CheckDatatype, addr 0x2e35e60, size 0x144, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDatatype* CheckDatatype(::StringW str);
 
-  /// @brief Method CheckDefaultAttValue, addr 0x2e259ec, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method CheckDefaultAttValue, addr 0x2e36400, size 0xf0, virtual false, abstract: false, final false
   inline void CheckDefaultAttValue(::System::Xml::Schema::SchemaAttDef* attDef);
 
-  /// @brief Method CompareMinMaxLength, addr 0x2e24e68, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CompareMinMaxLength, addr 0x2e3587c, size 0x88, virtual false, abstract: false, final false
   static inline void CompareMinMaxLength(uint32_t cMin, uint32_t cMax, ::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method EndChildren, addr 0x2e23158, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method EndChildren, addr 0x2e33b6c, size 0x3c, virtual true, abstract: false, final false
   inline void EndChildren();
 
-  /// @brief Method GetContent, addr 0x2e23d8c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x2e347a0, size 0x188, virtual false, abstract: false, final false
   inline int32_t GetContent(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method GetModel, addr 0x2e23fb4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetModel, addr 0x2e349c8, size 0xdc, virtual false, abstract: false, final false
   inline bool GetModel(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method GetNextState, addr 0x2e220ec, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetNextState, addr 0x2e32b00, size 0x19c, virtual false, abstract: false, final false
   inline bool GetNextState(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method GetOrder, addr 0x2e2413c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetOrder, addr 0x2e34b50, size 0x124, virtual false, abstract: false, final false
   inline int32_t GetOrder(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method HandleMinMax, addr 0x2e261ac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleMinMax, addr 0x2e36bc0, size 0x30, virtual false, abstract: false, final false
   static inline void HandleMinMax(::System::Xml::Schema::ParticleContentValidator* pContent, uint32_t cMin, uint32_t cMax);
 
-  /// @brief Method IsContentParsed, addr 0x2e23044, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsContentParsed, addr 0x2e33a58, size 0x8, virtual true, abstract: false, final false
   inline bool IsContentParsed();
 
-  /// @brief Method IsGlobal, addr 0x2e22818, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsGlobal, addr 0x2e3322c, size 0xc, virtual false, abstract: false, final false
   inline bool IsGlobal(int32_t flags);
 
-  /// @brief Method IsSkipableAttribute, addr 0x2e22dec, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method IsSkipableAttribute, addr 0x2e33800, size 0x138, virtual false, abstract: false, final false
   inline bool IsSkipableAttribute(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method IsSkipableElement, addr 0x2e222d0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsSkipableElement, addr 0x2e32ce4, size 0xc0, virtual false, abstract: false, final false
   inline bool IsSkipableElement(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method IsXdrSchema, addr 0x2e22824, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsXdrSchema, addr 0x2e33238, size 0xb8, virtual false, abstract: false, final false
   static inline bool IsXdrSchema(::StringW uri);
 
-  /// @brief Method IsYes, addr 0x2e2527c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method IsYes, addr 0x2e35c90, size 0x100, virtual false, abstract: false, final false
   static inline bool IsYes(::System::Object* obj, ::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method LoadSchema, addr 0x2e228dc, size 0x510, virtual false, abstract: false, final false
+  /// @brief Method LoadSchema, addr 0x2e332f0, size 0x510, virtual false, abstract: false, final false
   inline bool LoadSchema(::StringW uri);
 
   static inline ::System::Xml::Schema::XdrBuilder* New_ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlNamespaceManager* curmgr, ::System::Xml::Schema::SchemaInfo* sinfo,
                                                             ::StringW targetNamspace, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames,
                                                             ::System::Xml::Schema::ValidationEventHandler* eventhandler);
 
-  /// @brief Method ParseDtMaxLength, addr 0x2e2456c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ParseDtMaxLength, addr 0x2e34f80, size 0x138, virtual false, abstract: false, final false
   static inline void ParseDtMaxLength(ByRef<uint32_t> cVal, ::System::Object* obj, ::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method ParseDtMinLength, addr 0x2e24718, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ParseDtMinLength, addr 0x2e3512c, size 0x138, virtual false, abstract: false, final false
   static inline void ParseDtMinLength(ByRef<uint32_t> cVal, ::System::Object* obj, ::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method ParseInteger, addr 0x2e26da8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ParseInteger, addr 0x2e377bc, size 0x38, virtual false, abstract: false, final false
   static inline bool ParseInteger(::StringW str, ByRef<uint32_t> n);
 
-  /// @brief Method ParseMaxOccurs, addr 0x2e25fe0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ParseMaxOccurs, addr 0x2e369f4, size 0x128, virtual false, abstract: false, final false
   static inline uint32_t ParseMaxOccurs(::System::Object* obj, ::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method ParseMinOccurs, addr 0x2e25e74, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ParseMinOccurs, addr 0x2e36888, size 0xf8, virtual false, abstract: false, final false
   static inline uint32_t ParseMinOccurs(::System::Object* obj, ::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method Pop, addr 0x2e23194, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x2e33ba8, size 0x80, virtual false, abstract: false, final false
   inline void Pop();
 
-  /// @brief Method PopGroupInfo, addr 0x2e232d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method PopGroupInfo, addr 0x2e33ce4, size 0x80, virtual false, abstract: false, final false
   inline void PopGroupInfo();
 
-  /// @brief Method ProcessAttribute, addr 0x2e22478, size 0x3a0, virtual true, abstract: false, final false
+  /// @brief Method ProcessAttribute, addr 0x2e32e8c, size 0x3a0, virtual true, abstract: false, final false
   inline void ProcessAttribute(::StringW prefix, ::StringW name, ::StringW ns, ::StringW value);
 
-  /// @brief Method ProcessCData, addr 0x2e230ac, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ProcessCData, addr 0x2e33ac0, size 0x74, virtual true, abstract: false, final false
   inline void ProcessCData(::StringW value);
 
-  /// @brief Method ProcessElement, addr 0x2e21df8, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ProcessElement, addr 0x2e3280c, size 0x134, virtual true, abstract: false, final false
   inline bool ProcessElement(::StringW prefix, ::StringW name, ::StringW ns);
 
-  /// @brief Method ProcessMarkup, addr 0x2e2304c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ProcessMarkup, addr 0x2e33a60, size 0x60, virtual true, abstract: false, final false
   inline void ProcessMarkup(::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> markup);
 
-  /// @brief Method Push, addr 0x2e22288, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x2e32c9c, size 0x48, virtual false, abstract: false, final false
   inline void Push();
 
-  /// @brief Method PushGroupInfo, addr 0x2e23214, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method PushGroupInfo, addr 0x2e33c28, size 0x50, virtual false, abstract: false, final false
   inline void PushGroupInfo();
 
-  /// @brief Method SendValidationEvent, addr 0x2e24360, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x2e34d74, size 0x60, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code);
 
-  /// @brief Method SendValidationEvent, addr 0x2e22f2c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x2e33940, size 0x118, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method SendValidationEvent, addr 0x2e22390, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x2e32da4, size 0xe8, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::StringW msg);
 
-  /// @brief Method SendValidationEvent, addr 0x2e272d4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x2e37ce8, size 0xcc, virtual false, abstract: false, final false
   inline void SendValidationEvent(::System::Xml::Schema::XmlSchemaException* e, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method SetAttributePresence, addr 0x2e25adc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetAttributePresence, addr 0x2e364f0, size 0x50, virtual false, abstract: false, final false
   inline void SetAttributePresence(::System::Xml::Schema::SchemaAttDef* pAttdef, bool fRequired);
 
-  /// @brief Method StartChildren, addr 0x2e23120, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method StartChildren, addr 0x2e33b34, size 0x38, virtual true, abstract: false, final false
   inline void StartChildren();
 
-  /// @brief Method XDR_BeginAttribute, addr 0x2e263d8, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method XDR_BeginAttribute, addr 0x2e36dec, size 0x2b4, virtual false, abstract: false, final false
   static inline void XDR_BeginAttribute(::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method XDR_BeginAttributeType, addr 0x2e25758, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method XDR_BeginAttributeType, addr 0x2e3616c, size 0x78, virtual false, abstract: false, final false
   static inline void XDR_BeginAttributeType(::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method XDR_BeginElementType, addr 0x2e24850, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method XDR_BeginElementType, addr 0x2e35264, size 0x2dc, virtual false, abstract: false, final false
   static inline void XDR_BeginElementType(::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method XDR_BeginRoot, addr 0x2e23420, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method XDR_BeginRoot, addr 0x2e33e34, size 0xdc, virtual false, abstract: false, final false
   static inline void XDR_BeginRoot(::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method XDR_BuildAttributeType_Default, addr 0x2e2537c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildAttributeType_Default, addr 0x2e35d90, size 0x20, virtual false, abstract: false, final false
   static inline void XDR_BuildAttributeType_Default(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildAttributeType_DtMaxLength, addr 0x2e25670, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildAttributeType_DtMaxLength, addr 0x2e36084, size 0x74, virtual false, abstract: false, final false
   static inline void XDR_BuildAttributeType_DtMaxLength(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildAttributeType_DtMinLength, addr 0x2e256e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildAttributeType_DtMinLength, addr 0x2e360f8, size 0x74, virtual false, abstract: false, final false
   static inline void XDR_BuildAttributeType_DtMinLength(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildAttributeType_DtType, addr 0x2e2539c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildAttributeType_DtType, addr 0x2e35db0, size 0xb0, virtual false, abstract: false, final false
   static inline void XDR_BuildAttributeType_DtType(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildAttributeType_DtValues, addr 0x2e25590, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildAttributeType_DtValues, addr 0x2e35fa4, size 0xe0, virtual false, abstract: false, final false
   static inline void XDR_BuildAttributeType_DtValues(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildAttributeType_Name, addr 0x2e24fd8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildAttributeType_Name, addr 0x2e359ec, size 0x22c, virtual false, abstract: false, final false
   static inline void XDR_BuildAttributeType_Name(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildAttributeType_Required, addr 0x2e25204, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildAttributeType_Required, addr 0x2e35c18, size 0x78, virtual false, abstract: false, final false
   static inline void XDR_BuildAttributeType_Required(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildAttribute_Default, addr 0x2e263b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildAttribute_Default, addr 0x2e36dcc, size 0x20, virtual false, abstract: false, final false
   static inline void XDR_BuildAttribute_Default(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildAttribute_Required, addr 0x2e26334, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildAttribute_Required, addr 0x2e36d48, size 0x84, virtual false, abstract: false, final false
   static inline void XDR_BuildAttribute_Required(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildAttribute_Type, addr 0x2e26270, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildAttribute_Type, addr 0x2e36c84, size 0xc4, virtual false, abstract: false, final false
   static inline void XDR_BuildAttribute_Type(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildElementType_Content, addr 0x2e23cf0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildElementType_Content, addr 0x2e34704, size 0x9c, virtual false, abstract: false, final false
   static inline void XDR_BuildElementType_Content(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildElementType_DtMaxLength, addr 0x2e244f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildElementType_DtMaxLength, addr 0x2e34f0c, size 0x74, virtual false, abstract: false, final false
   static inline void XDR_BuildElementType_DtMaxLength(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildElementType_DtMinLength, addr 0x2e246a4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildElementType_DtMinLength, addr 0x2e350b8, size 0x74, virtual false, abstract: false, final false
   static inline void XDR_BuildElementType_DtMinLength(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildElementType_DtType, addr 0x2e24260, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildElementType_DtType, addr 0x2e34c74, size 0x100, virtual false, abstract: false, final false
   static inline void XDR_BuildElementType_DtType(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildElementType_DtValues, addr 0x2e24418, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildElementType_DtValues, addr 0x2e34e2c, size 0xe0, virtual false, abstract: false, final false
   static inline void XDR_BuildElementType_DtValues(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildElementType_Model, addr 0x2e23f14, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildElementType_Model, addr 0x2e34928, size 0xa0, virtual false, abstract: false, final false
   static inline void XDR_BuildElementType_Model(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildElementType_Name, addr 0x2e23b54, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildElementType_Name, addr 0x2e34568, size 0x19c, virtual false, abstract: false, final false
   static inline void XDR_BuildElementType_Name(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildElementType_Order, addr 0x2e24090, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildElementType_Order, addr 0x2e34aa4, size 0xac, virtual false, abstract: false, final false
   static inline void XDR_BuildElementType_Order(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildElement_MaxOccurs, addr 0x2e25f6c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildElement_MaxOccurs, addr 0x2e36980, size 0x74, virtual false, abstract: false, final false
   static inline void XDR_BuildElement_MaxOccurs(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildElement_MinOccurs, addr 0x2e25e00, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildElement_MinOccurs, addr 0x2e36814, size 0x74, virtual false, abstract: false, final false
   static inline void XDR_BuildElement_MinOccurs(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildElement_Type, addr 0x2e25bb8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildElement_Type, addr 0x2e365cc, size 0x188, virtual false, abstract: false, final false
   static inline void XDR_BuildElement_Type(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildGroup_MaxOccurs, addr 0x2e2694c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildGroup_MaxOccurs, addr 0x2e37360, size 0x84, virtual false, abstract: false, final false
   static inline void XDR_BuildGroup_MaxOccurs(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildGroup_MinOccurs, addr 0x2e268c8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildGroup_MinOccurs, addr 0x2e372dc, size 0x84, virtual false, abstract: false, final false
   static inline void XDR_BuildGroup_MinOccurs(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildGroup_Order, addr 0x2e267dc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildGroup_Order, addr 0x2e371f0, size 0xec, virtual false, abstract: false, final false
   static inline void XDR_BuildGroup_Order(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildRoot_ID, addr 0x2e2341c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildRoot_ID, addr 0x2e33e30, size 0x4, virtual false, abstract: false, final false
   static inline void XDR_BuildRoot_ID(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_BuildRoot_Name, addr 0x2e23390, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method XDR_BuildRoot_Name, addr 0x2e33da4, size 0x8c, virtual false, abstract: false, final false
   static inline void XDR_BuildRoot_Name(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj, ::StringW prefix);
 
-  /// @brief Method XDR_CheckAttributeDefault, addr 0x2e239b0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method XDR_CheckAttributeDefault, addr 0x2e343c4, size 0xa4, virtual false, abstract: false, final false
   inline void XDR_CheckAttributeDefault(::System::Xml::Schema::__XdrBuilder__DeclBaseInfo* decl, ::System::Xml::Schema::SchemaAttDef* pAttdef);
 
-  /// @brief Method XDR_EndAttribute, addr 0x2e2668c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method XDR_EndAttribute, addr 0x2e370a0, size 0x1c, virtual false, abstract: false, final false
   static inline void XDR_EndAttribute(::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method XDR_EndAttributeDtType, addr 0x2e26cc8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method XDR_EndAttributeDtType, addr 0x2e376dc, size 0xe0, virtual false, abstract: false, final false
   static inline void XDR_EndAttributeDtType(::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method XDR_EndAttributeType, addr 0x2e257d0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method XDR_EndAttributeType, addr 0x2e361e4, size 0x1c4, virtual false, abstract: false, final false
   static inline void XDR_EndAttributeType(::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method XDR_EndElement, addr 0x2e26108, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method XDR_EndElement, addr 0x2e36b1c, size 0xa4, virtual false, abstract: false, final false
   static inline void XDR_EndElement(::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method XDR_EndElementDtType, addr 0x2e26b9c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method XDR_EndElementDtType, addr 0x2e375b0, size 0xc0, virtual false, abstract: false, final false
   static inline void XDR_EndElementDtType(::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method XDR_EndElementType, addr 0x2e24b2c, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method XDR_EndElementType, addr 0x2e35540, size 0x33c, virtual false, abstract: false, final false
   static inline void XDR_EndElementType(::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method XDR_EndGroup, addr 0x2e269d0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method XDR_EndGroup, addr 0x2e373e4, size 0x130, virtual false, abstract: false, final false
   static inline void XDR_EndGroup(::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method XDR_EndRoot, addr 0x2e234fc, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method XDR_EndRoot, addr 0x2e33f10, size 0x4b4, virtual false, abstract: false, final false
   static inline void XDR_EndRoot(::System::Xml::Schema::XdrBuilder* builder);
 
-  /// @brief Method XDR_InitAttribute, addr 0x2e261dc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method XDR_InitAttribute, addr 0x2e36bf0, size 0x78, virtual false, abstract: false, final false
   static inline void XDR_InitAttribute(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
 
-  /// @brief Method XDR_InitAttributeDtType, addr 0x2e26c5c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method XDR_InitAttributeDtType, addr 0x2e37670, size 0x6c, virtual false, abstract: false, final false
   static inline void XDR_InitAttributeDtType(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
 
-  /// @brief Method XDR_InitAttributeType, addr 0x2e24ef0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method XDR_InitAttributeType, addr 0x2e35904, size 0xe8, virtual false, abstract: false, final false
   static inline void XDR_InitAttributeType(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
 
-  /// @brief Method XDR_InitElement, addr 0x2e25b2c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method XDR_InitElement, addr 0x2e36540, size 0x8c, virtual false, abstract: false, final false
   static inline void XDR_InitElement(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
 
-  /// @brief Method XDR_InitElementDtType, addr 0x2e26b00, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method XDR_InitElementDtType, addr 0x2e37514, size 0x9c, virtual false, abstract: false, final false
   static inline void XDR_InitElementDtType(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
 
-  /// @brief Method XDR_InitElementType, addr 0x2e23a54, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method XDR_InitElementType, addr 0x2e34468, size 0x100, virtual false, abstract: false, final false
   static inline void XDR_InitElementType(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
 
-  /// @brief Method XDR_InitGroup, addr 0x2e26724, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method XDR_InitGroup, addr 0x2e37138, size 0xb8, virtual false, abstract: false, final false
   static inline void XDR_InitGroup(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
 
-  /// @brief Method XDR_InitRoot, addr 0x2e23350, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method XDR_InitRoot, addr 0x2e33d64, size 0x40, virtual false, abstract: false, final false
   static inline void XDR_InitRoot(::System::Xml::Schema::XdrBuilder* builder, ::System::Object* obj);
 
   constexpr ::System::Xml::Schema::__XdrBuilder__AttributeContent*& __cordl_internal_get__AttributeDef();
@@ -1827,7 +1827,7 @@ public:
 
   constexpr void __cordl_internal_set_xmlResolver(::System::Xml::XmlResolver* value);
 
-  /// @brief Method .ctor, addr 0x2e21bdc, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e325f0, size 0x204, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlNamespaceManager* curmgr, ::System::Xml::Schema::SchemaInfo* sinfo, ::StringW targetNamspace,
                     ::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames, ::System::Xml::Schema::ValidationEventHandler* eventhandler);
 
@@ -1891,7 +1891,7 @@ public:
 
   static inline void setStaticF_S_XDR_Root_SubElements(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method set_XmlResolver, addr 0x2e22f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlResolver, addr 0x2e33938, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlResolver(::System::Xml::XmlResolver* value);
 
 protected:

@@ -32,12 +32,12 @@ namespace System {
 class CORDL_TYPE ResolveEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x29607d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29751e8, size 0x14, virtual true, abstract: false, final false
   inline ::System::Reflection::Assembly* Invoke(::System::Object* sender, ::System::ResolveEventArgs* args);
 
   static inline ::System::ResolveEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x29606a4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29750b8, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

@@ -26,7 +26,7 @@ public:
   // Declarations
   static inline ::System::__UriParser__BuiltInUriParser* New_ctor(::StringW lwrCaseScheme, int32_t defaultPort, ::System::UriSyntaxFlags syntaxFlags);
 
-  /// @brief Method .ctor, addr 0x2f9f4d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fabee4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW lwrCaseScheme, int32_t defaultPort, ::System::UriSyntaxFlags syntaxFlags);
 
 protected:

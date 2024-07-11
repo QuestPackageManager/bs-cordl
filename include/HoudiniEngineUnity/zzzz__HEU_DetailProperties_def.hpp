@@ -39,7 +39,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x25e644c, size 0x1f0, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x25fa700, size 0x1f0, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailProperties* other);
 
   static inline ::HoudiniEngineUnity::HEU_DetailProperties* New_ctor();
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__detailResolutionPerPatch(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25e663c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fa8f0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>"

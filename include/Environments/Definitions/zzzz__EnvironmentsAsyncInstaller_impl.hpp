@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::__EnvironmentsAsyncInstaller____c::*)()>(
     &::Environments::Definitions::__EnvironmentsAsyncInstaller____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1506ae4;
+  constexpr static std::size_t addrs = 0x151180c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Environments::Definitions::__EnvironmentsAsyncInstaller____c::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
     &::Environments::Definitions::__EnvironmentsAsyncInstaller____c::_LoadResourcesBeforeInstall_b__3_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x1506aec;
+  constexpr static std::size_t addrs = 0x1511814;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Environments::Definitions::EnvironmentsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentsAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x1506750;
+  constexpr static std::size_t addrs = 0x1511478;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -99,7 +99,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*, ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry*)>(
     &::Environments::Definitions::EnvironmentsAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x1506790;
+  constexpr static std::size_t addrs = 0x15114b8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::EnvironmentsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentsAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x15068b8;
+  constexpr static std::size_t addrs = 0x15115e0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -132,7 +132,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*>> (*)()>(
     &::Environments::Definitions::EnvironmentsAsyncInstaller::LoadEnvironmentInfoListAsync)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x150696c;
+  constexpr static std::size_t addrs = 0x1511694;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::EnvironmentsAsyncInstaller*>::get(),
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::EnvironmentsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentsAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x15069f0;
+  constexpr static std::size_t addrs = 0x1511718;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::EnvironmentsAsyncInstaller*>::get(),

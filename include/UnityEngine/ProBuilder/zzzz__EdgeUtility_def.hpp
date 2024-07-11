@@ -52,7 +52,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::__EdgeUtility____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <GetSharedVertexHandleEdges>b__0, addr 0x32a06b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetSharedVertexHandleEdges>b__0, addr 0x32b1534, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _GetSharedVertexHandleEdges_b__0(::UnityEngine::ProBuilder::Edge x);
 
   constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> const& __cordl_internal_get_mesh() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_mesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
 
-  /// @brief Method .ctor, addr 0x329feb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32b0d38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,32 +99,32 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::UnityEngine::ProBuilder::__EdgeUtility____c__DisplayClass0_0;
 
-  /// @brief Method AllTriangles, addr 0x32a04b4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AllTriangles, addr 0x32b1338, size 0xd0, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> AllTriangles(::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> edges);
 
-  /// @brief Method Contains, addr 0x32a0254, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x32b10d8, size 0x88, virtual false, abstract: false, final false
   static inline bool Contains(::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> edges, ::UnityEngine::ProBuilder::Edge edge);
 
-  /// @brief Method Contains, addr 0x32a02dc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x32b1160, size 0x68, virtual false, abstract: false, final false
   static inline bool Contains(::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> edges, int32_t x, int32_t y);
 
-  /// @brief Method GetEdgeWithSharedVertexHandles, addr 0x329ff58, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeWithSharedVertexHandles, addr 0x32b0ddc, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge GetEdgeWithSharedVertexHandles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge);
 
-  /// @brief Method GetFace, addr 0x32a0584, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetFace, addr 0x32b1408, size 0x118, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* GetFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge);
 
-  /// @brief Method GetSharedVertexHandleEdge, addr 0x329febc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetSharedVertexHandleEdge, addr 0x32b0d40, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge GetSharedVertexHandleEdge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge);
 
-  /// @brief Method GetSharedVertexHandleEdges, addr 0x329fde0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetSharedVertexHandleEdges, addr 0x32b0c64, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*
   GetSharedVertexHandleEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges);
 
-  /// @brief Method IndexOf, addr 0x32a0344, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x32b11c8, size 0x170, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* edges, ::UnityEngine::ProBuilder::Edge edge);
 
-  /// @brief Method ValidateEdge, addr 0x329fff0, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method ValidateEdge, addr 0x32b0e74, size 0x250, virtual false, abstract: false, final false
   static inline bool ValidateEdge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge,
                                   ByRef<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Edge>> validEdge);
 

@@ -24,22 +24,22 @@ namespace UnityEngine::InputSystem::Utilities {
 struct CORDL_TYPE PredictiveParser {
 public:
   // Declarations
-  /// @brief Method AcceptInt, addr 0x31aa940, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AcceptInt, addr 0x31bb7c4, size 0x5c, virtual false, abstract: false, final false
   inline void AcceptInt(::System::ReadOnlySpan_1<char16_t> str);
 
-  /// @brief Method AcceptSingleChar, addr 0x31aa7d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method AcceptSingleChar, addr 0x31bb658, size 0x3c, virtual false, abstract: false, final false
   inline bool AcceptSingleChar(::System::ReadOnlySpan_1<char16_t> str, char16_t c);
 
-  /// @brief Method AcceptString, addr 0x31aa810, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AcceptString, addr 0x31bb694, size 0x130, virtual false, abstract: false, final false
   inline bool AcceptString(::System::ReadOnlySpan_1<char16_t> input, ByRef<::System::ReadOnlySpan_1<char16_t>> output);
 
-  /// @brief Method ExpectInt, addr 0x31aa474, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ExpectInt, addr 0x31bb2f8, size 0x12c, virtual false, abstract: false, final false
   inline int32_t ExpectInt(::System::ReadOnlySpan_1<char16_t> str);
 
-  /// @brief Method ExpectSingleChar, addr 0x31aa36c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ExpectSingleChar, addr 0x31bb1f0, size 0x108, virtual false, abstract: false, final false
   inline void ExpectSingleChar(::System::ReadOnlySpan_1<char16_t> str, char16_t c);
 
-  /// @brief Method ExpectString, addr 0x31aa5a0, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ExpectString, addr 0x31bb424, size 0x234, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> ExpectString(::System::ReadOnlySpan_1<char16_t> str);
 
   // Ctor Parameters []

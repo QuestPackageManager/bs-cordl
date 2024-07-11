@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::SecurityIdentifier::*)(::StringW)>(
     &::System::Security::Principal::SecurityIdentifier::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2812734;
+  constexpr static std::size_t addrs = 0x2825148;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::SecurityIdentifier::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Security::Principal::SecurityIdentifier::_ctor)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2812c50;
+  constexpr static std::size_t addrs = 0x2825664;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::SecurityIdentifier::*)(::System::IntPtr, int32_t)>(
     &::System::Security::Principal::SecurityIdentifier::CreateFromBinaryForm)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x2812d3c;
+  constexpr static std::size_t addrs = 0x2825750;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Principal::SecurityIdentifier::*)()>(
     &::System::Security::Principal::SecurityIdentifier::get_BinaryLength)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2812ea4;
+  constexpr static std::size_t addrs = 0x28258b8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::SecurityIdentifier*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Principal::SecurityIdentifier::*)()>(
     &::System::Security::Principal::SecurityIdentifier::get_Value)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x2812ec0;
+  constexpr static std::size_t addrs = 0x28258d4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::System::Security::Principal::SecurityIdentifier::*)()>(
     &::System::Security::Principal::SecurityIdentifier::GetSidAuthority)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x281307c;
+  constexpr static std::size_t addrs = 0x2825a90;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::SecurityIdentifier*>::get(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::System::Security::Principal::SecurityIdentifier::*)()>(
     &::System::Security::Principal::SecurityIdentifier::GetSidSubAuthorityCount)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2813178;
+  constexpr static std::size_t addrs = 0x2825b8c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::SecurityIdentifier*>::get(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::System::Security::Principal::SecurityIdentifier::*)(uint8_t)>(
     &::System::Security::Principal::SecurityIdentifier::GetSidSubAuthority)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x28130fc;
+  constexpr static std::size_t addrs = 0x2825b10;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Principal::SecurityIdentifier::*)(::System::Security::Principal::SecurityIdentifier*)>(
     &::System::Security::Principal::SecurityIdentifier::CompareTo)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x28131a4;
+  constexpr static std::size_t addrs = 0x2825bb8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Principal::SecurityIdentifier::*)(::System::Object*)>(
     &::System::Security::Principal::SecurityIdentifier::Equals)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x281337c;
+  constexpr static std::size_t addrs = 0x2825d90;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Principal::SecurityIdentifier::*)(::System::Security::Principal::SecurityIdentifier*)>(
     &::System::Security::Principal::SecurityIdentifier::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x28133e0;
+  constexpr static std::size_t addrs = 0x2825df4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::SecurityIdentifier::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Security::Principal::SecurityIdentifier::GetBinaryForm)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2813488;
+  constexpr static std::size_t addrs = 0x2825e9c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Principal::SecurityIdentifier::*)()>(
     &::System::Security::Principal::SecurityIdentifier::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2813550;
+  constexpr static std::size_t addrs = 0x2825f64;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Principal::SecurityIdentifier::*)()>(
     &::System::Security::Principal::SecurityIdentifier::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2813578;
+  constexpr static std::size_t addrs = 0x2825f8c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Principal::IdentityReference* (
     ::System::Security::Principal::SecurityIdentifier::*)(::System::Type*)>(&::System::Security::Principal::SecurityIdentifier::Translate)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x2813584;
+  constexpr static std::size_t addrs = 0x2825f98;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Security::Principal::SecurityIdentifier*, ::System::Security::Principal::SecurityIdentifier*)>(
     &::System::Security::Principal::SecurityIdentifier::op_Equality)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2813314;
+  constexpr static std::size_t addrs = 0x2825d28;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::StringW)>(
     &::System::Security::Principal::SecurityIdentifier::ParseSddlForm)> {
   constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x28127f0;
+  constexpr static std::size_t addrs = 0x2825204;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<uint64_t>)>(&::System::Security::Principal::SecurityIdentifier::TryParseAuthority)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2813930;
+  constexpr static std::size_t addrs = 0x2826344;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<uint32_t>)>(&::System::Security::Principal::SecurityIdentifier::TryParseSubAuthority)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2813a08;
+  constexpr static std::size_t addrs = 0x282641c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

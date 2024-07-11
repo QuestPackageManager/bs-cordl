@@ -45,7 +45,7 @@ public:
   static inline ::System::Runtime::Remoting::WellKnownServiceTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri,
                                                                                  ::System::Runtime::Remoting::WellKnownObjectMode mode);
 
-  /// @brief Method ToString, addr 0x283237c, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2844d90, size 0x178, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Runtime::Remoting::WellKnownObjectMode const& __cordl_internal_get_obj_mode() const;
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set_obj_uri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2832228, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2844c3c, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri, ::System::Runtime::Remoting::WellKnownObjectMode mode);
 
-  /// @brief Method get_Mode, addr 0x2832364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mode, addr 0x2844d78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::WellKnownObjectMode get_Mode();
 
-  /// @brief Method get_ObjectType, addr 0x283236c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x2844d80, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method get_ObjectUri, addr 0x2832374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectUri, addr 0x2844d88, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ObjectUri();
 
 protected:

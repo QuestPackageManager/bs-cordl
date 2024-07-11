@@ -51,18 +51,18 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x278afcc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x279e9e0, size 0xa0, virtual false, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::Mono::Security::X509::__X509CertificateCollection__X509CertificateEnumerator* New_ctor(::Mono::Security::X509::X509CertificateCollection* mappings);
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x27935ec, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x27a7000, size 0xa0, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x279368c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x27a70a0, size 0xa4, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2793548, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x27a6f5c, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr ::System::Collections::IEnumerator*& __cordl_internal_get_enumerator();
@@ -71,10 +71,10 @@ public:
 
   constexpr void __cordl_internal_set_enumerator(::System::Collections::IEnumerator* value);
 
-  /// @brief Method .ctor, addr 0x27933d4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27a6de8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::X509::X509CertificateCollection* mappings);
 
-  /// @brief Method get_Current, addr 0x278ac40, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x279e654, size 0xf0, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -120,36 +120,36 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x278753c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x279af50, size 0x74, virtual false, abstract: false, final false
   inline int32_t Add(::Mono::Security::X509::X509Certificate* value);
 
-  /// @brief Method AddRange, addr 0x279319c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddRange, addr 0x27a6bb0, size 0xd4, virtual false, abstract: false, final false
   inline void AddRange(::Mono::Security::X509::X509CertificateCollection* value);
 
-  /// @brief Method Compare, addr 0x27934cc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x27a6ee0, size 0x7c, virtual false, abstract: false, final false
   inline bool Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> array1, ::ArrayW<uint8_t, ::Array<uint8_t>*> array2);
 
-  /// @brief Method Contains, addr 0x2793270, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x27a6c84, size 0x18, virtual false, abstract: false, final false
   inline bool Contains(::Mono::Security::X509::X509Certificate* value);
 
-  /// @brief Method GetEnumerator, addr 0x278abe0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x279e5f4, size 0x60, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::__X509CertificateCollection__X509CertificateEnumerator* GetEnumerator();
 
-  /// @brief Method GetHashCode, addr 0x27934ac, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x27a6ec0, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IndexOf, addr 0x2793288, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x27a6c9c, size 0x14c, virtual false, abstract: false, final false
   inline int32_t IndexOf(::Mono::Security::X509::X509Certificate* value);
 
   static inline ::Mono::Security::X509::X509CertificateCollection* New_ctor();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2793488, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x27a6e9c, size 0x24, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method .ctor, addr 0x27873a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x279adb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x2793104, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x27a6b18, size 0x98, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* get_Item(int32_t index);
 
   /// @brief Convert to "::System::Collections::IEnumerable"

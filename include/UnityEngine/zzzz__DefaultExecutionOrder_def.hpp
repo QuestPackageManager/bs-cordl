@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Order(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3439d90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3448c14, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t order);
 
-  /// @brief Method get_order, addr 0x3435000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x3443e84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
 protected:

@@ -341,48 +341,48 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider"
   constexpr operator ::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider*() noexcept;
 
-  /// @brief Method Awake, addr 0x2ba5264, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2bb7c78, size 0xcc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FixedUpdate, addr 0x2ba5598, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x2bb7fac, size 0x74, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method GetFingerConfidence, addr 0x2ba5674, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetFingerConfidence, addr 0x2bb8088, size 0x44, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRHand__TrackingConfidence GetFingerConfidence(::GlobalNamespace::__OVRHand__HandFinger finger);
 
-  /// @brief Method GetFingerIsPinching, addr 0x2ba560c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetFingerIsPinching, addr 0x2bb8020, size 0x28, virtual false, abstract: false, final false
   inline bool GetFingerIsPinching(::GlobalNamespace::__OVRHand__HandFinger finger);
 
-  /// @brief Method GetFingerPinchStrength, addr 0x2ba5634, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetFingerPinchStrength, addr 0x2bb8048, size 0x40, virtual false, abstract: false, final false
   inline float_t GetFingerPinchStrength(::GlobalNamespace::__OVRHand__HandFinger finger);
 
-  /// @brief Method GetHandState, addr 0x2ba5330, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method GetHandState, addr 0x2bb7d44, size 0x260, virtual false, abstract: false, final false
   inline void GetHandState(::GlobalNamespace::__OVRPlugin__Step step);
 
   static inline ::GlobalNamespace::OVRHand* New_ctor();
 
-  /// @brief Method OVRMeshRenderer.IOVRMeshRendererDataProvider.GetMeshRendererData, addr 0x2ba57a0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method OVRMeshRenderer.IOVRMeshRendererDataProvider.GetMeshRendererData, addr 0x2bb81b4, size 0x50, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__OVRMeshRenderer__MeshRendererData OVRMeshRenderer_IOVRMeshRendererDataProvider_GetMeshRendererData();
 
-  /// @brief Method OVRMesh.IOVRMeshDataProvider.GetMeshType, addr 0x2ba5788, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method OVRMesh.IOVRMeshDataProvider.GetMeshType, addr 0x2bb819c, size 0x18, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__OVRMesh__MeshType OVRMesh_IOVRMeshDataProvider_GetMeshType();
 
-  /// @brief Method OVRSkeletonRenderer.IOVRSkeletonRendererDataProvider.GetSkeletonRendererData, addr 0x2ba573c, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method OVRSkeletonRenderer.IOVRSkeletonRendererDataProvider.GetSkeletonRendererData, addr 0x2bb8150, size 0x4c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider_GetSkeletonRendererData();
 
-  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonPoseData, addr 0x2ba56d0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonPoseData, addr 0x2bb80e4, size 0x6c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__OVRSkeleton__SkeletonPoseData OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseData();
 
-  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonType, addr 0x2ba56b8, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonType, addr 0x2bb80cc, size 0x18, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__OVRSkeleton__SkeletonType OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonType();
 
-  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.get_enabled, addr 0x2ba5808, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.get_enabled, addr 0x2bb821c, size 0x8, virtual true, abstract: false, final true
   inline bool OVRSkeleton_IOVRSkeletonDataProvider_get_enabled();
 
-  /// @brief Method SetHandType, addr 0x2ba51b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetHandType, addr 0x2bb7bc8, size 0x8, virtual false, abstract: false, final false
   inline void SetHandType(::GlobalNamespace::__OVRHand__Hand type);
 
-  /// @brief Method Update, addr 0x2ba5590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2bb7fa4, size 0x8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::__OVRHand__Hand const& __cordl_internal_get_HandType() const;
@@ -469,34 +469,34 @@ public:
 
   constexpr void __cordl_internal_set_m_showState(::GlobalNamespace::__OVRInput__InputDeviceShowState value);
 
-  /// @brief Method .ctor, addr 0x2ba57f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bb8204, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HandConfidence, addr 0x2ba5240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HandConfidence, addr 0x2bb7c54, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRHand__TrackingConfidence get_HandConfidence();
 
-  /// @brief Method get_HandScale, addr 0x2ba5230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HandScale, addr 0x2bb7c44, size 0x8, virtual false, abstract: false, final false
   inline float_t get_HandScale();
 
-  /// @brief Method get_IsDataHighConfidence, addr 0x2ba51d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x2bb7be4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method get_IsDataValid, addr 0x2ba51bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataValid, addr 0x2bb7bd0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
-  /// @brief Method get_IsDominantHand, addr 0x2ba5250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDominantHand, addr 0x2bb7c64, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDominantHand();
 
-  /// @brief Method get_IsPointerPoseValid, addr 0x2ba520c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsPointerPoseValid, addr 0x2bb7c20, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsPointerPoseValid();
 
-  /// @brief Method get_IsSystemGestureInProgress, addr 0x2ba51f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSystemGestureInProgress, addr 0x2bb7c0c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsSystemGestureInProgress();
 
-  /// @brief Method get_IsTracked, addr 0x2ba51e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsTracked, addr 0x2bb7bf8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsTracked();
 
-  /// @brief Method get_PointerPose, addr 0x2ba5220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PointerPose, addr 0x2bb7c34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_PointerPose();
 
   /// @brief Convert to "::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider"
@@ -511,31 +511,31 @@ public:
   /// @brief Convert to "::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider"
   constexpr ::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider* i___GlobalNamespace____OVRSkeleton__IOVRSkeletonDataProvider() noexcept;
 
-  /// @brief Method set_HandConfidence, addr 0x2ba5248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HandConfidence, addr 0x2bb7c5c, size 0x8, virtual false, abstract: false, final false
   inline void set_HandConfidence(::GlobalNamespace::__OVRHand__TrackingConfidence value);
 
-  /// @brief Method set_HandScale, addr 0x2ba5238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HandScale, addr 0x2bb7c4c, size 0x8, virtual false, abstract: false, final false
   inline void set_HandScale(float_t value);
 
-  /// @brief Method set_IsDataHighConfidence, addr 0x2ba51d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x2bb7bec, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method set_IsDataValid, addr 0x2ba51c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataValid, addr 0x2bb7bd8, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method set_IsDominantHand, addr 0x2ba5258, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDominantHand, addr 0x2bb7c6c, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDominantHand(bool value);
 
-  /// @brief Method set_IsPointerPoseValid, addr 0x2ba5214, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsPointerPoseValid, addr 0x2bb7c28, size 0xc, virtual false, abstract: false, final false
   inline void set_IsPointerPoseValid(bool value);
 
-  /// @brief Method set_IsSystemGestureInProgress, addr 0x2ba5200, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsSystemGestureInProgress, addr 0x2bb7c14, size 0xc, virtual false, abstract: false, final false
   inline void set_IsSystemGestureInProgress(bool value);
 
-  /// @brief Method set_IsTracked, addr 0x2ba51ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsTracked, addr 0x2bb7c00, size 0xc, virtual false, abstract: false, final false
   inline void set_IsTracked(bool value);
 
-  /// @brief Method set_PointerPose, addr 0x2ba5228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PointerPose, addr 0x2bb7c3c, size 0x8, virtual false, abstract: false, final false
   inline void set_PointerPose(::UnityEngine::Transform* value);
 
 protected:

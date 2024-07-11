@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_strength(int32_t value);
 
-  /// @brief Method .ctor, addr 0x11952b8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11a15b0, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength);
 
-  /// @brief Method get_Random, addr 0x119538c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Random, addr 0x11a1684, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* get_Random();
 
-  /// @brief Method get_Strength, addr 0x1195394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Strength, addr 0x11a168c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Strength();
 
 protected:

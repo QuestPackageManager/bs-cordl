@@ -56,22 +56,22 @@ public:
                              put = setStaticF_s_GroupOptionManagerCache))::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::IGroupBoxOption*,
                                                                                                                       ::UnityEngine::UIElements::IGroupManager*>* s_GroupOptionManagerCache;
 
-  /// @brief Method FindOrCreateGroupManager, addr 0x35831c4, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method FindOrCreateGroupManager, addr 0x359a048, size 0x3e0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IGroupManager* FindOrCreateGroupManager(::UnityEngine::UIElements::IGroupBox* groupBox);
 
-  /// @brief Method OnGroupBoxDetachedFromPanel, addr 0x3583758, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnGroupBoxDetachedFromPanel, addr 0x359a5dc, size 0xb4, virtual false, abstract: false, final false
   static inline void OnGroupBoxDetachedFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method OnOptionAttachToPanel, addr 0x3582f78, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method OnOptionAttachToPanel, addr 0x3599dfc, size 0x24c, virtual false, abstract: false, final false
   static inline void OnOptionAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnOptionDetachFromPanel, addr 0x35835a4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method OnOptionDetachFromPanel, addr 0x359a428, size 0x1b4, virtual false, abstract: false, final false
   static inline void OnOptionDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
   /// @brief Method OnOptionSelected, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void OnOptionSelected(T selectedOption);
 
-  /// @brief Method OnPanelDestroyed, addr 0x358380c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnPanelDestroyed, addr 0x359a690, size 0xdc, virtual false, abstract: false, final false
   static inline void OnPanelDestroyed(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   /// @brief Method RegisterGroupBoxOptionCallbacks, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

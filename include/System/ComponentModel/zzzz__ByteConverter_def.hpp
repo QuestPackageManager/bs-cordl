@@ -32,21 +32,21 @@ public:
   // Declarations
   __declspec(property(get = get_TargetType))::System::Type* TargetType;
 
-  /// @brief Method FromString, addr 0x2f55f84, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x2f62998, size 0x74, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method FromString, addr 0x2f55ef0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x2f62904, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
   static inline ::System::ComponentModel::ByteConverter* New_ctor();
 
-  /// @brief Method ToString, addr 0x2f55ff8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2f62a0c, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method .ctor, addr 0x2f560a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f62abc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TargetType, addr 0x2f55e84, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x2f62898, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
 protected:

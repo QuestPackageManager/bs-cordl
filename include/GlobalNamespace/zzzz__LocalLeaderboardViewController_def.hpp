@@ -79,10 +79,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2665430, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x267a33c, size 0x288, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26656b8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x267a5c4, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -182,45 +182,45 @@ public:
 
   __declspec(property(get = get_leaderboardsModel))::GlobalNamespace::LocalLeaderboardsModel* leaderboardsModel;
 
-  /// @brief Method ClearLeaderboardsAsync, addr 0x26651ac, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ClearLeaderboardsAsync, addr 0x267a0b8, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ClearLeaderboardsAsync();
 
-  /// @brief Method DidActivate, addr 0x2664a24, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2679930, size 0x1e0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x2665008, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x2679f14, size 0x10c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleNewScoreWasAddedToLeaderboard, addr 0x26652ec, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HandleNewScoreWasAddedToLeaderboard, addr 0x267a1f8, size 0xa8, virtual false, abstract: false, final false
   inline void HandleNewScoreWasAddedToLeaderboard(::StringW leaderboardID, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method HandleScopeSegmentedControlDidSelectCell, addr 0x2664ed8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method HandleScopeSegmentedControlDidSelectCell, addr 0x2679de4, size 0x130, virtual false, abstract: false, final false
   inline void HandleScopeSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber);
 
   static inline ::GlobalNamespace::LocalLeaderboardViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2665114, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x267a020, size 0x98, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x26648b0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x26797bc, size 0x84, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Refresh, addr 0x26649c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x26798cc, size 0x64, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method RefreshScopeSegmentedControl, addr 0x2664c04, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method RefreshScopeSegmentedControl, addr 0x2679b10, size 0x2d4, virtual false, abstract: false, final false
   inline void RefreshScopeSegmentedControl();
 
-  /// @brief Method SetContent, addr 0x2665274, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetContent, addr 0x267a180, size 0x78, virtual false, abstract: false, final false
   inline void SetContent(::StringW leaderboardID, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method SetData, addr 0x2664940, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method SetData, addr 0x267984c, size 0x80, virtual true, abstract: false, final false
   inline void SetData(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method Setup, addr 0x2664934, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2679840, size 0xc, virtual false, abstract: false, final false
   inline void Setup(bool enableClear);
 
-  /// @brief Method <DidActivate>b__19_0, addr 0x26653a4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__19_0, addr 0x267a2b0, size 0x8c, virtual false, abstract: false, final false
   inline void _DidActivate_b__19_0();
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__allTimeLeaderboardIcon() const;
@@ -301,12 +301,12 @@ public:
 
   constexpr void __cordl_internal_set__todayLeaderboardIcon(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x2665394, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267a2a0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType getStaticF__leaderboardType();
 
-  /// @brief Method get_leaderboardsModel, addr 0x26648a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leaderboardsModel, addr 0x26797b4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LocalLeaderboardsModel* get_leaderboardsModel();
 
   static inline void setStaticF__leaderboardType(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType value);

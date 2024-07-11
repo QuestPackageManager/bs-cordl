@@ -44,12 +44,12 @@ public:
   /// @brief Field scratchBuffer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_scratchBuffer, put = __cordl_internal_set_scratchBuffer))::ArrayW<float_t, ::Array<float_t>*> scratchBuffer;
 
-  /// @brief Method Awake, addr 0x2af8390, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2b0bda4, size 0xb4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate* New_ctor();
 
-  /// @brief Method OnAudioFilterRead, addr 0x2af8444, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method OnAudioFilterRead, addr 0x2b0be58, size 0x4cc, virtual false, abstract: false, final false
   inline void OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
 
   constexpr ::UnityW<::Oculus::Platform::VoipAudioSourceHiLevel> const& __cordl_internal_get_parent() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_scratchBuffer(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2af8910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0c324, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,27 +127,27 @@ public:
   /// @brief Field verboseLogging, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_verboseLogging, put = setStaticF_verboseLogging)) bool verboseLogging;
 
-  /// @brief Method Awake, addr 0x2af7d14, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2b0b728, size 0x2a0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreatePCMSource, addr 0x2af7fd0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CreatePCMSource, addr 0x2b0b9e4, size 0x60, virtual true, abstract: false, final false
   inline void CreatePCMSource();
 
-  /// @brief Method MSToElements, addr 0x2af8038, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method MSToElements, addr 0x2b0ba4c, size 0x68, virtual false, abstract: false, final false
   static inline int32_t MSToElements(int32_t ms);
 
   static inline ::Oculus::Platform::VoipAudioSourceHiLevel* New_ctor();
 
-  /// @brief Method SampleRateToEnum, addr 0x2af7cd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SampleRateToEnum, addr 0x2b0b6ec, size 0x3c, virtual false, abstract: false, final false
   inline ::Oculus::Platform::VoipSampleRate SampleRateToEnum(int32_t rate);
 
-  /// @brief Method Start, addr 0x2af7fb4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2b0b9c8, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x2af7cd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x2b0b6e8, size 0x4, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Update, addr 0x2af80a0, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2b0bab4, size 0x2e8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get_audioSource() const;
@@ -174,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set_peakAmplitude(float_t value);
 
-  /// @brief Method .ctor, addr 0x2af8388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0bd9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_audioSystemPlaybackFrequency();
@@ -185,7 +185,7 @@ public:
 
   static inline void setStaticF_verboseLogging(bool value);
 
-  /// @brief Method set_senderID, addr 0x2af7c28, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_senderID, addr 0x2b0b63c, size 0xac, virtual false, abstract: false, final false
   inline void set_senderID(uint64_t value);
 
 protected:

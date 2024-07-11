@@ -126,10 +126,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x106cf90, size 0x2dc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1073c2c, size 0x2dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x106d26c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1073f08, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -209,16 +209,16 @@ public:
 
   static inline ::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation* New_ctor();
 
-  /// @brief Method OnCompleteLoadingOculusAccessToken, addr 0x106ce20, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method OnCompleteLoadingOculusAccessToken, addr 0x1073abc, size 0x170, virtual false, abstract: false, final false
   inline void OnCompleteLoadingOculusAccessToken(::Oculus::Platform::Message_1<::StringW>* message);
 
-  /// @brief Method RequestAccessToken, addr 0x106cd10, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method RequestAccessToken, addr 0x10739ac, size 0x110, virtual false, abstract: false, final false
   inline void RequestAccessToken();
 
-  /// @brief Method RequestXPlatformAccessToken, addr 0x106cc10, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method RequestXPlatformAccessToken, addr 0x10738ac, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Run, addr 0x106c8bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x1073558, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* Run(::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState const& __cordl_internal_get__operationState() const;
@@ -233,7 +233,7 @@ public:
 
   constexpr void __cordl_internal_set__tokenData(::GlobalNamespace::XPlatformAccessTokenData value);
 
-  /// @brief Method .ctor, addr 0x106cba0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x107383c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

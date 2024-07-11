@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_sourceMaterialCRC(int32_t value);
 
-  /// @brief Method .ctor, addr 0x339bb60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33a99e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -224,7 +224,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x339a0bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33a7f40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -280,7 +280,7 @@ public:
 
   static inline ::TMPro::__TMP_MaterialManager____c__DisplayClass9_0* New_ctor();
 
-  /// @brief Method <GetBaseMaterial>b__0, addr 0x339c494, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <GetBaseMaterial>b__0, addr 0x33aa318, size 0x70, virtual false, abstract: false, final false
   inline bool _GetBaseMaterial_b__0(::TMPro::__TMP_MaterialManager__MaskingMaterial* item);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_stencilMaterial() const;
@@ -289,7 +289,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x339a424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33a82a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -330,7 +330,7 @@ public:
 
   static inline ::TMPro::__TMP_MaterialManager____c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <AddMaskingMaterial>b__0, addr 0x339c504, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <AddMaskingMaterial>b__0, addr 0x33aa388, size 0x70, virtual false, abstract: false, final false
   inline bool _AddMaskingMaterial_b__0(::TMPro::__TMP_MaterialManager__MaskingMaterial* item);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_stencilMaterial() const;
@@ -339,7 +339,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x339a75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33a85e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -380,7 +380,7 @@ public:
 
   static inline ::TMPro::__TMP_MaterialManager____c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <RemoveStencilMaterial>b__0, addr 0x339c574, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RemoveStencilMaterial>b__0, addr 0x33aa3f8, size 0x70, virtual false, abstract: false, final false
   inline bool _RemoveStencilMaterial_b__0(::TMPro::__TMP_MaterialManager__MaskingMaterial* item);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_stencilMaterial() const;
@@ -389,7 +389,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x339a8c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33a8748, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -430,7 +430,7 @@ public:
 
   static inline ::TMPro::__TMP_MaterialManager____c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <ReleaseBaseMaterial>b__0, addr 0x339c5e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <ReleaseBaseMaterial>b__0, addr 0x33aa468, size 0x70, virtual false, abstract: false, final false
   inline bool _ReleaseBaseMaterial_b__0(::TMPro::__TMP_MaterialManager__MaskingMaterial* item);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_baseMaterial() const;
@@ -439,7 +439,7 @@ public:
 
   constexpr void __cordl_internal_set_baseMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x339adf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33a8c7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -505,61 +505,61 @@ public:
   /// @brief Field m_materialList, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_materialList, put = setStaticF_m_materialList))::System::Collections::Generic::List_1<::TMPro::__TMP_MaterialManager__MaskingMaterial*>* m_materialList;
 
-  /// @brief Method AddFallbackMaterialReference, addr 0x339bf88, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method AddFallbackMaterialReference, addr 0x33a9e0c, size 0x144, virtual false, abstract: false, final false
   static inline void AddFallbackMaterialReference(::UnityEngine::Material* targetMaterial);
 
-  /// @brief Method AddMaskingMaterial, addr 0x339a4e8, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method AddMaskingMaterial, addr 0x33a836c, size 0x274, virtual false, abstract: false, final false
   static inline void AddMaskingMaterial(::UnityEngine::Material* baseMaterial, ::UnityEngine::Material* stencilMaterial, int32_t stencilID);
 
-  /// @brief Method CleanupFallbackMaterials, addr 0x3399008, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method CleanupFallbackMaterials, addr 0x33a6e8c, size 0x214, virtual false, abstract: false, final false
   static inline void CleanupFallbackMaterials();
 
-  /// @brief Method ClearMaterials, addr 0x339ae00, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ClearMaterials, addr 0x33a8c84, size 0x1bc, virtual false, abstract: false, final false
   static inline void ClearMaterials();
 
-  /// @brief Method CopyMaterialPresetProperties, addr 0x339b8f4, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method CopyMaterialPresetProperties, addr 0x33a9778, size 0x26c, virtual false, abstract: false, final false
   static inline void CopyMaterialPresetProperties(::UnityEngine::Material* source, ::UnityEngine::Material* destination);
 
-  /// @brief Method FindRootSortOverrideCanvas, addr 0x339b288, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method FindRootSortOverrideCanvas, addr 0x33a910c, size 0x1a0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> FindRootSortOverrideCanvas(::UnityEngine::Transform* start);
 
-  /// @brief Method GetBaseMaterial, addr 0x339a2c0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetBaseMaterial, addr 0x33a8144, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetBaseMaterial(::UnityEngine::Material* stencilMaterial);
 
-  /// @brief Method GetFallbackMaterial, addr 0x339b624, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method GetFallbackMaterial, addr 0x33a94a8, size 0x2d0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::TMPro::TMP_FontAsset* fontAsset, ::UnityEngine::Material* sourceMaterial, int32_t atlasIndex);
 
-  /// @brief Method GetFallbackMaterial, addr 0x339bb68, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method GetFallbackMaterial, addr 0x33a99ec, size 0x420, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::UnityEngine::Material* sourceMaterial, ::UnityEngine::Material* targetMaterial);
 
-  /// @brief Method GetMaterialForRendering, addr 0x339b428, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialForRendering, addr 0x33a92ac, size 0x1fc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetMaterialForRendering(::UnityEngine::UI::MaskableGraphic* graphic, ::UnityEngine::Material* baseMaterial);
 
-  /// @brief Method GetStencilID, addr 0x339afbc, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method GetStencilID, addr 0x33a8e40, size 0x2cc, virtual false, abstract: false, final false
   static inline int32_t GetStencilID(::UnityEngine::GameObject* obj);
 
-  /// @brief Method GetStencilMaterial, addr 0x339921c, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method GetStencilMaterial, addr 0x33a70a0, size 0x3b4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetStencilMaterial(::UnityEngine::Material* baseMaterial, int32_t stencilID);
 
-  /// @brief Method OnPreRender, addr 0x3398f90, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OnPreRender, addr 0x33a6e14, size 0x78, virtual false, abstract: false, final false
   static inline void OnPreRender();
 
-  /// @brief Method ReleaseBaseMaterial, addr 0x339a8cc, size 0x52c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseBaseMaterial, addr 0x33a8750, size 0x52c, virtual false, abstract: false, final false
   static inline void ReleaseBaseMaterial(::UnityEngine::Material* baseMaterial);
 
-  /// @brief Method ReleaseFallbackMaterial, addr 0x339c2a0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method ReleaseFallbackMaterial, addr 0x33aa124, size 0x1f4, virtual false, abstract: false, final false
   static inline void ReleaseFallbackMaterial(::UnityEngine::Material* fallbackMaterial);
 
-  /// @brief Method ReleaseStencilMaterial, addr 0x339a0c4, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ReleaseStencilMaterial, addr 0x33a7f48, size 0x1fc, virtual false, abstract: false, final false
   static inline void ReleaseStencilMaterial(::UnityEngine::Material* stencilMaterial);
 
-  /// @brief Method RemoveFallbackMaterialReference, addr 0x339c0cc, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method RemoveFallbackMaterialReference, addr 0x33a9f50, size 0x1d4, virtual false, abstract: false, final false
   static inline void RemoveFallbackMaterialReference(::UnityEngine::Material* targetMaterial);
 
-  /// @brief Method RemoveStencilMaterial, addr 0x339a764, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method RemoveStencilMaterial, addr 0x33a85e8, size 0x160, virtual false, abstract: false, final false
   static inline void RemoveStencilMaterial(::UnityEngine::Material* stencilMaterial);
 
-  /// @brief Method SetStencil, addr 0x339a42c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetStencil, addr 0x33a82b0, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> SetStencil(::UnityEngine::Material* material, int32_t stencilID);
 
   static inline bool getStaticF_isFallbackListDirty();

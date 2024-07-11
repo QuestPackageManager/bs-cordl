@@ -37,25 +37,25 @@ public:
   /// @brief Field str, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_str, put = __cordl_internal_set_str))::StringW str;
 
-  /// @brief Method Asn1Equals, addr 0x142c6f0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x14359e8, size 0xa0, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Encode, addr 0x142c6c0, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x14359b8, size 0x30, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method GetInstance, addr 0x142c41c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x1435714, size 0xec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerNumericString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x142c32c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x1435624, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerNumericString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetOctets, addr 0x142c6b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetOctets, addr 0x14359ac, size 0xc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-  /// @brief Method GetString, addr 0x142c6ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x14359a4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetString();
 
-  /// @brief Method IsNumericString, addr 0x142c5e8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method IsNumericString, addr 0x14358e0, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsNumericString(::StringW str);
 
   static inline ::Org::BouncyCastle::Asn1::DerNumericString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
@@ -70,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set_str(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1420390, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1429688, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor, addr 0x142c5e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14358d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method .ctor, addr 0x142c508, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1435800, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::StringW str, bool validate);
 
 protected:

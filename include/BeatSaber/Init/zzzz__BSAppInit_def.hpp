@@ -37,6 +37,9 @@ public:
 
   __declspec(property(get = get_commandLineArguments, put = set_commandLineArguments))::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineArguments;
 
+  /// @brief Field kAutoPlayOption, offset 0xffffffff, size 0x20
+  static __declspec(property(get = getStaticF_kAutoPlayOption, put = setStaticF_kAutoPlayOption))::BGLib::DotnetExtension::CommandLine::ArgumentOption kAutoPlayOption;
+
   /// @brief Field kEditorModeOption, offset 0xffffffff, size 0x20
   static __declspec(property(get = getStaticF_kEditorModeOption, put = setStaticF_kEditorModeOption))::BGLib::DotnetExtension::CommandLine::ArgumentOption kEditorModeOption;
 
@@ -51,12 +54,12 @@ public:
   /// @brief Field kRecordingToolOption, offset 0xffffffff, size 0x20
   static __declspec(property(get = getStaticF_kRecordingToolOption, put = setStaticF_kRecordingToolOption))::BGLib::DotnetExtension::CommandLine::ArgumentOption kRecordingToolOption;
 
-  /// @brief Method InstallBindings, addr 0x1068c90, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x106f840, size 0xac, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::BeatSaber::Init::BSAppInit* New_ctor();
 
-  /// @brief Method PreloadAsync, addr 0x1068be8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x106f798, size 0xa8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
   constexpr ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult const& __cordl_internal_get__commandLineArguments_k__BackingField() const;
@@ -65,8 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__commandLineArguments_k__BackingField(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult value);
 
-  /// @brief Method .ctor, addr 0x1068d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x106f8ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
+
+  static inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption getStaticF_kAutoPlayOption();
 
   static inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption getStaticF_kEditorModeOption();
 
@@ -76,8 +81,10 @@ public:
 
   static inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption getStaticF_kRecordingToolOption();
 
-  /// @brief Method get_commandLineArguments, addr 0x1068bc0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_commandLineArguments, addr 0x106f770, size 0x14, virtual false, abstract: false, final false
   inline ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult get_commandLineArguments();
+
+  static inline void setStaticF_kAutoPlayOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value);
 
   static inline void setStaticF_kEditorModeOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value);
 
@@ -87,7 +94,7 @@ public:
 
   static inline void setStaticF_kRecordingToolOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value);
 
-  /// @brief Method set_commandLineArguments, addr 0x1068bd4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_commandLineArguments, addr 0x106f784, size 0x14, virtual false, abstract: false, final false
   inline void set_commandLineArguments(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult value);
 
 protected:
@@ -106,6 +113,9 @@ public:
 
   /// @brief Field <commandLineArguments>k__BackingField, offset: 0x48, size: 0x18, def value: None
   ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult ____commandLineArguments_k__BackingField;
+
+  /// @brief Field kAutoPlayOptionIdentifier offset 0xffffffff size 0x8
+  static constexpr ::ConstString kAutoPlayOptionIdentifier{ u"--auto_play" };
 
   /// @brief Field kRecordingToolOptionIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kRecordingToolOptionIdentifier{ u"--enable_recording_tool" };

@@ -33,19 +33,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Destroy, addr 0x346f338, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x34801bc, size 0xa0, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Dispose, addr 0x346f2d8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x348015c, size 0x60, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x346f3d8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x348025c, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Internal_Create, addr 0x346f2b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x3480134, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create();
 
-  /// @brief Method Internal_Destroy, addr 0x346f46c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x34802f0, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
   static inline ::UnityEngine::ObjectGUIState* New_ctor();
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x346f268, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34800ec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"

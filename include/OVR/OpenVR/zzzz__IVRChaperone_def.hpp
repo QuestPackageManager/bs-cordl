@@ -100,18 +100,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRChaperone___GetCalibrationState : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bcee34, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2be1848, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2bcee54, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2be1868, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::ChaperoneCalibrationState EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2bcee20, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2be1834, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::ChaperoneCalibrationState Invoke();
 
   static inline ::OVR::OpenVR::__IVRChaperone___GetCalibrationState* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2bced64, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2be1778, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -142,18 +142,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRChaperone___GetPlayAreaSize : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bcef68, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2be197c, size 0xa4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<float_t> pSizeX, ByRef<float_t> pSizeZ, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2bcf00c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2be1a20, size 0x34, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<float_t> pSizeX, ByRef<float_t> pSizeZ, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2bcef54, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2be1968, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(ByRef<float_t> pSizeX, ByRef<float_t> pSizeZ);
 
   static inline ::OVR::OpenVR::__IVRChaperone___GetPlayAreaSize* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2bcee7c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2be1890, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -184,18 +184,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRChaperone___GetPlayAreaRect : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bcf128, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2be1b3c, size 0x8c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::OVR::OpenVR::HmdQuad_t> rect, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2bcf1b4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2be1bc8, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::HmdQuad_t> rect, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2bcf114, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2be1b28, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(ByRef<::OVR::OpenVR::HmdQuad_t> rect);
 
   static inline ::OVR::OpenVR::__IVRChaperone___GetPlayAreaRect* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2bcf040, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2be1a54, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -226,18 +226,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRChaperone___ReloadInfo : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bcf2b0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2be1cc4, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2bcf2d0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2be1ce4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2bcf29c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2be1cb0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::OVR::OpenVR::__IVRChaperone___ReloadInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2bcf1e0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2be1bf4, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -268,18 +268,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRChaperone___SetSceneColor : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bcf3b4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2be1dc8, size 0x88, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::HmdColor_t color, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2bcf43c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2be1e50, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2bcf3a0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2be1db4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::OVR::OpenVR::HmdColor_t color);
 
   static inline ::OVR::OpenVR::__IVRChaperone___SetSceneColor* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2bcf2dc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2be1cf0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -310,19 +310,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRChaperone___GetBoundsColor : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bcf534, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2be1f48, size 0x104, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::OVR::OpenVR::HmdColor_t> pOutputColorArray, int32_t nNumOutputColors, float_t flCollisionBoundsFadeDistance,
                                              ByRef<::OVR::OpenVR::HmdColor_t> pOutputCameraColor, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2bcf638, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2be204c, size 0x24, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<::OVR::OpenVR::HmdColor_t> pOutputColorArray, ByRef<::OVR::OpenVR::HmdColor_t> pOutputCameraColor, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2bcf520, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2be1f34, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(ByRef<::OVR::OpenVR::HmdColor_t> pOutputColorArray, int32_t nNumOutputColors, float_t flCollisionBoundsFadeDistance, ByRef<::OVR::OpenVR::HmdColor_t> pOutputCameraColor);
 
   static inline ::OVR::OpenVR::__IVRChaperone___GetBoundsColor* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2bcf448, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2be1e5c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -353,18 +353,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRChaperone___AreBoundsVisible : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bcf72c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2be2140, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2bcf74c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2be2160, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2bcf718, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2be212c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
   static inline ::OVR::OpenVR::__IVRChaperone___AreBoundsVisible* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2bcf65c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2be2070, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -395,18 +395,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRChaperone___ForceBoundsVisible : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bcf850, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2be2264, size 0x88, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(bool bForce, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2bcf8d8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2be22ec, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2bcf838, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2be224c, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(bool bForce);
 
   static inline ::OVR::OpenVR::__IVRChaperone___ForceBoundsVisible* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2bcf774, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2be2188, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

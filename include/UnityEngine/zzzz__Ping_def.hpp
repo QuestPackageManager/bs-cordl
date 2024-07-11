@@ -32,19 +32,19 @@ public:
 
   __declspec(property(get = get_time)) int32_t time;
 
-  /// @brief Method DestroyPing, addr 0x3402ec0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DestroyPing, addr 0x3411d44, size 0xa0, virtual false, abstract: false, final false
   inline void DestroyPing();
 
-  /// @brief Method Finalize, addr 0x3402e2c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3411cb0, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Internal_Create, addr 0x3402df0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x3411c74, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create(::StringW address);
 
-  /// @brief Method Internal_Destroy, addr 0x3402f60, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x3411de4, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
-  /// @brief Method Internal_IsDone, addr 0x340302c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_IsDone, addr 0x3411eb0, size 0x3c, virtual false, abstract: false, final false
   inline bool Internal_IsDone();
 
   static inline ::UnityEngine::Ping* New_ctor(::StringW address);
@@ -55,13 +55,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x3402da0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3411c24, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::StringW address);
 
-  /// @brief Method get_isDone, addr 0x3402f9c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_isDone, addr 0x3411e20, size 0x90, virtual false, abstract: false, final false
   inline bool get_isDone();
 
-  /// @brief Method get_time, addr 0x3403068, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x3411eec, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_time();
 
 protected:

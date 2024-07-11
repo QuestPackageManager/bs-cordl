@@ -30,7 +30,7 @@ public:
   /// @brief Field lineInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_lineInfo, put = __cordl_internal_set_lineInfo))::System::Xml::IXmlLineInfo* lineInfo;
 
-  /// @brief Method HasLineInfo, addr 0x2ec5fe4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method HasLineInfo, addr 0x2ed59f8, size 0xa0, virtual true, abstract: false, final false
   inline bool HasLineInfo();
 
   static inline ::System::Xml::ReaderPositionInfo* New_ctor(::System::Xml::IXmlLineInfo* lineInfo);
@@ -41,13 +41,13 @@ public:
 
   constexpr void __cordl_internal_set_lineInfo(::System::Xml::IXmlLineInfo* value);
 
-  /// @brief Method .ctor, addr 0x2ec5fb4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed59c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::IXmlLineInfo* lineInfo);
 
-  /// @brief Method get_LineNumber, addr 0x2ec6084, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x2ed5a98, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x2ec6128, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x2ed5b3c, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_LinePosition();
 
 protected:

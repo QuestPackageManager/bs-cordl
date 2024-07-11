@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::AsyncStateMachineAttribute* New_ctor(::System::Type* stateMachineType);
 
-  /// @brief Method .ctor, addr 0x2874c4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2889660, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* stateMachineType);
 
 protected:

@@ -24,13 +24,13 @@ namespace BeatSaber::RecPlay {
 class CORDL_TYPE Poser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InterpolatePose, addr 0x106f38c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method InterpolatePose, addr 0x1076028, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InterpolatePose(ByRef<::UnityEngine::Pose> a, ByRef<::UnityEngine::Pose> b, float_t t);
 
-  /// @brief Method InvertPose, addr 0x106f6dc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InvertPose, addr 0x1076378, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InvertPose(::UnityEngine::Pose pose);
 
-  /// @brief Method MirrorPoseYZ, addr 0x106f744, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method MirrorPoseYZ, addr 0x10763e0, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose MirrorPoseYZ(::UnityEngine::Pose pose);
 
 protected:

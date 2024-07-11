@@ -23,10 +23,10 @@ public:
   /// @brief Field Error, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_Error, put = setStaticF_Error))::GlobalNamespace::GetAssetBundleFileResult Error;
 
-  /// @brief Method Sucess, addr 0x14ce8a4, size 0xc, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::GetAssetBundleFileResult Sucess(::StringW assetBundlePath);
+  /// @brief Method Success, addr 0x14d8448, size 0xc, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::GetAssetBundleFileResult Success(::StringW assetBundlePath);
 
-  /// @brief Method .ctor, addr 0x14ce894, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14d8438, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool isError, ::StringW assetBundlePath);
 
   static inline ::GlobalNamespace::GetAssetBundleFileResult getStaticF_Error();

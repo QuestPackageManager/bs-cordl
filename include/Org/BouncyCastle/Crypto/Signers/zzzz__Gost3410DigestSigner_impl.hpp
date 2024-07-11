@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::*)(
     ::Org::BouncyCastle::Crypto::IDsa*, ::Org::BouncyCastle::Crypto::IDigest*)>(&::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x11b1058;
+  constexpr static std::size_t addrs = 0x11be350;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x11b1124;
+  constexpr static std::size_t addrs = 0x11be41c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::*)(
     bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::Init)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x11b1264;
+  constexpr static std::size_t addrs = 0x11be55c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::Update)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x11b148c;
+  constexpr static std::size_t addrs = 0x11be784;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::BlockUpdate)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x11b1538;
+  constexpr static std::size_t addrs = 0x11be830;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::GenerateSignature)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x11b15fc;
+  constexpr static std::size_t addrs = 0x11be8f4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::VerifySignature)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x11b19b4;
+  constexpr static std::size_t addrs = 0x11becac;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::Reset)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x11b1d18;
+  constexpr static std::size_t addrs = 0x11bf010;
 
   inline static const ::MethodInfo* methodInfo() {
 

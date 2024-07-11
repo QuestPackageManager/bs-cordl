@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::TimeSpan> (::Newtonsoft::Json::Linq::JsonSelectSettings::*)()>(
     &::Newtonsoft::Json::Linq::JsonSelectSettings::get_RegexMatchTimeout)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2a866ac;
+  constexpr static std::size_t addrs = 0x2a9a0c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonSelectSettings*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonSelectSettings::*)(::System::Nullable_1<::System::TimeSpan>)>(
     &::Newtonsoft::Json::Linq::JsonSelectSettings::set_RegexMatchTimeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a866b8;
+  constexpr static std::size_t addrs = 0x2a9a0cc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JsonSelectSettings::*)()>(
     &::Newtonsoft::Json::Linq::JsonSelectSettings::get_ErrorWhenNoMatch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a866c0;
+  constexpr static std::size_t addrs = 0x2a9a0d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonSelectSettings*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonSelectSettings::*)(bool)>(
     &::Newtonsoft::Json::Linq::JsonSelectSettings::set_ErrorWhenNoMatch)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2a866c8;
+  constexpr static std::size_t addrs = 0x2a9a0dc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonSelectSettings::*)()>(&::Newtonsoft::Json::Linq::JsonSelectSettings::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a866d4;
+  constexpr static std::size_t addrs = 0x2a9a0e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonSelectSettings*>::get(), ".ctor",

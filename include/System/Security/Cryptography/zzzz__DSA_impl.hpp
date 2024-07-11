@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DSA::*)()>(&::System::Security::Cryptography::DSA::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f7620;
+  constexpr static std::size_t addrs = 0x280b034;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DSA*>::get(), ".ctor",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::DSA* (*)()>(&::System::Security::Cryptography::DSA::Create)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x27f7628;
+  constexpr static std::size_t addrs = 0x280b03c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DSA*>::get(), "Create",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DSA::*)(::StringW)>(&::System::Security::Cryptography::DSA::FromXmlString)> {
   constexpr static std::size_t size = 0x6a8;
-  constexpr static std::size_t addrs = 0x27f7684;
+  constexpr static std::size_t addrs = 0x280b098;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::DSA::*)(bool)>(&::System::Security::Cryptography::DSA::ToXmlString)> {
   constexpr static std::size_t size = 0x468;
-  constexpr static std::size_t addrs = 0x27f7d2c;
+  constexpr static std::size_t addrs = 0x280b740;
 
   inline static const ::MethodInfo* methodInfo() {
 

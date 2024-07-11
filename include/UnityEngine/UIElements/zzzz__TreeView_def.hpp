@@ -136,7 +136,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__TreeView__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3591790, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a8614, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -181,7 +181,7 @@ public:
   /// @brief Field m_ShowBorder, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ShowBorder, put = __cordl_internal_set_m_ShowBorder))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowBorder;
 
-  /// @brief Method Init, addr 0x359d288, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x35b410c, size 0x260, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__TreeView__UxmlTraits* New_ctor();
@@ -212,7 +212,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShowBorder(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x359d4e8, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b436c, size 0x208, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -265,7 +265,7 @@ public:
   // Declarations
   __declspec(property(get = get_id)) int32_t id;
 
-  /// @brief Method get_id, addr 0x359c8e8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x35b376c, size 0xa0, virtual false, abstract: false, final false
   inline int32_t get_id();
 
   // Ctor Parameters []
@@ -353,27 +353,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x359d6f4, size 0x3f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35b4578, size 0x3f8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::UIElements::__TreeView___GetAllItems_d__64* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.ITreeViewItem>.GetEnumerator, addr 0x359db3c, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.ITreeViewItem>.GetEnumerator, addr 0x35b49c0, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>* System_Collections_Generic_IEnumerable_UnityEngine_UIElements_ITreeViewItem__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.UIElements.ITreeViewItem>.get_Current, addr 0x359daec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.UIElements.ITreeViewItem>.get_Current, addr 0x35b4970, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::ITreeViewItem* System_Collections_Generic_IEnumerator_UnityEngine_UIElements_ITreeViewItem__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x359dbdc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x35b4a60, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x359daf4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x35b4978, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x359db34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x35b49b8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x359d6f0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x35b4574, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -431,7 +431,7 @@ public:
 
   constexpr void __cordl_internal_set_rootItems(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* value);
 
-  /// @brief Method .ctor, addr 0x359a784, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b1608, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>"
@@ -600,71 +600,71 @@ public:
 
   __declspec(property(get = get_unbindItem))::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* unbindItem;
 
-  /// @brief Method BindTreeItem, addr 0x359c518, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method BindTreeItem, addr 0x35b339c, size 0x35c, virtual false, abstract: false, final false
   inline void BindTreeItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method CollapseItemByIndex, addr 0x359ac28, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method CollapseItemByIndex, addr 0x35b1aac, size 0x24c, virtual false, abstract: false, final false
   inline void CollapseItemByIndex(int32_t index);
 
-  /// @brief Method CreateWrappers, addr 0x359c988, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method CreateWrappers, addr 0x35b380c, size 0x520, virtual false, abstract: false, final false
   inline void CreateWrappers(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* treeViewItems, int32_t depth,
                              ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>*> wrappers);
 
-  /// @brief Method ExpandItemByIndex, addr 0x359a920, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method ExpandItemByIndex, addr 0x35b17a4, size 0x308, virtual false, abstract: false, final false
   inline void ExpandItemByIndex(int32_t index);
 
-  /// @brief Method GetAllItems, addr 0x359a720, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetAllItems, addr 0x35b15a4, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*
   GetAllItems(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* rootItems);
 
-  /// @brief Method GetItemId, addr 0x359c874, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetItemId, addr 0x35b36f8, size 0x74, virtual false, abstract: false, final false
   inline int32_t GetItemId(int32_t index);
 
-  /// @brief Method IsExpandedByIndex, addr 0x359a884, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method IsExpandedByIndex, addr 0x35b1708, size 0x9c, virtual false, abstract: false, final false
   inline bool IsExpandedByIndex(int32_t index);
 
-  /// @brief Method ListViewRefresh, addr 0x359a6a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ListViewRefresh, addr 0x35b1528, size 0x1c, virtual false, abstract: false, final false
   inline void ListViewRefresh();
 
-  /// @brief Method MakeTreeItem, addr 0x359bf1c, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method MakeTreeItem, addr 0x35b2da0, size 0x4e0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* MakeTreeItem();
 
   static inline ::UnityEngine::UIElements::TreeView* New_ctor();
 
-  /// @brief Method OnCustomStyleResolved, addr 0x359d02c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method OnCustomStyleResolved, addr 0x35b3eb0, size 0x150, virtual false, abstract: false, final false
   inline void OnCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* e);
 
-  /// @brief Method OnItemMouseUp, addr 0x359b720, size 0x7fc, virtual false, abstract: false, final false
+  /// @brief Method OnItemMouseUp, addr 0x35b25a4, size 0x7fc, virtual false, abstract: false, final false
   inline void OnItemMouseUp(::UnityEngine::UIElements::MouseUpEvent* evt);
 
-  /// @brief Method OnItemsChosen, addr 0x359ae74, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method OnItemsChosen, addr 0x35b1cf8, size 0x420, virtual false, abstract: false, final false
   inline void OnItemsChosen(::System::Collections::Generic::IEnumerable_1<::System::Object*>* chosenItems);
 
-  /// @brief Method OnKeyDown, addr 0x359a7c8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x35b164c, size 0xbc, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
-  /// @brief Method OnSelectionChange, addr 0x359b294, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method OnSelectionChange, addr 0x35b2118, size 0x454, virtual false, abstract: false, final false
   inline void OnSelectionChange(::System::Collections::Generic::IEnumerable_1<::System::Object*>* selectedListItems);
 
-  /// @brief Method OnTreeViewMouseUp, addr 0x359b6e8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnTreeViewMouseUp, addr 0x35b256c, size 0x38, virtual false, abstract: false, final false
   inline void OnTreeViewMouseUp(::UnityEngine::UIElements::MouseUpEvent* evt);
 
-  /// @brief Method OnViewDataReady, addr 0x359a6e4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x35b1568, size 0x3c, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method Rebuild, addr 0x359a6c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x35b1544, size 0x24, virtual false, abstract: false, final false
   inline void Rebuild();
 
-  /// @brief Method RefreshItems, addr 0x359a5f8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RefreshItems, addr 0x35b147c, size 0x24, virtual false, abstract: false, final false
   inline void RefreshItems();
 
-  /// @brief Method RegenerateWrappers, addr 0x359a61c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RegenerateWrappers, addr 0x35b14a0, size 0x88, virtual false, abstract: false, final false
   inline void RegenerateWrappers();
 
-  /// @brief Method ToggleExpandedState, addr 0x359cea8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ToggleExpandedState, addr 0x35b3d2c, size 0x184, virtual false, abstract: false, final false
   inline void ToggleExpandedState(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
 
-  /// @brief Method UnbindTreeItem, addr 0x359c3fc, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method UnbindTreeItem, addr 0x35b3280, size 0x11c, virtual false, abstract: false, final false
   inline void UnbindTreeItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
   constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>*& __cordl_internal_get__unbindItem_k__BackingField();
@@ -737,7 +737,7 @@ public:
 
   constexpr void __cordl_internal_set_onSelectionChange(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* value);
 
-  /// @brief Method .ctor, addr 0x359a0a4, size 0x554, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b0f28, size 0x554, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_ItemContentContainerName();
@@ -752,7 +752,7 @@ public:
 
   static inline ::StringW getStaticF_s_ListViewName();
 
-  /// @brief Method get_unbindItem, addr 0x359a024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unbindItem, addr 0x35b0ea8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* get_unbindItem();
 
   static inline void setStaticF_s_ItemContentContainerName(::StringW value);
@@ -767,16 +767,16 @@ public:
 
   static inline void setStaticF_s_ListViewName(::StringW value);
 
-  /// @brief Method set_itemHeight, addr 0x359a02c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_itemHeight, addr 0x35b0eb0, size 0x20, virtual false, abstract: false, final false
   inline void set_itemHeight(int32_t value);
 
-  /// @brief Method set_selectionType, addr 0x359a06c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_selectionType, addr 0x35b0ef0, size 0x1c, virtual false, abstract: false, final false
   inline void set_selectionType(::UnityEngine::UIElements::SelectionType value);
 
-  /// @brief Method set_showAlternatingRowBackgrounds, addr 0x359a088, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_showAlternatingRowBackgrounds, addr 0x35b0f0c, size 0x1c, virtual false, abstract: false, final false
   inline void set_showAlternatingRowBackgrounds(::UnityEngine::UIElements::AlternatingRowBackground value);
 
-  /// @brief Method set_showBorder, addr 0x359a04c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showBorder, addr 0x35b0ed0, size 0x20, virtual false, abstract: false, final false
   inline void set_showBorder(bool value);
 
 protected:

@@ -136,12 +136,12 @@ public:
   /// @brief Field systemGpuUtilPercentage_IsValid, offset 0x4c, size 0x1
   __declspec(property(get = __cordl_internal_get_systemGpuUtilPercentage_IsValid, put = __cordl_internal_set_systemGpuUtilPercentage_IsValid)) bool systemGpuUtilPercentage_IsValid;
 
-  /// @brief Method LoadFromJSON, addr 0x2bb833c, size 0x948, virtual false, abstract: false, final false
+  /// @brief Method LoadFromJSON, addr 0x2bcad50, size 0x948, virtual false, abstract: false, final false
   inline bool LoadFromJSON(::StringW json);
 
   static inline ::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics* New_ctor();
 
-  /// @brief Method ToJSON, addr 0x2bb7b24, size 0x774, virtual false, abstract: false, final false
+  /// @brief Method ToJSON, addr 0x2bca538, size 0x774, virtual false, abstract: false, final false
   inline ::StringW ToJSON();
 
   constexpr float_t const& __cordl_internal_get_appCpuTime() const;
@@ -330,7 +330,7 @@ public:
 
   constexpr void __cordl_internal_set_systemGpuUtilPercentage_IsValid(bool value);
 
-  /// @brief Method .ctor, addr 0x2bb9418, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcbe2c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -525,18 +525,18 @@ public:
   /// @brief Field tcpServer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_tcpServer, put = __cordl_internal_set_tcpServer))::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* tcpServer;
 
-  /// @brief Method GatherPerfMetrics, addr 0x2bb9708, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method GatherPerfMetrics, addr 0x2bcc11c, size 0x300, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics* GatherPerfMetrics();
 
   static inline ::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2bb95e4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2bcbff8, size 0xa0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2bb94d0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2bcbee4, size 0x114, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x2bb9684, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2bcc098, size 0x84, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get_listeningPort() const;
@@ -551,7 +551,7 @@ public:
 
   constexpr void __cordl_internal_set_tcpServer(::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* value);
 
-  /// @brief Method .ctor, addr 0x2bb9a08, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcc41c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer> getStaticF_singleton();
@@ -602,7 +602,7 @@ public:
 
   static inline ::GlobalNamespace::OVRSystemPerfMetrics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bb7b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bca530, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

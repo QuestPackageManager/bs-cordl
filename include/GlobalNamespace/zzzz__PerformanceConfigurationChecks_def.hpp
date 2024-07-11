@@ -1057,22 +1057,22 @@ public:
   /// @brief Field xrConfig, offset 0x20, size 0x30
   __declspec(property(get = __cordl_internal_get_xrConfig, put = __cordl_internal_set_xrConfig))::GlobalNamespace::__PerformanceConfigurationChecks__XRConfig xrConfig;
 
-  /// @brief Method CreateErrorLog, addr 0x26a25c8, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method CreateErrorLog, addr 0x26b55a4, size 0x29c, virtual false, abstract: false, final false
   inline ::StringW CreateErrorLog();
 
-  /// @brief Method IsValid, addr 0x26a256c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x26b5548, size 0x5c, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::GlobalNamespace::PerformanceConfigurationChecks* New_ctor();
 
-  /// @brief Method SetExpected, addr 0x26a2864, size 0x6f4, virtual false, abstract: false, final false
+  /// @brief Method SetExpected, addr 0x26b5840, size 0x6f4, virtual false, abstract: false, final false
   inline bool SetExpected(::BeatSaber::GameSettings::MainSettingsHandler* mainSettingsHandler, ::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettingsHandler,
                           ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers);
 
   /// @brief Method VerifyEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void VerifyEntry(::StringW name, T expected, T actual);
 
-  /// @brief Method VerifyExpected, addr 0x26a3008, size 0x1cb4, virtual false, abstract: false, final false
+  /// @brief Method VerifyExpected, addr 0x26b5fe4, size 0x1cb4, virtual false, abstract: false, final false
   inline bool VerifyExpected(::BeatSaber::GameSettings::MainSettingsHandler* mainSettingsHandler, ::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettingsHandler,
                              ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers);
 
@@ -1125,7 +1125,7 @@ public:
 
   constexpr void __cordl_internal_set_xrConfig(::GlobalNamespace::__PerformanceConfigurationChecks__XRConfig value);
 
-  /// @brief Method .ctor, addr 0x26a4cbc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b7c98, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

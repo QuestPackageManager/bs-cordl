@@ -31,13 +31,13 @@ namespace Unity::Mathematics::Geometry {
 class CORDL_TYPE Math : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Transform, addr 0x31fec40, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method Transform, addr 0x320eac4, size 0x2e8, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::RigidTransform transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
-  /// @brief Method Transform, addr 0x31ff138, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Transform, addr 0x320efbc, size 0x1a0, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::float3x3 transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
-  /// @brief Method Transform, addr 0x31fef28, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Transform, addr 0x320edac, size 0x210, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::float4x4 transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
 protected:

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::Formatters::Binary::NameCache::*)(::StringW)>(
     &::System::Runtime::Serialization::Formatters::Binary::NameCache::GetCachedValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2869288;
+  constexpr static std::size_t addrs = 0x287cc9c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::NameCache::*)(::System::Object*)>(
     &::System::Runtime::Serialization::Formatters::Binary::NameCache::SetCachedValue)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2869730;
+  constexpr static std::size_t addrs = 0x287d144;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::NameCache::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::NameCache::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28658fc;
+  constexpr static std::size_t addrs = 0x2879310;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

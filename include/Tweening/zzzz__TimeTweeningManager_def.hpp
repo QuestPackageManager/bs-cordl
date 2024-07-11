@@ -20,12 +20,12 @@ namespace Tweening {
 class CORDL_TYPE TimeTweeningManager : public ::Tweening::TweeningManager {
 public:
   // Declarations
-  /// @brief Method GetTime, addr 0x3060cd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetTime, addr 0x30706ec, size 0x8, virtual true, abstract: false, final false
   inline float_t GetTime();
 
   static inline ::Tweening::TimeTweeningManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3060ce0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30706f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

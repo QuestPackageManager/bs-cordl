@@ -114,13 +114,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2c88e78, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2c9c88c, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2c8ac38, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2c9e64c, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x2c8ac3c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2c9e650, size 0xa4, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// @brief Method FinishHandshake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -140,7 +140,7 @@ public:
   /// @brief Method Renegotiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Renegotiate();
 
-  /// @brief Method SelectClientCertificate, addr 0x2c83300, size 0x504, virtual false, abstract: false, final false
+  /// @brief Method SelectClientCertificate, addr 0x2c96d14, size 0x504, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* SelectClientCertificate(::ArrayW<::StringW, ::Array<::StringW>*> acceptableIssuers);
 
   /// @brief Method Shutdown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -149,7 +149,7 @@ public:
   /// @brief Method StartHandshake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StartHandshake();
 
-  /// @brief Method ValidateCertificate, addr 0x2c821b8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x2c95bcc, size 0x50, virtual false, abstract: false, final false
   inline bool ValidateCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* leaf, ::System::Security::Cryptography::X509Certificates::X509Chain* chain);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -215,46 +215,46 @@ public:
 
   constexpr void __cordl_internal_set_certificateValidator(::Mono::Net::Security::ChainValidationHelper* value);
 
-  /// @brief Method .ctor, addr 0x2c814a0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c94eb4, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, ::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 
-  /// @brief Method get_AskForClientCertificate, addr 0x2c8ac18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AskForClientCertificate, addr 0x2c9e62c, size 0x8, virtual false, abstract: false, final false
   inline bool get_AskForClientCertificate();
 
-  /// @brief Method get_ClientCertificates, addr 0x2c8ac20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClientCertificates, addr 0x2c9e634, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
   /// @brief Method get_IsAuthenticated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsAuthenticated();
 
-  /// @brief Method get_IsServer, addr 0x2c8ac00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsServer, addr 0x2c9e614, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsServer();
 
   /// @brief Method get_LocalClientCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalClientCertificate();
 
-  /// @brief Method get_LocalServerCertificate, addr 0x2c8ac28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalServerCertificate, addr 0x2c9e63c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalServerCertificate();
 
-  /// @brief Method get_Parent, addr 0x2c8abf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x2c9e60c, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* get_Parent();
 
   /// @brief Method get_RemoteCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_RemoteCertificate();
 
-  /// @brief Method get_ServerName, addr 0x2c8ac10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServerName, addr 0x2c9e624, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ServerName();
 
-  /// @brief Method get_Settings, addr 0x2c81e30, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Settings, addr 0x2c95844, size 0x1c, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::MonoTlsSettings* get_Settings();
 
-  /// @brief Method get_TargetHost, addr 0x2c8ac08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetHost, addr 0x2c9e61c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TargetHost();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_LocalServerCertificate, addr 0x2c8ac30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocalServerCertificate, addr 0x2c9e644, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
 
 protected:

@@ -54,26 +54,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2796a74, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x27aa488, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2796fc0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x27aa9d4, size 0x6c, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x27969d4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x27aa3e8, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetResponse, addr 0x2796c80, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method GetResponse, addr 0x27aa694, size 0x2dc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetResponse(::ArrayW<uint8_t, ::Array<uint8_t>*> pwd);
 
   static inline ::Mono::Security::Protocol::Ntlm::ChallengeResponse* New_ctor();
 
   static inline ::Mono::Security::Protocol::Ntlm::ChallengeResponse* New_ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> challenge);
 
-  /// @brief Method PasswordToKey, addr 0x2796ad8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method PasswordToKey, addr 0x27aa4ec, size 0x144, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PasswordToKey(::StringW password, int32_t position);
 
-  /// @brief Method PrepareDESKey, addr 0x279702c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method PrepareDESKey, addr 0x27aaa40, size 0x1f8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PrepareDESKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key56bits, int32_t position);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__challenge() const;
@@ -100,20 +100,20 @@ public:
 
   constexpr void __cordl_internal_set__ntpwd(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x27963ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27a9e00, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x279645c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27a9e70, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> challenge);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_magic();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_nullEncMagic();
 
-  /// @brief Method get_LM, addr 0x2796c1c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_LM, addr 0x27aa630, size 0x64, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_LM();
 
-  /// @brief Method get_NT, addr 0x2796f5c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_NT, addr 0x27aa970, size 0x64, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_NT();
 
   /// @brief Convert to "::System::IDisposable"
@@ -123,10 +123,10 @@ public:
 
   static inline void setStaticF_nullEncMagic(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method set_Challenge, addr 0x27968a0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method set_Challenge, addr 0x27aa2b4, size 0x134, virtual false, abstract: false, final false
   inline void set_Challenge(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method set_Password, addr 0x2796494, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method set_Password, addr 0x27a9ea8, size 0x40c, virtual false, abstract: false, final false
   inline void set_Password(::StringW value);
 
 protected:

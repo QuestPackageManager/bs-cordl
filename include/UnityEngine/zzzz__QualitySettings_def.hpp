@@ -29,34 +29,34 @@ namespace UnityEngine {
 class CORDL_TYPE QualitySettings : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method get_INTERNAL_renderPipeline, addr 0x34189d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_INTERNAL_renderPipeline, addr 0x3427858, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> get_INTERNAL_renderPipeline();
 
-  /// @brief Method get_activeColorSpace, addr 0x3418b68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_activeColorSpace, addr 0x34279ec, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorSpace get_activeColorSpace();
 
-  /// @brief Method get_antiAliasing, addr 0x3418970, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_antiAliasing, addr 0x34277f4, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_antiAliasing();
 
-  /// @brief Method get_desiredColorSpace, addr 0x3418b40, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_desiredColorSpace, addr 0x34279c4, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorSpace get_desiredColorSpace();
 
-  /// @brief Method get_renderPipeline, addr 0x3418a38, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_renderPipeline, addr 0x34278bc, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> get_renderPipeline();
 
-  /// @brief Method set_INTERNAL_renderPipeline, addr 0x34189fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_INTERNAL_renderPipeline, addr 0x3427880, size 0x3c, virtual false, abstract: false, final false
   static inline void set_INTERNAL_renderPipeline(::UnityEngine::ScriptableObject* value);
 
-  /// @brief Method set_antiAliasing, addr 0x3418998, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_antiAliasing, addr 0x342781c, size 0x3c, virtual false, abstract: false, final false
   static inline void set_antiAliasing(int32_t value);
 
-  /// @brief Method set_maxQueuedFrames, addr 0x3418b04, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_maxQueuedFrames, addr 0x3427988, size 0x3c, virtual false, abstract: false, final false
   static inline void set_maxQueuedFrames(int32_t value);
 
-  /// @brief Method set_renderPipeline, addr 0x3418ac8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_renderPipeline, addr 0x342794c, size 0x3c, virtual false, abstract: false, final false
   static inline void set_renderPipeline(::UnityEngine::Rendering::RenderPipelineAsset* value);
 
-  /// @brief Method set_vSyncCount, addr 0x3418934, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_vSyncCount, addr 0x34277b8, size 0x3c, virtual false, abstract: false, final false
   static inline void set_vSyncCount(int32_t value);
 
 protected:

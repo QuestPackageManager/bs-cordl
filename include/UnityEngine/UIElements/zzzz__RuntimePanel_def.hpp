@@ -36,12 +36,12 @@ public:
   /// @brief Field s_EventDispatcher, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_EventDispatcher, put = setStaticF_s_EventDispatcher))::UnityEngine::UIElements::EventDispatcher* s_EventDispatcher;
 
-  /// @brief Method Create, addr 0x3596964, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x35ad7e8, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::RuntimePanel* Create(::UnityEngine::ScriptableObject* ownerObject);
 
   static inline ::UnityEngine::UIElements::RuntimePanel* New_ctor(::UnityEngine::ScriptableObject* ownerObject);
 
-  /// @brief Method Update, addr 0x3596c40, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x35adac4, size 0x80, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::UIElements::PanelSettings> const& __cordl_internal_get_m_PanelSettings() const;
@@ -50,12 +50,12 @@ public:
 
   constexpr void __cordl_internal_set_m_PanelSettings(::UnityW<::UnityEngine::UIElements::PanelSettings> value);
 
-  /// @brief Method .ctor, addr 0x35969c4, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ad848, size 0x1f8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ScriptableObject* ownerObject);
 
   static inline ::UnityEngine::UIElements::EventDispatcher* getStaticF_s_EventDispatcher();
 
-  /// @brief Method get_panelSettings, addr 0x359695c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_panelSettings, addr 0x35ad7e0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::UIElements::PanelSettings> get_panelSettings();
 
   static inline void setStaticF_s_EventDispatcher(::UnityEngine::UIElements::EventDispatcher* value);

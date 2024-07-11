@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_Result(::Oculus::Platform::PlatformInitializeResult value);
 
-  /// @brief Method .ctor, addr 0x2afec70, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b12684, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:

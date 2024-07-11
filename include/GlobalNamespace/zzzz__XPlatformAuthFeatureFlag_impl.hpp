@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::XPlatformAuthFeatureFlag::*)()>(
     &::GlobalNamespace::XPlatformAuthFeatureFlag::get_UseXPlatformAuth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10c2f4c;
+  constexpr static std::size_t addrs = 0x10cf244;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::XPlatformAuthFeatureFlag*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::XPlatformAuthFeatureFlag::*)(bool)>(
     &::GlobalNamespace::XPlatformAuthFeatureFlag::set_UseXPlatformAuth)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x10c2f54;
+  constexpr static std::size_t addrs = 0x10cf24c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::XPlatformAuthFeatureFlag::*)()>(&::GlobalNamespace::XPlatformAuthFeatureFlag::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10c2f60;
+  constexpr static std::size_t addrs = 0x10cf258;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::XPlatformAuthFeatureFlag*>::get(), ".ctor",

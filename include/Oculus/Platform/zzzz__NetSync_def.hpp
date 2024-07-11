@@ -28,10 +28,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE NetSync : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetConnectionStatusChangedNotificationCallback, addr 0x2af54ec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetConnectionStatusChangedNotificationCallback, addr 0x2b08f00, size 0x74, virtual false, abstract: false, final false
   static inline void SetConnectionStatusChangedNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::NetSyncConnection*>* callback);
 
-  /// @brief Method SetSessionsChangedNotificationCallback, addr 0x2af5560, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetSessionsChangedNotificationCallback, addr 0x2b08f74, size 0x74, virtual false, abstract: false, final false
   static inline void SetSessionsChangedNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::NetSyncSessionsChangedNotification*>* callback);
 
 protected:

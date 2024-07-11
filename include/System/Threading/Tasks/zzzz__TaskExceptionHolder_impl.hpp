@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::TaskExceptionHolder::*)(::System::Threading::Tasks::Task*)>(
     &::System::Threading::Tasks::TaskExceptionHolder::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x29c8c04;
+  constexpr static std::size_t addrs = 0x29de618;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Threading::Tasks::TaskExceptionHolder::ShouldFailFastOnUnobservedException)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29d08a8;
+  constexpr static std::size_t addrs = 0x29e62bc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::TaskExceptionHolder::*)()>(
     &::System::Threading::Tasks::TaskExceptionHolder::Finalize)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x29d08b0;
+  constexpr static std::size_t addrs = 0x29e62c4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::Tasks::TaskExceptionHolder::*)()>(
     &::System::Threading::Tasks::TaskExceptionHolder::get_ContainsFaultList)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x29c8818;
+  constexpr static std::size_t addrs = 0x29de22c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskExceptionHolder*>::get(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::TaskExceptionHolder::*)(::System::Object*, bool)>(
     &::System::Threading::Tasks::TaskExceptionHolder::Add)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x29c8c2c;
+  constexpr static std::size_t addrs = 0x29de640;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::TaskExceptionHolder::*)(::System::Object*)>(
     &::System::Threading::Tasks::TaskExceptionHolder::SetCancellationException)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x29d0c54;
+  constexpr static std::size_t addrs = 0x29e6668;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::TaskExceptionHolder::*)(::System::Object*)>(
     &::System::Threading::Tasks::TaskExceptionHolder::AddFaultException)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x29d0d10;
+  constexpr static std::size_t addrs = 0x29e6724;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::TaskExceptionHolder::*)()>(
     &::System::Threading::Tasks::TaskExceptionHolder::MarkAsUnhandled)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x29d121c;
+  constexpr static std::size_t addrs = 0x29e6c30;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskExceptionHolder*>::get(),
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::TaskExceptionHolder::*)(bool)>(
     &::System::Threading::Tasks::TaskExceptionHolder::MarkAsHandled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x29c89f0;
+  constexpr static std::size_t addrs = 0x29de404;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::AggregateException* (::System::Threading::Tasks::TaskExceptionHolder::*)(bool, ::System::Exception*)>(
     &::System::Threading::Tasks::TaskExceptionHolder::CreateExceptionObject)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x29c8c38;
+  constexpr static std::size_t addrs = 0x29de64c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,7 +164,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* (::System::Threading::Tasks::TaskExceptionHolder::*)()>(
         &::System::Threading::Tasks::TaskExceptionHolder::GetExceptionDispatchInfos)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x29c8ef8;
+  constexpr static std::size_t addrs = 0x29de90c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskExceptionHolder*>::get(),
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::ExceptionServices::ExceptionDispatchInfo* (::System::Threading::Tasks::TaskExceptionHolder::*)()>(
     &::System::Threading::Tasks::TaskExceptionHolder::GetCancellationExceptionDispatchInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29d128c;
+  constexpr static std::size_t addrs = 0x29e6ca0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

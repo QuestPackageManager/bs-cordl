@@ -36,10 +36,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::ScaleVector2Processor* New_ctor();
 
-  /// @brief Method Process, addr 0x318ca64, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x319e8e8, size 0x10, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x318ca74, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x319e8f8, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_x() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_y(float_t value);
 
-  /// @brief Method .ctor, addr 0x318cb14, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x319e998, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

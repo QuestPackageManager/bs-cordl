@@ -136,7 +136,7 @@ public:
 
   static inline ::Zenject::ZenjectBinding* New_ctor();
 
-  /// @brief Method Start, addr 0x3676044, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x368cec8, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::__ZenjectBinding__BindTypes const& __cordl_internal_get__bindType() const;
@@ -175,31 +175,31 @@ public:
 
   constexpr void __cordl_internal_set__useSceneContext(bool value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36760a0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x368cf24, size 0x178, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3676048, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x368cecc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BindType, addr 0x367603c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindType, addr 0x368cec0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::__ZenjectBinding__BindTypes get_BindType();
 
-  /// @brief Method get_Components, addr 0x367602c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Components, addr 0x368ceb0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> get_Components();
 
-  /// @brief Method get_Context, addr 0x367601c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Context, addr 0x368cea0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Zenject::Context> get_Context();
 
-  /// @brief Method get_Identifier, addr 0x3676034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x368ceb8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Identifier();
 
-  /// @brief Method get_IfNotBound, addr 0x3676014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IfNotBound, addr 0x368ce98, size 0x8, virtual false, abstract: false, final false
   inline bool get_IfNotBound();
 
-  /// @brief Method get_UseSceneContext, addr 0x367600c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseSceneContext, addr 0x368ce90, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseSceneContext();
 
-  /// @brief Method set_Context, addr 0x3676024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Context, addr 0x368cea8, size 0x8, virtual false, abstract: false, final false
   inline void set_Context(::Zenject::Context* value);
 
 protected:

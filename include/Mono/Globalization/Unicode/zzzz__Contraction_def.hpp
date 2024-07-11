@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_Source(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method .ctor, addr 0x27ace24, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c0838, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::ArrayW<char16_t, ::Array<char16_t>*> source, ::StringW replacement, ::ArrayW<uint8_t, ::Array<uint8_t>*> sortkey);
 
 protected:

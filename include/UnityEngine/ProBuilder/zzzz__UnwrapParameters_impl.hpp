@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::UnwrapParameters::*)()>(
     &::UnityEngine::ProBuilder::UnwrapParameters::get_hardAngle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32de6e8;
+  constexpr static std::size_t addrs = 0x32ed56c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UnwrapParameters*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::UnwrapParameters::*)(float_t)>(
     &::UnityEngine::ProBuilder::UnwrapParameters::set_hardAngle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32de6f0;
+  constexpr static std::size_t addrs = 0x32ed574;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::UnwrapParameters::*)()>(
     &::UnityEngine::ProBuilder::UnwrapParameters::get_packMargin)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32de6f8;
+  constexpr static std::size_t addrs = 0x32ed57c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UnwrapParameters*>::get(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::UnwrapParameters::*)(float_t)>(
     &::UnityEngine::ProBuilder::UnwrapParameters::set_packMargin)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32de700;
+  constexpr static std::size_t addrs = 0x32ed584;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::UnwrapParameters::*)()>(
     &::UnityEngine::ProBuilder::UnwrapParameters::get_angleError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32de708;
+  constexpr static std::size_t addrs = 0x32ed58c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UnwrapParameters*>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::UnwrapParameters::*)(float_t)>(
     &::UnityEngine::ProBuilder::UnwrapParameters::set_angleError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32de710;
+  constexpr static std::size_t addrs = 0x32ed594;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::UnwrapParameters::*)()>(
     &::UnityEngine::ProBuilder::UnwrapParameters::get_areaError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32de718;
+  constexpr static std::size_t addrs = 0x32ed59c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UnwrapParameters*>::get(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::UnwrapParameters::*)(float_t)>(
     &::UnityEngine::ProBuilder::UnwrapParameters::set_areaError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32de720;
+  constexpr static std::size_t addrs = 0x32ed5a4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::UnwrapParameters::*)()>(&::UnityEngine::ProBuilder::UnwrapParameters::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x32d6e34;
+  constexpr static std::size_t addrs = 0x32e5cb8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UnwrapParameters*>::get(), ".ctor",
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::UnwrapParameters::*)(::UnityEngine::ProBuilder::UnwrapParameters*)>(
     &::UnityEngine::ProBuilder::UnwrapParameters::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x32de738;
+  constexpr static std::size_t addrs = 0x32ed5bc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::UnwrapParameters::*)()>(&::UnityEngine::ProBuilder::UnwrapParameters::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x32de728;
+  constexpr static std::size_t addrs = 0x32ed5ac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::UnwrapParameters*>::get(), "Reset",
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::UnwrapParameters::*)()>(
     &::UnityEngine::ProBuilder::UnwrapParameters::ToString)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x32de7c0;
+  constexpr static std::size_t addrs = 0x32ed644;
 
   inline static const ::MethodInfo* methodInfo() {
 

@@ -39,51 +39,51 @@ public:
 
   __declspec(property(get = get_radius, put = set_radius)) float_t radius;
 
-  /// @brief Method CalculateTransform, addr 0x34925b4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CalculateTransform, addr 0x34a5438, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 CalculateTransform();
 
-  /// @brief Method CalculateTransform_Injected, addr 0x3492620, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CalculateTransform_Injected, addr 0x34a54a4, size 0x44, virtual false, abstract: false, final false
   inline void CalculateTransform_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method GetGlobalExtents, addr 0x3492524, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalExtents, addr 0x34a53a8, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetGlobalExtents();
 
-  /// @brief Method GetGlobalExtents_Injected, addr 0x3492570, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalExtents_Injected, addr 0x34a53f4, size 0x44, virtual false, abstract: false, final false
   inline void GetGlobalExtents_Injected(ByRef<::UnityEngine::Vector2> ret);
 
   static inline ::UnityEngine::CapsuleCollider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3492664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34a54e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_center, addr 0x349225c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x34a50e0, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_center();
 
-  /// @brief Method get_center_Injected, addr 0x34922b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_center_Injected, addr 0x34a513c, size 0x44, virtual false, abstract: false, final false
   inline void get_center_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_direction, addr 0x34924a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x34a5328, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_direction();
 
-  /// @brief Method get_height, addr 0x349241c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x34a52a0, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_radius, addr 0x3492394, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x34a5218, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method set_center, addr 0x34922fc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_center, addr 0x34a5180, size 0x54, virtual false, abstract: false, final false
   inline void set_center(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_center_Injected, addr 0x3492350, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_center_Injected, addr 0x34a51d4, size 0x44, virtual false, abstract: false, final false
   inline void set_center_Injected(ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_direction, addr 0x34924e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x34a5364, size 0x44, virtual false, abstract: false, final false
   inline void set_direction(int32_t value);
 
-  /// @brief Method set_height, addr 0x3492458, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x34a52dc, size 0x4c, virtual false, abstract: false, final false
   inline void set_height(float_t value);
 
-  /// @brief Method set_radius, addr 0x34923d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x34a5254, size 0x4c, virtual false, abstract: false, final false
   inline void set_radius(float_t value);
 
 protected:

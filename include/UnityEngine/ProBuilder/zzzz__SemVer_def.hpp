@@ -80,25 +80,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::SemVer*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::SemVer*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x32ce698, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x32dd51c, size 0x64, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
-  /// @brief Method CompareTo, addr 0x32ce6fc, size 0x1ac, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x32dd580, size 0x1ac, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::ProBuilder::SemVer* version);
 
-  /// @brief Method Equals, addr 0x32ce258, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x32dd0dc, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x32ce2c8, size 0x204, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x32dd14c, size 0x204, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ProBuilder::SemVer* version);
 
-  /// @brief Method GetBuildNumber, addr 0x32cee08, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetBuildNumber, addr 0x32ddc8c, size 0xc8, virtual false, abstract: false, final false
   static inline int32_t GetBuildNumber(::StringW input);
 
-  /// @brief Method GetHashCode, addr 0x32ce4cc, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x32dd350, size 0x1cc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsValid, addr 0x32ce228, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x32dd0ac, size 0x30, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::UnityEngine::ProBuilder::SemVer* New_ctor();
@@ -107,16 +107,16 @@ public:
 
   static inline ::UnityEngine::ProBuilder::SemVer* New_ctor(int32_t major, int32_t minor, int32_t patch, int32_t build, ::StringW type, ::StringW date, ::StringW metadata);
 
-  /// @brief Method ToString, addr 0x32cebd8, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x32dda5c, size 0x230, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x32ce9c8, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x32dd84c, size 0x210, virtual false, abstract: false, final false
   inline ::StringW ToString(::StringW format);
 
-  /// @brief Method TryGetVersionInfo, addr 0x32cde44, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method TryGetVersionInfo, addr 0x32dccc8, size 0x3e4, virtual false, abstract: false, final false
   static inline bool TryGetVersionInfo(::StringW input, ByRef<::UnityEngine::ProBuilder::SemVer*> version);
 
-  /// @brief Method WrapNoValue, addr 0x32ce8a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method WrapNoValue, addr 0x32dd72c, size 0x10, virtual false, abstract: false, final false
   static inline int32_t WrapNoValue(int32_t value);
 
   constexpr int32_t const& __cordl_internal_get_m_Build() const;
@@ -161,37 +161,37 @@ public:
 
   constexpr void __cordl_internal_set_m_Type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x32cdd68, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32dcbec, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x32cdd9c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32dcc20, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::StringW formatted, ::StringW date);
 
-  /// @brief Method .ctor, addr 0x32cdcfc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32dcb80, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t major, int32_t minor, int32_t patch, int32_t build, ::StringW type, ::StringW date, ::StringW metadata);
 
-  /// @brief Method get_MajorMinorPatch, addr 0x32cdc70, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_MajorMinorPatch, addr 0x32dcaf4, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::SemVer* get_MajorMinorPatch();
 
-  /// @brief Method get_build, addr 0x32cdb78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_build, addr 0x32dc9fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_build();
 
-  /// @brief Method get_date, addr 0x32cdc20, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_date, addr 0x32dcaa4, size 0x50, virtual false, abstract: false, final false
   inline ::StringW get_date();
 
-  /// @brief Method get_major, addr 0x32cdb60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_major, addr 0x32dc9e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_major();
 
-  /// @brief Method get_metadata, addr 0x32cdbd0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_metadata, addr 0x32dca54, size 0x50, virtual false, abstract: false, final false
   inline ::StringW get_metadata();
 
-  /// @brief Method get_minor, addr 0x32cdb68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minor, addr 0x32dc9ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minor();
 
-  /// @brief Method get_patch, addr 0x32cdb70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_patch, addr 0x32dc9f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_patch();
 
-  /// @brief Method get_type, addr 0x32cdb80, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x32dca04, size 0x50, virtual false, abstract: false, final false
   inline ::StringW get_type();
 
   /// @brief Convert to "::System::IComparable"
@@ -203,22 +203,22 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::SemVer*>"
   constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::SemVer*>* i___System__IEquatable_1___UnityEngine__ProBuilder__SemVer__() noexcept;
 
-  /// @brief Method op_Equality, addr 0x32ce8b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x32dd73c, size 0x14, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer* right);
 
-  /// @brief Method op_GreaterThan, addr 0x32ce918, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x32dd79c, size 0x1c, virtual false, abstract: false, final false
   static inline bool op_GreaterThan(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer* right);
 
-  /// @brief Method op_GreaterThanOrEqual, addr 0x32ce974, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThanOrEqual, addr 0x32dd7f8, size 0x54, virtual false, abstract: false, final false
   static inline bool op_GreaterThanOrEqual(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer* right);
 
-  /// @brief Method op_Inequality, addr 0x32ce8cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x32dd750, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer* right);
 
-  /// @brief Method op_LessThan, addr 0x32ce8f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x32dd778, size 0x24, virtual false, abstract: false, final false
   static inline bool op_LessThan(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer* right);
 
-  /// @brief Method op_LessThanOrEqual, addr 0x32ce934, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_LessThanOrEqual, addr 0x32dd7b8, size 0x40, virtual false, abstract: false, final false
   static inline bool op_LessThanOrEqual(::UnityEngine::ProBuilder::SemVer* left, ::UnityEngine::ProBuilder::SemVer* right);
 
 protected:

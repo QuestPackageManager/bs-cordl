@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::CastInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::CastInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c6b2cc;
+  constexpr static std::size_t addrs = 0x2c7ece0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::CastInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::CastInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c6b2d4;
+  constexpr static std::size_t addrs = 0x2c7ece8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::CastInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::CastInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2c6b2dc;
+  constexpr static std::size_t addrs = 0x2c7ecf0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (*)(::System::Type*)>(
     &::System::Linq::Expressions::Interpreter::CastInstruction::Create)> {
   constexpr static std::size_t size = 0x648;
-  constexpr static std::size_t addrs = 0x2c6b31c;
+  constexpr static std::size_t addrs = 0x2c7ed30;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::CastInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::CastInstruction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c6ba2c;
+  constexpr static std::size_t addrs = 0x2c7f440;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

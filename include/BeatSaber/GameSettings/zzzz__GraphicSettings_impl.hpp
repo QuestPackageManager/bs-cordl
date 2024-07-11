@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::GameSettings::GraphicSettings::*)()>(&::BeatSaber::GameSettings::GraphicSettings::get_isDirty)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x1065624;
+  constexpr static std::size_t addrs = 0x106c1d4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::GraphicSettings::*)(bool)>(
     &::BeatSaber::GameSettings::GraphicSettings::set_isDirty)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x1065658;
+  constexpr static std::size_t addrs = 0x106c208;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BeatSaber::GameSettings::GraphicSettings::*)()>(
     &::BeatSaber::GameSettings::GraphicSettings::get_performancePresetKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106567c;
+  constexpr static std::size_t addrs = 0x106c22c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::GraphicSettings*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::GraphicSettings::*)(::StringW)>(
     &::BeatSaber::GameSettings::GraphicSettings::set_performancePresetKey)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1065684;
+  constexpr static std::size_t addrs = 0x106c234;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::PerformancePresets::CustomPerformancePreset* (::BeatSaber::GameSettings::GraphicSettings::*)()>(
     &::BeatSaber::GameSettings::GraphicSettings::get_customPreset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1065694;
+  constexpr static std::size_t addrs = 0x106c244;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::GraphicSettings*>::get(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::GraphicSettings::*)(::BeatSaber::PerformancePresets::CustomPerformancePreset*)>(
     &::BeatSaber::GameSettings::GraphicSettings::set_customPreset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x106569c;
+  constexpr static std::size_t addrs = 0x106c24c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::GameSettings::WindowMode (::BeatSaber::GameSettings::GraphicSettings::*)()>(
     &::BeatSaber::GameSettings::GraphicSettings::get_windowMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10656ac;
+  constexpr static std::size_t addrs = 0x106c25c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::GraphicSettings*>::get(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::GraphicSettings::*)(::BeatSaber::GameSettings::WindowMode)>(
     &::BeatSaber::GameSettings::GraphicSettings::set_windowMode)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x10656b4;
+  constexpr static std::size_t addrs = 0x106c264;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2Int (::BeatSaber::GameSettings::GraphicSettings::*)()>(
     &::BeatSaber::GameSettings::GraphicSettings::get_windowResolution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10656c4;
+  constexpr static std::size_t addrs = 0x106c274;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::GraphicSettings*>::get(),
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::GraphicSettings::*)(::UnityEngine::Vector2Int)>(
     &::BeatSaber::GameSettings::GraphicSettings::set_windowResolution)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x10656cc;
+  constexpr static std::size_t addrs = 0x106c27c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::GraphicSettings::*)()>(&::BeatSaber::GameSettings::GraphicSettings::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x10656dc;
+  constexpr static std::size_t addrs = 0x106c28c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::GraphicSettings*>::get(), ".ctor",

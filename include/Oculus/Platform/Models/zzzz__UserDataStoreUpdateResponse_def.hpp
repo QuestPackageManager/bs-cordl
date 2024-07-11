@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_Success(bool value);
 
-  /// @brief Method .ctor, addr 0x2affb80, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b13594, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:

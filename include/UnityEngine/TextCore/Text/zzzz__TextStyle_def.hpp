@@ -55,7 +55,7 @@ public:
 
   __declspec(property(get = get_styleOpeningTagArray))::ArrayW<int32_t, ::Array<int32_t>*> styleOpeningTagArray;
 
-  /// @brief Method RefreshStyle, addr 0x34c2174, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method RefreshStyle, addr 0x34d5ff8, size 0x1e4, virtual false, abstract: false, final false
   inline void RefreshStyle();
 
   constexpr ::StringW const& __cordl_internal_get_m_ClosingDefinition() const;
@@ -108,13 +108,13 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextStyle* getStaticF_k_NormalStyle();
 
-  /// @brief Method get_hashCode, addr 0x34c215c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x34d5fe0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_styleClosingTagArray, addr 0x34c216c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleClosingTagArray, addr 0x34d5ff0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_styleClosingTagArray();
 
-  /// @brief Method get_styleOpeningTagArray, addr 0x34c2164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleOpeningTagArray, addr 0x34d5fe8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_styleOpeningTagArray();
 
   static inline void setStaticF_k_NormalStyle(::UnityEngine::TextCore::Text::TextStyle* value);

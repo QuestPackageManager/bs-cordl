@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::*)()>(&::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x1350210;
+  constexpr static std::size_t addrs = 0x1358508;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Pkcs::Pkcs12Store* (::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::*)()>(
     &::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::Build)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x1350288;
+  constexpr static std::size_t addrs = 0x1358580;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder*>::get(), "Build",
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* (
     ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::SetCertAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x135031c;
+  constexpr static std::size_t addrs = 0x1358614;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* (
     ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::SetKeyAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1350324;
+  constexpr static std::size_t addrs = 0x135861c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::SetKeyAlgorithm)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x135032c;
+  constexpr static std::size_t addrs = 0x1358624;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* (::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::*)(bool)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::SetUseDerEncoding)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1350338;
+  constexpr static std::size_t addrs = 0x1358630;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

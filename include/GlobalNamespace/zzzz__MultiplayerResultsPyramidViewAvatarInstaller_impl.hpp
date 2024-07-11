@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller::*)()>(
     &::GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x2731dc8;
+  constexpr static std::size_t addrs = 0x274756c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller::*)()>(
     &::GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2732018;
+  constexpr static std::size_t addrs = 0x27477bc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

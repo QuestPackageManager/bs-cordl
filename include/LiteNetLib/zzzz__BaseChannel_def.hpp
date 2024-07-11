@@ -40,7 +40,7 @@ public:
   /// @brief Field Peer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Peer, put = __cordl_internal_set_Peer))::LiteNetLib::NetPeer* Peer;
 
-  /// @brief Method AddToQueue, addr 0x25f4f14, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method AddToQueue, addr 0x26081c8, size 0xfc, virtual false, abstract: false, final false
   inline void AddToQueue(::LiteNetLib::NetPacket* packet);
 
   static inline ::LiteNetLib::BaseChannel* New_ctor(::LiteNetLib::NetPeer* peer);
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set_Peer(::LiteNetLib::NetPeer* value);
 
-  /// @brief Method .ctor, addr 0x25f4e38, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26080ec, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method get_PacketsInQueue, addr 0x25f4ecc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_PacketsInQueue, addr 0x2608180, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_PacketsInQueue();
 
 protected:

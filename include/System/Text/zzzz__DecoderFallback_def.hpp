@@ -36,20 +36,20 @@ public:
 
   static inline ::System::Text::DecoderFallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29d4ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29ea4d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::DecoderFallback* getStaticF_s_exceptionFallback();
 
   static inline ::System::Text::DecoderFallback* getStaticF_s_replacementFallback();
 
-  /// @brief Method get_ExceptionFallback, addr 0x29d5350, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_ExceptionFallback, addr 0x29ead64, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Text::DecoderFallback* get_ExceptionFallback();
 
   /// @brief Method get_MaxCharCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_MaxCharCount();
 
-  /// @brief Method get_ReplacementFallback, addr 0x29d1f94, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_ReplacementFallback, addr 0x29e79a8, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Text::DecoderFallback* get_ReplacementFallback();
 
   static inline void setStaticF_s_exceptionFallback(::System::Text::DecoderFallback* value);

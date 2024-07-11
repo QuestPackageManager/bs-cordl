@@ -45,18 +45,18 @@ public:
   /// @brief Field m_Data, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Data, put = __cordl_internal_set_m_Data))::StringW m_Data;
 
-  /// @brief Method Equals, addr 0x2bc31f4, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2bd5c08, size 0xec, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetEnumerator, addr 0x2bc3174, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2bd5b88, size 0x14, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::__JSONNode__Enumerator GetEnumerator();
 
-  /// @brief Method GetHashCode, addr 0x2bc32e0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2bd5cf4, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::OVRSimpleJSON::JSONString* New_ctor(::StringW aData);
 
-  /// @brief Method WriteToStringBuilder, addr 0x2bc3198, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method WriteToStringBuilder, addr 0x2bd5bac, size 0x5c, virtual true, abstract: false, final false
   inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::OVRSimpleJSON::JSONTextMode aMode);
 
   constexpr ::StringW const& __cordl_internal_get_m_Data() const;
@@ -65,19 +65,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Data(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2bbda4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd0460, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW aData);
 
-  /// @brief Method get_IsString, addr 0x2bc316c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsString, addr 0x2bd5b80, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsString();
 
-  /// @brief Method get_Tag, addr 0x2bc3164, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x2bd5b78, size 0x8, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNodeType get_Tag();
 
-  /// @brief Method get_Value, addr 0x2bc3188, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2bd5b9c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x2bc3190, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x2bd5ba4, size 0x8, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

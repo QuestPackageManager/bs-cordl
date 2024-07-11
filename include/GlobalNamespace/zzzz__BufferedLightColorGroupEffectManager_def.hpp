@@ -51,10 +51,10 @@ public:
 
   static inline ::GlobalNamespace::BufferedLightColorGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26df480, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26f49ac, size 0x5c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x26df2c8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26f47f4, size 0x1b8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect*, ::Array<::GlobalNamespace::BufferedLightColorGroupEffect*>*> const&
@@ -85,7 +85,7 @@ public:
   constexpr void __cordl_internal_set__materialPropertyBlockControllers(
       ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value);
 
-  /// @brief Method .ctor, addr 0x26df4dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f4a08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -40,21 +40,21 @@ public:
   /// @brief Field m_Manager, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Manager, put = __cordl_internal_set_m_Manager))::System::LocalDataStoreMgr* m_Manager;
 
-  /// @brief Method Dispose, addr 0x297816c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x298cb80, size 0x1c, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FreeData, addr 0x2978828, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FreeData, addr 0x298d23c, size 0x48, virtual false, abstract: false, final false
   inline void FreeData(int32_t slot, int64_t cookie);
 
-  /// @brief Method GetData, addr 0x2978344, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetData, addr 0x298cd58, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Object* GetData(::System::LocalDataStoreSlot* slot);
 
   static inline ::System::LocalDataStore* New_ctor(::System::LocalDataStoreMgr* mgr, int32_t InitialCapacity);
 
-  /// @brief Method PopulateElement, addr 0x297857c, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method PopulateElement, addr 0x298cf90, size 0x2ac, virtual false, abstract: false, final false
   inline ::System::LocalDataStoreElement* PopulateElement(::System::LocalDataStoreSlot* slot);
 
-  /// @brief Method SetData, addr 0x2978498, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x298ceac, size 0xe4, virtual false, abstract: false, final false
   inline void SetData(::System::LocalDataStoreSlot* slot, ::System::Object* data);
 
   constexpr ::ArrayW<::System::LocalDataStoreElement*, ::Array<::System::LocalDataStoreElement*>*> const& __cordl_internal_get_m_DataTable() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Manager(::System::LocalDataStoreMgr* value);
 
-  /// @brief Method .ctor, addr 0x29781d0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x298cbe4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::LocalDataStoreMgr* mgr, int32_t InitialCapacity);
 
 protected:

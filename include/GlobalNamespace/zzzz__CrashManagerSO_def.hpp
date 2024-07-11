@@ -33,15 +33,15 @@ public:
 
   __declspec(property(get = get_stackTrace))::StringW stackTrace;
 
-  /// @brief Method HandleLog, addr 0x268cc28, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HandleLog, addr 0x26a09b0, size 0xa0, virtual false, abstract: false, final false
   inline void HandleLog(::StringW logString, ::StringW stackTrace, ::UnityEngine::LogType type);
 
   static inline ::GlobalNamespace::CrashManagerSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x268cba8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x26a0930, size 0x80, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method StartCatchingExceptions, addr 0x268cb28, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method StartCatchingExceptions, addr 0x26a08b0, size 0x80, virtual false, abstract: false, final false
   inline void StartCatchingExceptions();
 
   constexpr ::StringW const& __cordl_internal_get__logString() const;
@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set__stackTrace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x268ccc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a0a50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_logString, addr 0x268cb18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_logString, addr 0x26a08a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_logString();
 
-  /// @brief Method get_stackTrace, addr 0x268cb20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stackTrace, addr 0x26a08a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_stackTrace();
 
 protected:

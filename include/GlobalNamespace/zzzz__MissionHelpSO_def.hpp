@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__missionHelpId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14d04d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14da074, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_missionHelpId, addr 0x14d04c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionHelpId, addr 0x14da06c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionHelpId();
 
 protected:

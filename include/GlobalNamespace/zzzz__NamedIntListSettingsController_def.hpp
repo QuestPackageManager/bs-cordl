@@ -63,10 +63,10 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x264bda0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265fbe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedText, addr 0x264bd70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_localizedText, addr 0x265fbb4, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_localizedText();
 
 protected:
@@ -112,7 +112,7 @@ public:
 
   static inline ::GlobalNamespace::__NamedIntListSettingsController____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <SetValue>b__0, addr 0x264bda8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <SetValue>b__0, addr 0x265fbec, size 0x24, virtual false, abstract: false, final false
   inline bool _SetValue_b__0(::GlobalNamespace::__NamedIntListSettingsController__TextValuePair* entry);
 
   constexpr int32_t const& __cordl_internal_get_value() const;
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x264bcb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265faf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -172,18 +172,18 @@ public:
   /// @brief Field valueDidChangeEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_valueDidChangeEvent, put = __cordl_internal_set_valueDidChangeEvent))::System::Action_1<int32_t>* valueDidChangeEvent;
 
-  /// @brief Method ApplyValue, addr 0x264bce4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x265fb28, size 0x58, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x264bcb8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x265fafc, size 0x2c, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::NamedIntListSettingsController* New_ctor();
 
-  /// @brief Method SetValue, addr 0x264bba0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x265f9e4, size 0x110, virtual false, abstract: false, final false
   inline void SetValue(int32_t value, bool applyValue);
 
-  /// @brief Method TextForValue, addr 0x264bd3c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x265fb80, size 0x34, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr int32_t const& __cordl_internal_get__selectedIndex() const;
@@ -207,13 +207,13 @@ public:
 
   constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x264bd98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265fbdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueDidChangeEvent, addr 0x264ba40, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x265f884, size 0xb0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_valueDidChangeEvent, addr 0x264baf0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x265f934, size 0xb0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
 protected:

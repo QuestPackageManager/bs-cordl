@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BezierCurve {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x105f764, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1066310, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::UnityEngine::Vector3 p3);
 
   // Ctor Parameters []

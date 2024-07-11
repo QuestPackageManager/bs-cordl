@@ -44,21 +44,21 @@ public:
   /// @brief Field didFinishEvent, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x266e4c0, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x26824dc, size 0xc4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x266e584, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x26825a0, size 0xb4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleJoinClicked, addr 0x266e638, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleJoinClicked, addr 0x2682654, size 0x3c, virtual false, abstract: false, final false
   inline void HandleJoinClicked();
 
-  /// @brief Method HandleUIKeyboardOkButtonWasPressed, addr 0x266e674, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleUIKeyboardOkButtonWasPressed, addr 0x2682690, size 0x3c, virtual false, abstract: false, final false
   inline void HandleUIKeyboardOkButtonWasPressed();
 
   static inline ::GlobalNamespace::ServerPasswordEntryViewController* New_ctor();
 
-  /// @brief Method Setup, addr 0x266e4b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x26824d4, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::INetworkPlayer* selectedPlayer);
 
   constexpr ::UnityW<::HMUI::InputFieldView> const& __cordl_internal_get__passwordInput() const;
@@ -85,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x266e6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26826cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x266e358, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x2682374, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x266e408, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x2682424, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
 
 protected:

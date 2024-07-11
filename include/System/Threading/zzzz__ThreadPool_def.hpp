@@ -105,66 +105,66 @@ public:
   // Declarations
   template <typename TState> using __c__DisplayClass17_0_1 = ::System::Threading::__ThreadPool____c__DisplayClass17_0_1<TState>;
 
-  /// @brief Method EnsureVMInitialized, addr 0x29c0c3c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method EnsureVMInitialized, addr 0x29d6650, size 0x94, virtual false, abstract: false, final false
   static inline void EnsureVMInitialized();
 
-  /// @brief Method InitializeVMTp, addr 0x29c0de8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InitializeVMTp, addr 0x29d67fc, size 0x4, virtual false, abstract: false, final false
   static inline void InitializeVMTp(ByRef<bool> enableWorkerTracking);
 
-  /// @brief Method NotifyWorkItemComplete, addr 0x29bfe08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NotifyWorkItemComplete, addr 0x29d581c, size 0x4, virtual false, abstract: false, final false
   static inline bool NotifyWorkItemComplete();
 
-  /// @brief Method NotifyWorkItemProgress, addr 0x29c0df4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method NotifyWorkItemProgress, addr 0x29d6808, size 0x10, virtual false, abstract: false, final false
   static inline void NotifyWorkItemProgress();
 
-  /// @brief Method NotifyWorkItemProgressNative, addr 0x29c0e04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NotifyWorkItemProgressNative, addr 0x29d6818, size 0x4, virtual false, abstract: false, final false
   static inline void NotifyWorkItemProgressNative();
 
-  /// @brief Method NotifyWorkItemQueued, addr 0x29bf0fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NotifyWorkItemQueued, addr 0x29d4b10, size 0x4, virtual false, abstract: false, final false
   static inline void NotifyWorkItemQueued();
 
   /// @brief Method QueueUserWorkItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TState> static inline bool QueueUserWorkItem(::System::Action_1<TState>* callBack, TState state, bool preferLocal);
 
-  /// @brief Method QueueUserWorkItem, addr 0x29c0c10, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method QueueUserWorkItem, addr 0x29d6624, size 0x2c, virtual false, abstract: false, final false
   static inline bool QueueUserWorkItem(::System::Threading::WaitCallback* callBack);
 
-  /// @brief Method QueueUserWorkItem, addr 0x29c0928, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method QueueUserWorkItem, addr 0x29d633c, size 0x28, virtual false, abstract: false, final false
   static inline bool QueueUserWorkItem(::System::Threading::WaitCallback* callBack, ::System::Object* state);
 
-  /// @brief Method QueueUserWorkItemHelper, addr 0x29c0af0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method QueueUserWorkItemHelper, addr 0x29d6504, size 0x120, virtual false, abstract: false, final false
   static inline bool QueueUserWorkItemHelper(::System::Threading::WaitCallback* callBack, ::System::Object* state, ByRef<::System::Threading::StackCrawlMark> stackMark, bool compressStack,
                                              bool forceGlobal);
 
-  /// @brief Method RegisterWaitForSingleObject, addr 0x29c0978, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RegisterWaitForSingleObject, addr 0x29d638c, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callBack,
                                                                                        ::System::Object* state, int32_t millisecondsTimeOutInterval, bool executeOnlyOnce);
 
-  /// @brief Method RegisterWaitForSingleObject, addr 0x29c06a0, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method RegisterWaitForSingleObject, addr 0x29d60b4, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callBack,
                                                                                        ::System::Object* state, uint32_t millisecondsTimeOutInterval, bool executeOnlyOnce,
                                                                                        ByRef<::System::Threading::StackCrawlMark> stackMark, bool compressStack);
 
-  /// @brief Method RegisterWaitForSingleObject, addr 0x29c09fc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RegisterWaitForSingleObject, addr 0x29d6410, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callBack,
                                                                                        ::System::Object* state, ::System::TimeSpan timeout, bool executeOnlyOnce);
 
-  /// @brief Method ReportThreadStatus, addr 0x29c0dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReportThreadStatus, addr 0x29d6800, size 0x8, virtual false, abstract: false, final false
   static inline void ReportThreadStatus(bool isWorking);
 
-  /// @brief Method RequestWorkerThread, addr 0x29bea88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RequestWorkerThread, addr 0x29d449c, size 0x4, virtual false, abstract: false, final false
   static inline bool RequestWorkerThread();
 
-  /// @brief Method TryPopCustomWorkItem, addr 0x29c0d4c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryPopCustomWorkItem, addr 0x29d6760, size 0x9c, virtual false, abstract: false, final false
   static inline bool TryPopCustomWorkItem(::System::Threading::IThreadPoolWorkItem* workItem);
 
-  /// @brief Method UnsafeQueueCustomWorkItem, addr 0x29c0cd0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method UnsafeQueueCustomWorkItem, addr 0x29d66e4, size 0x7c, virtual false, abstract: false, final false
   static inline void UnsafeQueueCustomWorkItem(::System::Threading::IThreadPoolWorkItem* workItem, bool forceGlobal);
 
-  /// @brief Method UnsafeQueueUserWorkItem, addr 0x29c0950, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UnsafeQueueUserWorkItem, addr 0x29d6364, size 0x28, virtual false, abstract: false, final false
   static inline bool UnsafeQueueUserWorkItem(::System::Threading::WaitCallback* callBack, ::System::Object* state);
 
-  /// @brief Method get_IsThreadPoolThread, addr 0x29c0e08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsThreadPoolThread, addr 0x29d681c, size 0x20, virtual false, abstract: false, final false
   static inline bool get_IsThreadPoolThread();
 
 protected:

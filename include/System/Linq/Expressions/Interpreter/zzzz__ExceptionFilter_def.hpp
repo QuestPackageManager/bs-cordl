@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_StartIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c48dbc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5c7d0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex, int32_t start, int32_t end);
 
 protected:

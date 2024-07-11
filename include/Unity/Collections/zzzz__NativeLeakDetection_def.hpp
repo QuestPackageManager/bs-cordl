@@ -23,7 +23,7 @@ public:
   /// @brief Field s_NativeLeakDetectionMode, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_NativeLeakDetectionMode, put = setStaticF_s_NativeLeakDetectionMode)) int32_t s_NativeLeakDetectionMode;
 
-  /// @brief Method Initialize, addr 0x33fee14, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x340dc98, size 0x4c, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline int32_t getStaticF_s_NativeLeakDetectionMode();

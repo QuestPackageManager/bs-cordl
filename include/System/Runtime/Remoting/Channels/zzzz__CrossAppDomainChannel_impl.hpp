@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Runtime::Remoting::Channels::CrossAppDomainChannel::RegisterCrossAppDomainChannel)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x282eb80;
+  constexpr static std::size_t addrs = 0x2841594;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)()>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainChannel::get_ChannelName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x283d968;
+  constexpr static std::size_t addrs = 0x285037c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)()>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainChannel::get_ChannelPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x283d9a8;
+  constexpr static std::size_t addrs = 0x28503bc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)()>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainChannel::get_ChannelData)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x283d9b0;
+  constexpr static std::size_t addrs = 0x28503c4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainChannel::StartListening)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x283da1c;
+  constexpr static std::size_t addrs = 0x2850430;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -92,7 +92,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (::System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)(::StringW, ::System::Object*, ByRef<::StringW>)>(
         &::System::Runtime::Remoting::Channels::CrossAppDomainChannel::CreateMessageSink)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x283da20;
+  constexpr static std::size_t addrs = 0x2850434;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)()>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainChannel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x283d960;
+  constexpr static std::size_t addrs = 0x2850374;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

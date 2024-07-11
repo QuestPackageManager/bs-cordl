@@ -34,10 +34,10 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x26c16b8, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x26d7aac, size 0xb4, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method .ctor, addr 0x26c169c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d7a90, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<float_t> inputData, ::Unity::Collections::NativeArray_1<float_t> outputData, ::LufsMetering::FilterCoefficients coefficients);
 
   /// @brief Convert to "::Unity::Jobs::IJob"

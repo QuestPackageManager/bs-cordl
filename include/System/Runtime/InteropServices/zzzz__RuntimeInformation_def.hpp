@@ -34,13 +34,13 @@ public:
   /// @brief Field _processArchitecture, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__processArchitecture, put = setStaticF__processArchitecture))::System::Runtime::InteropServices::Architecture _processArchitecture;
 
-  /// @brief Method GetOSName, addr 0x287230c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetOSName, addr 0x2885d20, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetOSName();
 
-  /// @brief Method GetRuntimeArchitecture, addr 0x2872308, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeArchitecture, addr 0x2885d1c, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetRuntimeArchitecture();
 
-  /// @brief Method IsOSPlatform, addr 0x2872310, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsOSPlatform, addr 0x2885d24, size 0x94, virtual false, abstract: false, final false
   static inline bool IsOSPlatform(::System::Runtime::InteropServices::OSPlatform osPlatform);
 
   static inline ::System::Runtime::InteropServices::Architecture getStaticF__osArchitecture();

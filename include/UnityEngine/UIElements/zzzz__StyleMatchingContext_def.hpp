@@ -54,16 +54,16 @@ public:
   /// @brief Field variableContext, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_variableContext, put = __cordl_internal_set_variableContext))::UnityEngine::UIElements::StyleVariableContext* variableContext;
 
-  /// @brief Method AddStyleSheet, addr 0x3540058, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AddStyleSheet, addr 0x3556edc, size 0xec, virtual false, abstract: false, final false
   inline void AddStyleSheet(::UnityEngine::UIElements::StyleSheet* sheet);
 
-  /// @brief Method GetStyleSheetAt, addr 0x35401ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetStyleSheetAt, addr 0x3557030, size 0x58, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::StyleSheet> GetStyleSheetAt(int32_t index);
 
   static inline ::UnityEngine::UIElements::StyleMatchingContext*
   New_ctor(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult);
 
-  /// @brief Method RemoveStyleSheetRange, addr 0x3540144, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RemoveStyleSheetRange, addr 0x3556fc8, size 0x68, virtual false, abstract: false, final false
   inline void RemoveStyleSheetRange(int32_t index, int32_t count);
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_currentElement();
@@ -91,10 +91,10 @@ public:
 
   constexpr void __cordl_internal_set_variableContext(::UnityEngine::UIElements::StyleVariableContext* value);
 
-  /// @brief Method .ctor, addr 0x353ff94, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3556e18, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult);
 
-  /// @brief Method get_styleSheetCount, addr 0x353ff4c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_styleSheetCount, addr 0x3556dd0, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_styleSheetCount();
 
 protected:

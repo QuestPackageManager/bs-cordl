@@ -62,10 +62,10 @@ public:
   /// @brief Field y, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y))::Org::BouncyCastle::Asn1::DerInteger* y;
 
-  /// @brief Method GetInstance, addr 0x10f13ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10fc6e4, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x10f1404, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10fc6fc, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b,
@@ -74,7 +74,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10f183c, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10fcb34, size 0x1a0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_a();
@@ -113,20 +113,20 @@ public:
 
   constexpr void __cordl_internal_set_y(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x10f16cc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10fc9c4, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b, ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, int32_t x,
                     ::Org::BouncyCastle::Math::BigInteger* y);
 
-  /// @brief Method .ctor, addr 0x10f157c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10fc874, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_A, addr 0x10f1824, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_A, addr 0x10fcb1c, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_A();
 
-  /// @brief Method get_P, addr 0x10f17f4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0x10fcaec, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q, addr 0x10f180c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Q, addr 0x10fcb04, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
 protected:

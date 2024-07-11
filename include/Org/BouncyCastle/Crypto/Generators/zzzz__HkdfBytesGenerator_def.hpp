@@ -56,16 +56,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept;
 
-  /// @brief Method ExpandNext, addr 0x1163084, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ExpandNext, addr 0x116e37c, size 0x104, virtual false, abstract: false, final false
   inline void ExpandNext();
 
-  /// @brief Method Extract, addr 0x1162f14, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x116e20c, size 0x170, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* Extract(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::ArrayW<uint8_t, ::Array<uint8_t>*> ikm);
 
-  /// @brief Method GenerateBytes, addr 0x11631a8, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method GenerateBytes, addr 0x116e4a0, size 0x1bc, virtual true, abstract: false, final false
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t len);
 
-  /// @brief Method Init, addr 0x1162d3c, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x116e034, size 0x1d8, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* hash);
@@ -100,10 +100,10 @@ public:
 
   constexpr void __cordl_internal_set_info(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x1162c48, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x116df40, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* hash);
 
-  /// @brief Method get_Digest, addr 0x1163188, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Digest, addr 0x116e480, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"

@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::__MainSettingsHandler___InternalLoadAsync_d__11::*)()>(
     &::BeatSaber::GameSettings::__MainSettingsHandler___InternalLoadAsync_d__11::MoveNext)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x1068828;
+  constexpr static std::size_t addrs = 0x106f3d8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::__MainSettingsHandler___InternalLoadAsync_d__11::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::GameSettings::__MainSettingsHandler___InternalLoadAsync_d__11::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x1068a3c;
+  constexpr static std::size_t addrs = 0x106f5ec;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (::BeatSaber::GameSettings::MainSettingsHandler::*)()>(
     &::BeatSaber::GameSettings::MainSettingsHandler::get_version)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x10680a0;
+  constexpr static std::size_t addrs = 0x106ec50;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (::BeatSaber::GameSettings::MainSettingsHandler::*)()>(
     &::BeatSaber::GameSettings::MainSettingsHandler::get_firstVersion)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x1068114;
+  constexpr static std::size_t addrs = 0x106ecc4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BeatSaber::GameSettings::MainSettingsHandler::*)()>(
     &::BeatSaber::GameSettings::MainSettingsHandler::get_fileNameWithExtension)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x1068188;
+  constexpr static std::size_t addrs = 0x106ed38;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::StoragePreference (::BeatSaber::GameSettings::MainSettingsHandler::*)()>(
     &::BeatSaber::GameSettings::MainSettingsHandler::get_preferredStorageLocation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10681c8;
+  constexpr static std::size_t addrs = 0x106ed78;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::MainSettingsHandler::*)(::GlobalNamespace::IFileStorage*)>(
     &::BeatSaber::GameSettings::MainSettingsHandler::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x10681d0;
+  constexpr static std::size_t addrs = 0x106ed80;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::MainSettingsHandler::*)(
     ::GlobalNamespace::IFileStorage*, ::BeatSaber::GameSettings::MainSettings*)>(&::BeatSaber::GameSettings::MainSettingsHandler::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x1068228;
+  constexpr static std::size_t addrs = 0x106edd8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::SaveDataCore::SaveDataResult (::BeatSaber::GameSettings::MainSettingsHandler::*)()>(
     &::BeatSaber::GameSettings::MainSettingsHandler::PerformPostLoad)> {
   constexpr static std::size_t size = 0x468;
-  constexpr static std::size_t addrs = 0x1068288;
+  constexpr static std::size_t addrs = 0x106ee38;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::MainSettingsHandler*>::get(),
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::BGLib::SaveDataCore::SaveDataResult>* (
     ::BeatSaber::GameSettings::MainSettingsHandler::*)()>(&::BeatSaber::GameSettings::MainSettingsHandler::InternalLoadAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x10686f0;
+  constexpr static std::size_t addrs = 0x106f2a0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::BGLib::SaveDataCore::SaveDataResult>* (
     ::BeatSaber::GameSettings::MainSettingsHandler::*)()>(&::BeatSaber::GameSettings::MainSettingsHandler::__n__0)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x10687e0;
+  constexpr static std::size_t addrs = 0x106f390;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::MainSettingsHandler*>::get(), "<>n__0",

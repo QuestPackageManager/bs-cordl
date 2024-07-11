@@ -33,7 +33,7 @@ public:
 
   __declspec(property(get = get_order)) int32_t order;
 
-  /// @brief Method LogColorScheme, addr 0x149760c, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method LogColorScheme, addr 0x14a0904, size 0x2a4, virtual false, abstract: false, final false
   inline void LogColorScheme();
 
   static inline ::GlobalNamespace::ColorSchemeSO* New_ctor();
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__order(int32_t value);
 
-  /// @brief Method .ctor, addr 0x14978b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a0ba8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorScheme, addr 0x14975fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x14a08f4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* get_colorScheme();
 
-  /// @brief Method get_order, addr 0x1497604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x14a08fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
 protected:

@@ -41,10 +41,10 @@ public:
   /// @brief Convert operator to "::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry"
   constexpr operator ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry*() noexcept;
 
-  /// @brief Method AddMonoInstaller, addr 0x1077f88, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method AddMonoInstaller, addr 0x107ec24, size 0xa8, virtual true, abstract: false, final true
   inline void AddMonoInstaller(::Zenject::MonoInstaller* newMonoInstaller);
 
-  /// @brief Method AddScriptableObjectInstaller, addr 0x1078030, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method AddScriptableObjectInstaller, addr 0x107eccc, size 0xa8, virtual true, abstract: false, final true
   inline void AddScriptableObjectInstaller(::Zenject::ScriptableObjectInstaller* newScriptableObjectInstaller);
 
   static inline ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* New_ctor();
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_scriptableObjectInstallers(::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
 
-  /// @brief Method .ctor, addr 0x10780d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x107ed74, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry"

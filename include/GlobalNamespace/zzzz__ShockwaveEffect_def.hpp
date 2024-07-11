@@ -45,10 +45,10 @@ public:
 
   static inline ::GlobalNamespace::ShockwaveEffect* New_ctor();
 
-  /// @brief Method SpawnShockwave, addr 0x26d76f4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SpawnShockwave, addr 0x26ecc20, size 0xd4, virtual false, abstract: false, final false
   inline void SpawnShockwave(::UnityEngine::Vector3 pos);
 
-  /// @brief Method Start, addr 0x26d7544, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26eca70, size 0x1b0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::BeatSaber::GameSettings::GraphicSettingsHandler*& __cordl_internal_get__graphicSettingsHandler();
@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set__shockwavePSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
 
-  /// @brief Method .ctor, addr 0x26d77c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eccf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

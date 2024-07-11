@@ -77,13 +77,13 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAuthenticationTokenProvider"
   constexpr operator ::GlobalNamespace::IAuthenticationTokenProvider*() noexcept;
 
-  /// @brief Method GetAuthenticationToken, addr 0x277d810, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method GetAuthenticationToken, addr 0x2792218, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
 
-  /// @brief Method GetTokenPlatform, addr 0x277d8b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetTokenPlatform, addr 0x27922b8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__AuthenticationToken__Platform GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
 
-  /// @brief Method GetXPlatformAccessToken, addr 0x277d8b8, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method GetXPlatformAccessToken, addr 0x27922c0, size 0x74, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache);
 
   static inline ::GlobalNamespace::MockPlayerAuthenticationTokenProvider* New_ctor(::StringW userId, ::StringW userName, ::StringW password, ::GlobalNamespace::XPlatformAccessTokenData mockTokenData);
@@ -124,16 +124,16 @@ public:
 
   constexpr void __cordl_internal_set__userName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x277d710, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2792118, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::StringW userId, ::StringW userName, ::StringW password, ::GlobalNamespace::XPlatformAccessTokenData mockTokenData);
 
-  /// @brief Method get_hashedUserId, addr 0x277d6f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hashedUserId, addr 0x2792100, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_hashedUserId();
 
-  /// @brief Method get_platform, addr 0x277d708, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_platform, addr 0x2792110, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__AuthenticationToken__Platform get_platform();
 
-  /// @brief Method get_userName, addr 0x277d700, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0x2792108, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::BGNet::Core::IPlatformAccessTokenFetcher"

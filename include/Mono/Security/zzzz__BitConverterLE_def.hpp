@@ -22,28 +22,28 @@ namespace Mono::Security {
 class CORDL_TYPE BitConverterLE : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBytes, addr 0x27b6394, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x27c9da8, size 0x18, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(double_t value);
 
-  /// @brief Method GetBytes, addr 0x27b637c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x27c9d90, size 0x18, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(float_t value);
 
-  /// @brief Method GetUIntBytes, addr 0x27b60dc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetUIntBytes, addr 0x27c9af0, size 0x110, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetUIntBytes(::cordl_internals::Ptr<uint8_t> bytes);
 
-  /// @brief Method GetULongBytes, addr 0x27b61ec, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetULongBytes, addr 0x27c9c00, size 0x190, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetULongBytes(::cordl_internals::Ptr<uint8_t> bytes);
 
-  /// @brief Method ToDouble, addr 0x27b660c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x27ca020, size 0x24, virtual false, abstract: false, final false
   static inline double_t ToDouble(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
 
-  /// @brief Method ToSingle, addr 0x27b65e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x27c9ffc, size 0x24, virtual false, abstract: false, final false
   static inline float_t ToSingle(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
 
-  /// @brief Method UIntFromBytes, addr 0x27b63ac, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method UIntFromBytes, addr 0x27c9dc0, size 0x14c, virtual false, abstract: false, final false
   static inline void UIntFromBytes(::cordl_internals::Ptr<uint8_t> dst, ::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t startIndex);
 
-  /// @brief Method ULongFromBytes, addr 0x27b64f8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ULongFromBytes, addr 0x27c9f0c, size 0xf0, virtual false, abstract: false, final false
   static inline void ULongFromBytes(::cordl_internals::Ptr<uint8_t> dst, ::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t startIndex);
 
 protected:

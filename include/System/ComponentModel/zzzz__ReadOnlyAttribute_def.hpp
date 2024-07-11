@@ -37,13 +37,13 @@ public:
   /// @brief Field <IsReadOnly>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__IsReadOnly_k__BackingField, put = __cordl_internal_set__IsReadOnly_k__BackingField)) bool _IsReadOnly_k__BackingField;
 
-  /// @brief Method Equals, addr 0x2f53a8c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2f604a0, size 0xe4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x2f53b70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2f60584, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x2f53b78, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x2f6058c, size 0x80, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::ReadOnlyAttribute* New_ctor(bool isReadOnly);
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x2f53a5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f60470, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool isReadOnly);
 
   static inline ::System::ComponentModel::ReadOnlyAttribute* getStaticF_Default();
@@ -63,7 +63,7 @@ public:
 
   static inline ::System::ComponentModel::ReadOnlyAttribute* getStaticF_Yes();
 
-  /// @brief Method get_IsReadOnly, addr 0x2f53a84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x2f60498, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReadOnly();
 
   static inline void setStaticF_Default(::System::ComponentModel::ReadOnlyAttribute* value);

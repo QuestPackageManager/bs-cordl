@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Renderer> (::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::get_renderer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25029e4;
+  constexpr static std::size_t addrs = 0x2516cb8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::Awake)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x25029ec;
+  constexpr static std::size_t addrs = 0x2516cc0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2502a50;
+  constexpr static std::size_t addrs = 0x2516d24;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

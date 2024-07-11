@@ -29,12 +29,12 @@ namespace System::Net {
 class CORDL_TYPE HttpContinueDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2ff0df8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x300080c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(int32_t StatusCode, ::System::Net::WebHeaderCollection* httpHeaders);
 
   static inline ::System::Net::HttpContinueDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2ff0d34, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3000748, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

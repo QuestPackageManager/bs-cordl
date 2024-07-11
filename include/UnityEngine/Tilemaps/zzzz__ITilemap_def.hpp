@@ -46,19 +46,19 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityEngine::Tilemaps::ITilemap* s_Instance;
 
-  /// @brief Method CreateInstance, addr 0x34cec50, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x34e1ad4, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Tilemaps::ITilemap* CreateInstance();
 
-  /// @brief Method FindAllRefreshPositions, addr 0x34cecc0, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method FindAllRefreshPositions, addr 0x34e1b44, size 0x318, virtual false, abstract: false, final false
   static inline void FindAllRefreshPositions(::UnityEngine::Tilemaps::ITilemap* tilemap, int32_t count, ::System::IntPtr oldTilesIntPtr, ::System::IntPtr newTilesIntPtr,
                                              ::System::IntPtr positionsIntPtr);
 
-  /// @brief Method GetAllTileData, addr 0x34cefd8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method GetAllTileData, addr 0x34e1e5c, size 0x1f8, virtual false, abstract: false, final false
   static inline void GetAllTileData(::UnityEngine::Tilemaps::ITilemap* tilemap, int32_t count, ::System::IntPtr tilesIntPtr, ::System::IntPtr positionsIntPtr, ::System::IntPtr outTileDataIntPtr);
 
   static inline ::UnityEngine::Tilemaps::ITilemap* New_ctor();
 
-  /// @brief Method RefreshTile, addr 0x34cea04, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method RefreshTile, addr 0x34e1888, size 0x164, virtual false, abstract: false, final false
   inline void RefreshTile(::UnityEngine::Vector3Int position);
 
   constexpr bool const& __cordl_internal_get_m_AddToList() const;
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Tilemap(::UnityW<::UnityEngine::Tilemaps::Tilemap> value);
 
-  /// @brief Method .ctor, addr 0x34cec48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34e1acc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Tilemaps::ITilemap* getStaticF_s_Instance();

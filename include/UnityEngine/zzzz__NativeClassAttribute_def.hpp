@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set__QualifiedNativeName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3497ac8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34aa94c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW qualifiedCppName);
 
-  /// @brief Method .ctor, addr 0x3497b38, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34aa9bc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW qualifiedCppName, ::StringW declaration);
 
-  /// @brief Method set_Declaration, addr 0x3497ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Declaration, addr 0x34aa944, size 0x8, virtual false, abstract: false, final false
   inline void set_Declaration(::StringW value);
 
-  /// @brief Method set_QualifiedNativeName, addr 0x3497ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QualifiedNativeName, addr 0x34aa93c, size 0x8, virtual false, abstract: false, final false
   inline void set_QualifiedNativeName(::StringW value);
 
 protected:

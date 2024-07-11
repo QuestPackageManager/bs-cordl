@@ -163,16 +163,16 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodReturnMessage*() noexcept;
 
-  /// @brief Method GetArg, addr 0x284d85c, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method GetArg, addr 0x2860270, size 0x34, virtual true, abstract: false, final true
   inline ::System::Object* GetArg(int32_t arg_num);
 
-  /// @brief Method GetMethodInfo, addr 0x284d3ec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetMethodInfo, addr 0x285fe00, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetMethodInfo(::System::Type* type, ::StringW methodName);
 
-  /// @brief Method InitMessage, addr 0x284cf58, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method InitMessage, addr 0x285f96c, size 0x294, virtual false, abstract: false, final false
   inline void InitMessage(::System::Reflection::RuntimeMethodInfo* method, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> out_args);
 
-  /// @brief Method NeedsOutProcessing, addr 0x284da4c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method NeedsOutProcessing, addr 0x2860460, size 0x90, virtual false, abstract: false, final false
   inline bool NeedsOutProcessing(ByRef<int32_t> outCount);
 
   static inline ::System::Runtime::Remoting::Messaging::MonoMethodMessage* New_ctor(::System::Reflection::MethodBase* method, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> out_args);
@@ -182,10 +182,10 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::MonoMethodMessage* New_ctor(::System::Type* type, ::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> in_args);
 
-  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity, addr 0x284da34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity, addr 0x2860448, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Identity* System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity();
 
-  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity, addr 0x284da3c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity, addr 0x2860450, size 0x8, virtual true, abstract: false, final true
   inline void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity(::System::Runtime::Remoting::Identity* value);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_arg_types() const;
@@ -266,58 +266,58 @@ public:
 
   constexpr void __cordl_internal_set_uri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x284d1ec, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285fc00, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodBase* method, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> out_args);
 
-  /// @brief Method .ctor, addr 0x284d2b4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285fcc8, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* minfo, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> in_args, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> out_args);
 
-  /// @brief Method .ctor, addr 0x284d4a0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285feb4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> in_args);
 
-  /// @brief Method get_ArgCount, addr 0x284d548, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_ArgCount, addr 0x285ff5c, size 0x38, virtual true, abstract: false, final true
   inline int32_t get_ArgCount();
 
-  /// @brief Method get_Args, addr 0x284d5fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Args, addr 0x2860010, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_Args();
 
-  /// @brief Method get_AsyncResult, addr 0x284da44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AsyncResult, addr 0x2860458, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::AsyncResult* get_AsyncResult();
 
-  /// @brief Method get_CallType, addr 0x284d580, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_CallType, addr 0x285ff94, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::CallType get_CallType();
 
-  /// @brief Method get_Exception, addr 0x284d890, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Exception, addr 0x28602a4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Exception* get_Exception();
 
-  /// @brief Method get_LogicalCallContext, addr 0x284d604, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_LogicalCallContext, addr 0x2860018, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
 
-  /// @brief Method get_MethodBase, addr 0x284d614, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_MethodBase, addr 0x2860028, size 0x8, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodBase* get_MethodBase();
 
-  /// @brief Method get_MethodName, addr 0x284d61c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method get_MethodName, addr 0x2860030, size 0x80, virtual true, abstract: false, final true
   inline ::StringW get_MethodName();
 
-  /// @brief Method get_MethodSignature, addr 0x284d69c, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method get_MethodSignature, addr 0x28600b0, size 0x11c, virtual true, abstract: false, final true
   inline ::System::Object* get_MethodSignature();
 
-  /// @brief Method get_OutArgCount, addr 0x284d898, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_OutArgCount, addr 0x28602ac, size 0x6c, virtual true, abstract: false, final true
   inline int32_t get_OutArgCount();
 
-  /// @brief Method get_OutArgs, addr 0x284d904, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method get_OutArgs, addr 0x2860318, size 0x128, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_OutArgs();
 
-  /// @brief Method get_Properties, addr 0x284d4d8, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method get_Properties, addr 0x285feec, size 0x70, virtual true, abstract: false, final true
   inline ::System::Collections::IDictionary* get_Properties();
 
-  /// @brief Method get_ReturnValue, addr 0x284da2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ReturnValue, addr 0x2860440, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_ReturnValue();
 
-  /// @brief Method get_TypeName, addr 0x284d7b8, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method get_TypeName, addr 0x28601cc, size 0x94, virtual true, abstract: false, final true
   inline ::StringW get_TypeName();
 
-  /// @brief Method get_Uri, addr 0x284d84c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Uri, addr 0x2860260, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_Uri();
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IInternalMessage"
@@ -335,10 +335,10 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
   constexpr ::System::Runtime::Remoting::Messaging::IMethodReturnMessage* i___System__Runtime__Remoting__Messaging__IMethodReturnMessage() noexcept;
 
-  /// @brief Method set_LogicalCallContext, addr 0x284d60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LogicalCallContext, addr 0x2860020, size 0x8, virtual false, abstract: false, final false
   inline void set_LogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* value);
 
-  /// @brief Method set_Uri, addr 0x284d854, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Uri, addr 0x2860268, size 0x8, virtual true, abstract: false, final true
   inline void set_Uri(::StringW value);
 
 protected:

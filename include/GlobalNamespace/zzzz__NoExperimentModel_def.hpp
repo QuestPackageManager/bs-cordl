@@ -31,15 +31,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IExperimentModel"
   constexpr operator ::GlobalNamespace::IExperimentModel*() noexcept;
 
-  /// @brief Method IsEmployee, addr 0x14a4204, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method IsEmployee, addr 0x14ad8bc, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsEmployee();
 
-  /// @brief Method IsInTest, addr 0x14a426c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method IsInTest, addr 0x14ad924, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsInTest(::GlobalNamespace::IExperimentData* data);
 
   static inline ::GlobalNamespace::NoExperimentModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x14a42d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ad98c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IExperimentModel"

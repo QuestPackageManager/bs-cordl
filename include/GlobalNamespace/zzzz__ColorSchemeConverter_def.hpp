@@ -25,7 +25,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE ColorSchemeConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromNetSerializable, addr 0x268c900, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method FromNetSerializable, addr 0x26a0688, size 0x218, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorScheme* FromNetSerializable(::GlobalNamespace::ColorSchemeNetSerializable serialized);
 
 protected:

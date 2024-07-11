@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonCloneSettings::*)()>(&::Newtonsoft::Json::Linq::JsonCloneSettings::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2a86340;
+  constexpr static std::size_t addrs = 0x2a99d54;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonCloneSettings*>::get(), ".ctor",
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JsonCloneSettings::*)()>(
     &::Newtonsoft::Json::Linq::JsonCloneSettings::get_CopyAnnotations)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a86360;
+  constexpr static std::size_t addrs = 0x2a99d74;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonCloneSettings*>::get(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonCloneSettings::*)(bool)>(
     &::Newtonsoft::Json::Linq::JsonCloneSettings::set_CopyAnnotations)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2a86368;
+  constexpr static std::size_t addrs = 0x2a99d7c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

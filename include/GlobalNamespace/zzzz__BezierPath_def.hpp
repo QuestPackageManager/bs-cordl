@@ -132,51 +132,51 @@ public:
 
   __declspec(property(get = get_segmentsCount)) int32_t segmentsCount;
 
-  /// @brief Method AddSegmentToEnd, addr 0x26b10f0, size 0x510, virtual false, abstract: false, final false
+  /// @brief Method AddSegmentToEnd, addr 0x26c6e38, size 0x510, virtual false, abstract: false, final false
   inline void AddSegmentToEnd(::UnityEngine::Vector3 anchorPos);
 
-  /// @brief Method AutoSetAllAffectedControlPoints, addr 0x26b1994, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AutoSetAllAffectedControlPoints, addr 0x26c76dc, size 0x8c, virtual false, abstract: false, final false
   inline void AutoSetAllAffectedControlPoints(int32_t updatedAnchorIndex);
 
-  /// @brief Method AutoSetAllControlPoints, addr 0x26b02c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AutoSetAllControlPoints, addr 0x26c600c, size 0x80, virtual false, abstract: false, final false
   inline void AutoSetAllControlPoints();
 
-  /// @brief Method AutoSetAnchorControlPoints, addr 0x26b1da8, size 0x4f0, virtual false, abstract: false, final false
+  /// @brief Method AutoSetAnchorControlPoints, addr 0x26c7af0, size 0x4f0, virtual false, abstract: false, final false
   inline void AutoSetAnchorControlPoints(int32_t anchorIndex);
 
-  /// @brief Method AutoSetStartAndEndControls, addr 0x26b2298, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method AutoSetStartAndEndControls, addr 0x26c7fe0, size 0x250, virtual false, abstract: false, final false
   inline void AutoSetStartAndEndControls();
 
-  /// @brief Method GetAnchorNormalAngle, addr 0x26b1bb0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetAnchorNormalAngle, addr 0x26c78f8, size 0x64, virtual false, abstract: false, final false
   inline float_t GetAnchorNormalAngle(int32_t anchorIndex);
 
-  /// @brief Method GetPoint, addr 0x26b193c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x26c7684, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(int32_t i);
 
-  /// @brief Method GetPointsInSegment, addr 0x26b1ab8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetPointsInSegment, addr 0x26c7800, size 0xf8, virtual false, abstract: false, final false
   inline void GetPointsInSegment(int32_t segmentIndex, ByRef<::UnityEngine::Vector3> p0, ByRef<::UnityEngine::Vector3> p1, ByRef<::UnityEngine::Vector3> p2, ByRef<::UnityEngine::Vector3> p3);
 
-  /// @brief Method GetPointsInSegment, addr 0x26b1a20, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetPointsInSegment, addr 0x26c7768, size 0x98, virtual false, abstract: false, final false
   inline void GetPointsInSegment(int32_t segmentIndex, ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> points);
 
-  /// @brief Method LoopIndex, addr 0x26b1d50, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LoopIndex, addr 0x26c7a98, size 0x58, virtual false, abstract: false, final false
   inline int32_t LoopIndex(int32_t i);
 
   static inline ::GlobalNamespace::BezierPath* New_ctor(::UnityEngine::Vector3 centre, bool initTwoSegments);
 
-  /// @brief Method NotifyPathModified, addr 0x26b0344, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NotifyPathModified, addr 0x26c608c, size 0x1c, virtual false, abstract: false, final false
   inline void NotifyPathModified();
 
-  /// @brief Method SetAnchorNormalAngle, addr 0x26b1c14, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetAnchorNormalAngle, addr 0x26c795c, size 0x13c, virtual false, abstract: false, final false
   inline void SetAnchorNormalAngle(int32_t anchorIndex, float_t angle);
 
-  /// @brief Method SetPoint, addr 0x26b1878, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetPoint, addr 0x26c75c0, size 0xc0, virtual false, abstract: false, final false
   inline void SetPoint(int32_t i, ::UnityEngine::Vector3 localPosition, bool suppressPathModified);
 
-  /// @brief Method UpdateByAnchorPoints, addr 0x26b0ae8, size 0x608, virtual false, abstract: false, final false
+  /// @brief Method UpdateByAnchorPoints, addr 0x26c6830, size 0x608, virtual false, abstract: false, final false
   inline void UpdateByAnchorPoints(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>* points);
 
-  /// @brief Method UpdateControlPoints, addr 0x26b1600, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method UpdateControlPoints, addr 0x26c7348, size 0x278, virtual false, abstract: false, final false
   inline void UpdateControlPoints(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>* points);
 
   constexpr ::GlobalNamespace::__BezierPath__ControlMode const& __cordl_internal_get__controlMode() const;
@@ -209,31 +209,31 @@ public:
 
   constexpr void __cordl_internal_set_bezierPathWasModifiedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x26b05a4, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c62ec, size 0x544, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 centre, bool initTwoSegments);
 
-  /// @brief Method add_bezierPathWasModifiedEvent, addr 0x26b0360, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_bezierPathWasModifiedEvent, addr 0x26c60a8, size 0x9c, virtual false, abstract: false, final false
   inline void add_bezierPathWasModifiedEvent(::System::Action* value);
 
-  /// @brief Method get_Item, addr 0x26b1938, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x26c7680, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Item(int32_t i);
 
-  /// @brief Method get_anchorPointsCount, addr 0x26b04e0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_anchorPointsCount, addr 0x26c6228, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_anchorPointsCount();
 
-  /// @brief Method get_controlPointMode, addr 0x26b0270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_controlPointMode, addr 0x26c5fb8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BezierPath__ControlMode get_controlPointMode();
 
-  /// @brief Method get_pointsCount, addr 0x26b0498, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_pointsCount, addr 0x26c61e0, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_pointsCount();
 
-  /// @brief Method get_segmentsCount, addr 0x26b0544, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_segmentsCount, addr 0x26c628c, size 0x60, virtual false, abstract: false, final false
   inline int32_t get_segmentsCount();
 
-  /// @brief Method remove_bezierPathWasModifiedEvent, addr 0x26b03fc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_bezierPathWasModifiedEvent, addr 0x26c6144, size 0x9c, virtual false, abstract: false, final false
   inline void remove_bezierPathWasModifiedEvent(::System::Action* value);
 
-  /// @brief Method set_controlPointMode, addr 0x26b0278, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_controlPointMode, addr 0x26c5fc0, size 0x4c, virtual false, abstract: false, final false
   inline void set_controlPointMode(::GlobalNamespace::__BezierPath__ControlMode value);
 
 protected:

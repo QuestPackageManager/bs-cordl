@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonsGroup::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonsGroup::SetLayoutHorizontal)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2751968;
+  constexpr static std::size_t addrs = 0x27672f0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StartMiddleEndButtonsGroup*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonsGroup::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonsGroup::SetLayoutVertical)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2751a50;
+  constexpr static std::size_t addrs = 0x27673d8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StartMiddleEndButtonsGroup*>::get(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonsGroup::*)()>(&::GlobalNamespace::StartMiddleEndButtonsGroup::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2751a54;
+  constexpr static std::size_t addrs = 0x27673dc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StartMiddleEndButtonsGroup*>::get(), ".ctor",

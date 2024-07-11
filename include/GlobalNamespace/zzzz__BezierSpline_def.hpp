@@ -55,7 +55,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __BezierSpline__ComputeControlPointsResults {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x105fe24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10669d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<float_t, ::Array<float_t>*> p1, ::ArrayW<float_t, ::Array<float_t>*> p2);
 
   // Ctor Parameters []
@@ -110,19 +110,19 @@ public:
 
   static inline ::GlobalNamespace::__BezierSpline____c* New_ctor();
 
-  /// @brief Method <ComputeControlPoints>b__8_0, addr 0x105fec8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <ComputeControlPoints>b__8_0, addr 0x1066a74, size 0x4, virtual false, abstract: false, final false
   inline float_t _ComputeControlPoints_b__8_0(::UnityEngine::Vector3 p);
 
-  /// @brief Method <ComputeControlPoints>b__8_1, addr 0x105fecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ComputeControlPoints>b__8_1, addr 0x1066a78, size 0x8, virtual false, abstract: false, final false
   inline float_t _ComputeControlPoints_b__8_1(::UnityEngine::Vector3 p);
 
-  /// @brief Method <ComputeControlPoints>b__8_2, addr 0x105fed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ComputeControlPoints>b__8_2, addr 0x1066a80, size 0x8, virtual false, abstract: false, final false
   inline float_t _ComputeControlPoints_b__8_2(::UnityEngine::Vector3 p);
 
-  /// @brief Method <SortSourceData>b__6_0, addr 0x105fe98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <SortSourceData>b__6_0, addr 0x1066a44, size 0x30, virtual false, abstract: false, final false
   inline int32_t _SortSourceData_b__6_0(::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2);
 
-  /// @brief Method .ctor, addr 0x105fe90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1066a3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__BezierSpline____c* getStaticF___9();
@@ -185,24 +185,24 @@ public:
 
   __declspec(property(get = get_segments))::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* segments;
 
-  /// @brief Method AddArtificialStartAndFinishPoint, addr 0x1059fb8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method AddArtificialStartAndFinishPoint, addr 0x1061a4c, size 0x1f8, virtual false, abstract: false, final false
   inline void AddArtificialStartAndFinishPoint();
 
-  /// @brief Method AddPoint, addr 0x1059ee0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddPoint, addr 0x1061974, size 0xd8, virtual false, abstract: false, final false
   inline void AddPoint(float_t distance, ::UnityEngine::Vector2 point);
 
-  /// @brief Method Clear, addr 0x105fdb4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x1066960, size 0x70, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ComputeControlPoints, addr 0x105f89c, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method ComputeControlPoints, addr 0x1066448, size 0x518, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BezierSpline__ComputeControlPointsResults ComputeControlPoints(::System::Collections::Generic::List_1<float_t>* k);
 
-  /// @brief Method ComputeControlPoints, addr 0x105a1b0, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method ComputeControlPoints, addr 0x1061c44, size 0x55c, virtual false, abstract: false, final false
   inline void ComputeControlPoints();
 
   static inline ::GlobalNamespace::BezierSpline* New_ctor();
 
-  /// @brief Method SortSourceData, addr 0x105f79c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SortSourceData, addr 0x1066348, size 0x100, virtual false, abstract: false, final false
   inline void SortSourceData();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>*& __cordl_internal_get__segments();
@@ -217,10 +217,10 @@ public:
 
   constexpr void __cordl_internal_set__sourceDataPoints(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x1059b30, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10615c4, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_segments, addr 0x105f794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_segments, addr 0x1066340, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* get_segments();
 
 protected:

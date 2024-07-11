@@ -39,7 +39,7 @@ public:
 
   static inline ::GlobalNamespace::SetPSSaberGlowColor* New_ctor();
 
-  /// @brief Method Start, addr 0x273cfc8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x27537e4, size 0x84, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method .ctor, addr 0x273d04c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2753868, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

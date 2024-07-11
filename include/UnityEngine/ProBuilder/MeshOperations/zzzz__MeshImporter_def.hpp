@@ -59,10 +59,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c* New_ctor();
 
-  /// @brief Method <Import>b__9_0, addr 0x331bbb0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Import>b__9_0, addr 0x3329a34, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 _Import_b__9_0(::UnityEngine::ProBuilder::Vertex* x);
 
-  /// @brief Method .ctor, addr 0x331bba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3329a2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c* getStaticF___9();
@@ -120,10 +120,10 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Vertices,
                       put = __cordl_internal_set_m_Vertices))::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> m_Vertices;
 
-  /// @brief Method Import, addr 0x331a61c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Import, addr 0x33284a0, size 0x184, virtual false, abstract: false, final false
   inline bool Import(::UnityEngine::GameObject* go, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
 
-  /// @brief Method Import, addr 0x331a7a0, size 0xab8, virtual false, abstract: false, final false
+  /// @brief Method Import, addr 0x3328624, size 0xab8, virtual false, abstract: false, final false
   inline void Import(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter* New_ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination);
@@ -157,13 +157,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Vertices(::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> value);
 
-  /// @brief Method .ctor, addr 0x331a5f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3328478, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination);
 
-  /// @brief Method .ctor, addr 0x331a360, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33281e4, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method .ctor, addr 0x331a4cc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3328350, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* sourceMesh, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> sourceMaterials, ::UnityEngine::ProBuilder::ProBuilderMesh* destination);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* getStaticF_k_DefaultImportSettings();

@@ -38,7 +38,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::__HEU_InputNodeUICache__HEU_InputObjectUICache* New_ctor();
 
-  /// @brief Method .ctor, addr 0x256c298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258254c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::__HEU_InputNodeUICache__HEU_InputAssetUICache* New_ctor();
 
-  /// @brief Method .ctor, addr 0x256c2a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2582554, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set__inputObjectCache(::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputNodeUICache__HEU_InputObjectUICache*>* value);
 
-  /// @brief Method .ctor, addr 0x256c1d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258248c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

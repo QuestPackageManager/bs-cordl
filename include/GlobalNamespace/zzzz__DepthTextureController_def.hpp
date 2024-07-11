@@ -46,13 +46,13 @@ public:
 
   static inline ::GlobalNamespace::DepthTextureController* New_ctor();
 
-  /// @brief Method OnPreRender, addr 0x26af7d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnPreRender, addr 0x26c5520, size 0x70, virtual false, abstract: false, final false
   inline void OnPreRender();
 
-  /// @brief Method SetShaderKeyword, addr 0x26af848, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetShaderKeyword, addr 0x26c5590, size 0x14, virtual false, abstract: false, final false
   inline void SetShaderKeyword(::StringW keyword, bool value);
 
-  /// @brief Method Start, addr 0x26af6dc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26c5424, size 0xfc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::BeatSaber::PerformancePresets::PerformancePreset*& __cordl_internal_get__cachedPreset();
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x26af85c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c55a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

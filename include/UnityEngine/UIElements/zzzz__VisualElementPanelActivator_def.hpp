@@ -43,19 +43,19 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualElementPanelActivator* New_ctor(::UnityEngine::UIElements::IVisualElementPanelActivatable* activatable);
 
-  /// @brief Method OnEnter, addr 0x35307bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnEnter, addr 0x3546640, size 0x10, virtual false, abstract: false, final false
   inline void OnEnter(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnLeave, addr 0x35307cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnLeave, addr 0x3546650, size 0x74, virtual false, abstract: false, final false
   inline void OnLeave(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method SendActivation, addr 0x353058c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SendActivation, addr 0x3546410, size 0x118, virtual false, abstract: false, final false
   inline void SendActivation();
 
-  /// @brief Method SendDeactivation, addr 0x35306a4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SendDeactivation, addr 0x3546528, size 0x118, virtual false, abstract: false, final false
   inline void SendDeactivation();
 
-  /// @brief Method SetActive, addr 0x352e898, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x354471c, size 0x33c, virtual false, abstract: false, final false
   inline void SetActive(bool action);
 
   constexpr bool const& __cordl_internal_get__isActive_k__BackingField() const;
@@ -76,19 +76,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Activatable(::UnityEngine::UIElements::IVisualElementPanelActivatable* value);
 
-  /// @brief Method .ctor, addr 0x352e788, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x354460c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::IVisualElementPanelActivatable* activatable);
 
-  /// @brief Method get_isActive, addr 0x3530564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x35463e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method get_isDetaching, addr 0x3530578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDetaching, addr 0x35463fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDetaching();
 
-  /// @brief Method set_isActive, addr 0x353056c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isActive, addr 0x35463f0, size 0xc, virtual false, abstract: false, final false
   inline void set_isActive(bool value);
 
-  /// @brief Method set_isDetaching, addr 0x3530580, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isDetaching, addr 0x3546404, size 0xc, virtual false, abstract: false, final false
   inline void set_isDetaching(bool value);
 
 protected:

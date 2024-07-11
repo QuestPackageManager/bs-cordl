@@ -31,13 +31,13 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x18
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRDriverManager FnTable;
 
-  /// @brief Method GetDriverCount, addr 0x2beb068, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDriverCount, addr 0x2bfea7c, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetDriverCount();
 
-  /// @brief Method GetDriverHandle, addr 0x2beb0b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDriverHandle, addr 0x2bfeac4, size 0x24, virtual false, abstract: false, final false
   inline uint64_t GetDriverHandle(::StringW pchDriverName);
 
-  /// @brief Method GetDriverName, addr 0x2beb08c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDriverName, addr 0x2bfeaa0, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetDriverName(uint32_t nDriver, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize);
 
   static inline ::OVR::OpenVR::CVRDriverManager* New_ctor(::System::IntPtr pInterface);
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRDriverManager value);
 
-  /// @brief Method .ctor, addr 0x2beaf54, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bfe968, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:

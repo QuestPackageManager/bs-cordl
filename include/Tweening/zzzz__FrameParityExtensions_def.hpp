@@ -22,7 +22,7 @@ namespace Tweening {
 class CORDL_TYPE FrameParityExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSwitchedParity, addr 0x3060f70, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetSwitchedParity, addr 0x3070984, size 0x18, virtual false, abstract: false, final false
   static inline ::Tweening::FrameParity GetSwitchedParity(::Tweening::FrameParity frameParity);
 
 protected:

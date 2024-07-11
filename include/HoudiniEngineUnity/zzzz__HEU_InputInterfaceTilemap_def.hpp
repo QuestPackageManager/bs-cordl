@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x25c9c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ddf08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,21 +113,21 @@ public:
   /// @brief Field settings, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings))::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* settings;
 
-  /// @brief Method CreateInputNodeWithDataUpload, addr 0x25c743c, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method CreateInputNodeWithDataUpload, addr 0x25db6f0, size 0x198, virtual true, abstract: false, final false
   inline bool CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t connectNodeID, ::UnityEngine::GameObject* inputObject, ByRef<int32_t> inputNodeID);
 
-  /// @brief Method GenerateTilemapDataFromGameObject, addr 0x25c75d4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GenerateTilemapDataFromGameObject, addr 0x25db888, size 0xd8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_InputInterfaceTilemap__HEU_InputDataTilemap* GenerateTilemapDataFromGameObject(::UnityEngine::GameObject* inputObject);
 
-  /// @brief Method Initialize, addr 0x25c73cc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x25db680, size 0x70, virtual false, abstract: false, final false
   inline void Initialize(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* settings);
 
-  /// @brief Method IsThisInputObjectSupported, addr 0x25c90a8, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method IsThisInputObjectSupported, addr 0x25dd35c, size 0xc4, virtual true, abstract: false, final false
   inline bool IsThisInputObjectSupported(::UnityEngine::GameObject* inputObject);
 
   static inline ::HoudiniEngineUnity::HEU_InputInterfaceTilemap* New_ctor();
 
-  /// @brief Method UploadData, addr 0x25c76ac, size 0x19fc, virtual false, abstract: false, final false
+  /// @brief Method UploadData, addr 0x25db960, size 0x19fc, virtual false, abstract: false, final false
   inline bool UploadData(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t inputNodeID, ::HoudiniEngineUnity::HEU_InputData* inputData);
 
   constexpr ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*& __cordl_internal_get_settings();
@@ -136,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set_settings(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* value);
 
-  /// @brief Method .ctor, addr 0x25c73c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25db674, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

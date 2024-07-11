@@ -66,27 +66,27 @@ public:
   /// @brief Field headNoise, offset 0x18, size 0xc
   __declspec(property(get = __cordl_internal_get_headNoise, put = __cordl_internal_set_headNoise))::BeatSaber::RecPlay::PoseNoise headNoise;
 
-  /// @brief Method Disable, addr 0x26a9b94, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x26be1a4, size 0x164, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Enable, addr 0x26a99e8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x26bdff8, size 0x1ac, virtual false, abstract: false, final false
   inline void Enable();
 
-  /// @brief Method Initialize, addr 0x26a9408, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x26bda18, size 0x80, virtual false, abstract: false, final false
   inline void Initialize(::BeatSaber::GameSettings::MainSettingsHandler* mainSettingsHandler, ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper, ::GlobalNamespace::LevelRecording* recording);
 
   static inline ::GlobalNamespace::PlaybackRecord* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x26a9e50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x26be460, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x26a9e4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x26be45c, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x26a9cf8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x26be308, size 0x150, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Update, addr 0x26a9e48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26be458, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -125,17 +125,17 @@ public:
 
   constexpr void __cordl_internal_set_headNoise(::BeatSaber::RecPlay::PoseNoise value);
 
-  /// @brief Method .ctor, addr 0x26a9e54, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26be464, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF__IsActive_k__BackingField();
 
-  /// @brief Method get_IsActive, addr 0x26a9374, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_IsActive, addr 0x26bd984, size 0x48, virtual false, abstract: false, final false
   static inline bool get_IsActive();
 
   static inline void setStaticF__IsActive_k__BackingField(bool value);
 
-  /// @brief Method set_IsActive, addr 0x26a93bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_IsActive, addr 0x26bd9cc, size 0x4c, virtual false, abstract: false, final false
   static inline void set_IsActive(bool value);
 
 protected:

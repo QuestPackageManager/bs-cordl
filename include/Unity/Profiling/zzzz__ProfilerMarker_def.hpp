@@ -38,10 +38,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x33fe47c, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x340d300, size 0x90, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x33fe3a0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340d224, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr markerPtr);
 
   /// @brief Convert to "::System::IDisposable"
@@ -78,10 +78,10 @@ public:
   // Declarations
   using AutoScope = ::Unity::Profiling::__ProfilerMarker__AutoScope;
 
-  /// @brief Method Auto, addr 0x33fe318, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Auto, addr 0x340d19c, size 0x88, virtual false, abstract: false, final false
   inline ::Unity::Profiling::__ProfilerMarker__AutoScope Auto();
 
-  /// @brief Method .ctor, addr 0x33fe268, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340d0ec, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   // Ctor Parameters []

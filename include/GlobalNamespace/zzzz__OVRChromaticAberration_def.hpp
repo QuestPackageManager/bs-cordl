@@ -28,10 +28,10 @@ public:
 
   static inline ::GlobalNamespace::OVRChromaticAberration* New_ctor();
 
-  /// @brief Method Start, addr 0x2b997f4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2bab208, size 0x9c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2b99890, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2bab2a4, size 0xf0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_chromatic() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_toggleButton(::GlobalNamespace::__OVRInput__RawButton value);
 
-  /// @brief Method .ctor, addr 0x2b99980, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bab394, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

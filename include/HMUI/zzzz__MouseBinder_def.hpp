@@ -182,34 +182,34 @@ public:
 
   __declspec(property(get = get_enabled, put = set_enabled)) bool enabled;
 
-  /// @brief Method AddButtonBinding, addr 0x2515e70, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AddButtonBinding, addr 0x252a124, size 0xf8, virtual false, abstract: false, final false
   inline void AddButtonBinding(::HMUI::__MouseBinder__ButtonType buttonType, ::HMUI::__MouseBinder__MouseEventType keyBindingType, ::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method AddButtonBindings, addr 0x2515cfc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AddButtonBindings, addr 0x2529fb0, size 0x174, virtual false, abstract: false, final false
   inline void AddButtonBindings(
       ::System::Collections::Generic::List_1<::System::Tuple_3<::HMUI::__MouseBinder__ButtonType, ::HMUI::__MouseBinder__MouseEventType, ::UnityEngine::Events::UnityAction*>*>* bindingData);
 
-  /// @brief Method AddScrollBinding, addr 0x2515bfc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddScrollBinding, addr 0x2529eb0, size 0xa8, virtual false, abstract: false, final false
   inline void AddScrollBinding(::UnityEngine::Events::UnityAction_1<float_t>* action);
 
-  /// @brief Method AddScrollBindings, addr 0x2515ac0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method AddScrollBindings, addr 0x2529d74, size 0x13c, virtual false, abstract: false, final false
   inline void AddScrollBindings(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>* bindingData);
 
-  /// @brief Method ClearBindings, addr 0x2516018, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x252a2cc, size 0xa4, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Init, addr 0x2515a00, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2529cb4, size 0xc0, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method ManualUpdate, addr 0x25160bc, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x252a370, size 0x384, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::HMUI::MouseBinder* New_ctor();
 
-  /// @brief Method RemoveButtonBinding, addr 0x2515f68, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method RemoveButtonBinding, addr 0x252a21c, size 0xb0, virtual false, abstract: false, final false
   inline void RemoveButtonBinding(::HMUI::__MouseBinder__ButtonType buttonType, ::HMUI::__MouseBinder__MouseEventType keyBindingType, ::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method RemoveScrollBinding, addr 0x2515ca4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveScrollBinding, addr 0x2529f58, size 0x58, virtual false, abstract: false, final false
   inline void RemoveScrollBinding(::UnityEngine::Events::UnityAction_1<float_t>* action);
 
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_3<::HMUI::__MouseBinder__ButtonType, ::HMUI::__MouseBinder__MouseEventType, ::UnityEngine::Events::UnityAction*>>*&
@@ -234,13 +234,13 @@ public:
 
   constexpr void __cordl_internal_set__scrollBindings(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>* value);
 
-  /// @brief Method .ctor, addr 0x25159e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2529c98, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enabled, addr 0x25159d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x2529c84, size 0x8, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method set_enabled, addr 0x25159d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x2529c8c, size 0xc, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
 protected:

@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_HandleParamBinding::*)(::HoudiniEngineUnity::HEU_HandleParamBinding*)>(
     &::HoudiniEngineUnity::HEU_HandleParamBinding::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x258c60c;
+  constexpr static std::size_t addrs = 0x25a18c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_HandleParamBinding::*)()>(&::HoudiniEngineUnity::HEU_HandleParamBinding::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x258b6ec;
+  constexpr static std::size_t addrs = 0x25a09a0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_HandleParamBinding*>::get(), ".ctor",

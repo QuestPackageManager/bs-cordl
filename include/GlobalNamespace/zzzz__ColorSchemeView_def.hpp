@@ -48,7 +48,7 @@ public:
 
   static inline ::GlobalNamespace::ColorSchemeView* New_ctor();
 
-  /// @brief Method SetColors, addr 0x2779a38, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x278e440, size 0x1b8, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color,
                         ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor);
 
@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set__saberBColorImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x2779bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x278e5f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

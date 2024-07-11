@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Serialization::XmlRootAttribute*, ::StringW, ::StringW, ::System::Xml::Serialization::TypeData*, ::StringW, ::StringW)>(
     &::System::Xml::Serialization::XmlSerializableMapping::_ctor)> {
   constexpr static std::size_t size = 0x76c;
-  constexpr static std::size_t addrs = 0x2f0f7bc;
+  constexpr static std::size_t addrs = 0x2f1d1d0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

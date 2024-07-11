@@ -180,71 +180,71 @@ public:
 
   template <typename TSource> using __c__DisplayClass14_0_1 = ::Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>;
 
-  /// @brief Method CreateStringWriter, addr 0x2a3cf84, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CreateStringWriter, addr 0x2a51998, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::IO::StringWriter* CreateStringWriter(int32_t capacity);
 
-  /// @brief Method EndsWith, addr 0x2a3d778, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x2a5218c, size 0x40, virtual false, abstract: false, final false
   static inline bool EndsWith(::StringW source, char16_t value);
 
   /// @brief Method ForgivingCaseSensitiveFind, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource>
   static inline TSource ForgivingCaseSensitiveFind(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, ::StringW>* valueSelector, ::StringW testValue);
 
-  /// @brief Method FormatWith, addr 0x2a3c9fc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method FormatWith, addr 0x2a51410, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0);
 
-  /// @brief Method FormatWith, addr 0x2a3cb10, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method FormatWith, addr 0x2a51524, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1);
 
-  /// @brief Method FormatWith, addr 0x2a3cbec, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method FormatWith, addr 0x2a51600, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method FormatWith, addr 0x2a3ccf4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method FormatWith, addr 0x2a51708, size 0x13c, virtual false, abstract: false, final false
   static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2, ::System::Object* arg3);
 
-  /// @brief Method FormatWith, addr 0x2a3caa4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method FormatWith, addr 0x2a514b8, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method IndexOf, addr 0x2a3d70c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x2a52120, size 0x14, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::StringW s, char16_t c);
 
-  /// @brief Method IsHighSurrogate, addr 0x2a3d65c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsHighSurrogate, addr 0x2a52070, size 0x58, virtual false, abstract: false, final false
   static inline bool IsHighSurrogate(char16_t c);
 
-  /// @brief Method IsLowSurrogate, addr 0x2a3d6b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsLowSurrogate, addr 0x2a520c8, size 0x58, virtual false, abstract: false, final false
   static inline bool IsLowSurrogate(char16_t c);
 
-  /// @brief Method IsNullOrEmpty, addr 0x2a3c9f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsNullOrEmpty, addr 0x2a51408, size 0x8, virtual false, abstract: false, final false
   static inline bool IsNullOrEmpty(::StringW value);
 
-  /// @brief Method IsWhiteSpace, addr 0x2a3ce84, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method IsWhiteSpace, addr 0x2a51898, size 0x100, virtual false, abstract: false, final false
   static inline bool IsWhiteSpace(::StringW s);
 
-  /// @brief Method Replace, addr 0x2a3d720, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Replace, addr 0x2a52134, size 0x14, virtual false, abstract: false, final false
   static inline ::StringW Replace(::StringW s, ::StringW oldValue, ::StringW newValue);
 
-  /// @brief Method StartsWith, addr 0x2a3d734, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x2a52148, size 0x44, virtual false, abstract: false, final false
   static inline bool StartsWith(::StringW source, char16_t value);
 
-  /// @brief Method ToCamelCase, addr 0x2a3d114, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ToCamelCase, addr 0x2a51b28, size 0x1e8, virtual false, abstract: false, final false
   static inline ::StringW ToCamelCase(::StringW s);
 
-  /// @brief Method ToCharAsUnicode, addr 0x2a3d058, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ToCharAsUnicode, addr 0x2a51a6c, size 0xbc, virtual false, abstract: false, final false
   static inline void ToCharAsUnicode(char16_t c, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
-  /// @brief Method ToKebabCase, addr 0x2a3d654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToKebabCase, addr 0x2a52068, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW ToKebabCase(::StringW s);
 
-  /// @brief Method ToLower, addr 0x2a3d2fc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ToLower, addr 0x2a51d10, size 0x90, virtual false, abstract: false, final false
   static inline char16_t ToLower(char16_t c);
 
-  /// @brief Method ToSeparatedCase, addr 0x2a3d394, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method ToSeparatedCase, addr 0x2a51da8, size 0x2c0, virtual false, abstract: false, final false
   static inline ::StringW ToSeparatedCase(::StringW s, char16_t separator);
 
-  /// @brief Method ToSnakeCase, addr 0x2a3d38c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToSnakeCase, addr 0x2a51da0, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW ToSnakeCase(::StringW s);
 
-  /// @brief Method Trim, addr 0x2a3d7b8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Trim, addr 0x2a521cc, size 0x1c4, virtual false, abstract: false, final false
   static inline ::StringW Trim(::StringW s, int32_t start, int32_t length);
 
 protected:

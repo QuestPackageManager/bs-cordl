@@ -97,25 +97,25 @@ public:
 
   constexpr void __cordl_internal_set__gpuLevel(::BeatSaber::PerformancePresets::ProcessorPerformanceLevel value);
 
-  /// @brief Method .ctor, addr 0x106d66c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1074308, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cpuLevel, addr 0x106d644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cpuLevel, addr 0x10742e0, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::PerformancePresets::ProcessorPerformanceLevel get_cpuLevel();
 
-  /// @brief Method get_dynamicFoveatedRenderingEnabled, addr 0x106d664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dynamicFoveatedRenderingEnabled, addr 0x1074300, size 0x8, virtual false, abstract: false, final false
   inline bool get_dynamicFoveatedRenderingEnabled();
 
-  /// @brief Method get_eyeTrackedFoveatedRenderingEnabled, addr 0x106d65c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTrackedFoveatedRenderingEnabled, addr 0x10742f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_eyeTrackedFoveatedRenderingEnabled();
 
-  /// @brief Method get_foveatedRenderingLevelGameplay, addr 0x106d654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_foveatedRenderingLevelGameplay, addr 0x10742f0, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::PerformancePresets::FoveatedRenderingLevel get_foveatedRenderingLevelGameplay();
 
-  /// @brief Method get_foveatedRenderingLevelMenu, addr 0x106d64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_foveatedRenderingLevelMenu, addr 0x10742e8, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::PerformancePresets::FoveatedRenderingLevel get_foveatedRenderingLevelMenu();
 
-  /// @brief Method get_gpuLevel, addr 0x106d63c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gpuLevel, addr 0x10742d8, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::PerformancePresets::ProcessorPerformanceLevel get_gpuLevel();
 
 protected:

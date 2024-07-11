@@ -46,10 +46,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerApplicationSpecificParser* New_ctor(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method ReadObject, addr 0x1424c14, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method ReadObject, addr 0x142df0c, size 0x20, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
 
-  /// @brief Method ToAsn1Object, addr 0x141f4c8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method ToAsn1Object, addr 0x14287c0, size 0x7c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser*& __cordl_internal_get_parser();
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_tag(int32_t value);
 
-  /// @brief Method .ctor, addr 0x141f498, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1428790, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser"

@@ -50,18 +50,18 @@ public:
   /// @brief Field _yIncButton, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__yIncButton, put = __cordl_internal_set__yIncButton))::UnityW<::UnityEngine::UI::Button> _yIncButton;
 
-  /// @brief Method DidActivate, addr 0x2651058, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2664e9c, size 0x108, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::FloorAdjustViewController* New_ctor();
 
-  /// @brief Method Update, addr 0x2651160, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2664fa4, size 0x24c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method <DidActivate>b__9_0, addr 0x26513b4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__9_0, addr 0x26651f8, size 0xa0, virtual false, abstract: false, final false
   inline void _DidActivate_b__9_0();
 
-  /// @brief Method <DidActivate>b__9_1, addr 0x2651454, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__9_1, addr 0x2665298, size 0xa0, virtual false, abstract: false, final false
   inline void _DidActivate_b__9_1();
 
   constexpr ::BeatSaber::GameSettings::MainSettingsHandler*& __cordl_internal_get__mainSettingsHandler();
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set__yIncButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method .ctor, addr 0x26513ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26651f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

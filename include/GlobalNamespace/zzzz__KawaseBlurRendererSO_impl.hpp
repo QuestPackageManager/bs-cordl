@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel::*)()>(
     &::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x250956c;
+  constexpr static std::size_t addrs = 0x251d820;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel*>::get(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::GlobalNamespace::KawaseBlurRendererSO::*)(
     ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize)>(&::GlobalNamespace::KawaseBlurRendererSO::GetBlurKernel)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x2508fc8;
+  constexpr static std::size_t addrs = 0x251d27c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)()>(&::GlobalNamespace::KawaseBlurRendererSO::OnEnable)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x25091c4;
+  constexpr static std::size_t addrs = 0x251d478;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)()>(&::GlobalNamespace::KawaseBlurRendererSO::OnDisable)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2509574;
+  constexpr static std::size_t addrs = 0x251d828;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), "OnDisable",
@@ -144,7 +144,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, int32_t, int32_t, float_t, float_t, ::GlobalNamespace::__KawaseBlurRendererSO__WeightsType, ::ArrayW<float_t, ::Array<float_t>*>)>(
     &::GlobalNamespace::KawaseBlurRendererSO::Bloom)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x25095b0;
+  constexpr static std::size_t addrs = 0x251d864;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,7 +165,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize, float_t, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize, float_t,
     float_t, int32_t, bool)>(&::GlobalNamespace::KawaseBlurRendererSO::DoubleBlur)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x2509ee4;
+  constexpr static std::size_t addrs = 0x251e198;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (::GlobalNamespace::KawaseBlurRendererSO::*)(
     ::UnityEngine::Texture*, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize, int32_t)>(&::GlobalNamespace::KawaseBlurRendererSO::Blur)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x250a148;
+  constexpr static std::size_t addrs = 0x251e3fc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)(
     ::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize, float_t, int32_t)>(&::GlobalNamespace::KawaseBlurRendererSO::Blur)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x250a204;
+  constexpr static std::size_t addrs = 0x251e4b8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -221,7 +221,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::ArrayW<int32_t, ::Array<int32_t>*>, float_t, int32_t, int32_t, int32_t, float_t, float_t, bool, bool,
     ::GlobalNamespace::__KawaseBlurRendererSO__WeightsType)>(&::GlobalNamespace::KawaseBlurRendererSO::Blur)> {
   constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x2509a3c;
+  constexpr static std::size_t addrs = 0x251dcf0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*)>(
     &::GlobalNamespace::KawaseBlurRendererSO::AlphaWeights)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x250a28c;
+  constexpr static std::size_t addrs = 0x251e540;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +260,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Rendering::CommandBuffer* (::GlobalNamespace::KawaseBlurRendererSO::*)(int32_t, int32_t, ::StringW, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize, float_t)>(
         &::GlobalNamespace::KawaseBlurRendererSO::CreateBlurCommandBuffer)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x250a35c;
+  constexpr static std::size_t addrs = 0x251e610;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)()>(&::GlobalNamespace::KawaseBlurRendererSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x250a66c;
+  constexpr static std::size_t addrs = 0x251e920;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::KawaseBlurRendererSO*>::get(), ".ctor",

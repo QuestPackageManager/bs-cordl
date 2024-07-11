@@ -102,13 +102,13 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __DebugConsoleController__ConsoleMessage {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2690708, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x26a4490, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x268f380, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a3108, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::LogType type);
 
-  /// @brief Method op_Addition, addr 0x2690710, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x26a4498, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__DebugConsoleController__ConsoleMessage op_Addition(::GlobalNamespace::__DebugConsoleController__ConsoleMessage a,
                                                                                         ::GlobalNamespace::__DebugConsoleController__ConsoleMessage b);
 
@@ -149,10 +149,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2690730, size 0x2fc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26a44b8, size 0x2fc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2690a2c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26a47b4, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -208,10 +208,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2690a38, size 0x374, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26a47c0, size 0x374, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2690dac, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26a4b34, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -275,10 +275,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2690db8, size 0x3a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26a4b40, size 0x3a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x269115c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26a4ee4, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -375,51 +375,51 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method CheckCommand, addr 0x26903d0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CheckCommand, addr 0x26a4158, size 0x138, virtual false, abstract: false, final false
   inline void CheckCommand(::GlobalNamespace::ConsoleCommandBase* command);
 
-  /// @brief Method CommandNotFoundMessage, addr 0x2690238, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CommandNotFoundMessage, addr 0x26a3fc0, size 0x74, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__DebugConsoleController__ConsoleMessage CommandNotFoundMessage(::StringW command);
 
-  /// @brief Method DisplayMessage, addr 0x268f38c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method DisplayMessage, addr 0x26a3114, size 0xb0, virtual false, abstract: false, final false
   inline void DisplayMessage(::GlobalNamespace::__DebugConsoleController__ConsoleMessage message);
 
-  /// @brief Method ExecuteCommands, addr 0x268ffa4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCommands, addr 0x26a3d2c, size 0x94, virtual false, abstract: false, final false
   inline void ExecuteCommands();
 
-  /// @brief Method ExecuteCommandsAsync, addr 0x2690038, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCommandsAsync, addr 0x26a3dc0, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ExecuteCommandsAsync();
 
-  /// @brief Method FillDictOfCommands, addr 0x268fbc4, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method FillDictOfCommands, addr 0x26a394c, size 0x378, virtual false, abstract: false, final false
   inline void FillDictOfCommands(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ConsoleCommandBase*>* commandInstances);
 
-  /// @brief Method GetAllConsoleCommandInstances, addr 0x268f6a4, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method GetAllConsoleCommandInstances, addr 0x26a342c, size 0x520, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ConsoleCommandBase*>* GetAllConsoleCommandInstances();
 
-  /// @brief Method GetCommand, addr 0x26905d0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetCommand, addr 0x26a4358, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ConsoleCommandBase* GetCommand(::StringW commandName);
 
-  /// @brief Method GetCommands, addr 0x26905c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCommands, addr 0x26a4350, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>* GetCommands();
 
-  /// @brief Method Initialize, addr 0x268f640, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x26a33c8, size 0x64, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method IsCommandClass, addr 0x2690508, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsCommandClass, addr 0x26a4290, size 0xc0, virtual false, abstract: false, final false
   inline bool IsCommandClass(::System::Type* type);
 
   static inline ::GlobalNamespace::DebugConsoleController* New_ctor();
 
-  /// @brief Method QueueNewInput, addr 0x2690104, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method QueueNewInput, addr 0x26a3e8c, size 0x58, virtual false, abstract: false, final false
   inline void QueueNewInput(::StringW input);
 
-  /// @brief Method StripExtraWhitespace, addr 0x26902ac, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method StripExtraWhitespace, addr 0x26a4034, size 0x124, virtual false, abstract: false, final false
   inline ::StringW StripExtraWhitespace(::StringW commandText);
 
-  /// @brief Method Tick, addr 0x268ff3c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x26a3cc4, size 0x68, virtual true, abstract: false, final true
   inline void Tick();
 
-  /// @brief Method TryExecuteCommand, addr 0x269015c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method TryExecuteCommand, addr 0x26a3ee4, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* TryExecuteCommand(::StringW commandText, ::System::Collections::Generic::List_1<::GlobalNamespace::__DebugConsoleController__ConsoleMessage>* messages);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>*& __cordl_internal_get__commands();
@@ -452,7 +452,7 @@ public:
 
   constexpr void __cordl_internal_set_onNewMessageToOutput(::System::Action_2<::StringW, ::UnityEngine::LogType>* value);
 
-  /// @brief Method .ctor, addr 0x2690648, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a43d0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Zenject::IInitializable"

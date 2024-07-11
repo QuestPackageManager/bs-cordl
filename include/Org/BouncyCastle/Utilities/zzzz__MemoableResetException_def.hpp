@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::MemoableResetException* New_ctor(::StringW msg);
 
-  /// @brief Method .ctor, addr 0x13d7cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13dffb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg);
 
 protected:

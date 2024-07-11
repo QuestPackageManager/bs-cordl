@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ResultObjectiveListItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2687d1c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269b698, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

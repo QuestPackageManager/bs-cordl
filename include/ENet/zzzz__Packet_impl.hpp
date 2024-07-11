@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::ENet::Packet::*)()>(&::ENet::Packet::get_NativeData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25eccf0;
+  constexpr static std::size_t addrs = 0x25fffa4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(), "get_NativeData",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::System::IntPtr)>(&::ENet::Packet::set_NativeData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25eccf8;
+  constexpr static std::size_t addrs = 0x25fffac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::System::IntPtr)>(&::ENet::Packet::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ecd00;
+  constexpr static std::size_t addrs = 0x25fffb4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)()>(&::ENet::Packet::Dispose)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x25ecd08;
+  constexpr static std::size_t addrs = 0x25fffbc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(), "Dispose",
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ENet::Packet::*)()>(&::ENet::Packet::get_IsSet)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x25ecdf8;
+  constexpr static std::size_t addrs = 0x26000ac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(), "get_IsSet",
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::ENet::Packet::*)()>(&::ENet::Packet::get_Data)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x25ece4c;
+  constexpr static std::size_t addrs = 0x2600100;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(), "get_Data",
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::ENet::Packet::*)()>(&::ENet::Packet::get_UserData)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x25ecf88;
+  constexpr static std::size_t addrs = 0x260023c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(), "get_UserData",
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::System::IntPtr)>(&::ENet::Packet::set_UserData)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x25ed01c;
+  constexpr static std::size_t addrs = 0x26002d0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::ENet::Packet::*)()>(&::ENet::Packet::get_Length)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x25ed0c8;
+  constexpr static std::size_t addrs = 0x260037c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(), "get_Length",
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ENet::Packet::*)()>(&::ENet::Packet::get_HasReferences)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25ed15c;
+  constexpr static std::size_t addrs = 0x2600410;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(), "get_HasReferences",
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)()>(&::ENet::Packet::ThrowIfNotCreated)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x25ece64;
+  constexpr static std::size_t addrs = 0x2600118;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Packet>::get(), "ThrowIfNotCreated",
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::System::IntPtr)>(&::ENet::Packet::SetFreeCallback)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x25ed1fc;
+  constexpr static std::size_t addrs = 0x26004b0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::ENet::PacketFreeCallback*)>(&::ENet::Packet::SetFreeCallback)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x25ed2a8;
+  constexpr static std::size_t addrs = 0x260055c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::ENet::Packet::Create)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x25ed338;
+  constexpr static std::size_t addrs = 0x26005ec;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::ENet::Packet::Create)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ed39c;
+  constexpr static std::size_t addrs = 0x2600650;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ENet::PacketFlags)>(&::ENet::Packet::Create)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x25ed47c;
+  constexpr static std::size_t addrs = 0x2600730;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ENet::PacketFlags)>(
     &::ENet::Packet::Create)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x25ed3a4;
+  constexpr static std::size_t addrs = 0x2600658;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::System::IntPtr, int32_t, ::ENet::PacketFlags)>(&::ENet::Packet::Create)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x25ed534;
+  constexpr static std::size_t addrs = 0x26007e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ENet::PacketFlags)>(
     &::ENet::Packet::Create)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x25ed6e8;
+  constexpr static std::size_t addrs = 0x260099c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::System::IntPtr, int32_t, int32_t, ::ENet::PacketFlags)>(&::ENet::Packet::Create)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x25ed8ac;
+  constexpr static std::size_t addrs = 0x2600b60;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Packet::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::ENet::Packet::CopyTo)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x25edaa8;
+  constexpr static std::size_t addrs = 0x2600d5c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

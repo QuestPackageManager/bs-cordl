@@ -31,25 +31,25 @@ public:
 
   __declspec(property(get = get_ValueChanged, put = set_ValueChanged)) bool ValueChanged;
 
-  /// @brief Method ToString, addr 0x3331b68, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x33409ec, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_AssemblyName, addr 0x3331b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyName, addr 0x33409dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyName();
 
-  /// @brief Method get_ClassName, addr 0x3331b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClassName, addr 0x33409e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ClassName();
 
-  /// @brief Method get_Value, addr 0x3331c18, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3340a9c, size 0x1f4, virtual false, abstract: false, final false
   inline ::System::Type* get_Value();
 
-  /// @brief Method get_ValueChanged, addr 0x3331ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValueChanged, addr 0x3340d50, size 0x8, virtual false, abstract: false, final false
   inline bool get_ValueChanged();
 
-  /// @brief Method set_Value, addr 0x3331e0c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x3340c90, size 0xc0, virtual false, abstract: false, final false
   inline void set_Value(::System::Type* value);
 
-  /// @brief Method set_ValueChanged, addr 0x3331ed4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ValueChanged, addr 0x3340d58, size 0xc, virtual false, abstract: false, final false
   inline void set_ValueChanged(bool value);
 
   // Ctor Parameters []

@@ -32,7 +32,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x25defe4, size 0x300, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x25f3298, size 0x300, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_GeoInfo* other);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_GeoInfo* New_ctor(::HoudiniEngineUnity::HAPI_GeoInfo self);
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_GeoInfo value);
 
-  /// @brief Method .ctor, addr 0x25defb0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f3264, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_GeoInfo self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>"

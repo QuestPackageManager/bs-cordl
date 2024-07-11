@@ -73,19 +73,19 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__HapticsAudioClipPlayer__Pool* New_ctor();
 
-  /// @brief Method OnCreated, addr 0x24f507c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method OnCreated, addr 0x2509df0, size 0x14, virtual true, abstract: false, final false
   inline void OnCreated(::GlobalNamespace::HapticsAudioClipPlayer* item);
 
-  /// @brief Method OnDespawned, addr 0x24f5104, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method OnDespawned, addr 0x2509e78, size 0x14, virtual true, abstract: false, final false
   inline void OnDespawned(::GlobalNamespace::HapticsAudioClipPlayer* item);
 
-  /// @brief Method OnDestroyed, addr 0x24f5090, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method OnDestroyed, addr 0x2509e04, size 0x74, virtual true, abstract: false, final false
   inline void OnDestroyed(::GlobalNamespace::HapticsAudioClipPlayer* item);
 
-  /// @brief Method Reinitialize, addr 0x24f5118, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Reinitialize, addr 0x2509e8c, size 0x14, virtual true, abstract: false, final false
   inline void Reinitialize(::GlobalNamespace::HapticsAudioClipPlayer* clipPlayer);
 
-  /// @brief Method .ctor, addr 0x24f512c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2509ea0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -144,21 +144,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x24f5178, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2509eec, size 0x12c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x24f52a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x250a018, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x24f52ac, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x250a020, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x24f52ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x250a060, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x24f5174, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2509ee8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -191,7 +191,7 @@ public:
 
   constexpr void __cordl_internal_set_onComplete(::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* value);
 
-  /// @brief Method .ctor, addr 0x24f4f50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2509cc4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -281,21 +281,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x24f52f8, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x250a06c, size 0x120, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x24f5418, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x250a18c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x24f5420, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x250a194, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x24f5460, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x250a1d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x24f52f4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x250a068, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -322,7 +322,7 @@ public:
 
   constexpr void __cordl_internal_set_onComplete(::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* value);
 
-  /// @brief Method .ctor, addr 0x24f4fc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2509d34, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -400,40 +400,40 @@ public:
   /// @brief Field _triggeredThisFrame, offset 0x24, size 0x1
   __declspec(property(get = __cordl_internal_get__triggeredThisFrame, put = __cordl_internal_set__triggeredThisFrame)) bool _triggeredThisFrame;
 
-  /// @brief Method ForceStopPlaying, addr 0x24f4fe8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ForceStopPlaying, addr 0x2509d5c, size 0x2c, virtual false, abstract: false, final false
   inline void ForceStopPlaying();
 
-  /// @brief Method GetPanForNode, addr 0x24f4d48, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetPanForNode, addr 0x2509abc, size 0xe4, virtual false, abstract: false, final false
   inline float_t GetPanForNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method HandleContinuousAudioCoroutine, addr 0x24f4ea0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleContinuousAudioCoroutine, addr 0x2509c14, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* HandleContinuousAudioCoroutine(::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* onComplete);
 
-  /// @brief Method HandleOneShotPlayEndCoroutine, addr 0x24f4e2c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleOneShotPlayEndCoroutine, addr 0x2509ba0, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* HandleOneShotPlayEndCoroutine(::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* onComplete);
 
-  /// @brief Method Initialize, addr 0x24f5014, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2509d88, size 0x38, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::HapticsAudioClipPlayer* New_ctor();
 
-  /// @brief Method PlayHapticsPreset, addr 0x24f4bb8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method PlayHapticsPreset, addr 0x250992c, size 0x13c, virtual false, abstract: false, final false
   inline void PlayHapticsPreset(::UnityEngine::XR::XRNode onNode, ::Libraries::HM::HMLib::VR::HapticPresetSO* preset,
                                 ::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* onComplete);
 
-  /// @brief Method Reset, addr 0x24f4cf4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2509a68, size 0x54, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method RestartHaptic, addr 0x24f4f4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RestartHaptic, addr 0x2509cc0, size 0x4, virtual false, abstract: false, final false
   inline void RestartHaptic();
 
-  /// @brief Method TriggerContinuousHaptic, addr 0x24f4f14, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method TriggerContinuousHaptic, addr 0x2509c88, size 0x38, virtual false, abstract: false, final false
   inline void TriggerContinuousHaptic();
 
-  /// @brief Method UpdateFadeVolume, addr 0x24f4f78, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method UpdateFadeVolume, addr 0x2509cec, size 0x48, virtual false, abstract: false, final false
   inline void UpdateFadeVolume(float_t timeSinceEnd);
 
-  /// @brief Method <HandleOneShotPlayEndCoroutine>b__11_0, addr 0x24f5054, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <HandleOneShotPlayEndCoroutine>b__11_0, addr 0x2509dc8, size 0x28, virtual false, abstract: false, final false
   inline bool _HandleOneShotPlayEndCoroutine_b__11_0();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -460,7 +460,7 @@ public:
 
   constexpr void __cordl_internal_set__triggeredThisFrame(bool value);
 
-  /// @brief Method .ctor, addr 0x24f504c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2509dc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -33,13 +33,13 @@ public:
   static __declspec(property(get = getStaticF_pool,
                              put = setStaticF_pool))::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>* pool;
 
-  /// @brief Method Copy, addr 0x3541b3c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x35589c0, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Copy(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);
 
-  /// @brief Method Get, addr 0x3541be8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3558a6c, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Get(int32_t initialCapacity);
 
-  /// @brief Method Release, addr 0x3541cc8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x3558b4c, size 0xb4, virtual false, abstract: false, final false
   static inline void Release(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>* getStaticF_pool();

@@ -25,16 +25,16 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
 
-  /// @brief Method Dispose, addr 0x362d5ec, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3644470, size 0x94, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Release, addr 0x362efe4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x3645e68, size 0x3c, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method ValidateCertificate, addr 0x362f020, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x3645ea4, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateCertificate(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateData);
 
-  /// @brief Method ValidateCertificateNative, addr 0x362f028, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificateNative, addr 0x3645eac, size 0xc, virtual false, abstract: false, final false
   inline bool ValidateCertificateNative(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateData);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;

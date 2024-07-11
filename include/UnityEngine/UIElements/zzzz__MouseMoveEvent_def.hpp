@@ -22,18 +22,18 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE MouseMoveEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseMoveEvent*> {
 public:
   // Declarations
-  /// @brief Method GetPooled, addr 0x35cfddc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x35e5c60, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseMoveEvent* GetPooled(::UnityEngine::UIElements::PointerMoveEvent* pointerEvent);
 
-  /// @brief Method Init, addr 0x35d164c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x35e74d0, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x35d16a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x35e7524, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseMoveEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35d16ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e7530, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

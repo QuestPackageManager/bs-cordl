@@ -105,25 +105,25 @@ public:
 
   constexpr void __cordl_internal_set__specialScoreColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x2750100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2765a88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_playerName, addr 0x274ff04, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_playerName, addr 0x276588c, size 0x24, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
-  /// @brief Method set_rank, addr 0x274febc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_rank, addr 0x2765844, size 0x48, virtual false, abstract: false, final false
   inline void set_rank(int32_t value);
 
-  /// @brief Method set_score, addr 0x274ff28, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_score, addr 0x27658b0, size 0xa0, virtual false, abstract: false, final false
   inline void set_score(int32_t value);
 
-  /// @brief Method set_showFullCombo, addr 0x274ffe8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showFullCombo, addr 0x2765970, size 0x20, virtual false, abstract: false, final false
   inline void set_showFullCombo(bool value);
 
-  /// @brief Method set_showSeparator, addr 0x274ffc8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showSeparator, addr 0x2765950, size 0x20, virtual false, abstract: false, final false
   inline void set_showSeparator(bool value);
 
-  /// @brief Method set_specialScore, addr 0x2750008, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_specialScore, addr 0x2765990, size 0xf8, virtual false, abstract: false, final false
   inline void set_specialScore(bool value);
 
 protected:

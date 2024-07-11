@@ -39,7 +39,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
-  /// @brief Method Org.BouncyCastle.Crypto.Operators.WrapperProvider.CreateWrapper, addr 0x118e808, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Org.BouncyCastle.Crypto.Operators.WrapperProvider.CreateWrapper, addr 0x119ab00, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* Org_BouncyCastle_Crypto_Operators_WrapperProvider_CreateWrapper(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_digestOid();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_digestOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x118e0f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119a3e8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Operators::WrapperProvider"

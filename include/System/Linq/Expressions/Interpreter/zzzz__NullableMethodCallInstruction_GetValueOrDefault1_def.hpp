@@ -27,13 +27,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__GetValueOrDefault1* New_ctor();
 
-  /// @brief Method Run, addr 0x2c6b0d8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c7eaec, size 0x54, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c6af24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c7e938, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ConsumedStack, addr 0x2c6b0d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2c7eae4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
 protected:

@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set__burstSliderNoteController(::UnityW<::GlobalNamespace::BurstSliderGameNoteController> value);
 
-  /// @brief Method .ctor, addr 0x26340e8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2648a08, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameNoteController, addr 0x26340e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_gameNoteController, addr 0x2648a00, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BurstSliderGameNoteController> get_gameNoteController();
 
 protected:

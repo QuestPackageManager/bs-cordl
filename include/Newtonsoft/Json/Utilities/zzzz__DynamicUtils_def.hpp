@@ -62,19 +62,19 @@ public:
   /// @brief Field _setMemberCall, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__setMemberCall, put = setStaticF__setMemberCall))::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* _setMemberCall;
 
-  /// @brief Method CreateMemberCalls, addr 0x2a2d248, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method CreateMemberCalls, addr 0x2a41c5c, size 0x4dc, virtual false, abstract: false, final false
   static inline void CreateMemberCalls();
 
-  /// @brief Method CreateSharpArgumentInfoArray, addr 0x2a2cf70, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method CreateSharpArgumentInfoArray, addr 0x2a41984, size 0x2d8, virtual false, abstract: false, final false
   static inline ::System::Object* CreateSharpArgumentInfoArray(::ArrayW<int32_t, ::Array<int32_t>*> values);
 
-  /// @brief Method GetMember, addr 0x2a2d724, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method GetMember, addr 0x2a42138, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSiteBinder* GetMember(::StringW name, ::System::Type* context);
 
-  /// @brief Method Init, addr 0x2a2cd88, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2a4179c, size 0x1e8, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method SetMember, addr 0x2a2d8f8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SetMember, addr 0x2a4230c, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSiteBinder* SetMember(::StringW name, ::System::Type* context);
 
   static inline ::System::Object* getStaticF__getCSharpArgumentInfoArray();
@@ -146,7 +146,7 @@ public:
   // Declarations
   using BinderWrapper = ::Newtonsoft::Json::Utilities::__DynamicUtils__BinderWrapper;
 
-  /// @brief Method GetDynamicMemberNames, addr 0x2a2cca0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetDynamicMemberNames, addr 0x2a416b4, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider);
 
 protected:

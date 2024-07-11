@@ -31,13 +31,13 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_token* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f26124, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f32b38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x2f2d9c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x2f3a3d4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_TypeCode, addr 0x2f2d9b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2f3a3cc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:

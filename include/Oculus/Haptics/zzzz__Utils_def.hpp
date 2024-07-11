@@ -27,10 +27,10 @@ namespace Oculus::Haptics {
 class CORDL_TYPE Utils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ControllerToFfiController, addr 0x2abf414, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ControllerToFfiController, addr 0x2ad2e28, size 0x8c, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::__Ffi__Controller ControllerToFfiController(::Oculus::Haptics::Controller controller);
 
-  /// @brief Method Map, addr 0x2abfbc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Map, addr 0x2ad35d4, size 0x28, virtual false, abstract: false, final false
   static inline float_t Map(int32_t input, int32_t inMin, int32_t inMax, int32_t outMin, int32_t outMax);
 
 protected:

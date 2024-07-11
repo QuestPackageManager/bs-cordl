@@ -23,7 +23,7 @@ namespace UnityEngine {
 class CORDL_TYPE SubsystemBindings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DestroySubsystem, addr 0x349a004, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DestroySubsystem, addr 0x34ace88, size 0x3c, virtual false, abstract: false, final false
   static inline void DestroySubsystem(::System::IntPtr nativePtr);
 
 protected:

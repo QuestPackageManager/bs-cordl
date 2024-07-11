@@ -43,18 +43,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE __ImageEffectController__RenderImageCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2508f18, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x251d1cc, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2508f40, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x251d1f4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2508f04, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x251d1b8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   static inline ::GlobalNamespace::__ImageEffectController__RenderImageCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2508dd4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251d088, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -93,10 +93,10 @@ public:
 
   static inline ::GlobalNamespace::ImageEffectController* New_ctor();
 
-  /// @brief Method OnRenderImage, addr 0x2508db0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnRenderImage, addr 0x251d064, size 0x1c, virtual false, abstract: false, final false
   inline void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method SetCallback, addr 0x2508da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCallback, addr 0x251d05c, size 0x8, virtual false, abstract: false, final false
   inline void SetCallback(::GlobalNamespace::__ImageEffectController__RenderImageCallback* renderImageCallback);
 
   constexpr ::GlobalNamespace::__ImageEffectController__RenderImageCallback*& __cordl_internal_get__renderImageCallback();
@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set__renderImageCallback(::GlobalNamespace::__ImageEffectController__RenderImageCallback* value);
 
-  /// @brief Method .ctor, addr 0x2508dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251d080, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

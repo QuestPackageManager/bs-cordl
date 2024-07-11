@@ -47,10 +47,10 @@ public:
 
   static inline ::GlobalNamespace::__TestAnalyticsModel____c* New_ctor();
 
-  /// @brief Method <LogEvent>b__3_0, addr 0x103cefc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <LogEvent>b__3_0, addr 0x1044990, size 0x8c, virtual false, abstract: false, final false
   inline ::StringW _LogEvent_b__3_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp);
 
-  /// @brief Method .ctor, addr 0x103cef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1044988, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__TestAnalyticsModel____c* getStaticF___9();
@@ -96,30 +96,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAnalyticsModel"
   constexpr operator ::GlobalNamespace::IAnalyticsModel*() noexcept;
 
-  /// @brief Method LogClick, addr 0x103cbe8, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method LogClick, addr 0x104467c, size 0xe0, virtual true, abstract: false, final true
   inline void LogClick(::StringW clickType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
 
-  /// @brief Method LogEditAvatarEvent, addr 0x103cb08, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method LogEditAvatarEvent, addr 0x104459c, size 0xe0, virtual true, abstract: false, final true
   inline void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* avatarEventData);
 
-  /// @brief Method LogEvent, addr 0x103c97c, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method LogEvent, addr 0x1044410, size 0x18c, virtual true, abstract: false, final true
   inline void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogExposure, addr 0x103cda8, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method LogExposure, addr 0x104483c, size 0xe0, virtual true, abstract: false, final true
   inline void LogExposure(::StringW exposureType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* exposureData);
 
-  /// @brief Method LogImpression, addr 0x103ccc8, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method LogImpression, addr 0x104475c, size 0xe0, virtual true, abstract: false, final true
   inline void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* impressionData);
 
   static inline ::GlobalNamespace::TestAnalyticsModel* New_ctor();
 
-  /// @brief Method OpenDataPrivacyPage, addr 0x103c978, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OpenDataPrivacyPage, addr 0x104440c, size 0x4, virtual true, abstract: false, final true
   inline void OpenDataPrivacyPage();
 
-  /// @brief Method .ctor, addr 0x103ce88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x104491c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0x103c970, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0x1044404, size 0x8, virtual true, abstract: false, final true
   inline bool get_supportsOpenDataPrivacyPage();
 
   /// @brief Convert to "::GlobalNamespace::IAnalyticsModel"

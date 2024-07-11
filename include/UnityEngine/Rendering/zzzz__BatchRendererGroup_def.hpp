@@ -48,12 +48,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE __BatchRendererGroup__OnPerformCulling : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x345a72c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x346a5b0, size 0x5c, virtual true, abstract: false, final false
   inline ::Unity::Jobs::JobHandle Invoke(::UnityEngine::Rendering::BatchRendererGroup* rendererGroup, ::UnityEngine::Rendering::BatchCullingContext cullingContext);
 
   static inline ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x345a5fc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346a480, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -92,7 +92,7 @@ public:
   /// @brief Field m_PerformCulling, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PerformCulling, put = __cordl_internal_set_m_PerformCulling))::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* m_PerformCulling;
 
-  /// @brief Method InvokeOnPerformCulling, addr 0x345a3dc, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnPerformCulling, addr 0x346a260, size 0x220, virtual false, abstract: false, final false
   static inline void InvokeOnPerformCulling(::UnityEngine::Rendering::BatchRendererGroup* group, ByRef<::UnityEngine::Rendering::BatchRendererCullingOutput> context,
                                             ByRef<::UnityEngine::Rendering::LODParameters> lodParameters);
 

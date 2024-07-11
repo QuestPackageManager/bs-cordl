@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::SingleResp::*)(::Org::BouncyCastle::Asn1::Ocsp::SingleResponse*)>(
     &::Org::BouncyCastle::Ocsp::SingleResp::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x13060ec;
+  constexpr static std::size_t addrs = 0x130f3e4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Ocsp::CertificateID* (::Org::BouncyCastle::Ocsp::SingleResp::*)()>(
     &::Org::BouncyCastle::Ocsp::SingleResp::GetCertID)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x130f0ac;
+  constexpr static std::size_t addrs = 0x13183a4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::SingleResp*>::get(), "GetCertID",
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Ocsp::SingleResp::*)()>(
     &::Org::BouncyCastle::Ocsp::SingleResp::GetCertStatus)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x130f118;
+  constexpr static std::size_t addrs = 0x1318410;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::SingleResp*>::get(), "GetCertStatus",
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::Org::BouncyCastle::Ocsp::SingleResp::*)()>(
     &::Org::BouncyCastle::Ocsp::SingleResp::get_ThisUpdate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x130f238;
+  constexpr static std::size_t addrs = 0x1318530;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::SingleResp*>::get(), "get_ThisUpdate",
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Date::DateTimeObject* (::Org::BouncyCastle::Ocsp::SingleResp::*)()>(
     &::Org::BouncyCastle::Ocsp::SingleResp::get_NextUpdate)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x130f25c;
+  constexpr static std::size_t addrs = 0x1318554;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::SingleResp*>::get(), "get_NextUpdate",
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (::Org::BouncyCastle::Ocsp::SingleResp::*)()>(
     &::Org::BouncyCastle::Ocsp::SingleResp::get_SingleExtensions)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x130f2e8;
+  constexpr static std::size_t addrs = 0x13185e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::SingleResp*>::get(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (::Org::BouncyCastle::Ocsp::SingleResp::*)()>(
     &::Org::BouncyCastle::Ocsp::SingleResp::GetX509Extensions)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x130f304;
+  constexpr static std::size_t addrs = 0x13185fc;
 
   inline static const ::MethodInfo* methodInfo() {
 

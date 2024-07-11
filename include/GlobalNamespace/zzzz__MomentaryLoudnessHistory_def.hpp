@@ -31,10 +31,10 @@ public:
   /// @brief Field _rmsValues, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__rmsValues, put = __cordl_internal_set__rmsValues))::ArrayW<float_t, ::Array<float_t>*> _rmsValues;
 
-  /// @brief Method Add, addr 0x261cd70, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2631050, size 0x50, virtual false, abstract: false, final false
   inline void Add(float_t momentaryLoudness);
 
-  /// @brief Method GetAverageLoudness, addr 0x261cdf4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetAverageLoudness, addr 0x26310d4, size 0x80, virtual false, abstract: false, final false
   inline float_t GetAverageLoudness();
 
   static inline ::GlobalNamespace::MomentaryLoudnessHistory* New_ctor(int32_t length);
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__rmsValues(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x261cf44, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2631224, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t length);
 
 protected:

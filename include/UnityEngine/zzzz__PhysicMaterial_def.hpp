@@ -47,77 +47,77 @@ public:
 
   __declspec(property(get = get_staticFriction2, put = set_staticFriction2)) float_t staticFriction2;
 
-  /// @brief Method Internal_CreateDynamicsMaterial, addr 0x348d3dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateDynamicsMaterial, addr 0x34a0260, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_CreateDynamicsMaterial(::UnityEngine::PhysicMaterial* mat, ::StringW name);
 
   static inline ::UnityEngine::PhysicMaterial* New_ctor();
 
   static inline ::UnityEngine::PhysicMaterial* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x348d340, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34a01c4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x348d420, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34a02a4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_bounceCombine, addr 0x348d640, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bounceCombine, addr 0x34a04c4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::PhysicMaterialCombine get_bounceCombine();
 
-  /// @brief Method get_bounciness, addr 0x348d1c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bounciness, addr 0x34a0048, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_bounciness();
 
-  /// @brief Method get_bouncyness, addr 0x348d188, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bouncyness, addr 0x34a000c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_bouncyness();
 
-  /// @brief Method get_dynamicFriction, addr 0x348d4b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_dynamicFriction, addr 0x34a0334, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_dynamicFriction();
 
-  /// @brief Method get_dynamicFriction2, addr 0x348d2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dynamicFriction2, addr 0x34a0164, size 0x8, virtual false, abstract: false, final false
   inline float_t get_dynamicFriction2();
 
-  /// @brief Method get_frictionCombine, addr 0x348d5c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_frictionCombine, addr 0x34a0444, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::PhysicMaterialCombine get_frictionCombine();
 
-  /// @brief Method get_frictionDirection, addr 0x348d2f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_frictionDirection, addr 0x34a017c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_frictionDirection();
 
-  /// @brief Method get_frictionDirection2, addr 0x348d298, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_frictionDirection2, addr 0x34a011c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_frictionDirection2();
 
-  /// @brief Method get_staticFriction, addr 0x348d538, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_staticFriction, addr 0x34a03bc, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_staticFriction();
 
-  /// @brief Method get_staticFriction2, addr 0x348d2ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_staticFriction2, addr 0x34a0170, size 0x8, virtual false, abstract: false, final false
   inline float_t get_staticFriction2();
 
-  /// @brief Method set_bounceCombine, addr 0x348d67c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bounceCombine, addr 0x34a0500, size 0x44, virtual false, abstract: false, final false
   inline void set_bounceCombine(::UnityEngine::PhysicMaterialCombine value);
 
-  /// @brief Method set_bounciness, addr 0x348d24c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_bounciness, addr 0x34a00d0, size 0x4c, virtual false, abstract: false, final false
   inline void set_bounciness(float_t value);
 
-  /// @brief Method set_bouncyness, addr 0x348d200, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_bouncyness, addr 0x34a0084, size 0x4c, virtual false, abstract: false, final false
   inline void set_bouncyness(float_t value);
 
-  /// @brief Method set_dynamicFriction, addr 0x348d4ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_dynamicFriction, addr 0x34a0370, size 0x4c, virtual false, abstract: false, final false
   inline void set_dynamicFriction(float_t value);
 
-  /// @brief Method set_dynamicFriction2, addr 0x348d2e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_dynamicFriction2, addr 0x34a016c, size 0x4, virtual false, abstract: false, final false
   inline void set_dynamicFriction2(float_t value);
 
-  /// @brief Method set_frictionCombine, addr 0x348d5fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_frictionCombine, addr 0x34a0480, size 0x44, virtual false, abstract: false, final false
   inline void set_frictionCombine(::UnityEngine::PhysicMaterialCombine value);
 
-  /// @brief Method set_frictionDirection, addr 0x348d33c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_frictionDirection, addr 0x34a01c0, size 0x4, virtual false, abstract: false, final false
   inline void set_frictionDirection(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_frictionDirection2, addr 0x348d2dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_frictionDirection2, addr 0x34a0160, size 0x4, virtual false, abstract: false, final false
   inline void set_frictionDirection2(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_staticFriction, addr 0x348d574, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_staticFriction, addr 0x34a03f8, size 0x4c, virtual false, abstract: false, final false
   inline void set_staticFriction(float_t value);
 
-  /// @brief Method set_staticFriction2, addr 0x348d2f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_staticFriction2, addr 0x34a0178, size 0x4, virtual false, abstract: false, final false
   inline void set_staticFriction2(float_t value);
 
 protected:

@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set_t(float_t value);
 
-  /// @brief Method .ctor, addr 0x14f9ccc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1504e7c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventTranslationValue, ::BeatmapSaveDataCommon::EaseType easeType, float_t translation);
 
-  /// @brief Method get_beat, addr 0x14f9ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x1504e54, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_easeType, addr 0x14f9cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x1504e6c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_easeType();
 
-  /// @brief Method get_translation, addr 0x14f9cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translation, addr 0x1504e74, size 0x8, virtual false, abstract: false, final false
   inline float_t get_translation();
 
-  /// @brief Method get_usePreviousEventTranslationValue, addr 0x14f9cac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventTranslationValue, addr 0x1504e5c, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventTranslationValue();
 
 protected:

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CRC::*)()>(&::Org::BouncyCastle::Apache::Bzip2::CRC::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x13f1978;
+  constexpr static std::size_t addrs = 0x13fac70;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CRC*>::get(), ".ctor",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CRC::*)()>(&::Org::BouncyCastle::Apache::Bzip2::CRC::InitialiseCRC)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x13f2e9c;
+  constexpr static std::size_t addrs = 0x13fc194;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CRC*>::get(), "InitialiseCRC",
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Apache::Bzip2::CRC::*)()>(&::Org::BouncyCastle::Apache::Bzip2::CRC::GetFinalCRC)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x13f2ed4;
+  constexpr static std::size_t addrs = 0x13fc1cc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CRC*>::get(), "GetFinalCRC",
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Apache::Bzip2::CRC::*)()>(&::Org::BouncyCastle::Apache::Bzip2::CRC::GetGlobalCRC)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13f39a8;
+  constexpr static std::size_t addrs = 0x13fcca0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CRC*>::get(), "GetGlobalCRC",
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CRC::*)(int32_t)>(&::Org::BouncyCastle::Apache::Bzip2::CRC::SetGlobalCRC)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13f39b0;
+  constexpr static std::size_t addrs = 0x13fcca8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CRC::*)(int32_t)>(&::Org::BouncyCastle::Apache::Bzip2::CRC::UpdateCRC)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x13f3820;
+  constexpr static std::size_t addrs = 0x13fcb18;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_DidCancel(bool value);
 
-  /// @brief Method .ctor, addr 0x2afcc44, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b10658, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:

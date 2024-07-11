@@ -30,34 +30,34 @@ public:
 
   __declspec(property(get = get_stiffness, put = set_stiffness)) float_t stiffness;
 
-  /// @brief Method get_asymptoteSlip, addr 0x3497814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_asymptoteSlip, addr 0x34aa698, size 0x8, virtual false, abstract: false, final false
   inline float_t get_asymptoteSlip();
 
-  /// @brief Method get_asymptoteValue, addr 0x3497824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_asymptoteValue, addr 0x34aa6a8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_asymptoteValue();
 
-  /// @brief Method get_extremumSlip, addr 0x34977f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_extremumSlip, addr 0x34aa678, size 0x8, virtual false, abstract: false, final false
   inline float_t get_extremumSlip();
 
-  /// @brief Method get_extremumValue, addr 0x3497804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_extremumValue, addr 0x34aa688, size 0x8, virtual false, abstract: false, final false
   inline float_t get_extremumValue();
 
-  /// @brief Method get_stiffness, addr 0x3497834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stiffness, addr 0x34aa6b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_stiffness();
 
-  /// @brief Method set_asymptoteSlip, addr 0x349781c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_asymptoteSlip, addr 0x34aa6a0, size 0x8, virtual false, abstract: false, final false
   inline void set_asymptoteSlip(float_t value);
 
-  /// @brief Method set_asymptoteValue, addr 0x349782c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_asymptoteValue, addr 0x34aa6b0, size 0x8, virtual false, abstract: false, final false
   inline void set_asymptoteValue(float_t value);
 
-  /// @brief Method set_extremumSlip, addr 0x34977fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_extremumSlip, addr 0x34aa680, size 0x8, virtual false, abstract: false, final false
   inline void set_extremumSlip(float_t value);
 
-  /// @brief Method set_extremumValue, addr 0x349780c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_extremumValue, addr 0x34aa690, size 0x8, virtual false, abstract: false, final false
   inline void set_extremumValue(float_t value);
 
-  /// @brief Method set_stiffness, addr 0x349783c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stiffness, addr 0x34aa6c0, size 0x8, virtual false, abstract: false, final false
   inline void set_stiffness(float_t value);
 
   // Ctor Parameters []

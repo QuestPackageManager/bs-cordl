@@ -35,10 +35,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Equals, addr 0x3631cb8, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3648b3c, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Experimental::Video::VideoClipPlayable other);
 
-  /// @brief Method GetHandle, addr 0x3631cac, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x3648b30, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>"

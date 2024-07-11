@@ -64,16 +64,16 @@ public:
 
   constexpr void __cordl_internal_set_m_RequestCache(::System::Net::Cache::RequestCache* value);
 
-  /// @brief Method .ctor, addr 0x3044c3c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3054650, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Cache::RequestCache* requestCache, ::System::Net::Cache::RequestCacheValidator* cacheValidator, ::System::Net::Cache::RequestCachePolicy* policy);
 
-  /// @brief Method get_Cache, addr 0x3044cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x30546cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCache* get_Cache();
 
-  /// @brief Method get_Policy, addr 0x3044cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Policy, addr 0x30546dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCachePolicy* get_Policy();
 
-  /// @brief Method get_Validator, addr 0x3044cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Validator, addr 0x30546d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCacheValidator* get_Validator();
 
 protected:

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessage::ParseBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1475f7c;
+  constexpr static std::size_t addrs = 0x1481274;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crmf::CertificateRequestMessage::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessage::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x1475f84;
+  constexpr static std::size_t addrs = 0x148127c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crmf::CertificateRequestMessage::*)(::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*)>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessage::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x1475fa8;
+  constexpr static std::size_t addrs = 0x14812a0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* (::Org::BouncyCastle::Crmf::CertificateRequestMessage::*)()>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessage::ToAsn1Structure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1475ffc;
+  constexpr static std::size_t addrs = 0x14812f4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::CertificateRequestMessage*>::get(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::CertTemplate* (::Org::BouncyCastle::Crmf::CertificateRequestMessage::*)()>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessage::GetCertTemplate)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x1476004;
+  constexpr static std::size_t addrs = 0x14812fc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::CertificateRequestMessage*>::get(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crmf::CertificateRequestMessage::*)()>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessage::get_HasControls)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1476034;
+  constexpr static std::size_t addrs = 0x148132c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::CertificateRequestMessage*>::get(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crmf::CertificateRequestMessage::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessage::HasControl)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x1476044;
+  constexpr static std::size_t addrs = 0x148133c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::IControl* (
     ::Org::BouncyCastle::Crmf::CertificateRequestMessage::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Crmf::CertificateRequestMessage::GetControl)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x147610c;
+  constexpr static std::size_t addrs = 0x1481404;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue* (
     ::Org::BouncyCastle::Crmf::CertificateRequestMessage::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Crmf::CertificateRequestMessage::FindControl)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x147605c;
+  constexpr static std::size_t addrs = 0x1481354;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crmf::CertificateRequestMessage::*)()>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessage::get_HasProofOfPossession)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x1476334;
+  constexpr static std::size_t addrs = 0x148162c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::CertificateRequestMessage*>::get(),
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crmf::CertificateRequestMessage::*)()>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessage::get_ProofOfPossession)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x1476360;
+  constexpr static std::size_t addrs = 0x1481658;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::CertificateRequestMessage*>::get(),
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crmf::CertificateRequestMessage::*)()>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessage::get_HasSigningKeyProofOfPossessionWithPkMac)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x1476390;
+  constexpr static std::size_t addrs = 0x1481688;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crmf::CertificateRequestMessage::*)(
     ::Org::BouncyCastle::Crypto::IVerifierFactoryProvider*)>(&::Org::BouncyCastle::Crmf::CertificateRequestMessage::IsValidSigningKeyPop)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x1476470;
+  constexpr static std::size_t addrs = 0x1481768;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crmf::CertificateRequestMessage::*)(
     ::Org::BouncyCastle::Crypto::IVerifierFactoryProvider*, ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey*)>(&::Org::BouncyCastle::Crmf::CertificateRequestMessage::verifySignature)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x14765e4;
+  constexpr static std::size_t addrs = 0x14818dc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crmf::CertificateRequestMessage::*)()>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessage::GetEncoded)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x1476a94;
+  constexpr static std::size_t addrs = 0x1481d8c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::CertificateRequestMessage*>::get(),

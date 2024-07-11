@@ -51,10 +51,10 @@ public:
   /// @brief Field s_encoderFactory, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_encoderFactory, put = setStaticF_s_encoderFactory))::System::Net::Mime::EncodedStreamFactory* s_encoderFactory;
 
-  /// @brief Method Equals, addr 0x2f52088, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2f5ea9c, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x2f520ec, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2f5eb00, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Mail::MailAddress* New_ctor(::StringW address);
@@ -63,7 +63,7 @@ public:
 
   static inline ::System::Net::Mail::MailAddress* New_ctor(::StringW displayName, ::StringW userName, ::StringW domain);
 
-  /// @brief Method ToString, addr 0x2f51fe4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2f5e9f8, size 0xa4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__displayName() const;
@@ -90,24 +90,24 @@ public:
 
   constexpr void __cordl_internal_set__userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f51cc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5e6d4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW address);
 
-  /// @brief Method .ctor, addr 0x2f51ccc, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5e6e0, size 0x24c, virtual false, abstract: false, final false
   inline void _ctor(::StringW address, ::StringW displayName, ::System::Text::Encoding* displayNameEncoding);
 
-  /// @brief Method .ctor, addr 0x2f513ac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5ddc0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW userName, ::StringW domain);
 
   static inline ::System::Net::Mime::EncodedStreamFactory* getStaticF_s_encoderFactory();
 
-  /// @brief Method get_Address, addr 0x2f51f20, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Address, addr 0x2f5e934, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW get_Address();
 
-  /// @brief Method get_DisplayName, addr 0x2f51f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x2f5e92c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_SmtpAddress, addr 0x2f51f6c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_SmtpAddress, addr 0x2f5e980, size 0x78, virtual false, abstract: false, final false
   inline ::StringW get_SmtpAddress();
 
   static inline void setStaticF_s_encoderFactory(::System::Net::Mime::EncodedStreamFactory* value);

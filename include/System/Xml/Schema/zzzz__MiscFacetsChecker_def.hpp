@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::MiscFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dd42b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de6cc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

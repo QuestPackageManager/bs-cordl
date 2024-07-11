@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::*)()>(
     &::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::get_flyingControllerEnabled)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26920d8;
+  constexpr static std::size_t addrs = 0x26a5e60;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::*)(bool)>(
     &::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::set_flyingControllerEnabled)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26920f4;
+  constexpr static std::size_t addrs = 0x26a5e7c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::*)(
     ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult)>(&::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::InstallDependencies)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2692114;
+  constexpr static std::size_t addrs = 0x26a5e9c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::*)()>(
     &::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26921c4;
+  constexpr static std::size_t addrs = 0x26a5f4c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

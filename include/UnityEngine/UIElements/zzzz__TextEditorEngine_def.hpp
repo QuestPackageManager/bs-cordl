@@ -44,12 +44,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE __TextEditorEngine__OnDetectFocusChangeFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x35b3878, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x35ca6fc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x35b37bc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ca640, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -80,12 +80,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE __TextEditorEngine__OnIndexChangeFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x35b3948, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x35ca7cc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x35b388c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ca710, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -133,13 +133,13 @@ public:
   static inline ::UnityEngine::UIElements::TextEditorEngine* New_ctor(::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction* detectFocusChange,
                                                                       ::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction* indexChangeFunction);
 
-  /// @brief Method OnCursorIndexChange, addr 0x35b3774, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnCursorIndexChange, addr 0x35ca5f8, size 0x24, virtual true, abstract: false, final false
   inline void OnCursorIndexChange();
 
-  /// @brief Method OnDetectFocusChange, addr 0x35b3750, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnDetectFocusChange, addr 0x35ca5d4, size 0x24, virtual true, abstract: false, final false
   inline void OnDetectFocusChange();
 
-  /// @brief Method OnSelectIndexChange, addr 0x35b3798, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnSelectIndexChange, addr 0x35ca61c, size 0x24, virtual true, abstract: false, final false
   inline void OnSelectIndexChange();
 
   constexpr ::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction*& __cordl_internal_get_m_DetectFocusChangeFunction();
@@ -154,11 +154,11 @@ public:
 
   constexpr void __cordl_internal_set_m_IndexChangeFunction(::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction* value);
 
-  /// @brief Method .ctor, addr 0x35b369c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ca520, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction* detectFocusChange,
                     ::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction* indexChangeFunction);
 
-  /// @brief Method get_localPosition, addr 0x35b36c8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_localPosition, addr 0x35ca54c, size 0x88, virtual true, abstract: false, final false
   inline ::UnityEngine::Rect get_localPosition();
 
 protected:

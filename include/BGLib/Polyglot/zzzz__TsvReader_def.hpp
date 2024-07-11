@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::BGLib::Polyglot::TsvReader* New_ctor();
 
-  /// @brief Method Parse, addr 0x108327c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x108e574, size 0x1ac, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
 
-  /// @brief Method .ctor, addr 0x1083428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x108e720, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::InterceptCallback::*)(::System::Object*, ::System::IntPtr)>(&::ENet::InterceptCallback::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x25ec048;
+  constexpr static std::size_t addrs = 0x25ff2fc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::ENet::InterceptCallback::*)(ByRef<::ENet::Event>, ByRef<::ENet::Address>, ::System::IntPtr, int32_t)>(
     &::ENet::InterceptCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x25ec120;
+  constexpr static std::size_t addrs = 0x25ff3d4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::ENet::InterceptCallback::*)(ByRef<::ENet::Event>, ByRef<::ENet::Address>, ::System::IntPtr, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::ENet::InterceptCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x25ec134;
+  constexpr static std::size_t addrs = 0x25ff3e8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::ENet::InterceptCallback::*)(ByRef<::ENet::Event>, ByRef<::ENet::Address>, ::System::IAsyncResult*)>(
     &::ENet::InterceptCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x25ec250;
+  constexpr static std::size_t addrs = 0x25ff504;
 
   inline static const ::MethodInfo* methodInfo() {
 

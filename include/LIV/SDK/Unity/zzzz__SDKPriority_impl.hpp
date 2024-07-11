@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKPriority (*)()>(&::LIV::SDK::Unity::SDKPriority::get_empty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2611bb8;
+  constexpr static std::size_t addrs = 0x2625e6c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKPriority>::get(), "get_empty",
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LIV::SDK::Unity::SDKPriority::*)()>(&::LIV::SDK::Unity::SDKPriority::ToString)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x2611bc4;
+  constexpr static std::size_t addrs = 0x2625e78;
 
   inline static const ::MethodInfo* methodInfo() {
 

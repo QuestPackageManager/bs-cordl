@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__UnhandledExceptionHandler____c::*)()>(
     &::UnityEngine::__UnhandledExceptionHandler____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x343a988;
+  constexpr static std::size_t addrs = 0x344980c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get(), ".ctor",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__UnhandledExceptionHandler____c::*)(::System::Object*, ::System::UnhandledExceptionEventArgs*)>(
     &::UnityEngine::__UnhandledExceptionHandler____c::_RegisterUECatcher_b__0_0)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x343a990;
+  constexpr static std::size_t addrs = 0x3449814;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UnhandledExceptionHandler::RegisterUECatcher)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x343a82c;
+  constexpr static std::size_t addrs = 0x34496b0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnhandledExceptionHandler*>::get(),

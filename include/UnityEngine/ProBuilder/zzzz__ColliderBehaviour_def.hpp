@@ -25,18 +25,18 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE ColliderBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x329cb70, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x32ad9f4, size 0x10c, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::UnityEngine::ProBuilder::ColliderBehaviour* New_ctor();
 
-  /// @brief Method OnEnterPlayMode, addr 0x329cd60, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method OnEnterPlayMode, addr 0x32adbe4, size 0xb8, virtual true, abstract: false, final false
   inline void OnEnterPlayMode();
 
-  /// @brief Method OnSceneLoaded, addr 0x329ce18, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method OnSceneLoaded, addr 0x32adc9c, size 0xb8, virtual true, abstract: false, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method .ctor, addr 0x329ced0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32add54, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set_lobbySecret(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14a279c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14abe54, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW lobbyCode);
 
-  /// @brief Method .ctor, addr 0x14a2770, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14abe28, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW lobbySecret, ::StringW lobbyCode);
 
 protected:

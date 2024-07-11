@@ -107,16 +107,16 @@ public:
 
   constexpr void __cordl_internal_set__value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x14a2e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ac51c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eventType, addr 0x14a2e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventType, addr 0x14ac504, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BasicBeatmapEventType get_eventType();
 
-  /// @brief Method get_floatValue, addr 0x14a2e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatValue, addr 0x14ac514, size 0x8, virtual false, abstract: false, final false
   inline float_t get_floatValue();
 
-  /// @brief Method get_value, addr 0x14a2e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x14ac50c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
 protected:
@@ -198,16 +198,16 @@ public:
 
   constexpr void __cordl_internal_set__useDistribution(bool value);
 
-  /// @brief Method .ctor, addr 0x14a2e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ac53c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_distributionParam, addr 0x14a2e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distributionParam, addr 0x14ac52c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distributionParam();
 
-  /// @brief Method get_distributionParamType, addr 0x14a2e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distributionParamType, addr 0x14ac534, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType get_distributionParamType();
 
-  /// @brief Method get_useDistribution, addr 0x14a2e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useDistribution, addr 0x14ac524, size 0x8, virtual false, abstract: false, final false
   inline bool get_useDistribution();
 
 protected:
@@ -321,25 +321,25 @@ public:
 
   constexpr void __cordl_internal_set__useFiltering(bool value);
 
-  /// @brief Method .ctor, addr 0x14a2ebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ac574, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alsoAffectType, addr 0x14a2ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_alsoAffectType, addr 0x14ac55c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType get_alsoAffectType();
 
-  /// @brief Method get_chunks, addr 0x14a2eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_chunks, addr 0x14ac56c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_chunks();
 
-  /// @brief Method get_limit, addr 0x14a2e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_limit, addr 0x14ac554, size 0x8, virtual false, abstract: false, final false
   inline float_t get_limit();
 
-  /// @brief Method get_randomType, addr 0x14a2e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_randomType, addr 0x14ac54c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__IndexFilter__IndexFilterRandomType get_randomType();
 
-  /// @brief Method get_seed, addr 0x14a2eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_seed, addr 0x14ac564, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_seed();
 
-  /// @brief Method get_useFiltering, addr 0x14a2e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useFiltering, addr 0x14ac544, size 0x8, virtual false, abstract: false, final false
   inline bool get_useFiltering();
 
 protected:
@@ -655,73 +655,73 @@ public:
 
   constexpr void __cordl_internal_set__translationZDistribution(::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* value);
 
-  /// @brief Method .ctor, addr 0x14a2f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ac62c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_brightness, addr 0x14a2ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_brightness, addr 0x14ac58c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_brightness();
 
-  /// @brief Method get_brightnessDistribution, addr 0x14a2edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_brightnessDistribution, addr 0x14ac594, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* get_brightnessDistribution();
 
-  /// @brief Method get_brightnessFiltering, addr 0x14a2ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_brightnessFiltering, addr 0x14ac59c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* get_brightnessFiltering();
 
-  /// @brief Method get_environmentColorType, addr 0x14a2ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColorType, addr 0x14ac584, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentColorType get_environmentColorType();
 
-  /// @brief Method get_floatFxDistribution, addr 0x14a2f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatFxDistribution, addr 0x14ac61c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* get_floatFxDistribution();
 
-  /// @brief Method get_floatFxFiltering, addr 0x14a2f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatFxFiltering, addr 0x14ac624, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* get_floatFxFiltering();
 
-  /// @brief Method get_floatFxValue, addr 0x14a2f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatFxValue, addr 0x14ac614, size 0x8, virtual false, abstract: false, final false
   inline float_t get_floatFxValue();
 
-  /// @brief Method get_lightGroup, addr 0x14a2ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroup, addr 0x14ac57c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroup();
 
-  /// @brief Method get_rotationFiltering, addr 0x14a2f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationFiltering, addr 0x14ac5d4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* get_rotationFiltering();
 
-  /// @brief Method get_rotationX, addr 0x14a2eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationX, addr 0x14ac5a4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotationX();
 
-  /// @brief Method get_rotationXDistribution, addr 0x14a2f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationXDistribution, addr 0x14ac5bc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* get_rotationXDistribution();
 
-  /// @brief Method get_rotationY, addr 0x14a2ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationY, addr 0x14ac5ac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotationY();
 
-  /// @brief Method get_rotationYDistribution, addr 0x14a2f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationYDistribution, addr 0x14ac5c4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* get_rotationYDistribution();
 
-  /// @brief Method get_rotationZ, addr 0x14a2efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationZ, addr 0x14ac5b4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotationZ();
 
-  /// @brief Method get_rotationZDistribution, addr 0x14a2f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationZDistribution, addr 0x14ac5cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* get_rotationZDistribution();
 
-  /// @brief Method get_translationFiltering, addr 0x14a2f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationFiltering, addr 0x14ac60c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupFiltering* get_translationFiltering();
 
-  /// @brief Method get_translationX, addr 0x14a2f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationX, addr 0x14ac5dc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_translationX();
 
-  /// @brief Method get_translationXDistribution, addr 0x14a2f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationXDistribution, addr 0x14ac5f4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* get_translationXDistribution();
 
-  /// @brief Method get_translationY, addr 0x14a2f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationY, addr 0x14ac5e4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_translationY();
 
-  /// @brief Method get_translationYDistribution, addr 0x14a2f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationYDistribution, addr 0x14ac5fc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* get_translationYDistribution();
 
-  /// @brief Method get_translationZ, addr 0x14a2f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationZ, addr 0x14ac5ec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_translationZ();
 
-  /// @brief Method get_translationZDistribution, addr 0x14a2f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationZDistribution, addr 0x14ac604, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupDistribution* get_translationZDistribution();
 
 protected:
@@ -908,16 +908,16 @@ public:
   constexpr void
   __cordl_internal_set__lightGroupEvents(::ArrayW<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent*, ::Array<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent*>*> value);
 
-  /// @brief Method .ctor, addr 0x14a2e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ac4fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_basicBeatmapEvents, addr 0x14a2dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_basicBeatmapEvents, addr 0x14ac4b4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent*, ::Array<::GlobalNamespace::__DefaultEnvironmentEvents__BasicBeatmapEvent*>*> get_basicBeatmapEvents();
 
-  /// @brief Method get_isEmpty, addr 0x14a2e0c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x14ac4c4, size 0x38, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
-  /// @brief Method get_lightGroupEvents, addr 0x14a2e04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroupEvents, addr 0x14ac4bc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent*, ::Array<::GlobalNamespace::__DefaultEnvironmentEvents__LightGroupEvent*>*> get_lightGroupEvents();
 
 protected:

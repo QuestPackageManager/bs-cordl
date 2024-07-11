@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::UIElements::TextNativeSettings, ::UnityEngine::Rect, int32_t)>(
     &::UnityEngine::UIElements::TextNative::GetCursorPosition)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3624bc0;
+  constexpr static std::size_t addrs = 0x363aa44;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::UIElements::TextNativeSettings)>(
     &::UnityEngine::UIElements::TextNative::ComputeTextWidth)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3624d6c;
+  constexpr static std::size_t addrs = 0x363abf0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::UIElements::TextNativeSettings)>(
     &::UnityEngine::UIElements::TextNative::ComputeTextHeight)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3624eb0;
+  constexpr static std::size_t addrs = 0x363ad34;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::TextVertex> (*)(::UnityEngine::UIElements::TextNativeSettings)>(&::UnityEngine::UIElements::TextNative::GetVertices)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3624ff4;
+  constexpr static std::size_t addrs = 0x363ae78;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::UIElements::TextNativeSettings, ::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::TextNative::GetOffset)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3625240;
+  constexpr static std::size_t addrs = 0x363b0c4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Matrix4x4, float_t)>(&::UnityEngine::UIElements::TextNative::ComputeTextScaling)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x36253cc;
+  constexpr static std::size_t addrs = 0x363b250;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::UIElements::TextNativeSettings)>(
     &::UnityEngine::UIElements::TextNative::DoComputeTextWidth)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3624e74;
+  constexpr static std::size_t addrs = 0x363acf8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::UIElements::TextNativeSettings)>(
     &::UnityEngine::UIElements::TextNative::DoComputeTextHeight)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3624fb8;
+  constexpr static std::size_t addrs = 0x363ae3c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::UIElements::TextNativeSettings, ::UnityEngine::Rect, int32_t)>(
     &::UnityEngine::UIElements::TextNative::DoGetCursorPosition)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3624d04;
+  constexpr static std::size_t addrs = 0x363ab88;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::TextNativeSettings, ::System::IntPtr, int32_t, ByRef<int32_t>)>(
     &::UnityEngine::UIElements::TextNative::GetVertices)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x36251e4;
+  constexpr static std::size_t addrs = 0x363b068;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::UIElements::TextNativeSettings, ::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::TextNative::DoGetOffset)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3625370;
+  constexpr static std::size_t addrs = 0x363b1f4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(ByRef<::UnityEngine::UIElements::TextNativeSettings>)>(
     &::UnityEngine::UIElements::TextNative::DoComputeTextWidth_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x36254c8;
+  constexpr static std::size_t addrs = 0x363b34c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(ByRef<::UnityEngine::UIElements::TextNativeSettings>)>(
     &::UnityEngine::UIElements::TextNative::DoComputeTextHeight_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3625504;
+  constexpr static std::size_t addrs = 0x363b388;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::UIElements::TextNativeSettings>, ByRef<::UnityEngine::Rect>, int32_t,
                                                                                            ByRef<::UnityEngine::Vector2>)>(&::UnityEngine::UIElements::TextNative::DoGetCursorPosition_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3625540;
+  constexpr static std::size_t addrs = 0x363b3c4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::UIElements::TextNativeSettings>, ::System::IntPtr, int32_t, ByRef<int32_t>)>(
     &::UnityEngine::UIElements::TextNative::GetVertices_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x362559c;
+  constexpr static std::size_t addrs = 0x363b420;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::UIElements::TextNativeSettings>, ByRef<::UnityEngine::Rect>,
                                                                                            ByRef<::UnityEngine::Vector2>)>(&::UnityEngine::UIElements::TextNative::DoGetOffset_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x36255f8;
+  constexpr static std::size_t addrs = 0x363b47c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

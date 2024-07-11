@@ -21,12 +21,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE ScoreObjectiveValueFormatterSO : public ::GlobalNamespace::ObjectiveValueFormatterSO {
 public:
   // Declarations
-  /// @brief Method FormatValue, addr 0x14d08bc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method FormatValue, addr 0x14da460, size 0x58, virtual true, abstract: false, final false
   inline ::StringW FormatValue(int32_t value);
 
   static inline ::GlobalNamespace::ScoreObjectiveValueFormatterSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x14d0914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14da4b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

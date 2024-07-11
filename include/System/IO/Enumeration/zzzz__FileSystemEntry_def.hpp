@@ -102,48 +102,48 @@ public:
 
   __declspec(property(get = get_RootDirectory, put = set_RootDirectory))::System::ReadOnlySpan_1<char16_t> RootDirectory;
 
-  /// @brief Method Initialize, addr 0x28e57a4, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x28f81b8, size 0x280, virtual false, abstract: false, final false
   static inline ::System::IO::FileAttributes Initialize(ByRef<::System::IO::Enumeration::FileSystemEntry> entry, ::GlobalNamespace::__Interop__Sys__DirectoryEntry directoryEntry,
                                                         ::System::ReadOnlySpan_1<char16_t> directory, ::System::ReadOnlySpan_1<char16_t> rootDirectory,
                                                         ::System::ReadOnlySpan_1<char16_t> originalRootDirectory, ::System::Span_1<char16_t> pathBuffer);
 
-  /// @brief Method ToFileSystemInfo, addr 0x28e5c8c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ToFileSystemInfo, addr 0x28f86a0, size 0x70, virtual false, abstract: false, final false
   inline ::System::IO::FileSystemInfo* ToFileSystemInfo();
 
-  /// @brief Method ToFullPath, addr 0x28e5cfc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToFullPath, addr 0x28f8710, size 0x28, virtual false, abstract: false, final false
   inline ::StringW ToFullPath();
 
-  /// @brief Method ToSpecifiedFullPath, addr 0x28e5d24, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ToSpecifiedFullPath, addr 0x28f8738, size 0x184, virtual false, abstract: false, final false
   inline ::StringW ToSpecifiedFullPath();
 
-  /// @brief Method get_Attributes, addr 0x28e5c3c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x28f8650, size 0x48, virtual false, abstract: false, final false
   inline ::System::IO::FileAttributes get_Attributes();
 
-  /// @brief Method get_Directory, addr 0x28e5be8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Directory, addr 0x28f85fc, size 0x10, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> get_Directory();
 
-  /// @brief Method get_FileName, addr 0x28e5b54, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x28f8568, size 0x94, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> get_FileName();
 
-  /// @brief Method get_FullPath, addr 0x28e5a24, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method get_FullPath, addr 0x28f8438, size 0x130, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> get_FullPath();
 
-  /// @brief Method get_IsDirectory, addr 0x28e5c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDirectory, addr 0x28f8698, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDirectory();
 
-  /// @brief Method get_OriginalRootDirectory, addr 0x28e5c20, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_OriginalRootDirectory, addr 0x28f8634, size 0x10, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> get_OriginalRootDirectory();
 
-  /// @brief Method get_RootDirectory, addr 0x28e5c04, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_RootDirectory, addr 0x28f8618, size 0x10, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> get_RootDirectory();
 
-  /// @brief Method set_Directory, addr 0x28e5bf8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Directory, addr 0x28f860c, size 0xc, virtual false, abstract: false, final false
   inline void set_Directory(::System::ReadOnlySpan_1<char16_t> value);
 
-  /// @brief Method set_OriginalRootDirectory, addr 0x28e5c30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_OriginalRootDirectory, addr 0x28f8644, size 0xc, virtual false, abstract: false, final false
   inline void set_OriginalRootDirectory(::System::ReadOnlySpan_1<char16_t> value);
 
-  /// @brief Method set_RootDirectory, addr 0x28e5c14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RootDirectory, addr 0x28f8628, size 0xc, virtual false, abstract: false, final false
   inline void set_RootDirectory(::System::ReadOnlySpan_1<char16_t> value);
 
   // Ctor Parameters []

@@ -72,10 +72,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x1088314, size 0x640, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x109460c, size 0x640, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x1088960, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1094c58, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -152,10 +152,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x10889b8, size 0x590, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1094cb0, size 0x590, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x1088f48, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1095240, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -240,21 +240,21 @@ public:
   __declspec(property(get = __cordl_internal_get_blockingObjects,
                       put = __cordl_internal_set_blockingObjects))::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>* blockingObjects;
 
-  /// @brief Method FlushSaveFilesAsync, addr 0x1087fa4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method FlushSaveFilesAsync, addr 0x109429c, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* FlushSaveFilesAsync();
 
   static inline ::BGLib::SaveDataCore::SaveDataFlushingService* New_ctor();
 
-  /// @brief Method Register, addr 0x1087efc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x10941f4, size 0xa8, virtual false, abstract: false, final false
   inline void Register(::BGLib::SaveDataCore::ISaveDataHandler* handler);
 
-  /// @brief Method ReleaseSaveBlocker, addr 0x10881fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReleaseSaveBlocker, addr 0x10944f4, size 0x58, virtual false, abstract: false, final false
   inline bool ReleaseSaveBlocker(::UnityEngine::Object* o);
 
-  /// @brief Method ResetChangesAsync, addr 0x10880a4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ResetChangesAsync, addr 0x109439c, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ResetChangesAsync();
 
-  /// @brief Method TrackSaveBlocker, addr 0x10881a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method TrackSaveBlocker, addr 0x109449c, size 0x58, virtual false, abstract: false, final false
   inline bool TrackSaveBlocker(::UnityEngine::Object* o);
 
   constexpr ::System::Collections::Generic::List_1<::BGLib::SaveDataCore::ISaveDataHandler*>*& __cordl_internal_get__handlers();
@@ -269,7 +269,7 @@ public:
 
   constexpr void __cordl_internal_set_blockingObjects(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>* value);
 
-  /// @brief Method .ctor, addr 0x1088254, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x109454c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -147,12 +147,12 @@ public:
   /// @brief Field threadpool_thread, offset 0xa8, size 0x1
   __declspec(property(get = __cordl_internal_get_threadpool_thread, put = __cordl_internal_set_threadpool_thread)) bool threadpool_thread;
 
-  /// @brief Method Finalize, addr 0x29c38f0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x29d9304, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Threading::InternalThread* New_ctor();
 
-  /// @brief Method Thread_free_internal, addr 0x29c38ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Thread_free_internal, addr 0x29d9300, size 0x4, virtual false, abstract: false, final false
   inline void Thread_free_internal();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__serialized_principal() const;
@@ -395,7 +395,7 @@ public:
 
   constexpr void __cordl_internal_set_threadpool_thread(bool value);
 
-  /// @brief Method .ctor, addr 0x29c3984, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29d9398, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

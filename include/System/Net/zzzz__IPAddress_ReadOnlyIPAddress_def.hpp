@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::System::Net::__IPAddress__ReadOnlyIPAddress* New_ctor(int64_t newAddress);
 
-  /// @brief Method .ctor, addr 0x2fde688, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fed09c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int64_t newAddress);
 
 protected:

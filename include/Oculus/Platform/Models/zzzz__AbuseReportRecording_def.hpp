@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_RecordingUuid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2af9f08, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0d91c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:

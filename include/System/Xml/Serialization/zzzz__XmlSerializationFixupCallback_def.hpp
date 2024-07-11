@@ -26,12 +26,12 @@ namespace System::Xml::Serialization {
 class CORDL_TYPE XmlSerializationFixupCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2ef79d0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2f063e4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* fixup);
 
   static inline ::System::Xml::Serialization::XmlSerializationFixupCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2ef78a4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f062b8, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

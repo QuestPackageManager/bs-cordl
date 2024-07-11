@@ -49,7 +49,7 @@ public:
   /// @brief Field _setupData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__setupData, put = __cordl_internal_set__setupData))::GlobalNamespace::AppInitSetupData* _setupData;
 
-  /// @brief Method InstallBindings, addr 0x261ac0c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x262eeec, size 0x90, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PlatformInstallerSO* New_ctor();
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set__setupData(::GlobalNamespace::AppInitSetupData* value);
 
-  /// @brief Method .ctor, addr 0x261ac9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262ef7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

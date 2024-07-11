@@ -47,97 +47,97 @@ public:
   // Declarations
   __declspec(property(get = get_TypeId))::System::Object* TypeId;
 
-  /// @brief Method AreFieldValuesEqual, addr 0x297c134, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method AreFieldValuesEqual, addr 0x2990b48, size 0x1d8, virtual false, abstract: false, final false
   static inline bool AreFieldValuesEqual(::System::Object* thisValue, ::System::Object* thatValue);
 
-  /// @brief Method Equals, addr 0x297bea8, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x29908bc, size 0x280, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetCustomAttribute, addr 0x297be0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttribute, addr 0x2990820, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::Assembly* element, ::System::Type* attributeType);
 
-  /// @brief Method GetCustomAttribute, addr 0x297be14, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttribute, addr 0x2990828, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::Assembly* element, ::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttribute, addr 0x297b190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttribute, addr 0x298fba4, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::MemberInfo* element, ::System::Type* attributeType);
 
-  /// @brief Method GetCustomAttribute, addr 0x297b198, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttribute, addr 0x298fbac, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::MemberInfo* element, ::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x297bcd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x29906e4, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> GetCustomAttributes(::System::Reflection::Assembly* element);
 
-  /// @brief Method GetCustomAttributes, addr 0x297ba8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x29904a0, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> GetCustomAttributes(::System::Reflection::Assembly* element, ::System::Type* attributeType);
 
-  /// @brief Method GetCustomAttributes, addr 0x297ba94, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x29904a8, size 0x23c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> GetCustomAttributes(::System::Reflection::Assembly* element, ::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x297bcd8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x29906ec, size 0x134, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> GetCustomAttributes(::System::Reflection::Assembly* element, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x297ac58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x298f66c, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> GetCustomAttributes(::System::Reflection::MemberInfo* element);
 
-  /// @brief Method GetCustomAttributes, addr 0x297ac60, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x298f674, size 0x244, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> GetCustomAttributes(::System::Reflection::MemberInfo* element, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x297a94c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x298f360, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> GetCustomAttributes(::System::Reflection::MemberInfo* element, ::System::Type* type);
 
-  /// @brief Method GetCustomAttributes, addr 0x297a954, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x298f368, size 0x304, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> GetCustomAttributes(::System::Reflection::MemberInfo* element, ::System::Type* type, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x297b82c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x2990240, size 0x260, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> GetCustomAttributes(::System::Reflection::Module* element, ::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x297b6cc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x29900e0, size 0x160, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> GetCustomAttributes(::System::Reflection::Module* element, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x297b22c, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x298fc40, size 0x2c8, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> GetCustomAttributes(::System::Reflection::ParameterInfo* element, ::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x297b4f4, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x298ff08, size 0x1d8, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> GetCustomAttributes(::System::Reflection::ParameterInfo* element, bool inherit);
 
-  /// @brief Method GetHashCode, addr 0x297c30c, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2990d20, size 0x15c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method InternalGetCustomAttributes, addr 0x297a2a4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InternalGetCustomAttributes, addr 0x298ecb8, size 0xac, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> InternalGetCustomAttributes(::System::Reflection::EventInfo* element, ::System::Type* type, bool inherit);
 
-  /// @brief Method InternalGetCustomAttributes, addr 0x297a1f8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InternalGetCustomAttributes, addr 0x298ec0c, size 0xac, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> InternalGetCustomAttributes(::System::Reflection::PropertyInfo* element, ::System::Type* type, bool inherit);
 
-  /// @brief Method InternalIsDefined, addr 0x297a8dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InternalIsDefined, addr 0x298f2f0, size 0x70, virtual false, abstract: false, final false
   static inline bool InternalIsDefined(::System::Reflection::EventInfo* element, ::System::Type* attributeType, bool inherit);
 
-  /// @brief Method InternalIsDefined, addr 0x297a86c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InternalIsDefined, addr 0x298f280, size 0x70, virtual false, abstract: false, final false
   static inline bool InternalIsDefined(::System::Reflection::PropertyInfo* element, ::System::Type* attributeType, bool inherit);
 
-  /// @brief Method InternalParamGetCustomAttributes, addr 0x297a350, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method InternalParamGetCustomAttributes, addr 0x298ed64, size 0x51c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> InternalParamGetCustomAttributes(::System::Reflection::ParameterInfo* parameter, ::System::Type* attributeType,
                                                                                                                 bool inherit);
 
-  /// @brief Method IsDefaultAttribute, addr 0x297c47c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x2990e90, size 0x8, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
-  /// @brief Method IsDefined, addr 0x297aea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x298f8b8, size 0x8, virtual false, abstract: false, final false
   static inline bool IsDefined(::System::Reflection::MemberInfo* element, ::System::Type* attributeType);
 
-  /// @brief Method IsDefined, addr 0x297aeac, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x298f8c0, size 0x2e4, virtual false, abstract: false, final false
   static inline bool IsDefined(::System::Reflection::MemberInfo* element, ::System::Type* attributeType, bool inherit);
 
-  /// @brief Method Match, addr 0x297c470, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Match, addr 0x2990e84, size 0xc, virtual true, abstract: false, final false
   inline bool Match(::System::Object* obj);
 
   static inline ::System::Attribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2978050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x298ca64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeId, addr 0x297c468, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeId, addr 0x2990e7c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_TypeId();
 
 protected:

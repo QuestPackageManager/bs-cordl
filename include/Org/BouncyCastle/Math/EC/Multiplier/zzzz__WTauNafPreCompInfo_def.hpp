@@ -43,16 +43,16 @@ public:
 
   constexpr void __cordl_internal_set_m_preComp(::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*> value);
 
-  /// @brief Method .ctor, addr 0x12a3e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ae154, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_PreComp, addr 0x12a3e64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PreComp, addr 0x12ae15c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*> get_PreComp();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i___Org__BouncyCastle__Math__EC__Multiplier__PreCompInfo() noexcept;
 
-  /// @brief Method set_PreComp, addr 0x12a3e6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_PreComp, addr 0x12ae164, size 0x8, virtual true, abstract: false, final false
   inline void set_PreComp(::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*> value);
 
 protected:
