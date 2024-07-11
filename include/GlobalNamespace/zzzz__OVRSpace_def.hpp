@@ -100,43 +100,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRSpace>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRSpace>*();
 
-  /// @brief Method Equals, addr 0x2b83ff0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2b94a04, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2b83fe0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2b949f4, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRSpace other);
 
-  /// @brief Method GetHashCode, addr 0x2b84068, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2b94a7c, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x2b83f5c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b94970, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetUuid, addr 0x2b83ee8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryGetUuid, addr 0x2b948fc, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetUuid(ByRef<::System::Guid> uuid);
 
-  /// @brief Method .ctor, addr 0x2b83f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b94968, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t handle);
 
-  /// @brief Method get_Handle, addr 0x2b83ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x2b948f4, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_Valid, addr 0x2b771c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x2b87bd4, size 0x10, virtual false, abstract: false, final false
   inline bool get_Valid();
 
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRSpace>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRSpace>* i___System__IEquatable_1___GlobalNamespace__OVRSpace_();
 
-  /// @brief Method op_Equality, addr 0x2b84088, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2b94a9c, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRSpace lhs, ::GlobalNamespace::OVRSpace rhs);
 
-  /// @brief Method op_Implicit, addr 0x2b771bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2b87bd0, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRSpace op_Implicit___GlobalNamespace__OVRSpace(uint64_t handle);
 
-  /// @brief Method op_Implicit, addr 0x2b76e3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2b87850, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t op_Implicit_uint64_t(::GlobalNamespace::OVRSpace space);
 
-  /// @brief Method op_Inequality, addr 0x2b84094, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2b94aa8, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRSpace lhs, ::GlobalNamespace::OVRSpace rhs);
 
   // Ctor Parameters []

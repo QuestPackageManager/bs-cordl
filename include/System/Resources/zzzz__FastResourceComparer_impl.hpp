@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Resources::FastResourceComparer::*)(::System::Object*)>(
     &::System::Resources::FastResourceComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2879ac8;
+  constexpr static std::size_t addrs = 0x288e4dc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Resources::FastResourceComparer::*)(::StringW)>(
     &::System::Resources::FastResourceComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2879bc0;
+  constexpr static std::size_t addrs = 0x288e5d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::System::Resources::FastResourceComparer::HashFunction)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2879b54;
+  constexpr static std::size_t addrs = 0x288e568;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Resources::FastResourceComparer::*)(::System::Object*, ::System::Object*)>(
     &::System::Resources::FastResourceComparer::Compare)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2879c14;
+  constexpr static std::size_t addrs = 0x288e628;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Resources::FastResourceComparer::*)(::StringW, ::StringW)>(
     &::System::Resources::FastResourceComparer::Compare)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2879cb0;
+  constexpr static std::size_t addrs = 0x288e6c4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Resources::FastResourceComparer::*)(::StringW, ::StringW)>(
     &::System::Resources::FastResourceComparer::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2879cc0;
+  constexpr static std::size_t addrs = 0x288e6d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Resources::FastResourceComparer::*)(::System::Object*, ::System::Object*)>(
     &::System::Resources::FastResourceComparer::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2879cd0;
+  constexpr static std::size_t addrs = 0x288e6e4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Resources::FastResourceComparer::CompareOrdinal)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2879d6c;
+  constexpr static std::size_t addrs = 0x288e780;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::StringW)>(
     &::System::Resources::FastResourceComparer::CompareOrdinal)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2879e28;
+  constexpr static std::size_t addrs = 0x288e83c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::cordl_internals::Ptr<uint8_t>, int32_t, ::StringW)>(
     &::System::Resources::FastResourceComparer::CompareOrdinal)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2879e9c;
+  constexpr static std::size_t addrs = 0x288e8b0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::FastResourceComparer::*)()>(&::System::Resources::FastResourceComparer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2879f30;
+  constexpr static std::size_t addrs = 0x288e944;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::FastResourceComparer*>::get(), ".ctor",

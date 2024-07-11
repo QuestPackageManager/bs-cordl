@@ -26,7 +26,7 @@ public:
   /// @brief Field propertyName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_propertyName, put = __cordl_internal_set_propertyName))::StringW propertyName;
 
-  /// @brief Method GetTargetName, addr 0x108d5cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetTargetName, addr 0x10998c4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetTargetName();
 
   static inline ::BGLib::UnityExtension::ShaderPropertyIDFromRendererAttribute* New_ctor(::StringW propertyName, ::StringW nameFilter,
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set_propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x108d5a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1099898, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::StringW nameFilter, ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType filterPropType);
 
 protected:

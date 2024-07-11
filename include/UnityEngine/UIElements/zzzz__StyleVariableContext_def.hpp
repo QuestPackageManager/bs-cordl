@@ -40,23 +40,23 @@ public:
   /// @brief Field none, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_none, put = setStaticF_none))::UnityEngine::UIElements::StyleVariableContext* none;
 
-  /// @brief Method Add, addr 0x35e8f14, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x35ffd98, size 0x1a0, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::UIElements::StyleVariable sv);
 
-  /// @brief Method AddInitialRange, addr 0x35e90b4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AddInitialRange, addr 0x35fff38, size 0xf8, virtual false, abstract: false, final false
   inline void AddInitialRange(::UnityEngine::UIElements::StyleVariableContext* other);
 
-  /// @brief Method Clear, addr 0x35e91ac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3600030, size 0x9c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetVariableHash, addr 0x35e94e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetVariableHash, addr 0x360036c, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetVariableHash();
 
   static inline ::UnityEngine::UIElements::StyleVariableContext* New_ctor();
 
   static inline ::UnityEngine::UIElements::StyleVariableContext* New_ctor(::UnityEngine::UIElements::StyleVariableContext* other);
 
-  /// @brief Method TryFindVariable, addr 0x35e93fc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TryFindVariable, addr 0x3600280, size 0xec, virtual false, abstract: false, final false
   inline bool TryFindVariable(::StringW name, ByRef<::UnityEngine::UIElements::StyleVariable> v);
 
   constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_SortedHash();
@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Variables(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>* value);
 
-  /// @brief Method .ctor, addr 0x35e9248, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36000cc, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x35e9310, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3600194, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleVariableContext* other);
 
   static inline ::UnityEngine::UIElements::StyleVariableContext* getStaticF_none();

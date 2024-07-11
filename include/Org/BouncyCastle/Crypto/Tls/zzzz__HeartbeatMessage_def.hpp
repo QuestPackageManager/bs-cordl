@@ -37,10 +37,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::__HeartbeatMessage__PayloadBuffer* New_ctor();
 
-  /// @brief Method ToTruncatedByteArray, addr 0x11f6e68, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ToTruncatedByteArray, addr 0x1203160, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToTruncatedByteArray(int32_t payloadLength);
 
-  /// @brief Method .ctor, addr 0x11f6e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1203158, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,12 +82,12 @@ public:
   /// @brief Field mType, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_mType, put = __cordl_internal_set_mType)) uint8_t mType;
 
-  /// @brief Method Encode, addr 0x11f6a9c, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x1202d94, size 0x1fc, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage* New_ctor(uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> payload, int32_t paddingLength);
 
-  /// @brief Method Parse, addr 0x11f6c98, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x1202f90, size 0x1c8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage* Parse(::System::IO::Stream* input);
 
   constexpr int32_t const& __cordl_internal_get_mPaddingLength() const;
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_mType(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x11f6958, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1202c50, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> payload, int32_t paddingLength);
 
 protected:

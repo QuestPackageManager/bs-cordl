@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (*)(::StringW)>(&::TMPro::TMPro_ExtensionMethods::ToIntArray)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x335eb58;
+  constexpr static std::size_t addrs = 0x336c9dc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(&::TMPro::TMPro_ExtensionMethods::ArrayToString)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x335ec0c;
+  constexpr static std::size_t addrs = 0x336ca90;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(&::TMPro::TMPro_ExtensionMethods::IntToString)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x335ecb8;
+  constexpr static std::size_t addrs = 0x336cb3c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Collections::Generic::List_1<uint32_t>*)>(&::TMPro::TMPro_ExtensionMethods::UintToString)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x335ed68;
+  constexpr static std::size_t addrs = 0x336cbec;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, int32_t)>(
     &::TMPro::TMPro_ExtensionMethods::IntToString)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x335ee40;
+  constexpr static std::size_t addrs = 0x336ccc4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Color32, ::UnityEngine::Color32)>(&::TMPro::TMPro_ExtensionMethods::Compare)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x335ef58;
+  constexpr static std::size_t addrs = 0x336cddc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Color32, ::UnityEngine::Color32)>(&::TMPro::TMPro_ExtensionMethods::CompareRGB)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x335ef68;
+  constexpr static std::size_t addrs = 0x336cdec;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Color, ::UnityEngine::Color)>(&::TMPro::TMPro_ExtensionMethods::Compare)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x335ef78;
+  constexpr static std::size_t addrs = 0x336cdfc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Color, ::UnityEngine::Color)>(&::TMPro::TMPro_ExtensionMethods::CompareRGB)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x335efa8;
+  constexpr static std::size_t addrs = 0x336ce2c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(::UnityEngine::Color32, ::UnityEngine::Color32)>(
     &::TMPro::TMPro_ExtensionMethods::Multiply)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x335efd0;
+  constexpr static std::size_t addrs = 0x336ce54;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(::UnityEngine::Color32, ::UnityEngine::Color32)>(&::TMPro::TMPro_ExtensionMethods::Tint)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x335f090;
+  constexpr static std::size_t addrs = 0x336cf14;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(::UnityEngine::Color32, float_t)>(&::TMPro::TMPro_ExtensionMethods::Tint)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x335f150;
+  constexpr static std::size_t addrs = 0x336cfd4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, ::UnityEngine::Color)>(&::TMPro::TMPro_ExtensionMethods::MinAlpha)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x335f22c;
+  constexpr static std::size_t addrs = 0x336d0b0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t)>(&::TMPro::TMPro_ExtensionMethods::Compare)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x335f238;
+  constexpr static std::size_t addrs = 0x336d0bc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion, int32_t)>(&::TMPro::TMPro_ExtensionMethods::Compare)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x335f2cc;
+  constexpr static std::size_t addrs = 0x336d150;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

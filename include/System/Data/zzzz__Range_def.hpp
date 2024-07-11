@@ -26,19 +26,19 @@ public:
 
   __declspec(property(get = get_Min)) int32_t Min;
 
-  /// @brief Method CheckNull, addr 0x2cf92a4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CheckNull, addr 0x2d0ecb8, size 0x38, virtual false, abstract: false, final false
   inline void CheckNull();
 
-  /// @brief Method .ctor, addr 0x2cf9258, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d0ec6c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(int32_t min, int32_t max);
 
-  /// @brief Method get_Count, addr 0x2cf3cac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2d096c0, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsNull, addr 0x2cf37f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x2d0920c, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method get_Min, addr 0x2cf3ccc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Min, addr 0x2d096e0, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Min();
 
   // Ctor Parameters []

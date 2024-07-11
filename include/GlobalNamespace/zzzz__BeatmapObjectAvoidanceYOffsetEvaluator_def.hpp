@@ -39,7 +39,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __BeatmapObjectAvoidanceYOffsetEvaluator__BufferData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x1058924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10603b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t songTime, float_t yOffset);
 
   // Ctor Parameters []
@@ -96,10 +96,10 @@ public:
                       put = __cordl_internal_set__yJumpOffsetBuffer))::ArrayW<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData,
                                                                               ::Array<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>*> _yJumpOffsetBuffer;
 
-  /// @brief Method GetJumpOffsetYAtJumpStartSongTime, addr 0x1058aa4, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method GetJumpOffsetYAtJumpStartSongTime, addr 0x1060538, size 0x310, virtual false, abstract: false, final false
   inline float_t GetJumpOffsetYAtJumpStartSongTime(float_t lastDeltaTime);
 
-  /// @brief Method ManualUpdate, addr 0x105892c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x10603c0, size 0x178, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource,
@@ -139,7 +139,7 @@ public:
   constexpr void __cordl_internal_set__yJumpOffsetBuffer(
       ::ArrayW<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData, ::Array<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>*> value);
 
-  /// @brief Method .ctor, addr 0x10587d0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1060264, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController, float_t moveToPlayerHeadTParam,
                     ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData);
 

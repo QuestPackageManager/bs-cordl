@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(::System::Action*)>(
     &::UnityEngine::UIElements::ListViewController::add_itemsSourceSizeChanged)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3604408;
+  constexpr static std::size_t addrs = 0x361b28c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(::System::Action*)>(
     &::UnityEngine::UIElements::ListViewController::remove_itemsSourceSizeChanged)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x36044a4;
+  constexpr static std::size_t addrs = 0x361b328;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(
     ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*)>(&::UnityEngine::UIElements::ListViewController::add_itemsAdded)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3604540;
+  constexpr static std::size_t addrs = 0x361b3c4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(
     ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*)>(&::UnityEngine::UIElements::ListViewController::remove_itemsAdded)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x36045f0;
+  constexpr static std::size_t addrs = 0x361b474;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(
     ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*)>(&::UnityEngine::UIElements::ListViewController::add_itemsRemoved)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x36046a0;
+  constexpr static std::size_t addrs = 0x361b524;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(
     ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*)>(&::UnityEngine::UIElements::ListViewController::remove_itemsRemoved)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3604750;
+  constexpr static std::size_t addrs = 0x361b5d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ListView* (::UnityEngine::UIElements::ListViewController::*)()>(
     &::UnityEngine::UIElements::ListViewController::get_listView)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3604800;
+  constexpr static std::size_t addrs = 0x361b684;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListViewController*>::get(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(::UnityEngine::UIElements::ReusableCollectionItem*)>(
     &::UnityEngine::UIElements::ListViewController::InvokeMakeItem)> {
   constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x360487c;
+  constexpr static std::size_t addrs = 0x361b700;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(::UnityEngine::UIElements::ReusableCollectionItem*, int32_t)>(
     &::UnityEngine::UIElements::ListViewController::InvokeBindItem)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3604cf8;
+  constexpr static std::size_t addrs = 0x361bb7c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ListViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::ListViewController::NeedsDragHandle)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3604fe8;
+  constexpr static std::size_t addrs = 0x361be6c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::ListViewController::AddItems)> {
   constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x3605024;
+  constexpr static std::size_t addrs = 0x361bea8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::ListViewController::Move)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3605798;
+  constexpr static std::size_t addrs = 0x361c61c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::ListViewController::RemoveItem)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3605a48;
+  constexpr static std::size_t addrs = 0x361c8cc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(::System::Collections::Generic::List_1<int32_t>*)>(
     &::UnityEngine::UIElements::ListViewController::RemoveItems)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x3605bf8;
+  constexpr static std::size_t addrs = 0x361ca7c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)()>(
     &::UnityEngine::UIElements::ListViewController::RaiseOnSizeChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x360577c;
+  constexpr static std::size_t addrs = 0x361c600;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListViewController*>::get(),
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
     &::UnityEngine::UIElements::ListViewController::RaiseItemsAdded)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3605760;
+  constexpr static std::size_t addrs = 0x361c5e4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
     &::UnityEngine::UIElements::ListViewController::RaiseItemsRemoved)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x360600c;
+  constexpr static std::size_t addrs = 0x361ce90;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (*)(::System::Array*, int32_t)>(&::UnityEngine::UIElements::ListViewController::AddToArray)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x360565c;
+  constexpr static std::size_t addrs = 0x361c4e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (*)(::System::Array*, ::System::Collections::Generic::List_1<int32_t>*)>(
     &::UnityEngine::UIElements::ListViewController::RemoveFromArray)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3605e58;
+  constexpr static std::size_t addrs = 0x361ccdc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::ListViewController::Swap)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x3605834;
+  constexpr static std::size_t addrs = 0x361c6b8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)()>(
     &::UnityEngine::UIElements::ListViewController::EnsureItemSourceCanBeResized)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3605544;
+  constexpr static std::size_t addrs = 0x361c3c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListViewController*>::get(),
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)()>(&::UnityEngine::UIElements::ListViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3606028;
+  constexpr static std::size_t addrs = 0x361ceac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListViewController*>::get(), ".ctor",

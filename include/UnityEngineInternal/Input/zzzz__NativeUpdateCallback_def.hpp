@@ -32,12 +32,12 @@ namespace UnityEngineInternal::Input {
 class CORDL_TYPE NativeUpdateCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x347a628, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x348d4ac, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::cordl_internals::Ptr<::UnityEngineInternal::Input::NativeInputEventBuffer> buffer);
 
   static inline ::UnityEngineInternal::Input::NativeUpdateCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x347a564, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x348d3e8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

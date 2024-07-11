@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::SerializationErrorCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::Newtonsoft::Json::Serialization::SerializationErrorCallback::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2a4b0a0;
+  constexpr static std::size_t addrs = 0x2a5fab4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::SerializationErrorCallback::*)(
     ::System::Object*, ::System::Runtime::Serialization::StreamingContext, ::Newtonsoft::Json::Serialization::ErrorContext*)>(&::Newtonsoft::Json::Serialization::SerializationErrorCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2a4b1d0;
+  constexpr static std::size_t addrs = 0x2a5fbe4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Newtonsoft::Json::Serialization::SerializationErrorCallback::*)(::System::Object*, ::System::Runtime::Serialization::StreamingContext, ::Newtonsoft::Json::Serialization::ErrorContext*,
                                                                       ::System::AsyncCallback*, ::System::Object*)>(&::Newtonsoft::Json::Serialization::SerializationErrorCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2a4b1e4;
+  constexpr static std::size_t addrs = 0x2a5fbf8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::SerializationErrorCallback::*)(::System::IAsyncResult*)>(
     &::Newtonsoft::Json::Serialization::SerializationErrorCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2a4b27c;
+  constexpr static std::size_t addrs = 0x2a5fc90;
 
   inline static const ::MethodInfo* methodInfo() {
 

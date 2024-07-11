@@ -34,7 +34,7 @@ namespace System::Net::Security {
 class CORDL_TYPE LocalCertSelectionCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2f4e798, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2f5b1ac, size 0x14, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::StringW targetHost,
                                                                                      ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
                                                                                      ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate,
@@ -42,7 +42,7 @@ public:
 
   static inline ::System::Net::Security::LocalCertSelectionCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2f4e6c0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5b0d4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

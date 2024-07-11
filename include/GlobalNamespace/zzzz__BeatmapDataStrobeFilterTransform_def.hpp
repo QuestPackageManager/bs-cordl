@@ -66,12 +66,12 @@ public:
   /// @brief Field strobeStartTime, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_strobeStartTime, put = __cordl_internal_set_strobeStartTime)) float_t strobeStartTime;
 
-  /// @brief Method AddStrobeData, addr 0x14a18d4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddStrobeData, addr 0x14aaf8c, size 0x94, virtual false, abstract: false, final false
   inline void AddStrobeData(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData* New_ctor();
 
-  /// @brief Method StartPotentialStrobe, addr 0x14a19ac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method StartPotentialStrobe, addr 0x14ab064, size 0x98, virtual false, abstract: false, final false
   inline void StartPotentialStrobe(::GlobalNamespace::BasicBeatmapEventData* startBasicBeatmapEventData);
 
   constexpr bool const& __cordl_internal_get__foundFirstColoredEventData() const;
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_strobeStartTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x14a18cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14aaf84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -195,14 +195,14 @@ public:
   // Declarations
   using StrobeStreakData = ::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData;
 
-  /// @brief Method CreateTransformedData, addr 0x14a0ca4, size 0xc28, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x14aa35c, size 0xc28, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData,
                                                                                ::GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions);
 
-  /// @brief Method GetFlashAndFadeToBlackEventDataValue, addr 0x14a198c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetFlashAndFadeToBlackEventDataValue, addr 0x14ab044, size 0x20, virtual false, abstract: false, final false
   static inline int32_t GetFlashAndFadeToBlackEventDataValue(::GlobalNamespace::EnvironmentColorType lightColorType);
 
-  /// @brief Method GetOnEventDataValue, addr 0x14a1968, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOnEventDataValue, addr 0x14ab020, size 0x24, virtual false, abstract: false, final false
   static inline int32_t GetOnEventDataValue(::GlobalNamespace::EnvironmentColorType lightColorType);
 
 protected:

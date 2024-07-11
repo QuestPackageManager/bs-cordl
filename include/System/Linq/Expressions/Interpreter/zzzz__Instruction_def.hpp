@@ -49,41 +49,41 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* New_ctor();
 
-  /// @brief Method NullCheck, addr 0x2c3b7cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method NullCheck, addr 0x2c4f1e0, size 0x10, virtual false, abstract: false, final false
   static inline void NullCheck(::System::Object* o);
 
   /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToDebugString, addr 0x2c3efbc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x2c529d0, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToDebugString(int32_t instructionIndex, ::System::Object* cookie, ::System::Func_2<int32_t, int32_t>* labelIndexer,
                                  ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* objects);
 
-  /// @brief Method ToString, addr 0x2c3ef64, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c52978, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2c3b59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c4efb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ConsumedContinuations, addr 0x2c3eedc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedContinuations, addr 0x2c528f0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedContinuations();
 
-  /// @brief Method get_ConsumedStack, addr 0x2c3eecc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2c528e0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_ContinuationsBalance, addr 0x2c3ef28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ContinuationsBalance, addr 0x2c5293c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_ContinuationsBalance();
 
   /// @brief Method get_InstructionName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedContinuations, addr 0x2c3eee4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedContinuations, addr 0x2c528f8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedContinuations();
 
-  /// @brief Method get_ProducedStack, addr 0x2c3eed4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2c528e8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
-  /// @brief Method get_StackBalance, addr 0x2c3eeec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_StackBalance, addr 0x2c52900, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_StackBalance();
 
 protected:

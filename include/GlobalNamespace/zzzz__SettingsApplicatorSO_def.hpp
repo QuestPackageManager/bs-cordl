@@ -98,18 +98,18 @@ public:
   /// @brief Field roomTransformOffsetDidUpdateEvent, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_roomTransformOffsetDidUpdateEvent, put = __cordl_internal_set_roomTransformOffsetDidUpdateEvent))::System::Action* roomTransformOffsetDidUpdateEvent;
 
-  /// @brief Method ApplyMainSettings, addr 0x26afec4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ApplyMainSettings, addr 0x26c5c0c, size 0x108, virtual false, abstract: false, final false
   inline void ApplyMainSettings(::BeatSaber::GameSettings::MainSettings* settings);
 
-  /// @brief Method ApplyPerformancePreset, addr 0x26afb40, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method ApplyPerformancePreset, addr 0x26c5888, size 0x20c, virtual true, abstract: false, final false
   inline void ApplyPerformancePreset(::BeatSaber::PerformancePresets::PerformancePreset* preset, ::GlobalNamespace::SceneType sceneType);
 
-  /// @brief Method ApplyWindowSettings, addr 0x26b0128, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ApplyWindowSettings, addr 0x26c5e70, size 0x4, virtual true, abstract: false, final false
   inline void ApplyWindowSettings(::UnityEngine::Vector2Int resolution, ::BeatSaber::GameSettings::WindowMode windowMode);
 
   static inline ::GlobalNamespace::SettingsApplicatorSO* New_ctor();
 
-  /// @brief Method NotifyRoomTransformOffsetWasUpdated, addr 0x26b010c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NotifyRoomTransformOffsetWasUpdated, addr 0x26c5e54, size 0x1c, virtual false, abstract: false, final false
   inline void NotifyRoomTransformOffsetWasUpdated();
 
   constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& __cordl_internal_get__audioManager() const;
@@ -172,13 +172,13 @@ public:
 
   constexpr void __cordl_internal_set_roomTransformOffsetDidUpdateEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x26afd54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c5a9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_roomTransformOffsetDidUpdateEvent, addr 0x26affd4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_roomTransformOffsetDidUpdateEvent, addr 0x26c5d1c, size 0x9c, virtual false, abstract: false, final false
   inline void add_roomTransformOffsetDidUpdateEvent(::System::Action* value);
 
-  /// @brief Method remove_roomTransformOffsetDidUpdateEvent, addr 0x26b0070, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_roomTransformOffsetDidUpdateEvent, addr 0x26c5db8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_roomTransformOffsetDidUpdateEvent(::System::Action* value);
 
 protected:

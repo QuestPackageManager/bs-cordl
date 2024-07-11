@@ -77,13 +77,13 @@ public:
 
   constexpr void __cordl_internal_set_requireVariableResolve(bool value);
 
-  /// @brief Method .ctor, addr 0x35e8d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ffb9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x35e8d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x35ffb8c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_values, addr 0x35e8d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_values, addr 0x35ffb94, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> get_values();
 
 protected:

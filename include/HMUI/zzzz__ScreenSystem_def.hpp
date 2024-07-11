@@ -76,18 +76,18 @@ public:
 
   __declspec(property(get = get_topScreen))::UnityW<::HMUI::Screen> topScreen;
 
-  /// @brief Method Awake, addr 0x25275dc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x253c890, size 0xc4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::HMUI::ScreenSystem* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25276a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x253c954, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetBackButton, addr 0x25276bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetBackButton, addr 0x253c970, size 0x30, virtual false, abstract: false, final false
   inline void SetBackButton(bool visible, bool animated);
 
-  /// @brief Method <Awake>b__24_0, addr 0x25276f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__24_0, addr 0x253c9a8, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__24_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__backButton() const;
@@ -150,31 +150,31 @@ public:
 
   constexpr void __cordl_internal_set_backButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x25276ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x253c9a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_backButtonWasPressedEvent, addr 0x25274a4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_backButtonWasPressedEvent, addr 0x253c758, size 0x9c, virtual false, abstract: false, final false
   inline void add_backButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method get_bottomScreen, addr 0x2527494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bottomScreen, addr 0x253c748, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_bottomScreen();
 
-  /// @brief Method get_leftScreen, addr 0x2527484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftScreen, addr 0x253c738, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_leftScreen();
 
-  /// @brief Method get_mainScreen, addr 0x252747c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainScreen, addr 0x253c730, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_mainScreen();
 
-  /// @brief Method get_rightScreen, addr 0x252748c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightScreen, addr 0x253c740, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_rightScreen();
 
-  /// @brief Method get_titleViewController, addr 0x2527474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleViewController, addr 0x253c728, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::TitleViewController> get_titleViewController();
 
-  /// @brief Method get_topScreen, addr 0x252749c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_topScreen, addr 0x253c750, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_topScreen();
 
-  /// @brief Method remove_backButtonWasPressedEvent, addr 0x2527540, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_backButtonWasPressedEvent, addr 0x253c7f4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_backButtonWasPressedEvent(::System::Action* value);
 
 protected:

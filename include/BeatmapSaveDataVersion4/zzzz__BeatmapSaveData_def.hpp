@@ -179,7 +179,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14f6ff4, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x150313c, size 0x450, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -36,13 +36,13 @@ public:
 
   static inline ::System::ComponentModel::Design::CheckoutException* New_ctor(::StringW message, int32_t errorCode);
 
-  /// @brief Method .ctor, addr 0x2f8bff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f98a08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2f8c004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f98a18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2f8bffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f98a10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t errorCode);
 
   static inline ::System::ComponentModel::Design::CheckoutException* getStaticF_Canceled();

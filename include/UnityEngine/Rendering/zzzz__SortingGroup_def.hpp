@@ -35,40 +35,40 @@ public:
 
   static inline ::UnityEngine::Rendering::SortingGroup* New_ctor();
 
-  /// @brief Method UpdateAllSortingGroups, addr 0x345ae24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UpdateAllSortingGroups, addr 0x346aca8, size 0x28, virtual false, abstract: false, final false
   static inline void UpdateAllSortingGroups();
 
-  /// @brief Method .ctor, addr 0x345b080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346af04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_index, addr 0x345b044, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x346aec8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_index();
 
-  /// @brief Method get_invalidSortingGroupID, addr 0x345adfc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_invalidSortingGroupID, addr 0x346ac80, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_invalidSortingGroupID();
 
-  /// @brief Method get_sortingGroupID, addr 0x345afcc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sortingGroupID, addr 0x346ae50, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_sortingGroupID();
 
-  /// @brief Method get_sortingGroupOrder, addr 0x345b008, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sortingGroupOrder, addr 0x346ae8c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_sortingGroupOrder();
 
-  /// @brief Method get_sortingLayerID, addr 0x345aecc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sortingLayerID, addr 0x346ad50, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_sortingLayerID();
 
-  /// @brief Method get_sortingLayerName, addr 0x345ae4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sortingLayerName, addr 0x346acd0, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_sortingLayerName();
 
-  /// @brief Method get_sortingOrder, addr 0x345af4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sortingOrder, addr 0x346add0, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_sortingOrder();
 
-  /// @brief Method set_sortingLayerID, addr 0x345af08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sortingLayerID, addr 0x346ad8c, size 0x44, virtual false, abstract: false, final false
   inline void set_sortingLayerID(int32_t value);
 
-  /// @brief Method set_sortingLayerName, addr 0x345ae88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sortingLayerName, addr 0x346ad0c, size 0x44, virtual false, abstract: false, final false
   inline void set_sortingLayerName(::StringW value);
 
-  /// @brief Method set_sortingOrder, addr 0x345af88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sortingOrder, addr 0x346ae0c, size 0x44, virtual false, abstract: false, final false
   inline void set_sortingOrder(int32_t value);
 
 protected:

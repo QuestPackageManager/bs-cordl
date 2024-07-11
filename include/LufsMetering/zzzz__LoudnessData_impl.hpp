@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LufsMetering::LoudnessData::*)(float_t, ::ArrayW<float_t, ::Array<float_t>*>, float_t)>(
     &::LufsMetering::LoudnessData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x14fabf0;
+  constexpr static std::size_t addrs = 0x1505df4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

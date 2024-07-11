@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::CharacterController> (::UnityEngine::ControllerColliderHit::*)()>(
     &::UnityEngine::ControllerColliderHit::get_controller)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34978f0;
+  constexpr static std::size_t addrs = 0x34aa774;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ControllerColliderHit*>::get(), "get_controller",
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Collider> (::UnityEngine::ControllerColliderHit::*)()>(
     &::UnityEngine::ControllerColliderHit::get_collider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34978f8;
+  constexpr static std::size_t addrs = 0x34aa77c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ControllerColliderHit*>::get(), "get_collider",
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Rigidbody> (::UnityEngine::ControllerColliderHit::*)()>(
     &::UnityEngine::ControllerColliderHit::get_rigidbody)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3497900;
+  constexpr static std::size_t addrs = 0x34aa784;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ControllerColliderHit*>::get(), "get_rigidbody",
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::ControllerColliderHit::*)()>(
     &::UnityEngine::ControllerColliderHit::get_gameObject)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3497944;
+  constexpr static std::size_t addrs = 0x34aa7c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ControllerColliderHit*>::get(), "get_gameObject",
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::ControllerColliderHit::*)()>(
     &::UnityEngine::ControllerColliderHit::get_transform)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3497960;
+  constexpr static std::size_t addrs = 0x34aa7e4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ControllerColliderHit*>::get(), "get_transform",
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ControllerColliderHit::*)()>(
     &::UnityEngine::ControllerColliderHit::get_point)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x349797c;
+  constexpr static std::size_t addrs = 0x34aa800;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ControllerColliderHit*>::get(), "get_point",
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ControllerColliderHit::*)()>(
     &::UnityEngine::ControllerColliderHit::get_normal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3497988;
+  constexpr static std::size_t addrs = 0x34aa80c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ControllerColliderHit*>::get(), "get_normal",
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ControllerColliderHit::*)()>(
     &::UnityEngine::ControllerColliderHit::get_moveDirection)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3497994;
+  constexpr static std::size_t addrs = 0x34aa818;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ControllerColliderHit*>::get(),
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ControllerColliderHit::*)()>(&::UnityEngine::ControllerColliderHit::get_moveLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34979a0;
+  constexpr static std::size_t addrs = 0x34aa824;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ControllerColliderHit*>::get(), "get_moveLength",
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ControllerColliderHit::*)()>(&::UnityEngine::ControllerColliderHit::get_push)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x34979a8;
+  constexpr static std::size_t addrs = 0x34aa82c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ControllerColliderHit*>::get(), "get_push",
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ControllerColliderHit::*)(bool)>(&::UnityEngine::ControllerColliderHit::set_push)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x34979b8;
+  constexpr static std::size_t addrs = 0x34aa83c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ControllerColliderHit::*)()>(&::UnityEngine::ControllerColliderHit::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34979d4;
+  constexpr static std::size_t addrs = 0x34aa858;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ControllerColliderHit*>::get(), ".ctor",

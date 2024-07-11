@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::__TypeNames__ATypeName::*)(::System::TypeName*)>(&::System::__TypeNames__ATypeName::Equals)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x29a6c88;
+  constexpr static std::size_t addrs = 0x29bc69c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::__TypeNames__ATypeName::*)()>(&::System::__TypeNames__ATypeName::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x29a6d58;
+  constexpr static std::size_t addrs = 0x29bc76c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::__TypeNames__ATypeName::*)(::System::Object*)>(&::System::__TypeNames__ATypeName::Equals)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x29a6d80;
+  constexpr static std::size_t addrs = 0x29bc794;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__TypeNames__ATypeName::*)()>(&::System::__TypeNames__ATypeName::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x29a6de0;
+  constexpr static std::size_t addrs = 0x29bc7f4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__TypeNames__ATypeName*>::get(), ".ctor",

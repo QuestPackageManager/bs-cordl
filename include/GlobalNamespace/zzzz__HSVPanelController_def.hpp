@@ -55,25 +55,25 @@ public:
   __declspec(property(get = __cordl_internal_get_colorDidChangeEvent,
                       put = __cordl_internal_set_colorDidChangeEvent))::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* colorDidChangeEvent;
 
-  /// @brief Method Awake, addr 0x2779e20, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x278e828, size 0xec, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleColorHueDidChange, addr 0x277a0e0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleColorHueDidChange, addr 0x278eae8, size 0x6c, virtual false, abstract: false, final false
   inline void HandleColorHueDidChange(::GlobalNamespace::ColorHueSlider* slider, float_t hue, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
 
-  /// @brief Method HandleColorSaturationOrValueDidChange, addr 0x277a06c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleColorSaturationOrValueDidChange, addr 0x278ea74, size 0x74, virtual false, abstract: false, final false
   inline void HandleColorSaturationOrValueDidChange(::GlobalNamespace::ColorSaturationValueSlider* slider, ::UnityEngine::Vector2 colorSaturationAndValue,
                                                     ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
 
   static inline ::GlobalNamespace::HSVPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2779f0c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x278e914, size 0x160, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshSlidersColors, addr 0x2779db8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RefreshSlidersColors, addr 0x278e7c0, size 0x30, virtual false, abstract: false, final false
   inline void RefreshSlidersColors();
 
-  /// @brief Method RefreshSlidersValues, addr 0x2779de8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method RefreshSlidersValues, addr 0x278e7f0, size 0x38, virtual false, abstract: false, final false
   inline void RefreshSlidersValues();
 
   constexpr ::UnityW<::GlobalNamespace::ColorHueSlider> const& __cordl_internal_get__colorHueSlider() const;
@@ -100,19 +100,19 @@ public:
 
   constexpr void __cordl_internal_set_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method .ctor, addr 0x277a14c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x278eb54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_colorDidChangeEvent, addr 0x2779bf8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_colorDidChangeEvent, addr 0x278e600, size 0xb0, virtual false, abstract: false, final false
   inline void add_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method get_color, addr 0x2779d58, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x278e760, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method remove_colorDidChangeEvent, addr 0x2779ca8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_colorDidChangeEvent, addr 0x278e6b0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method set_color, addr 0x2779d6c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x278e774, size 0x4c, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:

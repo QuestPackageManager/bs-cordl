@@ -118,12 +118,12 @@ public:
   /// @brief Field text, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::StringW text;
 
-  /// @brief Method IsEmpty, addr 0x2759bf0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x276f578, size 0x20, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
   static inline ::GlobalNamespace::__CreditsData__Text* New_ctor();
 
-  /// @brief Method ToString, addr 0x2759c10, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x276f598, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_localized() const;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set_text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2759cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x276f65c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -204,13 +204,13 @@ public:
   /// @brief Field title, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::GlobalNamespace::__CreditsData__Text* title;
 
-  /// @brief Method HasRowItems, addr 0x2759cfc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HasRowItems, addr 0x276f684, size 0x20, virtual false, abstract: false, final false
   inline bool HasRowItems();
 
-  /// @brief Method HasText, addr 0x2759cec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasText, addr 0x276f674, size 0x10, virtual false, abstract: false, final false
   inline bool HasText();
 
-  /// @brief Method HasTitle, addr 0x2759cdc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasTitle, addr 0x276f664, size 0x10, virtual false, abstract: false, final false
   inline bool HasTitle();
 
   static inline ::GlobalNamespace::__CreditsData__RootCreditsItem* New_ctor();
@@ -239,7 +239,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::GlobalNamespace::__CreditsData__Text* value);
 
-  /// @brief Method .ctor, addr 0x2759d1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x276f6a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -296,10 +296,10 @@ public:
   /// @brief Field title, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::GlobalNamespace::__CreditsData__Text* title;
 
-  /// @brief Method HasText, addr 0x2759d34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasText, addr 0x276f6bc, size 0x10, virtual false, abstract: false, final false
   inline bool HasText();
 
-  /// @brief Method HasTitle, addr 0x2759d24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasTitle, addr 0x276f6ac, size 0x10, virtual false, abstract: false, final false
   inline bool HasTitle();
 
   static inline ::GlobalNamespace::__CreditsData__ChildCreditsItem* New_ctor();
@@ -316,7 +316,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::GlobalNamespace::__CreditsData__Text* value);
 
-  /// @brief Method .ctor, addr 0x2759d44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x276f6cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -369,7 +369,7 @@ public:
   __declspec(property(get = __cordl_internal_get_creditsItems,
                       put = __cordl_internal_set_creditsItems))::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> creditsItems;
 
-  /// @brief Method Deserialize, addr 0x2759ae4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x276f46c, size 0x104, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::CreditsData* Deserialize(::StringW text);
 
   static inline ::GlobalNamespace::CreditsData* New_ctor();
@@ -380,7 +380,7 @@ public:
 
   constexpr void __cordl_internal_set_creditsItems(::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> value);
 
-  /// @brief Method .ctor, addr 0x2759be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x276f570, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

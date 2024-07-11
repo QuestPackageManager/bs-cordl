@@ -49,16 +49,16 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2739c70, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x275048c, size 0xd0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandlePlayerHeightDidChange, addr 0x2739c38, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerHeightDidChange, addr 0x2750454, size 0x38, virtual false, abstract: false, final false
   inline void HandlePlayerHeightDidChange(float_t playerHeight);
 
-  /// @brief Method Initialize, addr 0x2739b0c, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x2750328, size 0xf8, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method JumpOffsetYForPlayerHeight, addr 0x2739c04, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method JumpOffsetYForPlayerHeight, addr 0x2750420, size 0x34, virtual false, abstract: false, final false
   static inline float_t JumpOffsetYForPlayerHeight(float_t playerHeight);
 
   static inline ::GlobalNamespace::PlayerHeightToJumpOffsetYProvider* New_ctor();
@@ -75,10 +75,10 @@ public:
 
   constexpr void __cordl_internal_set__playerHeightDetector(::UnityW<::GlobalNamespace::PlayerHeightDetector> value);
 
-  /// @brief Method .ctor, addr 0x2739d40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275055c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_jumpOffsetY, addr 0x2739b04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_jumpOffsetY, addr 0x2750320, size 0x8, virtual true, abstract: false, final true
   inline float_t get_jumpOffsetY();
 
   /// @brief Convert to "::GlobalNamespace::IJumpOffsetYProvider"

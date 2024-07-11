@@ -27,16 +27,16 @@ public:
 
   static inline ::System::Threading::EventWaitHandle* New_ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
 
-  /// @brief Method Reset, addr 0x29b7b08, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x29cd51c, size 0x64, virtual false, abstract: false, final false
   inline bool Reset();
 
-  /// @brief Method Set, addr 0x29b4380, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x29c9d94, size 0x64, virtual false, abstract: false, final false
   inline bool Set();
 
-  /// @brief Method .ctor, addr 0x29b2a54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c8468, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode);
 
-  /// @brief Method .ctor, addr 0x29b97c4, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29cf1d8, size 0x2c0, virtual false, abstract: false, final false
   inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
 
 protected:

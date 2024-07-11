@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::TailStream::*)(int32_t)>(
     &::System::Security::Cryptography::TailStream::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x27f98c8;
+  constexpr static std::size_t addrs = 0x280d2dc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::TailStream::*)()>(&::System::Security::Cryptography::TailStream::Clear)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x27f9c20;
+  constexpr static std::size_t addrs = 0x280d634;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::TailStream*>::get(), "Clear",
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::TailStream::*)(bool)>(
     &::System::Security::Cryptography::TailStream::Dispose)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x27f9c30;
+  constexpr static std::size_t addrs = 0x280d644;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::TailStream::*)()>(
     &::System::Security::Cryptography::TailStream::get_Buffer)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x27f9aa4;
+  constexpr static std::size_t addrs = 0x280d4b8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::TailStream*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::TailStream::*)()>(
     &::System::Security::Cryptography::TailStream::get_CanRead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f9cf0;
+  constexpr static std::size_t addrs = 0x280d704;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::TailStream::*)()>(
     &::System::Security::Cryptography::TailStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f9cf8;
+  constexpr static std::size_t addrs = 0x280d70c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::TailStream::*)()>(
     &::System::Security::Cryptography::TailStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x27f9d00;
+  constexpr static std::size_t addrs = 0x280d714;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Security::Cryptography::TailStream::*)()>(
     &::System::Security::Cryptography::TailStream::get_Length)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x27f9d10;
+  constexpr static std::size_t addrs = 0x280d724;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Security::Cryptography::TailStream::*)()>(
     &::System::Security::Cryptography::TailStream::get_Position)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x27f9d70;
+  constexpr static std::size_t addrs = 0x280d784;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::TailStream::*)(int64_t)>(
     &::System::Security::Cryptography::TailStream::set_Position)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x27f9dd0;
+  constexpr static std::size_t addrs = 0x280d7e4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::TailStream::*)()>(&::System::Security::Cryptography::TailStream::Flush)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27f9e30;
+  constexpr static std::size_t addrs = 0x280d844;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Security::Cryptography::TailStream::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::System::Security::Cryptography::TailStream::Seek)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x27f9e34;
+  constexpr static std::size_t addrs = 0x280d848;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::TailStream::*)(int64_t)>(
     &::System::Security::Cryptography::TailStream::SetLength)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x27f9e94;
+  constexpr static std::size_t addrs = 0x280d8a8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::TailStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Security::Cryptography::TailStream::Read)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x27f9ef4;
+  constexpr static std::size_t addrs = 0x280d908;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::TailStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Security::Cryptography::TailStream::Write)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x27f9f54;
+  constexpr static std::size_t addrs = 0x280d968;
 
   inline static const ::MethodInfo* methodInfo() {
 

@@ -106,7 +106,7 @@ public:
   // Declarations
   static inline ::Unity::Burst::__BurstString__PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x308e984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x309e808, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -190,10 +190,10 @@ namespace Unity::Burst {
 struct CORDL_TYPE __BurstString__NumberBuffer {
 public:
   // Declarations
-  /// @brief Method GetDigitsPointer, addr 0x308e98c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDigitsPointer, addr 0x309e810, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<uint8_t> GetDigitsPointer();
 
-  /// @brief Method .ctor, addr 0x308bd34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x309bbb8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Burst::__BurstString__NumberBufferKind kind, ::cordl_internals::Ptr<uint8_t> buffer, int32_t digitsCount, int32_t scale, bool isNegative);
 
   // Ctor Parameters []
@@ -310,19 +310,19 @@ public:
   // Declarations
   __declspec(property(get = get_Uppercase)) bool Uppercase;
 
-  /// @brief Method EncodeToRaw, addr 0x308e994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EncodeToRaw, addr 0x309e818, size 0x8, virtual false, abstract: false, final false
   inline int32_t EncodeToRaw();
 
-  /// @brief Method GetBase, addr 0x308bcc8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetBase, addr 0x309bb4c, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetBase();
 
-  /// @brief Method ToString, addr 0x308e99c, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x309e820, size 0x2ec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x308ca94, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x309c918, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Burst::__BurstString__NumberFormatKind kind, int8_t alignAndSize, uint8_t specifier, bool lowercase);
 
-  /// @brief Method get_Uppercase, addr 0x308bce0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Uppercase, addr 0x309bb64, size 0x10, virtual false, abstract: false, final false
   inline bool get_Uppercase();
 
   // Ctor Parameters []
@@ -406,25 +406,25 @@ public:
   // Declarations
   using _m_blocks_e__FixedBuffer = ::GlobalNamespace::__BurstString__tBigInt___m_blocks_e__FixedBuffer;
 
-  /// @brief Method GetBlock, addr 0x308e0c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetBlock, addr 0x309df44, size 0xc, virtual false, abstract: false, final false
   inline uint32_t GetBlock(int32_t idx);
 
-  /// @brief Method GetLength, addr 0x308ec88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLength, addr 0x309eb0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetLength();
 
-  /// @brief Method GetU32, addr 0x308ec98, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetU32, addr 0x309eb1c, size 0x18, virtual false, abstract: false, final false
   inline uint32_t GetU32();
 
-  /// @brief Method IsZero, addr 0x308e0cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsZero, addr 0x309df50, size 0x10, virtual false, abstract: false, final false
   inline bool IsZero();
 
-  /// @brief Method SetU32, addr 0x308d3b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetU32, addr 0x309d238, size 0x1c, virtual false, abstract: false, final false
   inline void SetU32(uint32_t val);
 
-  /// @brief Method SetU64, addr 0x308e090, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetU64, addr 0x309df14, size 0x30, virtual false, abstract: false, final false
   inline void SetU64(uint64_t val);
 
-  /// @brief Method SetZero, addr 0x308ec90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetZero, addr 0x309eb14, size 0x8, virtual false, abstract: false, final false
   inline void SetZero();
 
   // Ctor Parameters []
@@ -581,13 +581,13 @@ public:
   /// @brief Field m_integer, offset 0x0, size 0x4
   __declspec(property(get = __cordl_internal_get_m_integer, put = __cordl_internal_set_m_integer)) uint32_t m_integer;
 
-  /// @brief Method GetExponent, addr 0x308e790, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetExponent, addr 0x309e614, size 0xc, virtual false, abstract: false, final false
   inline uint32_t GetExponent();
 
-  /// @brief Method GetMantissa, addr 0x308e79c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetMantissa, addr 0x309e620, size 0xc, virtual false, abstract: false, final false
   inline uint32_t GetMantissa();
 
-  /// @brief Method IsNegative, addr 0x308e7a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsNegative, addr 0x309e62c, size 0xc, virtual false, abstract: false, final false
   inline bool IsNegative();
 
   constexpr float_t const& __cordl_internal_get_m_floatingPoint() const;
@@ -666,13 +666,13 @@ public:
   /// @brief Field m_integer, offset 0x0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_integer, put = __cordl_internal_set_m_integer)) uint64_t m_integer;
 
-  /// @brief Method GetExponent, addr 0x308e7b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetExponent, addr 0x309e638, size 0xc, virtual false, abstract: false, final false
   inline uint32_t GetExponent();
 
-  /// @brief Method GetMantissa, addr 0x308e7c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetMantissa, addr 0x309e644, size 0xc, virtual false, abstract: false, final false
   inline uint64_t GetMantissa();
 
-  /// @brief Method IsNegative, addr 0x308e7cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsNegative, addr 0x309e650, size 0xc, virtual false, abstract: false, final false
   inline bool IsNegative();
 
   constexpr double_t const& __cordl_internal_get_m_floatingPoint() const;
@@ -780,166 +780,166 @@ public:
   /// @brief Field logTable, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_logTable, put = setStaticF_logTable))::ArrayW<uint8_t, ::Array<uint8_t>*> logTable;
 
-  /// @brief Method AlignLeft, addr 0x308a968, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AlignLeft, addr 0x309a7ec, size 0x4c, virtual false, abstract: false, final false
   static inline bool AlignLeft(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, int32_t align, int32_t length);
 
-  /// @brief Method AlignRight, addr 0x308a9b4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AlignRight, addr 0x309a838, size 0xc8, virtual false, abstract: false, final false
   static inline bool AlignRight(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, int32_t align, int32_t length);
 
-  /// @brief Method BigInt_Add, addr 0x308cc44, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Add, addr 0x309cac8, size 0x88, virtual false, abstract: false, final false
   static inline void BigInt_Add(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, ByRef<::Unity::Burst::__BurstString__tBigInt> lhs, ByRef<::Unity::Burst::__BurstString__tBigInt> rhs);
 
-  /// @brief Method BigInt_Add_internal, addr 0x308cccc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Add_internal, addr 0x309cb50, size 0x84, virtual false, abstract: false, final false
   static inline void BigInt_Add_internal(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, ByRef<::Unity::Burst::__BurstString__tBigInt> pLarge,
                                          ByRef<::Unity::Burst::__BurstString__tBigInt> pSmall);
 
-  /// @brief Method BigInt_Compare, addr 0x308cbf4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Compare, addr 0x309ca78, size 0x50, virtual false, abstract: false, final false
   static inline int32_t BigInt_Compare(ByRef<::Unity::Burst::__BurstString__tBigInt> lhs, ByRef<::Unity::Burst::__BurstString__tBigInt> rhs);
 
-  /// @brief Method BigInt_DivideWithRemainder_MaxQuotient9, addr 0x308d5b8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method BigInt_DivideWithRemainder_MaxQuotient9, addr 0x309d43c, size 0x1a4, virtual false, abstract: false, final false
   static inline uint32_t BigInt_DivideWithRemainder_MaxQuotient9(ByRef<::Unity::Burst::__BurstString__tBigInt> pDividend, ByRef<::Unity::Burst::__BurstString__tBigInt> divisor);
 
-  /// @brief Method BigInt_Multiply, addr 0x308cd50, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Multiply, addr 0x309cbd4, size 0x88, virtual false, abstract: false, final false
   static inline void BigInt_Multiply(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, ByRef<::Unity::Burst::__BurstString__tBigInt> lhs, ByRef<::Unity::Burst::__BurstString__tBigInt> rhs);
 
-  /// @brief Method BigInt_Multiply, addr 0x308ce88, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Multiply, addr 0x309cd0c, size 0x60, virtual false, abstract: false, final false
   static inline void BigInt_Multiply(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, ByRef<::Unity::Burst::__BurstString__tBigInt> lhs, uint32_t rhs);
 
-  /// @brief Method BigInt_Multiply10, addr 0x308cf9c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Multiply10, addr 0x309ce20, size 0x5c, virtual false, abstract: false, final false
   static inline void BigInt_Multiply10(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult);
 
-  /// @brief Method BigInt_Multiply2, addr 0x308cf44, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Multiply2, addr 0x309cdc8, size 0x58, virtual false, abstract: false, final false
   static inline void BigInt_Multiply2(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult);
 
-  /// @brief Method BigInt_Multiply2, addr 0x308cee8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Multiply2, addr 0x309cd6c, size 0x5c, virtual false, abstract: false, final false
   static inline void BigInt_Multiply2(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, ByRef<::Unity::Burst::__BurstString__tBigInt> input);
 
-  /// @brief Method BigInt_MultiplyPow10, addr 0x308d3d0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method BigInt_MultiplyPow10, addr 0x309d254, size 0x18c, virtual false, abstract: false, final false
   static inline void BigInt_MultiplyPow10(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, ByRef<::Unity::Burst::__BurstString__tBigInt> input, uint32_t exponent);
 
-  /// @brief Method BigInt_Multiply_internal, addr 0x308cdd8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Multiply_internal, addr 0x309cc5c, size 0xb0, virtual false, abstract: false, final false
   static inline void BigInt_Multiply_internal(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, ByRef<::Unity::Burst::__BurstString__tBigInt> pLarge,
                                               ByRef<::Unity::Burst::__BurstString__tBigInt> pSmall);
 
-  /// @brief Method BigInt_Pow10, addr 0x308d240, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Pow10, addr 0x309d0c4, size 0x174, virtual false, abstract: false, final false
   static inline void BigInt_Pow10(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, uint32_t exponent);
 
-  /// @brief Method BigInt_Pow2, addr 0x308d55c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Pow2, addr 0x309d3e0, size 0x5c, virtual false, abstract: false, final false
   static inline void BigInt_Pow2(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, uint32_t exponent);
 
-  /// @brief Method BigInt_ShiftLeft, addr 0x308d75c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method BigInt_ShiftLeft, addr 0x309d5e0, size 0x12c, virtual false, abstract: false, final false
   static inline void BigInt_ShiftLeft(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, uint32_t shift);
 
-  /// @brief Method ConvertDoubleToString, addr 0x308ae28, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method ConvertDoubleToString, addr 0x309acac, size 0x28c, virtual false, abstract: false, final false
   static inline void ConvertDoubleToString(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, double_t value,
                                            ::Unity::Burst::__BurstString__FormatOptions formatOptions);
 
-  /// @brief Method ConvertFloatToString, addr 0x308ab08, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method ConvertFloatToString, addr 0x309a98c, size 0x294, virtual false, abstract: false, final false
   static inline void ConvertFloatToString(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, float_t value,
                                           ::Unity::Burst::__BurstString__FormatOptions formatOptions);
 
-  /// @brief Method ConvertIntegerToString, addr 0x308b8f8, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ConvertIntegerToString, addr 0x309b77c, size 0x1bc, virtual false, abstract: false, final false
   static inline void ConvertIntegerToString(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, int64_t value, ::Unity::Burst::__BurstString__FormatOptions options);
 
-  /// @brief Method ConvertUnsignedIntegerToString, addr 0x308b6a0, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method ConvertUnsignedIntegerToString, addr 0x309b524, size 0x1a0, virtual false, abstract: false, final false
   static inline void ConvertUnsignedIntegerToString(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, uint64_t value,
                                                     ::Unity::Burst::__BurstString__FormatOptions options);
 
-  /// @brief Method CopyFixedString, addr 0x308a814, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CopyFixedString, addr 0x309a698, size 0x24, virtual false, abstract: false, final false
   static inline void CopyFixedString(::cordl_internals::Ptr<uint8_t> dest, int32_t destLength, ::cordl_internals::Ptr<uint8_t> src, int32_t srcLength);
 
-  /// @brief Method Dragon4, addr 0x308d888, size 0x808, virtual false, abstract: false, final false
+  /// @brief Method Dragon4, addr 0x309d70c, size 0x808, virtual false, abstract: false, final false
   static inline uint32_t Dragon4(uint64_t mantissa, int32_t exponent, uint32_t mantissaHighBitIdx, bool hasUnequalMargins, ::Unity::Burst::__BurstString__CutoffMode cutoffMode, uint32_t cutoffNumber,
                                  ::cordl_internals::Ptr<uint8_t> pOutBuffer, uint32_t bufferSize, ByRef<int32_t> pOutExponent);
 
-  /// @brief Method Format, addr 0x308a838, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x309a6bc, size 0x130, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, ::cordl_internals::Ptr<uint8_t> src, int32_t srcLength, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x308b0b4, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x309af38, size 0x1d0, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, bool value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x308b284, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x309b108, size 0x20c, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, char16_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x308ad9c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x309ac20, size 0x8c, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, double_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x308aa7c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x309a900, size 0x8c, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, float_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x308bab4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x309b938, size 0xb8, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, int16_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x308bb6c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x309b9f0, size 0xb8, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, int32_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x308bc24, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x309baa8, size 0xa4, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, int64_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x308b840, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x309b6c4, size 0xb8, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, int8_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x308b598, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x309b41c, size 0x84, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, uint16_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x308b61c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x309b4a0, size 0x84, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, uint32_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x308b514, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x309b398, size 0x84, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, uint64_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x308b490, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x309b314, size 0x84, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, uint8_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method FormatDecimalOrHexadecimal, addr 0x308bfe4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FormatDecimalOrHexadecimal, addr 0x309be68, size 0xa0, virtual false, abstract: false, final false
   static inline void FormatDecimalOrHexadecimal(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, ByRef<::Unity::Burst::__BurstString__NumberBuffer> number,
                                                 int32_t zeroPadding, bool outputPositiveSign);
 
-  /// @brief Method FormatGeneral, addr 0x308c300, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method FormatGeneral, addr 0x309c184, size 0x1f4, virtual false, abstract: false, final false
   static inline void FormatGeneral(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, ByRef<::Unity::Burst::__BurstString__NumberBuffer> number, int32_t nMaxDigits,
                                    uint8_t expChar);
 
-  /// @brief Method FormatInfinityNaN, addr 0x308e594, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method FormatInfinityNaN, addr 0x309e418, size 0x1fc, virtual false, abstract: false, final false
   static inline void FormatInfinityNaN(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, uint64_t mantissa, bool isNegative,
                                        ::Unity::Burst::__BurstString__FormatOptions formatOptions);
 
-  /// @brief Method FormatNumber, addr 0x308bd4c, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method FormatNumber, addr 0x309bbd0, size 0x26c, virtual false, abstract: false, final false
   static inline void FormatNumber(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, ByRef<::Unity::Burst::__BurstString__NumberBuffer> number, int32_t nMaxDigits,
                                   ::Unity::Burst::__BurstString__FormatOptions options);
 
-  /// @brief Method FormatPositional, addr 0x308e0dc, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method FormatPositional, addr 0x309df60, size 0x248, virtual false, abstract: false, final false
   static inline int32_t FormatPositional(::cordl_internals::Ptr<uint8_t> pOutBuffer, uint32_t bufferSize, uint64_t mantissa, int32_t exponent, uint32_t mantissaHighBitIdx, bool hasUnequalMargins,
                                          int32_t precision);
 
-  /// @brief Method FormatScientific, addr 0x308e324, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method FormatScientific, addr 0x309e1a8, size 0x270, virtual false, abstract: false, final false
   static inline int32_t FormatScientific(::cordl_internals::Ptr<uint8_t> pOutBuffer, uint32_t bufferSize, uint64_t mantissa, int32_t exponent, uint32_t mantissaHighBitIdx, bool hasUnequalMargins,
                                          int32_t precision);
 
-  /// @brief Method GetLengthForFormatGeneral, addr 0x308c1b4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetLengthForFormatGeneral, addr 0x309c038, size 0x14c, virtual false, abstract: false, final false
   static inline int32_t GetLengthForFormatGeneral(ByRef<::Unity::Burst::__BurstString__NumberBuffer> number, int32_t nMaxDigits);
 
-  /// @brief Method GetLengthIntegerToString, addr 0x308bfb8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetLengthIntegerToString, addr 0x309be3c, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t GetLengthIntegerToString(int64_t value, int32_t basis, int32_t zeroPadding);
 
-  /// @brief Method LogBase2, addr 0x308cad0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method LogBase2, addr 0x309c954, size 0x124, virtual false, abstract: false, final false
   static inline uint32_t LogBase2(uint32_t val);
 
-  /// @brief Method OptsSplit, addr 0x308c4f4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method OptsSplit, addr 0x309c378, size 0x188, virtual false, abstract: false, final false
   static inline void OptsSplit(::StringW fullFormat, ByRef<::StringW> padding, ByRef<::StringW> format);
 
-  /// @brief Method ParseFormatToFormatOptions, addr 0x308c67c, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method ParseFormatToFormatOptions, addr 0x309c500, size 0x418, virtual false, abstract: false, final false
   static inline ::Unity::Burst::__BurstString__FormatOptions ParseFormatToFormatOptions(::StringW fullFormat);
 
-  /// @brief Method RoundNumber, addr 0x308c084, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method RoundNumber, addr 0x309bf08, size 0x130, virtual false, abstract: false, final false
   static inline void RoundNumber(ByRef<::Unity::Burst::__BurstString__NumberBuffer> number, int32_t pos, bool isCorrectlyRounded);
 
-  /// @brief Method ShouldRoundUp, addr 0x308caac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ShouldRoundUp, addr 0x309c930, size 0x24, virtual false, abstract: false, final false
   static inline bool ShouldRoundUp(::cordl_internals::Ptr<uint8_t> dig, int32_t i, bool isCorrectlyRounded);
 
-  /// @brief Method ValueToIntegerChar, addr 0x308bcf0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ValueToIntegerChar, addr 0x309bb74, size 0x44, virtual false, abstract: false, final false
   static inline uint8_t ValueToIntegerChar(int32_t value, bool uppercase);
 
-  /// @brief Method g_PowerOf10_Big, addr 0x308cff8, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method g_PowerOf10_Big, addr 0x309ce7c, size 0x248, virtual false, abstract: false, final false
   static inline ::Unity::Burst::__BurstString__tBigInt g_PowerOf10_Big(int32_t i);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_InfinityString();

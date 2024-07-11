@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::PolicyMappings::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::PolicyMappings::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x13fe5f0;
+  constexpr static std::size_t addrs = 0x14068e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::PolicyMappings::*)(::System::Collections::Hashtable*)>(
     &::Org::BouncyCastle::Asn1::X509::PolicyMappings::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x13fe618;
+  constexpr static std::size_t addrs = 0x1406910;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::PolicyMappings::*)(::System::Collections::IDictionary*)>(
     &::Org::BouncyCastle::Asn1::X509::PolicyMappings::_ctor)> {
   constexpr static std::size_t size = 0x5ec;
-  constexpr static std::size_t addrs = 0x13fe61c;
+  constexpr static std::size_t addrs = 0x1406914;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::PolicyMappings::*)()>(
     &::Org::BouncyCastle::Asn1::X509::PolicyMappings::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13fec08;
+  constexpr static std::size_t addrs = 0x1406f00;
 
   inline static const ::MethodInfo* methodInfo() {
 

@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__experimentPlatformKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14a4380, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ada38, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW experimentPlatformKey);
 
-  /// @brief Method get_experimentPlatformKey, addr 0x14a4378, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_experimentPlatformKey, addr 0x14ada30, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_experimentPlatformKey();
 
   /// @brief Convert to "::GlobalNamespace::IExperimentData"
@@ -114,10 +114,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x14a43a8, size 0x470, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x14ada60, size 0x470, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x14a4818, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x14aded0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -177,7 +177,7 @@ public:
   /// @brief Field _experimentModel, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__experimentModel, put = __cordl_internal_set__experimentModel))::GlobalNamespace::IExperimentModel* _experimentModel;
 
-  /// @brief Method Init, addr 0x14a42dc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x14ad994, size 0x94, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::OculusTestExperiment* New_ctor();
@@ -188,7 +188,7 @@ public:
 
   constexpr void __cordl_internal_set__experimentModel(::GlobalNamespace::IExperimentModel* value);
 
-  /// @brief Method .ctor, addr 0x14a4370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ada28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

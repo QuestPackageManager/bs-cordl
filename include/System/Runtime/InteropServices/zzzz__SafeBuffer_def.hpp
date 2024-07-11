@@ -31,13 +31,13 @@ public:
   /// @brief Field _numBytes, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__numBytes, put = __cordl_internal_set__numBytes))::System::UIntPtr _numBytes;
 
-  /// @brief Method AcquirePointer, addr 0x2870de8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AcquirePointer, addr 0x28847fc, size 0x108, virtual false, abstract: false, final false
   inline void AcquirePointer(ByRef<::cordl_internals::Ptr<uint8_t>> pointer);
 
-  /// @brief Method NotInitialized, addr 0x2870ef0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NotInitialized, addr 0x2884904, size 0x74, virtual false, abstract: false, final false
   static inline ::System::InvalidOperationException* NotInitialized();
 
-  /// @brief Method ReleasePointer, addr 0x2871034, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x2884a48, size 0xdc, virtual false, abstract: false, final false
   inline void ReleasePointer();
 
   constexpr ::System::UIntPtr const& __cordl_internal_get__numBytes() const;

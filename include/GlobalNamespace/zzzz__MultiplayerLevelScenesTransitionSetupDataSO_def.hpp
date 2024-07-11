@@ -127,25 +127,25 @@ public:
 
   __declspec(property(get = get_usingOverrideColorScheme, put = set_usingOverrideColorScheme)) bool usingOverrideColorScheme;
 
-  /// @brief Method Finish, addr 0x26bf6e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x26d5a30, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::MultiplayerResultsData* resultsData);
 
-  /// @brief Method FinishWithDisconnect, addr 0x26bf70c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method FinishWithDisconnect, addr 0x26d5a58, size 0x28, virtual false, abstract: false, final false
   inline void FinishWithDisconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method GetOrLoadMultiplayerEnvironmentInfo, addr 0x26bf2bc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetOrLoadMultiplayerEnvironmentInfo, addr 0x26d5608, size 0xf8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetOrLoadMultiplayerEnvironmentInfo();
 
-  /// @brief Method Init, addr 0x26bdf10, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26d4300, size 0x1e0, virtual false, abstract: false, final false
   inline void Init(::StringW gameMode, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData,
                    ::GlobalNamespace::ColorScheme* overrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                    ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
                    ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, bool useTestNoteCutSoundEffects);
 
-  /// @brief Method InitAndSetupScenes, addr 0x26bf43c, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method InitAndSetupScenes, addr 0x26d5788, size 0x2a8, virtual false, abstract: false, final false
   inline void InitAndSetupScenes();
 
-  /// @brief Method InitColorInfo, addr 0x26bf3b4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method InitColorInfo, addr 0x26d5700, size 0x88, virtual false, abstract: false, final false
   inline void InitColorInfo(::GlobalNamespace::ColorScheme* overrideColorScheme);
 
   static inline ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* New_ctor();
@@ -225,55 +225,55 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
-  /// @brief Method .ctor, addr 0x26bf734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d5a80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didDisconnectEvent, addr 0x26bc68c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didDisconnectEvent, addr 0x26d2a4c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didDisconnectEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x26bc5dc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x26d299c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
-  /// @brief Method get_beatmapKey, addr 0x26bf250, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x26d559c, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_beatmapLevel, addr 0x26bf278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevel, addr 0x26d55c4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevel* get_beatmapLevel();
 
-  /// @brief Method get_beatmapLevelData, addr 0x26bf2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelData, addr 0x26d55f8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
 
-  /// @brief Method get_colorScheme, addr 0x26bf29c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x26d55e8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* get_colorScheme();
 
-  /// @brief Method get_gameMode, addr 0x26bf240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameMode, addr 0x26d558c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_gameMode();
 
-  /// @brief Method get_usingOverrideColorScheme, addr 0x26bf288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usingOverrideColorScheme, addr 0x26d55d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_usingOverrideColorScheme();
 
-  /// @brief Method remove_didDisconnectEvent, addr 0x26bcb9c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didDisconnectEvent, addr 0x26d2f5c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didDisconnectEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x26bcaec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x26d2eac, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
-  /// @brief Method set_beatmapKey, addr 0x26bf264, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapKey, addr 0x26d55b0, size 0x14, virtual false, abstract: false, final false
   inline void set_beatmapKey(::GlobalNamespace::BeatmapKey value);
 
-  /// @brief Method set_beatmapLevel, addr 0x26bf280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapLevel, addr 0x26d55cc, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
 
-  /// @brief Method set_beatmapLevelData, addr 0x26bf2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapLevelData, addr 0x26d5600, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapLevelData(::GlobalNamespace::IBeatmapLevelData* value);
 
-  /// @brief Method set_colorScheme, addr 0x26bf2a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorScheme, addr 0x26d55f0, size 0x8, virtual false, abstract: false, final false
   inline void set_colorScheme(::GlobalNamespace::ColorScheme* value);
 
-  /// @brief Method set_gameMode, addr 0x26bf248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameMode, addr 0x26d5594, size 0x8, virtual false, abstract: false, final false
   inline void set_gameMode(::StringW value);
 
-  /// @brief Method set_usingOverrideColorScheme, addr 0x26bf290, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_usingOverrideColorScheme, addr 0x26d55dc, size 0xc, virtual false, abstract: false, final false
   inline void set_usingOverrideColorScheme(bool value);
 
 protected:

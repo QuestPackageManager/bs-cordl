@@ -29,12 +29,12 @@ namespace System::ComponentModel {
 class CORDL_TYPE CollectionChangeEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2f565ec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2f63000, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::CollectionChangeEventArgs* e);
 
   static inline ::System::ComponentModel::CollectionChangeEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2f564bc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f62ed0, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

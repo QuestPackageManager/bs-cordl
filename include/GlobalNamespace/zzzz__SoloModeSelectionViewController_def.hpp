@@ -114,24 +114,24 @@ public:
                       put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>,
                                                                                     ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x267c530, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x268fe98, size 0x1b0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleMenuButton, addr 0x267c6e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuButton, addr 0x2690048, size 0x28, virtual false, abstract: false, final false
   inline void HandleMenuButton(::GlobalNamespace::__SoloModeSelectionViewController__MenuType subMenuType);
 
   static inline ::GlobalNamespace::SoloModeSelectionViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__8_0, addr 0x267c710, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_0, addr 0x2690078, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
-  /// @brief Method <DidActivate>b__8_1, addr 0x267c734, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_1, addr 0x269009c, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_1();
 
-  /// @brief Method <DidActivate>b__8_2, addr 0x267c758, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_2, addr 0x26900c0, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_2();
 
-  /// @brief Method <DidActivate>b__8_3, addr 0x267c77c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_3, addr 0x26900e4, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_3();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__dismissButton() const;
@@ -167,13 +167,13 @@ public:
   constexpr void
   __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value);
 
-  /// @brief Method .ctor, addr 0x267c708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2690070, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x267c3d0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x268fd38, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x267c480, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x268fde8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value);
 
 protected:

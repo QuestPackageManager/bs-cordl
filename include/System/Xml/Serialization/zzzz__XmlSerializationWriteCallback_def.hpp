@@ -26,12 +26,12 @@ namespace System::Xml::Serialization {
 class CORDL_TYPE XmlSerializationWriteCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2f01bc4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2f105d8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* o);
 
   static inline ::System::Xml::Serialization::XmlSerializationWriteCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2f01a98, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f104ac, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

@@ -49,10 +49,10 @@ public:
 
   static inline ::LufsMetering::__LufsMeter____c* New_ctor();
 
-  /// @brief Method <IntegratedLoudness>b__5_0, addr 0x26c3f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <IntegratedLoudness>b__5_0, addr 0x26d9368, size 0x8, virtual false, abstract: false, final false
   inline float_t _IntegratedLoudness_b__5_0(float_t g, float_t z);
 
-  /// @brief Method .ctor, addr 0x26c3f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d9360, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::LufsMetering::__LufsMeter____c* getStaticF___9();
@@ -104,18 +104,18 @@ public:
   __declspec(property(get = __cordl_internal_get__outputDataNative,
                       put = __cordl_internal_set__outputDataNative))::ArrayW<::Unity::Collections::NativeArray_1<float_t>, ::Array<::Unity::Collections::NativeArray_1<float_t>>*> _outputDataNative;
 
-  /// @brief Method AnalyzeClipLoudness, addr 0x26c176c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method AnalyzeClipLoudness, addr 0x26d7b60, size 0xc4, virtual false, abstract: false, final false
   inline ::LufsMetering::LoudnessData AnalyzeClipLoudness(::UnityEngine::AudioClip* clip);
 
-  /// @brief Method IntegratedLoudness, addr 0x26c1830, size 0xe44, virtual false, abstract: false, final false
+  /// @brief Method IntegratedLoudness, addr 0x26d7c24, size 0xe44, virtual false, abstract: false, final false
   inline ::LufsMetering::LoudnessData IntegratedLoudness(::ArrayW<float_t, ::Array<float_t>*> interleavedData, int32_t numChannels, int32_t rate);
 
-  /// @brief Method MomentaryLoudness, addr 0x26c2684, size 0x7e8, virtual false, abstract: false, final false
+  /// @brief Method MomentaryLoudness, addr 0x26d8a78, size 0x7e8, virtual false, abstract: false, final false
   inline float_t MomentaryLoudness(::ArrayW<float_t, ::Array<float_t>*> interleavedData, int32_t numChannels, int32_t rate);
 
   static inline ::LufsMetering::LufsMeter* New_ctor();
 
-  /// @brief Method SwapData, addr 0x26c2674, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SwapData, addr 0x26d8a68, size 0x10, virtual false, abstract: false, final false
   inline void SwapData();
 
   constexpr ::ArrayW<::Unity::Collections::NativeArray_1<float_t>, ::Array<::Unity::Collections::NativeArray_1<float_t>>*> const& __cordl_internal_get__inputDataNative() const;
@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set__outputDataNative(::ArrayW<::Unity::Collections::NativeArray_1<float_t>, ::Array<::Unity::Collections::NativeArray_1<float_t>>*> value);
 
-  /// @brief Method .ctor, addr 0x26c2e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d9260, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<float_t, ::Array<float_t>*> getStaticF__channelGains();

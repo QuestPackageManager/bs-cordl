@@ -23,11 +23,11 @@ namespace System::Dynamic {
 class CORDL_TYPE SetIndexBinder : public ::System::Dynamic::DynamicMetaObjectBinder {
 public:
   // Declarations
-  /// @brief Method Bind, addr 0x2c75b90, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x2c895a4, size 0x12c, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackSetIndex, addr 0x2c75cbc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackSetIndex, addr 0x2c896d0, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackSetIndex(::System::Dynamic::DynamicMetaObject* target,
                                                                 ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> indexes,
                                                                 ::System::Dynamic::DynamicMetaObject* value);

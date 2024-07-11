@@ -3,19 +3,20 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_impl.hpp"
 #include "UnityEngine/zzzz__Plane_impl.hpp"
+#include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberBurnMarkSparkles_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
-#include "UnityEngine/zzzz__BoxCollider_def.hpp"
+#include "UnityEngine/zzzz__Collider_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SaberBurnMarkSparkles.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::Start)> {
-  constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x26d41d4;
+  constexpr static std::size_t size = 0x424;
+  constexpr static std::size_t addrs = 0x26e95c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), "Start",
@@ -28,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::OnDestroy)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x26d4668;
+  constexpr static std::size_t addrs = 0x26e99ec;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), "OnDestroy",
@@ -40,8 +41,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::OnEnable)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x26d4750;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x26e9ad4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), "OnEnable",
@@ -54,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::OnDisable)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x26d4824;
+  constexpr static std::size_t addrs = 0x26e9c2c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), "OnDisable",
@@ -67,8 +68,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SaberBurnMarkSparkles::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ByRef<::UnityEngine::Vector3>)>(&::GlobalNamespace::SaberBurnMarkSparkles::GetBurnMarkPos)> {
-  constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x26d48f8;
+  constexpr static std::size_t size = 0x320;
+  constexpr static std::size_t addrs = 0x26e9d00;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -84,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::LateUpdate)> {
   constexpr static std::size_t size = 0x6a0;
-  constexpr static std::size_t addrs = 0x26d4b04;
+  constexpr static std::size_t addrs = 0x26ea020;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), "LateUpdate",
@@ -96,8 +97,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d51a4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x26ea6c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), ".ctor",
@@ -105,6 +106,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_get_kRenderOffset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___kRenderOffset;
+}
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_get_kRenderOffset() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___kRenderOffset;
+}
+constexpr void GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_set_kRenderOffset(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___kRenderOffset = value;
+}
 constexpr ::UnityW<::UnityEngine::ParticleSystem>& GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_get__sparklesPS() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparklesPS;
@@ -129,17 +142,17 @@ constexpr void GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_set__bur
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____burnMarksPSPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::BoxCollider>& GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_get__boxCollider() {
+constexpr ::UnityW<::UnityEngine::Collider>& GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_get__collider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____boxCollider;
+  return this->____collider;
 }
-constexpr ::UnityW<::UnityEngine::BoxCollider> const& GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_get__boxCollider() const {
+constexpr ::UnityW<::UnityEngine::Collider> const& GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_get__collider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____boxCollider;
+  return this->____collider;
 }
-constexpr void GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_set__boxCollider(::UnityW<::UnityEngine::BoxCollider> value) {
+constexpr void GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_set__collider(::UnityW<::UnityEngine::Collider> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____boxCollider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____collider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::ColorManager*& GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_get__colorManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -24,16 +24,16 @@ public:
   // Declarations
   __declspec(property(get = get_Properties))::System::Configuration::ConfigurationPropertyCollection* Properties;
 
-  /// @brief Method IsModified, addr 0x2bfb108, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsModified, addr 0x2c0eb1c, size 0x38, virtual true, abstract: false, final false
   inline bool IsModified();
 
-  /// @brief Method Reset, addr 0x2bfb140, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2c0eb54, size 0x38, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentElement);
 
-  /// @brief Method ResetModified, addr 0x2bfb178, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ResetModified, addr 0x2c0eb8c, size 0x38, virtual true, abstract: false, final false
   inline void ResetModified();
 
-  /// @brief Method get_Properties, addr 0x2bfb0d0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x2c0eae4, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:

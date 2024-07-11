@@ -22,13 +22,13 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE JsonTokenUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsEndToken, addr 0x2a220ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsEndToken, addr 0x2a36b00, size 0x10, virtual false, abstract: false, final false
   static inline bool IsEndToken(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method IsPrimitiveToken, addr 0x2a35074, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitiveToken, addr 0x2a49a88, size 0x24, virtual false, abstract: false, final false
   static inline bool IsPrimitiveToken(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method IsStartToken, addr 0x2a35064, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsStartToken, addr 0x2a49a78, size 0x10, virtual false, abstract: false, final false
   static inline bool IsStartToken(::Newtonsoft::Json::JsonToken token);
 
 protected:

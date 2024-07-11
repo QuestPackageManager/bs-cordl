@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Collections::Generic::IntrospectiveSortUtilities::FloorLog2PlusOne)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x292c8f4;
+  constexpr static std::size_t addrs = 0x2940308;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::Collections::Generic::IntrospectiveSortUtilities::ThrowOrIgnoreBadComparer)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x292c928;
+  constexpr static std::size_t addrs = 0x294033c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -44,16 +44,16 @@ public:
 
   constexpr void __cordl_internal_set__missionId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14eb1e8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f63d4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW missionId, bool cleared);
 
-  /// @brief Method get_cleared, addr 0x14f0718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cleared, addr 0x14fb904, size 0x8, virtual false, abstract: false, final false
   inline bool get_cleared();
 
-  /// @brief Method get_missionId, addr 0x14f0710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionId, addr 0x14fb8fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionId();
 
-  /// @brief Method set_cleared, addr 0x14f0720, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_cleared, addr 0x14fb90c, size 0xc, virtual false, abstract: false, final false
   inline void set_cleared(bool value);
 
 protected:

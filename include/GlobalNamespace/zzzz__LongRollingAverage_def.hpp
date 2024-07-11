@@ -42,10 +42,10 @@ public:
 
   static inline ::GlobalNamespace::LongRollingAverage* New_ctor(int32_t window);
 
-  /// @brief Method Reset, addr 0x10a820c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x10b4504, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x10a8114, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x10b440c, size 0xf8, virtual false, abstract: false, final false
   inline void Update(int64_t value);
 
   constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __cordl_internal_get__buffer() const;
@@ -78,13 +78,13 @@ public:
 
   constexpr void __cordl_internal_set__length(int32_t value);
 
-  /// @brief Method .ctor, addr 0x10a80ac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b43a4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t window);
 
-  /// @brief Method get_currentAverage, addr 0x10a8094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentAverage, addr 0x10b438c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_currentAverage();
 
-  /// @brief Method get_hasValue, addr 0x10a809c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasValue, addr 0x10b4394, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasValue();
 
 protected:

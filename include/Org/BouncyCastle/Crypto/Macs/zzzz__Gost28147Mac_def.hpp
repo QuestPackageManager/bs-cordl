@@ -54,30 +54,30 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x11739ac, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x117eca4, size 0x200, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method CM5func, addr 0x11737b8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CM5func, addr 0x117eab0, size 0xe4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CM5func(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t bufOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> mac);
 
-  /// @brief Method DoFinal, addr 0x1173bac, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x117eea4, size 0x148, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GenerateWorkingKey, addr 0x1173104, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GenerateWorkingKey, addr 0x117e3fc, size 0xfc, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> GenerateWorkingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> userKey);
 
-  /// @brief Method GetMacSize, addr 0x1173564, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMacSize, addr 0x117e85c, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetMacSize();
 
-  /// @brief Method Init, addr 0x1173274, size 0x278, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x117e56c, size 0x278, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::Gost28147Mac* New_ctor();
 
-  /// @brief Method Reset, addr 0x11734ec, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x117e7e4, size 0x38, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Update, addr 0x117389c, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x117eb94, size 0x110, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_S() const;
@@ -122,25 +122,25 @@ public:
 
   constexpr void __cordl_internal_set_workingKey(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x117304c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117e344, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method bytesToint, addr 0x1173200, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method bytesToint, addr 0x117e4f8, size 0x74, virtual false, abstract: false, final false
   static inline int32_t bytesToint(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method get_AlgorithmName, addr 0x1173524, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x117e81c, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method gost28147MacFunc, addr 0x1173654, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method gost28147MacFunc, addr 0x117e94c, size 0xe4, virtual false, abstract: false, final false
   inline void gost28147MacFunc(::ArrayW<int32_t, ::Array<int32_t>*> workingKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method gost28147_mainStep, addr 0x117356c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method gost28147_mainStep, addr 0x117e864, size 0xe8, virtual false, abstract: false, final false
   inline int32_t gost28147_mainStep(int32_t n1, int32_t key);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
   constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
-  /// @brief Method intTobytes, addr 0x1173738, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method intTobytes, addr 0x117ea30, size 0x80, virtual false, abstract: false, final false
   static inline void intTobytes(int32_t num, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
 protected:

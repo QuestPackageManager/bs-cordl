@@ -380,7 +380,7 @@ public:
 
   constexpr void __cordl_internal_set_strictAngles(bool value);
 
-  /// @brief Method .ctor, addr 0x14f5848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x15019a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -535,7 +535,7 @@ public:
 
   constexpr void __cordl_internal_set_swapColors(bool value);
 
-  /// @brief Method .ctor, addr 0x14f5850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x15019a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -642,10 +642,10 @@ public:
 
   constexpr void __cordl_internal_set_soloFreePlayOverallStatsData(::GlobalNamespace::__PlayerSaveDataV1_0_1__PlayerOverallStatsData* value);
 
-  /// @brief Method .ctor, addr 0x14f5858, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x15019b0, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x14f5904, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1501a5c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PlayerSaveDataV1_0_1__PlayerOverallStatsData* campaignOverallStatsData,
                     ::GlobalNamespace::__PlayerSaveDataV1_0_1__PlayerOverallStatsData* soloFreePlayOverallStatsData,
                     ::GlobalNamespace::__PlayerSaveDataV1_0_1__PlayerOverallStatsData* partyFreePlayOverallStatsData);
@@ -798,10 +798,10 @@ public:
 
   constexpr void __cordl_internal_set_totalScore(int64_t value);
 
-  /// @brief Method .ctor, addr 0x14f58fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1501a54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x14f5940, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1501a98, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount,
                     int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier);
 
@@ -962,7 +962,7 @@ public:
 
   constexpr void __cordl_internal_set_validScore(bool value);
 
-  /// @brief Method .ctor, addr 0x14f59f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1501b48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1053,7 +1053,7 @@ public:
 
   constexpr void __cordl_internal_set_missionId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14f59f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1501b50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1115,7 +1115,7 @@ public:
 
   constexpr void __cordl_internal_set_unlockedAchievementsToUpload(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x14f5a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1501b58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1254,7 +1254,7 @@ public:
 
   constexpr void __cordl_internal_set_showedMissionHelpIds(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x14f5a08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1501b60, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1356,7 +1356,7 @@ public:
 
   constexpr void __cordl_internal_set_playerSpecificSettings(::GlobalNamespace::__PlayerSaveDataV1_0_1__PlayerSpecificSettings* value);
 
-  /// @brief Method .ctor, addr 0x14f5a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1501b70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1456,7 +1456,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14f5838, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1501990, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

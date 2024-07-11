@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EditorAttribute::*)(::StringW, ::StringW)>(
     &::System::ComponentModel::EditorAttribute::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2f5df44;
+  constexpr static std::size_t addrs = 0x2f6a958;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::EditorAttribute::*)()>(
     &::System::ComponentModel::EditorAttribute::get_EditorBaseTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f5dfd4;
+  constexpr static std::size_t addrs = 0x2f6a9e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::EditorAttribute*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::EditorAttribute::*)()>(
     &::System::ComponentModel::EditorAttribute::get_EditorTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f5dfdc;
+  constexpr static std::size_t addrs = 0x2f6a9f0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::EditorAttribute*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::EditorAttribute::*)()>(
     &::System::ComponentModel::EditorAttribute::get_TypeId)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2f5dfe4;
+  constexpr static std::size_t addrs = 0x2f6a9f8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::EditorAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::EditorAttribute::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2f5e070;
+  constexpr static std::size_t addrs = 0x2f6aa84;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::EditorAttribute::*)()>(&::System::ComponentModel::EditorAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f5e114;
+  constexpr static std::size_t addrs = 0x2f6ab28;
 
   inline static const ::MethodInfo* methodInfo() {
 

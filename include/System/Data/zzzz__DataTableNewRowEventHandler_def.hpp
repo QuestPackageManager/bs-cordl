@@ -29,12 +29,12 @@ namespace System::Data {
 class CORDL_TYPE DataTableNewRowEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2cd9fc4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2cef9d8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Data::DataTableNewRowEventArgs* e);
 
   static inline ::System::Data::DataTableNewRowEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2cd9e94, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cef8a8, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

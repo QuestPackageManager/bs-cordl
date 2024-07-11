@@ -49,28 +49,28 @@ public:
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method Bind, addr 0x2c6f868, size 0x5fc, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x2c8327c, size 0x5fc, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Expression* Bind(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args,
                                                        ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* parameters,
                                                        ::System::Linq::Expressions::LabelTarget* returnLabel);
 
-  /// @brief Method CreateArgumentMetaObjects, addr 0x2c6fe64, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method CreateArgumentMetaObjects, addr 0x2c83878, size 0x18c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>
   CreateArgumentMetaObjects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args,
                             ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* parameters);
 
-  /// @brief Method GetUpdateExpression, addr 0x2c6fff0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetUpdateExpression, addr 0x2c83a04, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetUpdateExpression(::System::Type* type);
 
   static inline ::System::Dynamic::DynamicMetaObjectBinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c6f7a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c831b8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsStandardBinder, addr 0x2c700b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsStandardBinder, addr 0x2c83ac4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsStandardBinder();
 
-  /// @brief Method get_ReturnType, addr 0x2c6f7fc, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x2c83210, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_ReturnType();
 
 protected:

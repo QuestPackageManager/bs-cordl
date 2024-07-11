@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26752b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2688c1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

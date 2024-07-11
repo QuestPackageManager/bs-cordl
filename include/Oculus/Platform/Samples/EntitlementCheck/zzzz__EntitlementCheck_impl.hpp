@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(
     &::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::add_UserFailedEntitlementCheck)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2b02b6c;
+  constexpr static std::size_t addrs = 0x2b16580;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(
     &::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::remove_UserFailedEntitlementCheck)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2b02c24;
+  constexpr static std::size_t addrs = 0x2b16638;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(
     &::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::add_UserPassedEntitlementCheck)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2b02cdc;
+  constexpr static std::size_t addrs = 0x2b166f0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(
     &::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::remove_UserPassedEntitlementCheck)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2b02d98;
+  constexpr static std::size_t addrs = 0x2b167ac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::*)()>(
     &::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::Start)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x2b02e54;
+  constexpr static std::size_t addrs = 0x2b16868;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::*)(::Oculus::Platform::Message*)>(
     &::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::EntitlementCheckCallback)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2b03284;
+  constexpr static std::size_t addrs = 0x2b16c98;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::*)(bool)>(
     &::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::HandleEntitlementCheckResult)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x2b03008;
+  constexpr static std::size_t addrs = 0x2b16a1c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::*)()>(
     &::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::_ctor)> {
   constexpr static std::size_t size = 0x1010;
-  constexpr static std::size_t addrs = 0x2b032b4;
+  constexpr static std::size_t addrs = 0x2b16cc8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

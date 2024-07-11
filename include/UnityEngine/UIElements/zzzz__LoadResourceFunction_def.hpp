@@ -34,12 +34,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE LoadResourceFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3547cb8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x355eb3c, size 0x14, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> Invoke(::StringW pathName, ::System::Type* type, float_t dpiScaling);
 
   static inline ::UnityEngine::UIElements::LoadResourceFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3547be0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355ea64, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

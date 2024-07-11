@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_mainEffect(::UnityW<::GlobalNamespace::MainEffectSO> value);
 
-  /// @brief Method .ctor, addr 0x14cfe5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14d9a00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,13 +102,13 @@ public:
   constexpr void
   __cordl_internal_set__presets(::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*> value);
 
-  /// @brief Method .ctor, addr 0x14cfe54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14d99f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_namedPresets, addr 0x14cfe4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_namedPresets, addr 0x14d99f0, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
 
-  /// @brief Method get_presets, addr 0x14cfe44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presets, addr 0x14d99e8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*> get_presets();
 
 protected:

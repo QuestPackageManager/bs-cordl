@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::GameSettings::DebugSettings::*)()>(&::BeatSaber::GameSettings::DebugSettings::get_isDirty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1067dd4;
+  constexpr static std::size_t addrs = 0x106e984;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::DebugSettings*>::get(), "get_isDirty",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::DebugSettings::*)(bool)>(&::BeatSaber::GameSettings::DebugSettings::set_isDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1067ddc;
+  constexpr static std::size_t addrs = 0x106e98c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::GameSettings::DebugSettings::*)()>(
     &::BeatSaber::GameSettings::DebugSettings::get_enableFpsCounter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1067de8;
+  constexpr static std::size_t addrs = 0x106e998;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::DebugSettings*>::get(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::DebugSettings::*)(bool)>(
     &::BeatSaber::GameSettings::DebugSettings::set_enableFpsCounter)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x1067b90;
+  constexpr static std::size_t addrs = 0x106e740;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::GameSettings::DebugSettings::*)()>(
     &::BeatSaber::GameSettings::DebugSettings::get_enableFpsRecorder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1067df0;
+  constexpr static std::size_t addrs = 0x106e9a0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::DebugSettings*>::get(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::DebugSettings::*)(bool)>(
     &::BeatSaber::GameSettings::DebugSettings::set_enableFpsRecorder)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x1067ba4;
+  constexpr static std::size_t addrs = 0x106e754;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::GameSettings::DebugSettings::*)()>(
     &::BeatSaber::GameSettings::DebugSettings::get_enableMemoryTracker)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1067df8;
+  constexpr static std::size_t addrs = 0x106e9a8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::DebugSettings*>::get(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::DebugSettings::*)(bool)>(
     &::BeatSaber::GameSettings::DebugSettings::set_enableMemoryTracker)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x1067bb8;
+  constexpr static std::size_t addrs = 0x106e768;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::GameSettings::DebugSettings::*)()>(
     &::BeatSaber::GameSettings::DebugSettings::get_showBeatmapLevelVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1067e00;
+  constexpr static std::size_t addrs = 0x106e9b0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::DebugSettings*>::get(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::DebugSettings::*)(bool)>(
     &::BeatSaber::GameSettings::DebugSettings::set_showBeatmapLevelVersion)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x1067e08;
+  constexpr static std::size_t addrs = 0x106e9b8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::DebugSettings::*)()>(&::BeatSaber::GameSettings::DebugSettings::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1067e1c;
+  constexpr static std::size_t addrs = 0x106e9cc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::DebugSettings*>::get(), ".ctor",

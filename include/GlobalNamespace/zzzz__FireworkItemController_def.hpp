@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set__useOwnGradient(bool value);
 
-  /// @brief Method .ctor, addr 0x26cecbc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e40b0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -204,7 +204,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__FireworkItemController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26ceccc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e40c0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -266,21 +266,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26ced18, size 0x230, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26e410c, size 0x230, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x26cef48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x26e433c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26cef50, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26e4344, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26cef90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26e4384, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26ced14, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26e4108, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -319,7 +319,7 @@ public:
 
   constexpr void __cordl_internal_set__soundTimeToCenter_5__2(float_t value);
 
-  /// @brief Method .ctor, addr 0x26ce884, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e3c78, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -458,27 +458,27 @@ public:
 
   __declspec(property(put = set_directionalLightIntensity)) float_t directionalLightIntensity;
 
-  /// @brief Method Awake, addr 0x26ce610, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26e3a04, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Fire, addr 0x26ce7fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Fire, addr 0x26e3bf0, size 0x20, virtual false, abstract: false, final false
   inline void Fire();
 
-  /// @brief Method FireCoroutine, addr 0x26ce81c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FireCoroutine, addr 0x26e3c10, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FireCoroutine();
 
-  /// @brief Method InitializeParticleSystem, addr 0x26ce988, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method InitializeParticleSystem, addr 0x26e3d7c, size 0x314, virtual false, abstract: false, final false
   inline void InitializeParticleSystem();
 
   static inline ::GlobalNamespace::FireworkItemController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x26ce694, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x26e3a88, size 0x68, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method PlayExplosionSound, addr 0x26ce8ac, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method PlayExplosionSound, addr 0x26e3ca0, size 0xdc, virtual false, abstract: false, final false
   inline void PlayExplosionSound();
 
-  /// @brief Method SetLightsColor, addr 0x26ce6fc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SetLightsColor, addr 0x26e3af0, size 0x100, virtual false, abstract: false, final false
   inline void SetLightsColor(float_t intensity);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -592,19 +592,19 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
-  /// @brief Method .ctor, addr 0x26cec9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e4090, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x26ce4b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x26e38a4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x26ce560, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x26e3954, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
-  /// @brief Method set_directionalLight, addr 0x26ce4a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_directionalLight, addr 0x26e3894, size 0x8, virtual false, abstract: false, final false
   inline void set_directionalLight(::GlobalNamespace::DirectionalLight* value);
 
-  /// @brief Method set_directionalLightIntensity, addr 0x26ce4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_directionalLightIntensity, addr 0x26e389c, size 0x8, virtual false, abstract: false, final false
   inline void set_directionalLightIntensity(float_t value);
 
 protected:

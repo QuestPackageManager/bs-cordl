@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::AttachToPanelEvent*)>(
     &::UnityEngine::UIElements::GroupBoxUtility::OnOptionAttachToPanel)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x3582f78;
+  constexpr static std::size_t addrs = 0x3599dfc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::DetachFromPanelEvent*)>(
     &::UnityEngine::UIElements::GroupBoxUtility::OnOptionDetachFromPanel)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x35835a4;
+  constexpr static std::size_t addrs = 0x359a428;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IGroupManager* (*)(::UnityEngine::UIElements::IGroupBox*)>(
     &::UnityEngine::UIElements::GroupBoxUtility::FindOrCreateGroupManager)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x35831c4;
+  constexpr static std::size_t addrs = 0x359a048;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::DetachFromPanelEvent*)>(
     &::UnityEngine::UIElements::GroupBoxUtility::OnGroupBoxDetachedFromPanel)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3583758;
+  constexpr static std::size_t addrs = 0x359a5dc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::GroupBoxUtility::OnPanelDestroyed)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x358380c;
+  constexpr static std::size_t addrs = 0x359a690;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

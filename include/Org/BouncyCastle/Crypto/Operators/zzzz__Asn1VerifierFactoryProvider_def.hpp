@@ -42,7 +42,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IVerifierFactoryProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::IVerifierFactoryProvider*() noexcept;
 
-  /// @brief Method CreateVerifierFactory, addr 0x1192104, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method CreateVerifierFactory, addr 0x119e3fc, size 0xc4, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IVerifierFactory* CreateVerifierFactory(::System::Object* algorithmDetails);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x11920dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119e3d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method get_SignatureAlgNames, addr 0x11921c8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgNames, addr 0x119e4c0, size 0x4c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IVerifierFactoryProvider"

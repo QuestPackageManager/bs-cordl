@@ -59,13 +59,13 @@ public:
 
   static inline ::GlobalNamespace::__PosesRecorder____c* New_ctor();
 
-  /// @brief Method <Init>b__6_0, addr 0x26a0554, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Init>b__6_0, addr 0x26b3530, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> _Init_b__6_0(::GlobalNamespace::PoseObject* ro);
 
-  /// @brief Method <Init>b__6_1, addr 0x26a056c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Init>b__6_1, addr 0x26b3548, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _Init_b__6_1(::GlobalNamespace::PoseObject* ro);
 
-  /// @brief Method .ctor, addr 0x26a054c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b3528, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__PosesRecorder____c* getStaticF___9();
@@ -123,22 +123,22 @@ public:
 
   __declspec(property(get = get_data))::GlobalNamespace::PosesRecordingData* data;
 
-  /// @brief Method Init, addr 0x269dc7c, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26b0c58, size 0x238, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> poseObjects,
                    ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration);
 
-  /// @brief Method LateUpdate, addr 0x26a0188, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x26b3164, size 0x1c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::PosesRecorder* New_ctor();
 
-  /// @brief Method RecordTick, addr 0x26a01a4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method RecordTick, addr 0x26b3180, size 0x1c8, virtual false, abstract: false, final false
   inline void RecordTick(float_t time);
 
-  /// @brief Method StartRecording, addr 0x269e630, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StartRecording, addr 0x26b160c, size 0xc, virtual false, abstract: false, final false
   inline void StartRecording();
 
-  /// @brief Method StopRecording, addr 0x269e5a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StopRecording, addr 0x26b1584, size 0xc, virtual false, abstract: false, final false
   inline void StopRecording();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -159,10 +159,10 @@ public:
 
   constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method .ctor, addr 0x26a04e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b34bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_data, addr 0x26a0180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x26b315c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PosesRecordingData* get_data();
 
 protected:

@@ -94,10 +94,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2bf2ef8, size 0x3ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2c0690c, size 0x3ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2bf32a4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2c06cb8, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -156,10 +156,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2bf32fc, size 0x330, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2c06d10, size 0x330, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2bf362c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2c07040, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -229,10 +229,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2bf3684, size 0x380, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2c07098, size 0x380, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2bf3a04, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2c07418, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -337,18 +337,18 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAuthenticationTokenProvider"
   constexpr operator ::GlobalNamespace::IAuthenticationTokenProvider*() noexcept;
 
-  /// @brief Method GetAuthenticationToken, addr 0x2bf2b8c, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method GetAuthenticationToken, addr 0x2c065a0, size 0xf8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
 
-  /// @brief Method GetTokenPlatform, addr 0x2bf2c84, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method GetTokenPlatform, addr 0x2c06698, size 0x60, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__AuthenticationToken__Platform GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
 
-  /// @brief Method GetXPlatformAccessToken, addr 0x2bf2ce4, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method GetXPlatformAccessToken, addr 0x2c066f8, size 0x110, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache);
 
   static inline ::GlobalNamespace::PlatformAuthenticationTokenProvider* New_ctor(::GlobalNamespace::IPlatformUserModel* platformUserModel, ::GlobalNamespace::UserInfo* userInfo);
 
-  /// @brief Method RequestXPlatformAccessToken, addr 0x2bf2df4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method RequestXPlatformAccessToken, addr 0x2c06808, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::GlobalNamespace::XPlatformAccessTokenData const& __cordl_internal_get__cachedXPlatformAccessToken() const;
@@ -399,16 +399,16 @@ public:
 
   constexpr void __cordl_internal_set__xPlatformTokenRetryDelayExpiration(float_t value);
 
-  /// @brief Method .ctor, addr 0x2bf2a9c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c064b0, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IPlatformUserModel* platformUserModel, ::GlobalNamespace::UserInfo* userInfo);
 
-  /// @brief Method get_hashedUserId, addr 0x2bf2a84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hashedUserId, addr 0x2c06498, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_hashedUserId();
 
-  /// @brief Method get_platform, addr 0x2bf2a94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_platform, addr 0x2c064a8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__AuthenticationToken__Platform get_platform();
 
-  /// @brief Method get_userName, addr 0x2bf2a8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0x2c064a0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::BGNet::Core::IPlatformAccessTokenFetcher"

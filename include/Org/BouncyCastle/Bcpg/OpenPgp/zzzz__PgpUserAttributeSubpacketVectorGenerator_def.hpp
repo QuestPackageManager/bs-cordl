@@ -33,12 +33,12 @@ public:
   /// @brief Field list, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::IList* list;
 
-  /// @brief Method Generate, addr 0x1337938, size 0x2c8, virtual true, abstract: false, final false
+  /// @brief Method Generate, addr 0x1340c30, size 0x2c8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector* Generate();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVectorGenerator* New_ctor();
 
-  /// @brief Method SetImageAttribute, addr 0x13377e8, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method SetImageAttribute, addr 0x1340ae0, size 0x150, virtual true, abstract: false, final false
   inline void SetImageAttribute(::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format imageType, ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData);
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_list();
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_list(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x1337c00, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1340ef8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::ModestTree::Util::PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x363ef9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3655e20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

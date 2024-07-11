@@ -44,25 +44,25 @@ public:
 
   static inline ::UnityEngine::UIElements::__UIEventRegistration____c* New_ctor();
 
-  /// @brief Method <.cctor>b__1_0, addr 0x357c0f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_0, addr 0x3592f78, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__1_0();
 
-  /// @brief Method <.cctor>b__1_1, addr 0x357c140, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_1, addr 0x3592fc4, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__1_1();
 
-  /// @brief Method <.cctor>b__1_2, addr 0x357c18c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_2, addr 0x3593010, size 0x64, virtual false, abstract: false, final false
   inline bool __cctor_b__1_2(int32_t i, ::System::IntPtr ptr);
 
-  /// @brief Method <.cctor>b__1_3, addr 0x357c1f0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_3, addr 0x3593074, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__1_3();
 
-  /// @brief Method <.cctor>b__1_4, addr 0x357c23c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_4, addr 0x35930c0, size 0x54, virtual false, abstract: false, final false
   inline bool __cctor_b__1_4(::System::Exception* exception);
 
-  /// @brief Method <.cctor>b__1_5, addr 0x357c290, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_5, addr 0x3593114, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__1_5();
 
-  /// @brief Method .ctor, addr 0x357c0ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3592f70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__UIEventRegistration____c* getStaticF___9();
@@ -102,25 +102,25 @@ public:
   /// @brief Field s_Utilities, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Utilities, put = setStaticF_s_Utilities))::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUIElementsUtility*>* s_Utilities;
 
-  /// @brief Method CleanupRoots, addr 0x357bcd0, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method CleanupRoots, addr 0x3592b54, size 0x1dc, virtual false, abstract: false, final false
   static inline void CleanupRoots();
 
-  /// @brief Method EndContainerGUIFromException, addr 0x357b894, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method EndContainerGUIFromException, addr 0x3592718, size 0x218, virtual false, abstract: false, final false
   static inline bool EndContainerGUIFromException(::System::Exception* exception);
 
-  /// @brief Method MakeCurrentIMGUIContainerDirty, addr 0x357beac, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method MakeCurrentIMGUIContainerDirty, addr 0x3592d30, size 0x1dc, virtual false, abstract: false, final false
   static inline void MakeCurrentIMGUIContainerDirty();
 
-  /// @brief Method ProcessEvent, addr 0x357baac, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x3592930, size 0x224, virtual false, abstract: false, final false
   static inline bool ProcessEvent(int32_t instanceID, ::System::IntPtr nativeEventPtr);
 
-  /// @brief Method RegisterUIElementSystem, addr 0x357b45c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RegisterUIElementSystem, addr 0x35922e0, size 0x84, virtual false, abstract: false, final false
   static inline void RegisterUIElementSystem(::UnityEngine::UIElements::IUIElementsUtility* utility);
 
-  /// @brief Method ReleaseCapture, addr 0x357b6b8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method ReleaseCapture, addr 0x359253c, size 0x1dc, virtual false, abstract: false, final false
   static inline void ReleaseCapture();
 
-  /// @brief Method TakeCapture, addr 0x357b4e0, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method TakeCapture, addr 0x3592364, size 0x1d8, virtual false, abstract: false, final false
   static inline void TakeCapture();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUIElementsUtility*>* getStaticF_s_Utilities();

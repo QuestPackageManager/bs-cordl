@@ -39,49 +39,49 @@ public:
 
   __declspec(property(get = get_rootCount)) int32_t rootCount;
 
-  /// @brief Method Equals, addr 0x345c858, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x346c6dc, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x345c850, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x346c6d4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetIsLoadedInternal, addr 0x345c360, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetIsLoadedInternal, addr 0x346c1e4, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetIsLoadedInternal(int32_t sceneHandle);
 
-  /// @brief Method GetNameInternal, addr 0x345c324, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetNameInternal, addr 0x346c1a8, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetNameInternal(int32_t sceneHandle);
 
-  /// @brief Method GetRootCountInternal, addr 0x345c39c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetRootCountInternal, addr 0x346c220, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetRootCountInternal(int32_t sceneHandle);
 
-  /// @brief Method GetRootGameObjects, addr 0x345c514, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x346c398, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> GetRootGameObjects();
 
-  /// @brief Method GetRootGameObjects, addr 0x345c5ec, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x346c470, size 0x258, virtual false, abstract: false, final false
   inline void GetRootGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* rootGameObjects);
 
-  /// @brief Method GetRootGameObjectsInternal, addr 0x345c3d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetRootGameObjectsInternal, addr 0x346c25c, size 0x44, virtual false, abstract: false, final false
   static inline void GetRootGameObjectsInternal(int32_t sceneHandle, ::System::Object* resultRootList);
 
-  /// @brief Method IsValid, addr 0x345c424, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x346c2a8, size 0x3c, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method IsValidInternal, addr 0x345c2e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValidInternal, addr 0x346c16c, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsValidInternal(int32_t sceneHandle);
 
-  /// @brief Method get_handle, addr 0x345c41c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handle, addr 0x346c2a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_handle();
 
-  /// @brief Method get_isLoaded, addr 0x345c49c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isLoaded, addr 0x346c320, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isLoaded();
 
-  /// @brief Method get_name, addr 0x345c460, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x346c2e4, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_rootCount, addr 0x345c4d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rootCount, addr 0x346c35c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_rootCount();
 
-  /// @brief Method op_Equality, addr 0x345c844, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x346c6c8, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::SceneManagement::Scene lhs, ::UnityEngine::SceneManagement::Scene rhs);
 
   // Ctor Parameters []

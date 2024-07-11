@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::CallContextSecurityData::*)()>(
     &::System::Runtime::Remoting::Messaging::CallContextSecurityData::get_HasInfo)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2841ce8;
+  constexpr static std::size_t addrs = 0x28546fc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::CallContextSecurityData::*)()>(
     &::System::Runtime::Remoting::Messaging::CallContextSecurityData::Clone)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2841c70;
+  constexpr static std::size_t addrs = 0x2854684;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::CallContextSecurityData::*)()>(
     &::System::Runtime::Remoting::Messaging::CallContextSecurityData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2841dcc;
+  constexpr static std::size_t addrs = 0x28547e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

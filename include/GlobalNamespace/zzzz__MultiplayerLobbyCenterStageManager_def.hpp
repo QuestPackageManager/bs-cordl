@@ -45,18 +45,18 @@ public:
   /// @brief Field _minOuterCircleRadius, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__minOuterCircleRadius, put = __cordl_internal_set__minOuterCircleRadius)) float_t _minOuterCircleRadius;
 
-  /// @brief Method ActivateCenterStageManager, addr 0x2644cd8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ActivateCenterStageManager, addr 0x26585f8, size 0x24, virtual false, abstract: false, final false
   inline void ActivateCenterStageManager();
 
-  /// @brief Method DeactivateCenterStageManager, addr 0x2644df4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DeactivateCenterStageManager, addr 0x2658714, size 0x24, virtual false, abstract: false, final false
   inline void DeactivateCenterStageManager();
 
-  /// @brief Method Init, addr 0x2644cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26585f0, size 0x8, virtual false, abstract: false, final false
   inline void Init(float_t innerCircleRadius, float_t minOuterCircleRadius);
 
   static inline ::GlobalNamespace::MultiplayerLobbyCenterStageManager* New_ctor();
 
-  /// @brief Method RecalculateCenterPosition, addr 0x2644cfc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method RecalculateCenterPosition, addr 0x265861c, size 0xf8, virtual false, abstract: false, final false
   inline void RecalculateCenterPosition();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__centerObjectTransform() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set__minOuterCircleRadius(float_t value);
 
-  /// @brief Method .ctor, addr 0x2644e18, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2658738, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

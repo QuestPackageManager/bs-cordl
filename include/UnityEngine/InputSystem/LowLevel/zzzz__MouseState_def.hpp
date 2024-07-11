@@ -57,7 +57,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method WithButton, addr 0x317bbb8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method WithButton, addr 0x318ea3c, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::MouseState WithButton(::UnityEngine::InputSystem::LowLevel::MouseButton button, bool state);
 
   constexpr uint16_t const& __cordl_internal_get_buttons() const;
@@ -96,10 +96,10 @@ public:
 
   constexpr void __cordl_internal_set_scroll(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_Format, addr 0x317bb88, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x318ea0c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_format, addr 0x317bbe4, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x318ea68, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"

@@ -52,10 +52,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::IBcpgKey"
   constexpr operator ::Org::BouncyCastle::Bcpg::IBcpgKey*() noexcept;
 
-  /// @brief Method Encode, addr 0x143bab0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x1445da8, size 0xd4, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncoded, addr 0x143ba2c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x1445d24, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -74,19 +74,19 @@ public:
 
   constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Bcpg::MPInteger* value);
 
-  /// @brief Method .ctor, addr 0x143b584, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x144587c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x143b91c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1445c14, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* e);
 
-  /// @brief Method get_Format, addr 0x143b9ec, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_Format, addr 0x1445ce4, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_Format();
 
-  /// @brief Method get_Modulus, addr 0x143b9d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Modulus, addr 0x1445cc8, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
-  /// @brief Method get_PublicExponent, addr 0x143b9b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PublicExponent, addr 0x1445cac, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
 
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"

@@ -48,14 +48,14 @@ public:
 
   constexpr void __cordl_internal_set__totalIndices_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x105674c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x105e1e0, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(int32_t headTopPrimaryColorIndex, int32_t headTopSecondaryColorIndex, int32_t glassesColorIndex, int32_t facialHairColorIndex, int32_t handsColorIndex,
                     int32_t clothesPrimaryColorIndex, int32_t clothesSecondaryColorIndex, int32_t clothesDetailColorIndex);
 
-  /// @brief Method get_colorIndices, addr 0x1056cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorIndices, addr 0x105e768, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_colorIndices();
 
-  /// @brief Method get_totalIndices, addr 0x1056ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalIndices, addr 0x105e760, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalIndices();
 
 protected:

@@ -48,15 +48,15 @@ public:
   /// @brief Field m_Thickness, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Thickness, put = __cordl_internal_set_m_Thickness)) float_t m_Thickness;
 
-  /// @brief Method CopyShape, addr 0x32ecc4c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x32fbad0, size 0x8c, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Pipe* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x32ecd10, size 0xa70, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x32fbb94, size 0xa70, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method UpdateBounds, addr 0x32eccd8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x32fbb5c, size 0x38, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
   constexpr int32_t const& __cordl_internal_get_m_HeightCuts() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Thickness(float_t value);
 
-  /// @brief Method .ctor, addr 0x32ed780, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32fc604, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

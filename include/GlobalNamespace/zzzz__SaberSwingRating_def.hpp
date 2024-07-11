@@ -20,13 +20,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE SaberSwingRating : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AfterCutStepRating, addr 0x14a5814, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method AfterCutStepRating, addr 0x14aeecc, size 0x3c, virtual false, abstract: false, final false
   static inline float_t AfterCutStepRating(float_t angleDiff, float_t normalDiff);
 
-  /// @brief Method BeforeCutStepRating, addr 0x14a57ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeforeCutStepRating, addr 0x14aee64, size 0x3c, virtual false, abstract: false, final false
   static inline float_t BeforeCutStepRating(float_t angleDiff, float_t normalDiff);
 
-  /// @brief Method NormalRating, addr 0x14a57e8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method NormalRating, addr 0x14aeea0, size 0x2c, virtual false, abstract: false, final false
   static inline float_t NormalRating(float_t normalDiff);
 
 protected:

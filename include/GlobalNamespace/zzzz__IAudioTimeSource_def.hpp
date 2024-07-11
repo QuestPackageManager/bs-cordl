@@ -29,6 +29,8 @@ public:
 
   __declspec(property(get = get_songTime)) float_t songTime;
 
+  __declspec(property(get = get_timeScale)) float_t timeScale;
+
   /// @brief Method get_isReady, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isReady();
 
@@ -43,6 +45,9 @@ public:
 
   /// @brief Method get_songTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_songTime();
+
+  /// @brief Method get_timeScale, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline float_t get_timeScale();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAudioTimeSource", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

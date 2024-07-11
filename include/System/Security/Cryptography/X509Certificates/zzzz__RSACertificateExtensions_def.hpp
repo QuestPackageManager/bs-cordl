@@ -25,7 +25,7 @@ namespace System::Security::Cryptography::X509Certificates {
 class CORDL_TYPE RSACertificateExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRSAPublicKey, addr 0x2c008e4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetRSAPublicKey, addr 0x2c142f8, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* GetRSAPublicKey(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
 protected:

@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState, ::GlobalNamespace::LevelCompletionResults*)>(
     &::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::Disconnect)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x2715008;
+  constexpr static std::size_t addrs = 0x2729530;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::*)()>(
     &::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::ResolveDisconnectButtonString)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2716dd4;
+  constexpr static std::size_t addrs = 0x272b570;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::*)()>(
     &::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2716e44;
+  constexpr static std::size_t addrs = 0x272b5e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

@@ -37,11 +37,11 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer* New_ctor();
 
-  /// @brief Method System.Collections.Generic.IComparer<System.Linq.Expressions.Interpreter.DebugInfo>.Compare, addr 0x2c496b4, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IComparer<System.Linq.Expressions.Interpreter.DebugInfo>.Compare, addr 0x2c5d0c8, size 0x34, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IComparer_System_Linq_Expressions_Interpreter_DebugInfo__Compare(::System::Linq::Expressions::Interpreter::DebugInfo* d1,
                                                                                                              ::System::Linq::Expressions::Interpreter::DebugInfo* d2);
 
-  /// @brief Method .ctor, addr 0x2c496ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5d0c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::System::Linq::Expressions::Interpreter::DebugInfo*>"
@@ -96,13 +96,13 @@ public:
   /// @brief Field s_debugComparer, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_debugComparer, put = setStaticF_s_debugComparer))::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer* s_debugComparer;
 
-  /// @brief Method GetMatchingDebugInfo, addr 0x2c45208, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetMatchingDebugInfo, addr 0x2c58c1c, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::DebugInfo*
   GetMatchingDebugInfo(::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*, ::Array<::System::Linq::Expressions::Interpreter::DebugInfo*>*> debugInfos, int32_t index);
 
   static inline ::System::Linq::Expressions::Interpreter::DebugInfo* New_ctor();
 
-  /// @brief Method ToString, addr 0x2c49420, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c5ce34, size 0x214, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_EndLine() const;
@@ -135,7 +135,7 @@ public:
 
   constexpr void __cordl_internal_set_StartLine(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c49418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5ce2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer* getStaticF_s_debugComparer();

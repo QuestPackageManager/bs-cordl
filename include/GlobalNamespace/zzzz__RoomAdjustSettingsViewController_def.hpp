@@ -56,51 +56,51 @@ public:
   /// @brief Field _zStepValuePicker, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__zStepValuePicker, put = __cordl_internal_set__zStepValuePicker))::UnityW<::GlobalNamespace::StepValuePicker> _zStepValuePicker;
 
-  /// @brief Method DidActivate, addr 0x267add8, size 0x30c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x268e740, size 0x30c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method Move, addr 0x267b288, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x268ebf0, size 0xc4, virtual false, abstract: false, final false
   inline void Move(::UnityEngine::Vector3 move);
 
   static inline ::GlobalNamespace::RoomAdjustSettingsViewController* New_ctor();
 
-  /// @brief Method RefreshRoomOffsetValuePicker, addr 0x267b4c8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RefreshRoomOffsetValuePicker, addr 0x268ee30, size 0xc4, virtual false, abstract: false, final false
   inline void RefreshRoomOffsetValuePicker(::GlobalNamespace::StepValuePicker* stepValuePicker, float_t roomOffsetValue);
 
-  /// @brief Method RefreshTexts, addr 0x267b0e4, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method RefreshTexts, addr 0x268ea4c, size 0x1a4, virtual false, abstract: false, final false
   inline void RefreshTexts();
 
-  /// @brief Method ResetRoom, addr 0x267b400, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ResetRoom, addr 0x268ed68, size 0xc8, virtual false, abstract: false, final false
   inline void ResetRoom();
 
-  /// @brief Method Rotate, addr 0x267b34c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x268ecb4, size 0xb4, virtual false, abstract: false, final false
   inline void Rotate(float_t rotation);
 
-  /// @brief Method <DidActivate>b__10_0, addr 0x267b594, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_0, addr 0x268eefc, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_0();
 
-  /// @brief Method <DidActivate>b__10_1, addr 0x267b5a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_1, addr 0x268ef10, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_1();
 
-  /// @brief Method <DidActivate>b__10_2, addr 0x267b5bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_2, addr 0x268ef24, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_2();
 
-  /// @brief Method <DidActivate>b__10_3, addr 0x267b5d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_3, addr 0x268ef38, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_3();
 
-  /// @brief Method <DidActivate>b__10_4, addr 0x267b5e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_4, addr 0x268ef4c, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_4();
 
-  /// @brief Method <DidActivate>b__10_5, addr 0x267b5f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_5, addr 0x268ef60, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_5();
 
-  /// @brief Method <DidActivate>b__10_6, addr 0x267b60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_6, addr 0x268ef74, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_6();
 
-  /// @brief Method <DidActivate>b__10_7, addr 0x267b614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_7, addr 0x268ef7c, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_7();
 
-  /// @brief Method <DidActivate>b__10_8, addr 0x267b61c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_8, addr 0x268ef84, size 0x4, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_8();
 
   constexpr ::BeatSaber::GameSettings::MainSettingsHandler*& __cordl_internal_get__mainSettingsHandler();
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set__zStepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
 
-  /// @brief Method .ctor, addr 0x267b58c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268eef4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

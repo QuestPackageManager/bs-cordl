@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEntityReference::*)(::StringW, ::System::Xml::XmlDocument*)>(
     &::System::Xml::XmlEntityReference::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2eb35c4;
+  constexpr static std::size_t addrs = 0x2ec2fd8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlEntityReference::*)()>(&::System::Xml::XmlEntityReference::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2eb7bb4;
+  constexpr static std::size_t addrs = 0x2ec75c8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlEntityReference::*)()>(&::System::Xml::XmlEntityReference::get_LocalName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2eb7bbc;
+  constexpr static std::size_t addrs = 0x2ec75d0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlEntityReference::*)()>(&::System::Xml::XmlEntityReference::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2eb7bc4;
+  constexpr static std::size_t addrs = 0x2ec75d8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEntityReference::*)(::StringW)>(&::System::Xml::XmlEntityReference::set_Value)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2eb7bcc;
+  constexpr static std::size_t addrs = 0x2ec75e0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlEntityReference::*)()>(
     &::System::Xml::XmlEntityReference::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2eb7c2c;
+  constexpr static std::size_t addrs = 0x2ec7640;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlEntityReference::*)(bool)>(
     &::System::Xml::XmlEntityReference::CloneNode)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2eb7c34;
+  constexpr static std::size_t addrs = 0x2ec7648;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlEntityReference::*)()>(&::System::Xml::XmlEntityReference::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2eb7c6c;
+  constexpr static std::size_t addrs = 0x2ec7680;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlEntityReference::*)()>(&::System::Xml::XmlEntityReference::get_IsContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2eb7c74;
+  constexpr static std::size_t addrs = 0x2ec7688;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEntityReference::*)(::System::Xml::XmlNode*)>(
     &::System::Xml::XmlEntityReference::SetParent)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2eb7c7c;
+  constexpr static std::size_t addrs = 0x2ec7690;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEntityReference::*)(::System::Xml::XmlNode*)>(
     &::System::Xml::XmlEntityReference::SetParentForLoad)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2eb836c;
+  constexpr static std::size_t addrs = 0x2ec7d80;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlLinkedNode* (::System::Xml::XmlEntityReference::*)()>(
     &::System::Xml::XmlEntityReference::get_LastNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2eb837c;
+  constexpr static std::size_t addrs = 0x2ec7d90;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEntityReference::*)(::System::Xml::XmlLinkedNode*)>(
     &::System::Xml::XmlEntityReference::set_LastNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2eb8384;
+  constexpr static std::size_t addrs = 0x2ec7d98;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlEntityReference::*)(::System::Xml::XmlNodeType)>(
     &::System::Xml::XmlEntityReference::IsValidChildType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2eb838c;
+  constexpr static std::size_t addrs = 0x2ec7da0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEntityReference::*)(::System::Xml::XmlWriter*)>(
     &::System::Xml::XmlEntityReference::WriteTo)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2eb83b0;
+  constexpr static std::size_t addrs = 0x2ec7dc4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlEntityReference::*)(::System::Xml::XmlWriter*)>(
     &::System::Xml::XmlEntityReference::WriteContentTo)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x2eb83dc;
+  constexpr static std::size_t addrs = 0x2ec7df0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlEntityReference::*)()>(&::System::Xml::XmlEntityReference::get_BaseURI)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2eb86d8;
+  constexpr static std::size_t addrs = 0x2ec80ec;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlEntityReference::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlEntityReference::ConstructBaseURI)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2eb8708;
+  constexpr static std::size_t addrs = 0x2ec811c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlEntityReference::*)()>(&::System::Xml::XmlEntityReference::get_ChildBaseURI)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2eb87dc;
+  constexpr static std::size_t addrs = 0x2ec81f0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlEntityReference*>::get(), "get_ChildBaseURI",

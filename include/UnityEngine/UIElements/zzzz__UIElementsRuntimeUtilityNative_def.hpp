@@ -28,19 +28,19 @@ public:
   /// @brief Field UpdateRuntimePanelsCallback, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_UpdateRuntimePanelsCallback, put = setStaticF_UpdateRuntimePanelsCallback))::System::Action* UpdateRuntimePanelsCallback;
 
-  /// @brief Method RegisterPlayerloopCallback, addr 0x3624b48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method RegisterPlayerloopCallback, addr 0x363a9cc, size 0x28, virtual false, abstract: false, final false
   static inline void RegisterPlayerloopCallback();
 
-  /// @brief Method RepaintOverlayPanels, addr 0x3624a80, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RepaintOverlayPanels, addr 0x363a904, size 0x64, virtual false, abstract: false, final false
   static inline void RepaintOverlayPanels();
 
-  /// @brief Method UnregisterPlayerloopCallback, addr 0x3624b70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UnregisterPlayerloopCallback, addr 0x363a9f4, size 0x28, virtual false, abstract: false, final false
   static inline void UnregisterPlayerloopCallback();
 
-  /// @brief Method UpdateRuntimePanels, addr 0x3624ae4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UpdateRuntimePanels, addr 0x363a968, size 0x64, virtual false, abstract: false, final false
   static inline void UpdateRuntimePanels();
 
-  /// @brief Method VisualElementCreation, addr 0x3624b98, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method VisualElementCreation, addr 0x363aa1c, size 0x28, virtual false, abstract: false, final false
   static inline void VisualElementCreation();
 
   static inline ::System::Action* getStaticF_RepaintOverlayPanelsCallback();

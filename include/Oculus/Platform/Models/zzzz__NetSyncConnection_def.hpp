@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_ZoneId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2afdd20, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b11734, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:

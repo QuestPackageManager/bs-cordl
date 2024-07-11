@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PerformanceConfigurationStats__BoolStats::*)(bool)>(
     &::GlobalNamespace::__PerformanceConfigurationStats__BoolStats::Update)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26a4f90;
+  constexpr static std::size_t addrs = 0x26b7f6c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__PerformanceConfigurationStats__BoolStats::*)()>(
     &::GlobalNamespace::__PerformanceConfigurationStats__BoolStats::CreateLogValue)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x26a5054;
+  constexpr static std::size_t addrs = 0x26b8030;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PerformanceConfigurationStats__IntStats::*)(int32_t)>(
     &::GlobalNamespace::__PerformanceConfigurationStats__IntStats::Update)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x26a4e78;
+  constexpr static std::size_t addrs = 0x26b7e54;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__PerformanceConfigurationStats__IntStats::*)()>(
     &::GlobalNamespace::__PerformanceConfigurationStats__IntStats::CreateLogValue)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x26a50f8;
+  constexpr static std::size_t addrs = 0x26b80d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PerformanceConfigurationStats__FloatStats::*)(float_t)>(
     &::GlobalNamespace::__PerformanceConfigurationStats__FloatStats::Update)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x26a4f04;
+  constexpr static std::size_t addrs = 0x26b7ee0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__PerformanceConfigurationStats__FloatStats::*)()>(
     &::GlobalNamespace::__PerformanceConfigurationStats__FloatStats::CreateLogValue)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x26a5208;
+  constexpr static std::size_t addrs = 0x26b81e4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -171,10 +171,10 @@ constexpr ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats::__Perf
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats::__PerformanceConfigurationStats__FloatStats() {}
-template <typename T> inline void GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<T>::Update(T value) {
+template <typename T> inline void GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<T>::Update(int32_t value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<T>>::get(), "Update",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 template <typename T> inline ::StringW GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<T>::CreateLogValue() {
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceConfigurationStats::*)()>(
     &::GlobalNamespace::PerformanceConfigurationStats::Update)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x26a4d38;
+  constexpr static std::size_t addrs = 0x26b7d14;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationStats*>::get(),
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceConfigurationStats::*)()>(
     &::GlobalNamespace::PerformanceConfigurationStats::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x26a4fac;
+  constexpr static std::size_t addrs = 0x26b7f88;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationStats*>::get(),

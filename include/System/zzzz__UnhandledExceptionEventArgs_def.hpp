@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__isTerminating(bool value);
 
-  /// @brief Method .ctor, addr 0x296e458, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2982e6c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* exception, bool isTerminating);
 
-  /// @brief Method get_ExceptionObject, addr 0x296e4cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExceptionObject, addr 0x2982ee0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_ExceptionObject();
 
-  /// @brief Method get_IsTerminating, addr 0x296e4d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsTerminating, addr 0x2982ee8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsTerminating();
 
 protected:

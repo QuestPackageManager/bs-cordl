@@ -19,15 +19,15 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE FocusInEvent : public ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::FocusInEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x35d247c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x35e8300, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x35d24d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x35e8354, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::FocusInEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35d24dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e8360, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

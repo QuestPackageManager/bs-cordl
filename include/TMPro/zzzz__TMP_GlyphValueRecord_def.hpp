@@ -34,40 +34,40 @@ public:
 
   __declspec(property(get = get_yPlacement, put = set_yPlacement)) float_t yPlacement;
 
-  /// @brief Method .ctor, addr 0x3370844, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337e6c8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::GlyphValueRecord_Legacy valueRecord);
 
-  /// @brief Method .ctor, addr 0x3370850, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337e6d4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
 
-  /// @brief Method .ctor, addr 0x336e114, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337bf98, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t xPlacement, float_t yPlacement, float_t xAdvance, float_t yAdvance);
 
-  /// @brief Method get_xAdvance, addr 0x3370824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xAdvance, addr 0x337e6a8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xAdvance();
 
-  /// @brief Method get_xPlacement, addr 0x3370804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xPlacement, addr 0x337e688, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xPlacement();
 
-  /// @brief Method get_yAdvance, addr 0x3370834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yAdvance, addr 0x337e6b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yAdvance();
 
-  /// @brief Method get_yPlacement, addr 0x3370814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yPlacement, addr 0x337e698, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yPlacement();
 
-  /// @brief Method op_Addition, addr 0x33708b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x337e734, size 0x14, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_GlyphValueRecord op_Addition(::TMPro::TMP_GlyphValueRecord a, ::TMPro::TMP_GlyphValueRecord b);
 
-  /// @brief Method set_xAdvance, addr 0x337082c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_xAdvance, addr 0x337e6b0, size 0x8, virtual false, abstract: false, final false
   inline void set_xAdvance(float_t value);
 
-  /// @brief Method set_xPlacement, addr 0x337080c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_xPlacement, addr 0x337e690, size 0x8, virtual false, abstract: false, final false
   inline void set_xPlacement(float_t value);
 
-  /// @brief Method set_yAdvance, addr 0x337083c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_yAdvance, addr 0x337e6c0, size 0x8, virtual false, abstract: false, final false
   inline void set_yAdvance(float_t value);
 
-  /// @brief Method set_yPlacement, addr 0x337081c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_yPlacement, addr 0x337e6a0, size 0x8, virtual false, abstract: false, final false
   inline void set_yPlacement(float_t value);
 
   // Ctor Parameters []

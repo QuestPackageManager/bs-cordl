@@ -27,16 +27,16 @@ public:
   /// @brief Field kDefault, offset 0xffffffff, size 0x54
   static __declspec(property(get = getStaticF_kDefault, put = setStaticF_kDefault))::BeatSaber::RecPlay::PoseOffsets kDefault;
 
-  /// @brief Method AdjustHead, addr 0x106f0fc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AdjustHead, addr 0x1075d98, size 0x5c, virtual false, abstract: false, final false
   inline void AdjustHead(ByRef<::UnityEngine::Pose> pose);
 
-  /// @brief Method AdjustLeftHand, addr 0x106f024, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AdjustLeftHand, addr 0x1075cc0, size 0x6c, virtual false, abstract: false, final false
   inline void AdjustLeftHand(ByRef<::UnityEngine::Pose> pose);
 
-  /// @brief Method AdjustPose, addr 0x106f418, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AdjustPose, addr 0x10760b4, size 0xc0, virtual false, abstract: false, final false
   static inline void AdjustPose(ByRef<::UnityEngine::Pose> pose, ByRef<::UnityEngine::Pose> room, ByRef<::UnityEngine::Pose> controller);
 
-  /// @brief Method AdjustRightHand, addr 0x106f090, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AdjustRightHand, addr 0x1075d2c, size 0x6c, virtual false, abstract: false, final false
   inline void AdjustRightHand(ByRef<::UnityEngine::Pose> pose);
 
   static inline ::BeatSaber::RecPlay::PoseOffsets getStaticF_kDefault();

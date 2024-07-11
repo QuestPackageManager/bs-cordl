@@ -46,7 +46,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
   constexpr operator ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*() noexcept;
 
-  /// @brief Method Generate, addr 0x13c8bf4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x13d1eec, size 0x4, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Generate();
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* New_ctor(::StringW type, ::ArrayW<uint8_t, ::Array<uint8_t>*> content);
@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13c8ad8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13d1dd0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
-  /// @brief Method .ctor, addr 0x13c8b50, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13d1e48, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::System::Collections::IList* headers, ::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
-  /// @brief Method get_Content, addr 0x13c8bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x13d1ee4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Content();
 
-  /// @brief Method get_Headers, addr 0x13c8be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x13d1edc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_Headers();
 
-  /// @brief Method get_Type, addr 0x13c8bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x13d1ed4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Type();
 
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"

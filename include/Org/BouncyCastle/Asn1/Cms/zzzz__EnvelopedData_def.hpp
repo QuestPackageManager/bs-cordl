@@ -72,14 +72,14 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method CalculateVersion, addr 0x10dbe70, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method CalculateVersion, addr 0x10e8168, size 0x2e0, virtual false, abstract: false, final false
   static inline int32_t CalculateVersion(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo, ::Org::BouncyCastle::Asn1::Asn1Set* recipientInfos,
                                          ::Org::BouncyCastle::Asn1::Asn1Set* unprotectedAttrs);
 
-  /// @brief Method GetInstance, addr 0x10dc414, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10e870c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::EnvelopedData* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x10dc42c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10e8724, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::EnvelopedData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EnvelopedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo, ::Org::BouncyCastle::Asn1::Asn1Set* recipientInfos,
@@ -92,7 +92,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EnvelopedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10dc4f8, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10e87f0, size 0x1a4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo*& __cordl_internal_get_encryptedContentInfo();
@@ -125,30 +125,30 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x10dbdc0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e80b8, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo, ::Org::BouncyCastle::Asn1::Asn1Set* recipientInfos,
                     ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* encryptedContentInfo, ::Org::BouncyCastle::Asn1::Asn1Set* unprotectedAttrs);
 
-  /// @brief Method .ctor, addr 0x10dc150, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e8448, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo, ::Org::BouncyCastle::Asn1::Asn1Set* recipientInfos,
                     ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* encryptedContentInfo, ::Org::BouncyCastle::Asn1::Cms::Attributes* unprotectedAttrs);
 
-  /// @brief Method .ctor, addr 0x10dc218, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e8510, size 0x1fc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_EncryptedContentInfo, addr 0x10dc4e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptedContentInfo, addr 0x10e87e0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* get_EncryptedContentInfo();
 
-  /// @brief Method get_OriginatorInfo, addr 0x10dc4d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OriginatorInfo, addr 0x10e87d0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* get_OriginatorInfo();
 
-  /// @brief Method get_RecipientInfos, addr 0x10dc4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RecipientInfos, addr 0x10e87d8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_RecipientInfos();
 
-  /// @brief Method get_UnprotectedAttrs, addr 0x10dc4f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnprotectedAttrs, addr 0x10e87e8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_UnprotectedAttrs();
 
-  /// @brief Method get_Version, addr 0x10dc4d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x10e87c8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:

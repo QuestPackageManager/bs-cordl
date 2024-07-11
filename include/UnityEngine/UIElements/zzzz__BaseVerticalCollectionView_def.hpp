@@ -360,165 +360,165 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method AddToSelection, addr 0x35c3bc0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method AddToSelection, addr 0x35d9a44, size 0x78, virtual false, abstract: false, final false
   inline void AddToSelection(int32_t index);
 
-  /// @brief Method AddToSelection, addr 0x35c4134, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method AddToSelection, addr 0x35d9fb8, size 0x390, virtual false, abstract: false, final false
   inline void AddToSelection(::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-  /// @brief Method AddToSelectionWithoutValidation, addr 0x35c4540, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method AddToSelectionWithoutValidation, addr 0x35da3c4, size 0x4e0, virtual false, abstract: false, final false
   inline void AddToSelectionWithoutValidation(int32_t index);
 
-  /// @brief Method Apply, addr 0x35c2070, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x35d7ef4, size 0x3b4, virtual false, abstract: false, final false
   inline bool Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op, bool shiftKey);
 
-  /// @brief Method Apply, addr 0x35c2b3c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x35d89c0, size 0xe4, virtual false, abstract: false, final false
   inline void Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op, ::UnityEngine::UIElements::EventBase* sourceEvent);
 
-  /// @brief Method ClearSelection, addr 0x35c02c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ClearSelection, addr 0x35d614c, size 0x94, virtual false, abstract: false, final false
   inline void ClearSelection();
 
-  /// @brief Method ClearSelectionWithoutValidation, addr 0x35c3dd4, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method ClearSelectionWithoutValidation, addr 0x35d9c58, size 0x360, virtual false, abstract: false, final false
   inline void ClearSelectionWithoutValidation();
 
   /// @brief Method CreateDragAndDropController, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::ICollectionDragAndDropController* CreateDragAndDropController();
 
-  /// @brief Method CreateDragger, addr 0x35c0c30, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CreateDragger, addr 0x35d6ab4, size 0x64, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ListViewDragger* CreateDragger();
 
-  /// @brief Method CreateViewController, addr 0x35c0b3c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CreateViewController, addr 0x35d69c0, size 0x64, virtual true, abstract: false, final false
   inline void CreateViewController();
 
-  /// @brief Method CreateVirtualizationController, addr 0x35c0af4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method CreateVirtualizationController, addr 0x35d6978, size 0x48, virtual true, abstract: false, final false
   inline void CreateVirtualizationController();
 
   /// @brief Method CreateVirtualizationController, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void CreateVirtualizationController();
 
-  /// @brief Method DoRangeSelection, addr 0x35c3c38, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method DoRangeSelection, addr 0x35d9abc, size 0x19c, virtual false, abstract: false, final false
   inline void DoRangeSelection(int32_t rangeSelectionFinalIndex);
 
-  /// @brief Method DoSelect, addr 0x35c38c0, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method DoSelect, addr 0x35d9744, size 0x29c, virtual false, abstract: false, final false
   inline void DoSelect(::UnityEngine::Vector2 localPosition, int32_t clickCount, bool actionKey, bool shiftKey);
 
-  /// @brief Method ExecuteDefaultAction, addr 0x35c51ac, size 0x378, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultAction, addr 0x35db030, size 0x378, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method GetOrCreateViewController, addr 0x35c0130, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateViewController, addr 0x35d5fb4, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::CollectionViewController* GetOrCreateViewController();
 
-  /// @brief Method GetOrCreateVirtualizationController, addr 0x35c0524, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateVirtualizationController, addr 0x35d63a8, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::CollectionVirtualizationController* GetOrCreateVirtualizationController();
 
-  /// @brief Method HasValidDataAndBindings, addr 0x35c1234, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HasValidDataAndBindings, addr 0x35d70b8, size 0x38, virtual false, abstract: false, final false
   inline bool HasValidDataAndBindings();
 
-  /// @brief Method InitializeDragAndDropController, addr 0x35c08c4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InitializeDragAndDropController, addr 0x35d6748, size 0x78, virtual false, abstract: false, final false
   inline void InitializeDragAndDropController();
 
   static inline ::UnityEngine::UIElements::BaseVerticalCollectionView* New_ctor();
 
-  /// @brief Method NotifyOfSelectionChange, addr 0x35c44c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method NotifyOfSelectionChange, addr 0x35da348, size 0x7c, virtual false, abstract: false, final false
   inline void NotifyOfSelectionChange();
 
-  /// @brief Method OnAttachToPanel, addr 0x35c1a4c, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method OnAttachToPanel, addr 0x35d78d0, size 0x35c, virtual false, abstract: false, final false
   inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnCustomStyleResolved, addr 0x35c56e4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method OnCustomStyleResolved, addr 0x35db568, size 0x164, virtual false, abstract: false, final false
   inline void OnCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* e);
 
-  /// @brief Method OnDetachFromPanel, addr 0x35c1da8, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method OnDetachFromPanel, addr 0x35d7c2c, size 0x2c8, virtual false, abstract: false, final false
   inline void OnDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method OnItemIndexChanged, addr 0x35c126c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method OnItemIndexChanged, addr 0x35d70f0, size 0x1e4, virtual false, abstract: false, final false
   inline void OnItemIndexChanged(int32_t srcIndex, int32_t dstIndex);
 
-  /// @brief Method OnItemsSourceChanged, addr 0x35c1450, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OnItemsSourceChanged, addr 0x35d72d4, size 0x78, virtual false, abstract: false, final false
   inline void OnItemsSourceChanged();
 
-  /// @brief Method OnPointerCancel, addr 0x35c3778, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnPointerCancel, addr 0x35d95fc, size 0x8c, virtual false, abstract: false, final false
   inline void OnPointerCancel(::UnityEngine::UIElements::PointerCancelEvent* evt);
 
-  /// @brief Method OnPointerDown, addr 0x35c36bc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x35d9540, size 0xbc, virtual false, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  /// @brief Method OnPointerMove, addr 0x35c2c48, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMove, addr 0x35d8acc, size 0x88, virtual false, abstract: false, final false
   inline void OnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-  /// @brief Method OnPointerUp, addr 0x35c3804, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x35d9688, size 0xbc, virtual false, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method OnScroll, addr 0x35c19b8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnScroll, addr 0x35d783c, size 0x94, virtual false, abstract: false, final false
   inline void OnScroll(::UnityEngine::Vector2 offset);
 
-  /// @brief Method OnSizeChanged, addr 0x35c552c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method OnSizeChanged, addr 0x35db3b0, size 0x1b8, virtual false, abstract: false, final false
   inline void OnSizeChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnViewDataReady, addr 0x35c5178, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x35daffc, size 0x34, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method PostRefresh, addr 0x35c1760, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method PostRefresh, addr 0x35d75e4, size 0x12c, virtual true, abstract: false, final false
   inline void PostRefresh();
 
-  /// @brief Method ProcessPointerDown, addr 0x35c32c4, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method ProcessPointerDown, addr 0x35d9148, size 0x3f8, virtual false, abstract: false, final false
   inline void ProcessPointerDown(::UnityEngine::UIElements::IPointerEvent* evt);
 
-  /// @brief Method ProcessPointerUp, addr 0x35c2cd0, size 0x5f4, virtual false, abstract: false, final false
+  /// @brief Method ProcessPointerUp, addr 0x35d8b54, size 0x5f4, virtual false, abstract: false, final false
   inline void ProcessPointerUp(::UnityEngine::UIElements::IPointerEvent* evt);
 
-  /// @brief Method ProcessSingleClick, addr 0x35c3b5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ProcessSingleClick, addr 0x35d99e0, size 0x4, virtual false, abstract: false, final false
   inline void ProcessSingleClick(int32_t clickedIndex);
 
-  /// @brief Method Rebuild, addr 0x35c0178, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x35d5ffc, size 0x6c, virtual false, abstract: false, final false
   inline void Rebuild();
 
-  /// @brief Method RefreshItems, addr 0x35c0060, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RefreshItems, addr 0x35d5ee4, size 0x6c, virtual false, abstract: false, final false
   inline void RefreshItems();
 
-  /// @brief Method RefreshSelection, addr 0x35c14c8, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method RefreshSelection, addr 0x35d734c, size 0x298, virtual false, abstract: false, final false
   inline void RefreshSelection();
 
-  /// @brief Method RemoveFromSelection, addr 0x35c3b60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromSelection, addr 0x35d99e4, size 0x60, virtual false, abstract: false, final false
   inline void RemoveFromSelection(int32_t index);
 
-  /// @brief Method RemoveFromSelectionWithoutValidation, addr 0x35c4a20, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromSelectionWithoutValidation, addr 0x35da8a4, size 0x40c, virtual false, abstract: false, final false
   inline void RemoveFromSelectionWithoutValidation(int32_t index);
 
-  /// @brief Method Resize, addr 0x35c188c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x35d7710, size 0xa0, virtual false, abstract: false, final false
   inline void Resize(::UnityEngine::Vector2 size, int32_t layoutPass);
 
-  /// @brief Method ResolveItemHeight, addr 0x35c0554, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ResolveItemHeight, addr 0x35d63d8, size 0xb8, virtual false, abstract: false, final false
   inline float_t ResolveItemHeight(float_t height);
 
-  /// @brief Method ScrollToItem, addr 0x35c192c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ScrollToItem, addr 0x35d77b0, size 0x8c, virtual false, abstract: false, final false
   inline void ScrollToItem(int32_t index);
 
-  /// @brief Method SelectAll, addr 0x35c2424, size 0x5e4, virtual false, abstract: false, final false
+  /// @brief Method SelectAll, addr 0x35d82a8, size 0x5e4, virtual false, abstract: false, final false
   inline void SelectAll();
 
-  /// @brief Method SetSelection, addr 0x35c035c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetSelection, addr 0x35d61e0, size 0x88, virtual false, abstract: false, final false
   inline void SetSelection(int32_t index);
 
-  /// @brief Method SetSelection, addr 0x35c4e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSelection, addr 0x35dacb0, size 0x8, virtual false, abstract: false, final false
   inline void SetSelection(::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
 
-  /// @brief Method SetSelectionInternal, addr 0x35c4e34, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method SetSelectionInternal, addr 0x35dacb8, size 0x33c, virtual false, abstract: false, final false
   inline void SetSelectionInternal(::System::Collections::Generic::IEnumerable_1<int32_t>* indices, bool sendNotification);
 
-  /// @brief Method SetSelectionWithoutNotify, addr 0x35c5170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSelectionWithoutNotify, addr 0x35daff4, size 0x8, virtual false, abstract: false, final false
   inline void SetSelectionWithoutNotify(::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
 
-  /// @brief Method SetViewController, addr 0x35c0ba0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetViewController, addr 0x35d6a24, size 0x90, virtual false, abstract: false, final false
   inline void SetViewController(::UnityEngine::UIElements::CollectionViewController* controller);
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x35c58d4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x35db758, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x35c58d0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x35db754, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method <Apply>g__HandleSelectionAndScroll|164_0, addr 0x35c2a08, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method <Apply>g__HandleSelectionAndScroll|164_0, addr 0x35d888c, size 0x134, virtual false, abstract: false, final false
   inline void _Apply_g__HandleSelectionAndScroll_164_0(int32_t index, ByRef<::UnityEngine::UIElements::__BaseVerticalCollectionView____c__DisplayClass164_0> _cordl_fixed_empty_name_whitespace);
 
   constexpr ::System::Action_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get__destroyItem_k__BackingField();
@@ -701,16 +701,16 @@ public:
 
   constexpr void __cordl_internal_set_onSelectionChange(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* value);
 
-  /// @brief Method <.ctor>b__143_0, addr 0x35c5b84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__143_0, addr 0x35dba08, size 0xc, virtual false, abstract: false, final false
   inline void __ctor_b__143_0(float_t v);
 
-  /// @brief Method .ctor, addr 0x35c0c94, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d6b18, size 0x5a0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onItemsChosen, addr 0x35bfd80, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_onItemsChosen, addr 0x35d5c04, size 0xb4, virtual false, abstract: false, final false
   inline void add_onItemsChosen(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* value);
 
-  /// @brief Method add_onSelectionChange, addr 0x35bfee8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_onSelectionChange, addr 0x35d5d6c, size 0xb4, virtual false, abstract: false, final false
   inline void add_onSelectionChange(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* value);
 
   static inline ::StringW getStaticF_backgroundFillUssClassName();
@@ -737,76 +737,76 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_activeItems, addr 0x35c0464, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_activeItems, addr 0x35d62e8, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ReusableCollectionItem*>* get_activeItems();
 
-  /// @brief Method get_bindItem, addr 0x35c01e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindItem, addr 0x35d6068, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_bindItem();
 
-  /// @brief Method get_contentContainer, addr 0x35c0214, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x35d6098, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_destroyItem, addr 0x35c0204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_destroyItem, addr 0x35d6088, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* get_destroyItem();
 
-  /// @brief Method get_dragger, addr 0x35c04e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dragger, addr 0x35d6368, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ListViewDragger* get_dragger();
 
-  /// @brief Method get_fixedItemHeight, addr 0x35c09e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fixedItemHeight, addr 0x35d686c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fixedItemHeight();
 
-  /// @brief Method get_getItemId, addr 0x35c0050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_getItemId, addr 0x35d5ed4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<int32_t, int32_t>* get_getItemId();
 
-  /// @brief Method get_itemsSource, addr 0x35c00cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_itemsSource, addr 0x35d5f50, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_itemsSource();
 
-  /// @brief Method get_lastHeight, addr 0x35c0aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastHeight, addr 0x35d6970, size 0x8, virtual false, abstract: false, final false
   inline float_t get_lastHeight();
 
-  /// @brief Method get_makeItem, addr 0x35c0168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_makeItem, addr 0x35d5fec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* get_makeItem();
 
-  /// @brief Method get_reorderable, addr 0x35c068c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_reorderable, addr 0x35d6510, size 0xf0, virtual false, abstract: false, final false
   inline bool get_reorderable();
 
-  /// @brief Method get_scrollView, addr 0x35c04dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scrollView, addr 0x35d6360, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ScrollView* get_scrollView();
 
-  /// @brief Method get_selectedIndex, addr 0x35c03e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_selectedIndex, addr 0x35d6268, size 0x74, virtual false, abstract: false, final false
   inline int32_t get_selectedIndex();
 
-  /// @brief Method get_selectedIndices, addr 0x35c045c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedIndices, addr 0x35d62e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_selectedIndices();
 
-  /// @brief Method get_selectionType, addr 0x35c021c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectionType, addr 0x35d60a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::SelectionType get_selectionType();
 
-  /// @brief Method get_showAlternatingRowBackgrounds, addr 0x35c0984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showAlternatingRowBackgrounds, addr 0x35d6808, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::AlternatingRowBackground get_showAlternatingRowBackgrounds();
 
-  /// @brief Method get_sourceIncludesArraySize, addr 0x35c0160, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_sourceIncludesArraySize, addr 0x35d5fe4, size 0x8, virtual true, abstract: false, final false
   inline bool get_sourceIncludesArraySize();
 
-  /// @brief Method get_unbindItem, addr 0x35c01f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unbindItem, addr 0x35d6078, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_unbindItem();
 
-  /// @brief Method get_viewController, addr 0x35c04ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewController, addr 0x35d6370, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::CollectionViewController* get_viewController();
 
-  /// @brief Method get_virtualizationController, addr 0x35c04f4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_virtualizationController, addr 0x35d6378, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::CollectionVirtualizationController* get_virtualizationController();
 
-  /// @brief Method get_virtualizationMethod, addr 0x35c09a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_virtualizationMethod, addr 0x35d6828, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::CollectionVirtualizationMethod get_virtualizationMethod();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  /// @brief Method remove_onItemsChosen, addr 0x35bfe34, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_onItemsChosen, addr 0x35d5cb8, size 0xb4, virtual false, abstract: false, final false
   inline void remove_onItemsChosen(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* value);
 
-  /// @brief Method remove_onSelectionChange, addr 0x35bff9c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_onSelectionChange, addr 0x35d5e20, size 0xb4, virtual false, abstract: false, final false
   inline void remove_onSelectionChange(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* value);
 
   static inline void setStaticF_backgroundFillUssClassName(::StringW value);
@@ -833,46 +833,46 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_bindItem, addr 0x35c01ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bindItem, addr 0x35d6070, size 0x8, virtual false, abstract: false, final false
   inline void set_bindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value);
 
-  /// @brief Method set_destroyItem, addr 0x35c020c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_destroyItem, addr 0x35d6090, size 0x8, virtual false, abstract: false, final false
   inline void set_destroyItem(::System::Action_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_fixedItemHeight, addr 0x35c09f0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method set_fixedItemHeight, addr 0x35d6874, size 0xfc, virtual false, abstract: false, final false
   inline void set_fixedItemHeight(float_t value);
 
-  /// @brief Method set_getItemId, addr 0x35c0058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_getItemId, addr 0x35d5edc, size 0x8, virtual false, abstract: false, final false
   inline void set_getItemId(::System::Func_2<int32_t, int32_t>* value);
 
-  /// @brief Method set_horizontalScrollingEnabled, addr 0x35c093c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalScrollingEnabled, addr 0x35d67c0, size 0x48, virtual false, abstract: false, final false
   inline void set_horizontalScrollingEnabled(bool value);
 
-  /// @brief Method set_itemsSource, addr 0x35c00e4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_itemsSource, addr 0x35d5f68, size 0x4c, virtual false, abstract: false, final false
   inline void set_itemsSource(::System::Collections::IList* value);
 
-  /// @brief Method set_makeItem, addr 0x35c0170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_makeItem, addr 0x35d5ff4, size 0x8, virtual false, abstract: false, final false
   inline void set_makeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_reorderable, addr 0x35c077c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method set_reorderable, addr 0x35d6600, size 0x148, virtual false, abstract: false, final false
   inline void set_reorderable(bool value);
 
-  /// @brief Method set_selectedIndex, addr 0x35c0458, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_selectedIndex, addr 0x35d62dc, size 0x4, virtual false, abstract: false, final false
   inline void set_selectedIndex(int32_t value);
 
-  /// @brief Method set_selectionType, addr 0x35c0224, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method set_selectionType, addr 0x35d60a8, size 0xa4, virtual false, abstract: false, final false
   inline void set_selectionType(::UnityEngine::UIElements::SelectionType value);
 
-  /// @brief Method set_showAlternatingRowBackgrounds, addr 0x35c098c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_showAlternatingRowBackgrounds, addr 0x35d6810, size 0x18, virtual false, abstract: false, final false
   inline void set_showAlternatingRowBackgrounds(::UnityEngine::UIElements::AlternatingRowBackground value);
 
-  /// @brief Method set_showBorder, addr 0x35c060c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_showBorder, addr 0x35d6490, size 0x80, virtual false, abstract: false, final false
   inline void set_showBorder(bool value);
 
-  /// @brief Method set_unbindItem, addr 0x35c01fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unbindItem, addr 0x35d6080, size 0x8, virtual false, abstract: false, final false
   inline void set_unbindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value);
 
-  /// @brief Method set_virtualizationMethod, addr 0x35c09ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_virtualizationMethod, addr 0x35d6830, size 0x3c, virtual false, abstract: false, final false
   inline void set_virtualizationMethod(::UnityEngine::UIElements::CollectionVirtualizationMethod value);
 
 protected:

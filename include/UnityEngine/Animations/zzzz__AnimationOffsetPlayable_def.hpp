@@ -52,29 +52,29 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Create, addr 0x33f4c08, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3403a8c, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationOffsetPlayable Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                           int32_t inputCount);
 
-  /// @brief Method CreateHandle, addr 0x33f4cf8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x3403b7c, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                       int32_t inputCount);
 
-  /// @brief Method CreateHandleInternal, addr 0x33f4ef4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal, addr 0x3403d78, size 0xa4, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                           ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method CreateHandleInternal_Injected, addr 0x33f5080, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal_Injected, addr 0x3403f04, size 0x5c, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Quaternion> rotation,
                                                    ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method Equals, addr 0x33f4fd4, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3403e58, size 0xac, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationOffsetPlayable other);
 
-  /// @brief Method GetHandle, addr 0x33f4f98, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x3403e1c, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method .ctor, addr 0x33f4e34, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3403cb8, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   static inline ::UnityEngine::Animations::AnimationOffsetPlayable getStaticF_m_NullPlayable();
@@ -85,7 +85,7 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::IPlayable"
   constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
 
-  /// @brief Method op_Implicit, addr 0x33f4fa4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x3403e28, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Animations::AnimationOffsetPlayable playable);
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationOffsetPlayable value);

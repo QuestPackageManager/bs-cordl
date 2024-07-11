@@ -91,23 +91,23 @@ public:
 
   constexpr void __cordl_internal_set__type(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType value);
 
-  /// @brief Method .ctor, addr 0x14fa634, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1505860, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataCommon::NoteLineLayer lineLayer, ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType type,
                     ::BeatmapSaveDataCommon::NoteCutDirection cutDirection);
 
-  /// @brief Method get_cutDirection, addr 0x14fa62c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutDirection, addr 0x1505858, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_cutDirection();
 
-  /// @brief Method get_lineIndex, addr 0x14fa614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x1505840, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_lineLayer, addr 0x14fa61c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineLayer, addr 0x1505848, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteLineLayer get_lineLayer();
 
-  /// @brief Method get_time, addr 0x14fa60c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_time, addr 0x1505838, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_type, addr 0x14fa624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x1505850, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType get_type();
 
 protected:

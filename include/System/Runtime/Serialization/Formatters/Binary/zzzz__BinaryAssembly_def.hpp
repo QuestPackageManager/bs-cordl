@@ -33,18 +33,18 @@ public:
   /// @brief Field assemblyString, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_assemblyString, put = __cordl_internal_set_assemblyString))::StringW assemblyString;
 
-  /// @brief Method Dump, addr 0x285cfec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x286fa00, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* New_ctor();
 
-  /// @brief Method Read, addr 0x285cfa8, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x286f9bc, size 0x44, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x285cf2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x286f940, size 0xc, virtual false, abstract: false, final false
   inline void Set(int32_t assemId, ::StringW assemblyString);
 
-  /// @brief Method Write, addr 0x285cf38, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x286f94c, size 0x70, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_assemId() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_assemblyString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x285cf24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x286f938, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

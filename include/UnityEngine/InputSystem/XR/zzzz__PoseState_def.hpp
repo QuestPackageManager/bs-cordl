@@ -102,13 +102,13 @@ public:
 
   constexpr void __cordl_internal_set_velocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x31573bc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3169240, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool isTracked, ::UnityEngine::XR::InputTrackingState trackingState, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 velocity,
                     ::UnityEngine::Vector3 angularVelocity);
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_s_Format();
 
-  /// @brief Method get_format, addr 0x3157364, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x31691e8, size 0x58, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"

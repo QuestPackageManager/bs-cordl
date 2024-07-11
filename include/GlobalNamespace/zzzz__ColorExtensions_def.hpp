@@ -25,31 +25,31 @@ namespace GlobalNamespace {
 class CORDL_TYPE ColorExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ColorWithAlpha, addr 0x108a0b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ColorWithAlpha, addr 0x10963a8, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithAlpha(::UnityEngine::Color color, float_t alpha);
 
-  /// @brief Method ColorWithB, addr 0x108a0c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ColorWithB, addr 0x10963c0, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithB(::UnityEngine::Color color, float_t b);
 
-  /// @brief Method ColorWithG, addr 0x108a0c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ColorWithG, addr 0x10963b8, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithG(::UnityEngine::Color color, float_t g);
 
-  /// @brief Method ColorWithR, addr 0x108a0b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ColorWithR, addr 0x10963b0, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithR(::UnityEngine::Color color, float_t r);
 
-  /// @brief Method ColorWithValue, addr 0x108a0d0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ColorWithValue, addr 0x10963c8, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithValue(::UnityEngine::Color color, float_t value);
 
-  /// @brief Method FromHtmlStringRGBA, addr 0x1089eec, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method FromHtmlStringRGBA, addr 0x10961e4, size 0xfc, virtual false, abstract: false, final false
   static inline bool FromHtmlStringRGBA(::StringW htmlColor, ByRef<::UnityEngine::Color> color);
 
-  /// @brief Method LerpRGBUnclamped, addr 0x108a124, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method LerpRGBUnclamped, addr 0x109641c, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color LerpRGBUnclamped(::UnityEngine::Color a, ::UnityEngine::Color b, float_t t);
 
-  /// @brief Method SaturatedColor, addr 0x108a058, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SaturatedColor, addr 0x1096350, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color SaturatedColor(::UnityEngine::Color color, float_t saturation);
 
-  /// @brief Method <FromHtmlStringRGBA>g__HtmlStringToFloat|0_0, addr 0x1089fe8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <FromHtmlStringRGBA>g__HtmlStringToFloat|0_0, addr 0x10962e0, size 0x70, virtual false, abstract: false, final false
   static inline float_t _FromHtmlStringRGBA_g__HtmlStringToFloat_0_0(::StringW htmlColor);
 
 protected:

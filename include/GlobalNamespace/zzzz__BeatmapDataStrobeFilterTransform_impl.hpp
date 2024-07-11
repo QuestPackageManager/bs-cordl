@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::*)(
     ::GlobalNamespace::BasicBeatmapEventData*)>(&::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::StartPotentialStrobe)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x14a19ac;
+  constexpr static std::size_t addrs = 0x14ab064;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::*)(
     ::GlobalNamespace::BasicBeatmapEventData*)>(&::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::AddStrobeData)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x14a18d4;
+  constexpr static std::size_t addrs = 0x14aaf8c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::*)()>(
     &::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14a18cc;
+  constexpr static std::size_t addrs = 0x14aaf84;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::EnvironmentIntensityReductionOptions*)>(
         &::GlobalNamespace::BeatmapDataStrobeFilterTransform::CreateTransformedData)> {
   constexpr static std::size_t size = 0xc28;
-  constexpr static std::size_t addrs = 0x14a0ca4;
+  constexpr static std::size_t addrs = 0x14aa35c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::EnvironmentColorType)>(
     &::GlobalNamespace::BeatmapDataStrobeFilterTransform::GetOnEventDataValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x14a1968;
+  constexpr static std::size_t addrs = 0x14ab020;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::EnvironmentColorType)>(
     &::GlobalNamespace::BeatmapDataStrobeFilterTransform::GetFlashAndFadeToBlackEventDataValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x14a198c;
+  constexpr static std::size_t addrs = 0x14ab044;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

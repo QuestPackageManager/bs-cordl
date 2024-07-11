@@ -56,16 +56,16 @@ public:
   /// @brief Field s_cachedWings, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_cachedWings, put = setStaticF_s_cachedWings))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* s_cachedWings;
 
-  /// @brief Method Dijkstra, addr 0x32ccf74, size 0x6cc, virtual false, abstract: false, final false
+  /// @brief Method Dijkstra, addr 0x32dbdf8, size 0x6cc, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> Dijkstra(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t start);
 
-  /// @brief Method GetMinimalPath, addr 0x32cce58, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetMinimalPath, addr 0x32dbcdc, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<int32_t>* GetMinimalPath(::ArrayW<int32_t, ::Array<int32_t>*> predecessors, int32_t start, int32_t end);
 
-  /// @brief Method GetPath, addr 0x32ccba8, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method GetPath, addr 0x32dba2c, size 0x2b0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<int32_t>* GetPath(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t start, int32_t end);
 
-  /// @brief Method GetWeight, addr 0x32cd640, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method GetWeight, addr 0x32dc4c4, size 0x494, virtual false, abstract: false, final false
   static inline float_t GetWeight(int32_t face1, int32_t face2, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   static inline int32_t getStaticF_s_cachedFacesCount();

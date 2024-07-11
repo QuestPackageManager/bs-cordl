@@ -150,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_scoringType(::GlobalNamespace::__NoteData__ScoringType value);
 
-  /// @brief Method .ctor, addr 0x14de390, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14e7f34, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::__NoteExecutionRating__Rating rating, int32_t cutScore, int32_t beforeCutScore,
                     int32_t centerDistanceCutScore, int32_t afterCutScore);
 

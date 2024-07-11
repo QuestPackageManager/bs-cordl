@@ -23,10 +23,10 @@ public:
   /// @brief Field _msg, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__msg, put = __cordl_internal_set__msg))::StringW _msg;
 
-  /// @brief Method AssetCallbackNoMsg, addr 0x2547e9c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AssetCallbackNoMsg, addr 0x255d150, size 0x68, virtual false, abstract: false, final false
   inline void AssetCallbackNoMsg();
 
-  /// @brief Method AssetCallbackWithMsg, addr 0x2547e04, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AssetCallbackWithMsg, addr 0x255d0b8, size 0x98, virtual false, abstract: false, final false
   inline void AssetCallbackWithMsg(::StringW msg);
 
   static inline ::GlobalNamespace::HEU_ScriptCallbackExample* New_ctor();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__msg(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2547f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255d1b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

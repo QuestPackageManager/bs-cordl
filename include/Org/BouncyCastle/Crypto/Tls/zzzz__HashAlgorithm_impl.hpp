@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::HashAlgorithm::GetName)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x11f64f4;
+  constexpr static std::size_t addrs = 0x12027ec;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::HashAlgorithm::GetText)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x11f65ac;
+  constexpr static std::size_t addrs = 0x12028a4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::HashAlgorithm::IsPrivate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x11f6728;
+  constexpr static std::size_t addrs = 0x1202a20;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::HashAlgorithm::IsRecognized)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x11f6738;
+  constexpr static std::size_t addrs = 0x1202a30;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::HashAlgorithm::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::HashAlgorithm::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11f674c;
+  constexpr static std::size_t addrs = 0x1202a44;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::HashAlgorithm*>::get(), ".ctor",

@@ -28,7 +28,7 @@ public:
 
   __declspec(property(get = get_userPresence, put = set_userPresence))::UnityEngine::InputSystem::Controls::ButtonControl* userPresence;
 
-  /// @brief Method FinishSetup, addr 0x30c3cac, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x30d5b30, size 0x7c, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::WindowsMR::Input::WMRHMD* New_ctor();
@@ -39,13 +39,13 @@ public:
 
   constexpr void __cordl_internal_set__userPresence_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method .ctor, addr 0x30c3d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30d5bac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_userPresence, addr 0x30c3c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userPresence, addr 0x30d5b20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_userPresence();
 
-  /// @brief Method set_userPresence, addr 0x30c3ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userPresence, addr 0x30d5b28, size 0x8, virtual false, abstract: false, final false
   inline void set_userPresence(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:

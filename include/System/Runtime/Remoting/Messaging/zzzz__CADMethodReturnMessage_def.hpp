@@ -53,19 +53,19 @@ public:
   /// @brief Field _sig, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__sig, put = __cordl_internal_set__sig))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _sig;
 
-  /// @brief Method Create, addr 0x2844ce8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x28576fc, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* Create(::System::Runtime::Remoting::Messaging::IMessage* callMsg);
 
-  /// @brief Method GetArgs, addr 0x2845234, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetArgs, addr 0x2857c48, size 0x10, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetArgs(::System::Collections::ArrayList* args);
 
-  /// @brief Method GetArguments, addr 0x28450f4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetArguments, addr 0x2857b08, size 0x140, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* GetArguments();
 
-  /// @brief Method GetException, addr 0x2845254, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetException, addr 0x2857c68, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Exception* GetException(::System::Collections::ArrayList* args);
 
-  /// @brief Method GetReturnValue, addr 0x2845244, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetReturnValue, addr 0x2857c58, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* GetReturnValue(::System::Collections::ArrayList* args);
 
   static inline ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* New_ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* retMsg);
@@ -88,10 +88,10 @@ public:
 
   constexpr void __cordl_internal_set__sig(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method .ctor, addr 0x2844d78, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285778c, size 0x37c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* retMsg);
 
-  /// @brief Method get_PropertiesCount, addr 0x28452f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertiesCount, addr 0x2857d0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PropertiesCount();
 
 protected:

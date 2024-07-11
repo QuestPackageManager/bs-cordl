@@ -42,10 +42,10 @@ public:
 
   static inline ::System::Net::Http::ByteArrayContent* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
-  /// @brief Method SerializeToStreamAsync, addr 0x2d87658, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SerializeToStreamAsync, addr 0x2d9a06c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method TryComputeLength, addr 0x2d87680, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method TryComputeLength, addr 0x2d9a094, size 0x10, virtual true, abstract: false, final false
   inline bool TryComputeLength(ByRef<int64_t> length);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_content() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_offset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2d875d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d99fe4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
 protected:

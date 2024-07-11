@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::Microsoft::Win32::SafeHandles::SafeFileHandle* New_ctor(::System::IntPtr preexistingHandle, bool ownsHandle);
 
-  /// @brief Method ReleaseHandle, addr 0x27c4a50, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x27d7464, size 0x7c, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method .ctor, addr 0x27c49c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27d73d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr preexistingHandle, bool ownsHandle);
 
 protected:

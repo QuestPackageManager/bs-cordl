@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::LookupId::*)()>(&::Zenject::Internal::LookupId::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36a18f0;
+  constexpr static std::size_t addrs = 0x36b8774;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::LookupId*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::LookupId::*)(::Zenject::IProvider*, ::Zenject::BindingId)>(
     &::Zenject::Internal::LookupId::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x36a18f8;
+  constexpr static std::size_t addrs = 0x36b877c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::Internal::LookupId::*)()>(&::Zenject::Internal::LookupId::GetHashCode)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x36a1994;
+  constexpr static std::size_t addrs = 0x36b8818;
 
   inline static const ::MethodInfo* methodInfo() {
 

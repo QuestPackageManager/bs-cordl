@@ -40,18 +40,18 @@ public:
   /// @brief Field sizes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_sizes, put = setStaticF_sizes))::ArrayW<int32_t, ::Array<int32_t>*> sizes;
 
-  /// @brief Method FindElement, addr 0x2853994, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method FindElement, addr 0x28663a8, size 0xc4, virtual false, abstract: false, final false
   inline int32_t FindElement(::System::Object* obj, ByRef<bool> found);
 
-  /// @brief Method GetId, addr 0x2853a58, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method GetId, addr 0x286646c, size 0x184, virtual true, abstract: false, final false
   inline int64_t GetId(::System::Object* obj, ByRef<bool> firstTime);
 
-  /// @brief Method HasId, addr 0x2853e90, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method HasId, addr 0x28668a4, size 0xd4, virtual true, abstract: false, final false
   inline int64_t HasId(::System::Object* obj, ByRef<bool> firstTime);
 
   static inline ::System::Runtime::Serialization::ObjectIDGenerator* New_ctor();
 
-  /// @brief Method Rehash, addr 0x2853bdc, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method Rehash, addr 0x28665f0, size 0x2b4, virtual false, abstract: false, final false
   inline void Rehash();
 
   constexpr int32_t const& __cordl_internal_get_m_currentCount() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set_m_objs(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method .ctor, addr 0x28538bc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28662d0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_sizes();

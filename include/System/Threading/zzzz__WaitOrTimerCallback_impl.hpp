@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::WaitOrTimerCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Threading::WaitOrTimerCallback::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x29be5a8;
+  constexpr static std::size_t addrs = 0x29d3fbc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::WaitOrTimerCallback::*)(::System::Object*, bool)>(
     &::System::Threading::WaitOrTimerCallback::Invoke)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x29be6d8;
+  constexpr static std::size_t addrs = 0x29d40ec;
 
   inline static const ::MethodInfo* methodInfo() {
 

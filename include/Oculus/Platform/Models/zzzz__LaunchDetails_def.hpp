@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_UsersOptional(::Oculus::Platform::Models::UserList* value);
 
-  /// @brief Method .ctor, addr 0x2afccd4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b106e8, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:

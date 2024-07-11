@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeConditionalAttribute::*)(::StringW)>(
     &::UnityEngine::Bindings::NativeConditionalAttribute::set_Condition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3497c84;
+  constexpr static std::size_t addrs = 0x34aab08;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeConditionalAttribute::*)(bool)>(
     &::UnityEngine::Bindings::NativeConditionalAttribute::set_Enabled)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3497c8c;
+  constexpr static std::size_t addrs = 0x34aab10;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeConditionalAttribute::*)(::StringW)>(
     &::UnityEngine::Bindings::NativeConditionalAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3497c98;
+  constexpr static std::size_t addrs = 0x34aab1c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

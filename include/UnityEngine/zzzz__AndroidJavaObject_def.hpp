@@ -55,10 +55,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AndroidJavaClassDeleteLocalRef, addr 0x33e4950, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AndroidJavaClassDeleteLocalRef, addr 0x33f47d4, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaClass* AndroidJavaClassDeleteLocalRef(::System::IntPtr jclass);
 
-  /// @brief Method AndroidJavaObjectDeleteLocalRef, addr 0x33e3508, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AndroidJavaObjectDeleteLocalRef, addr 0x33f338c, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaObject* AndroidJavaObjectDeleteLocalRef(::System::IntPtr jobject);
 
   /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -67,7 +67,7 @@ public:
   /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType, typename T> inline ReturnType Call(::StringW methodName, ::ArrayW<T, ::Array<T>*> args);
 
-  /// @brief Method Call, addr 0x33e3dbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x33f3c40, size 0x4, virtual false, abstract: false, final false
   inline void Call(::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -79,28 +79,28 @@ public:
   /// @brief Method CallStatic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType, typename T> inline ReturnType CallStatic(::StringW methodName, ::ArrayW<T, ::Array<T>*> args);
 
-  /// @brief Method CallStatic, addr 0x33e3efc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CallStatic, addr 0x33f3d80, size 0x4, virtual false, abstract: false, final false
   inline void CallStatic(::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   /// @brief Method CallStatic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void CallStatic(::StringW methodName, ::ArrayW<T, ::Array<T>*> args);
 
-  /// @brief Method CloneReference, addr 0x33e40d0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method CloneReference, addr 0x33f3f54, size 0x15c, virtual false, abstract: false, final false
   inline ::UnityEngine::AndroidJavaObject* CloneReference();
 
-  /// @brief Method DebugPrint, addr 0x33e43a8, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method DebugPrint, addr 0x33f422c, size 0x358, virtual false, abstract: false, final false
   inline void DebugPrint(::StringW call, ::StringW methodName, ::StringW signature, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method DebugPrint, addr 0x33e4320, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method DebugPrint, addr 0x33f41a4, size 0x88, virtual false, abstract: false, final false
   inline void DebugPrint(::StringW msg);
 
-  /// @brief Method Dispose, addr 0x33e3220, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x33f30a4, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x33e48e8, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x33f476c, size 0x30, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x33e4848, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x33f46cc, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// @brief Method FromJavaArrayDeleteLocalRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -109,10 +109,10 @@ public:
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename FieldType> inline FieldType Get(::StringW fieldName);
 
-  /// @brief Method GetRawClass, addr 0x33e4098, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetRawClass, addr 0x33f3f1c, size 0x1c, virtual false, abstract: false, final false
   inline ::System::IntPtr GetRawClass();
 
-  /// @brief Method GetRawObject, addr 0x33e3344, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetRawObject, addr 0x33f31c8, size 0x5c, virtual false, abstract: false, final false
   inline ::System::IntPtr GetRawObject();
 
   /// @brief Method GetStatic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -140,28 +140,28 @@ public:
   /// @brief Method SetStatic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename FieldType> inline void SetStatic(::StringW fieldName, FieldType val);
 
-  /// @brief Method _AndroidJavaObject, addr 0x33e38bc, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method _AndroidJavaObject, addr 0x33f3740, size 0x1fc, virtual false, abstract: false, final false
   inline void _AndroidJavaObject(::StringW className, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   /// @brief Method _Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType> inline ReturnType _Call(::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method _Call, addr 0x33e3dc0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method _Call, addr 0x33f3c44, size 0x13c, virtual false, abstract: false, final false
   inline void _Call(::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   /// @brief Method _CallStatic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType> inline ReturnType _CallStatic(::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method _CallStatic, addr 0x33e3f00, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method _CallStatic, addr 0x33f3d84, size 0x13c, virtual false, abstract: false, final false
   inline void _CallStatic(::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   /// @brief Method _Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename FieldType> inline FieldType _Get(::StringW fieldName);
 
-  /// @brief Method _GetRawClass, addr 0x33e40b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method _GetRawClass, addr 0x33f3f38, size 0x1c, virtual false, abstract: false, final false
   inline ::System::IntPtr _GetRawClass();
 
-  /// @brief Method _GetRawObject, addr 0x33e403c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method _GetRawObject, addr 0x33f3ec0, size 0x5c, virtual false, abstract: false, final false
   inline ::System::IntPtr _GetRawObject();
 
   /// @brief Method _GetStatic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -185,28 +185,28 @@ public:
 
   constexpr void __cordl_internal_set_m_jobject(::UnityEngine::GlobalJavaObjectRef* value);
 
-  /// @brief Method .ctor, addr 0x33e38b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f3738, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x33e3800, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f3684, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::ArrayW<::StringW, ::Array<::StringW>*> args);
 
-  /// @brief Method .ctor, addr 0x33e3d88, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f3c0c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method .ctor, addr 0x33e3b6c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f39f0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaClass*, ::Array<::UnityEngine::AndroidJavaClass*>*> args);
 
-  /// @brief Method .ctor, addr 0x33e3ab8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f393c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaObject*, ::Array<::UnityEngine::AndroidJavaObject*>*> args);
 
-  /// @brief Method .ctor, addr 0x33e3c20, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f3aa4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaProxy*, ::Array<::UnityEngine::AndroidJavaProxy*>*> args);
 
-  /// @brief Method .ctor, addr 0x33e3cd4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f3b58, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaRunnable*, ::Array<::UnityEngine::AndroidJavaRunnable*>*> args);
 
-  /// @brief Method .ctor, addr 0x33e4724, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f45a8, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr jobject);
 
   static inline bool getStaticF_enableDebugPrints();

@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__NoteLineConnectionController__Pool::*)()>(
     &::GlobalNamespace::__NoteLineConnectionController__Pool::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x263a8d0;
+  constexpr static std::size_t addrs = 0x264f1f0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NoteLineConnectionController__Pool*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteLineConnectionController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::NoteLineConnectionController>>*)>(&::GlobalNamespace::NoteLineConnectionController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x263a4a4;
+  constexpr static std::size_t addrs = 0x264edc4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteLineConnectionController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::NoteLineConnectionController>>*)>(&::GlobalNamespace::NoteLineConnectionController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x263a554;
+  constexpr static std::size_t addrs = 0x264ee74;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteLineConnectionController::*)(
     ::GlobalNamespace::NoteController*, ::GlobalNamespace::NoteController*, float_t, float_t, float_t)>(&::GlobalNamespace::NoteLineConnectionController::Setup)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x263a604;
+  constexpr static std::size_t addrs = 0x264ef24;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteLineConnectionController::*)()>(
     &::GlobalNamespace::NoteLineConnectionController::Update)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x263a864;
+  constexpr static std::size_t addrs = 0x264f184;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteLineConnectionController*>::get(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteLineConnectionController::*)()>(
     &::GlobalNamespace::NoteLineConnectionController::UpdatePositionsAndColors)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x263a6a8;
+  constexpr static std::size_t addrs = 0x264efc8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteLineConnectionController*>::get(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteLineConnectionController::*)()>(
     &::GlobalNamespace::NoteLineConnectionController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x263a8c8;
+  constexpr static std::size_t addrs = 0x264f1e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteLineConnectionController*>::get(), ".ctor",

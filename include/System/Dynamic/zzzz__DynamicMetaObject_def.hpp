@@ -102,53 +102,53 @@ public:
   /// @brief Field s_noValueSentinel, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_noValueSentinel, put = setStaticF_s_noValueSentinel))::System::Object* s_noValueSentinel;
 
-  /// @brief Method BindBinaryOperation, addr 0x2c6f418, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method BindBinaryOperation, addr 0x2c82e2c, size 0x80, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindBinaryOperation(::System::Dynamic::BinaryOperationBinder* binder, ::System::Dynamic::DynamicMetaObject* arg);
 
-  /// @brief Method BindConvert, addr 0x2c6eee0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method BindConvert, addr 0x2c828f4, size 0x78, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindConvert(::System::Dynamic::ConvertBinder* binder);
 
-  /// @brief Method BindCreateInstance, addr 0x2c6f328, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method BindCreateInstance, addr 0x2c82d3c, size 0x80, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindCreateInstance(::System::Dynamic::CreateInstanceBinder* binder,
                                                                   ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method BindDeleteIndex, addr 0x2c6f1b8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method BindDeleteIndex, addr 0x2c82bcc, size 0x80, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindDeleteIndex(::System::Dynamic::DeleteIndexBinder* binder,
                                                                ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> indexes);
 
-  /// @brief Method BindDeleteMember, addr 0x2c6f040, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method BindDeleteMember, addr 0x2c82a54, size 0x78, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindDeleteMember(::System::Dynamic::DeleteMemberBinder* binder);
 
-  /// @brief Method BindGetIndex, addr 0x2c6f0b8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method BindGetIndex, addr 0x2c82acc, size 0x78, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindGetIndex(::System::Dynamic::GetIndexBinder* binder,
                                                             ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> indexes);
 
-  /// @brief Method BindGetMember, addr 0x2c6ef58, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method BindGetMember, addr 0x2c8296c, size 0x70, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindGetMember(::System::Dynamic::GetMemberBinder* binder);
 
-  /// @brief Method BindInvoke, addr 0x2c6f2b0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method BindInvoke, addr 0x2c82cc4, size 0x78, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindInvoke(::System::Dynamic::InvokeBinder* binder,
                                                           ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method BindInvokeMember, addr 0x2c6f238, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method BindInvokeMember, addr 0x2c82c4c, size 0x78, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindInvokeMember(::System::Dynamic::InvokeMemberBinder* binder,
                                                                 ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method BindSetIndex, addr 0x2c6f130, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method BindSetIndex, addr 0x2c82b44, size 0x88, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindSetIndex(::System::Dynamic::SetIndexBinder* binder,
                                                             ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> indexes,
                                                             ::System::Dynamic::DynamicMetaObject* value);
 
-  /// @brief Method BindSetMember, addr 0x2c6efc8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method BindSetMember, addr 0x2c829dc, size 0x78, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindSetMember(::System::Dynamic::SetMemberBinder* binder, ::System::Dynamic::DynamicMetaObject* value);
 
-  /// @brief Method BindUnaryOperation, addr 0x2c6f3a8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method BindUnaryOperation, addr 0x2c82dbc, size 0x70, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindUnaryOperation(::System::Dynamic::UnaryOperationBinder* binder);
 
-  /// @brief Method Create, addr 0x2c6f514, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2c82f28, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::Dynamic::DynamicMetaObject* Create(::System::Object* value, ::System::Linq::Expressions::Expression* expression);
 
-  /// @brief Method GetDynamicMemberNames, addr 0x2c6f498, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetDynamicMemberNames, addr 0x2c82eac, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames();
 
   static inline ::System::Dynamic::DynamicMetaObject* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Dynamic::BindingRestrictions* restrictions);
@@ -173,32 +173,32 @@ public:
 
   constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2c6ed64, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c82778, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression, ::System::Dynamic::BindingRestrictions* restrictions);
 
-  /// @brief Method .ctor, addr 0x2c6ee34, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c82848, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression, ::System::Dynamic::BindingRestrictions* restrictions, ::System::Object* value);
 
   static inline ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> getStaticF_EmptyMetaObjects();
 
   static inline ::System::Object* getStaticF_s_noValueSentinel();
 
-  /// @brief Method get_Expression, addr 0x2c6ee58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x2c8286c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Expression();
 
-  /// @brief Method get_HasValue, addr 0x2c6dc44, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_HasValue, addr 0x2c81658, size 0x68, virtual false, abstract: false, final false
   inline bool get_HasValue();
 
-  /// @brief Method get_LimitType, addr 0x2c6dd40, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_LimitType, addr 0x2c81754, size 0x34, virtual false, abstract: false, final false
   inline ::System::Type* get_LimitType();
 
-  /// @brief Method get_Restrictions, addr 0x2c6ee60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Restrictions, addr 0x2c82874, size 0x8, virtual false, abstract: false, final false
   inline ::System::Dynamic::BindingRestrictions* get_Restrictions();
 
-  /// @brief Method get_RuntimeType, addr 0x2c6ee68, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_RuntimeType, addr 0x2c8287c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Type* get_RuntimeType();
 
-  /// @brief Method get_Value, addr 0x2c6dc20, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2c81634, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
   static inline void setStaticF_EmptyMetaObjects(::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> value);

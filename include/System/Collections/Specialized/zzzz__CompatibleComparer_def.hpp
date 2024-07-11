@@ -51,10 +51,10 @@ public:
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
-  /// @brief Method Equals, addr 0x2f94ee0, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2fa18f4, size 0x200, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method GetHashCode, addr 0x2f950e0, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x2fa1af4, size 0x10c, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* obj);
 
   static inline ::System::Collections::Specialized::CompatibleComparer* New_ctor(::System::Collections::IComparer* comparer, ::System::Collections::IHashCodeProvider* hashCodeProvider);
@@ -71,23 +71,23 @@ public:
 
   constexpr void __cordl_internal_set__hcp(::System::Collections::IHashCodeProvider* value);
 
-  /// @brief Method .ctor, addr 0x2f946a4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa10b8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IComparer* comparer, ::System::Collections::IHashCodeProvider* hashCodeProvider);
 
   static inline ::System::Collections::IComparer* getStaticF_defaultComparer();
 
   static inline ::System::Collections::IHashCodeProvider* getStaticF_defaultHashProvider();
 
-  /// @brief Method get_Comparer, addr 0x2f951ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comparer, addr 0x2fa1c00, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IComparer* get_Comparer();
 
-  /// @brief Method get_DefaultComparer, addr 0x2f93de4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultComparer, addr 0x2fa07f8, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Collections::IComparer* get_DefaultComparer();
 
-  /// @brief Method get_DefaultHashCodeProvider, addr 0x2f93d04, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultHashCodeProvider, addr 0x2fa0718, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Collections::IHashCodeProvider* get_DefaultHashCodeProvider();
 
-  /// @brief Method get_HashCodeProvider, addr 0x2f951f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashCodeProvider, addr 0x2fa1c08, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IHashCodeProvider* get_HashCodeProvider();
 
   /// @brief Convert to "::System::Collections::IEqualityComparer"

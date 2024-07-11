@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::QualifiedAce::*)(
     ::System::Security::AccessControl::AceType, ::System::Security::AccessControl::AceFlags, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::AccessControl::QualifiedAce::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x281bf30;
+  constexpr static std::size_t addrs = 0x282e944;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::QualifiedAce::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Security::AccessControl::QualifiedAce::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x281c148;
+  constexpr static std::size_t addrs = 0x282eb5c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::AccessControl::AceQualifier (::System::Security::AccessControl::QualifiedAce::*)()>(
     &::System::Security::AccessControl::QualifiedAce::get_AceQualifier)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x281cf44;
+  constexpr static std::size_t addrs = 0x282f958;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::QualifiedAce*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::AccessControl::QualifiedAce::*)()>(
     &::System::Security::AccessControl::QualifiedAce::get_IsCallback)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x281d768;
+  constexpr static std::size_t addrs = 0x283017c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::QualifiedAce*>::get(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::AccessControl::QualifiedAce::*)()>(
     &::System::Security::AccessControl::QualifiedAce::get_OpaqueLength)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x281c2e0;
+  constexpr static std::size_t addrs = 0x282ecf4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::QualifiedAce*>::get(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::AccessControl::QualifiedAce::*)()>(
     &::System::Security::AccessControl::QualifiedAce::GetOpaque)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x281c4a4;
+  constexpr static std::size_t addrs = 0x282eeb8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::QualifiedAce*>::get(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::QualifiedAce::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::AccessControl::QualifiedAce::SetOpaque)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x281c200;
+  constexpr static std::size_t addrs = 0x282ec14;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

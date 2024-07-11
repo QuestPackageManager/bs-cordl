@@ -226,16 +226,16 @@ public:
   /// @brief Field m_clamp, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_m_clamp, put = setStaticF_m_clamp)) float_t m_clamp;
 
-  /// @brief Method GetPadding, addr 0x34c81dc, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method GetPadding, addr 0x34db060, size 0x6a8, virtual false, abstract: false, final false
   static inline float_t GetPadding(::UnityEngine::Material* material, bool enableExtraPadding, bool isBold);
 
-  /// @brief Method GetShaderPropertyIDs, addr 0x34c725c, size 0x988, virtual false, abstract: false, final false
+  /// @brief Method GetShaderPropertyIDs, addr 0x34da0e0, size 0x988, virtual false, abstract: false, final false
   static inline void GetShaderPropertyIDs();
 
-  /// @brief Method IsMaskingEnabled, addr 0x34c8040, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method IsMaskingEnabled, addr 0x34daec4, size 0x19c, virtual false, abstract: false, final false
   static inline bool IsMaskingEnabled(::UnityEngine::Material* material);
 
-  /// @brief Method UpdateShaderRatios, addr 0x34c7be4, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method UpdateShaderRatios, addr 0x34daa68, size 0x45c, virtual false, abstract: false, final false
   static inline void UpdateShaderRatios(::UnityEngine::Material* mat);
 
   static inline int32_t getStaticF_ID_BevelAmount();
@@ -370,10 +370,10 @@ public:
 
   static inline float_t getStaticF_m_clamp();
 
-  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x34c6f70, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x34d9df4, size 0x15c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileBitmap();
 
-  /// @brief Method get_ShaderRef_MobileSDF, addr 0x34c6e14, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileSDF, addr 0x34d9c98, size 0x15c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF();
 
   static inline void setStaticF_ID_BevelAmount(int32_t value);

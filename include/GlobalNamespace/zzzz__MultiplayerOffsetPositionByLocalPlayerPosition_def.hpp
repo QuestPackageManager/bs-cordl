@@ -40,18 +40,18 @@ public:
   /// @brief Field _rotationOffset, offset 0x2c, size 0x10
   __declspec(property(get = __cordl_internal_get__rotationOffset, put = __cordl_internal_set__rotationOffset))::UnityEngine::Quaternion _rotationOffset;
 
-  /// @brief Method Awake, addr 0x272c404, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2741ba8, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* New_ctor();
 
-  /// @brief Method SetEnabled, addr 0x27270e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetEnabled, addr 0x273c884, size 0xc, virtual false, abstract: false, final false
   inline void SetEnabled(bool isEnabled);
 
-  /// @brief Method Update, addr 0x272c454, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2741bf8, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePositionAndRotationIfNeeded, addr 0x272c458, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method UpdatePositionAndRotationIfNeeded, addr 0x2741bfc, size 0x208, virtual false, abstract: false, final false
   inline void UpdatePositionAndRotationIfNeeded();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__lastParentPosition() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set__rotationOffset(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x272c6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2741e84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

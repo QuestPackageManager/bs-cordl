@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::HoudiniEngineUnity::HEU_InputUtility::GetHighestPriority)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x25ca774;
+  constexpr static std::size_t addrs = 0x25dea28;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputUtility*>::get(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_InputInterface*)>(
     &::HoudiniEngineUnity::HEU_InputUtility::RegisterInputInterface)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x25ca840;
+  constexpr static std::size_t addrs = 0x25deaf4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_InputInterface*)>(
     &::HoudiniEngineUnity::HEU_InputUtility::UnregisterInputInterface)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x25cac34;
+  constexpr static std::size_t addrs = 0x25deee8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_InputInterface* (*)(::System::Type*)>(
     &::HoudiniEngineUnity::HEU_InputUtility::GetInputInterfaceByType)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x25caadc;
+  constexpr static std::size_t addrs = 0x25ded90;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_InputInterface* (*)(::UnityEngine::GameObject*)>(
     &::HoudiniEngineUnity::HEU_InputUtility::GetInputInterface)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x25cacb4;
+  constexpr static std::size_t addrs = 0x25def68;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_InputInterface* (*)(::HoudiniEngineUnity::HEU_InputObjectInfo*)>(
     &::HoudiniEngineUnity::HEU_InputUtility::GetInputInterface)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x25cadcc;
+  constexpr static std::size_t addrs = 0x25df080;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, ByRef<int32_t>, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*>,
                          ByRef<::System::Collections::Generic::List_1<int32_t>*>, ::HoudiniEngineUnity::HEU_InputNode*)>(&::HoudiniEngineUnity::HEU_InputUtility::CreateInputNodeWithMultiObjects)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x25caeac;
+  constexpr static std::size_t addrs = 0x25df160;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*>, bool, int32_t)>(
     &::HoudiniEngineUnity::HEU_InputUtility::CreateInputNodeWithMultiAssets)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x25cb7a4;
+  constexpr static std::size_t addrs = 0x25dfa58;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_InputObjectInfo*, int32_t, bool)>(
     &::HoudiniEngineUnity::HEU_InputUtility::UploadInputObjectTransform)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x25cb47c;
+  constexpr static std::size_t addrs = 0x25df730;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

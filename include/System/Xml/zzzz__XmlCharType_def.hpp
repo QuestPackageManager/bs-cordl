@@ -32,92 +32,92 @@ public:
   /// @brief Field s_Lock, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Lock, put = setStaticF_s_Lock))::System::Object* s_Lock;
 
-  /// @brief Method CombineSurrogateChar, addr 0x2ed202c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CombineSurrogateChar, addr 0x2ee1a40, size 0x18, virtual false, abstract: false, final false
   static inline int32_t CombineSurrogateChar(int32_t lowChar, int32_t highChar);
 
-  /// @brief Method InRange, addr 0x2ed1fe8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method InRange, addr 0x2ee19fc, size 0x14, virtual false, abstract: false, final false
   static inline bool InRange(int32_t value, int32_t start, int32_t end);
 
-  /// @brief Method InitInstance, addr 0x2ed1ab4, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method InitInstance, addr 0x2ee14c8, size 0x260, virtual false, abstract: false, final false
   static inline void InitInstance();
 
-  /// @brief Method IsCharData, addr 0x2ed1e38, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsCharData, addr 0x2ee184c, size 0x34, virtual false, abstract: false, final false
   inline bool IsCharData(char16_t ch);
 
-  /// @brief Method IsDigit, addr 0x2ed1fd4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsDigit, addr 0x2ee19e8, size 0x14, virtual false, abstract: false, final false
   static inline bool IsDigit(char16_t ch);
 
-  /// @brief Method IsHighSurrogate, addr 0x2ed1ffc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsHighSurrogate, addr 0x2ee1a10, size 0x10, virtual false, abstract: false, final false
   static inline bool IsHighSurrogate(int32_t ch);
 
-  /// @brief Method IsLetter, addr 0x2ed1f24, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsLetter, addr 0x2ee1938, size 0x34, virtual false, abstract: false, final false
   inline bool IsLetter(char16_t ch);
 
-  /// @brief Method IsLowSurrogate, addr 0x2ed200c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsLowSurrogate, addr 0x2ee1a20, size 0x10, virtual false, abstract: false, final false
   static inline bool IsLowSurrogate(int32_t ch);
 
-  /// @brief Method IsNCNameCharXml4e, addr 0x2ed1f58, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsNCNameCharXml4e, addr 0x2ee196c, size 0x34, virtual false, abstract: false, final false
   inline bool IsNCNameCharXml4e(char16_t ch);
 
-  /// @brief Method IsNCNameSingleChar, addr 0x2ed1280, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsNCNameSingleChar, addr 0x2ee0c94, size 0x34, virtual false, abstract: false, final false
   inline bool IsNCNameSingleChar(char16_t ch);
 
-  /// @brief Method IsNameCharXml4e, addr 0x2ed1fb0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsNameCharXml4e, addr 0x2ee19c4, size 0x24, virtual false, abstract: false, final false
   inline bool IsNameCharXml4e(char16_t ch);
 
-  /// @brief Method IsNameSingleChar, addr 0x2ed1e14, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsNameSingleChar, addr 0x2ee1828, size 0x24, virtual false, abstract: false, final false
   inline bool IsNameSingleChar(char16_t ch);
 
-  /// @brief Method IsOnlyCharData, addr 0x2ed211c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsOnlyCharData, addr 0x2ee1b30, size 0xd8, virtual false, abstract: false, final false
   inline int32_t IsOnlyCharData(::StringW str);
 
-  /// @brief Method IsOnlyDigits, addr 0x2ed21f4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsOnlyDigits, addr 0x2ee1c08, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsOnlyDigits(::StringW str, int32_t startPos, int32_t len);
 
-  /// @brief Method IsOnlyWhitespace, addr 0x2ed207c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsOnlyWhitespace, addr 0x2ee1a90, size 0x18, virtual false, abstract: false, final false
   inline bool IsOnlyWhitespace(::StringW str);
 
-  /// @brief Method IsOnlyWhitespaceWithPos, addr 0x2ed2094, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsOnlyWhitespaceWithPos, addr 0x2ee1aa8, size 0x88, virtual false, abstract: false, final false
   inline int32_t IsOnlyWhitespaceWithPos(::StringW str);
 
-  /// @brief Method IsPubidChar, addr 0x2ed1e6c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsPubidChar, addr 0x2ee1880, size 0x84, virtual false, abstract: false, final false
   inline bool IsPubidChar(char16_t ch);
 
-  /// @brief Method IsPublicId, addr 0x2ed2260, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsPublicId, addr 0x2ee1c74, size 0x60, virtual false, abstract: false, final false
   inline int32_t IsPublicId(::StringW str);
 
-  /// @brief Method IsStartNCNameCharXml4e, addr 0x2ed1f8c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsStartNCNameCharXml4e, addr 0x2ee19a0, size 0x24, virtual false, abstract: false, final false
   inline bool IsStartNCNameCharXml4e(char16_t ch);
 
-  /// @brief Method IsStartNCNameSingleChar, addr 0x2ed131c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsStartNCNameSingleChar, addr 0x2ee0d30, size 0x34, virtual false, abstract: false, final false
   inline bool IsStartNCNameSingleChar(char16_t ch);
 
-  /// @brief Method IsSurrogate, addr 0x2ed201c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsSurrogate, addr 0x2ee1a30, size 0x10, virtual false, abstract: false, final false
   static inline bool IsSurrogate(int32_t ch);
 
-  /// @brief Method IsTextChar, addr 0x2ed1ef0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsTextChar, addr 0x2ee1904, size 0x34, virtual false, abstract: false, final false
   inline bool IsTextChar(char16_t ch);
 
-  /// @brief Method IsWhiteSpace, addr 0x2ed1de0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsWhiteSpace, addr 0x2ee17f4, size 0x34, virtual false, abstract: false, final false
   inline bool IsWhiteSpace(char16_t ch);
 
-  /// @brief Method SetProperties, addr 0x2ed1d14, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetProperties, addr 0x2ee1728, size 0xc4, virtual false, abstract: false, final false
   static inline void SetProperties(::ArrayW<uint8_t, ::Array<uint8_t>*> chProps, ::StringW ranges, uint8_t value);
 
-  /// @brief Method SplitSurrogateChar, addr 0x2ed2044, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SplitSurrogateChar, addr 0x2ee1a58, size 0x38, virtual false, abstract: false, final false
   static inline void SplitSurrogateChar(int32_t combinedChar, ByRef<char16_t> lowChar, ByRef<char16_t> highChar);
 
-  /// @brief Method .ctor, addr 0x2ed1dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ee17ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> charProperties);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_s_CharProperties();
 
   static inline ::System::Object* getStaticF_s_Lock();
 
-  /// @brief Method get_Instance, addr 0x2ed12b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x2ee0cc8, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlCharType get_Instance();
 
-  /// @brief Method get_StaticLock, addr 0x2ed1a18, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_StaticLock, addr 0x2ee142c, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Object* get_StaticLock();
 
   static inline void setStaticF_s_CharProperties(::ArrayW<uint8_t, ::Array<uint8_t>*> value);

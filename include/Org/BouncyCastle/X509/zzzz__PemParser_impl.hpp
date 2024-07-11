@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::PemParser::*)(::StringW)>(&::Org::BouncyCastle::X509::PemParser::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x13deb04;
+  constexpr static std::size_t addrs = 0x13e6dfc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::X509::PemParser::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::X509::PemParser::ReadLine)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x13dec1c;
+  constexpr static std::size_t addrs = 0x13e6f14;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (::Org::BouncyCastle::X509::PemParser::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::X509::PemParser::ReadPemObject)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x13decec;
+  constexpr static std::size_t size = 0x1214;
+  constexpr static std::size_t addrs = 0x13e6fe4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

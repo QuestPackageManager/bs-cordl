@@ -41,7 +41,7 @@ public:
 
   static inline ::GlobalNamespace::PracticeSettings* New_ctor(float_t startSongTime, float_t songSpeedMul);
 
-  /// @brief Method ResetToDefault, addr 0x14f0ba4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ResetToDefault, addr 0x14fbd90, size 0x18, virtual false, abstract: false, final false
   inline void ResetToDefault();
 
   constexpr float_t const& __cordl_internal_get__songSpeedMul() const;
@@ -62,34 +62,34 @@ public:
 
   constexpr void __cordl_internal_set__startSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x14ea8a4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f5a88, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x14f0bbc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14fbda8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PracticeSettings* practiceSettings);
 
-  /// @brief Method .ctor, addr 0x14ef004, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14fa1f0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t startSongTime, float_t songSpeedMul);
 
-  /// @brief Method get_defaultPracticeSettings, addr 0x14f0b30, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPracticeSettings, addr 0x14fbd1c, size 0x74, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PracticeSettings* get_defaultPracticeSettings();
 
-  /// @brief Method get_songSpeedMul, addr 0x14f0b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songSpeedMul, addr 0x14fbcf8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songSpeedMul();
 
-  /// @brief Method get_startInAdvanceAndClearNotes, addr 0x14f0b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startInAdvanceAndClearNotes, addr 0x14fbd08, size 0x8, virtual false, abstract: false, final false
   inline bool get_startInAdvanceAndClearNotes();
 
-  /// @brief Method get_startSongTime, addr 0x14f0afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startSongTime, addr 0x14fbce8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startSongTime();
 
-  /// @brief Method set_songSpeedMul, addr 0x14f0b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songSpeedMul, addr 0x14fbd00, size 0x8, virtual false, abstract: false, final false
   inline void set_songSpeedMul(float_t value);
 
-  /// @brief Method set_startInAdvanceAndClearNotes, addr 0x14f0b24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_startInAdvanceAndClearNotes, addr 0x14fbd10, size 0xc, virtual false, abstract: false, final false
   inline void set_startInAdvanceAndClearNotes(bool value);
 
-  /// @brief Method set_startSongTime, addr 0x14f0b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startSongTime, addr 0x14fbcf0, size 0x8, virtual false, abstract: false, final false
   inline void set_startSongTime(float_t value);
 
 protected:

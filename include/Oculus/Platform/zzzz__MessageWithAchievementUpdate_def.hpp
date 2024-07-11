@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAchievementUpdate : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementUpdate*> {
 public:
   // Declarations
-  /// @brief Method GetAchievementUpdate, addr 0x2ae7278, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAchievementUpdate, addr 0x2afac8c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementUpdate* GetAchievementUpdate();
 
-  /// @brief Method GetDataFromMessage, addr 0x2ae72b4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2afacc8, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementUpdate* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithAchievementUpdate* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ae51e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af8bfc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

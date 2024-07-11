@@ -44,7 +44,7 @@ public:
   /// @brief Field _sceneSetupData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  /// @brief Method InstallBindings, addr 0x2715d5c, size 0x33c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x272a284, size 0x424, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller* New_ctor();
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x27160e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x272a6f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

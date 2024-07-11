@@ -36,15 +36,15 @@ public:
   /// @brief Field GF_3, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_GF_3, put = setStaticF_GF_3))::Org::BouncyCastle::Math::Field::IFiniteField* GF_3;
 
-  /// @brief Method GetBinaryExtensionField, addr 0x12c5140, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetBinaryExtensionField, addr 0x12ce438, size 0x194, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::Field::IPolynomialExtensionField* GetBinaryExtensionField(::ArrayW<int32_t, ::Array<int32_t>*> exponents);
 
-  /// @brief Method GetPrimeField, addr 0x12c5378, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetPrimeField, addr 0x12ce670, size 0x180, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::Field::IFiniteField* GetPrimeField(::Org::BouncyCastle::Math::BigInteger* characteristic);
 
   static inline ::Org::BouncyCastle::Math::Field::FiniteFields* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12c5618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ce910, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::Field::IFiniteField* getStaticF_GF_2();

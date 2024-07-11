@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_z(float_t value);
 
-  /// @brief Method .ctor, addr 0x321b5d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322b454, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float3 v);
 
 protected:
@@ -391,420 +391,420 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Equals, addr 0x321b374, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x322b1f8, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x321b344, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x322b1c8, size 0x30, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method GetHashCode, addr 0x321b40c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x322b290, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x321b450, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x322b2d4, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x321b514, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x322b398, size 0xb4, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x321a2c4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322a148, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::bool3 v);
 
-  /// @brief Method .ctor, addr 0x321a4a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322a32c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::double3 v);
 
-  /// @brief Method .ctor, addr 0x321a358, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322a1dc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::half v);
 
-  /// @brief Method .ctor, addr 0x321a3b8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322a23c, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::half3 v);
 
-  /// @brief Method .ctor, addr 0x321a300, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322a184, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::int3 v);
 
-  /// @brief Method .ctor, addr 0x321a330, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322a1b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::uint3 v);
 
-  /// @brief Method .ctor, addr 0x321a2a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322a12c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(bool v);
 
-  /// @brief Method .ctor, addr 0x321a498, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322a31c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(double_t v);
 
-  /// @brief Method .ctor, addr 0x321a29c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322a120, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t v);
 
-  /// @brief Method .ctor, addr 0x321a2f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322a174, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t v);
 
-  /// @brief Method .ctor, addr 0x321a31c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322a1a0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint32_t v);
 
-  /// @brief Method .ctor, addr 0x321a26c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322a0f0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t x, float_t y, float_t z);
 
-  /// @brief Method .ctor, addr 0x321a278, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322a0fc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t x, ::Unity::Mathematics::float2 yz);
 
-  /// @brief Method .ctor, addr 0x321a284, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322a108, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float2 xy, float_t z);
 
-  /// @brief Method .ctor, addr 0x321a290, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322a114, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float3 xyz);
 
   static inline ::Unity::Mathematics::float3 getStaticF_zero();
 
-  /// @brief Method get_Item, addr 0x321b334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x322b1b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t index);
 
-  /// @brief Method get_xx, addr 0x321b2a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_xx, addr 0x322b124, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 get_xx();
 
-  /// @brief Method get_xxx, addr 0x321b0f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xxx, addr 0x322af74, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_xxx();
 
-  /// @brief Method get_xxxx, addr 0x321ab7c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_xxxx, addr 0x322aa00, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xxxx();
 
-  /// @brief Method get_xxxy, addr 0x321ab90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xxxy, addr 0x322aa14, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xxxy();
 
-  /// @brief Method get_xxxz, addr 0x321aba0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_xxxz, addr 0x322aa24, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xxxz();
 
-  /// @brief Method get_xxy, addr 0x321b100, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_xxy, addr 0x322af84, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_xxy();
 
-  /// @brief Method get_xxyx, addr 0x321abb4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_xxyx, addr 0x322aa38, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xxyx();
 
-  /// @brief Method get_xxyy, addr 0x321abc8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_xxyy, addr 0x322aa4c, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xxyy();
 
-  /// @brief Method get_xxyz, addr 0x321abdc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xxyz, addr 0x322aa60, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xxyz();
 
-  /// @brief Method get_xxz, addr 0x321b10c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xxz, addr 0x322af90, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_xxz();
 
-  /// @brief Method get_xxzx, addr 0x321abec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_xxzx, addr 0x322aa70, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xxzx();
 
-  /// @brief Method get_xxzy, addr 0x321ac00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xxzy, addr 0x322aa84, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xxzy();
 
-  /// @brief Method get_xxzz, addr 0x321ac10, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_xxzz, addr 0x322aa94, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xxzz();
 
-  /// @brief Method get_xy, addr 0x321b2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xy, addr 0x322b130, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 get_xy();
 
-  /// @brief Method get_xyx, addr 0x321b11c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_xyx, addr 0x322afa0, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_xyx();
 
-  /// @brief Method get_xyxx, addr 0x321ac24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xyxx, addr 0x322aaa8, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xyxx();
 
-  /// @brief Method get_xyxy, addr 0x321ac34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xyxy, addr 0x322aab8, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xyxy();
 
-  /// @brief Method get_xyxz, addr 0x321ac44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xyxz, addr 0x322aac8, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xyxz();
 
-  /// @brief Method get_xyy, addr 0x321b128, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_xyy, addr 0x322afac, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_xyy();
 
-  /// @brief Method get_xyyx, addr 0x321ac54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xyyx, addr 0x322aad8, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xyyx();
 
-  /// @brief Method get_xyyy, addr 0x321ac64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xyyy, addr 0x322aae8, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xyyy();
 
-  /// @brief Method get_xyyz, addr 0x321ac74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xyyz, addr 0x322aaf8, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xyyz();
 
-  /// @brief Method get_xyz, addr 0x321b134, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_xyz, addr 0x322afb8, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_xyz();
 
-  /// @brief Method get_xyzx, addr 0x321ac84, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xyzx, addr 0x322ab08, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xyzx();
 
-  /// @brief Method get_xyzy, addr 0x321ac94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xyzy, addr 0x322ab18, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xyzy();
 
-  /// @brief Method get_xyzz, addr 0x321aca4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xyzz, addr 0x322ab28, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xyzz();
 
-  /// @brief Method get_xz, addr 0x321b2bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_xz, addr 0x322b140, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 get_xz();
 
-  /// @brief Method get_xzx, addr 0x321b14c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xzx, addr 0x322afd0, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_xzx();
 
-  /// @brief Method get_xzxx, addr 0x321acb4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_xzxx, addr 0x322ab38, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xzxx();
 
-  /// @brief Method get_xzxy, addr 0x321acc8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xzxy, addr 0x322ab4c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xzxy();
 
-  /// @brief Method get_xzxz, addr 0x321acd8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_xzxz, addr 0x322ab5c, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xzxz();
 
-  /// @brief Method get_xzy, addr 0x321b15c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_xzy, addr 0x322afe0, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_xzy();
 
-  /// @brief Method get_xzyx, addr 0x321acec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xzyx, addr 0x322ab70, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xzyx();
 
-  /// @brief Method get_xzyy, addr 0x321acfc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xzyy, addr 0x322ab80, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xzyy();
 
-  /// @brief Method get_xzyz, addr 0x321ad0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xzyz, addr 0x322ab90, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xzyz();
 
-  /// @brief Method get_xzz, addr 0x321b174, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xzz, addr 0x322aff8, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_xzz();
 
-  /// @brief Method get_xzzx, addr 0x321ad1c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_xzzx, addr 0x322aba0, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xzzx();
 
-  /// @brief Method get_xzzy, addr 0x321ad30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xzzy, addr 0x322abb4, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xzzy();
 
-  /// @brief Method get_xzzz, addr 0x321ad40, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_xzzz, addr 0x322abc4, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_xzzz();
 
-  /// @brief Method get_yx, addr 0x321b2d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yx, addr 0x322b158, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 get_yx();
 
-  /// @brief Method get_yxx, addr 0x321b184, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_yxx, addr 0x322b008, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_yxx();
 
-  /// @brief Method get_yxxx, addr 0x321ad54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yxxx, addr 0x322abd8, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yxxx();
 
-  /// @brief Method get_yxxy, addr 0x321ad64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yxxy, addr 0x322abe8, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yxxy();
 
-  /// @brief Method get_yxxz, addr 0x321ad74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yxxz, addr 0x322abf8, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yxxz();
 
-  /// @brief Method get_yxy, addr 0x321b190, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_yxy, addr 0x322b014, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_yxy();
 
-  /// @brief Method get_yxyx, addr 0x321ad84, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yxyx, addr 0x322ac08, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yxyx();
 
-  /// @brief Method get_yxyy, addr 0x321ad94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yxyy, addr 0x322ac18, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yxyy();
 
-  /// @brief Method get_yxyz, addr 0x321ada4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yxyz, addr 0x322ac28, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yxyz();
 
-  /// @brief Method get_yxz, addr 0x321b19c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_yxz, addr 0x322b020, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_yxz();
 
-  /// @brief Method get_yxzx, addr 0x321adb4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yxzx, addr 0x322ac38, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yxzx();
 
-  /// @brief Method get_yxzy, addr 0x321adc4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yxzy, addr 0x322ac48, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yxzy();
 
-  /// @brief Method get_yxzz, addr 0x321add4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yxzz, addr 0x322ac58, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yxzz();
 
-  /// @brief Method get_yy, addr 0x321b2e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_yy, addr 0x322b168, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 get_yy();
 
-  /// @brief Method get_yyx, addr 0x321b1b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_yyx, addr 0x322b038, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_yyx();
 
-  /// @brief Method get_yyxx, addr 0x321ade4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_yyxx, addr 0x322ac68, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yyxx();
 
-  /// @brief Method get_yyxy, addr 0x321adf8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_yyxy, addr 0x322ac7c, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yyxy();
 
-  /// @brief Method get_yyxz, addr 0x321ae0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yyxz, addr 0x322ac90, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yyxz();
 
-  /// @brief Method get_yyy, addr 0x321b1c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yyy, addr 0x322b044, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_yyy();
 
-  /// @brief Method get_yyyx, addr 0x321ae1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yyyx, addr 0x322aca0, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yyyx();
 
-  /// @brief Method get_yyyy, addr 0x321ae2c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_yyyy, addr 0x322acb0, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yyyy();
 
-  /// @brief Method get_yyyz, addr 0x321ae40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yyyz, addr 0x322acc4, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yyyz();
 
-  /// @brief Method get_yyz, addr 0x321b1d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_yyz, addr 0x322b054, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_yyz();
 
-  /// @brief Method get_yyzx, addr 0x321ae50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yyzx, addr 0x322acd4, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yyzx();
 
-  /// @brief Method get_yyzy, addr 0x321ae60, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_yyzy, addr 0x322ace4, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yyzy();
 
-  /// @brief Method get_yyzz, addr 0x321ae74, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_yyzz, addr 0x322acf8, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yyzz();
 
-  /// @brief Method get_yz, addr 0x321b2f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yz, addr 0x322b174, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 get_yz();
 
-  /// @brief Method get_yzx, addr 0x321b1dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_yzx, addr 0x322b060, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_yzx();
 
-  /// @brief Method get_yzxx, addr 0x321ae88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yzxx, addr 0x322ad0c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yzxx();
 
-  /// @brief Method get_yzxy, addr 0x321ae98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yzxy, addr 0x322ad1c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yzxy();
 
-  /// @brief Method get_yzxz, addr 0x321aea8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yzxz, addr 0x322ad2c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yzxz();
 
-  /// @brief Method get_yzy, addr 0x321b1f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_yzy, addr 0x322b078, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_yzy();
 
-  /// @brief Method get_yzyx, addr 0x321aeb8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yzyx, addr 0x322ad3c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yzyx();
 
-  /// @brief Method get_yzyy, addr 0x321aec8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yzyy, addr 0x322ad4c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yzyy();
 
-  /// @brief Method get_yzyz, addr 0x321aed8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yzyz, addr 0x322ad5c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yzyz();
 
-  /// @brief Method get_yzz, addr 0x321b200, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_yzz, addr 0x322b084, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_yzz();
 
-  /// @brief Method get_yzzx, addr 0x321aee8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yzzx, addr 0x322ad6c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yzzx();
 
-  /// @brief Method get_yzzy, addr 0x321aef8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yzzy, addr 0x322ad7c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yzzy();
 
-  /// @brief Method get_yzzz, addr 0x321af08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yzzz, addr 0x322ad8c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_yzzz();
 
-  /// @brief Method get_zx, addr 0x321b300, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_zx, addr 0x322b184, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 get_zx();
 
-  /// @brief Method get_zxx, addr 0x321b20c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zxx, addr 0x322b090, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_zxx();
 
-  /// @brief Method get_zxxx, addr 0x321af18, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_zxxx, addr 0x322ad9c, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zxxx();
 
-  /// @brief Method get_zxxy, addr 0x321af2c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zxxy, addr 0x322adb0, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zxxy();
 
-  /// @brief Method get_zxxz, addr 0x321af3c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_zxxz, addr 0x322adc0, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zxxz();
 
-  /// @brief Method get_zxy, addr 0x321b21c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_zxy, addr 0x322b0a0, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_zxy();
 
-  /// @brief Method get_zxyx, addr 0x321af50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zxyx, addr 0x322add4, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zxyx();
 
-  /// @brief Method get_zxyy, addr 0x321af60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zxyy, addr 0x322ade4, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zxyy();
 
-  /// @brief Method get_zxyz, addr 0x321af70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zxyz, addr 0x322adf4, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zxyz();
 
-  /// @brief Method get_zxz, addr 0x321b234, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zxz, addr 0x322b0b8, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_zxz();
 
-  /// @brief Method get_zxzx, addr 0x321af80, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_zxzx, addr 0x322ae04, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zxzx();
 
-  /// @brief Method get_zxzy, addr 0x321af94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zxzy, addr 0x322ae18, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zxzy();
 
-  /// @brief Method get_zxzz, addr 0x321afa4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_zxzz, addr 0x322ae28, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zxzz();
 
-  /// @brief Method get_zy, addr 0x321b318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zy, addr 0x322b19c, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 get_zy();
 
-  /// @brief Method get_zyx, addr 0x321b244, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_zyx, addr 0x322b0c8, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_zyx();
 
-  /// @brief Method get_zyxx, addr 0x321afb8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zyxx, addr 0x322ae3c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zyxx();
 
-  /// @brief Method get_zyxy, addr 0x321afc8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zyxy, addr 0x322ae4c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zyxy();
 
-  /// @brief Method get_zyxz, addr 0x321afd8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zyxz, addr 0x322ae5c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zyxz();
 
-  /// @brief Method get_zyy, addr 0x321b25c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_zyy, addr 0x322b0e0, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_zyy();
 
-  /// @brief Method get_zyyx, addr 0x321afe8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zyyx, addr 0x322ae6c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zyyx();
 
-  /// @brief Method get_zyyy, addr 0x321aff8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zyyy, addr 0x322ae7c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zyyy();
 
-  /// @brief Method get_zyyz, addr 0x321b008, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zyyz, addr 0x322ae8c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zyyz();
 
-  /// @brief Method get_zyz, addr 0x321b268, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_zyz, addr 0x322b0ec, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_zyz();
 
-  /// @brief Method get_zyzx, addr 0x321b018, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zyzx, addr 0x322ae9c, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zyzx();
 
-  /// @brief Method get_zyzy, addr 0x321b028, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zyzy, addr 0x322aeac, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zyzy();
 
-  /// @brief Method get_zyzz, addr 0x321b038, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zyzz, addr 0x322aebc, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zyzz();
 
-  /// @brief Method get_zz, addr 0x321b328, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_zz, addr 0x322b1ac, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 get_zz();
 
-  /// @brief Method get_zzx, addr 0x321b274, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zzx, addr 0x322b0f8, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_zzx();
 
-  /// @brief Method get_zzxx, addr 0x321b048, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_zzxx, addr 0x322aecc, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zzxx();
 
-  /// @brief Method get_zzxy, addr 0x321b05c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zzxy, addr 0x322aee0, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zzxy();
 
-  /// @brief Method get_zzxz, addr 0x321b06c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_zzxz, addr 0x322aef0, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zzxz();
 
-  /// @brief Method get_zzy, addr 0x321b284, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_zzy, addr 0x322b108, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_zzy();
 
-  /// @brief Method get_zzyx, addr 0x321b080, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zzyx, addr 0x322af04, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zzyx();
 
-  /// @brief Method get_zzyy, addr 0x321b090, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_zzyy, addr 0x322af14, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zzyy();
 
-  /// @brief Method get_zzyz, addr 0x321b0a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_zzyz, addr 0x322af28, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zzyz();
 
-  /// @brief Method get_zzz, addr 0x321b290, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zzz, addr 0x322b114, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_zzz();
 
-  /// @brief Method get_zzzx, addr 0x321b0b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_zzzx, addr 0x322af3c, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zzzx();
 
-  /// @brief Method get_zzzy, addr 0x321b0cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zzzy, addr 0x322af50, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zzzy();
 
-  /// @brief Method get_zzzz, addr 0x321b0dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_zzzz, addr 0x322af60, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 get_zzzz();
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Mathematics::float3>"
@@ -813,195 +813,195 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Addition, addr 0x321a700, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x322a584, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Addition(::Unity::Mathematics::float3 lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_Addition, addr 0x321a710, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x322a594, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Addition(::Unity::Mathematics::float3 lhs, float_t rhs);
 
-  /// @brief Method op_Addition, addr 0x321a720, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x322a5a4, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Addition(float_t lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_Decrement, addr 0x321a8cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Decrement, addr 0x322a750, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Decrement(::Unity::Mathematics::float3 val);
 
-  /// @brief Method op_Division, addr 0x321a768, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x322a5ec, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Division(::Unity::Mathematics::float3 lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_Division, addr 0x321a778, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x322a5fc, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Division(::Unity::Mathematics::float3 lhs, float_t rhs);
 
-  /// @brief Method op_Division, addr 0x321a788, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x322a60c, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Division(float_t lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_Equality, addr 0x321aaa4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x322a928, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_Equality(::Unity::Mathematics::float3 lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_Equality, addr 0x321aac8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x322a94c, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_Equality(::Unity::Mathematics::float3 lhs, float_t rhs);
 
-  /// @brief Method op_Equality, addr 0x321aaec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x322a970, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_Equality(float_t lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_Explicit, addr 0x321a4e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x322a36c, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Explicit___Unity__Mathematics__float3(::Unity::Mathematics::bool3 v);
 
-  /// @brief Method op_Explicit, addr 0x321a6bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x322a540, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Explicit___Unity__Mathematics__float3(::Unity::Mathematics::double3 v);
 
-  /// @brief Method op_Explicit, addr 0x321a4cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x322a350, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Explicit___Unity__Mathematics__float3(bool v);
 
-  /// @brief Method op_Explicit, addr 0x321a6ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x322a530, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Explicit___Unity__Mathematics__float3(double_t v);
 
-  /// @brief Method op_GreaterThan, addr 0x321a9b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x322a83c, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_GreaterThan(::Unity::Mathematics::float3 lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_GreaterThan, addr 0x321a9dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x322a860, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_GreaterThan(::Unity::Mathematics::float3 lhs, float_t rhs);
 
-  /// @brief Method op_GreaterThan, addr 0x321aa00, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x322a884, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_GreaterThan(float_t lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_GreaterThanOrEqual, addr 0x321aa24, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThanOrEqual, addr 0x322a8a8, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_GreaterThanOrEqual(::Unity::Mathematics::float3 lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_GreaterThanOrEqual, addr 0x321aa48, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThanOrEqual, addr 0x322a8cc, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_GreaterThanOrEqual(::Unity::Mathematics::float3 lhs, float_t rhs);
 
-  /// @brief Method op_GreaterThanOrEqual, addr 0x321aa6c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThanOrEqual, addr 0x322a8f0, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_GreaterThanOrEqual(float_t lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_Implicit, addr 0x321b5c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x322b44c, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 op_Implicit___UnityEngine__Vector3(::Unity::Mathematics::float3 v);
 
-  /// @brief Method op_Implicit, addr 0x321a564, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x322a3e8, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Implicit___Unity__Mathematics__float3(::Unity::Mathematics::half v);
 
-  /// @brief Method op_Implicit, addr 0x321a5c8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x322a44c, size 0xe4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Implicit___Unity__Mathematics__float3(::Unity::Mathematics::half3 v);
 
-  /// @brief Method op_Implicit, addr 0x321a51c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x322a3a0, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Implicit___Unity__Mathematics__float3(::Unity::Mathematics::int3 v);
 
-  /// @brief Method op_Implicit, addr 0x321a544, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x322a3c8, size 0x20, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Implicit___Unity__Mathematics__float3(::Unity::Mathematics::uint3 v);
 
-  /// @brief Method op_Implicit, addr 0x321b5cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x322b450, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Implicit___Unity__Mathematics__float3(::UnityEngine::Vector3 v);
 
-  /// @brief Method op_Implicit, addr 0x321a4c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x322a344, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Implicit___Unity__Mathematics__float3(float_t v);
 
-  /// @brief Method op_Implicit, addr 0x321a50c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x322a390, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Implicit___Unity__Mathematics__float3(int32_t v);
 
-  /// @brief Method op_Implicit, addr 0x321a530, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x322a3b4, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Implicit___Unity__Mathematics__float3(uint32_t v);
 
-  /// @brief Method op_Increment, addr 0x321a8b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Increment, addr 0x322a73c, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Increment(::Unity::Mathematics::float3 val);
 
-  /// @brief Method op_Inequality, addr 0x321ab10, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x322a994, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_Inequality(::Unity::Mathematics::float3 lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_Inequality, addr 0x321ab34, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x322a9b8, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_Inequality(::Unity::Mathematics::float3 lhs, float_t rhs);
 
-  /// @brief Method op_Inequality, addr 0x321ab58, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x322a9dc, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_Inequality(float_t lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_LessThan, addr 0x321a8e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x322a764, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_LessThan(::Unity::Mathematics::float3 lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_LessThan, addr 0x321a904, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x322a788, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_LessThan(::Unity::Mathematics::float3 lhs, float_t rhs);
 
-  /// @brief Method op_LessThan, addr 0x321a928, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x322a7ac, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_LessThan(float_t lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_LessThanOrEqual, addr 0x321a94c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_LessThanOrEqual, addr 0x322a7d0, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_LessThanOrEqual(::Unity::Mathematics::float3 lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_LessThanOrEqual, addr 0x321a970, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_LessThanOrEqual, addr 0x322a7f4, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_LessThanOrEqual(::Unity::Mathematics::float3 lhs, float_t rhs);
 
-  /// @brief Method op_LessThanOrEqual, addr 0x321a994, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_LessThanOrEqual, addr 0x322a818, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool3 op_LessThanOrEqual(float_t lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_Modulus, addr 0x321a79c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Modulus, addr 0x322a620, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Modulus(::Unity::Mathematics::float3 lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_Modulus, addr 0x321a804, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method op_Modulus, addr 0x322a688, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Modulus(::Unity::Mathematics::float3 lhs, float_t rhs);
 
-  /// @brief Method op_Modulus, addr 0x321a860, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Modulus, addr 0x322a6e4, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Modulus(float_t lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_Multiply, addr 0x321a6cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x322a550, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Multiply(::Unity::Mathematics::float3 lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_Multiply, addr 0x321a6dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x322a560, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Multiply(::Unity::Mathematics::float3 lhs, float_t rhs);
 
-  /// @brief Method op_Multiply, addr 0x321a6ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x322a570, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Multiply(float_t lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_Subtraction, addr 0x321a734, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x322a5b8, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Subtraction(::Unity::Mathematics::float3 lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_Subtraction, addr 0x321a744, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x322a5c8, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Subtraction(::Unity::Mathematics::float3 lhs, float_t rhs);
 
-  /// @brief Method op_Subtraction, addr 0x321a754, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x322a5d8, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_Subtraction(float_t lhs, ::Unity::Mathematics::float3 rhs);
 
-  /// @brief Method op_UnaryNegation, addr 0x321aa90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_UnaryNegation, addr 0x322a914, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_UnaryNegation(::Unity::Mathematics::float3 val);
 
-  /// @brief Method op_UnaryPlus, addr 0x321aaa0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_UnaryPlus, addr 0x322a924, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 op_UnaryPlus(::Unity::Mathematics::float3 val);
 
   static inline void setStaticF_zero(::Unity::Mathematics::float3 value);
 
-  /// @brief Method set_Item, addr 0x321b33c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x322b1c0, size 0x8, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, float_t value);
 
-  /// @brief Method set_xy, addr 0x321b2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_xy, addr 0x322b138, size 0x8, virtual false, abstract: false, final false
   inline void set_xy(::Unity::Mathematics::float2 value);
 
-  /// @brief Method set_xyz, addr 0x321b140, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_xyz, addr 0x322afc4, size 0xc, virtual false, abstract: false, final false
   inline void set_xyz(::Unity::Mathematics::float3 value);
 
-  /// @brief Method set_xz, addr 0x321b2c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_xz, addr 0x322b14c, size 0xc, virtual false, abstract: false, final false
   inline void set_xz(::Unity::Mathematics::float2 value);
 
-  /// @brief Method set_xzy, addr 0x321b168, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_xzy, addr 0x322afec, size 0xc, virtual false, abstract: false, final false
   inline void set_xzy(::Unity::Mathematics::float3 value);
 
-  /// @brief Method set_yx, addr 0x321b2dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_yx, addr 0x322b160, size 0x8, virtual false, abstract: false, final false
   inline void set_yx(::Unity::Mathematics::float2 value);
 
-  /// @brief Method set_yxz, addr 0x321b1a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_yxz, addr 0x322b02c, size 0xc, virtual false, abstract: false, final false
   inline void set_yxz(::Unity::Mathematics::float3 value);
 
-  /// @brief Method set_yz, addr 0x321b2f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_yz, addr 0x322b17c, size 0x8, virtual false, abstract: false, final false
   inline void set_yz(::Unity::Mathematics::float2 value);
 
-  /// @brief Method set_yzx, addr 0x321b1e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_yzx, addr 0x322b06c, size 0xc, virtual false, abstract: false, final false
   inline void set_yzx(::Unity::Mathematics::float3 value);
 
-  /// @brief Method set_zx, addr 0x321b30c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_zx, addr 0x322b190, size 0xc, virtual false, abstract: false, final false
   inline void set_zx(::Unity::Mathematics::float2 value);
 
-  /// @brief Method set_zxy, addr 0x321b228, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_zxy, addr 0x322b0ac, size 0xc, virtual false, abstract: false, final false
   inline void set_zxy(::Unity::Mathematics::float3 value);
 
-  /// @brief Method set_zy, addr 0x321b320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_zy, addr 0x322b1a4, size 0x8, virtual false, abstract: false, final false
   inline void set_zy(::Unity::Mathematics::float2 value);
 
-  /// @brief Method set_zyx, addr 0x321b250, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_zyx, addr 0x322b0d4, size 0xc, virtual false, abstract: false, final false
   inline void set_zyx(::Unity::Mathematics::float3 value);
 
   // Ctor Parameters []

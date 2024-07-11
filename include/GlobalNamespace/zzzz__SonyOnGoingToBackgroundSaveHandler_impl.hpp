@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::*)()>(
     &::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::Initialize)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x14e56b0;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x14f04fc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler*>::get(),
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::*)()>(
     &::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::OnDestroy)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x14e576c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x14f05b4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::*)()>(
     &::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::HandlePlatformBackgroundExecutionHelperDidGoToBackgroundExecution)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x14e5804;
+  constexpr static std::size_t addrs = 0x14f0648;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::*)()>(
     &::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14e5918;
+  constexpr static std::size_t addrs = 0x14f075c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler*>::get(),

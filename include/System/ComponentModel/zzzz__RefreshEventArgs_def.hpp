@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__TypeChanged_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2f68130, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f74b44, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* typeChanged);
 
 protected:

@@ -118,36 +118,36 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
   constexpr operator ::GlobalNamespace::IOVRSceneComponent*() noexcept;
 
-  /// @brief Method Awake, addr 0x2b80ee4, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2b918f8, size 0x200, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetUuidsToQuery, addr 0x2b811f8, size 0x64c, virtual false, abstract: false, final false
+  /// @brief Method GetUuidsToQuery, addr 0x2b91c0c, size 0x64c, virtual false, abstract: false, final false
   inline void GetUuidsToQuery();
 
-  /// @brief Method IOVRSceneComponent.Initialize, addr 0x2b810e4, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method IOVRSceneComponent.Initialize, addr 0x2b91af8, size 0x114, virtual true, abstract: false, final true
   inline void IOVRSceneComponent_Initialize();
 
-  /// @brief Method LoadRoom, addr 0x2b79ee8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method LoadRoom, addr 0x2b8a8fc, size 0xf0, virtual false, abstract: false, final false
   inline void LoadRoom();
 
   static inline ::GlobalNamespace::OVRSceneRoom* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2b823f0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2b92e04, size 0xb8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnFetchAnchorsCompleted, addr 0x2b81844, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method OnFetchAnchorsCompleted, addr 0x2b92258, size 0x3d4, virtual false, abstract: false, final false
   inline void OnFetchAnchorsCompleted(bool success);
 
-  /// @brief Method OnLocalizationCompleted, addr 0x2b81c18, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method OnLocalizationCompleted, addr 0x2b9262c, size 0x3a4, virtual false, abstract: false, final false
   inline void OnLocalizationCompleted(bool success, ::GlobalNamespace::OVRAnchor anchor);
 
-  /// @brief Method UpdateRoomInformation, addr 0x2b81fbc, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method UpdateRoomInformation, addr 0x2b929d0, size 0x434, virtual false, abstract: false, final false
   inline void UpdateRoomInformation(::GlobalNamespace::OVRScenePlane* plane);
 
-  /// @brief Method <Awake>b__24_0, addr 0x2b826fc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__24_0, addr 0x2b93110, size 0x60, virtual false, abstract: false, final false
   inline int32_t _Awake_b__24_0(::GlobalNamespace::OVRScenePlane* planeA, ::GlobalNamespace::OVRScenePlane* planeB);
 
-  /// @brief Method <Awake>g__TryGetUuid|24_1, addr 0x2b8275c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <Awake>g__TryGetUuid|24_1, addr 0x2b93170, size 0x94, virtual false, abstract: false, final false
   inline bool _Awake_g__TryGetUuid_24_1(::GlobalNamespace::OVRScenePlane* plane, ByRef<int32_t> index);
 
   constexpr ::UnityW<::GlobalNamespace::OVRScenePlane> const& __cordl_internal_get__Ceiling_k__BackingField() const;
@@ -228,20 +228,20 @@ public:
 
   constexpr void __cordl_internal_set__walls(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRScenePlane>>* value);
 
-  /// @brief Method .ctor, addr 0x2b824a8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b92ebc, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneRoom>>* getStaticF_SceneRooms();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>* getStaticF_SceneRoomsList();
 
-  /// @brief Method get_Ceiling, addr 0x2b80ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ceiling, addr 0x2b918d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRScenePlane> get_Ceiling();
 
-  /// @brief Method get_Floor, addr 0x2b80eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Floor, addr 0x2b918c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRScenePlane> get_Floor();
 
-  /// @brief Method get_Walls, addr 0x2b80ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Walls, addr 0x2b918e8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::OVRScenePlane>, ::Array<::UnityW<::GlobalNamespace::OVRScenePlane>>*> get_Walls();
 
   /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
@@ -251,13 +251,13 @@ public:
 
   static inline void setStaticF_SceneRoomsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>* value);
 
-  /// @brief Method set_Ceiling, addr 0x2b80ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Ceiling, addr 0x2b918e0, size 0x8, virtual false, abstract: false, final false
   inline void set_Ceiling(::GlobalNamespace::OVRScenePlane* value);
 
-  /// @brief Method set_Floor, addr 0x2b80ebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Floor, addr 0x2b918d0, size 0x8, virtual false, abstract: false, final false
   inline void set_Floor(::GlobalNamespace::OVRScenePlane* value);
 
-  /// @brief Method set_Walls, addr 0x2b80edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Walls, addr 0x2b918f0, size 0x8, virtual false, abstract: false, final false
   inline void set_Walls(::ArrayW<::GlobalNamespace::OVRScenePlane*, ::Array<::GlobalNamespace::OVRScenePlane*>*> value);
 
 protected:

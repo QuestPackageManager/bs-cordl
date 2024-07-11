@@ -33,18 +33,18 @@ public:
   /// @brief Field type, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
-  /// @brief Method Equals, addr 0x2ee711c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2ef6b30, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2ee718c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2ef6ba0, size 0xac, virtual false, abstract: false, final false
   static inline bool Equals(::System::Xml::Serialization::TypeMember* tm1, ::System::Xml::Serialization::TypeMember* tm2);
 
-  /// @brief Method GetHashCode, addr 0x2ee70d4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2ef6ae8, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Xml::Serialization::TypeMember* New_ctor(::System::Type* type, ::StringW member);
 
-  /// @brief Method ToString, addr 0x2ee7238, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2ef6c4c, size 0x64, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_member() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2ee70a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef6abc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW member);
 
 protected:

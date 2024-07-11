@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRNotifications___CreateNotification::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::__IVRNotifications___CreateNotification::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2be0010;
+  constexpr static std::size_t addrs = 0x2bf2a24;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::__IVRNotifications___CreateNotification*>::get(),
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     uint64_t, uint64_t, ::OVR::OpenVR::EVRNotificationType, ::StringW, ::OVR::OpenVR::EVRNotificationStyle, ByRef<::OVR::OpenVR::NotificationBitmap_t>, ByRef<uint32_t>)>(
     &::OVR::OpenVR::__IVRNotifications___CreateNotification::Invoke)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2be00d4;
+  constexpr static std::size_t addrs = 0x2bf2ae8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                ByRef<::OVR::OpenVR::NotificationBitmap_t>, ByRef<uint32_t>, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__IVRNotifications___CreateNotification::BeginInvoke)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x2be00ec;
+  constexpr static std::size_t addrs = 0x2bf2b00;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRNotificationError (::OVR::OpenVR::__IVRNotifications___CreateNotification::*)(
     ByRef<::OVR::OpenVR::NotificationBitmap_t>, ByRef<uint32_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRNotifications___CreateNotification::EndInvoke)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2be0248;
+  constexpr static std::size_t addrs = 0x2bf2c5c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRNotifications___RemoveNotification::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::__IVRNotifications___RemoveNotification::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2be027c;
+  constexpr static std::size_t addrs = 0x2bf2c90;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::__IVRNotifications___RemoveNotification*>::get(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRNotificationError (::OVR::OpenVR::__IVRNotifications___RemoveNotification::*)(uint32_t)>(
     &::OVR::OpenVR::__IVRNotifications___RemoveNotification::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2be0340;
+  constexpr static std::size_t addrs = 0x2bf2d54;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::__IVRNotifications___RemoveNotification::*)(uint32_t, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::__IVRNotifications___RemoveNotification::BeginInvoke)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2be0354;
+  constexpr static std::size_t addrs = 0x2bf2d68;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRNotificationError (::OVR::OpenVR::__IVRNotifications___RemoveNotification::*)(
     ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRNotifications___RemoveNotification::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2be03d8;
+  constexpr static std::size_t addrs = 0x2bf2dec;
 
   inline static const ::MethodInfo* methodInfo() {
 

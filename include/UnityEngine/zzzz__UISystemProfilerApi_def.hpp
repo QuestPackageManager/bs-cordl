@@ -87,13 +87,13 @@ public:
   // Declarations
   using SampleType = ::UnityEngine::__UISystemProfilerApi__SampleType;
 
-  /// @brief Method AddMarker, addr 0x362aa84, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddMarker, addr 0x3641908, size 0x44, virtual false, abstract: false, final false
   static inline void AddMarker(::StringW name, ::UnityEngine::Object* obj);
 
-  /// @brief Method BeginSample, addr 0x362aa0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeginSample, addr 0x3641890, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginSample(::UnityEngine::__UISystemProfilerApi__SampleType type);
 
-  /// @brief Method EndSample, addr 0x362aa48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EndSample, addr 0x36418cc, size 0x3c, virtual false, abstract: false, final false
   static inline void EndSample(::UnityEngine::__UISystemProfilerApi__SampleType type);
 
 protected:

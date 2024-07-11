@@ -26,7 +26,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE GraphicSettingHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromPreset, addr 0x26a2f58, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method FromPreset, addr 0x26b5f34, size 0xb0, virtual false, abstract: false, final false
   static inline bool FromPreset(::BeatSaber::GameSettings::GraphicSettingsHandler* settingsHandler, ByRef<::BeatSaber::PerformancePresets::PerformancePreset*> preset);
 
 protected:

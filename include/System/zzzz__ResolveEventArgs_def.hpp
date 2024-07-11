@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set__RequestingAssembly_k__BackingField(::System::Reflection::Assembly* value);
 
-  /// @brief Method .ctor, addr 0x29605c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2974fdc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2960634, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2975048, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Reflection::Assembly* requestingAssembly);
 
 protected:

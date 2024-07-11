@@ -123,19 +123,19 @@ public:
   /// @brief Field isAotidSet, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_isAotidSet, put = setStaticF_isAotidSet)) bool isAotidSet;
 
-  /// @brief Method AddFrames, addr 0x291a09c, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method AddFrames, addr 0x292dab0, size 0x4b0, virtual false, abstract: false, final false
   inline bool AddFrames(::System::Text::StringBuilder* sb, bool separator, ByRef<bool> isAsync);
 
-  /// @brief Method ConvertAsyncStateMachineMethod, addr 0x291aba4, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method ConvertAsyncStateMachineMethod, addr 0x292e5b8, size 0x460, virtual false, abstract: false, final false
   static inline void ConvertAsyncStateMachineMethod(ByRef<::System::Reflection::MethodBase*> method, ByRef<::System::Type*> declaringType);
 
-  /// @brief Method GetAotId, addr 0x2919fd4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetAotId, addr 0x292d9e8, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW GetAotId();
 
-  /// @brief Method GetFrame, addr 0x2919f74, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetFrame, addr 0x292d988, size 0x60, virtual true, abstract: false, final false
   inline ::System::Diagnostics::StackFrame* GetFrame(int32_t index);
 
-  /// @brief Method GetFullNameForStackTrace, addr 0x291a54c, size 0x658, virtual false, abstract: false, final false
+  /// @brief Method GetFullNameForStackTrace, addr 0x292df60, size 0x658, virtual false, abstract: false, final false
   inline void GetFullNameForStackTrace(::System::Text::StringBuilder* sb, ::System::Reflection::MethodBase* mi, bool needsNewLine, ByRef<bool> skipped, ByRef<bool> isAsync);
 
   static inline ::System::Diagnostics::StackTrace* New_ctor();
@@ -150,10 +150,10 @@ public:
 
   static inline ::System::Diagnostics::StackTrace* New_ctor(int32_t skipFrames, bool fNeedFileInfo);
 
-  /// @brief Method ToString, addr 0x291b004, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x292ea18, size 0x15c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x291b160, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x292eb74, size 0xc, virtual false, abstract: false, final false
   inline ::StringW ToString(::System::Diagnostics::__StackTrace__TraceFormat traceFormat);
 
   constexpr ::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*> const& __cordl_internal_get_captured_traces() const;
@@ -174,35 +174,35 @@ public:
 
   constexpr void __cordl_internal_set_frames(::ArrayW<::System::Diagnostics::StackFrame*, ::Array<::System::Diagnostics::StackFrame*>*> value);
 
-  /// @brief Method .ctor, addr 0x2919ba4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x292d5b8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2919e60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x292d874, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* e, bool fNeedFileInfo);
 
-  /// @brief Method .ctor, addr 0x2919e6c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x292d880, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* e, int32_t skipFrames, bool fNeedFileInfo);
 
-  /// @brief Method .ctor, addr 0x2919dc4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x292d7d8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool fNeedFileInfo);
 
-  /// @brief Method .ctor, addr 0x2919df4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x292d808, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t skipFrames);
 
-  /// @brief Method .ctor, addr 0x2919e24, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x292d838, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t skipFrames, bool fNeedFileInfo);
 
   static inline ::StringW getStaticF_aotid();
 
   static inline bool getStaticF_isAotidSet();
 
-  /// @brief Method get_FrameCount, addr 0x2919f5c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_FrameCount, addr 0x292d970, size 0x18, virtual true, abstract: false, final false
   inline int32_t get_FrameCount();
 
-  /// @brief Method get_trace, addr 0x2919e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trace, addr 0x292d86c, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Diagnostics::StackFrame*, ::Array<::System::Diagnostics::StackFrame*>*> get_trace(::System::Exception* e, int32_t skipFrames, bool fNeedFileInfo);
 
-  /// @brief Method init_frames, addr 0x2919bc8, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method init_frames, addr 0x292d5dc, size 0x1fc, virtual false, abstract: false, final false
   inline void init_frames(int32_t skipFrames, bool fNeedFileInfo);
 
   static inline void setStaticF_aotid(::StringW value);

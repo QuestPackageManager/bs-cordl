@@ -42,7 +42,7 @@ public:
   /// @brief Field _specialEventsFilter, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__specialEventsFilter, put = __cordl_internal_set__specialEventsFilter))::BeatmapDataLoaderVersion4::SpecialEventsFilter* _specialEventsFilter;
 
-  /// @brief Method Convert, addr 0x14fd470, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x15084ec, size 0xf8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapSaveDataVersion4::BeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::BasicEventItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> basicEvents,
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__specialEventsFilter(::BeatmapDataLoaderVersion4::SpecialEventsFilter* value);
 
-  /// @brief Method .ctor, addr 0x14fd414, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1508490, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> basicEvents, ::BeatmapDataLoaderVersion4::SpecialEventsFilter* specialEventsFilter,
                     ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 

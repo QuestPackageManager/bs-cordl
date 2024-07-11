@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__EnumUtils____c::*)()>(
     &::Newtonsoft::Json::Utilities::__EnumUtils____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a2f740;
+  constexpr static std::size_t addrs = 0x2a44154;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__EnumUtils____c*>::get(), ".ctor",
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Utilities::__EnumUtils____c::*)(
     ::System::Runtime::Serialization::EnumMemberAttribute*)>(&::Newtonsoft::Json::Utilities::__EnumUtils____c::_InitializeValuesAndNames_b__3_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2a2f748;
+  constexpr static std::size_t addrs = 0x2a4415c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Newtonsoft::Json::Utilities::EnumInfo* (*)(::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>)>(
         &::Newtonsoft::Json::Utilities::EnumUtils::InitializeValuesAndNames)> {
   constexpr static std::size_t size = 0x500;
-  constexpr static std::size_t addrs = 0x2a2df84;
+  constexpr static std::size_t addrs = 0x2a42998;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Object*, bool, ByRef<::StringW>)>(
     &::Newtonsoft::Json::Utilities::EnumUtils::TryToString)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2a2e7b4;
+  constexpr static std::size_t addrs = 0x2a431c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Object*, ::Newtonsoft::Json::Serialization::NamingStrategy*, ByRef<::StringW>)>(
     &::Newtonsoft::Json::Utilities::EnumUtils::TryToString)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2a2e854;
+  constexpr static std::size_t addrs = 0x2a43268;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Newtonsoft::Json::Utilities::EnumInfo*, uint64_t)>(
     &::Newtonsoft::Json::Utilities::EnumUtils::InternalFlagsFormat)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x2a2e9d0;
+  constexpr static std::size_t addrs = 0x2a433e4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::EnumInfo* (*)(::System::Type*)>(
     &::Newtonsoft::Json::Utilities::EnumUtils::GetEnumValuesAndNames)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2a2eb6c;
+  constexpr static std::size_t addrs = 0x2a43580;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::Object*)>(&::Newtonsoft::Json::Utilities::EnumUtils::ToUInt64)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x2a2e484;
+  constexpr static std::size_t addrs = 0x2a42e98;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*, ::StringW, bool)>(
     &::Newtonsoft::Json::Utilities::EnumUtils::ParseEnum)> {
   constexpr static std::size_t size = 0x7c0;
-  constexpr static std::size_t addrs = 0x2a2ec28;
+  constexpr static std::size_t addrs = 0x2a4363c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -233,7 +233,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Nullable_1<int32_t> (*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>, int32_t, int32_t, ::System::StringComparison)>(
         &::Newtonsoft::Json::Utilities::EnumUtils::MatchName)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2a2f4e0;
+  constexpr static std::size_t addrs = 0x2a43ef4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int32_t> (*)(
     ::ArrayW<::StringW, ::Array<::StringW>*>, ::StringW, int32_t, int32_t, ::System::StringComparison)>(&::Newtonsoft::Json::Utilities::EnumUtils::FindIndexByName)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2a2f3e8;
+  constexpr static std::size_t addrs = 0x2a43dfc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

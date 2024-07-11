@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::InputBindingResolver::*)()>(
     &::UnityEngine::InputSystem::InputBindingResolver::get_totalMapCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30e4a48;
+  constexpr static std::size_t addrs = 0x30f68cc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBindingResolver>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::InputBindingResolver::*)()>(
     &::UnityEngine::InputSystem::InputBindingResolver::get_totalActionCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30e4a50;
+  constexpr static std::size_t addrs = 0x30f68d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBindingResolver>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::InputBindingResolver::*)()>(
     &::UnityEngine::InputSystem::InputBindingResolver::get_totalBindingCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30e4a58;
+  constexpr static std::size_t addrs = 0x30f68dc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBindingResolver>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::InputBindingResolver::*)()>(
     &::UnityEngine::InputSystem::InputBindingResolver::get_totalControlCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30e4a60;
+  constexpr static std::size_t addrs = 0x30f68e4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBindingResolver>::get(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBindingResolver::*)()>(
     &::UnityEngine::InputSystem::InputBindingResolver::Dispose)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x30e4a68;
+  constexpr static std::size_t addrs = 0x30f68ec;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBindingResolver>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBindingResolver::*)(::UnityEngine::InputSystem::InputActionState*, bool)>(
     &::UnityEngine::InputSystem::InputBindingResolver::StartWithPreviousResolve)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x30e4ab0;
+  constexpr static std::size_t addrs = 0x30f6934;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputBindingResolver::*)(::UnityEngine::InputSystem::InputActionMap*)>(
     &::UnityEngine::InputSystem::InputBindingResolver::AddActionMap)> {
   constexpr static std::size_t size = 0x1610;
-  constexpr static std::size_t addrs = 0x30e4b98;
+  constexpr static std::size_t addrs = 0x30f6a1c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::InputBindingComposite* (*)(ByRef<::UnityEngine::InputSystem::InputBinding>, ::UnityEngine::InputSystem::InputActionMap*)>(
         &::UnityEngine::InputSystem::InputBindingResolver::InstantiateBindingComposite)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x30e61a8;
+  constexpr static std::size_t addrs = 0x30f802c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +144,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue>, ::System::Object*, ::UnityEngine::InputSystem::InputActionMap*,
                          ByRef<::UnityEngine::InputSystem::InputBinding>, ::StringW, ::StringW)>(&::UnityEngine::InputSystem::InputBindingResolver::ApplyParameters)> {
   constexpr static std::size_t size = 0x684;
-  constexpr static std::size_t addrs = 0x30e66d4;
+  constexpr static std::size_t addrs = 0x30f8558;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Object*, ::StringW, ByRef<int32_t>)>(
     &::UnityEngine::InputSystem::InputBindingResolver::AssignCompositePartIndex)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x30e649c;
+  constexpr static std::size_t addrs = 0x30f8320;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

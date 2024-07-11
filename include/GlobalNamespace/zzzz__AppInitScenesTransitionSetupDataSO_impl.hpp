@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType (::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData::*)()>(
         &::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData::get_appInitOverrideStartType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1077ab0;
+  constexpr static std::size_t addrs = 0x107e74c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData::*)(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType)>(
         &::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData::set_appInitOverrideStartType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1077ab8;
+  constexpr static std::size_t addrs = 0x107e754;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData::*)(
     ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType)>(&::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1071e40;
+  constexpr static std::size_t addrs = 0x1078adc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::AppInitScenesTransitionSetupDataSO::Init)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x1077868;
+  constexpr static std::size_t addrs = 0x107e504;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*>::get(),
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::AppInitScenesTransitionSetupDataSO::InitAsAppStart)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x10779c0;
+  constexpr static std::size_t addrs = 0x107e65c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*>::get(),
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupDataSO::*)(
     ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType)>(&::GlobalNamespace::AppInitScenesTransitionSetupDataSO::__Init)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x1077a2c;
+  constexpr static std::size_t addrs = 0x107e6c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::AppInitScenesTransitionSetupDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1077aa0;
+  constexpr static std::size_t addrs = 0x107e73c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*>::get(),

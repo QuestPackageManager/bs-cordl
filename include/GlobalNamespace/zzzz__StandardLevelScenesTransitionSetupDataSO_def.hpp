@@ -24,6 +24,9 @@ namespace GlobalNamespace {
 class BeatmapLevel;
 }
 namespace GlobalNamespace {
+class BeatmapLevelsEntitlementModel;
+}
+namespace GlobalNamespace {
 class BeatmapLevelsModel;
 }
 namespace GlobalNamespace {
@@ -141,35 +144,36 @@ public:
 
   __declspec(property(get = get_usingOverrideEnvironment, put = set_usingOverrideEnvironment)) bool usingOverrideEnvironment;
 
-  /// @brief Method Finish, addr 0x26bfcbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x26d6008, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method Init, addr 0x26bd2ec, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26d36b4, size 0x19c, virtual false, abstract: false, final false
   inline void Init(::StringW gameMode, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                    ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::ColorScheme* overrideColorScheme,
                    ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                    ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
                    ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
                    ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset, ::StringW backButtonText,
-                   ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, bool useTestNoteCutSoundEffects, bool startPaused,
-                   ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
+                   ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel, bool useTestNoteCutSoundEffects,
+                   bool startPaused, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
-  /// @brief Method Init, addr 0x26ba214, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26d04f0, size 0x194, virtual false, abstract: false, final false
   inline void Init(::StringW gameMode, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                    ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::ColorScheme* overrideColorScheme,
                    ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                    ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
                    ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
-                   ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::StringW backButtonText,
-                   bool useTestNoteCutSoundEffects, bool startPaused, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
+                   ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
+                   ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel, ::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused,
+                   ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
-  /// @brief Method InitAndSetupScenes, addr 0x26bf9f4, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method InitAndSetupScenes, addr 0x26d5d40, size 0x2c8, virtual false, abstract: false, final false
   inline void InitAndSetupScenes(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::StringW backButtonText, bool startPaused);
 
-  /// @brief Method InitColorInfo, addr 0x26bf95c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InitColorInfo, addr 0x26d5ca8, size 0x98, virtual false, abstract: false, final false
   inline void InitColorInfo(::GlobalNamespace::ColorScheme* overrideColorScheme, ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme);
 
-  /// @brief Method InitEnvironmentInfo, addr 0x26bf804, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method InitEnvironmentInfo, addr 0x26d5b50, size 0x158, virtual false, abstract: false, final false
   inline void InitEnvironmentInfo(::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel);
 
   static inline ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* New_ctor();
@@ -247,67 +251,67 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x26bfce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d6030, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x26bc52c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x26d28ec, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
 
-  /// @brief Method get_beatmapKey, addr 0x26bf764, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x26d5ab0, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_beatmapLevel, addr 0x26bf78c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevel, addr 0x26d5ad8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevel* get_beatmapLevel();
 
-  /// @brief Method get_colorScheme, addr 0x26bf7c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x26d5b0c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* get_colorScheme();
 
-  /// @brief Method get_environmentInfo, addr 0x26bf7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentInfo, addr 0x26d5b30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfo();
 
-  /// @brief Method get_gameMode, addr 0x26bf754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameMode, addr 0x26d5aa0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_gameMode();
 
-  /// @brief Method get_gameplayModifiers, addr 0x26bf7f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x26d5b40, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_practiceSettings, addr 0x26bf79c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_practiceSettings, addr 0x26d5ae8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
 
-  /// @brief Method get_usingOverrideColorScheme, addr 0x26bf7ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usingOverrideColorScheme, addr 0x26d5af8, size 0x8, virtual false, abstract: false, final false
   inline bool get_usingOverrideColorScheme();
 
-  /// @brief Method get_usingOverrideEnvironment, addr 0x26bf7d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usingOverrideEnvironment, addr 0x26d5b1c, size 0x8, virtual false, abstract: false, final false
   inline bool get_usingOverrideEnvironment();
 
-  /// @brief Method remove_didFinishEvent, addr 0x26bca3c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x26d2dfc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
 
-  /// @brief Method set_beatmapKey, addr 0x26bf778, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapKey, addr 0x26d5ac4, size 0x14, virtual false, abstract: false, final false
   inline void set_beatmapKey(::GlobalNamespace::BeatmapKey value);
 
-  /// @brief Method set_beatmapLevel, addr 0x26bf794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapLevel, addr 0x26d5ae0, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
 
-  /// @brief Method set_colorScheme, addr 0x26bf7c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorScheme, addr 0x26d5b14, size 0x8, virtual false, abstract: false, final false
   inline void set_colorScheme(::GlobalNamespace::ColorScheme* value);
 
-  /// @brief Method set_environmentInfo, addr 0x26bf7ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_environmentInfo, addr 0x26d5b38, size 0x8, virtual false, abstract: false, final false
   inline void set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
 
-  /// @brief Method set_gameMode, addr 0x26bf75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameMode, addr 0x26d5aa8, size 0x8, virtual false, abstract: false, final false
   inline void set_gameMode(::StringW value);
 
-  /// @brief Method set_gameplayModifiers, addr 0x26bf7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayModifiers, addr 0x26d5b48, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method set_practiceSettings, addr 0x26bf7a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_practiceSettings, addr 0x26d5af0, size 0x8, virtual false, abstract: false, final false
   inline void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
 
-  /// @brief Method set_usingOverrideColorScheme, addr 0x26bf7b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_usingOverrideColorScheme, addr 0x26d5b00, size 0xc, virtual false, abstract: false, final false
   inline void set_usingOverrideColorScheme(bool value);
 
-  /// @brief Method set_usingOverrideEnvironment, addr 0x26bf7d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_usingOverrideEnvironment, addr 0x26d5b24, size 0xc, virtual false, abstract: false, final false
   inline void set_usingOverrideEnvironment(bool value);
 
 protected:

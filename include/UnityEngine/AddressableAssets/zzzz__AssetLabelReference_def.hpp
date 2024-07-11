@@ -37,12 +37,12 @@ public:
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::IKeyEvaluator"
   constexpr operator ::UnityEngine::AddressableAssets::IKeyEvaluator*() noexcept;
 
-  /// @brief Method GetHashCode, addr 0x3076468, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x30862ec, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::AddressableAssets::AssetLabelReference* New_ctor();
 
-  /// @brief Method RuntimeKeyIsValid, addr 0x30763ec, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method RuntimeKeyIsValid, addr 0x3086270, size 0x7c, virtual true, abstract: false, final true
   inline bool RuntimeKeyIsValid();
 
   constexpr ::StringW const& __cordl_internal_get_m_LabelString() const;
@@ -51,19 +51,19 @@ public:
 
   constexpr void __cordl_internal_set_m_LabelString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3076488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x308630c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RuntimeKey, addr 0x3076394, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_RuntimeKey, addr 0x3086218, size 0x58, virtual true, abstract: false, final true
   inline ::System::Object* get_RuntimeKey();
 
-  /// @brief Method get_labelString, addr 0x3076384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_labelString, addr 0x3086208, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_labelString();
 
   /// @brief Convert to "::UnityEngine::AddressableAssets::IKeyEvaluator"
   constexpr ::UnityEngine::AddressableAssets::IKeyEvaluator* i___UnityEngine__AddressableAssets__IKeyEvaluator() noexcept;
 
-  /// @brief Method set_labelString, addr 0x307638c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_labelString, addr 0x3086210, size 0x8, virtual false, abstract: false, final false
   inline void set_labelString(::StringW value);
 
 protected:

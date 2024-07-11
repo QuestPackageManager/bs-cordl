@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__isAnimatorMotion_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x33ee7e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33fd668, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isLooping, addr 0x33ee83c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isLooping, addr 0x33fd6c0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isLooping();
 
 protected:

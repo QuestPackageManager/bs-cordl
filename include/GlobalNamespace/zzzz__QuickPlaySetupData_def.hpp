@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_packName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14d15c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14db168, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -160,7 +160,7 @@ public:
 
   constexpr void __cordl_internal_set_serializedName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14d15cc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14db170, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -233,7 +233,7 @@ public:
 
   constexpr void __cordl_internal_set_packId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14d164c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14db1f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -305,7 +305,7 @@ public:
 
   constexpr void __cordl_internal_set_predefinedPackIds(::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack*>* value);
 
-  /// @brief Method .ctor, addr 0x14d1504, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14db0a8, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -362,10 +362,10 @@ public:
 
   constexpr void __cordl_internal_set_quickPlayAvailablePacksOverride(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride* value);
 
-  /// @brief Method .ctor, addr 0x14d14fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14db0a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasOverride, addr 0x14d1474, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_hasOverride, addr 0x14db018, size 0x88, virtual false, abstract: false, final false
   inline bool get_hasOverride();
 
 protected:

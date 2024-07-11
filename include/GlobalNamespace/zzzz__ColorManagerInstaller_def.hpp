@@ -25,7 +25,7 @@ public:
   /// @brief Field _menuColorScheme, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__menuColorScheme, put = __cordl_internal_set__menuColorScheme))::UnityW<::GlobalNamespace::ColorSchemeSO> _menuColorScheme;
 
-  /// @brief Method InstallBindings, addr 0x2744ab4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x275b328, size 0xb8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::ColorManagerInstaller* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__menuColorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
 
-  /// @brief Method .ctor, addr 0x2744b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275b3e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

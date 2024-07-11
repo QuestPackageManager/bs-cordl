@@ -52,7 +52,7 @@ public:
   constexpr operator ::GlobalNamespace::ILevelPackProductDataContainer_2<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*,
                                                                          ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*() noexcept;
 
-  /// @brief Method ILevelPackProductDataContainer<SteamLevelProductCollectionModel.LevelPackProductData,SteamLevelProductCollectionModel.LevelProductData>.SetLevelPackProductData, addr 0x14e3564,
+  /// @brief Method ILevelPackProductDataContainer<SteamLevelProductCollectionModel.LevelPackProductData,SteamLevelProductCollectionModel.LevelProductData>.SetLevelPackProductData, addr 0x14ed388,
   /// size 0x8, virtual true, abstract: false, final true
   inline void ILevelPackProductDataContainer_SteamLevelProductCollectionModel_LevelPackProductData_SteamLevelProductCollectionModel_LevelProductData__SetLevelPackProductData(
       ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* newLevelPackProductData);
@@ -75,13 +75,13 @@ public:
   constexpr void __cordl_internal_set__levelPackRedirectionData(
       ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*> value);
 
-  /// @brief Method .ctor, addr 0x14e356c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ed390, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPackProductData, addr 0x14e3554, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelPackProductData, addr 0x14ed378, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* get_levelPackProductData();
 
-  /// @brief Method get_levelPackRedirectionData, addr 0x14e355c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPackRedirectionData, addr 0x14ed380, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*>
   get_levelPackRedirectionData();
 

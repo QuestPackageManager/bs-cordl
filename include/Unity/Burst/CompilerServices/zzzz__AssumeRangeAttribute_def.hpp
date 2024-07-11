@@ -24,10 +24,10 @@ public:
 
   static inline ::Unity::Burst::CompilerServices::AssumeRangeAttribute* New_ctor(uint64_t min, uint64_t max);
 
-  /// @brief Method .ctor, addr 0x30c2b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30d49bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t min, int64_t max);
 
-  /// @brief Method .ctor, addr 0x30c2b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30d49c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t min, uint64_t max);
 
 protected:

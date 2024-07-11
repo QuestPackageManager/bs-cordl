@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::GlobalNamespace::Vector2Extensions::SignedAngleToLine)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x108c6fc;
+  constexpr static std::size_t addrs = 0x10989f4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

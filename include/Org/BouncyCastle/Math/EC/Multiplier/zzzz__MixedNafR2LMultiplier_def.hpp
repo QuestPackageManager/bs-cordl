@@ -35,10 +35,10 @@ public:
   /// @brief Field doublingCoord, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_doublingCoord, put = __cordl_internal_set_doublingCoord)) int32_t doublingCoord;
 
-  /// @brief Method ConfigureCurve, addr 0x12a0114, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ConfigureCurve, addr 0x12aa40c, size 0x134, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* c, int32_t coord);
 
-  /// @brief Method MultiplyPositive, addr 0x129fcb8, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x12a9fb0, size 0x1e8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* New_ctor();
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set_doublingCoord(int32_t value);
 
-  /// @brief Method .ctor, addr 0x129fc68, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a9f60, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x129fc8c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a9f84, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t additionCoord, int32_t doublingCoord);
 
 protected:

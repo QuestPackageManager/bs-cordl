@@ -50,7 +50,7 @@ public:
   // Declarations
   using DebugView = ::System::Linq::Expressions::Interpreter::__InstructionArray__DebugView;
 
-  /// @brief Method .ctor, addr 0x2c3efc8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c529dc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxStackDepth, int32_t maxContinuationDepth,
                     ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> instructions,
                     ::ArrayW<::System::Object*, ::Array<::System::Object*>*> objects,
@@ -122,13 +122,13 @@ public:
   /// @brief Field _array, offset 0x10, size 0x28
   __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::System::Linq::Expressions::Interpreter::InstructionArray _array;
 
-  /// @brief Method GetInstructionViews, addr 0x2c3f084, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstructionViews, addr 0x2c52a98, size 0xa0, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__InstructionList__DebugView__InstructionView, ::Array<::GlobalNamespace::__InstructionList__DebugView__InstructionView>*>
   GetInstructionViews(bool includeDebugCookies);
 
   static inline ::System::Linq::Expressions::Interpreter::__InstructionArray__DebugView* New_ctor(::System::Linq::Expressions::Interpreter::InstructionArray array);
 
-  /// @brief Method <GetInstructionViews>b__4_0, addr 0x2c3f6bc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <GetInstructionViews>b__4_0, addr 0x2c530d0, size 0x34, virtual false, abstract: false, final false
   inline int32_t _GetInstructionViews_b__4_0(int32_t index);
 
   constexpr ::System::Linq::Expressions::Interpreter::InstructionArray const& __cordl_internal_get__array() const;
@@ -137,7 +137,7 @@ public:
 
   constexpr void __cordl_internal_set__array(::System::Linq::Expressions::Interpreter::InstructionArray value);
 
-  /// @brief Method .ctor, addr 0x2c3efd8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c529ec, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::InstructionArray array);
 
 protected:

@@ -38,13 +38,13 @@ public:
 
   constexpr void __cordl_internal_set_m_LoadType(::UnityEngine::RuntimeInitializeLoadType value);
 
-  /// @brief Method .ctor, addr 0x34350d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3443f54, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x34350f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3443f78, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RuntimeInitializeLoadType loadType);
 
-  /// @brief Method set_loadType, addr 0x34350ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_loadType, addr 0x3443f70, size 0x8, virtual false, abstract: false, final false
   inline void set_loadType(::UnityEngine::RuntimeInitializeLoadType value);
 
 protected:

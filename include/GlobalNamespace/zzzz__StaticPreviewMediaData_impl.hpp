@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StaticPreviewMediaData::*)(::UnityEngine::Sprite*, ::UnityEngine::AudioClip*)>(
     &::GlobalNamespace::StaticPreviewMediaData::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x14c3b1c;
+  constexpr static std::size_t addrs = 0x14d2618;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* (
     ::GlobalNamespace::StaticPreviewMediaData::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::StaticPreviewMediaData::GetCoverSpriteAsync)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x14c7a94;
+  constexpr static std::size_t addrs = 0x14d2644;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (
     ::GlobalNamespace::StaticPreviewMediaData::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::StaticPreviewMediaData::GetPreviewAudioClip)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x14c7b04;
+  constexpr static std::size_t addrs = 0x14d26b4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StaticPreviewMediaData::*)()>(
     &::GlobalNamespace::StaticPreviewMediaData::UnloadPreviewAudioClip)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x14c7b74;
+  constexpr static std::size_t addrs = 0x14d2724;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StaticPreviewMediaData*>::get(),

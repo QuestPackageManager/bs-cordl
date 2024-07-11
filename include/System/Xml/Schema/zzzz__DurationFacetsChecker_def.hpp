@@ -34,21 +34,21 @@ namespace System::Xml::Schema {
 class CORDL_TYPE DurationFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x2f391c4, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2f45bd8, size 0x114, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x2f392d8, size 0x328, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2f45cec, size 0x328, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::TimeSpan value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x2f3970c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x2f46120, size 0x78, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x2f39600, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x2f46014, size 0x10c, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::System::TimeSpan value, ::System::Collections::ArrayList* enumeration);
 
   static inline ::System::Xml::Schema::DurationFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f25468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f31e7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

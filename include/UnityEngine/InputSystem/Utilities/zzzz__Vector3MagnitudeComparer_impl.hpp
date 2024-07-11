@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::Vector3MagnitudeComparer::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::InputSystem::Utilities::Vector3MagnitudeComparer::Compare)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x31a3bcc;
+  constexpr static std::size_t addrs = 0x31b4a50;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

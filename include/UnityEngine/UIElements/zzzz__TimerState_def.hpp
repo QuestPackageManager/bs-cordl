@@ -35,31 +35,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TimerState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TimerState>*();
 
-  /// @brief Method Equals, addr 0x3586958, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x359d7dc, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x35869e0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x359d864, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TimerState other);
 
-  /// @brief Method GetHashCode, addr 0x3586a04, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x359d888, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_deltaTime, addr 0x358694c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_deltaTime, addr 0x359d7d0, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_deltaTime();
 
-  /// @brief Method get_now, addr 0x358693c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_now, addr 0x359d7c0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_now();
 
-  /// @brief Method get_start, addr 0x358692c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_start, addr 0x359d7b0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_start();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TimerState>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TimerState>* i___System__IEquatable_1___UnityEngine__UIElements__TimerState_();
 
-  /// @brief Method set_now, addr 0x3586944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_now, addr 0x359d7c8, size 0x8, virtual false, abstract: false, final false
   inline void set_now(int64_t value);
 
-  /// @brief Method set_start, addr 0x3586934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_start, addr 0x359d7b8, size 0x8, virtual false, abstract: false, final false
   inline void set_start(int64_t value);
 
   // Ctor Parameters []

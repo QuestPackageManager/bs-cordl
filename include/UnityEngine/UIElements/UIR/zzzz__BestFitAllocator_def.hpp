@@ -39,15 +39,15 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE __BestFitAllocator__BlockPool : public ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*> {
 public:
   // Declarations
-  /// @brief Method CreateBlock, addr 0x3553594, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateBlock, addr 0x356a418, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* CreateBlock();
 
   static inline ::UnityEngine::UIElements::UIR::__BestFitAllocator__BlockPool* New_ctor();
 
-  /// @brief Method ResetBlock, addr 0x3553634, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ResetBlock, addr 0x356a4b8, size 0x4, virtual false, abstract: false, final false
   static inline void ResetBlock(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* block);
 
-  /// @brief Method .ctor, addr 0x355325c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x356a0e0, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -145,10 +145,10 @@ public:
 
   constexpr void __cordl_internal_set_start(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x35535ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x356a470, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_size, addr 0x3553394, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x356a218, size 0xc, virtual false, abstract: false, final false
   inline uint32_t get_size();
 
 protected:
@@ -238,21 +238,21 @@ public:
 
   __declspec(property(get = get_totalSize)) uint32_t totalSize;
 
-  /// @brief Method Allocate, addr 0x354a0f0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x3560f74, size 0x194, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Alloc Allocate(uint32_t size);
 
-  /// @brief Method BestFitFindAvailableBlock, addr 0x3553354, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method BestFitFindAvailableBlock, addr 0x356a1d8, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* BestFitFindAvailableBlock(uint32_t size);
 
-  /// @brief Method CoalesceBlockWithPrevious, addr 0x355348c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CoalesceBlockWithPrevious, addr 0x356a310, size 0x108, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* CoalesceBlockWithPrevious(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* block);
 
-  /// @brief Method Free, addr 0x354a5e0, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x3561464, size 0x25c, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::Alloc alloc);
 
   static inline ::UnityEngine::UIElements::UIR::BestFitAllocator* New_ctor(uint32_t size);
 
-  /// @brief Method SplitBlock, addr 0x35533a0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SplitBlock, addr 0x356a224, size 0xec, virtual false, abstract: false, final false
   inline void SplitBlock(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* block, uint32_t size);
 
   constexpr uint32_t const& __cordl_internal_get__totalSize_k__BackingField() const;
@@ -285,13 +285,13 @@ public:
 
   constexpr void __cordl_internal_set_m_HighWatermark(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x354a328, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35611ac, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(uint32_t size);
 
-  /// @brief Method get_highWatermark, addr 0x354a83c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highWatermark, addr 0x35616c0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_highWatermark();
 
-  /// @brief Method get_totalSize, addr 0x355334c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalSize, addr 0x356a1d0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_totalSize();
 
 protected:

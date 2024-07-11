@@ -25,16 +25,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDifficultyMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DefaultRating, addr 0x14bf130, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method DefaultRating, addr 0x14c8cfc, size 0x28, virtual false, abstract: false, final false
   static inline int32_t DefaultRating(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method Name, addr 0x14beff8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Name, addr 0x14c8bc4, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW Name(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method NoteJumpMovementSpeed, addr 0x14bf158, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method NoteJumpMovementSpeed, addr 0x14c8d24, size 0x28, virtual false, abstract: false, final false
   static inline float_t NoteJumpMovementSpeed(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method ShortName, addr 0x14bf094, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ShortName, addr 0x14c8c60, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW ShortName(::GlobalNamespace::BeatmapDifficulty difficulty);
 
 protected:

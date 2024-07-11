@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::JetBrains::Annotations::AspTypePropertyAttribute::*)()>(
     &::JetBrains::Annotations::AspTypePropertyAttribute::get_CreateConstructorReferences)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x363a990;
+  constexpr static std::size_t addrs = 0x3651814;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::AspTypePropertyAttribute::*)(bool)>(
     &::JetBrains::Annotations::AspTypePropertyAttribute::set_CreateConstructorReferences)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x363a998;
+  constexpr static std::size_t addrs = 0x365181c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::AspTypePropertyAttribute::*)(bool)>(
     &::JetBrains::Annotations::AspTypePropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x363a9a4;
+  constexpr static std::size_t addrs = 0x3651828;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

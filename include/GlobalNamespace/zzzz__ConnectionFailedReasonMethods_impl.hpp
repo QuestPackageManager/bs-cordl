@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::ConnectionFailedReasonMethods::LocalizedKey)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x14d5c24;
+  constexpr static std::size_t addrs = 0x14df7c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::ConnectionFailedReasonMethods::ErrorCode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x14d5cd8;
+  constexpr static std::size_t addrs = 0x14df87c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

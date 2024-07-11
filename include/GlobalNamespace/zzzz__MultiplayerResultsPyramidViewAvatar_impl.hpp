@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory::*)()>(
     &::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2731d80;
+  constexpr static std::size_t addrs = 0x2747524;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Playables::PlayableDirector> (::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::*)()>(
     &::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::get_badgeDirector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2731d2c;
+  constexpr static std::size_t addrs = 0x27474d0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>::get(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::*)()>(
     &::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Awake)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2731d34;
+  constexpr static std::size_t addrs = 0x27474d8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>::get(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::*)(
     ::GlobalNamespace::MultiplayerPlayerResultsData*, int32_t, int32_t)>(&::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Setup)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x273181c;
+  constexpr static std::size_t addrs = 0x2746fc0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::*)(
     ::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::SetupBadgeTimeline)> {
   constexpr static std::size_t size = 0x57c;
-  constexpr static std::size_t addrs = 0x27312a0;
+  constexpr static std::size_t addrs = 0x2746a44;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::*)()>(
     &::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2731d54;
+  constexpr static std::size_t addrs = 0x27474f8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>::get(),

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalTickPriorityCopyBinder::*)(::Zenject::SignalDeclarationBindInfo*)>(
     &::Zenject::SignalTickPriorityCopyBinder::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x364244c;
+  constexpr static std::size_t addrs = 0x36592d0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SignalDeclarationBindInfo* (::Zenject::SignalTickPriorityCopyBinder::*)()>(
     &::Zenject::SignalTickPriorityCopyBinder::get_SignalBindInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36429a8;
+  constexpr static std::size_t addrs = 0x365982c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalTickPriorityCopyBinder*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalTickPriorityCopyBinder::*)(::Zenject::SignalDeclarationBindInfo*)>(
     &::Zenject::SignalTickPriorityCopyBinder::set_SignalBindInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36429b0;
+  constexpr static std::size_t addrs = 0x3659834;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SignalCopyBinder* (::Zenject::SignalTickPriorityCopyBinder::*)(int32_t)>(
     &::Zenject::SignalTickPriorityCopyBinder::WithTickPriority)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x36429b8;
+  constexpr static std::size_t addrs = 0x365983c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

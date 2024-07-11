@@ -60,29 +60,29 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Equals, addr 0x2dbe9e8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2dd23fc, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Get, addr 0x2dbe408, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2dd1e1c, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XName* Get(::StringW expandedName);
 
-  /// @brief Method Get, addr 0x2dbe9b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2dd23cc, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XName* Get(::StringW localName, ::StringW namespaceName);
 
-  /// @brief Method GetHashCode, addr 0x2dbe9f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2dd2408, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Xml::Linq::XName* New_ctor();
 
   static inline ::System::Xml::Linq::XName* New_ctor(::System::Xml::Linq::XNamespace* ns, ::StringW localName);
 
-  /// @brief Method System.IEquatable<System.Xml.Linq.XName>.Equals, addr 0x2dbe9fc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.IEquatable<System.Xml.Linq.XName>.Equals, addr 0x2dd2410, size 0xc, virtual true, abstract: false, final true
   inline bool System_IEquatable_System_Xml_Linq_XName__Equals(::System::Xml::Linq::XName* other);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2dbea08, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2dd241c, size 0x40, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x2dbe378, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2dd1d8c, size 0x90, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__hashCode() const;
@@ -103,19 +103,19 @@ public:
 
   constexpr void __cordl_internal_set__ns(::System::Xml::Linq::XNamespace* value);
 
-  /// @brief Method .ctor, addr 0x2dbea48, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd245c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2dbe2b0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd1cc4, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XNamespace* ns, ::StringW localName);
 
-  /// @brief Method get_LocalName, addr 0x2dbe368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x2dd1d7c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Namespace, addr 0x2dbe370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x2dd1d84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XNamespace* get_Namespace();
 
-  /// @brief Method get_NamespaceName, addr 0x2db7248, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceName, addr 0x2dcac5c, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_NamespaceName();
 
   /// @brief Convert to "::System::IEquatable_1<::System::Xml::Linq::XName*>"
@@ -124,10 +124,10 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method op_Equality, addr 0x2db6af4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2dca508, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Xml::Linq::XName* left, ::System::Xml::Linq::XName* right);
 
-  /// @brief Method op_Implicit, addr 0x2dbe9dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2dd23f0, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XName* op_Implicit___System__Xml__Linq__XName_(::StringW expandedName);
 
 protected:

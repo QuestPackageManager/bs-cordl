@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ByRef<uint32_t>, ByRef<bool>)>(&::BGLib::DotnetExtension::IntegerExtensions::ToUInt)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x107b544;
+  constexpr static std::size_t addrs = 0x10821e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

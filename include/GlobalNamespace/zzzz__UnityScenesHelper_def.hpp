@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE UnityScenesHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetActiveRootObjectsInScene, addr 0x108c48c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method SetActiveRootObjectsInScene, addr 0x1098784, size 0x1c8, virtual false, abstract: false, final false
   static inline void SetActiveRootObjectsInScene(::UnityEngine::SceneManagement::Scene scene, bool active);
 
 protected:

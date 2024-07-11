@@ -24,22 +24,22 @@ public:
   // Declarations
   __declspec(property(get = get_value, put = set_value)) int32_t value;
 
-  /// @brief Method GetMask, addr 0x3438174, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetMask, addr 0x3446ff8, size 0x108, virtual false, abstract: false, final false
   static inline int32_t GetMask(::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
 
-  /// @brief Method NameToLayer, addr 0x3438138, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method NameToLayer, addr 0x3446fbc, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t NameToLayer(::StringW layerName);
 
-  /// @brief Method get_value, addr 0x3438128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x3446fac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
-  /// @brief Method op_Implicit, addr 0x3438120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x3446fa4, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask op_Implicit___UnityEngine__LayerMask(int32_t intVal);
 
-  /// @brief Method op_Implicit, addr 0x343811c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x3446fa0, size 0x4, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::LayerMask mask);
 
-  /// @brief Method set_value, addr 0x3438130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x3446fb4, size 0x8, virtual false, abstract: false, final false
   inline void set_value(int32_t value);
 
   // Ctor Parameters []

@@ -73,24 +73,24 @@ public:
   /// @brief Field _wasHeadInWallLastFrame, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get__wasHeadInWallLastFrame, put = __cordl_internal_set__wasHeadInWallLastFrame)) bool _wasHeadInWallLastFrame;
 
-  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x26d1a04, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x26e6df8, size 0x14, virtual false, abstract: false, final false
   inline void HandleAnyGameplayLevelDidFinish();
 
-  /// @brief Method HandleDidPauseEvent, addr 0x26d1a40, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleDidPauseEvent, addr 0x26e6e34, size 0x14, virtual false, abstract: false, final false
   inline void HandleDidPauseEvent();
 
-  /// @brief Method HandleDidResumeEvent, addr 0x26d1a18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleDidResumeEvent, addr 0x26e6e0c, size 0x28, virtual false, abstract: false, final false
   inline void HandleDidResumeEvent();
 
   static inline ::GlobalNamespace::HeadInObstacleHapticEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26d178c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26e6b80, size 0x1f0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x26d1580, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26e6974, size 0x20c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x26d197c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26e6d70, size 0x88, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause();
@@ -159,7 +159,7 @@ public:
 
   constexpr void __cordl_internal_set__wasHeadInWallLastFrame(bool value);
 
-  /// @brief Method .ctor, addr 0x26d1a54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e6e48, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

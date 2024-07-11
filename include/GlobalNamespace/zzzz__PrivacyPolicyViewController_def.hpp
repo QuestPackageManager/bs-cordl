@@ -118,18 +118,18 @@ public:
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
                       put = __cordl_internal_set_didFinishEvent))::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x26739b0, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2687adc, size 0x1dc, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method Init, addr 0x2673b8c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2687cb8, size 0x14, virtual false, abstract: false, final false
   inline void Init(bool showUpdate, bool showIAcceptPrompt);
 
   static inline ::GlobalNamespace::PrivacyPolicyViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__11_0, addr 0x2673ba8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__11_0, addr 0x2687cd4, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__11_0();
 
-  /// @brief Method <DidActivate>b__11_1, addr 0x2673bc8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__11_1, addr 0x2687cf4, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__11_1();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__iAcceptButton() const;
@@ -180,13 +180,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>* value);
 
-  /// @brief Method .ctor, addr 0x2673ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2687ccc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x2673850, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x268797c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x2673900, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x2687a2c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>* value);
 
 protected:

@@ -141,21 +141,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2683e54, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26977d0, size 0x2b0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current, addr 0x26841a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current, addr 0x2697b20, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::MonoBehaviour> System_Collections_Generic_IEnumerator_UnityEngine_MonoBehaviour__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26841ac, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2697b28, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26841ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2697b68, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2683d9c, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2697718, size 0xb8, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -191,13 +191,13 @@ public:
 
   constexpr void __cordl_internal_set___7__wrap2(::System::Collections::Generic::__List_1__Enumerator<::UnityW<::UnityEngine::MonoBehaviour>> value);
 
-  /// @brief Method <>m__Finally1, addr 0x2684154, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x2697ad0, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x2684104, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x2697a80, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method .ctor, addr 0x2683d70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26976ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>"
@@ -273,12 +273,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x2683d08, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x2697684, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>* GetEnumerator();
 
   static inline ::GlobalNamespace::__GridView__GridViewCellsEnumerator* New_ctor(::GlobalNamespace::GridView* gridView);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2683d98, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2697714, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::UnityW<::GlobalNamespace::GridView> const& __cordl_internal_get__gridView() const;
@@ -287,7 +287,7 @@ public:
 
   constexpr void __cordl_internal_set__gridView(::UnityW<::GlobalNamespace::GridView> value);
 
-  /// @brief Method .ctor, addr 0x2683444, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2696dc0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GridView* gridView);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>"
@@ -370,7 +370,7 @@ public:
 
   __declspec(property(get = get_visibleColumnCount)) int32_t visibleColumnCount;
 
-  /// @brief Method GetActiveCellsForIdentifier, addr 0x2683b60, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetActiveCellsForIdentifier, addr 0x26974dc, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* GetActiveCellsForIdentifier(::UnityEngine::MonoBehaviour* prefab);
 
   /// @brief Method GetReusableCellView, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -378,10 +378,10 @@ public:
 
   static inline ::GlobalNamespace::GridView* New_ctor();
 
-  /// @brief Method ReloadData, addr 0x268346c, size 0x6f4, virtual false, abstract: false, final false
+  /// @brief Method ReloadData, addr 0x2696de8, size 0x6f4, virtual false, abstract: false, final false
   inline void ReloadData();
 
-  /// @brief Method SetDataSource, addr 0x26833ac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetDataSource, addr 0x2696d28, size 0x98, virtual false, abstract: false, final false
   inline void SetDataSource(::GlobalNamespace::__GridView__IDataSource* newDataSource, bool reloadData);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::MonoBehaviour>, ::System::Collections::Generic::Queue_1<::UnityW<::UnityEngine::MonoBehaviour>>*>*&
@@ -440,25 +440,25 @@ public:
 
   constexpr void __cordl_internal_set__visibleColumnCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2683c48, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26975c4, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cellsEnumerator, addr 0x2683384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cellsEnumerator, addr 0x2696d00, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GridView__GridViewCellsEnumerator* get_cellsEnumerator();
 
-  /// @brief Method get_columnCount, addr 0x268339c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnCount, addr 0x2696d18, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columnCount();
 
-  /// @brief Method get_dataSource, addr 0x268337c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataSource, addr 0x2696cf8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GridView__IDataSource* get_dataSource();
 
-  /// @brief Method get_rowCount, addr 0x2683394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rowCount, addr 0x2696d10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rowCount();
 
-  /// @brief Method get_visibleColumnCount, addr 0x26833a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visibleColumnCount, addr 0x2696d20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_visibleColumnCount();
 
-  /// @brief Method set_cellsEnumerator, addr 0x268338c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cellsEnumerator, addr 0x2696d08, size 0x8, virtual false, abstract: false, final false
   inline void set_cellsEnumerator(::GlobalNamespace::__GridView__GridViewCellsEnumerator* value);
 
 protected:

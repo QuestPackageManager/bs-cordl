@@ -41,13 +41,13 @@ public:
   /// @brief Field refresh, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_refresh, put = __cordl_internal_set_refresh))::System::ComponentModel::RefreshProperties refresh;
 
-  /// @brief Method Equals, addr 0x2f8bbe8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2f985fc, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x2f8bc58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2f9866c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x2f8bc60, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x2f98674, size 0x68, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::RefreshPropertiesAttribute* New_ctor(::System::ComponentModel::RefreshProperties refresh);
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_refresh(::System::ComponentModel::RefreshProperties value);
 
-  /// @brief Method .ctor, addr 0x2f8bbb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f985cc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::RefreshProperties refresh);
 
   static inline ::System::ComponentModel::RefreshPropertiesAttribute* getStaticF_All();
@@ -67,7 +67,7 @@ public:
 
   static inline ::System::ComponentModel::RefreshPropertiesAttribute* getStaticF_Repaint();
 
-  /// @brief Method get_RefreshProperties, addr 0x2f8bbe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RefreshProperties, addr 0x2f985f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::RefreshProperties get_RefreshProperties();
 
   static inline void setStaticF_All(::System::ComponentModel::RefreshPropertiesAttribute* value);

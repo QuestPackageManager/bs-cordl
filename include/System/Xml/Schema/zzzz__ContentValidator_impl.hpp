@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ContentValidator::*)(::System::Xml::Schema::XmlSchemaContentType)>(
     &::System::Xml::Schema::ContentValidator::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2f1bffc;
+  constexpr static std::size_t addrs = 0x2f29a10;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ContentValidator::*)(::System::Xml::Schema::XmlSchemaContentType, bool, bool)>(
     &::System::Xml::Schema::ContentValidator::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2f1c02c;
+  constexpr static std::size_t addrs = 0x2f29a40;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaContentType (::System::Xml::Schema::ContentValidator::*)()>(
     &::System::Xml::Schema::ContentValidator::get_ContentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f1c06c;
+  constexpr static std::size_t addrs = 0x2f29a80;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ContentValidator*>::get(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ContentValidator::*)()>(
     &::System::Xml::Schema::ContentValidator::get_PreserveWhitespace)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2f1c074;
+  constexpr static std::size_t addrs = 0x2f29a88;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ContentValidator*>::get(),
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ContentValidator::*)()>(&::System::Xml::Schema::ContentValidator::get_IsEmptiable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f1c090;
+  constexpr static std::size_t addrs = 0x2f29aa4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ContentValidator::*)()>(&::System::Xml::Schema::ContentValidator::get_IsOpen)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2f1c098;
+  constexpr static std::size_t addrs = 0x2f29aac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ContentValidator*>::get(), "get_IsOpen",
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ContentValidator::*)(bool)>(&::System::Xml::Schema::ContentValidator::set_IsOpen)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2f1c0bc;
+  constexpr static std::size_t addrs = 0x2f29ad0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::ContentValidator::InitValidation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2f1c0c8;
+  constexpr static std::size_t addrs = 0x2f29adc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -132,7 +132,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Xml::Schema::ContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::ValidationState*, ByRef<int32_t>)>(
         &::System::Xml::Schema::ContentValidator::ValidateElement)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2f1c0cc;
+  constexpr static std::size_t addrs = 0x2f29ae0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::ContentValidator::CompleteValidation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f1c0fc;
+  constexpr static std::size_t addrs = 0x2f29b10;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (
     ::System::Xml::Schema::ContentValidator::*)(::System::Xml::Schema::ValidationState*, bool)>(&::System::Xml::Schema::ContentValidator::ExpectedElements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f1c104;
+  constexpr static std::size_t addrs = 0x2f29b18;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (
     ::System::Xml::Schema::ContentValidator::*)(::System::Xml::Schema::ValidationState*, bool, ::System::Xml::Schema::XmlSchemaSet*)>(&::System::Xml::Schema::ContentValidator::ExpectedParticles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f1c10c;
+  constexpr static std::size_t addrs = 0x2f29b20;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XmlSchemaParticle*, ::System::Xml::Schema::XmlSchemaSet*,
                                                                                            ::System::Collections::ArrayList*)>(&::System::Xml::Schema::ContentValidator::AddParticleToExpected)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2f1c114;
+  constexpr static std::size_t addrs = 0x2f29b28;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XmlSchemaParticle*, ::System::Xml::Schema::XmlSchemaSet*,
                                                                                            ::System::Collections::ArrayList*, bool)>(&::System::Xml::Schema::ContentValidator::AddParticleToExpected)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x2f1c184;
+  constexpr static std::size_t addrs = 0x2f29b98;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ColumnTypeConverter::*)()>(&::System::Data::ColumnTypeConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c92708;
+  constexpr static std::size_t addrs = 0x2ca711c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ColumnTypeConverter*>::get(), ".ctor",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::Data::ColumnTypeConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2c92710;
+  constexpr static std::size_t addrs = 0x2ca7124;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::Data::ColumnTypeConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x510;
-  constexpr static std::size_t addrs = 0x2c927d8;
+  constexpr static std::size_t addrs = 0x2ca71ec;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::Data::ColumnTypeConverter::CanConvertFrom)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2c92ce8;
+  constexpr static std::size_t addrs = 0x2ca76fc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::Data::ColumnTypeConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x2c92db0;
+  constexpr static std::size_t addrs = 0x2ca77c4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::__TypeConverter__StandardValuesCollection* (
     ::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(&::System::Data::ColumnTypeConverter::GetStandardValues)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2c92fb8;
+  constexpr static std::size_t addrs = 0x2ca79cc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::Data::ColumnTypeConverter::GetStandardValuesExclusive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c930d0;
+  constexpr static std::size_t addrs = 0x2ca7ae4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::Data::ColumnTypeConverter::GetStandardValuesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c930d8;
+  constexpr static std::size_t addrs = 0x2ca7aec;
 
   inline static const ::MethodInfo* methodInfo() {
 

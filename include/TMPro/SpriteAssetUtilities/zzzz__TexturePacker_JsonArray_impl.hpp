@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteFrame::*)()>(
     &::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteFrame::ToString)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x33acd4c;
+  constexpr static std::size_t addrs = 0x33bbbd0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteSize::*)()>(
     &::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteSize::ToString)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x33acfc4;
+  constexpr static std::size_t addrs = 0x33bbe48;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::*)()>(
     &::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33ad070;
+  constexpr static std::size_t addrs = 0x33bbef4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::*)()>(
     &::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33acd44;
+  constexpr static std::size_t addrs = 0x33bbbc8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray*>::get(),

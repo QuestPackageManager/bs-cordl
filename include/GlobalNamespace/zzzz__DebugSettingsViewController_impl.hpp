@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::DebugSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x2678904;
+  constexpr static std::size_t addrs = 0x268c26c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool, bool)>(
     &::GlobalNamespace::DebugSettingsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2678b94;
+  constexpr static std::size_t addrs = 0x268c4fc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(
     &::GlobalNamespace::DebugSettingsViewController::HandleFpsCounterChanged)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2678c04;
+  constexpr static std::size_t addrs = 0x268c56c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(
     &::GlobalNamespace::DebugSettingsViewController::HandleFpsRecorderChanged)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2678c70;
+  constexpr static std::size_t addrs = 0x268c5d8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(
     &::GlobalNamespace::DebugSettingsViewController::HandleMemoryTrackerChanged)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2678cdc;
+  constexpr static std::size_t addrs = 0x268c644;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(
     &::GlobalNamespace::DebugSettingsViewController::HandleShowBeatmapLevelVersionsChanged)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2678d48;
+  constexpr static std::size_t addrs = 0x268c6b0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)()>(&::GlobalNamespace::DebugSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2678db4;
+  constexpr static std::size_t addrs = 0x268c71c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DebugSettingsViewController*>::get(), ".ctor",

@@ -79,19 +79,19 @@ public:
   /// @brief Field m_Addressables, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables))::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
 
-  /// @brief Method GetCSVString, addr 0x3063b24, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method GetCSVString, addr 0x3073ef8, size 0x3cc, virtual false, abstract: false, final false
   inline ::StringW GetCSVString(::System::Collections::Generic::IEnumerable_1<::StringW>* enumerator, ::StringW prefixSingle, ::StringW prefixPlural);
 
-  /// @brief Method GetMessageForSingleKey, addr 0x3063610, size 0x514, virtual false, abstract: false, final false
+  /// @brief Method GetMessageForSingleKey, addr 0x30739e4, size 0x514, virtual false, abstract: false, final false
   inline ::StringW GetMessageForSingleKey(::StringW keyString);
 
-  /// @brief Method GetMessageforMergeKeys, addr 0x3063ef0, size 0xfac, virtual false, abstract: false, final false
+  /// @brief Method GetMessageforMergeKeys, addr 0x30742c4, size 0xfac, virtual false, abstract: false, final false
   inline ::StringW GetMessageforMergeKeys(::System::Collections::Generic::List_1<::StringW>* keys);
 
-  /// @brief Method GetTypeToKeys, addr 0x30655b0, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method GetTypeToKeys, addr 0x3075984, size 0x320, virtual false, abstract: false, final false
   inline bool GetTypeToKeys(::StringW key, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::StringW>*>* typeToKeys);
 
-  /// @brief Method GetTypesForKey, addr 0x3064e9c, size 0x714, virtual false, abstract: false, final false
+  /// @brief Method GetTypesForKey, addr 0x3075270, size 0x714, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::System::Type*>* GetTypesForKey(::StringW keyString);
 
   static inline ::UnityEngine::AddressableAssets::InvalidKeyException* New_ctor();
@@ -138,49 +138,49 @@ public:
 
   constexpr void __cordl_internal_set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  /// @brief Method .ctor, addr 0x3062d88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x307315c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3062aa8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3072e7c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* key);
 
-  /// @brief Method .ctor, addr 0x3062b34, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3072f08, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* key, ::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x3062ba4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3072f78, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* key, ::System::Type* type, ::UnityEngine::AddressableAssets::AddressablesImpl* addr);
 
-  /// @brief Method .ctor, addr 0x3062c24, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3072ff8, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* key, ::System::Type* type, ::UnityEngine::AddressableAssets::__Addressables__MergeMode mergeMode);
 
-  /// @brief Method .ctor, addr 0x3062cd0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30730a4, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* key, ::System::Type* type, ::UnityEngine::AddressableAssets::__Addressables__MergeMode mergeMode, ::UnityEngine::AddressableAssets::AddressablesImpl* addr);
 
-  /// @brief Method .ctor, addr 0x3062de0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30731b4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3062e48, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x307321c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3062eb8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x307328c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* message, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Key, addr 0x3062a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x3072e54, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_MergeMode, addr 0x3062aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MergeMode, addr 0x3072e74, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode> get_MergeMode();
 
-  /// @brief Method get_Message, addr 0x3062f38, size 0x6d8, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x307330c, size 0x6d8, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_Type, addr 0x3062a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3072e64, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method set_Key, addr 0x3062a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Key, addr 0x3072e5c, size 0x8, virtual false, abstract: false, final false
   inline void set_Key(::System::Object* value);
 
-  /// @brief Method set_Type, addr 0x3062a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x3072e6c, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::System::Type* value);
 
 protected:

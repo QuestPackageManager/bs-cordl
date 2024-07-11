@@ -22,21 +22,21 @@ namespace UnityEngine {
 class CORDL_TYPE ScriptableObject : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method CreateInstance, addr 0x3438d58, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x3447bdc, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> CreateInstance(::System::Type* type);
 
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T CreateInstance();
 
-  /// @brief Method CreateScriptableObject, addr 0x3438d1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreateScriptableObject, addr 0x3447ba0, size 0x3c, virtual false, abstract: false, final false
   static inline void CreateScriptableObject(::UnityEngine::ScriptableObject* self);
 
-  /// @brief Method CreateScriptableObjectInstanceFromType, addr 0x3438d98, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateScriptableObjectInstanceFromType, addr 0x3447c1c, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> CreateScriptableObjectInstanceFromType(::System::Type* type, bool applyDefaultsAndReset);
 
   static inline ::UnityEngine::ScriptableObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3438c9c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3447b20, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

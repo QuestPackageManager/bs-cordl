@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Seconds(float_t value);
 
-  /// @brief Method .ctor, addr 0x3434830, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34436b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t seconds);
 
 protected:

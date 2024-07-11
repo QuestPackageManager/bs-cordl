@@ -58,25 +58,25 @@ public:
 
   constexpr void __cordl_internal_set__KernelType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x368b3d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a225c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CreateKernel, addr 0x368b3b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreateKernel, addr 0x36a2238, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateKernel();
 
-  /// @brief Method get_DefaultParentName, addr 0x368b3a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultParentName, addr 0x36a2228, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DefaultParentName();
 
-  /// @brief Method get_KernelType, addr 0x368b3c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KernelType, addr 0x36a224c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_KernelType();
 
-  /// @brief Method set_CreateKernel, addr 0x368b3bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CreateKernel, addr 0x36a2240, size 0xc, virtual false, abstract: false, final false
   inline void set_CreateKernel(bool value);
 
-  /// @brief Method set_DefaultParentName, addr 0x368b3ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultParentName, addr 0x36a2230, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultParentName(::StringW value);
 
-  /// @brief Method set_KernelType, addr 0x368b3d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KernelType, addr 0x36a2254, size 0x8, virtual false, abstract: false, final false
   inline void set_KernelType(::System::Type* value);
 
 protected:

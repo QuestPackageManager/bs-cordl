@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::Interpreter::DebugInfo*, ::System::Linq::Expressions::Interpreter::DebugInfo*)>(
     &::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer::System_Collections_Generic_IComparer_System_Linq_Expressions_Interpreter_DebugInfo__Compare)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2c496b4;
+  constexpr static std::size_t addrs = 0x2c5d0c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer::*)()>(
     &::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c496ac;
+  constexpr static std::size_t addrs = 0x2c5d0c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::Interpreter::DebugInfo* (*)(::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*, ::Array<::System::Linq::Expressions::Interpreter::DebugInfo*>*>,
                                                                          int32_t)>(&::System::Linq::Expressions::Interpreter::DebugInfo::GetMatchingDebugInfo)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2c45208;
+  constexpr static std::size_t addrs = 0x2c58c1c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::DebugInfo::*)()>(
     &::System::Linq::Expressions::Interpreter::DebugInfo::ToString)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x2c49420;
+  constexpr static std::size_t addrs = 0x2c5ce34;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::DebugInfo::*)()>(
     &::System::Linq::Expressions::Interpreter::DebugInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c49418;
+  constexpr static std::size_t addrs = 0x2c5ce2c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::DebugInfo*>::get(),

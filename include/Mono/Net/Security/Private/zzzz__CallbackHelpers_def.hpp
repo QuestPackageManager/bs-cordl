@@ -64,7 +64,7 @@ public:
 
   static inline ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <PublicToMono>b__0, addr 0x2c8cbe8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <PublicToMono>b__0, addr 0x2ca05fc, size 0x24, virtual false, abstract: false, final false
   inline bool _PublicToMono_b__0(::StringW h, ::System::Security::Cryptography::X509Certificates::X509Certificate* c, ::System::Security::Cryptography::X509Certificates::X509Chain* ch,
                                  ::Mono::Security::Interface::MonoSslPolicyErrors e);
 
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_callback(::System::Net::Security::RemoteCertificateValidationCallback* value);
 
-  /// @brief Method .ctor, addr 0x2c8cbd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ca05ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,7 +115,7 @@ public:
 
   static inline ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <MonoToInternal>b__0, addr 0x2c8cc0c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <MonoToInternal>b__0, addr 0x2ca0620, size 0x24, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* _MonoToInternal_b__0(::StringW t, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc,
                                                                                                    ::System::Security::Cryptography::X509Certificates::X509Certificate* rc,
                                                                                                    ::ArrayW<::StringW, ::Array<::StringW>*> ai);
@@ -126,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set_callback(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* value);
 
-  /// @brief Method .ctor, addr 0x2c8cbe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ca05f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -166,10 +166,10 @@ public:
 
   using __c__DisplayClass6_0 = ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0;
 
-  /// @brief Method MonoToInternal, addr 0x2c87268, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method MonoToInternal, addr 0x2c9ac7c, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Net::Security::LocalCertSelectionCallback* MonoToInternal(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback);
 
-  /// @brief Method PublicToMono, addr 0x2c8cb28, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method PublicToMono, addr 0x2ca053c, size 0xb0, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* PublicToMono(::System::Net::Security::RemoteCertificateValidationCallback* callback);
 
 protected:

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GameCoreSceneSetupData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26baa18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d0d08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

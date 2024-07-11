@@ -574,7 +574,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetPlayersPermissionConfigurationRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae1dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba4d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -607,7 +607,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetPlayersPermissionConfigurationRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae1ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba4e4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -640,7 +640,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetPlayersMissingEntitlementsToLevelRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae234, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba52c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -673,7 +673,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetIsEntitledToLevelRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae27c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba574, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -706,7 +706,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetIsEntitledToLevelRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae2c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba5bc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -739,7 +739,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__InvalidateLevelEntitlementStatusesRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae30c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba604, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -772,7 +772,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SelectLevelPackRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae314, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba60c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -805,7 +805,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetSelectedBeatmapRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae35c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba654, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -838,7 +838,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__ClearSelectedBeatmapRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae3a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba69c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -871,7 +871,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetSelectedBeatmapRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae3ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba6a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -904,7 +904,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__RecommendBeatmapRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae3b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba6ac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -937,7 +937,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__ClearRecommendedBeatmapRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae3fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba6f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -970,7 +970,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetRecommendedBeatmapRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba6fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1003,7 +1003,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetSelectedGameplayModifiersRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae40c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba704, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1036,7 +1036,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__ClearSelectedGameplayModifiersRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba74c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1069,7 +1069,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetSelectedGameplayModifiersRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba754, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1102,7 +1102,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__RecommendGameplayModifiersRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae464, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba75c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1135,7 +1135,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__ClearRecommendedGameplayModifiersRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba7a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1168,7 +1168,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetRecommendedGameplayModifiersRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba7ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1201,7 +1201,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetIsStartButtonEnabledRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae4bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba7b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1234,7 +1234,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetIsStartButtonEnabledRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae4c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba7bc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1267,7 +1267,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__LevelLoadErrorRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae50c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba804, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1300,7 +1300,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__LevelLoadSuccessRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae554, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba84c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1333,7 +1333,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__StartLevelRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae59c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba894, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1366,7 +1366,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetStartedLevelRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae5e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba8dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1399,7 +1399,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetMultiplayerGameStateRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae5ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba8e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1432,7 +1432,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetMultiplayerGameStateRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae5f4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba8ec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1465,7 +1465,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__CancelCountdownRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae63c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba934, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1498,7 +1498,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetCountdownEndTimeRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae644, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba93c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1531,7 +1531,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetCountdownEndTimeRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae68c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba984, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1564,7 +1564,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__CancelLevelStartRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba98c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1597,7 +1597,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetIsReadyRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae69c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba994, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1630,7 +1630,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetIsReadyRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae6a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba99c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1663,7 +1663,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetStartGameTimeRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae6ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ba9e4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1696,7 +1696,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__CancelStartGameTimeRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10baa2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1729,7 +1729,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetIsInLobbyRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae73c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10baa34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1762,7 +1762,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetIsInLobbyRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae744, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10baa3c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1795,7 +1795,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__GetOwnedSongPacksRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae78c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10baa84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1828,7 +1828,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__SetOwnedSongPacksRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae794, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10baa8c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1861,7 +1861,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MenuRpcManager__RequestKickPlayerRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ae7dc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10baad4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2133,252 +2133,252 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CancelCountdown, addr 0x10acb0c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CancelCountdown, addr 0x10b8e04, size 0x50, virtual false, abstract: false, final false
   inline void CancelCountdown();
 
-  /// @brief Method CancelLevelStart, addr 0x10ad090, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method CancelLevelStart, addr 0x10b9388, size 0x50, virtual true, abstract: false, final true
   inline void CancelLevelStart();
 
-  /// @brief Method CancelStartGameTime, addr 0x10ad7f4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CancelStartGameTime, addr 0x10b9aec, size 0x50, virtual false, abstract: false, final false
   inline void CancelStartGameTime();
 
-  /// @brief Method ClearRecommendedBeatmap, addr 0x10aadfc, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method ClearRecommendedBeatmap, addr 0x10b70f4, size 0x50, virtual true, abstract: false, final true
   inline void ClearRecommendedBeatmap();
 
-  /// @brief Method ClearRecommendedGameplayModifiers, addr 0x10ab8d4, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method ClearRecommendedGameplayModifiers, addr 0x10b7bcc, size 0x50, virtual true, abstract: false, final true
   inline void ClearRecommendedGameplayModifiers();
 
-  /// @brief Method ClearSelectedBeatmap, addr 0x10aa890, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ClearSelectedBeatmap, addr 0x10b6b88, size 0x50, virtual false, abstract: false, final false
   inline void ClearSelectedBeatmap();
 
-  /// @brief Method ClearSelectedGameplayModifiers, addr 0x10ab368, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ClearSelectedGameplayModifiers, addr 0x10b7660, size 0x50, virtual false, abstract: false, final false
   inline void ClearSelectedGameplayModifiers();
 
-  /// @brief Method Dispose, addr 0x10a9778, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x10b5a70, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method EnabledForPlayer, addr 0x10a97d4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method EnabledForPlayer, addr 0x10b5acc, size 0xbc, virtual false, abstract: false, final false
   inline bool EnabledForPlayer(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method GetCountdownEndTime, addr 0x10acebc, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetCountdownEndTime, addr 0x10b91b4, size 0x50, virtual true, abstract: false, final true
   inline void GetCountdownEndTime();
 
-  /// @brief Method GetIsEntitledToLevel, addr 0x10a9f64, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetIsEntitledToLevel, addr 0x10b625c, size 0x58, virtual true, abstract: false, final true
   inline void GetIsEntitledToLevel(::StringW levelId);
 
-  /// @brief Method GetIsInLobby, addr 0x10ad9c8, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetIsInLobby, addr 0x10b9cc0, size 0x50, virtual true, abstract: false, final true
   inline void GetIsInLobby();
 
-  /// @brief Method GetIsReady, addr 0x10ad264, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetIsReady, addr 0x10b955c, size 0x50, virtual true, abstract: false, final true
   inline void GetIsReady();
 
-  /// @brief Method GetIsStartButtonEnabled, addr 0x10abc6c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetIsStartButtonEnabled, addr 0x10b7f64, size 0x50, virtual true, abstract: false, final true
   inline void GetIsStartButtonEnabled();
 
-  /// @brief Method GetMultiplayerGameState, addr 0x10ac76c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetMultiplayerGameState, addr 0x10b8a64, size 0x50, virtual true, abstract: false, final true
   inline void GetMultiplayerGameState();
 
-  /// @brief Method GetOwnedSongPacks, addr 0x10add7c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetOwnedSongPacks, addr 0x10ba074, size 0x50, virtual true, abstract: false, final true
   inline void GetOwnedSongPacks();
 
-  /// @brief Method GetPlayersPermissionConfiguration, addr 0x10a99f0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetPlayersPermissionConfiguration, addr 0x10b5ce8, size 0x50, virtual true, abstract: false, final true
   inline void GetPlayersPermissionConfiguration();
 
-  /// @brief Method GetRecommendedBeatmap, addr 0x10aafc8, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetRecommendedBeatmap, addr 0x10b72c0, size 0x50, virtual true, abstract: false, final true
   inline void GetRecommendedBeatmap();
 
-  /// @brief Method GetRecommendedGameplayModifiers, addr 0x10abaa0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetRecommendedGameplayModifiers, addr 0x10b7d98, size 0x50, virtual true, abstract: false, final true
   inline void GetRecommendedGameplayModifiers();
 
-  /// @brief Method GetSelectedBeatmap, addr 0x10aaa5c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetSelectedBeatmap, addr 0x10b6d54, size 0x50, virtual true, abstract: false, final true
   inline void GetSelectedBeatmap();
 
-  /// @brief Method GetSelectedGameplayModifiers, addr 0x10ab534, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetSelectedGameplayModifiers, addr 0x10b782c, size 0x50, virtual true, abstract: false, final true
   inline void GetSelectedGameplayModifiers();
 
-  /// @brief Method GetStartedLevel, addr 0x10ac5a0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetStartedLevel, addr 0x10b8898, size 0x50, virtual true, abstract: false, final true
   inline void GetStartedLevel();
 
-  /// @brief Method InvalidateLevelEntitlementStatuses, addr 0x10aa31c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method InvalidateLevelEntitlementStatuses, addr 0x10b6614, size 0x50, virtual true, abstract: false, final true
   inline void InvalidateLevelEntitlementStatuses();
 
-  /// @brief Method InvokeCancelCountdown, addr 0x10acb5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeCancelCountdown, addr 0x10b8e54, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeCancelCountdown(::StringW userId);
 
-  /// @brief Method InvokeCancelLevelStart, addr 0x10ad0e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeCancelLevelStart, addr 0x10b93d8, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeCancelLevelStart(::StringW userId);
 
-  /// @brief Method InvokeCancelStartGameCountdown, addr 0x10ad844, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeCancelStartGameCountdown, addr 0x10b9b3c, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeCancelStartGameCountdown(::StringW userId);
 
-  /// @brief Method InvokeClearRecommendedBeatmap, addr 0x10aae4c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeClearRecommendedBeatmap, addr 0x10b7144, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeClearRecommendedBeatmap(::StringW userId);
 
-  /// @brief Method InvokeClearRecommendedGameplayModifiers, addr 0x10ab924, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeClearRecommendedGameplayModifiers, addr 0x10b7c1c, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeClearRecommendedGameplayModifiers(::StringW userId);
 
-  /// @brief Method InvokeClearSelectedBeatmap, addr 0x10aa8e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeClearSelectedBeatmap, addr 0x10b6bd8, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeClearSelectedBeatmap(::StringW userId);
 
-  /// @brief Method InvokeClearSelectedGameplayModifiers, addr 0x10ab3b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeClearSelectedGameplayModifiers, addr 0x10b76b0, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeClearSelectedGameplayModifiers(::StringW userId);
 
-  /// @brief Method InvokeGetCountdownEndTime, addr 0x10acf0c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetCountdownEndTime, addr 0x10b9204, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetCountdownEndTime(::StringW userId);
 
-  /// @brief Method InvokeGetIsEntitledToLevel, addr 0x10a9fbc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetIsEntitledToLevel, addr 0x10b62b4, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetIsEntitledToLevel(::StringW userId, ::StringW levelId);
 
-  /// @brief Method InvokeGetIsInLobby, addr 0x10ada18, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetIsInLobby, addr 0x10b9d10, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetIsInLobby(::StringW userId);
 
-  /// @brief Method InvokeGetIsReady, addr 0x10ad2b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetIsReady, addr 0x10b95ac, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetIsReady(::StringW userId);
 
-  /// @brief Method InvokeGetIsStartButtonEnabled, addr 0x10abcbc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetIsStartButtonEnabled, addr 0x10b7fb4, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetIsStartButtonEnabled(::StringW userId);
 
-  /// @brief Method InvokeGetMultiplayerGameState, addr 0x10ac7bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetMultiplayerGameState, addr 0x10b8ab4, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetMultiplayerGameState(::StringW userId);
 
-  /// @brief Method InvokeGetOwnedSongPacks, addr 0x10addcc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetOwnedSongPacks, addr 0x10ba0c4, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetOwnedSongPacks(::StringW userId);
 
-  /// @brief Method InvokeGetPlayersPermissionConfiguration, addr 0x10a9a40, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetPlayersPermissionConfiguration, addr 0x10b5d38, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetPlayersPermissionConfiguration(::StringW userId);
 
-  /// @brief Method InvokeGetRecommendedBeatmap, addr 0x10ab018, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetRecommendedBeatmap, addr 0x10b7310, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetRecommendedBeatmap(::StringW userId);
 
-  /// @brief Method InvokeGetRecommendedGameplayModifiers, addr 0x10abaf0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetRecommendedGameplayModifiers, addr 0x10b7de8, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetRecommendedGameplayModifiers(::StringW userId);
 
-  /// @brief Method InvokeGetSelectedBeatmapRpc, addr 0x10aaaac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetSelectedBeatmapRpc, addr 0x10b6da4, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetSelectedBeatmapRpc(::StringW userId);
 
-  /// @brief Method InvokeGetSelectedGameplayModifiers, addr 0x10ab584, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetSelectedGameplayModifiers, addr 0x10b787c, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetSelectedGameplayModifiers(::StringW userId);
 
-  /// @brief Method InvokeGetStartedLevel, addr 0x10ac5f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetStartedLevel, addr 0x10b88e8, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetStartedLevel(::StringW userId);
 
-  /// @brief Method InvokeKickPlayer, addr 0x10ae1c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeKickPlayer, addr 0x10ba4b8, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeKickPlayer(::StringW userId, ::StringW kickedPlayerId);
 
-  /// @brief Method InvokeLevelEntitlementStatusesInvalidated, addr 0x10aa36c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeLevelEntitlementStatusesInvalidated, addr 0x10b6664, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeLevelEntitlementStatusesInvalidated(::StringW userId);
 
-  /// @brief Method InvokeLevelLoadError, addr 0x10ac064, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeLevelLoadError, addr 0x10b835c, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeLevelLoadError(::StringW userId, ::StringW levelId);
 
-  /// @brief Method InvokeLevelLoadSuccess, addr 0x10ac238, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeLevelLoadSuccess, addr 0x10b8530, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeLevelLoadSuccess(::StringW userId, ::StringW levelId);
 
-  /// @brief Method InvokeOnSelectedLevelPackEvent, addr 0x10aa540, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnSelectedLevelPackEvent, addr 0x10b6838, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeOnSelectedLevelPackEvent(::StringW userId, ::StringW levelPackId);
 
-  /// @brief Method InvokeRecommendBeatmap, addr 0x10aac80, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeRecommendBeatmap, addr 0x10b6f78, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeRecommendBeatmap(::StringW userId, ::GlobalNamespace::BeatmapKeyNetSerializable* key);
 
-  /// @brief Method InvokeRecommendGameplayModifiers, addr 0x10ab758, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeRecommendGameplayModifiers, addr 0x10b7a50, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeRecommendGameplayModifiers(::StringW userId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method InvokeSetCountdownEndTime, addr 0x10acd38, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetCountdownEndTime, addr 0x10b9030, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetCountdownEndTime(::StringW userId, int64_t newTime);
 
-  /// @brief Method InvokeSetIsEntitledToLevel, addr 0x10aa1a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetIsEntitledToLevel, addr 0x10b6498, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetIsEntitledToLevel(::StringW userId, ::StringW levelId, int32_t entitlementStatus);
 
-  /// @brief Method InvokeSetIsInLobby, addr 0x10adbf4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetIsInLobby, addr 0x10b9eec, size 0x20, virtual false, abstract: false, final false
   inline void InvokeSetIsInLobby(::StringW userId, bool isBack);
 
-  /// @brief Method InvokeSetIsReady, addr 0x10ad490, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetIsReady, addr 0x10b9788, size 0x20, virtual false, abstract: false, final false
   inline void InvokeSetIsReady(::StringW userId, bool isReady);
 
-  /// @brief Method InvokeSetIsStartButtonEnabled, addr 0x10abe90, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetIsStartButtonEnabled, addr 0x10b8188, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetIsStartButtonEnabled(::StringW userId, ::GlobalNamespace::CannotStartGameReason reason);
 
-  /// @brief Method InvokeSetMultiplayerGameState, addr 0x10ac990, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetMultiplayerGameState, addr 0x10b8c88, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetMultiplayerGameState(::StringW userId, ::GlobalNamespace::MultiplayerGameState lobbyState);
 
-  /// @brief Method InvokeSetOwnedSongPacks, addr 0x10adfc4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetOwnedSongPacks, addr 0x10ba2bc, size 0x3c, virtual false, abstract: false, final false
   inline void InvokeSetOwnedSongPacks(::StringW userId, ::GlobalNamespace::SongPackMask songPackMask);
 
-  /// @brief Method InvokeSetPlayersMissingEntitlementsToLevelRpc, addr 0x10a9de8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetPlayersMissingEntitlementsToLevelRpc, addr 0x10b60e0, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetPlayersMissingEntitlementsToLevelRpc(::StringW userId, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* playersMissingEntitlements);
 
-  /// @brief Method InvokeSetPlayersPermissionConfiguration, addr 0x10a9c14, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetPlayersPermissionConfiguration, addr 0x10b5f0c, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetPlayersPermissionConfiguration(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersPermissionConfiguration);
 
-  /// @brief Method InvokeSetSelectedBeatmap, addr 0x10aa714, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetSelectedBeatmap, addr 0x10b6a0c, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetSelectedBeatmap(::StringW userId, ::GlobalNamespace::BeatmapKeyNetSerializable* key);
 
-  /// @brief Method InvokeSetSelectedGameplayModifiers, addr 0x10ab1ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetSelectedGameplayModifiers, addr 0x10b74e4, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetSelectedGameplayModifiers(::StringW userId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method InvokeSetStartGameCountdown, addr 0x10ad670, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetStartGameCountdown, addr 0x10b9968, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetStartGameCountdown(::StringW userId, int64_t newTime);
 
-  /// @brief Method InvokeStartLevel, addr 0x10ac424, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeStartLevel, addr 0x10b871c, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeStartLevel(::StringW userId, ::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, int64_t startTime);
 
-  /// @brief Method LevelLoadError, addr 0x10ac00c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LevelLoadError, addr 0x10b8304, size 0x58, virtual false, abstract: false, final false
   inline void LevelLoadError(::StringW levelId);
 
-  /// @brief Method LevelLoadSuccess, addr 0x10ac1e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LevelLoadSuccess, addr 0x10b84d8, size 0x58, virtual false, abstract: false, final false
   inline void LevelLoadSuccess(::StringW levelId);
 
   static inline ::GlobalNamespace::MenuRpcManager* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method RecommendBeatmap, addr 0x10aac28, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RecommendBeatmap, addr 0x10b6f20, size 0x58, virtual true, abstract: false, final true
   inline void RecommendBeatmap(::GlobalNamespace::BeatmapKeyNetSerializable* key);
 
-  /// @brief Method RecommendGameplayModifiers, addr 0x10ab700, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RecommendGameplayModifiers, addr 0x10b79f8, size 0x58, virtual true, abstract: false, final true
   inline void RecommendGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method RequestKickPlayer, addr 0x10ae168, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RequestKickPlayer, addr 0x10ba460, size 0x58, virtual true, abstract: false, final true
   inline void RequestKickPlayer(::StringW kickedPlayerId);
 
-  /// @brief Method SelectLevelPack, addr 0x10aa4e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SelectLevelPack, addr 0x10b67e0, size 0x58, virtual false, abstract: false, final false
   inline void SelectLevelPack(::StringW levelPackId);
 
-  /// @brief Method SetCountdownEndTime, addr 0x10acce0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetCountdownEndTime, addr 0x10b8fd8, size 0x58, virtual false, abstract: false, final false
   inline void SetCountdownEndTime(int64_t newTime);
 
-  /// @brief Method SetIsEntitledToLevel, addr 0x10aa138, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetIsEntitledToLevel, addr 0x10b6430, size 0x68, virtual true, abstract: false, final true
   inline void SetIsEntitledToLevel(::StringW levelId, ::GlobalNamespace::EntitlementsStatus entitlementStatus);
 
-  /// @brief Method SetIsInLobby, addr 0x10adb9c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetIsInLobby, addr 0x10b9e94, size 0x58, virtual true, abstract: false, final true
   inline void SetIsInLobby(bool isBack);
 
-  /// @brief Method SetIsReady, addr 0x10ad438, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetIsReady, addr 0x10b9730, size 0x58, virtual true, abstract: false, final true
   inline void SetIsReady(bool isReady);
 
-  /// @brief Method SetIsStartButtonEnabled, addr 0x10abe38, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetIsStartButtonEnabled, addr 0x10b8130, size 0x58, virtual true, abstract: false, final true
   inline void SetIsStartButtonEnabled(::GlobalNamespace::CannotStartGameReason reason);
 
-  /// @brief Method SetMultiplayerGameState, addr 0x10ac938, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetMultiplayerGameState, addr 0x10b8c30, size 0x58, virtual true, abstract: false, final true
   inline void SetMultiplayerGameState(::GlobalNamespace::MultiplayerGameState lobbyState);
 
-  /// @brief Method SetOwnedSongPacks, addr 0x10adf50, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method SetOwnedSongPacks, addr 0x10ba248, size 0x74, virtual true, abstract: false, final true
   inline void SetOwnedSongPacks(::GlobalNamespace::SongPackMask songPackMask);
 
-  /// @brief Method SetPlayersMissingEntitlementsToLevel, addr 0x10a9d90, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetPlayersMissingEntitlementsToLevel, addr 0x10b6088, size 0x58, virtual true, abstract: false, final true
   inline void SetPlayersMissingEntitlementsToLevel(::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* playersMissingEntitlements);
 
-  /// @brief Method SetPlayersPermissionConfiguration, addr 0x10a9bbc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetPlayersPermissionConfiguration, addr 0x10b5eb4, size 0x58, virtual true, abstract: false, final true
   inline void SetPlayersPermissionConfiguration(::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersPermissionConfiguration);
 
-  /// @brief Method SetSelectedBeatmap, addr 0x10aa6bc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetSelectedBeatmap, addr 0x10b69b4, size 0x58, virtual true, abstract: false, final true
   inline void SetSelectedBeatmap(::GlobalNamespace::BeatmapKeyNetSerializable* key);
 
-  /// @brief Method SetSelectedGameplayModifiers, addr 0x10ab194, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetSelectedGameplayModifiers, addr 0x10b748c, size 0x58, virtual true, abstract: false, final true
   inline void SetSelectedGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method SetStartGameTime, addr 0x10ad618, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStartGameTime, addr 0x10b9910, size 0x58, virtual true, abstract: false, final true
   inline void SetStartGameTime(int64_t newTime);
 
-  /// @brief Method StartLevel, addr 0x10ac3b4, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method StartLevel, addr 0x10b86ac, size 0x70, virtual true, abstract: false, final true
   inline void StartLevel(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, int64_t startTime);
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
@@ -2636,139 +2636,139 @@ public:
 
   constexpr void __cordl_internal_set_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* value);
 
-  /// @brief Method .ctor, addr 0x10a8628, size 0x1150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b4920, size 0x1150, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method add_cancelCountdownEvent, addr 0x10ac9ac, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_cancelCountdownEvent, addr 0x10b8ca4, size 0xb0, virtual true, abstract: false, final true
   inline void add_cancelCountdownEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_cancelStartGameTimeEvent, addr 0x10ad68c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_cancelStartGameTimeEvent, addr 0x10b9984, size 0xb4, virtual false, abstract: false, final false
   inline void add_cancelStartGameTimeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_cancelledLevelStartEvent, addr 0x10acf28, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method add_cancelledLevelStartEvent, addr 0x10b9220, size 0xb4, virtual true, abstract: false, final true
   inline void add_cancelledLevelStartEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_clearRecommendedBeatmapEvent, addr 0x10aac9c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_clearRecommendedBeatmapEvent, addr 0x10b6f94, size 0xb0, virtual true, abstract: false, final true
   inline void add_clearRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_clearRecommendedGameplayModifiersEvent, addr 0x10ab774, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_clearRecommendedGameplayModifiersEvent, addr 0x10b7a6c, size 0xb0, virtual true, abstract: false, final true
   inline void add_clearRecommendedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_clearSelectedBeatmapEvent, addr 0x10aa730, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_clearSelectedBeatmapEvent, addr 0x10b6a28, size 0xb0, virtual true, abstract: false, final true
   inline void add_clearSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_clearSelectedGameplayModifiersEvent, addr 0x10ab208, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_clearSelectedGameplayModifiersEvent, addr 0x10b7500, size 0xb0, virtual true, abstract: false, final true
   inline void add_clearSelectedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_getCountdownEndTimeEvent, addr 0x10acd54, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_getCountdownEndTimeEvent, addr 0x10b904c, size 0xb4, virtual false, abstract: false, final false
   inline void add_getCountdownEndTimeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_getIsEntitledToLevelEvent, addr 0x10a9e04, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_getIsEntitledToLevelEvent, addr 0x10b60fc, size 0xb0, virtual true, abstract: false, final true
   inline void add_getIsEntitledToLevelEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method add_getIsInLobbyEvent, addr 0x10ad860, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method add_getIsInLobbyEvent, addr 0x10b9b58, size 0xb4, virtual true, abstract: false, final true
   inline void add_getIsInLobbyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_getIsReadyEvent, addr 0x10ad0fc, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method add_getIsReadyEvent, addr 0x10b93f4, size 0xb4, virtual true, abstract: false, final true
   inline void add_getIsReadyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_getIsStartButtonEnabledEvent, addr 0x10abb0c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_getIsStartButtonEnabledEvent, addr 0x10b7e04, size 0xb0, virtual true, abstract: false, final true
   inline void add_getIsStartButtonEnabledEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_getMultiplayerGameStateEvent, addr 0x10ac60c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_getMultiplayerGameStateEvent, addr 0x10b8904, size 0xb0, virtual true, abstract: false, final true
   inline void add_getMultiplayerGameStateEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_getOwnedSongPacksEvent, addr 0x10adc14, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method add_getOwnedSongPacksEvent, addr 0x10b9f0c, size 0xb4, virtual true, abstract: false, final true
   inline void add_getOwnedSongPacksEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_getPlayersPermissionConfigurationEvent, addr 0x10a9890, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_getPlayersPermissionConfigurationEvent, addr 0x10b5b88, size 0xb0, virtual true, abstract: false, final true
   inline void add_getPlayersPermissionConfigurationEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_getRecommendedBeatmapEvent, addr 0x10aae68, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_getRecommendedBeatmapEvent, addr 0x10b7160, size 0xb0, virtual true, abstract: false, final true
   inline void add_getRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_getRecommendedGameplayModifiersEvent, addr 0x10ab940, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_getRecommendedGameplayModifiersEvent, addr 0x10b7c38, size 0xb0, virtual true, abstract: false, final true
   inline void add_getRecommendedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_getSelectedBeatmapEvent, addr 0x10aa8fc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_getSelectedBeatmapEvent, addr 0x10b6bf4, size 0xb0, virtual true, abstract: false, final true
   inline void add_getSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_getSelectedGameplayModifiersEvent, addr 0x10ab3d4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_getSelectedGameplayModifiersEvent, addr 0x10b76cc, size 0xb0, virtual true, abstract: false, final true
   inline void add_getSelectedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_getStartedLevelEvent, addr 0x10ac440, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_getStartedLevelEvent, addr 0x10b8738, size 0xb0, virtual true, abstract: false, final true
   inline void add_getStartedLevelEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_levelEntitlementStatusesInvalidatedEvent, addr 0x10aa1bc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_levelEntitlementStatusesInvalidatedEvent, addr 0x10b64b4, size 0xb0, virtual true, abstract: false, final true
   inline void add_levelEntitlementStatusesInvalidatedEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_levelLoadErrorEvent, addr 0x10abeac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_levelLoadErrorEvent, addr 0x10b81a4, size 0xb0, virtual false, abstract: false, final false
   inline void add_levelLoadErrorEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method add_levelLoadSuccessEvent, addr 0x10ac080, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_levelLoadSuccessEvent, addr 0x10b8378, size 0xb0, virtual false, abstract: false, final false
   inline void add_levelLoadSuccessEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method add_recommendBeatmapEvent, addr 0x10aaac8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_recommendBeatmapEvent, addr 0x10b6dc0, size 0xb0, virtual true, abstract: false, final true
   inline void add_recommendBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* value);
 
-  /// @brief Method add_recommendGameplayModifiersEvent, addr 0x10ab5a0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_recommendGameplayModifiersEvent, addr 0x10b7898, size 0xb0, virtual true, abstract: false, final true
   inline void add_recommendGameplayModifiersEvent(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method add_requestedKickPlayerEvent, addr 0x10ae000, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method add_requestedKickPlayerEvent, addr 0x10ba2f8, size 0xb4, virtual true, abstract: false, final true
   inline void add_requestedKickPlayerEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method add_selectedLevelPackEvent, addr 0x10aa388, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectedLevelPackEvent, addr 0x10b6680, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectedLevelPackEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method add_setCountdownEndTimeEvent, addr 0x10acb78, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method add_setCountdownEndTimeEvent, addr 0x10b8e70, size 0xb4, virtual true, abstract: false, final true
   inline void add_setCountdownEndTimeEvent(::System::Action_2<::StringW, int64_t>* value);
 
-  /// @brief Method add_setIsEntitledToLevelEvent, addr 0x10a9fd8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setIsEntitledToLevelEvent, addr 0x10b62d0, size 0xb0, virtual true, abstract: false, final true
   inline void add_setIsEntitledToLevelEvent(::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>* value);
 
-  /// @brief Method add_setIsInLobbyEvent, addr 0x10ada34, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method add_setIsInLobbyEvent, addr 0x10b9d2c, size 0xb4, virtual true, abstract: false, final true
   inline void add_setIsInLobbyEvent(::System::Action_2<::StringW, bool>* value);
 
-  /// @brief Method add_setIsReadyEvent, addr 0x10ad2d0, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method add_setIsReadyEvent, addr 0x10b95c8, size 0xb4, virtual true, abstract: false, final true
   inline void add_setIsReadyEvent(::System::Action_2<::StringW, bool>* value);
 
-  /// @brief Method add_setIsStartButtonEnabledEvent, addr 0x10abcd8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setIsStartButtonEnabledEvent, addr 0x10b7fd0, size 0xb0, virtual true, abstract: false, final true
   inline void add_setIsStartButtonEnabledEvent(::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>* value);
 
-  /// @brief Method add_setMultiplayerGameStateEvent, addr 0x10ac7d8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setMultiplayerGameStateEvent, addr 0x10b8ad0, size 0xb0, virtual true, abstract: false, final true
   inline void add_setMultiplayerGameStateEvent(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method add_setOwnedSongPacksEvent, addr 0x10adde8, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method add_setOwnedSongPacksEvent, addr 0x10ba0e0, size 0xb4, virtual true, abstract: false, final true
   inline void add_setOwnedSongPacksEvent(::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>* value);
 
-  /// @brief Method add_setPlayersMissingEntitlementsToLevelEvent, addr 0x10a9c30, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setPlayersMissingEntitlementsToLevelEvent, addr 0x10b5f28, size 0xb0, virtual true, abstract: false, final true
   inline void add_setPlayersMissingEntitlementsToLevelEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
 
-  /// @brief Method add_setPlayersPermissionConfigurationEvent, addr 0x10a9a5c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setPlayersPermissionConfigurationEvent, addr 0x10b5d54, size 0xb0, virtual true, abstract: false, final true
   inline void add_setPlayersPermissionConfigurationEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* value);
 
-  /// @brief Method add_setSelectedBeatmapEvent, addr 0x10aa55c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setSelectedBeatmapEvent, addr 0x10b6854, size 0xb0, virtual true, abstract: false, final true
   inline void add_setSelectedBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* value);
 
-  /// @brief Method add_setSelectedGameplayModifiersEvent, addr 0x10ab034, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setSelectedGameplayModifiersEvent, addr 0x10b732c, size 0xb0, virtual true, abstract: false, final true
   inline void add_setSelectedGameplayModifiersEvent(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method add_setStartGameTimeEvent, addr 0x10ad4b0, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method add_setStartGameTimeEvent, addr 0x10b97a8, size 0xb4, virtual true, abstract: false, final true
   inline void add_setStartGameTimeEvent(::System::Action_2<::StringW, int64_t>* value);
 
-  /// @brief Method add_startedLevelEvent, addr 0x10ac254, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_startedLevelEvent, addr 0x10b854c, size 0xb0, virtual true, abstract: false, final true
   inline void add_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* value);
 
-  /// @brief Method get_enabled, addr 0x10a8220, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x10b4518, size 0xc0, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method get_enabledForAllPlayers, addr 0x10a83a8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method get_enabledForAllPlayers, addr 0x10b46a0, size 0x1dc, virtual false, abstract: false, final false
   inline bool get_enabledForAllPlayers();
 
-  /// @brief Method get_multiplayerSessionManager, addr 0x10a8218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplayerSessionManager, addr 0x10b4510, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();
 
-  /// @brief Method get_syncTime, addr 0x10a8584, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_syncTime, addr 0x10b487c, size 0xa4, virtual true, abstract: false, final true
   inline int64_t get_syncTime();
 
   /// @brief Convert to "::GlobalNamespace::IMenuRpcManager"
@@ -2777,127 +2777,127 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_cancelCountdownEvent, addr 0x10aca5c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_cancelCountdownEvent, addr 0x10b8d54, size 0xb0, virtual true, abstract: false, final true
   inline void remove_cancelCountdownEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_cancelStartGameTimeEvent, addr 0x10ad740, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_cancelStartGameTimeEvent, addr 0x10b9a38, size 0xb4, virtual false, abstract: false, final false
   inline void remove_cancelStartGameTimeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_cancelledLevelStartEvent, addr 0x10acfdc, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method remove_cancelledLevelStartEvent, addr 0x10b92d4, size 0xb4, virtual true, abstract: false, final true
   inline void remove_cancelledLevelStartEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_clearRecommendedBeatmapEvent, addr 0x10aad4c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_clearRecommendedBeatmapEvent, addr 0x10b7044, size 0xb0, virtual true, abstract: false, final true
   inline void remove_clearRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_clearRecommendedGameplayModifiersEvent, addr 0x10ab824, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_clearRecommendedGameplayModifiersEvent, addr 0x10b7b1c, size 0xb0, virtual true, abstract: false, final true
   inline void remove_clearRecommendedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_clearSelectedBeatmapEvent, addr 0x10aa7e0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_clearSelectedBeatmapEvent, addr 0x10b6ad8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_clearSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_clearSelectedGameplayModifiersEvent, addr 0x10ab2b8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_clearSelectedGameplayModifiersEvent, addr 0x10b75b0, size 0xb0, virtual true, abstract: false, final true
   inline void remove_clearSelectedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getCountdownEndTimeEvent, addr 0x10ace08, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_getCountdownEndTimeEvent, addr 0x10b9100, size 0xb4, virtual false, abstract: false, final false
   inline void remove_getCountdownEndTimeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getIsEntitledToLevelEvent, addr 0x10a9eb4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_getIsEntitledToLevelEvent, addr 0x10b61ac, size 0xb0, virtual true, abstract: false, final true
   inline void remove_getIsEntitledToLevelEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method remove_getIsInLobbyEvent, addr 0x10ad914, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method remove_getIsInLobbyEvent, addr 0x10b9c0c, size 0xb4, virtual true, abstract: false, final true
   inline void remove_getIsInLobbyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getIsReadyEvent, addr 0x10ad1b0, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method remove_getIsReadyEvent, addr 0x10b94a8, size 0xb4, virtual true, abstract: false, final true
   inline void remove_getIsReadyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getIsStartButtonEnabledEvent, addr 0x10abbbc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_getIsStartButtonEnabledEvent, addr 0x10b7eb4, size 0xb0, virtual true, abstract: false, final true
   inline void remove_getIsStartButtonEnabledEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getMultiplayerGameStateEvent, addr 0x10ac6bc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_getMultiplayerGameStateEvent, addr 0x10b89b4, size 0xb0, virtual true, abstract: false, final true
   inline void remove_getMultiplayerGameStateEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getOwnedSongPacksEvent, addr 0x10adcc8, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method remove_getOwnedSongPacksEvent, addr 0x10b9fc0, size 0xb4, virtual true, abstract: false, final true
   inline void remove_getOwnedSongPacksEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getPlayersPermissionConfigurationEvent, addr 0x10a9940, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_getPlayersPermissionConfigurationEvent, addr 0x10b5c38, size 0xb0, virtual true, abstract: false, final true
   inline void remove_getPlayersPermissionConfigurationEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getRecommendedBeatmapEvent, addr 0x10aaf18, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_getRecommendedBeatmapEvent, addr 0x10b7210, size 0xb0, virtual true, abstract: false, final true
   inline void remove_getRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getRecommendedGameplayModifiersEvent, addr 0x10ab9f0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_getRecommendedGameplayModifiersEvent, addr 0x10b7ce8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_getRecommendedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getSelectedBeatmapEvent, addr 0x10aa9ac, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_getSelectedBeatmapEvent, addr 0x10b6ca4, size 0xb0, virtual true, abstract: false, final true
   inline void remove_getSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getSelectedGameplayModifiersEvent, addr 0x10ab484, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_getSelectedGameplayModifiersEvent, addr 0x10b777c, size 0xb0, virtual true, abstract: false, final true
   inline void remove_getSelectedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getStartedLevelEvent, addr 0x10ac4f0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_getStartedLevelEvent, addr 0x10b87e8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_getStartedLevelEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_levelEntitlementStatusesInvalidatedEvent, addr 0x10aa26c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_levelEntitlementStatusesInvalidatedEvent, addr 0x10b6564, size 0xb0, virtual true, abstract: false, final true
   inline void remove_levelEntitlementStatusesInvalidatedEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_levelLoadErrorEvent, addr 0x10abf5c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_levelLoadErrorEvent, addr 0x10b8254, size 0xb0, virtual false, abstract: false, final false
   inline void remove_levelLoadErrorEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method remove_levelLoadSuccessEvent, addr 0x10ac130, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_levelLoadSuccessEvent, addr 0x10b8428, size 0xb0, virtual false, abstract: false, final false
   inline void remove_levelLoadSuccessEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method remove_recommendBeatmapEvent, addr 0x10aab78, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_recommendBeatmapEvent, addr 0x10b6e70, size 0xb0, virtual true, abstract: false, final true
   inline void remove_recommendBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* value);
 
-  /// @brief Method remove_recommendGameplayModifiersEvent, addr 0x10ab650, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_recommendGameplayModifiersEvent, addr 0x10b7948, size 0xb0, virtual true, abstract: false, final true
   inline void remove_recommendGameplayModifiersEvent(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method remove_requestedKickPlayerEvent, addr 0x10ae0b4, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method remove_requestedKickPlayerEvent, addr 0x10ba3ac, size 0xb4, virtual true, abstract: false, final true
   inline void remove_requestedKickPlayerEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method remove_selectedLevelPackEvent, addr 0x10aa438, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectedLevelPackEvent, addr 0x10b6730, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectedLevelPackEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  /// @brief Method remove_setCountdownEndTimeEvent, addr 0x10acc2c, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method remove_setCountdownEndTimeEvent, addr 0x10b8f24, size 0xb4, virtual true, abstract: false, final true
   inline void remove_setCountdownEndTimeEvent(::System::Action_2<::StringW, int64_t>* value);
 
-  /// @brief Method remove_setIsEntitledToLevelEvent, addr 0x10aa088, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setIsEntitledToLevelEvent, addr 0x10b6380, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setIsEntitledToLevelEvent(::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>* value);
 
-  /// @brief Method remove_setIsInLobbyEvent, addr 0x10adae8, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method remove_setIsInLobbyEvent, addr 0x10b9de0, size 0xb4, virtual true, abstract: false, final true
   inline void remove_setIsInLobbyEvent(::System::Action_2<::StringW, bool>* value);
 
-  /// @brief Method remove_setIsReadyEvent, addr 0x10ad384, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method remove_setIsReadyEvent, addr 0x10b967c, size 0xb4, virtual true, abstract: false, final true
   inline void remove_setIsReadyEvent(::System::Action_2<::StringW, bool>* value);
 
-  /// @brief Method remove_setIsStartButtonEnabledEvent, addr 0x10abd88, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setIsStartButtonEnabledEvent, addr 0x10b8080, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setIsStartButtonEnabledEvent(::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>* value);
 
-  /// @brief Method remove_setMultiplayerGameStateEvent, addr 0x10ac888, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setMultiplayerGameStateEvent, addr 0x10b8b80, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setMultiplayerGameStateEvent(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method remove_setOwnedSongPacksEvent, addr 0x10ade9c, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method remove_setOwnedSongPacksEvent, addr 0x10ba194, size 0xb4, virtual true, abstract: false, final true
   inline void remove_setOwnedSongPacksEvent(::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>* value);
 
-  /// @brief Method remove_setPlayersMissingEntitlementsToLevelEvent, addr 0x10a9ce0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setPlayersMissingEntitlementsToLevelEvent, addr 0x10b5fd8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setPlayersMissingEntitlementsToLevelEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
 
-  /// @brief Method remove_setPlayersPermissionConfigurationEvent, addr 0x10a9b0c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setPlayersPermissionConfigurationEvent, addr 0x10b5e04, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setPlayersPermissionConfigurationEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* value);
 
-  /// @brief Method remove_setSelectedBeatmapEvent, addr 0x10aa60c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setSelectedBeatmapEvent, addr 0x10b6904, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setSelectedBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* value);
 
-  /// @brief Method remove_setSelectedGameplayModifiersEvent, addr 0x10ab0e4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setSelectedGameplayModifiersEvent, addr 0x10b73dc, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setSelectedGameplayModifiersEvent(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method remove_setStartGameTimeEvent, addr 0x10ad564, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method remove_setStartGameTimeEvent, addr 0x10b985c, size 0xb4, virtual true, abstract: false, final true
   inline void remove_setStartGameTimeEvent(::System::Action_2<::StringW, int64_t>* value);
 
-  /// @brief Method remove_startedLevelEvent, addr 0x10ac304, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_startedLevelEvent, addr 0x10b85fc, size 0xb0, virtual true, abstract: false, final true
   inline void remove_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* value);
 
-  /// @brief Method set_enabled, addr 0x10a82e0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x10b45d8, size 0xc8, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
 protected:

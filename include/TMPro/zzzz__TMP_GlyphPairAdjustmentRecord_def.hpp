@@ -67,28 +67,28 @@ public:
 
   constexpr void __cordl_internal_set_m_SecondAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value);
 
-  /// @brief Method .ctor, addr 0x336e130, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337bfb4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, ::TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord);
 
-  /// @brief Method .ctor, addr 0x336d620, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337b4a4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord);
 
-  /// @brief Method get_featureLookupFlags, addr 0x3370990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_featureLookupFlags, addr 0x337e814, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::FontFeatureLookupFlags get_featureLookupFlags();
 
-  /// @brief Method get_firstAdjustmentRecord, addr 0x3370940, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_firstAdjustmentRecord, addr 0x337e7c4, size 0x14, virtual false, abstract: false, final false
   inline ::TMPro::TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord();
 
-  /// @brief Method get_secondAdjustmentRecord, addr 0x3370968, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_secondAdjustmentRecord, addr 0x337e7ec, size 0x14, virtual false, abstract: false, final false
   inline ::TMPro::TMP_GlyphAdjustmentRecord get_secondAdjustmentRecord();
 
-  /// @brief Method set_featureLookupFlags, addr 0x3370998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_featureLookupFlags, addr 0x337e81c, size 0x8, virtual false, abstract: false, final false
   inline void set_featureLookupFlags(::TMPro::FontFeatureLookupFlags value);
 
-  /// @brief Method set_firstAdjustmentRecord, addr 0x3370954, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_firstAdjustmentRecord, addr 0x337e7d8, size 0x14, virtual false, abstract: false, final false
   inline void set_firstAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value);
 
-  /// @brief Method set_secondAdjustmentRecord, addr 0x337097c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_secondAdjustmentRecord, addr 0x337e800, size 0x14, virtual false, abstract: false, final false
   inline void set_secondAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value);
 
 protected:

@@ -34,11 +34,11 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
 
-  /// @brief Method Bind, addr 0x2c6ecb4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x2c826c8, size 0xb0, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackDeleteMember, addr 0x2c6eca4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackDeleteMember, addr 0x2c826b8, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackDeleteMember(::System::Dynamic::DynamicMetaObject* target);
 
   /// @brief Method FallbackDeleteMember, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -56,10 +56,10 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method get_IgnoreCase, addr 0x2c6ec9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreCase, addr 0x2c826b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreCase();
 
-  /// @brief Method get_Name, addr 0x2c6ec94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2c826a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:

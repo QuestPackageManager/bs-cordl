@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::IEventHandler*)>(
     &::UnityEngine::UIElements::MouseCaptureController::HasMouseCapture)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3580e7c;
+  constexpr static std::size_t addrs = 0x3597d00;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::IEventHandler*)>(
     &::UnityEngine::UIElements::MouseCaptureController::CaptureMouse)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x357c594;
+  constexpr static std::size_t addrs = 0x3593418;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::IEventHandler*)>(
     &::UnityEngine::UIElements::MouseCaptureController::ReleaseMouse)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3581804;
+  constexpr static std::size_t addrs = 0x3598688;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

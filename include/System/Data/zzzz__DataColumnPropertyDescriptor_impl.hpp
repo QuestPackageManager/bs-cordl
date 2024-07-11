@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnPropertyDescriptor::*)(::System::Data::DataColumn*)>(
     &::System::Data::DataColumnPropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2ca1dec;
+  constexpr static std::size_t addrs = 0x2cb6800;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::AttributeCollection* (::System::Data::DataColumnPropertyDescriptor::*)()>(
     &::System::Data::DataColumnPropertyDescriptor::get_Attributes)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x2ca1e24;
+  constexpr static std::size_t addrs = 0x2cb6838;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataColumn* (::System::Data::DataColumnPropertyDescriptor::*)()>(
     &::System::Data::DataColumnPropertyDescriptor::get_Column)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca1fec;
+  constexpr static std::size_t addrs = 0x2cb6a00;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnPropertyDescriptor*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Data::DataColumnPropertyDescriptor::*)()>(
     &::System::Data::DataColumnPropertyDescriptor::get_ComponentType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2ca1ff4;
+  constexpr static std::size_t addrs = 0x2cb6a08;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataColumnPropertyDescriptor::*)()>(
     &::System::Data::DataColumnPropertyDescriptor::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ca2060;
+  constexpr static std::size_t addrs = 0x2cb6a74;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Data::DataColumnPropertyDescriptor::*)()>(
     &::System::Data::DataColumnPropertyDescriptor::get_PropertyType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ca207c;
+  constexpr static std::size_t addrs = 0x2cb6a90;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataColumnPropertyDescriptor::*)(::System::Object*)>(
     &::System::Data::DataColumnPropertyDescriptor::Equals)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2ca2098;
+  constexpr static std::size_t addrs = 0x2cb6aac;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::DataColumnPropertyDescriptor::*)()>(
     &::System::Data::DataColumnPropertyDescriptor::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2ca2108;
+  constexpr static std::size_t addrs = 0x2cb6b1c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataColumnPropertyDescriptor::*)(::System::Object*)>(
     &::System::Data::DataColumnPropertyDescriptor::CanResetValue)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2ca2128;
+  constexpr static std::size_t addrs = 0x2cb6b3c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::DataColumnPropertyDescriptor::*)(::System::Object*)>(
     &::System::Data::DataColumnPropertyDescriptor::GetValue)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2ca2240;
+  constexpr static std::size_t addrs = 0x2cb6c54;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnPropertyDescriptor::*)(::System::Object*)>(
     &::System::Data::DataColumnPropertyDescriptor::ResetValue)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2ca22cc;
+  constexpr static std::size_t addrs = 0x2cb6ce0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnPropertyDescriptor::*)(::System::Object*, ::System::Object*)>(
     &::System::Data::DataColumnPropertyDescriptor::SetValue)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2ca2394;
+  constexpr static std::size_t addrs = 0x2cb6da8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataColumnPropertyDescriptor::*)(::System::Object*)>(
     &::System::Data::DataColumnPropertyDescriptor::ShouldSerializeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca2478;
+  constexpr static std::size_t addrs = 0x2cb6e8c;
 
   inline static const ::MethodInfo* methodInfo() {
 

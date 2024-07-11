@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::VRControllerState_t_Packed::*)(::OVR::OpenVR::VRControllerState_t)>(
     &::OVR::OpenVR::VRControllerState_t_Packed::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2be69c4;
+  constexpr static std::size_t addrs = 0x2bfa3d8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::VRControllerState_t_Packed::*)(ByRef<::OVR::OpenVR::VRControllerState_t>)>(
     &::OVR::OpenVR::VRControllerState_t_Packed::Unpack)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2be6a08;
+  constexpr static std::size_t addrs = 0x2bfa41c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

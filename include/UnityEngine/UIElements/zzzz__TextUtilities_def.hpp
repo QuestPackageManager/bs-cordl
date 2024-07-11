@@ -51,37 +51,37 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE TextUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ComputeTextScaling, addr 0x35c6c74, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ComputeTextScaling, addr 0x35dcaf8, size 0xfc, virtual false, abstract: false, final false
   static inline float_t ComputeTextScaling(::UnityEngine::Matrix4x4 worldMatrix, float_t pixelsPerPoint);
 
-  /// @brief Method GetFont, addr 0x35c74d4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetFont, addr 0x35dd358, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Font> GetFont(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParam);
 
-  /// @brief Method GetFont, addr 0x35c75c4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetFont, addr 0x35dd448, size 0x15c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Font> GetFont(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetFontAsset, addr 0x35c65b8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetFontAsset, addr 0x35dc43c, size 0x128, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetFontAsset(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParam);
 
-  /// @brief Method GetFontAsset, addr 0x35c72a4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetFontAsset, addr 0x35dd128, size 0x16c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetFontAsset(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetTextCoreSettingsForElement, addr 0x35c78d8, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method GetTextCoreSettingsForElement, addr 0x35dd75c, size 0x3b4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::TextCoreSettings GetTextCoreSettingsForElement(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetTextSettingsFrom, addr 0x35c6500, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetTextSettingsFrom, addr 0x35dc384, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> GetTextSettingsFrom(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParam);
 
-  /// @brief Method GetTextSettingsFrom, addr 0x35c7410, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetTextSettingsFrom, addr 0x35dd294, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> GetTextSettingsFrom(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsFontAssigned, addr 0x35c7720, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsFontAssigned, addr 0x35dd5a4, size 0x84, virtual false, abstract: false, final false
   static inline bool IsFontAssigned(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams);
 
-  /// @brief Method IsFontAssigned, addr 0x35c71d4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method IsFontAssigned, addr 0x35dd058, size 0xc8, virtual false, abstract: false, final false
   static inline bool IsFontAssigned(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method MeasureVisualElementTextSize, addr 0x35c6d70, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method MeasureVisualElementTextSize, addr 0x35dcbf4, size 0x464, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MeasureVisualElementTextSize(::UnityEngine::UIElements::VisualElement* ve, ::StringW textToMeasure, float_t width,
                                                                     ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t height,
                                                                     ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode, ::UnityEngine::UIElements::ITextHandle* textHandle);

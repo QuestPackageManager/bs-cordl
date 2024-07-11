@@ -91,7 +91,7 @@ public:
   /// @brief Convert operator to "::System::Xml::Schema::IXmlSchemaInfo"
   constexpr operator ::System::Xml::Schema::IXmlSchemaInfo*() noexcept;
 
-  /// @brief Method Clear, addr 0x2e34de0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2e457f4, size 0x1c, virtual false, abstract: false, final false
   inline void Clear();
 
   static inline ::System::Xml::Schema::XmlSchemaInfo* New_ctor();
@@ -146,67 +146,67 @@ public:
 
   constexpr void __cordl_internal_set_validity(::System::Xml::Schema::XmlSchemaValidity value);
 
-  /// @brief Method .ctor, addr 0x2e34db0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e457c4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2e34dfc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e45810, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaValidity validity);
 
-  /// @brief Method get_ContentType, addr 0x2e34ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x2e458e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContentType get_ContentType();
 
-  /// @brief Method get_HasDefaultValue, addr 0x2e34ef8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_HasDefaultValue, addr 0x2e4590c, size 0x34, virtual false, abstract: false, final false
   inline bool get_HasDefaultValue();
 
-  /// @brief Method get_IsDefault, addr 0x2e34e48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsDefault, addr 0x2e4585c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsDefault();
 
-  /// @brief Method get_IsNil, addr 0x2e34e5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsNil, addr 0x2e45870, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsNil();
 
-  /// @brief Method get_IsUnionType, addr 0x2e34f2c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_IsUnionType, addr 0x2e45940, size 0x38, virtual false, abstract: false, final false
   inline bool get_IsUnionType();
 
-  /// @brief Method get_MemberType, addr 0x2e34e70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_MemberType, addr 0x2e45884, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_MemberType();
 
-  /// @brief Method get_SchemaAttribute, addr 0x2e34ebc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_SchemaAttribute, addr 0x2e458d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaAttribute* get_SchemaAttribute();
 
-  /// @brief Method get_SchemaElement, addr 0x2e34ea4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_SchemaElement, addr 0x2e458b8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
 
-  /// @brief Method get_SchemaType, addr 0x2e34e80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_SchemaType, addr 0x2e45894, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
 
-  /// @brief Method get_Validity, addr 0x2e34e38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Validity, addr 0x2e4584c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaValidity get_Validity();
 
-  /// @brief Method get_XmlType, addr 0x2e34edc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x2e458f0, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaType* get_XmlType();
 
   /// @brief Convert to "::System::Xml::Schema::IXmlSchemaInfo"
   constexpr ::System::Xml::Schema::IXmlSchemaInfo* i___System__Xml__Schema__IXmlSchemaInfo() noexcept;
 
-  /// @brief Method set_IsDefault, addr 0x2e34e50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDefault, addr 0x2e45864, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDefault(bool value);
 
-  /// @brief Method set_IsNil, addr 0x2e34e64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsNil, addr 0x2e45878, size 0xc, virtual false, abstract: false, final false
   inline void set_IsNil(bool value);
 
-  /// @brief Method set_MemberType, addr 0x2e34e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberType, addr 0x2e4588c, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method set_SchemaAttribute, addr 0x2e34ec4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaAttribute, addr 0x2e458d8, size 0x10, virtual false, abstract: false, final false
   inline void set_SchemaAttribute(::System::Xml::Schema::XmlSchemaAttribute* value);
 
-  /// @brief Method set_SchemaElement, addr 0x2e34eac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaElement, addr 0x2e458c0, size 0x10, virtual false, abstract: false, final false
   inline void set_SchemaElement(::System::Xml::Schema::XmlSchemaElement* value);
 
-  /// @brief Method set_SchemaType, addr 0x2e34e88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaType, addr 0x2e4589c, size 0x1c, virtual false, abstract: false, final false
   inline void set_SchemaType(::System::Xml::Schema::XmlSchemaType* value);
 
-  /// @brief Method set_Validity, addr 0x2e34e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Validity, addr 0x2e45854, size 0x8, virtual false, abstract: false, final false
   inline void set_Validity(::System::Xml::Schema::XmlSchemaValidity value);
 
 protected:

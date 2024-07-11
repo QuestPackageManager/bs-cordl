@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ObstacleSpawnInfoNetSerializable* (*)()>(
     &::GlobalNamespace::ObstacleSpawnInfoNetSerializable::Obtain)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x150bd40;
+  constexpr static std::size_t addrs = 0x1516ab8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>::get(),
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::ObstacleSpawnInfoNetSerializable::*)(float_t, int32_t, ::GlobalNamespace::NoteLineLayer, float_t, int32_t, int32_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3,
                                                             ::UnityEngine::Vector3, float_t, float_t, float_t, float_t, float_t)>(&::GlobalNamespace::ObstacleSpawnInfoNetSerializable::Init)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x150bda4;
+  constexpr static std::size_t addrs = 0x1516b1c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleSpawnInfoNetSerializable::*)()>(
     &::GlobalNamespace::ObstacleSpawnInfoNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x150bec4;
+  constexpr static std::size_t addrs = 0x1516c3c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>::get(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleSpawnInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ObstacleSpawnInfoNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x150bf1c;
+  constexpr static std::size_t addrs = 0x1516c94;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleSpawnInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ObstacleSpawnInfoNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x150c020;
+  constexpr static std::size_t addrs = 0x1516d98;
 
   inline static const ::MethodInfo* methodInfo() {
 

@@ -43,18 +43,18 @@ public:
 
   __declspec(property(get = get_position))::UnityEngine::Vector3 position;
 
-  /// @brief Method AddVelocity, addr 0x263886c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method AddVelocity, addr 0x264d18c, size 0x20, virtual true, abstract: false, final false
   inline void AddVelocity(::UnityEngine::Vector3 force);
 
-  /// @brief Method Init, addr 0x2638840, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x264d160, size 0x2c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 torque);
 
-  /// @brief Method LateUpdate, addr 0x26386a4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x264cfc4, size 0x19c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::NoteDebrisSimplePhysics* New_ctor();
 
-  /// @brief Method Start, addr 0x2638678, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x264cf98, size 0x2c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__currentForce() const;
@@ -87,10 +87,10 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x263888c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264d1ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_position, addr 0x263865c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_position, addr 0x264cf7c, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
 protected:

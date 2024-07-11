@@ -49,16 +49,16 @@ public:
   /// @brief Field _type, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::System::Type* _type;
 
-  /// @brief Method FillAttributes, addr 0x2f670a8, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method FillAttributes, addr 0x2f73abc, size 0x64, virtual true, abstract: false, final false
   inline void FillAttributes(::System::Collections::IList* attributes);
 
-  /// @brief Method FillEventInfoAttribute, addr 0x2f67554, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method FillEventInfoAttribute, addr 0x2f73f68, size 0x328, virtual false, abstract: false, final false
   inline void FillEventInfoAttribute(::System::Reflection::EventInfo* realEventInfo, ::System::Collections::IList* attributes);
 
-  /// @brief Method FillMethods, addr 0x2f6710c, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method FillMethods, addr 0x2f73b20, size 0x448, virtual false, abstract: false, final false
   inline void FillMethods();
 
-  /// @brief Method FillSingleMethodAttribute, addr 0x2f6787c, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method FillSingleMethodAttribute, addr 0x2f74290, size 0x368, virtual false, abstract: false, final false
   inline void FillSingleMethodAttribute(::System::Reflection::MethodInfo* realMethodInfo, ::System::Collections::IList* attributes);
 
   static inline ::System::ComponentModel::ReflectEventDescriptor* New_ctor(::System::Type* componentClass, ::System::Reflection::EventInfo* eventInfo);
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2f66f30, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f73944, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentClass, ::System::Reflection::EventInfo* eventInfo);
 
 protected:

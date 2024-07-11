@@ -92,21 +92,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
   constexpr operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*() noexcept;
 
-  /// @brief Method Awake, addr 0x2634384, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2648ca4, size 0x1d0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x2634774, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x2649094, size 0x178, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteControllerNoteDidPassJumpThreeQuarters, addr 0x26348ec, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerNoteDidPassJumpThreeQuarters, addr 0x264920c, size 0x20, virtual true, abstract: false, final true
   inline void HandleNoteControllerNoteDidPassJumpThreeQuarters(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x263490c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x264922c, size 0x20, virtual true, abstract: false, final true
   inline void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float_t duration);
 
   static inline ::GlobalNamespace::ColorNoteVisuals* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2634554, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2648e74, size 0x220, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> const& __cordl_internal_get__arrowMeshRenderers() const;
@@ -161,10 +161,10 @@ public:
 
   constexpr void __cordl_internal_set_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
-  /// @brief Method .ctor, addr 0x263492c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264924c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didInitEvent, addr 0x2634154, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didInitEvent, addr 0x2648a74, size 0xb0, virtual false, abstract: false, final false
   inline void add_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
   static inline int32_t getStaticF__colorId();
@@ -178,15 +178,15 @@ public:
   /// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
   constexpr ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent* i___GlobalNamespace__INoteControllerNoteDidStartDissolvingEvent() noexcept;
 
-  /// @brief Method remove_didInitEvent, addr 0x2634204, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didInitEvent, addr 0x2648b24, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
   static inline void setStaticF__colorId(int32_t value);
 
-  /// @brief Method set_showArrow, addr 0x26342b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_showArrow, addr 0x2648bd4, size 0x68, virtual false, abstract: false, final false
   inline void set_showArrow(bool value);
 
-  /// @brief Method set_showCircle, addr 0x263431c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_showCircle, addr 0x2648c3c, size 0x68, virtual false, abstract: false, final false
   inline void set_showCircle(bool value);
 
 protected:

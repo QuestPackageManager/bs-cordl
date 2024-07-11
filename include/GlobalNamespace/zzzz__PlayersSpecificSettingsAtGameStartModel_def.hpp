@@ -47,7 +47,7 @@ public:
 
   static inline ::GlobalNamespace::__PlayersSpecificSettingsAtGameStartModel____c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <SaveFromNetSerializable>b__0, addr 0x10b7ff0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method <SaveFromNetSerializable>b__0, addr 0x10c42e8, size 0x11c, virtual false, abstract: false, final false
   inline bool _SaveFromNetSerializable_b__0(::GlobalNamespace::IConnectedPlayer* p);
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get_player();
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_player(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0x10b7fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c42e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,13 +115,13 @@ public:
   __declspec(property(get = get_playersAtGameStartNetSerializable,
                       put = set_playersAtGameStartNetSerializable))::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable;
 
-  /// @brief Method GetPlayerSpecificSettingsForUserId, addr 0x10b7854, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerSpecificSettingsForUserId, addr 0x10c3b4c, size 0x3a8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* GetPlayerSpecificSettingsForUserId(::StringW userId);
 
   static inline ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                                      ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* localPlayerSpecificSettings);
 
-  /// @brief Method SaveFromNetSerializable, addr 0x10b7bfc, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method SaveFromNetSerializable, addr 0x10c3ef4, size 0x3ec, virtual false, abstract: false, final false
   inline void SaveFromNetSerializable(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable);
 
   constexpr ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*& __cordl_internal_get__localPlayerSpecificSettings_k__BackingField();
@@ -143,22 +143,22 @@ public:
 
   constexpr void __cordl_internal_set__playersAtGameStartNetSerializable_k__BackingField(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* value);
 
-  /// @brief Method .ctor, addr 0x10b77d0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c3ac8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* localPlayerSpecificSettings);
 
-  /// @brief Method get_localPlayerSpecificSettings, addr 0x10b77b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayerSpecificSettings, addr 0x10c3aa8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* get_localPlayerSpecificSettings();
 
-  /// @brief Method get_playersAtGameStart, addr 0x10b7798, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_playersAtGameStart, addr 0x10c3a90, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* get_playersAtGameStart();
 
-  /// @brief Method get_playersAtGameStartNetSerializable, addr 0x10b77c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playersAtGameStartNetSerializable, addr 0x10c3ab8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* get_playersAtGameStartNetSerializable();
 
-  /// @brief Method set_localPlayerSpecificSettings, addr 0x10b77b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_localPlayerSpecificSettings, addr 0x10c3ab0, size 0x8, virtual false, abstract: false, final false
   inline void set_localPlayerSpecificSettings(::GlobalNamespace::PlayerSpecificSettingsNetSerializable* value);
 
-  /// @brief Method set_playersAtGameStartNetSerializable, addr 0x10b77c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playersAtGameStartNetSerializable, addr 0x10c3ac0, size 0x8, virtual false, abstract: false, final false
   inline void set_playersAtGameStartNetSerializable(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* value);
 
 protected:

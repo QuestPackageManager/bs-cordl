@@ -20,18 +20,18 @@ namespace UnityEngine::InputSystem::Controls {
 class CORDL_TYPE TouchPressControl : public ::UnityEngine::InputSystem::Controls::ButtonControl {
 public:
   // Declarations
-  /// @brief Method FinishSetup, addr 0x31a02cc, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x31b1150, size 0xac, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::TouchPressControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x31a0378, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x31b11fc, size 0x104, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x31a0610, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x31b1494, size 0x40, virtual true, abstract: false, final false
   inline void WriteValueIntoState(float_t value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method .ctor, addr 0x31a0650, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b14d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

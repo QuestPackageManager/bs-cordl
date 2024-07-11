@@ -37,7 +37,7 @@ public:
 
   __declspec(property(get = get_color))::UnityEngine::Color color;
 
-  /// @brief Method ColorWasSet, addr 0x250fd18, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x2523fcc, size 0x4c, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::UnityLightWithId* New_ctor();
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set__minAlpha(float_t value);
 
-  /// @brief Method .ctor, addr 0x250fd64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2524018, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x250fcfc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x2523fb0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:

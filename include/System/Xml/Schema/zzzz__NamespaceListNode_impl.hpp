@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::NamespaceListNode::*)(::System::Xml::Schema::NamespaceList*, ::System::Object*)>(
     &::System::Xml::Schema::NamespaceListNode::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2f1ae60;
+  constexpr static std::size_t addrs = 0x2f28874;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (
     ::System::Xml::Schema::NamespaceListNode::*)(::System::Xml::Schema::SymbolsDictionary*)>(&::System::Xml::Schema::NamespaceListNode::GetResolvedSymbols)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2f1ae8c;
+  constexpr static std::size_t addrs = 0x2f288a0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::NamespaceListNode::*)(
     ::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::NamespaceListNode::ExpandTree)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x2f1aeac;
+  constexpr static std::size_t addrs = 0x2f288c0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>)>(
     &::System::Xml::Schema::NamespaceListNode::ConstructPos)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2f1b32c;
+  constexpr static std::size_t addrs = 0x2f28d40;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::NamespaceListNode::*)()>(&::System::Xml::Schema::NamespaceListNode::get_IsNullable)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2f1b36c;
+  constexpr static std::size_t addrs = 0x2f28d80;
 
   inline static const ::MethodInfo* methodInfo() {
 

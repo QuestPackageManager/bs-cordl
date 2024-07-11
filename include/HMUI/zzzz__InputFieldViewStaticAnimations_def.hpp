@@ -49,21 +49,21 @@ public:
   /// @brief Field _selectedClip, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__selectedClip, put = __cordl_internal_set__selectedClip))::UnityW<::UnityEngine::AnimationClip> _selectedClip;
 
-  /// @brief Method Awake, addr 0x253c57c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2551830, size 0x88, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleInputFieldViewSelectionStateDidChange, addr 0x253c628, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFieldViewSelectionStateDidChange, addr 0x25518dc, size 0x100, virtual false, abstract: false, final false
   inline void HandleInputFieldViewSelectionStateDidChange(::HMUI::__InputFieldView__SelectionState state);
 
   static inline ::HMUI::InputFieldViewStaticAnimations* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x253c744, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x25519f8, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x253c728, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x25519dc, size 0x1c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x253c604, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25518b8, size 0x24, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__didStart() const;
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set__selectedClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  /// @brief Method .ctor, addr 0x253c814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2551ac8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

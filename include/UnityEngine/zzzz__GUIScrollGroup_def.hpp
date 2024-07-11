@@ -59,18 +59,18 @@ public:
   /// @brief Field verticalScrollbar, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_verticalScrollbar, put = __cordl_internal_set_verticalScrollbar))::UnityEngine::GUIStyle* verticalScrollbar;
 
-  /// @brief Method CalcHeight, addr 0x3476ed4, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method CalcHeight, addr 0x3488d58, size 0x100, virtual true, abstract: false, final false
   inline void CalcHeight();
 
-  /// @brief Method CalcWidth, addr 0x3476c44, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CalcWidth, addr 0x3488ac8, size 0x80, virtual true, abstract: false, final false
   inline void CalcWidth();
 
   static inline ::UnityEngine::GUIScrollGroup* New_ctor();
 
-  /// @brief Method SetHorizontal, addr 0x3476cc4, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method SetHorizontal, addr 0x3488b48, size 0x12c, virtual true, abstract: false, final false
   inline void SetHorizontal(float_t x, float_t width);
 
-  /// @brief Method SetVertical, addr 0x3477010, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method SetVertical, addr 0x3488e94, size 0x218, virtual true, abstract: false, final false
   inline void SetVertical(float_t y, float_t height);
 
   constexpr bool const& __cordl_internal_get_allowHorizontalScroll() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_verticalScrollbar(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method .ctor, addr 0x3476be4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3488a68, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

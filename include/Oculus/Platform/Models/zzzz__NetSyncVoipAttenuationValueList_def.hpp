@@ -28,7 +28,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::NetSyncVoipAttenuationValueList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x2afe2c8, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b11cdc, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:

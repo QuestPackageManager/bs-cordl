@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate::*)(
     ::System::Object*, ::System::IntPtr)>(&::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x105729c;
+  constexpr static std::size_t addrs = 0x105ed30;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate::*)(bool, int32_t)>(
     &::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate::Invoke)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x1057d2c;
+  constexpr static std::size_t addrs = 0x105f7c0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate::*)(bool, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x1057d44;
+  constexpr static std::size_t addrs = 0x105f7d8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate::*)(::System::IAsyncResult*)>(
     &::BeatSaber::BeatAvatarSDK::__BeatAvatarVisualController__HighlighterDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1057e00;
+  constexpr static std::size_t addrs = 0x105f894;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::*)()>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::Awake)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x1057010;
+  constexpr static std::size_t addrs = 0x105eaa4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController*>::get(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::*)(::BeatSaber::BeatAvatarSDK::AvatarData*)>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::UpdateAvatarVisual)> {
   constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x1057360;
+  constexpr static std::size_t addrs = 0x105edf4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::*)(::UnityEngine::Color)>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::SetLightColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1057a18;
+  constexpr static std::size_t addrs = 0x105f4ac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::*)()>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::UpdateAvatarColors)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x1057784;
+  constexpr static std::size_t addrs = 0x105f218;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController*>::get(),
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::*)(::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t)>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::HighlightEditedPart)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x1057bf4;
+  constexpr static std::size_t addrs = 0x105f688;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::*)()>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::DisableEditedPartHighlight)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x1057c90;
+  constexpr static std::size_t addrs = 0x105f724;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController*>::get(),
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::*)(bool, int32_t)>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::SetHandsHighlight)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x1057cc4;
+  constexpr static std::size_t addrs = 0x105f758;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::*)()>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1057d1c;
+  constexpr static std::size_t addrs = 0x105f7b0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController*>::get(),

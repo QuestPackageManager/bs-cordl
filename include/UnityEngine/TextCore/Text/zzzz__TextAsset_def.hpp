@@ -81,34 +81,34 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x34c9248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34dc0cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hashCode, addr 0x34c8da0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x34dbc24, size 0x30, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_instanceID, addr 0x34c8d78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_instanceID, addr 0x34dbbfc, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_instanceID();
 
-  /// @brief Method get_material, addr 0x34c9198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x34dc01c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_materialHashCode, addr 0x34c91a8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_materialHashCode, addr 0x34dc02c, size 0x98, virtual false, abstract: false, final false
   inline int32_t get_materialHashCode();
 
-  /// @brief Method get_version, addr 0x34c9180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x34dc004, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
-  /// @brief Method set_hashCode, addr 0x34c9190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hashCode, addr 0x34dc014, size 0x8, virtual false, abstract: false, final false
   inline void set_hashCode(int32_t value);
 
-  /// @brief Method set_material, addr 0x34c91a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_material, addr 0x34dc024, size 0x8, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
-  /// @brief Method set_materialHashCode, addr 0x34c9240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_materialHashCode, addr 0x34dc0c4, size 0x8, virtual false, abstract: false, final false
   inline void set_materialHashCode(int32_t value);
 
-  /// @brief Method set_version, addr 0x34c9188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_version, addr 0x34dc00c, size 0x8, virtual false, abstract: false, final false
   inline void set_version(::StringW value);
 
 protected:

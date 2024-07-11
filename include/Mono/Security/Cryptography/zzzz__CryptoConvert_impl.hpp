@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Mono::Security::Cryptography::CryptoConvert::ToInt32LE)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x279b5c8;
+  constexpr static std::size_t addrs = 0x27aefdc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Mono::Security::Cryptography::CryptoConvert::ToUInt32LE)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x279b63c;
+  constexpr static std::size_t addrs = 0x27af050;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Mono::Security::Cryptography::CryptoConvert::Trim)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x279b6b0;
+  constexpr static std::size_t addrs = 0x27af0c4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RSA* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Mono::Security::Cryptography::CryptoConvert::FromCapiPrivateKeyBlob)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x279b75c;
+  constexpr static std::size_t addrs = 0x27af170;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RSA* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Mono::Security::Cryptography::CryptoConvert::FromCapiPrivateKeyBlob)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x279b764;
+  constexpr static std::size_t addrs = 0x27af178;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RSAParameters (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Mono::Security::Cryptography::CryptoConvert::GetParametersFromCapiPrivateKeyBlob)> {
   constexpr static std::size_t size = 0x5a0;
-  constexpr static std::size_t addrs = 0x279b988;
+  constexpr static std::size_t addrs = 0x27af39c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::Security::Cryptography::CryptoConvert::ToHex)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x279bf28;
+  constexpr static std::size_t addrs = 0x27af93c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

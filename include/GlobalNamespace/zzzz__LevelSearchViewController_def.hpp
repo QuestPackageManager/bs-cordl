@@ -105,10 +105,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x265f604, size 0x900, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2674510, size 0x900, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x265ff04, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2674e10, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -231,56 +231,56 @@ public:
   __declspec(property(get = __cordl_internal_get_didStartLoadingEvent,
                       put = __cordl_internal_set_didStartLoadingEvent))::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* didStartLoadingEvent;
 
-  /// @brief Method DidActivate, addr 0x265ebac, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2673ab8, size 0x198, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x265ed44, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x2673c50, size 0xcc, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method IsFilteringPlayCounts, addr 0x265cea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsFilteringPlayCounts, addr 0x2671db4, size 0x8, virtual false, abstract: false, final false
   inline bool IsFilteringPlayCounts();
 
-  /// @brief Method LocalizedLevelFilterParamsDescription, addr 0x265eedc, size 0x614, virtual false, abstract: false, final false
+  /// @brief Method LocalizedLevelFilterParamsDescription, addr 0x2673de8, size 0x614, virtual false, abstract: false, final false
   static inline ::StringW LocalizedLevelFilterParamsDescription(ByRef<::GlobalNamespace::LevelFilter> filter, ::GlobalNamespace::SongPackMasksModel* songPackMasksModel,
                                                                 ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* characteristics,
                                                                 bool isPlayerSensitivityForced);
 
   static inline ::GlobalNamespace::LevelSearchViewController* New_ctor();
 
-  /// @brief Method Refresh, addr 0x265ceb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x2671dbc, size 0x4, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Refresh, addr 0x265eb8c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x2673a98, size 0x20, virtual false, abstract: false, final false
   inline void Refresh(ByRef<::GlobalNamespace::LevelFilter> filter);
 
-  /// @brief Method RefreshAsync, addr 0x265eaf8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RefreshAsync, addr 0x2673a04, size 0x94, virtual false, abstract: false, final false
   inline void RefreshAsync();
 
-  /// @brief Method ResetAllFilterSettings, addr 0x265ea94, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ResetAllFilterSettings, addr 0x26739a0, size 0x64, virtual false, abstract: false, final false
   inline void ResetAllFilterSettings(bool onlyFavorites);
 
-  /// @brief Method ResetFilter, addr 0x265cccc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ResetFilter, addr 0x2671bd8, size 0x1c, virtual false, abstract: false, final false
   inline void ResetFilter(bool onlyFavorites);
 
-  /// @brief Method ResetOptionFilterSettings, addr 0x265ee18, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ResetOptionFilterSettings, addr 0x2673d24, size 0xa8, virtual false, abstract: false, final false
   inline void ResetOptionFilterSettings(bool onlyFavorites);
 
-  /// @brief Method ResetTextFilterSettings, addr 0x265ee10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResetTextFilterSettings, addr 0x2673d1c, size 0x8, virtual false, abstract: false, final false
   inline void ResetTextFilterSettings(::StringW text);
 
-  /// @brief Method SearchTextInputFieldViewOnValueChanged, addr 0x265eec0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SearchTextInputFieldViewOnValueChanged, addr 0x2673dcc, size 0x1c, virtual false, abstract: false, final false
   inline void SearchTextInputFieldViewOnValueChanged(::HMUI::InputFieldView* inputFieldView);
 
-  /// @brief Method Setup, addr 0x265ea8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2673998, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> beatmapLevelPacks);
 
-  /// @brief Method <DidActivate>b__30_0, addr 0x265f574, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__30_0, addr 0x2674480, size 0x6c, virtual false, abstract: false, final false
   inline void _DidActivate_b__30_0();
 
-  /// @brief Method <DidActivate>b__30_1, addr 0x265f5e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__30_1, addr 0x26744ec, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__30_1();
 
-  /// @brief Method <LocalizedLevelFilterParamsDescription>g__Append|37_0, addr 0x265f4f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <LocalizedLevelFilterParamsDescription>g__Append|37_0, addr 0x26743fc, size 0x7c, virtual false, abstract: false, final false
   static inline void _LocalizedLevelFilterParamsDescription_g__Append_37_0(::System::Text::StringBuilder* sb, ::StringW value);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__beatmapCharacteristicCollection();
@@ -399,25 +399,25 @@ public:
 
   constexpr void __cordl_internal_set_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x265f56c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2674478, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFilterBeatmapLevelCollectionEvent, addr 0x265c22c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFilterBeatmapLevelCollectionEvent, addr 0x2671138, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* value);
 
-  /// @brief Method add_didPressSearchButtonEvent, addr 0x265e92c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressSearchButtonEvent, addr 0x2673838, size 0xb0, virtual false, abstract: false, final false
   inline void add_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value);
 
-  /// @brief Method add_didStartLoadingEvent, addr 0x265c2dc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didStartLoadingEvent, addr 0x26711e8, size 0xb0, virtual false, abstract: false, final false
   inline void add_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
 
-  /// @brief Method remove_didFilterBeatmapLevelCollectionEvent, addr 0x265c918, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFilterBeatmapLevelCollectionEvent, addr 0x2671824, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* value);
 
-  /// @brief Method remove_didPressSearchButtonEvent, addr 0x265e9dc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressSearchButtonEvent, addr 0x26738e8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value);
 
-  /// @brief Method remove_didStartLoadingEvent, addr 0x265c9c8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didStartLoadingEvent, addr 0x26718d4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
 
 protected:

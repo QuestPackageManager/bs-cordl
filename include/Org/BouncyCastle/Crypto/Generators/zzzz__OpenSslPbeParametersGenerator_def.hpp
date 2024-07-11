@@ -31,28 +31,28 @@ public:
   /// @brief Field digest, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
 
-  /// @brief Method GenerateDerivedKey, addr 0x1168da0, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method GenerateDerivedKey, addr 0x1174098, size 0x384, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateDerivedKey(int32_t bytesNeeded);
 
-  /// @brief Method GenerateDerivedMacParameters, addr 0x11693c0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedMacParameters, addr 0x11746b8, size 0x9c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int32_t keySize);
 
-  /// @brief Method GenerateDerivedParameters, addr 0x1169130, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedParameters, addr 0x1174428, size 0x98, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize);
 
-  /// @brief Method GenerateDerivedParameters, addr 0x11692bc, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedParameters, addr 0x11745b4, size 0x104, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize, int32_t ivSize);
 
-  /// @brief Method GenerateDerivedParameters, addr 0x1169124, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedParameters, addr 0x117441c, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize);
 
-  /// @brief Method GenerateDerivedParameters, addr 0x11691c8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GenerateDerivedParameters, addr 0x11744c0, size 0xf4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize, int32_t ivSize);
 
-  /// @brief Method Init, addr 0x1168d98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x1174090, size 0x8, virtual true, abstract: false, final false
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
-  /// @brief Method Init, addr 0x1168d90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x1174088, size 0x8, virtual true, abstract: false, final false
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator* New_ctor();
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  /// @brief Method .ctor, addr 0x1168d28, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1174020, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

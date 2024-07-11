@@ -187,27 +187,27 @@ public:
       property(get = getStaticF_s_EditorStrategies,
                put = setStaticF_s_EditorStrategies))::ArrayW<::UnityEngine::UIElements::IEventDispatchingStrategy*, ::Array<::UnityEngine::UIElements::IEventDispatchingStrategy*>*> s_EditorStrategies;
 
-  /// @brief Method ApplyDispatchingStrategies, addr 0x35825dc, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method ApplyDispatchingStrategies, addr 0x3599460, size 0x330, virtual false, abstract: false, final false
   inline void ApplyDispatchingStrategies(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel, bool imguiEventIsInitiallyUsed);
 
-  /// @brief Method CloseGate, addr 0x3581950, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CloseGate, addr 0x35987d4, size 0x10, virtual false, abstract: false, final false
   inline void CloseGate();
 
-  /// @brief Method CreateForRuntime, addr 0x3581aa8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateForRuntime, addr 0x359892c, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventDispatcher* CreateForRuntime(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* strategies);
 
-  /// @brief Method Dispatch, addr 0x3581ce0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x3598b64, size 0x164, virtual false, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
   static inline ::UnityEngine::UIElements::EventDispatcher* New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* strategies);
 
-  /// @brief Method OpenGate, addr 0x3581978, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OpenGate, addr 0x35987fc, size 0x88, virtual false, abstract: false, final false
   inline void OpenGate();
 
-  /// @brief Method ProcessEvent, addr 0x3581e44, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x3598cc8, size 0x3d0, virtual false, abstract: false, final false
   inline void ProcessEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method ProcessEventQueue, addr 0x3582214, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method ProcessEventQueue, addr 0x3599098, size 0x3c8, virtual false, abstract: false, final false
   inline void ProcessEventQueue();
 
   constexpr ::UnityEngine::UIElements::PointerDispatchState*& __cordl_internal_get__pointerState_k__BackingField();
@@ -260,24 +260,24 @@ public:
 
   constexpr void __cordl_internal_set_m_Queue(::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* value);
 
-  /// @brief Method .ctor, addr 0x3581b08, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x359898c, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* strategies);
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*>* getStaticF_k_EventQueuePool();
 
   static inline ::ArrayW<::UnityEngine::UIElements::IEventDispatchingStrategy*, ::Array<::UnityEngine::UIElements::IEventDispatchingStrategy*>*> getStaticF_s_EditorStrategies();
 
-  /// @brief Method get_dispatchImmediately, addr 0x3581cb4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_dispatchImmediately, addr 0x3598b38, size 0x20, virtual false, abstract: false, final false
   inline bool get_dispatchImmediately();
 
-  /// @brief Method get_pointerState, addr 0x3581aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerState, addr 0x3598924, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerDispatchState* get_pointerState();
 
   static inline void setStaticF_k_EventQueuePool(::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*>* value);
 
   static inline void setStaticF_s_EditorStrategies(::ArrayW<::UnityEngine::UIElements::IEventDispatchingStrategy*, ::Array<::UnityEngine::UIElements::IEventDispatchingStrategy*>*> value);
 
-  /// @brief Method set_processingEvents, addr 0x3581cd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_processingEvents, addr 0x3598b58, size 0xc, virtual false, abstract: false, final false
   inline void set_processingEvents(bool value);
 
 protected:

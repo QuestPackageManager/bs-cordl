@@ -26,12 +26,12 @@ namespace System::Runtime::Remoting::Contexts {
 class CORDL_TYPE CrossContextDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x283b2ac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x284dcc0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::System::Runtime::Remoting::Contexts::CrossContextDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x283b1f0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x284dc04, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

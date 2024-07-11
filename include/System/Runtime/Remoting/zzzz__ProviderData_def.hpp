@@ -41,7 +41,7 @@ public:
   /// @brief Field Type, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type))::StringW Type;
 
-  /// @brief Method CopyFrom, addr 0x2829418, size 0x704, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x283be2c, size 0x704, virtual false, abstract: false, final false
   inline void CopyFrom(::System::Runtime::Remoting::ProviderData* other);
 
   static inline ::System::Runtime::Remoting::ProviderData* New_ctor();
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_Type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x28293b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x283bdc4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::GetRecoveredMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11b51c8;
+  constexpr static std::size_t addrs = 0x11c24c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::*)(
     ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, ::Org::BouncyCastle::Crypto::IDigest*, bool)>(&::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x11b51d0;
+  constexpr static std::size_t addrs = 0x11c24c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::*)(
     ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, ::Org::BouncyCastle::Crypto::IDigest*)>(&::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11b52d8;
+  constexpr static std::size_t addrs = 0x11c25d0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::get_AlgorithmName)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x11b52e0;
+  constexpr static std::size_t addrs = 0x11c25d8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::Init)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x11b53a0;
+  constexpr static std::size_t addrs = 0x11c2698;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::IsSameAs)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x11b55b8;
+  constexpr static std::size_t addrs = 0x11c28b0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::ClearBlock)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x11b5668;
+  constexpr static std::size_t addrs = 0x11c2960;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::UpdateWithRecoveredMessage)> {
   constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x11b568c;
+  constexpr static std::size_t addrs = 0x11c2984;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::Update)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x11b5b1c;
+  constexpr static std::size_t addrs = 0x11c2e14;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::BlockUpdate)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x11b5c04;
+  constexpr static std::size_t addrs = 0x11c2efc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::Reset)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x11b5d38;
+  constexpr static std::size_t addrs = 0x11c3030;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::GenerateSignature)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x11b5e18;
+  constexpr static std::size_t addrs = 0x11c3110;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::VerifySignature)> {
   constexpr static std::size_t size = 0x7a4;
-  constexpr static std::size_t addrs = 0x11b6200;
+  constexpr static std::size_t addrs = 0x11c34f8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::ReturnFalse)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x11b69a4;
+  constexpr static std::size_t addrs = 0x11c3c9c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::Iso9796d2Signer::HasFullMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11b69cc;
+  constexpr static std::size_t addrs = 0x11c3cc4;
 
   inline static const ::MethodInfo* methodInfo() {
 

@@ -38,46 +38,46 @@ namespace GlobalNamespace {
 class CORDL_TYPE PerformanceConfigurationLog : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x26a531c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x26b82f8, size 0x1fc, virtual false, abstract: false, final false
   static inline ::StringW Create(::BeatSaber::GameSettings::MainSettingsHandler* mainSettings, ::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettings,
                                  ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers, ::GlobalNamespace::PerformanceConfigurationStats* stats,
                                  ::StringW header);
 
-  /// @brief Method LogApplicationInfo, addr 0x26a59a8, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method LogApplicationInfo, addr 0x26b8984, size 0x4b4, virtual false, abstract: false, final false
   static inline void LogApplicationInfo(::System::Text::StringBuilder* sb);
 
-  /// @brief Method LogApplicationState, addr 0x26a5e5c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method LogApplicationState, addr 0x26b8e38, size 0x1e4, virtual false, abstract: false, final false
   static inline void LogApplicationState(::System::Text::StringBuilder* sb);
 
-  /// @brief Method LogDynamicStates, addr 0x26a7ef0, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method LogDynamicStates, addr 0x26baecc, size 0x1fc, virtual false, abstract: false, final false
   static inline void LogDynamicStates(::System::Text::StringBuilder* sb, ::GlobalNamespace::PerformanceConfigurationStats* stats);
 
   /// @brief Method LogEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void LogEntry(::System::Text::StringBuilder* sb, ::StringW category, ::StringW name, T value);
 
-  /// @brief Method LogGameSettings, addr 0x26a6e90, size 0xb94, virtual false, abstract: false, final false
+  /// @brief Method LogGameSettings, addr 0x26b9e6c, size 0xb94, virtual false, abstract: false, final false
   static inline void LogGameSettings(::System::Text::StringBuilder* sb, ::BeatSaber::GameSettings::MainSettingsHandler* mainSettingsHandler,
                                      ::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettingsHandler);
 
-  /// @brief Method LogLevelSettings, addr 0x26a7e60, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method LogLevelSettings, addr 0x26bae3c, size 0x90, virtual false, abstract: false, final false
   static inline void LogLevelSettings(::System::Text::StringBuilder* sb, ::GlobalNamespace::GameplayModifierMask modifiers);
 
-  /// @brief Method LogOculusXrInfo, addr 0x26a6d50, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method LogOculusXrInfo, addr 0x26b9d2c, size 0x13c, virtual false, abstract: false, final false
   static inline void LogOculusXrInfo(::System::Text::StringBuilder* sb);
 
-  /// @brief Method LogOpenXrInfo, addr 0x26a6e8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LogOpenXrInfo, addr 0x26b9e68, size 0x4, virtual false, abstract: false, final false
   static inline void LogOpenXrInfo(::System::Text::StringBuilder* sb);
 
-  /// @brief Method LogOvrInfo, addr 0x26a6344, size 0xa0c, virtual false, abstract: false, final false
+  /// @brief Method LogOvrInfo, addr 0x26b9320, size 0xa0c, virtual false, abstract: false, final false
   static inline void LogOvrInfo(::System::Text::StringBuilder* sb);
 
-  /// @brief Method LogPlayerSettings, addr 0x26a7a24, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method LogPlayerSettings, addr 0x26baa00, size 0x43c, virtual false, abstract: false, final false
   static inline void LogPlayerSettings(::System::Text::StringBuilder* sb, ::GlobalNamespace::PlayerSpecificSettings* playerSettings);
 
-  /// @brief Method LogSystemInfo, addr 0x26a5518, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method LogSystemInfo, addr 0x26b84f4, size 0x490, virtual false, abstract: false, final false
   static inline void LogSystemInfo(::System::Text::StringBuilder* sb);
 
-  /// @brief Method LogXrInfo, addr 0x26a6040, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method LogXrInfo, addr 0x26b901c, size 0x304, virtual false, abstract: false, final false
   static inline void LogXrInfo(::System::Text::StringBuilder* sb);
 
 protected:

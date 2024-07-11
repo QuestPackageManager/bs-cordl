@@ -30,16 +30,16 @@ public:
   /// @brief Field m_NativeData, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get_m_NativeData, put = __cordl_internal_set_m_NativeData))::Unity::Collections::NativeArray_1<uint8_t> m_NativeData;
 
-  /// @brief Method Create, addr 0x362ee70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3645cf4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerBuffer* obj);
 
-  /// @brief Method Dispose, addr 0x362eef8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3645d7c, size 0x1c, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetNativeData, addr 0x362eef0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNativeData, addr 0x3645d74, size 0x8, virtual true, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData();
 
-  /// @brief Method InternalCreateBuffer, addr 0x362eeac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateBuffer, addr 0x3645d30, size 0x44, virtual false, abstract: false, final false
   inline void InternalCreateBuffer();
 
   static inline ::UnityEngine::Networking::DownloadHandlerBuffer* New_ctor();
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_m_NativeData(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x362e4b0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3645334, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::MulticastDelegate::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::MulticastDelegate::GetObjectData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x299e85c;
+  constexpr static std::size_t addrs = 0x29b4270;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::MulticastDelegate::*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::System::MulticastDelegate::DynamicInvokeImpl)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x299e860;
+  constexpr static std::size_t addrs = 0x29b4274;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::MulticastDelegate::*)(::System::Object*)>(&::System::MulticastDelegate::Equals)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x299e8f0;
+  constexpr static std::size_t addrs = 0x29b4304;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::MulticastDelegate::*)()>(&::System::MulticastDelegate::GetHashCode)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x299ea34;
+  constexpr static std::size_t addrs = 0x29b4448;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::MulticastDelegate*>::get(), "GetHashCode",
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (::System::MulticastDelegate::*)()>(&::System::MulticastDelegate::GetMethodImpl)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x299ea38;
+  constexpr static std::size_t addrs = 0x29b444c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> (::System::MulticastDelegate::*)()>(
     &::System::MulticastDelegate::GetInvocationList)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x299ea80;
+  constexpr static std::size_t addrs = 0x29b4494;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::MulticastDelegate*>::get(), "GetInvocationList",
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (::System::MulticastDelegate::*)(::System::Delegate*)>(
     &::System::MulticastDelegate::CombineImpl)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x299eb4c;
+  constexpr static std::size_t addrs = 0x29b4560;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::MulticastDelegate::*)(
     ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*>, ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*>)>(&::System::MulticastDelegate::LastIndexOf)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x299edb4;
+  constexpr static std::size_t addrs = 0x29b47c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Delegate* (::System::MulticastDelegate::*)(::System::Delegate*)>(
     &::System::MulticastDelegate::RemoveImpl)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x299eee0;
+  constexpr static std::size_t addrs = 0x29b48f4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::StringFreezingAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2875a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x288a42c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

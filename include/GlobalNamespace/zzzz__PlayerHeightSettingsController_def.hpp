@@ -61,18 +61,18 @@ public:
   /// @brief Field valueDidChangeEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_valueDidChangeEvent, put = __cordl_internal_set_valueDidChangeEvent))::System::Action_1<float_t>* valueDidChangeEvent;
 
-  /// @brief Method AutoSetHeight, addr 0x264cd24, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method AutoSetHeight, addr 0x2660b68, size 0x13c, virtual false, abstract: false, final false
   inline void AutoSetHeight();
 
-  /// @brief Method Awake, addr 0x264cbb0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26609f4, size 0xc4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x264cc74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2660ab8, size 0x8, virtual false, abstract: false, final false
   inline void Init(float_t playerHeight);
 
   static inline ::GlobalNamespace::PlayerHeightSettingsController* New_ctor();
 
-  /// @brief Method RefreshUI, addr 0x264cc7c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x2660ac0, size 0xa8, virtual false, abstract: false, final false
   inline void RefreshUI();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
@@ -117,16 +117,16 @@ public:
 
   constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x264ce60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2660ca4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueDidChangeEvent, addr 0x264ca48, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x266088c, size 0xb0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_value, addr 0x264cba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x26609ec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method remove_valueDidChangeEvent, addr 0x264caf8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x266093c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
 protected:

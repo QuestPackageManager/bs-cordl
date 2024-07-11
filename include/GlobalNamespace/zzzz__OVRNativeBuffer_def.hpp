@@ -39,30 +39,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2b12070, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2b25a84, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2b12044, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2b25a58, size 0x24, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x2b11f9c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2b259b0, size 0xa8, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetCapacity, addr 0x2b12068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCapacity, addr 0x2b25a7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetCapacity();
 
-  /// @brief Method GetPointer, addr 0x2b0d62c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetPointer, addr 0x2b21040, size 0x9c, virtual false, abstract: false, final false
   inline ::System::IntPtr GetPointer(int32_t byteOffset);
 
   static inline ::GlobalNamespace::OVRNativeBuffer* New_ctor(int32_t numBytes);
 
-  /// @brief Method Reallocate, addr 0x2b11efc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Reallocate, addr 0x2b25910, size 0xa0, virtual false, abstract: false, final false
   inline void Reallocate(int32_t numBytes);
 
-  /// @brief Method Release, addr 0x2b120e0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2b25af4, size 0xa4, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method Reset, addr 0x2b0d628, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2b2103c, size 0x4, virtual false, abstract: false, final false
   inline void Reset(int32_t numBytes);
 
   constexpr bool const& __cordl_internal_get_disposed() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x2b0da84, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b21498, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(int32_t numBytes);
 
   /// @brief Convert to "::System::IDisposable"

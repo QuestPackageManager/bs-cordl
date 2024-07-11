@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::CADObjRef::*)(::System::Runtime::Remoting::ObjRef*, int32_t)>(
     &::System::Runtime::Remoting::Messaging::CADObjRef::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2842438;
+  constexpr static std::size_t addrs = 0x2854e4c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

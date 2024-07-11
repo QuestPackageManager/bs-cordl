@@ -25,7 +25,7 @@ public:
   /// @brief Field _floorLightTilePrefab, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__floorLightTilePrefab, put = __cordl_internal_set__floorLightTilePrefab))::UnityW<::Ice::FloorLightTile> _floorLightTilePrefab;
 
-  /// @brief Method InstallBindings, addr 0x1063320, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x1069ed0, size 0x84, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Ice::FloorLightTileInstaller* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__floorLightTilePrefab(::UnityW<::Ice::FloorLightTile> value);
 
-  /// @brief Method .ctor, addr 0x10633a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1069f54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

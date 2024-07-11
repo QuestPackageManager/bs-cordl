@@ -30,15 +30,15 @@ public:
   // Declarations
   __declspec(property(get = get_BoundingCollider))::UnityW<::UnityEngine::Collider> BoundingCollider;
 
-  /// @brief Method GetAllIntersectingObjects, addr 0x2545af0, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method GetAllIntersectingObjects, addr 0x255ada4, size 0x2b4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* GetAllIntersectingObjects();
 
   static inline ::GlobalNamespace::HEU_BoundingVolume* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2545da4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255b058, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BoundingCollider, addr 0x2545aa8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_BoundingCollider, addr 0x255ad5c, size 0x48, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_BoundingCollider();
 
 protected:

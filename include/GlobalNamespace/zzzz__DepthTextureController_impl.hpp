@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DepthTextureController::*)()>(&::GlobalNamespace::DepthTextureController::Start)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x26af6dc;
+  constexpr static std::size_t addrs = 0x26c5424;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DepthTextureController*>::get(), "Start",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DepthTextureController::*)()>(&::GlobalNamespace::DepthTextureController::OnPreRender)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26af7d8;
+  constexpr static std::size_t addrs = 0x26c5520;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DepthTextureController*>::get(), "OnPreRender",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DepthTextureController::*)(::StringW, bool)>(
     &::GlobalNamespace::DepthTextureController::SetShaderKeyword)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x26af848;
+  constexpr static std::size_t addrs = 0x26c5590;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DepthTextureController::*)()>(&::GlobalNamespace::DepthTextureController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26af85c;
+  constexpr static std::size_t addrs = 0x26c55a4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DepthTextureController*>::get(), ".ctor",

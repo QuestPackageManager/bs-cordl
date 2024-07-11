@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_Elements(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x2831d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x284472c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,40 +118,40 @@ public:
   /// @brief Field _xmlTypes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__xmlTypes, put = setStaticF__xmlTypes))::System::Collections::Hashtable* _xmlTypes;
 
-  /// @brief Method CodeXmlNamespaceForClrTypeNamespace, addr 0x2830da0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method CodeXmlNamespaceForClrTypeNamespace, addr 0x28437b4, size 0x198, virtual false, abstract: false, final false
   static inline ::StringW CodeXmlNamespaceForClrTypeNamespace(::StringW typeNamespace, ::StringW assemblyName);
 
-  /// @brief Method EncodeNs, addr 0x2830f38, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method EncodeNs, addr 0x284394c, size 0xe4, virtual false, abstract: false, final false
   static inline ::StringW EncodeNs(::StringW ns);
 
-  /// @brief Method GetAssemblyName, addr 0x2831084, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetAssemblyName, addr 0x2843a98, size 0x134, virtual false, abstract: false, final false
   static inline ::StringW GetAssemblyName(::System::Reflection::MethodBase* mb);
 
-  /// @brief Method GetNameKey, addr 0x283101c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetNameKey, addr 0x2843a30, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW GetNameKey(::StringW name, ::StringW namspace);
 
-  /// @brief Method GetXmlElementForInteropType, addr 0x28311b8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetXmlElementForInteropType, addr 0x2843bcc, size 0xd0, virtual false, abstract: false, final false
   static inline bool GetXmlElementForInteropType(::System::Type* type, ByRef<::StringW> xmlElement, ByRef<::StringW> xmlNamespace);
 
-  /// @brief Method GetXmlNamespaceForMethodCall, addr 0x2831288, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetXmlNamespaceForMethodCall, addr 0x2843c9c, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW GetXmlNamespaceForMethodCall(::System::Reflection::MethodBase* mb);
 
-  /// @brief Method GetXmlNamespaceForMethodResponse, addr 0x283131c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetXmlNamespaceForMethodResponse, addr 0x2843d30, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW GetXmlNamespaceForMethodResponse(::System::Reflection::MethodBase* mb);
 
-  /// @brief Method GetXmlTypeForInteropType, addr 0x28313b0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetXmlTypeForInteropType, addr 0x2843dc4, size 0xc8, virtual false, abstract: false, final false
   static inline bool GetXmlTypeForInteropType(::System::Type* type, ByRef<::StringW> xmlType, ByRef<::StringW> xmlTypeNamespace);
 
-  /// @brief Method PreLoad, addr 0x2831478, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method PreLoad, addr 0x2843e8c, size 0xbc, virtual false, abstract: false, final false
   static inline void PreLoad(::System::Reflection::Assembly* assembly);
 
-  /// @brief Method PreLoad, addr 0x2831534, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method PreLoad, addr 0x2843f48, size 0x4c4, virtual false, abstract: false, final false
   static inline void PreLoad(::System::Type* type);
 
-  /// @brief Method RegisterInteropXmlElement, addr 0x2831b88, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method RegisterInteropXmlElement, addr 0x284459c, size 0x190, virtual false, abstract: false, final false
   static inline void RegisterInteropXmlElement(::StringW xmlElement, ::StringW xmlNamespace, ::System::Type* type);
 
-  /// @brief Method RegisterInteropXmlType, addr 0x28319f8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method RegisterInteropXmlType, addr 0x284440c, size 0x190, virtual false, abstract: false, final false
   static inline void RegisterInteropXmlType(::StringW xmlType, ::StringW xmlTypeNamespace, ::System::Type* type);
 
   static inline ::System::Collections::Hashtable* getStaticF__soapActions();
@@ -164,13 +164,13 @@ public:
 
   static inline ::System::Collections::Hashtable* getStaticF__xmlTypes();
 
-  /// @brief Method get_XmlNsForClrTypeWithAssembly, addr 0x2830ce0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_XmlNsForClrTypeWithAssembly, addr 0x28436f4, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_XmlNsForClrTypeWithAssembly();
 
-  /// @brief Method get_XmlNsForClrTypeWithNs, addr 0x2830d20, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_XmlNsForClrTypeWithNs, addr 0x2843734, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_XmlNsForClrTypeWithNs();
 
-  /// @brief Method get_XmlNsForClrTypeWithNsAndAssembly, addr 0x2830d60, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_XmlNsForClrTypeWithNsAndAssembly, addr 0x2843774, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_XmlNsForClrTypeWithNsAndAssembly();
 
   static inline void setStaticF__soapActions(::System::Collections::Hashtable* value);

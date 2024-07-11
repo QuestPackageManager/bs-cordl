@@ -108,7 +108,7 @@ public:
   template <typename TDevice>
   static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source);
 
-  /// @brief Method ForDevice, addr 0x31aa2b0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ForDevice, addr 0x31bb134, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source,
                                                                                                         ::UnityEngine::InputSystem::InputDevice* device);
 

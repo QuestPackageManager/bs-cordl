@@ -140,15 +140,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept;
 
-  /// @brief Method Init, addr 0x13b7ce4, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x13c0fdc, size 0xc4, virtual true, abstract: false, final true
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Security::__WrapperUtilities__BufferedCipherWrapper* New_ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* cipher);
 
-  /// @brief Method Unwrap, addr 0x13b7ec0, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method Unwrap, addr 0x13c11b8, size 0x118, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Wrap, addr 0x13b7da8, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method Wrap, addr 0x13c10a0, size 0x118, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
   constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __cordl_internal_get_cipher();
@@ -163,10 +163,10 @@ public:
 
   constexpr void __cordl_internal_set_forWrapping(bool value);
 
-  /// @brief Method .ctor, addr 0x13b7b14, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13c0e0c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* cipher);
 
-  /// @brief Method get_AlgorithmName, addr 0x13b7c44, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x13c0f3c, size 0xa0, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"
@@ -217,18 +217,18 @@ public:
   /// @brief Field algorithms, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms))::System::Collections::IDictionary* algorithms;
 
-  /// @brief Method GetAlgorithmName, addr 0x13b7b3c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmName, addr 0x13c0e34, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetWrapper, addr 0x13b755c, size 0x5b8, virtual false, abstract: false, final false
+  /// @brief Method GetWrapper, addr 0x13c0854, size 0x5b8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IWrapper* GetWrapper(::StringW algorithm);
 
-  /// @brief Method GetWrapper, addr 0x13b74fc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetWrapper, addr 0x13c07f4, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IWrapper* GetWrapper(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   static inline ::Org::BouncyCastle::Security::WrapperUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13b6d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13c0034, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithms();

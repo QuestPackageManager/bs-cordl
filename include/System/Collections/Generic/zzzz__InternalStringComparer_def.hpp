@@ -22,18 +22,18 @@ namespace System::Collections::Generic {
 class CORDL_TYPE InternalStringComparer : public ::System::Collections::Generic::EqualityComparer_1<::StringW> {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x292ccbc, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x29406d0, size 0x30, virtual true, abstract: false, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x292cc9c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x29406b0, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW obj);
 
-  /// @brief Method IndexOf, addr 0x292ccec, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x2940700, size 0x6c, virtual true, abstract: false, final false
   inline int32_t IndexOf(::ArrayW<::StringW, ::Array<::StringW>*> array, ::StringW value, int32_t startIndex, int32_t count);
 
   static inline ::System::Collections::Generic::InternalStringComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x292cd58, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x294076c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

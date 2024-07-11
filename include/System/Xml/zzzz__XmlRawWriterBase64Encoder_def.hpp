@@ -29,7 +29,7 @@ public:
 
   static inline ::System::Xml::XmlRawWriterBase64Encoder* New_ctor(::System::Xml::XmlRawWriter* rawWriter);
 
-  /// @brief Method WriteChars, addr 0x2da74d4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteChars, addr 0x2db9ee8, size 0x24, virtual true, abstract: false, final false
   inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count);
 
   constexpr ::System::Xml::XmlRawWriter*& __cordl_internal_get_rawWriter();
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set_rawWriter(::System::Xml::XmlRawWriter* value);
 
-  /// @brief Method .ctor, addr 0x2da74b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2db9ec4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlRawWriter* rawWriter);
 
 protected:

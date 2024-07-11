@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::__CancellationTokenSource__Linked2CancellationTokenSource::*)(
     ::System::Threading::CancellationToken, ::System::Threading::CancellationToken)>(&::System::Threading::__CancellationTokenSource__Linked2CancellationTokenSource::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x29b67a8;
+  constexpr static std::size_t addrs = 0x29cc1bc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::__CancellationTokenSource__Linked2CancellationTokenSource::*)(bool)>(
     &::System::Threading::__CancellationTokenSource__Linked2CancellationTokenSource::Dispose)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29b6b18;
+  constexpr static std::size_t addrs = 0x29cc52c;
 
   inline static const ::MethodInfo* methodInfo() {
 

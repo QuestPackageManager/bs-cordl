@@ -105,15 +105,15 @@ public:
   __declspec(property(get = __cordl_internal_get__OriginalInnerStream_k__BackingField,
                       put = __cordl_internal_set__OriginalInnerStream_k__BackingField))::System::IO::Stream* _OriginalInnerStream_k__BackingField;
 
-  /// @brief Method Create, addr 0x300fb68, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x301f57c, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Net::ContentDecodeStream* Create(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::__ContentDecodeStream__Mode mode);
 
-  /// @brief Method FinishReading, addr 0x300fca8, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method FinishReading, addr 0x301f6bc, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FinishReading(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::System::Net::ContentDecodeStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* decodeStream, ::System::IO::Stream* originalInnerStream);
 
-  /// @brief Method ProcessReadAsync, addr 0x300fc84, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ProcessReadAsync, addr 0x301f698, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
@@ -123,10 +123,10 @@ public:
 
   constexpr void __cordl_internal_set__OriginalInnerStream_k__BackingField(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x300fc54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x301f668, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* decodeStream, ::System::IO::Stream* originalInnerStream);
 
-  /// @brief Method get_OriginalInnerStream, addr 0x300fc7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OriginalInnerStream, addr 0x301f690, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_OriginalInnerStream();
 
 protected:

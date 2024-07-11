@@ -74,55 +74,55 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Equals, addr 0x2881fa8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x28969bc, size 0x8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method FilterTypeNameIgnoreCaseImpl, addr 0x2882124, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method FilterTypeNameIgnoreCaseImpl, addr 0x2896b38, size 0x164, virtual false, abstract: false, final false
   static inline bool FilterTypeNameIgnoreCaseImpl(::System::Type* cls, ::System::Object* filterCriteria);
 
-  /// @brief Method FilterTypeNameImpl, addr 0x2881ff0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method FilterTypeNameImpl, addr 0x2896a04, size 0x134, virtual false, abstract: false, final false
   static inline bool FilterTypeNameImpl(::System::Type* cls, ::System::Object* filterCriteria);
 
-  /// @brief Method GetCustomAttributes, addr 0x2881f58, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x289696c, size 0x28, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x2881f30, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x2896944, size 0x28, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetHashCode, addr 0x2881fb0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x28969c4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetModuleVersionId, addr 0x2882288, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetModuleVersionId, addr 0x2896c9c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Guid GetModuleVersionId();
 
-  /// @brief Method GetObjectData, addr 0x2881f80, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2896994, size 0x28, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method IsDefined, addr 0x2881f08, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x289691c, size 0x28, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method IsResource, addr 0x2881ee0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method IsResource, addr 0x28968f4, size 0x28, virtual true, abstract: false, final false
   inline bool IsResource();
 
   static inline ::System::Reflection::Module* New_ctor();
 
-  /// @brief Method ToString, addr 0x2881fe4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x28969f8, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2881e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2896874, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Reflection::TypeFilter* getStaticF_FilterTypeName();
 
   static inline ::System::Reflection::TypeFilter* getStaticF_FilterTypeNameIgnoreCase();
 
-  /// @brief Method get_Assembly, addr 0x2881e68, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Assembly, addr 0x289687c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Reflection::Assembly* get_Assembly();
 
-  /// @brief Method get_ModuleVersionId, addr 0x2881e90, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_ModuleVersionId, addr 0x28968a4, size 0x28, virtual true, abstract: false, final false
   inline ::System::Guid get_ModuleVersionId();
 
-  /// @brief Method get_ScopeName, addr 0x2881eb8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_ScopeName, addr 0x28968cc, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_ScopeName();
 
   /// @brief Convert to "::System::Reflection::ICustomAttributeProvider"
@@ -134,7 +134,7 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method op_Equality, addr 0x2881fb8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x28969cc, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::Module* left, ::System::Reflection::Module* right);
 
   static inline void setStaticF_FilterTypeName(::System::Reflection::TypeFilter* value);

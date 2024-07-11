@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextWriterBase64Encoder::*)(::System::Xml::XmlTextEncoder*)>(
     &::System::Xml::XmlTextWriterBase64Encoder::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2da74f8;
+  constexpr static std::size_t addrs = 0x2db9f0c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlTextWriterBase64Encoder::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlTextWriterBase64Encoder::WriteChars)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2da751c;
+  constexpr static std::size_t addrs = 0x2db9f30;
 
   inline static const ::MethodInfo* methodInfo() {
 

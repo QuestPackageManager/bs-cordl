@@ -31,16 +31,16 @@ public:
 
   static inline ::UnityEngine::Timeline::RuntimeClipBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33c60d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d4f54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_duration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline double_t get_duration();
 
-  /// @brief Method get_intervalEnd, addr 0x33c6720, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_intervalEnd, addr 0x33d55a4, size 0x84, virtual true, abstract: false, final false
   inline int64_t get_intervalEnd();
 
-  /// @brief Method get_intervalStart, addr 0x33c66b0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_intervalStart, addr 0x33d5534, size 0x70, virtual true, abstract: false, final false
   inline int64_t get_intervalStart();
 
   /// @brief Method get_start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

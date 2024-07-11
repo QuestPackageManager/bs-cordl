@@ -56,16 +56,16 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPreviewMediaData"
   constexpr operator ::GlobalNamespace::IPreviewMediaData*() noexcept;
 
-  /// @brief Method GetCoverSpriteAsync, addr 0x14c7d40, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method GetCoverSpriteAsync, addr 0x14d28f0, size 0x28, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverSpriteAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetPreviewAudioClip, addr 0x14c7d68, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetPreviewAudioClip, addr 0x14d2918, size 0x24, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* GetPreviewAudioClip(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::FileSystemPreviewMediaData* New_ctor(::GlobalNamespace::SpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
                                                                         ::StringW rootPath, ::StringW coverSpritePath, ::StringW previewAudioClipPath);
 
-  /// @brief Method UnloadPreviewAudioClip, addr 0x14c7d8c, size 0x1024, virtual true, abstract: false, final true
+  /// @brief Method UnloadPreviewAudioClip, addr 0x14d293c, size 0x24, virtual true, abstract: false, final true
   inline void UnloadPreviewAudioClip();
 
   constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get__audioClipAsyncLoader();
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__spriteAsyncLoader(::GlobalNamespace::SpriteAsyncLoader* value);
 
-  /// @brief Method .ctor, addr 0x14c7b78, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14d2728, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::SpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::StringW rootPath, ::StringW coverSpritePath,
                     ::StringW previewAudioClipPath);
 

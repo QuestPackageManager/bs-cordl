@@ -19,7 +19,7 @@ namespace Unity::Burst::CompilerServices {
 class CORDL_TYPE Constant : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsConstantExpression, addr 0x30c2b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsConstantExpression, addr 0x30d49cc, size 0x8, virtual false, abstract: false, final false
   static inline bool IsConstantExpression(::cordl_internals::Ptr<void> t);
 
   /// @brief Method IsConstantExpression, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

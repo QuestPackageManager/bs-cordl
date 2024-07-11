@@ -49,10 +49,10 @@ public:
 
   static inline ::GlobalNamespace::MoveBackWall* New_ctor();
 
-  /// @brief Method Start, addr 0x273813c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x274e8e0, size 0x54, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2738190, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x274e934, size 0xbc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__fadeInRegion() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__thisZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x273824c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x274e9f0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

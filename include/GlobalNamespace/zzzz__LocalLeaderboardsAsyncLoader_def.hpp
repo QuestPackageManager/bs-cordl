@@ -28,18 +28,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE LocalLeaderboardsAsyncLoader : public ::BGLib::AppFlow::Initialization::AsyncInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x261777c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x262ba5c, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x26176c4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x262b9a4, size 0x5c, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
-  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x2617720, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x262ba00, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::LocalLeaderboardsAsyncLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2617780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262ba60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

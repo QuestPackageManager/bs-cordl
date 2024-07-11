@@ -139,24 +139,24 @@ public:
 
   __declspec(property(get = get_selectedCellNumber)) int32_t selectedCellNumber;
 
-  /// @brief Method CreateCells, addr 0x251b9cc, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method CreateCells, addr 0x252fc80, size 0x4cc, virtual false, abstract: false, final false
   inline void CreateCells();
 
   /// @brief Method GetReusableCell, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetReusableCell(::UnityEngine::Object* prefab);
 
-  /// @brief Method HandleCellSelectionDidChange, addr 0x251bea4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method HandleCellSelectionDidChange, addr 0x2530158, size 0x150, virtual false, abstract: false, final false
   inline void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType, ::System::Object* changeOwner);
 
   static inline ::HMUI::SegmentedControl* New_ctor();
 
-  /// @brief Method ReloadData, addr 0x251ae94, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method ReloadData, addr 0x252f148, size 0x4e4, virtual false, abstract: false, final false
   inline void ReloadData();
 
-  /// @brief Method SelectCellWithNumber, addr 0x251c05c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithNumber, addr 0x2530310, size 0xa8, virtual false, abstract: false, final false
   inline void SelectCellWithNumber(int32_t selectCellNumber);
 
-  /// @brief Method SetCallbackForCell, addr 0x251bff4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetCallbackForCell, addr 0x25302a8, size 0x68, virtual false, abstract: false, final false
   inline void SetCallbackForCell(int32_t cellNumber, ::System::Action_1<int32_t>* callback);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action_1<int32_t>*>*& __cordl_internal_get__callbacks();
@@ -230,25 +230,25 @@ public:
 
   constexpr void __cordl_internal_set_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x251b648, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252f8fc, size 0x194, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectCellEvent, addr 0x251b854, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectCellEvent, addr 0x252fb08, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
-  /// @brief Method get_cells, addr 0x251b9c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cells, addr 0x252fc78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::HMUI::SegmentedControlCell>>* get_cells();
 
-  /// @brief Method get_dataSource, addr 0x251b9b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataSource, addr 0x252fc68, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::__SegmentedControl__IDataSource* get_dataSource();
 
-  /// @brief Method get_selectedCellNumber, addr 0x251b9bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedCellNumber, addr 0x252fc70, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_selectedCellNumber();
 
-  /// @brief Method remove_didSelectCellEvent, addr 0x251b904, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectCellEvent, addr 0x252fbb8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
-  /// @brief Method set_dataSource, addr 0x251ae4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dataSource, addr 0x252f100, size 0x8, virtual false, abstract: false, final false
   inline void set_dataSource(::HMUI::__SegmentedControl__IDataSource* value);
 
 protected:

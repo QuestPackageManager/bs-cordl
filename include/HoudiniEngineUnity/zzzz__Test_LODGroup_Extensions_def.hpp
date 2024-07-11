@@ -50,13 +50,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_LODGroup_Extensions____c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x25e05e0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x25f4894, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_LODGroup* _ToTestObject_b__1_0(::UnityEngine::LODGroup* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x25e0644, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x25f48f8, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_LODGroup* _ToTestObject_b__2_0(::UnityEngine::LODGroup* lod);
 
-  /// @brief Method .ctor, addr 0x25e05d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f488c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_LODGroup_Extensions____c* getStaticF___9();
@@ -101,14 +101,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_LODGroup_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x25e0380, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x25f4634, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_LODGroup*, ::Array<::HoudiniEngineUnity::Test_LODGroup*>*>
   ToTestObject(::ArrayW<::UnityEngine::LODGroup*, ::Array<::UnityEngine::LODGroup*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x25de0a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x25f2354, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_LODGroup* ToTestObject(::UnityEngine::LODGroup* self);
 
-  /// @brief Method ToTestObject, addr 0x25e0478, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x25f472c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_LODGroup*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::LODGroup>>* self);
 
 protected:

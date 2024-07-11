@@ -44,7 +44,7 @@ public:
   /// @brief Field mTruncateAgreement, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_mTruncateAgreement, put = __cordl_internal_set_mTruncateAgreement)) bool mTruncateAgreement;
 
-  /// @brief Method GenerateAgreement, addr 0x11c7074, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method GenerateAgreement, addr 0x11d336c, size 0x1b0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateAgreement(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* peerPublicKey);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials* New_ctor(::Org::BouncyCastle::Crypto::Tls::Certificate* certificate,
@@ -74,10 +74,10 @@ public:
 
   constexpr void __cordl_internal_set_mTruncateAgreement(bool value);
 
-  /// @brief Method .ctor, addr 0x11c6d98, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11d3090, size 0x2d4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method get_Certificate, addr 0x11c706c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x11d3364, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_Certificate();
 
 protected:

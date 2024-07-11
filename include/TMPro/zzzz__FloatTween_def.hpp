@@ -36,7 +36,7 @@ public:
   // Declarations
   static inline ::TMPro::__FloatTween__FloatTweenCallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3360b6c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336e9f0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,46 +80,46 @@ public:
   /// @brief Convert operator to "::TMPro::ITweenValue"
   constexpr operator ::TMPro::ITweenValue*();
 
-  /// @brief Method AddOnChangedCallback, addr 0x3360ae4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method AddOnChangedCallback, addr 0x336e968, size 0x88, virtual false, abstract: false, final false
   inline void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<float_t>* callback);
 
-  /// @brief Method GetDuration, addr 0x3360bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDuration, addr 0x336ea40, size 0x8, virtual false, abstract: false, final false
   inline float_t GetDuration();
 
-  /// @brief Method GetIgnoreTimescale, addr 0x3360bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIgnoreTimescale, addr 0x336ea38, size 0x8, virtual false, abstract: false, final false
   inline bool GetIgnoreTimescale();
 
-  /// @brief Method TweenValue, addr 0x3360a48, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method TweenValue, addr 0x336e8cc, size 0x8c, virtual true, abstract: false, final true
   inline void TweenValue(float_t floatPercentage);
 
-  /// @brief Method ValidTarget, addr 0x3360ad4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ValidTarget, addr 0x336e958, size 0x10, virtual true, abstract: false, final true
   inline bool ValidTarget();
 
-  /// @brief Method get_duration, addr 0x3360a24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_duration, addr 0x336e8a8, size 0x8, virtual true, abstract: false, final true
   inline float_t get_duration();
 
-  /// @brief Method get_ignoreTimeScale, addr 0x3360a34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ignoreTimeScale, addr 0x336e8b8, size 0x8, virtual true, abstract: false, final true
   inline bool get_ignoreTimeScale();
 
-  /// @brief Method get_startValue, addr 0x3360a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startValue, addr 0x336e888, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startValue();
 
-  /// @brief Method get_targetValue, addr 0x3360a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetValue, addr 0x336e898, size 0x8, virtual false, abstract: false, final false
   inline float_t get_targetValue();
 
   /// @brief Convert to "::TMPro::ITweenValue"
   constexpr ::TMPro::ITweenValue* i___TMPro__ITweenValue();
 
-  /// @brief Method set_duration, addr 0x3360a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x336e8b0, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_ignoreTimeScale, addr 0x3360a3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreTimeScale, addr 0x336e8c0, size 0xc, virtual false, abstract: false, final false
   inline void set_ignoreTimeScale(bool value);
 
-  /// @brief Method set_startValue, addr 0x3360a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startValue, addr 0x336e890, size 0x8, virtual false, abstract: false, final false
   inline void set_startValue(float_t value);
 
-  /// @brief Method set_targetValue, addr 0x3360a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_targetValue, addr 0x336e8a0, size 0x8, virtual false, abstract: false, final false
   inline void set_targetValue(float_t value);
 
   // Ctor Parameters []

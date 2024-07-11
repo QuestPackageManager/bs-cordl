@@ -26,12 +26,12 @@ namespace UnityEngine {
 class CORDL_TYPE AndroidJavaRunnable : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x33e1054, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x33f0ed8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::AndroidJavaRunnable* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x33e0f98, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f0e1c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

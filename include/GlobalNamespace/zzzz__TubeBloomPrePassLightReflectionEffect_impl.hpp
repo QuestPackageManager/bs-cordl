@@ -19,8 +19,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TubeBloomPrePassLightReflectionEffect__TubeBloomPrePassLightWithHitPoint::*)(
     bool, ::UnityEngine::RaycastHit)>(&::GlobalNamespace::__TubeBloomPrePassLightReflectionEffect__TubeBloomPrePassLightWithHitPoint::SetCollisionLength)> {
-  constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x26e8d80;
+  constexpr static std::size_t size = 0x27c;
+  constexpr static std::size_t addrs = 0x26fe298;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TubeBloomPrePassLightReflectionEffect__TubeBloomPrePassLightWithHitPoint::*)(
     bool, ::UnityEngine::Color)>(&::GlobalNamespace::__TubeBloomPrePassLightReflectionEffect__TubeBloomPrePassLightWithHitPoint::SetActive)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x26e8bb8;
+  constexpr static std::size_t addrs = 0x26fe0d0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TubeBloomPrePassLightReflectionEffect__TubeBloomPrePassLightWithHitPoint::*)(
     float_t, float_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::__TubeBloomPrePassLightReflectionEffect__TubeBloomPrePassLightWithHitPoint::SetData)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x26e8c6c;
+  constexpr static std::size_t addrs = 0x26fe184;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TubeBloomPrePassLightReflectionEffect__TubeBloomPrePassLightWithHitPoint::*)()>(
     &::GlobalNamespace::__TubeBloomPrePassLightReflectionEffect__TubeBloomPrePassLightWithHitPoint::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x26e9024;
+  constexpr static std::size_t addrs = 0x26fe51c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightReflectionEffect::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLightReflectionEffect::Awake)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x26e879c;
+  constexpr static std::size_t addrs = 0x26fdcc8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLightReflectionEffect*>::get(),
@@ -224,8 +224,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightReflectionEffect::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLightReflectionEffect::LateUpdate)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x26e881c;
+  constexpr static std::size_t size = 0x1c4;
+  constexpr static std::size_t addrs = 0x26fdd48;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLightReflectionEffect*>::get(),
@@ -240,7 +240,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__TubeBloomPrePassLightReflectionEffect__TubeBloomPrePassLightWithHitPoint*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ByRef<::UnityEngine::Vector3>,
     ByRef<::UnityEngine::Vector3>, ByRef<float_t>, ByRef<float_t>)>(&::GlobalNamespace::TubeBloomPrePassLightReflectionEffect::RaycastAndSetLightLength)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x26e89f4;
+  constexpr static std::size_t addrs = 0x26fdf0c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightReflectionEffect::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLightReflectionEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e901c;
+  constexpr static std::size_t addrs = 0x26fe514;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLightReflectionEffect*>::get(),

@@ -26,13 +26,13 @@ namespace UnityEngine {
 class CORDL_TYPE PhysicsSceneExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPhysicsScene, addr 0x349765c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsScene, addr 0x34aa4e0, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::PhysicsScene GetPhysicsScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method GetPhysicsScene_Internal, addr 0x3497764, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsScene_Internal, addr 0x34aa5e8, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::PhysicsScene GetPhysicsScene_Internal(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method GetPhysicsScene_Internal_Injected, addr 0x34977b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsScene_Internal_Injected, addr 0x34aa634, size 0x44, virtual false, abstract: false, final false
   static inline void GetPhysicsScene_Internal_Injected(ByRef<::UnityEngine::SceneManagement::Scene> scene, ByRef<::UnityEngine::PhysicsScene> ret);
 
 protected:

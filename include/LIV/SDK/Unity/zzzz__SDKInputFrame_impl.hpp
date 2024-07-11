@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKInputFrame (*)()>(&::LIV::SDK::Unity::SDKInputFrame::get_empty)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x260c16c;
+  constexpr static std::size_t addrs = 0x2620420;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKInputFrame>::get(), "get_empty",
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKInputFrame::*)()>(&::LIV::SDK::Unity::SDKInputFrame::ReleaseControl)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2610698;
+  constexpr static std::size_t addrs = 0x262494c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKInputFrame>::get(), "ReleaseControl",
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKInputFrame::*)()>(&::LIV::SDK::Unity::SDKInputFrame::ObtainControl)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x26106a8;
+  constexpr static std::size_t addrs = 0x262495c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKInputFrame>::get(), "ObtainControl",
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LIV::SDK::Unity::SDKInputFrame::*)()>(&::LIV::SDK::Unity::SDKInputFrame::ToString)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x26120bc;
+  constexpr static std::size_t addrs = 0x2626370;
 
   inline static const ::MethodInfo* methodInfo() {
 

@@ -44,28 +44,28 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IListDragAndDropArgs"
   constexpr operator ::UnityEngine::UIElements::IListDragAndDropArgs*();
 
-  /// @brief Method get_dragAndDropData, addr 0x3588d0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_dragAndDropData, addr 0x359fb90, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IDragAndDropData* get_dragAndDropData();
 
-  /// @brief Method get_dragAndDropPosition, addr 0x3588cfc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_dragAndDropPosition, addr 0x359fb80, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::DragAndDropPosition get_dragAndDropPosition();
 
-  /// @brief Method get_insertAtIndex, addr 0x3588cec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_insertAtIndex, addr 0x359fb70, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_insertAtIndex();
 
   /// @brief Convert to "::UnityEngine::UIElements::IListDragAndDropArgs"
   constexpr ::UnityEngine::UIElements::IListDragAndDropArgs* i___UnityEngine__UIElements__IListDragAndDropArgs();
 
-  /// @brief Method set_dragAndDropData, addr 0x3588d14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dragAndDropData, addr 0x359fb98, size 0x8, virtual false, abstract: false, final false
   inline void set_dragAndDropData(::UnityEngine::UIElements::IDragAndDropData* value);
 
-  /// @brief Method set_dragAndDropPosition, addr 0x3588d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dragAndDropPosition, addr 0x359fb88, size 0x8, virtual false, abstract: false, final false
   inline void set_dragAndDropPosition(::UnityEngine::UIElements::DragAndDropPosition value);
 
-  /// @brief Method set_insertAtIndex, addr 0x3588cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_insertAtIndex, addr 0x359fb78, size 0x8, virtual false, abstract: false, final false
   inline void set_insertAtIndex(int32_t value);
 
-  /// @brief Method set_target, addr 0x3588ce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_target, addr 0x359fb68, size 0x8, virtual false, abstract: false, final false
   inline void set_target(::System::Object* value);
 
   // Ctor Parameters []

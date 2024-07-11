@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::BeatmapSaveDataVersion4::IndexFilter, int32_t)>(
     &::BeatmapDataLoaderVersion4::IndexFilterConverter::IsIndexFilterValid)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x14fe9cc;
+  constexpr static std::size_t addrs = 0x1509a4c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IndexFilter* (*)(::BeatmapSaveDataVersion4::IndexFilter, int32_t)>(
     &::BeatmapDataLoaderVersion4::IndexFilterConverter::Convert)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x14fda74;
+  constexpr static std::size_t addrs = 0x1508af4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

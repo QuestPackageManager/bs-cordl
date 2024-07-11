@@ -46,21 +46,21 @@ public:
   /// @brief Field _pressedClip, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__pressedClip, put = __cordl_internal_set__pressedClip))::UnityW<::UnityEngine::AnimationClip> _pressedClip;
 
-  /// @brief Method Awake, addr 0x252b638, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x25408ec, size 0x88, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x252b6e4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x2540998, size 0xf8, virtual false, abstract: false, final false
   inline void HandleButtonSelectionStateDidChange(::HMUI::__NoTransitionsButton__SelectionState state);
 
   static inline ::HMUI::ButtonStaticAnimations* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x252b7f8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2540aac, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x252b7dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2540a90, size 0x1c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x252b6c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2540974, size 0x24, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::HMUI::NoTransitionsButton> const& __cordl_internal_get__button() const;
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__pressedClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  /// @brief Method .ctor, addr 0x252b8c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2540b7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

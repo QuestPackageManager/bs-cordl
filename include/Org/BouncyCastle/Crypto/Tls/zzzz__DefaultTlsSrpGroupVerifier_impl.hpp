@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x11ca550;
+  constexpr static std::size_t addrs = 0x11d6848;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::*)(::System::Collections::IList*)>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x11ca5bc;
+  constexpr static std::size_t addrs = 0x11d68b4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::*)(
     ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::Accept)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x11ca5e4;
+  constexpr static std::size_t addrs = 0x11d68dc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*, ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*)>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::AreGroupsEqual)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x11ca93c;
+  constexpr static std::size_t addrs = 0x11d6c34;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::AreParametersEqual)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x11ca9b4;
+  constexpr static std::size_t addrs = 0x11d6cac;
 
   inline static const ::MethodInfo* methodInfo() {
 

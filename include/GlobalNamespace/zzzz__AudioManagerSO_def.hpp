@@ -58,7 +58,7 @@ public:
 
   __declspec(property(get = get_sfxVolume, put = set_sfxVolume)) float_t sfxVolume;
 
-  /// @brief Method Init, addr 0x26182d0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x262c5b0, size 0xa8, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::AudioManagerSO* New_ctor();
@@ -105,34 +105,34 @@ public:
 
   constexpr void __cordl_internal_set__spatializerSfxVolumeOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x261d738, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2631a18, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sfxEnabled, addr 0x261d5ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sfxEnabled, addr 0x263188c, size 0x8, virtual false, abstract: false, final false
   inline bool get_sfxEnabled();
 
-  /// @brief Method get_sfxLatency, addr 0x261d468, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_sfxLatency, addr 0x2631748, size 0x60, virtual false, abstract: false, final false
   inline float_t get_sfxLatency();
 
-  /// @brief Method get_sfxVolume, addr 0x261d594, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_sfxVolume, addr 0x2631874, size 0x18, virtual false, abstract: false, final false
   inline float_t get_sfxVolume();
 
-  /// @brief Method set_mainVolume, addr 0x261d4c8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_mainVolume, addr 0x26317a8, size 0x64, virtual false, abstract: false, final false
   inline void set_mainVolume(float_t value);
 
-  /// @brief Method set_musicPitch, addr 0x261d5d4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_musicPitch, addr 0x26318b4, size 0x100, virtual false, abstract: false, final false
   inline void set_musicPitch(float_t value);
 
-  /// @brief Method set_musicSpeed, addr 0x261d6d4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_musicSpeed, addr 0x26319b4, size 0x64, virtual false, abstract: false, final false
   inline void set_musicSpeed(float_t value);
 
-  /// @brief Method set_musicVolume, addr 0x261d52c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_musicVolume, addr 0x263180c, size 0x68, virtual false, abstract: false, final false
   inline void set_musicVolume(float_t value);
 
-  /// @brief Method set_sfxEnabled, addr 0x261d5b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_sfxEnabled, addr 0x2631894, size 0x20, virtual false, abstract: false, final false
   inline void set_sfxEnabled(bool value);
 
-  /// @brief Method set_sfxVolume, addr 0x261ca58, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_sfxVolume, addr 0x2630d38, size 0x84, virtual false, abstract: false, final false
   inline void set_sfxVolume(float_t value);
 
 protected:

@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithUserList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2aea6a4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2afe0b8, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserList* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetUserList, addr 0x2aea668, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetUserList, addr 0x2afe07c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserList* GetUserList();
 
   static inline ::Oculus::Platform::MessageWithUserList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ae6268, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af9c7c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

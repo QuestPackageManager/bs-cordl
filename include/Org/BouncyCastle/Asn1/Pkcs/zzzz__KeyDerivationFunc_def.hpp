@@ -32,10 +32,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x11edf30, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f9228, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method .ctor, addr 0x11edf2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f9224, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

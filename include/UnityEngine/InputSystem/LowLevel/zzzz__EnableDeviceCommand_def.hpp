@@ -39,7 +39,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x317a6c0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x318d544, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::EnableDeviceCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
 
-  /// @brief Method get_Type, addr 0x317a660, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x318d4e4, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x317a690, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x318d514, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"

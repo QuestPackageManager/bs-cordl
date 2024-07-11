@@ -46,22 +46,22 @@ public:
 
   constexpr void __cordl_internal_set__ForceFullStates_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x363a190, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3651014, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW contract);
 
-  /// @brief Method .ctor, addr 0x363a1bc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3651040, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW contract, bool forceFullStates);
 
-  /// @brief Method get_Contract, addr 0x363a1f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Contract, addr 0x3651074, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Contract();
 
-  /// @brief Method get_ForceFullStates, addr 0x363a200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ForceFullStates, addr 0x3651084, size 0x8, virtual false, abstract: false, final false
   inline bool get_ForceFullStates();
 
-  /// @brief Method set_Contract, addr 0x363a1f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Contract, addr 0x365107c, size 0x8, virtual false, abstract: false, final false
   inline void set_Contract(::StringW value);
 
-  /// @brief Method set_ForceFullStates, addr 0x363a208, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ForceFullStates, addr 0x365108c, size 0xc, virtual false, abstract: false, final false
   inline void set_ForceFullStates(bool value);
 
 protected:

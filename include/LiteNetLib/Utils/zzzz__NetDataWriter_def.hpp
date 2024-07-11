@@ -44,16 +44,16 @@ public:
   /// @brief Field _position, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position)) int32_t _position;
 
-  /// @brief Method CopyData, addr 0x2607ae8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CopyData, addr 0x261ad9c, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CopyData();
 
-  /// @brief Method FromBytes, addr 0x2607770, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FromBytes, addr 0x261aa24, size 0xa0, virtual false, abstract: false, final false
   static inline ::LiteNetLib::Utils::NetDataWriter* FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, bool copy);
 
-  /// @brief Method FromBytes, addr 0x2607884, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method FromBytes, addr 0x261ab38, size 0x8c, virtual false, abstract: false, final false
   static inline ::LiteNetLib::Utils::NetDataWriter* FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset, int32_t length);
 
-  /// @brief Method FromString, addr 0x25fed68, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method FromString, addr 0x261201c, size 0x70, virtual false, abstract: false, final false
   static inline ::LiteNetLib::Utils::NetDataWriter* FromString(::StringW value);
 
   static inline ::LiteNetLib::Utils::NetDataWriter* New_ctor();
@@ -62,118 +62,118 @@ public:
 
   static inline ::LiteNetLib::Utils::NetDataWriter* New_ctor(bool autoResize, int32_t initialSize);
 
-  /// @brief Method Put, addr 0x2607810, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261aac4, size 0x74, virtual false, abstract: false, final false
   inline void Put(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Put, addr 0x2607910, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261abc4, size 0x6c, virtual false, abstract: false, final false
   inline void Put(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t length);
 
-  /// @brief Method Put, addr 0x26084b8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261b76c, size 0x4c, virtual false, abstract: false, final false
   inline void Put(::System::Net::IPEndPoint* endPoint);
 
   /// @brief Method Put, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Put(T obj);
 
-  /// @brief Method Put, addr 0x260797c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261ac30, size 0xcc, virtual false, abstract: false, final false
   inline void Put(::StringW value);
 
-  /// @brief Method Put, addr 0x26083d0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261b684, size 0xe8, virtual false, abstract: false, final false
   inline void Put(::StringW value, int32_t maxLength);
 
-  /// @brief Method Put, addr 0x2608144, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261b3f8, size 0x6c, virtual false, abstract: false, final false
   inline void Put(bool value);
 
-  /// @brief Method Put, addr 0x2607d4c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261b000, size 0x50, virtual false, abstract: false, final false
   inline void Put(char16_t value);
 
-  /// @brief Method Put, addr 0x2607bbc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261ae70, size 0x50, virtual false, abstract: false, final false
   inline void Put(double_t value);
 
-  /// @brief Method Put, addr 0x2607b6c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261ae20, size 0x50, virtual false, abstract: false, final false
   inline void Put(float_t value);
 
-  /// @brief Method Put, addr 0x2607dec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261b0a0, size 0x50, virtual false, abstract: false, final false
   inline void Put(int16_t value);
 
-  /// @brief Method Put, addr 0x2607cac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261af60, size 0x50, virtual false, abstract: false, final false
   inline void Put(int32_t value);
 
-  /// @brief Method Put, addr 0x2607c0c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261aec0, size 0x50, virtual false, abstract: false, final false
   inline void Put(int64_t value);
 
-  /// @brief Method Put, addr 0x2607e3c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261b0f0, size 0x68, virtual false, abstract: false, final false
   inline void Put(int8_t value);
 
-  /// @brief Method Put, addr 0x2607d9c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261b050, size 0x50, virtual false, abstract: false, final false
   inline void Put(uint16_t value);
 
-  /// @brief Method Put, addr 0x2607cfc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261afb0, size 0x50, virtual false, abstract: false, final false
   inline void Put(uint32_t value);
 
-  /// @brief Method Put, addr 0x2607c5c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261af10, size 0x50, virtual false, abstract: false, final false
   inline void Put(uint64_t value);
 
-  /// @brief Method Put, addr 0x2607ea4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Put, addr 0x261b158, size 0x68, virtual false, abstract: false, final false
   inline void Put(uint8_t value);
 
-  /// @brief Method PutArray, addr 0x26081b0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method PutArray, addr 0x261b464, size 0xac, virtual false, abstract: false, final false
   inline void PutArray(::System::Array* arr, int32_t sz);
 
-  /// @brief Method PutArray, addr 0x26082ac, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method PutArray, addr 0x261b560, size 0x88, virtual false, abstract: false, final false
   inline void PutArray(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method PutArray, addr 0x2608334, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method PutArray, addr 0x261b5e8, size 0x9c, virtual false, abstract: false, final false
   inline void PutArray(::ArrayW<::StringW, ::Array<::StringW>*> value, int32_t maxLength);
 
-  /// @brief Method PutArray, addr 0x26082a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PutArray, addr 0x261b558, size 0x8, virtual false, abstract: false, final false
   inline void PutArray(::ArrayW<bool, ::Array<bool>*> value);
 
-  /// @brief Method PutArray, addr 0x260826c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PutArray, addr 0x261b520, size 0x8, virtual false, abstract: false, final false
   inline void PutArray(::ArrayW<double_t, ::Array<double_t>*> value);
 
-  /// @brief Method PutArray, addr 0x2608264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PutArray, addr 0x261b518, size 0x8, virtual false, abstract: false, final false
   inline void PutArray(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method PutArray, addr 0x260829c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PutArray, addr 0x261b550, size 0x8, virtual false, abstract: false, final false
   inline void PutArray(::ArrayW<int16_t, ::Array<int16_t>*> value);
 
-  /// @brief Method PutArray, addr 0x2608284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PutArray, addr 0x261b538, size 0x8, virtual false, abstract: false, final false
   inline void PutArray(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method PutArray, addr 0x2608274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PutArray, addr 0x261b528, size 0x8, virtual false, abstract: false, final false
   inline void PutArray(::ArrayW<int64_t, ::Array<int64_t>*> value);
 
-  /// @brief Method PutArray, addr 0x2608294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PutArray, addr 0x261b548, size 0x8, virtual false, abstract: false, final false
   inline void PutArray(::ArrayW<uint16_t, ::Array<uint16_t>*> value);
 
-  /// @brief Method PutArray, addr 0x260828c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PutArray, addr 0x261b540, size 0x8, virtual false, abstract: false, final false
   inline void PutArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method PutArray, addr 0x260827c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PutArray, addr 0x261b530, size 0x8, virtual false, abstract: false, final false
   inline void PutArray(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method PutArray, addr 0x260825c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PutArray, addr 0x261b510, size 0x8, virtual false, abstract: false, final false
   inline void PutArray(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method PutBytesWithLength, addr 0x26080b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method PutBytesWithLength, addr 0x261b368, size 0x90, virtual false, abstract: false, final false
   inline void PutBytesWithLength(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method PutBytesWithLength, addr 0x2608028, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method PutBytesWithLength, addr 0x261b2dc, size 0x8c, virtual false, abstract: false, final false
   inline void PutBytesWithLength(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t length);
 
-  /// @brief Method PutSBytesWithLength, addr 0x2607f98, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method PutSBytesWithLength, addr 0x261b24c, size 0x90, virtual false, abstract: false, final false
   inline void PutSBytesWithLength(::ArrayW<int8_t, ::Array<int8_t>*> data);
 
-  /// @brief Method PutSBytesWithLength, addr 0x2607f0c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method PutSBytesWithLength, addr 0x261b1c0, size 0x8c, virtual false, abstract: false, final false
   inline void PutSBytesWithLength(::ArrayW<int8_t, ::Array<int8_t>*> data, int32_t offset, int32_t length);
 
-  /// @brief Method Reset, addr 0x2607ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x261ad94, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x2607ac8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x261ad7c, size 0x18, virtual false, abstract: false, final false
   inline void Reset(int32_t size);
 
-  /// @brief Method ResizeIfNeed, addr 0x2607a48, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ResizeIfNeed, addr 0x261acfc, size 0x80, virtual false, abstract: false, final false
   inline void ResizeIfNeed(int32_t newSize);
 
   constexpr bool const& __cordl_internal_get__autoResize() const;
@@ -194,22 +194,22 @@ public:
 
   constexpr void __cordl_internal_set__position(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25f7ac0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260ad74, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2607764, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261aa18, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool autoResize);
 
-  /// @brief Method .ctor, addr 0x26076f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261a9a8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(bool autoResize, int32_t initialSize);
 
-  /// @brief Method get_Capacity, addr 0x26076d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Capacity, addr 0x261a98c, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
-  /// @brief Method get_Data, addr 0x2607b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x261ae10, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Data();
 
-  /// @brief Method get_Length, addr 0x2607b64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x261ae18, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
 protected:

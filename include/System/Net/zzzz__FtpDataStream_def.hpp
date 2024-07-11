@@ -85,48 +85,48 @@ public:
   /// @brief Convert operator to "::System::Net::ICloseEx"
   constexpr operator ::System::Net::ICloseEx*() noexcept;
 
-  /// @brief Method AsyncReadCallback, addr 0x2fe66dc, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method AsyncReadCallback, addr 0x2ff50f0, size 0x2b0, virtual false, abstract: false, final false
   inline void AsyncReadCallback(::System::IAsyncResult* ar);
 
-  /// @brief Method BeginRead, addr 0x2fe698c, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x2ff53a0, size 0x1ac, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginWrite, addr 0x2fe6cd8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method BeginWrite, addr 0x2ff56ec, size 0xf4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method CheckError, addr 0x2fe6358, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CheckError, addr 0x2ff4d6c, size 0x44, virtual false, abstract: false, final false
   inline void CheckError();
 
-  /// @brief Method Dispose, addr 0x2fe5dec, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2ff4800, size 0x188, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndRead, addr 0x2fe6b38, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x2ff554c, size 0x1a0, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* ar);
 
-  /// @brief Method EndWrite, addr 0x2fe6dcc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method EndWrite, addr 0x2ff57e0, size 0xa0, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method Flush, addr 0x2fe6e6c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x2ff5880, size 0x24, virtual true, abstract: false, final false
   inline void Flush();
 
   static inline ::System::Net::FtpDataStream* New_ctor(::System::Net::Sockets::NetworkStream* networkStream, ::System::Net::FtpWebRequest* request, ::System::Net::TriState writeOnly);
 
-  /// @brief Method Read, addr 0x2fe6500, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x2ff4f14, size 0x104, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method Seek, addr 0x2fe6434, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x2ff4e48, size 0xcc, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x2fe6e90, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x2ff58a4, size 0x24, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method SetSocketTimeoutOption, addr 0x2fe6f64, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetSocketTimeoutOption, addr 0x2ff5978, size 0x50, virtual false, abstract: false, final false
   inline void SetSocketTimeoutOption(int32_t timeout);
 
-  /// @brief Method System.Net.ICloseEx.CloseEx, addr 0x2fe5f74, size 0x3e4, virtual true, abstract: false, final true
+  /// @brief Method System.Net.ICloseEx.CloseEx, addr 0x2ff4988, size 0x3e4, virtual true, abstract: false, final true
   inline void System_Net_ICloseEx_CloseEx(::System::Net::CloseExState closeState);
 
-  /// @brief Method Write, addr 0x2fe6604, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x2ff5018, size 0xd8, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
   constexpr bool const& __cordl_internal_get__closing() const;
@@ -165,43 +165,43 @@ public:
 
   constexpr void __cordl_internal_set__writeable(bool value);
 
-  /// @brief Method .ctor, addr 0x2fe21f8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ff0c0c, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::NetworkStream* networkStream, ::System::Net::FtpWebRequest* request, ::System::Net::TriState writeOnly);
 
-  /// @brief Method get_CanRead, addr 0x2fe639c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x2ff4db0, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x2fe63a4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x2ff4db8, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanTimeout, addr 0x2fe6eb4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanTimeout, addr 0x2ff58c8, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanTimeout();
 
-  /// @brief Method get_CanWrite, addr 0x2fe63c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x2ff4dd8, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x2fe63cc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x2ff4de0, size 0x20, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x2fe63ec, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x2ff4e00, size 0x24, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method get_ReadTimeout, addr 0x2fe6ed4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ReadTimeout, addr 0x2ff58e8, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_ReadTimeout();
 
-  /// @brief Method get_WriteTimeout, addr 0x2fe6f1c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_WriteTimeout, addr 0x2ff5930, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_WriteTimeout();
 
   /// @brief Convert to "::System::Net::ICloseEx"
   constexpr ::System::Net::ICloseEx* i___System__Net__ICloseEx() noexcept;
 
-  /// @brief Method set_Position, addr 0x2fe6410, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x2ff4e24, size 0x24, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method set_ReadTimeout, addr 0x2fe6ef8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_ReadTimeout, addr 0x2ff590c, size 0x24, virtual true, abstract: false, final false
   inline void set_ReadTimeout(int32_t value);
 
-  /// @brief Method set_WriteTimeout, addr 0x2fe6f40, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_WriteTimeout, addr 0x2ff5954, size 0x24, virtual true, abstract: false, final false
   inline void set_WriteTimeout(int32_t value);
 
 protected:

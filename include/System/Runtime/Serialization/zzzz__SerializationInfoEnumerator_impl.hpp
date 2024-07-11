@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>, int32_t)>(
     &::System::Runtime::Serialization::SerializationInfoEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x284f9e8;
+  constexpr static std::size_t addrs = 0x28623fc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(
     &::System::Runtime::Serialization::SerializationInfoEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x284bff0;
+  constexpr static std::size_t addrs = 0x285ea04;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(
     &::System::Runtime::Serialization::SerializationInfoEnumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x284fa38;
+  constexpr static std::size_t addrs = 0x286244c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::SerializationEntry (
     ::System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(&::System::Runtime::Serialization::SerializationInfoEnumerator::get_Current)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x284ba80;
+  constexpr static std::size_t addrs = 0x285e494;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(
     &::System::Runtime::Serialization::SerializationInfoEnumerator::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x284faa8;
+  constexpr static std::size_t addrs = 0x28624bc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(
     &::System::Runtime::Serialization::SerializationInfoEnumerator::get_Name)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x284fab8;
+  constexpr static std::size_t addrs = 0x28624cc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(
     &::System::Runtime::Serialization::SerializationInfoEnumerator::get_Value)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x284fb40;
+  constexpr static std::size_t addrs = 0x2862554;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(
     &::System::Runtime::Serialization::SerializationInfoEnumerator::get_ObjectType)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x284fbc8;
+  constexpr static std::size_t addrs = 0x28625dc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

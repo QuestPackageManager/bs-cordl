@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__Enum__EnumResult::*)(bool)>(&::System::__Enum__EnumResult::Init)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2982fb8;
+  constexpr static std::size_t addrs = 0x29979cc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__Enum__EnumResult::*)(::System::Exception*)>(&::System::__Enum__EnumResult::SetFailure)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2983e10;
+  constexpr static std::size_t addrs = 0x2998824;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__Enum__EnumResult::*)(::System::__Enum__ParseFailureKind, ::StringW)>(
     &::System::__Enum__EnumResult::SetFailure)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2983810;
+  constexpr static std::size_t addrs = 0x2998224;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__Enum__EnumResult::*)(::System::__Enum__ParseFailureKind, ::StringW, ::System::Object*)>(
     &::System::__Enum__EnumResult::SetFailure)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x298384c;
+  constexpr static std::size_t addrs = 0x2998260;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::__Enum__EnumResult::*)()>(&::System::__Enum__EnumResult::GetEnumParseException)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2983694;
+  constexpr static std::size_t addrs = 0x29980a8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Enum__EnumResult>::get(), "GetEnumParseException",
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::__Enum__ValuesAndNames::*)(::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::System::__Enum__ValuesAndNames::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2982454;
+  constexpr static std::size_t addrs = 0x2996e68;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

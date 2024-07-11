@@ -99,10 +99,10 @@ public:
 
   constexpr void __cordl_internal_set__rating_k__BackingField(::GlobalNamespace::__ObstacleExecutionRating__Rating value);
 
-  /// @brief Method .ctor, addr 0x14de3ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14e7f90, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::__ObstacleExecutionRating__Rating rating);
 
-  /// @brief Method get_rating, addr 0x14de3e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rating, addr 0x14e7f88, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ObstacleExecutionRating__Rating get_rating();
 
 protected:

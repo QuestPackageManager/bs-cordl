@@ -22,7 +22,7 @@ namespace Mono::Security::Interface {
 class CORDL_TYPE MonoTlsProviderFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetProvider, addr 0x279a630, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetProvider, addr 0x27ae044, size 0x70, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::MonoTlsProvider* GetProvider();
 
 protected:

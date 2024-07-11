@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Runtime::InteropServices::RuntimeInformation::GetRuntimeArchitecture)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2872308;
+  constexpr static std::size_t addrs = 0x2885d1c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::RuntimeInformation*>::get(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Runtime::InteropServices::RuntimeInformation::GetOSName)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x287230c;
+  constexpr static std::size_t addrs = 0x2885d20;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::RuntimeInformation*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Runtime::InteropServices::OSPlatform)>(
     &::System::Runtime::InteropServices::RuntimeInformation::IsOSPlatform)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2872310;
+  constexpr static std::size_t addrs = 0x2885d24;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::Stream*)>(&::UnityEngine::ManagedStreamHelpers::ValidateLoadFromStream)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x343ac90;
+  constexpr static std::size_t addrs = 0x3449b14;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::IO::Stream*, ::System::IntPtr)>(
     &::UnityEngine::ManagedStreamHelpers::ManagedStreamRead)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x343ada0;
+  constexpr static std::size_t addrs = 0x3449c24;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t, uint32_t, ::System::IO::Stream*, ::System::IntPtr)>(
     &::UnityEngine::ManagedStreamHelpers::ManagedStreamSeek)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x343aec0;
+  constexpr static std::size_t addrs = 0x3449d44;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::Stream*, ::System::IntPtr)>(&::UnityEngine::ManagedStreamHelpers::ManagedStreamLength)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x343afd8;
+  constexpr static std::size_t addrs = 0x3449e5c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ManagedStreamHelpers*>::get(),

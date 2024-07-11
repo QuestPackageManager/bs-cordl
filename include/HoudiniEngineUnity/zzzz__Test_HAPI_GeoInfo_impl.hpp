@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::Test_HAPI_GeoInfo::*)(::HoudiniEngineUnity::HAPI_GeoInfo)>(
     &::HoudiniEngineUnity::Test_HAPI_GeoInfo::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x25defb0;
+  constexpr static std::size_t addrs = 0x25f3264;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_HAPI_GeoInfo::*)(::HoudiniEngineUnity::Test_HAPI_GeoInfo*)>(
     &::HoudiniEngineUnity::Test_HAPI_GeoInfo::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x25defe4;
+  constexpr static std::size_t addrs = 0x25f3298;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

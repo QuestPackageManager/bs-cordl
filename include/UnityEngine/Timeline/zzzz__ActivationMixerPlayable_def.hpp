@@ -53,15 +53,15 @@ public:
 
   __declspec(property(get = get_postPlaybackState, put = set_postPlaybackState))::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState postPlaybackState;
 
-  /// @brief Method Create, addr 0x33ad078, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x33bbefc, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ActivationMixerPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
   static inline ::UnityEngine::Timeline::ActivationMixerPlayable* New_ctor();
 
-  /// @brief Method OnPlayableDestroy, addr 0x33ad10c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x33bbf90, size 0xc0, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x33ad1cc, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x33bc050, size 0x1c4, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_BoundGameObject() const;
@@ -82,13 +82,13 @@ public:
 
   constexpr void __cordl_internal_set_m_PostPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
 
-  /// @brief Method .ctor, addr 0x33ad390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33bc214, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_postPlaybackState, addr 0x33ad0fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_postPlaybackState, addr 0x33bbf80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState get_postPlaybackState();
 
-  /// @brief Method set_postPlaybackState, addr 0x33ad104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_postPlaybackState, addr 0x33bbf88, size 0x8, virtual false, abstract: false, final false
   inline void set_postPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
 
 protected:

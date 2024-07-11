@@ -21,10 +21,10 @@ namespace System::Net::Mail {
 class CORDL_TYPE WhitespaceReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadCfwsReverse, addr 0x2f5142c, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method ReadCfwsReverse, addr 0x2f5de40, size 0x2e0, virtual false, abstract: false, final false
   static inline int32_t ReadCfwsReverse(::StringW data, int32_t index);
 
-  /// @brief Method ReadFwsReverse, addr 0x2f503f0, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method ReadFwsReverse, addr 0x2f5ce04, size 0x20c, virtual false, abstract: false, final false
   static inline int32_t ReadFwsReverse(::StringW data, int32_t index);
 
 protected:

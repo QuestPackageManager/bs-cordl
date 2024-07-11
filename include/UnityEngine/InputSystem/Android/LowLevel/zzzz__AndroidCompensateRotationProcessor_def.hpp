@@ -27,10 +27,10 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x317a0f0, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x318cf74, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Quaternion Process(::UnityEngine::Quaternion value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method .ctor, addr 0x317a124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x318cfa8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

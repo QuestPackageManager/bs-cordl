@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::ImageSource::*)()>(
     &::UnityEngine::UIElements::StyleSheets::ImageSource::IsNull)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3564354;
+  constexpr static std::size_t addrs = 0x357c1d8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ImageSource>::get(),

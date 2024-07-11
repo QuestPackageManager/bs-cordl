@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_InvitesSent(bool value);
 
-  /// @brief Method .ctor, addr 0x2afcbc8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b105dc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:

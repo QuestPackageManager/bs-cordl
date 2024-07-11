@@ -19,7 +19,7 @@ namespace System::Xml {
 class CORDL_TYPE BinaryCompatibility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_TargetsAtLeast_Desktop_V4_5_2, addr 0x2edfa30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetsAtLeast_Desktop_V4_5_2, addr 0x2eef444, size 0x8, virtual false, abstract: false, final false
   static inline bool get_TargetsAtLeast_Desktop_V4_5_2();
 
 protected:

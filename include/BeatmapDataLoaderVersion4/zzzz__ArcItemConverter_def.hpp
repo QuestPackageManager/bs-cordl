@@ -42,7 +42,7 @@ public:
   __declspec(property(get = __cordl_internal_get__colorNotes,
                       put = __cordl_internal_set__colorNotes))::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> _colorNotes;
 
-  /// @brief Method Convert, addr 0x14fcd90, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1507e0c, size 0x1ac, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::ArcBeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::ArcItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes,
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__colorNotes(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> value);
 
-  /// @brief Method .ctor, addr 0x14fc98c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1507a08, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes,
                     ::ArrayW<::BeatmapSaveDataVersion4::Arc, ::Array<::BeatmapSaveDataVersion4::Arc>*> arcs, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 

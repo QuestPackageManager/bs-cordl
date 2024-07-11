@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x345a5fc;
+  constexpr static std::size_t addrs = 0x346a480;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling::*)(
     ::UnityEngine::Rendering::BatchRendererGroup*, ::UnityEngine::Rendering::BatchCullingContext)>(&::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling::Invoke)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x345a72c;
+  constexpr static std::size_t addrs = 0x346a5b0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -69,7 +69,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rendering::BatchRendererGroup*, ByRef<::UnityEngine::Rendering::BatchRendererCullingOutput>, ByRef<::UnityEngine::Rendering::LODParameters>)>(
         &::UnityEngine::Rendering::BatchRendererGroup::InvokeOnPerformCulling)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x345a3dc;
+  constexpr static std::size_t addrs = 0x346a260;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

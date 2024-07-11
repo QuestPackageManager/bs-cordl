@@ -27,46 +27,46 @@ namespace GlobalNamespace {
 class CORDL_TYPE VarIntExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSize, addr 0x150da6c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetSize, addr 0x15187e4, size 0x24, virtual false, abstract: false, final false
   static inline int32_t GetSize(int32_t val);
 
-  /// @brief Method GetSize, addr 0x1510ee4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetSize, addr 0x151bc5c, size 0x20, virtual false, abstract: false, final false
   static inline int32_t GetSize(int64_t val);
 
-  /// @brief Method GetSize, addr 0x1510f04, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetSize, addr 0x151bc7c, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t GetSize(uint32_t val);
 
-  /// @brief Method GetSize, addr 0x1510f20, size 0xfd80c8, virtual false, abstract: false, final false
+  /// @brief Method GetSize, addr 0x151bc98, size 0xfe20c4, virtual false, abstract: false, final false
   static inline int32_t GetSize(uint64_t val);
 
-  /// @brief Method GetVarInt, addr 0x1509f98, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetVarInt, addr 0x1514d10, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t GetVarInt(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method GetVarLong, addr 0x1510d3c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetVarLong, addr 0x151bab4, size 0x18, virtual false, abstract: false, final false
   static inline int64_t GetVarLong(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method GetVarUInt, addr 0x1506bc8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetVarUInt, addr 0x15118f0, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t GetVarUInt(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method GetVarULong, addr 0x1510d9c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetVarULong, addr 0x151bb14, size 0x74, virtual false, abstract: false, final false
   static inline uint64_t GetVarULong(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method PutVarInt, addr 0x1509c40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PutVarInt, addr 0x151498c, size 0x10, virtual false, abstract: false, final false
   static inline void PutVarInt(::LiteNetLib::Utils::NetDataWriter* writer, int32_t val);
 
-  /// @brief Method PutVarLong, addr 0x1510d30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method PutVarLong, addr 0x151baa8, size 0xc, virtual false, abstract: false, final false
   static inline void PutVarLong(::LiteNetLib::Utils::NetDataWriter* writer, int64_t val);
 
-  /// @brief Method PutVarUInt, addr 0x1506c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PutVarUInt, addr 0x151194c, size 0x8, virtual false, abstract: false, final false
   static inline void PutVarUInt(::LiteNetLib::Utils::NetDataWriter* writer, uint32_t val);
 
-  /// @brief Method PutVarULong, addr 0x1510d54, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method PutVarULong, addr 0x151bacc, size 0x48, virtual false, abstract: false, final false
   static inline void PutVarULong(::LiteNetLib::Utils::NetDataWriter* writer, uint64_t val);
 
-  /// @brief Method TryGetVarUInt, addr 0x1510e10, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method TryGetVarUInt, addr 0x151bb88, size 0x4c, virtual false, abstract: false, final false
   static inline bool TryGetVarUInt(::LiteNetLib::Utils::NetDataReader* reader, ByRef<uint32_t> value);
 
-  /// @brief Method TryGetVarULong, addr 0x1510e5c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method TryGetVarULong, addr 0x151bbd4, size 0x88, virtual false, abstract: false, final false
   static inline bool TryGetVarULong(::LiteNetLib::Utils::NetDataReader* reader, ByRef<uint64_t> value);
 
 protected:

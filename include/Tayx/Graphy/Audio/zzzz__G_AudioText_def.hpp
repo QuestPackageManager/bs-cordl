@@ -45,18 +45,18 @@ public:
   /// @brief Field m_updateRate, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_m_updateRate, put = __cordl_internal_set_m_updateRate)) int32_t m_updateRate;
 
-  /// @brief Method Awake, addr 0x305ef08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x306e91c, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x305e980, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x306e394, size 0x110, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Audio::G_AudioText* New_ctor();
 
-  /// @brief Method Update, addr 0x305ef0c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x306e920, size 0x100, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x305e960, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x306e374, size 0x20, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_DBText() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_m_updateRate(int32_t value);
 
-  /// @brief Method .ctor, addr 0x305f00c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x306ea20, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

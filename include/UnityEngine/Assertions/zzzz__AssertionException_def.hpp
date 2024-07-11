@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_m_UserMessage(::StringW value);
 
-  /// @brief Method .ctor, addr 0x34515f0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3460474, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW userMessage);
 
-  /// @brief Method get_Message, addr 0x3451d04, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3460b88, size 0x74, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

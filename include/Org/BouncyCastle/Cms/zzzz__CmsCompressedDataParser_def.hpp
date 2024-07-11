@@ -27,17 +27,17 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE CmsCompressedDataParser : public ::Org::BouncyCastle::Cms::CmsContentInfoParser {
 public:
   // Declarations
-  /// @brief Method GetContent, addr 0x1446030, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x1450328, size 0x300, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContent();
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataParser* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataParser* New_ctor(::System::IO::Stream* compressedData);
 
-  /// @brief Method .ctor, addr 0x1445fb4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14502ac, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
 
-  /// @brief Method .ctor, addr 0x144602c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1450324, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* compressedData);
 
 protected:

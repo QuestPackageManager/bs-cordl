@@ -147,10 +147,10 @@ public:
   /// @brief Field tailTime, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_tailTime, put = __cordl_internal_set_tailTime)) float_t tailTime;
 
-  /// @brief Method Deserialize, addr 0x151016c, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x151aee4, size 0x274, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x150fc98, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x151aa10, size 0x244, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SliderSpawnInfoNetSerializable*
   Init(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::__SliderData__Type sliderType, bool hasHeadNote, float_t headTime, int32_t headLineIndex,
        ::GlobalNamespace::NoteLineLayer headLineLayer, ::GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float_t headControlPointLengthMultiplier,
@@ -162,10 +162,10 @@ public:
 
   static inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x150fc34, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x151a9ac, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x150ff34, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x151acac, size 0x238, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get_colorType() const;
@@ -360,7 +360,7 @@ public:
 
   constexpr void __cordl_internal_set_tailTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x150fedc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x151ac54, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

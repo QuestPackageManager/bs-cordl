@@ -41,11 +41,11 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
 
-  /// @brief Method Bind, addr 0x2c7591c, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x2c89330, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackGetMember, addr 0x2c744b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackGetMember, addr 0x2c87ec4, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackGetMember(::System::Dynamic::DynamicMetaObject* target);
 
   /// @brief Method FallbackGetMember, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -65,19 +65,19 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2c75830, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c89244, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool ignoreCase);
 
-  /// @brief Method get_IgnoreCase, addr 0x2c75914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreCase, addr 0x2c89328, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreCase();
 
-  /// @brief Method get_IsStandardBinder, addr 0x2c759f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsStandardBinder, addr 0x2c8940c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsStandardBinder();
 
-  /// @brief Method get_Name, addr 0x2c7590c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2c89320, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ReturnType, addr 0x2c758a0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_ReturnType, addr 0x2c892b4, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Type* get_ReturnType();
 
 protected:

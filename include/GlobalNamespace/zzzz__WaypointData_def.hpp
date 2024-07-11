@@ -48,13 +48,13 @@ public:
 
   __declspec(property(get = get_offsetDirection, put = set_offsetDirection))::GlobalNamespace::OffsetDirection offsetDirection;
 
-  /// @brief Method GetCopy, addr 0x1041850, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x10492e4, size 0x90, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method Mirror, addr 0x1041938, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Mirror, addr 0x10493cc, size 0x14, virtual true, abstract: false, final false
   inline void Mirror(int32_t lineCount);
 
-  /// @brief Method MirrorTransformOffsetDirection, addr 0x104194c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method MirrorTransformOffsetDirection, addr 0x10493e0, size 0x24, virtual false, abstract: false, final false
   inline void MirrorTransformOffsetDirection();
 
   static inline ::GlobalNamespace::WaypointData* New_ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::OffsetDirection offsetDirection);
@@ -77,25 +77,25 @@ public:
 
   constexpr void __cordl_internal_set__offsetDirection_k__BackingField(::GlobalNamespace::OffsetDirection value);
 
-  /// @brief Method .ctor, addr 0x10418e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1049374, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::OffsetDirection offsetDirection);
 
-  /// @brief Method get_lineIndex, addr 0x1041830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x10492c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_lineLayer, addr 0x1041840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineLayer, addr 0x10492d4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
 
-  /// @brief Method get_offsetDirection, addr 0x1041820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offsetDirection, addr 0x10492b4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OffsetDirection get_offsetDirection();
 
-  /// @brief Method set_lineIndex, addr 0x1041838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineIndex, addr 0x10492cc, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
-  /// @brief Method set_lineLayer, addr 0x1041848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineLayer, addr 0x10492dc, size 0x8, virtual false, abstract: false, final false
   inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method set_offsetDirection, addr 0x1041828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_offsetDirection, addr 0x10492bc, size 0x8, virtual false, abstract: false, final false
   inline void set_offsetDirection(::GlobalNamespace::OffsetDirection value);
 
 protected:

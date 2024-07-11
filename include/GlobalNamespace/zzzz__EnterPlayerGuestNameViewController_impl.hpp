@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__EnterPlayerGuestNameViewController__FinishDelegate::*)(
     ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__EnterPlayerGuestNameViewController__FinishDelegate::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x264fd08;
+  constexpr static std::size_t addrs = 0x2663b4c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__EnterPlayerGuestNameViewController__FinishDelegate::*)(
     ::GlobalNamespace::EnterPlayerGuestNameViewController*, ::StringW)>(&::GlobalNamespace::__EnterPlayerGuestNameViewController__FinishDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x264fe38;
+  constexpr static std::size_t addrs = 0x2663c7c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__EnterPlayerGuestNameViewController__FinishDelegate::*)(::GlobalNamespace::EnterPlayerGuestNameViewController*, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
     &::GlobalNamespace::__EnterPlayerGuestNameViewController__FinishDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x264fe4c;
+  constexpr static std::size_t addrs = 0x2663c90;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__EnterPlayerGuestNameViewController__FinishDelegate::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::__EnterPlayerGuestNameViewController__FinishDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x264fe74;
+  constexpr static std::size_t addrs = 0x2663cb8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__EnterPlayerGuestNameViewController____c__DisplayClass10_0::*)()>(
     &::GlobalNamespace::__EnterPlayerGuestNameViewController____c__DisplayClass10_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264fb68;
+  constexpr static std::size_t addrs = 0x26639ac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__EnterPlayerGuestNameViewController____c__DisplayClass10_0::*)(
     int32_t, ::GlobalNamespace::GuestNameButtonsListItem*)>(&::GlobalNamespace::__EnterPlayerGuestNameViewController____c__DisplayClass10_0::_DidActivate_b__0)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x264fe80;
+  constexpr static std::size_t addrs = 0x2663cc4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__EnterPlayerGuestNameViewController____c__DisplayClass10_1::*)()>(
     &::GlobalNamespace::__EnterPlayerGuestNameViewController____c__DisplayClass10_1::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264ff98;
+  constexpr static std::size_t addrs = 0x2663ddc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__EnterPlayerGuestNameViewController____c__DisplayClass10_1::*)()>(
     &::GlobalNamespace::__EnterPlayerGuestNameViewController____c__DisplayClass10_1::_DidActivate_b__1)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x264ffa0;
+  constexpr static std::size_t addrs = 0x2663de4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)(
     ::GlobalNamespace::__EnterPlayerGuestNameViewController__FinishDelegate*)>(&::GlobalNamespace::EnterPlayerGuestNameViewController::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264f92c;
+  constexpr static std::size_t addrs = 0x2663770;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::EnterPlayerGuestNameViewController::DidActivate)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x264f934;
+  constexpr static std::size_t addrs = 0x2663778;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)(bool, bool)>(
     &::GlobalNamespace::EnterPlayerGuestNameViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x264fb70;
+  constexpr static std::size_t addrs = 0x26639b4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)()>(
     &::GlobalNamespace::EnterPlayerGuestNameViewController::OkButtonPressed)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x264fc20;
+  constexpr static std::size_t addrs = 0x2663a64;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)()>(
     &::GlobalNamespace::EnterPlayerGuestNameViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264fd00;
+  constexpr static std::size_t addrs = 0x2663b44;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterPlayerGuestNameViewController*>::get(),

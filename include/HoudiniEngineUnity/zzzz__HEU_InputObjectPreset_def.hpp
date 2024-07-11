@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__useTransformOffset(bool value);
 
-  /// @brief Method .ctor, addr 0x25495f4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255e8a8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

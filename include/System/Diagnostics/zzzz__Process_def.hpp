@@ -419,53 +419,53 @@ public:
   /// @brief Field watchingForExit, offset 0x79, size 0x1
   __declspec(property(get = __cordl_internal_get_watchingForExit, put = __cordl_internal_set_watchingForExit)) bool watchingForExit;
 
-  /// @brief Method Close, addr 0x2fc2c68, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x2fd167c, size 0x158, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method CompletionCallback, addr 0x2fc2aec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CompletionCallback, addr 0x2fd1500, size 0x18, virtual false, abstract: false, final false
   inline void CompletionCallback(::System::Object* context, bool wasSignaled);
 
-  /// @brief Method CreatePipe, addr 0x2fc529c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method CreatePipe, addr 0x2fd3cb0, size 0x19c, virtual false, abstract: false, final false
   static inline void CreatePipe(ByRef<::System::IntPtr> read, ByRef<::System::IntPtr> write, bool writeDirection);
 
-  /// @brief Method CreateProcess_internal, addr 0x2fc5104, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateProcess_internal, addr 0x2fd3b18, size 0x4, virtual false, abstract: false, final false
   static inline bool CreateProcess_internal(::System::Diagnostics::ProcessStartInfo* startInfo, ::System::IntPtr stdin, ::System::IntPtr stdout, ::System::IntPtr stderr,
                                             ByRef<::System::Diagnostics::__Process__ProcInfo> procInfo);
 
-  /// @brief Method Dispose, addr 0x2fc2c18, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2fd162c, size 0x50, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnsureState, addr 0x2fc1714, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method EnsureState, addr 0x2fd0128, size 0x138, virtual false, abstract: false, final false
   inline void EnsureState(::System::Diagnostics::__Process__State state);
 
-  /// @brief Method EnsureWatchingForExit, addr 0x2fc2dd4, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method EnsureWatchingForExit, addr 0x2fd17e8, size 0x234, virtual false, abstract: false, final false
   inline void EnsureWatchingForExit();
 
-  /// @brief Method FillUserInfo, addr 0x2fc515c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method FillUserInfo, addr 0x2fd3b70, size 0x140, virtual false, abstract: false, final false
   static inline void FillUserInfo(::System::Diagnostics::ProcessStartInfo* startInfo, ByRef<::System::Diagnostics::__Process__ProcInfo> procInfo);
 
-  /// @brief Method GetCurrentProcess, addr 0x2fbf590, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentProcess, addr 0x2fcdfa4, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::Process* GetCurrentProcess();
 
-  /// @brief Method GetProcessById, addr 0x2fc3008, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetProcessById, addr 0x2fd1a1c, size 0x48, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::Process* GetProcessById(int32_t processId);
 
-  /// @brief Method GetProcessById, addr 0x2fc3050, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetProcessById, addr 0x2fd1a64, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::Process* GetProcessById(int32_t processId, ::StringW machineName);
 
-  /// @brief Method GetProcessHandle, addr 0x2fc3468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetProcessHandle, addr 0x2fd1e7c, size 0x8, virtual false, abstract: false, final false
   inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* GetProcessHandle(int32_t access);
 
-  /// @brief Method GetProcessHandle, addr 0x2fc1bbc, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method GetProcessHandle, addr 0x2fd05d0, size 0x4c4, virtual false, abstract: false, final false
   inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* GetProcessHandle(int32_t access, bool throwIfExited);
 
-  /// @brief Method GetProcessTimes, addr 0x2fc22b4, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method GetProcessTimes, addr 0x2fd0cc8, size 0x2c8, virtual false, abstract: false, final false
   inline ::System::Diagnostics::ProcessThreadTimes* GetProcessTimes();
 
-  /// @brief Method GetProcess_internal, addr 0x2fc506c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetProcess_internal, addr 0x2fd3a80, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetProcess_internal(int32_t pid);
 
-  /// @brief Method IsLocalMachine, addr 0x2fc5070, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsLocalMachine, addr 0x2fd3a84, size 0x90, virtual false, abstract: false, final false
   static inline bool IsLocalMachine(::StringW machineName);
 
   static inline ::System::Diagnostics::Process* New_ctor();
@@ -474,49 +474,49 @@ public:
 
   static inline ::System::Diagnostics::Process* New_ctor(::StringW machineName, bool isRemoteMachine, int32_t processId, ::System::Diagnostics::ProcessInfo* processInfo);
 
-  /// @brief Method OnExited, addr 0x2fc3228, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method OnExited, addr 0x2fd1c3c, size 0x240, virtual false, abstract: false, final false
   inline void OnExited();
 
-  /// @brief Method OpenProcessHandle, addr 0x2fc25b4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OpenProcessHandle, addr 0x2fd0fc8, size 0xbc, virtual false, abstract: false, final false
   inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* OpenProcessHandle(int32_t access);
 
-  /// @brief Method ProcessName_icall, addr 0x2fc4f88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ProcessName_icall, addr 0x2fd399c, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW ProcessName_icall(::System::IntPtr handle);
 
-  /// @brief Method ProcessName_internal, addr 0x2fc4f8c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ProcessName_internal, addr 0x2fd39a0, size 0xe0, virtual false, abstract: false, final false
   static inline ::StringW ProcessName_internal(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle);
 
-  /// @brief Method RaiseOnExited, addr 0x2fc21d4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RaiseOnExited, addr 0x2fd0be8, size 0xe0, virtual false, abstract: false, final false
   inline void RaiseOnExited();
 
-  /// @brief Method Refresh, addr 0x2fc2dc0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x2fd17d4, size 0x14, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method ReleaseProcessHandle, addr 0x2fc2ac4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReleaseProcessHandle, addr 0x2fd14d8, size 0x28, virtual false, abstract: false, final false
   inline void ReleaseProcessHandle(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle);
 
-  /// @brief Method SetProcessHandle, addr 0x2fc3470, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetProcessHandle, addr 0x2fd1e84, size 0x1c, virtual false, abstract: false, final false
   inline void SetProcessHandle(::Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle);
 
-  /// @brief Method SetProcessId, addr 0x2fc348c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetProcessId, addr 0x2fd1ea0, size 0x10, virtual false, abstract: false, final false
   inline void SetProcessId(int32_t processId);
 
-  /// @brief Method ShellExecuteEx_internal, addr 0x2fc5100, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ShellExecuteEx_internal, addr 0x2fd3b14, size 0x4, virtual false, abstract: false, final false
   static inline bool ShellExecuteEx_internal(::System::Diagnostics::ProcessStartInfo* startInfo, ByRef<::System::Diagnostics::__Process__ProcInfo> procInfo);
 
-  /// @brief Method Start, addr 0x2fc349c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2fd1eb0, size 0xfc, virtual false, abstract: false, final false
   inline bool Start();
 
-  /// @brief Method StartWithCreateProcess, addr 0x2fc39b4, size 0x13d8, virtual false, abstract: false, final false
+  /// @brief Method StartWithCreateProcess, addr 0x2fd23c8, size 0x13d8, virtual false, abstract: false, final false
   inline bool StartWithCreateProcess(::System::Diagnostics::ProcessStartInfo* startInfo);
 
-  /// @brief Method StartWithShellExecuteEx, addr 0x2fc35ec, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method StartWithShellExecuteEx, addr 0x2fd2000, size 0x3c8, virtual false, abstract: false, final false
   inline bool StartWithShellExecuteEx(::System::Diagnostics::ProcessStartInfo* startInfo);
 
-  /// @brief Method StopWatchingForExit, addr 0x2fc2b04, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method StopWatchingForExit, addr 0x2fd1518, size 0x114, virtual false, abstract: false, final false
   inline void StopWatchingForExit();
 
-  /// @brief Method ToString, addr 0x2fc4d8c, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2fd37a0, size 0x16c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_disposed() const;
@@ -717,52 +717,52 @@ public:
 
   constexpr void __cordl_internal_set_watchingForExit(bool value);
 
-  /// @brief Method .ctor, addr 0x2fc14a4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fcfeb8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2fc4ef8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd390c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle, int32_t id);
 
-  /// @brief Method .ctor, addr 0x2fc152c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fcff40, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW machineName, bool isRemoteMachine, int32_t processId, ::System::Diagnostics::ProcessInfo* processInfo);
 
-  /// @brief Method get_Associated, addr 0x2fc15c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Associated, addr 0x2fcffdc, size 0x20, virtual false, abstract: false, final false
   inline bool get_Associated();
 
-  /// @brief Method get_ExitCode, addr 0x2fc15e8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method get_ExitCode, addr 0x2fcfffc, size 0x12c, virtual false, abstract: false, final false
   inline int32_t get_ExitCode();
 
-  /// @brief Method get_Handle, addr 0x2fc2584, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x2fd0f98, size 0x30, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Handle();
 
-  /// @brief Method get_HasExited, addr 0x2fc184c, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method get_HasExited, addr 0x2fd0260, size 0x370, virtual false, abstract: false, final false
   inline bool get_HasExited();
 
-  /// @brief Method get_Id, addr 0x2fbf618, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x2fce02c, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Id();
 
-  /// @brief Method get_IsWindows, addr 0x2fc5438, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_IsWindows, addr 0x2fd3e4c, size 0x34, virtual false, abstract: false, final false
   static inline bool get_IsWindows();
 
-  /// @brief Method get_ProcessName, addr 0x2fbf634, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessName, addr 0x2fce048, size 0x230, virtual false, abstract: false, final false
   inline ::StringW get_ProcessName();
 
-  /// @brief Method get_StandardError, addr 0x2fc2a28, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_StandardError, addr 0x2fd143c, size 0x9c, virtual false, abstract: false, final false
   inline ::System::IO::StreamReader* get_StandardError();
 
-  /// @brief Method get_StandardOutput, addr 0x2fc298c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_StandardOutput, addr 0x2fd13a0, size 0x9c, virtual false, abstract: false, final false
   inline ::System::IO::StreamReader* get_StandardOutput();
 
-  /// @brief Method get_StartInfo, addr 0x2fc2670, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_StartInfo, addr 0x2fd1084, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Diagnostics::ProcessStartInfo* get_StartInfo();
 
-  /// @brief Method get_SynchronizingObject, addr 0x2fc27c0, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method get_SynchronizingObject, addr 0x2fd11d4, size 0x1a0, virtual false, abstract: false, final false
   inline ::System::ComponentModel::ISynchronizeInvoke* get_SynchronizingObject();
 
-  /// @brief Method get_TotalProcessorTime, addr 0x2fc2960, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_TotalProcessorTime, addr 0x2fd1374, size 0x20, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_TotalProcessorTime();
 
-  /// @brief Method set_StartInfo, addr 0x2fc2760, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_StartInfo, addr 0x2fd1174, size 0x60, virtual false, abstract: false, final false
   inline void set_StartInfo(::System::Diagnostics::ProcessStartInfo* value);
 
 protected:

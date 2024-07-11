@@ -74,38 +74,38 @@ public:
   /// @brief Field _xmlw, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__xmlw, put = __cordl_internal_set__xmlw))::System::Xml::XmlWriter* _xmlw;
 
-  /// @brief Method CreateTableHierarchy, addr 0x2d2e06c, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method CreateTableHierarchy, addr 0x2d42a80, size 0x384, virtual false, abstract: false, final false
   inline void CreateTableHierarchy(::System::Data::DataTable* dt);
 
-  /// @brief Method DoAssignments, addr 0x2d2dd18, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method DoAssignments, addr 0x2d4272c, size 0x268, virtual false, abstract: false, final false
   inline void DoAssignments(::System::Collections::ArrayList* tables);
 
-  /// @brief Method EmptyData, addr 0x2d2e3f0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method EmptyData, addr 0x2d42e04, size 0xec, virtual false, abstract: false, final false
   inline bool EmptyData();
 
-  /// @brief Method GenerateColumn, addr 0x2d30088, size 0xa0c, virtual false, abstract: false, final false
+  /// @brief Method GenerateColumn, addr 0x2d44a9c, size 0xa0c, virtual false, abstract: false, final false
   inline void GenerateColumn(::System::Data::DataRow* row, ::System::Data::DataColumn* col, ::System::Data::DataRowVersion version);
 
-  /// @brief Method GenerateRow, addr 0x2d2fa2c, size 0x594, virtual false, abstract: false, final false
+  /// @brief Method GenerateRow, addr 0x2d44440, size 0x594, virtual false, abstract: false, final false
   inline void GenerateRow(::System::Data::DataRow* row);
 
-  /// @brief Method GenerateTable, addr 0x2d2f470, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GenerateTable, addr 0x2d43e84, size 0x7c, virtual false, abstract: false, final false
   inline void GenerateTable(::System::Data::DataTable* table);
 
-  /// @brief Method GenerateTableErrors, addr 0x2d2f4ec, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableErrors, addr 0x2d43f00, size 0x540, virtual false, abstract: false, final false
   inline void GenerateTableErrors(::System::Data::DataTable* table);
 
   static inline ::System::Data::NewDiffgramGen* New_ctor(::System::Data::DataSet* ds);
 
   static inline ::System::Data::NewDiffgramGen* New_ctor(::System::Data::DataTable* dt, bool writeHierarchy);
 
-  /// @brief Method QualifiedName, addr 0x2d2db98, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method QualifiedName, addr 0x2d425ac, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW QualifiedName(::StringW prefix, ::StringW name);
 
-  /// @brief Method Save, addr 0x2d2e4dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x2d42ef0, size 0x8, virtual false, abstract: false, final false
   inline void Save(::System::Xml::XmlWriter* xmlw);
 
-  /// @brief Method Save, addr 0x2d2e4e4, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x2d42ef8, size 0x3e4, virtual false, abstract: false, final false
   inline void Save(::System::Xml::XmlWriter* xmlw, ::System::Data::DataTable* table);
 
   constexpr ::System::Xml::XmlDocument*& __cordl_internal_get__doc();
@@ -162,10 +162,10 @@ public:
 
   constexpr void __cordl_internal_set__xmlw(::System::Xml::XmlWriter* value);
 
-  /// @brief Method .ctor, addr 0x2d2dc00, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d42614, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* ds);
 
-  /// @brief Method .ctor, addr 0x2d2df80, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d42994, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* dt, bool writeHierarchy);
 
 protected:

@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FlyingSpriteEffect__Pool::*)()>(&::GlobalNamespace::__FlyingSpriteEffect__Pool::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x26d0984;
+  constexpr static std::size_t addrs = 0x26e5d78;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FlyingSpriteEffect__Pool*>::get(), ".ctor",
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     float_t, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Sprite*, ::UnityEngine::Material*, ::UnityEngine::Color, bool)>(
     &::GlobalNamespace::FlyingSpriteEffect::InitAndPresent)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x26d0840;
+  constexpr static std::size_t addrs = 0x26e5c34;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingSpriteEffect::*)(float_t)>(&::GlobalNamespace::FlyingSpriteEffect::ManualUpdate)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26d08f8;
+  constexpr static std::size_t addrs = 0x26e5cec;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingSpriteEffect::*)()>(&::GlobalNamespace::FlyingSpriteEffect::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x26d0954;
+  constexpr static std::size_t addrs = 0x26e5d48;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingSpriteEffect*>::get(), ".ctor",

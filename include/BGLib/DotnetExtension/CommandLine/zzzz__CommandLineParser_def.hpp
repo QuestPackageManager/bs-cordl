@@ -73,7 +73,7 @@ public:
 
   static inline ::BGLib::DotnetExtension::CommandLine::__CommandLineParser____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <ParseArgs>b__0, addr 0x107eec8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <ParseArgs>b__0, addr 0x1085b64, size 0x84, virtual false, abstract: false, final false
   inline bool _ParseArgs_b__0(::BGLib::DotnetExtension::CommandLine::ArgumentOption option);
 
   constexpr ::System::Collections::Generic::HashSet_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>*& __cordl_internal_get_requiredFound();
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_requiredFound(::System::Collections::Generic::HashSet_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>* value);
 
-  /// @brief Method .ctor, addr 0x107edb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1085a4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,10 +126,10 @@ public:
 
   static inline ::BGLib::DotnetExtension::CommandLine::__CommandLineParser____c* New_ctor();
 
-  /// @brief Method <ParseArgs>b__7_1, addr 0x107efb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ParseArgs>b__7_1, addr 0x1085c54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _ParseArgs_b__7_1(::BGLib::DotnetExtension::CommandLine::ArgumentOption option);
 
-  /// @brief Method .ctor, addr 0x107efb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1085c4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::DotnetExtension::CommandLine::__CommandLineParser____c* getStaticF___9();
@@ -172,37 +172,37 @@ public:
 
   using __c__DisplayClass7_0 = ::BGLib::DotnetExtension::CommandLine::__CommandLineParser____c__DisplayClass7_0;
 
-  /// @brief Method AddParsedOption, addr 0x107edb8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method AddParsedOption, addr 0x1085a54, size 0x110, virtual false, abstract: false, final false
   static inline void AddParsedOption(::System::Collections::Generic::Dictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW>* parsedOption,
                                      ::BGLib::DotnetExtension::CommandLine::ArgumentOption option, ::StringW value);
 
-  /// @brief Method GenerateHint, addr 0x107e8c4, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method GenerateHint, addr 0x1085560, size 0x4ec, virtual false, abstract: false, final false
   static inline ::StringW GenerateHint(::System::Collections::Generic::IEnumerable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>* options);
 
-  /// @brief Method GenerateOptionsMap, addr 0x107d1b4, size 0xa38, virtual false, abstract: false, final false
+  /// @brief Method GenerateOptionsMap, addr 0x1083e50, size 0xa38, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::BGLib::DotnetExtension::CommandLine::ArgumentOption>*
   GenerateOptionsMap(::System::Collections::Generic::IEnumerable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>* options, ::System::Text::RegularExpressions::Regex* argumentIdentifierRegex);
 
-  /// @brief Method GetCommandLineArgs, addr 0x107cdd8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetCommandLineArgs, addr 0x1083a74, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetCommandLineArgs();
 
-  /// @brief Method ParseArgs, addr 0x107df6c, size 0x94c, virtual false, abstract: false, final false
+  /// @brief Method ParseArgs, addr 0x1084c08, size 0x94c, virtual false, abstract: false, final false
   static inline void ParseArgs(::System::Collections::Generic::IReadOnlyList_1<::StringW>* args, int32_t startIndex,
                                ::System::Collections::Generic::IEnumerable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>* requiredOptions,
                                ::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::BGLib::DotnetExtension::CommandLine::ArgumentOption>* optionsMap,
                                ByRef<::System::Collections::Generic::Dictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW>*> parsedOption,
                                ByRef<::System::Collections::Generic::List_1<::StringW>*> ignored);
 
-  /// @brief Method ParseCommandLine, addr 0x107ce8c, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method ParseCommandLine, addr 0x1083b28, size 0x328, virtual false, abstract: false, final false
   static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult
   ParseCommandLine(::System::Collections::Generic::IReadOnlyList_1<::StringW>* args,
                    ::ArrayW<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::Array<::BGLib::DotnetExtension::CommandLine::ArgumentOption>*> options);
 
-  /// @brief Method ParseEnvironmentCommandLine, addr 0x107ce48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ParseEnvironmentCommandLine, addr 0x1083ae4, size 0x44, virtual false, abstract: false, final false
   static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult
   ParseEnvironmentCommandLine(::ArrayW<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::Array<::BGLib::DotnetExtension::CommandLine::ArgumentOption>*> options);
 
-  /// @brief Method SelectRequiredOptions, addr 0x107dbec, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method SelectRequiredOptions, addr 0x1084888, size 0x380, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>*
   SelectRequiredOptions(::System::Collections::Generic::IEnumerable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>* options);
 

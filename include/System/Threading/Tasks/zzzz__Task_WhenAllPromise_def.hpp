@@ -41,7 +41,7 @@ public:
   /// @brief Convert operator to "::System::Threading::Tasks::ITaskCompletionAction"
   constexpr operator ::System::Threading::Tasks::ITaskCompletionAction*() noexcept;
 
-  /// @brief Method Invoke, addr 0x29ceef4, size 0x2c8, virtual true, abstract: false, final true
+  /// @brief Method Invoke, addr 0x29e4908, size 0x2c8, virtual true, abstract: false, final true
   inline void Invoke(::System::Threading::Tasks::Task* ignored);
 
   static inline ::System::Threading::Tasks::__Task__WhenAllPromise* New_ctor(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> tasks);
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_m_tasks(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> value);
 
-  /// @brief Method .ctor, addr 0x29cde20, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29e3834, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> tasks);
 
-  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x29cf230, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x29e4c44, size 0x8, virtual true, abstract: false, final true
   inline bool get_InvokeMayRunArbitraryCode();
 
-  /// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion, addr 0x29cf1bc, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion, addr 0x29e4bd0, size 0x74, virtual true, abstract: false, final false
   inline bool get_ShouldNotifyDebuggerOfWaitCompletion();
 
   /// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"

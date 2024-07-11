@@ -37,7 +37,7 @@ public:
   static __declspec(property(get = getStaticF_Pool, put = setStaticF_Pool))::Zenject::StaticMemoryPool_7<::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, float_t,
                                                                                                          ::GlobalNamespace::EaseType, float_t, ::Tweening::ColorTween*>* Pool;
 
-  /// @brief Method GetValue, addr 0x3060b64, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3070578, size 0x48, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetValue(float_t t);
 
   static inline ::Tweening::ColorTween* New_ctor();
@@ -45,10 +45,10 @@ public:
   static inline ::Tweening::ColorTween* New_ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float_t duration,
                                                  ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method .ctor, addr 0x3060a4c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3070460, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3060a94, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30704a8, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType,
                     float_t delay);
 

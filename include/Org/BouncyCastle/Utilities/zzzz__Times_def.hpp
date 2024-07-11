@@ -23,12 +23,12 @@ public:
   /// @brief Field NanosecondsPerTick, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_NanosecondsPerTick, put = setStaticF_NanosecondsPerTick)) int64_t NanosecondsPerTick;
 
-  /// @brief Method NanoTime, addr 0x13d8c64, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method NanoTime, addr 0x13e0f5c, size 0xa4, virtual false, abstract: false, final false
   static inline int64_t NanoTime();
 
   static inline ::Org::BouncyCastle::Utilities::Times* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13d8d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13e104c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int64_t getStaticF_NanosecondsPerTick();

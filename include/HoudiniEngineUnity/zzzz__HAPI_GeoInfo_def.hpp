@@ -27,7 +27,7 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_GeoInfo {
 public:
   // Declarations
-  /// @brief Method getGroupCountByType, addr 0x258ca5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method getGroupCountByType, addr 0x25a1d10, size 0x28, virtual false, abstract: false, final false
   inline int32_t getGroupCountByType(::HoudiniEngineUnity::HAPI_GroupType type);
 
   // Ctor Parameters []

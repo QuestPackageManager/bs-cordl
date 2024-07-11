@@ -26,7 +26,7 @@ namespace System {
 class CORDL_TYPE IOSelector : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x2fa1148, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2fadb5c, size 0x4, virtual false, abstract: false, final false
   static inline void Add(::System::IntPtr handle, ::System::IOSelectorJob* job);
 
 protected:

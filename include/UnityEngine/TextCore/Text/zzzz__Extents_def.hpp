@@ -24,7 +24,7 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE Extents {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x34c1268, size 0x2ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x34d50ec, size 0x2ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []

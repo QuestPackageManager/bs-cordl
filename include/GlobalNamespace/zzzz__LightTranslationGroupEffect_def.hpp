@@ -204,7 +204,7 @@ public:
 
   constexpr void __cordl_internal_set_zTranslationLimits(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x26e2d6c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f8298, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform,
                     ::UnityEngine::Transform* zTransform, ::UnityEngine::Vector2 xTranslationLimits, ::UnityEngine::Vector2 xDistributionLimits, ::UnityEngine::Vector2 yTranslationLimits,
                     ::UnityEngine::Vector2 yDistributionLimits, ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits);
@@ -324,7 +324,7 @@ public:
 
   static inline ::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <GetTranslationEventHandler>b__0, addr 0x26e2e44, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method <GetTranslationEventHandler>b__0, addr 0x26f8370, size 0x1c4, virtual false, abstract: false, final false
   inline void _GetTranslationEventHandler_b__0(::GlobalNamespace::LightTranslationBeatmapEventData* currentEventData);
 
   constexpr ::GlobalNamespace::LightTranslationGroupEffect*& __cordl_internal_get___4__this();
@@ -357,7 +357,7 @@ public:
 
   constexpr void __cordl_internal_set_translationTween(::Tweening::FloatTween* value);
 
-  /// @brief Method .ctor, addr 0x26e2b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f8040, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -450,23 +450,23 @@ public:
   /// @brief Field _zTranslationTween, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__zTranslationTween, put = __cordl_internal_set__zTranslationTween))::Tweening::FloatTween* _zTranslationTween;
 
-  /// @brief Method Cleanup, addr 0x26e2aac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x26f7fd8, size 0x68, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method ComputeTranslation, addr 0x26e2d20, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ComputeTranslation, addr 0x26f824c, size 0x4c, virtual false, abstract: false, final false
   static inline float_t ComputeTranslation(float_t translation, ::UnityEngine::Vector2 translationLimits, float_t distribution, ::UnityEngine::Vector2 distributionLimits, bool mirrored);
 
-  /// @brief Method GetTranslationEventHandler, addr 0x26e29bc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetTranslationEventHandler, addr 0x26f7ee8, size 0xf0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataCallback_1<::GlobalNamespace::LightTranslationBeatmapEventData*>*
   GetTranslationEventHandler(::Tweening::FloatTween* translationTween, ::UnityEngine::Vector2 translationLimits, ::UnityEngine::Vector2 distributionLimits, bool mirrored);
 
   static inline ::GlobalNamespace::LightTranslationGroupEffect* New_ctor(::GlobalNamespace::__LightTranslationGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                          ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method SetTranslation, addr 0x26e2b1c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method SetTranslation, addr 0x26f8048, size 0x1c8, virtual false, abstract: false, final false
   inline void SetTranslation(float_t _);
 
-  /// @brief Method SetTweenData, addr 0x26e2ce4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetTweenData, addr 0x26f8210, size 0x3c, virtual false, abstract: false, final false
   static inline void SetTweenData(::Tweening::FloatTween* tween, float_t from, float_t to, float_t startTime, float_t endTime, ::GlobalNamespace::EaseType easeType);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -524,7 +524,7 @@ public:
 
   constexpr void __cordl_internal_set__zTranslationTween(::Tweening::FloatTween* value);
 
-  /// @brief Method .ctor, addr 0x26e1efc, size 0xac0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f7428, size 0xac0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__LightTranslationGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 

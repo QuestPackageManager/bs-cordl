@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(uint8_t)>(&::Org::BouncyCastle::Bcpg::Sig::Features::FeatureToByteArray)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x143060c;
+  constexpr static std::size_t addrs = 0x143a904;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::Features::*)(bool, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Bcpg::Sig::Features::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x1430670;
+  constexpr static std::size_t addrs = 0x143a968;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::Features::*)(bool, uint8_t)>(
     &::Org::BouncyCastle::Bcpg::Sig::Features::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x14306b8;
+  constexpr static std::size_t addrs = 0x143a9b0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Bcpg::Sig::Features::*)()>(
     &::Org::BouncyCastle::Bcpg::Sig::Features::get_SupportsModificationDetection)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x1430748;
+  constexpr static std::size_t addrs = 0x143aa40;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Bcpg::Sig::Features::*)(uint8_t)>(
     &::Org::BouncyCastle::Bcpg::Sig::Features::SupportsFeature)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x14307a8;
+  constexpr static std::size_t addrs = 0x143aaa0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::Features::*)(uint8_t, bool)>(
     &::Org::BouncyCastle::Bcpg::Sig::Features::SetSupportsFeature)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x1430820;
+  constexpr static std::size_t addrs = 0x143ab18;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

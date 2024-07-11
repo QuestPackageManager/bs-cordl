@@ -45,15 +45,15 @@ public:
   /// @brief Field _explosionParticlesCount, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__explosionParticlesCount, put = __cordl_internal_set__explosionParticlesCount)) int32_t _explosionParticlesCount;
 
-  /// @brief Method Awake, addr 0x26cdd68, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26e315c, size 0x2c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::BombExplosionEffect* New_ctor();
 
-  /// @brief Method SpawnExplosion, addr 0x26cdd94, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SpawnExplosion, addr 0x26e3188, size 0xbc, virtual false, abstract: false, final false
   inline void SpawnExplosion(::UnityEngine::Vector3 pos);
 
-  /// @brief Method SpawnExplosionWithOffset, addr 0x26cde50, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SpawnExplosionWithOffset, addr 0x26e3244, size 0x8c, virtual false, abstract: false, final false
   inline void SpawnExplosionWithOffset(::UnityEngine::Vector3 pos);
 
   constexpr int32_t const& __cordl_internal_get__debrisCount() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__explosionParticlesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26cdedc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e32d0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -38,10 +38,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction* New_ctor(int32_t targetIndex);
 
-  /// @brief Method Run, addr 0x2c34cbc, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c496d0, size 0x200, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method SetTryHandler, addr 0x2c34cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTryHandler, addr 0x2c496c8, size 0x8, virtual false, abstract: false, final false
   inline void SetTryHandler(::System::Linq::Expressions::Interpreter::TryFaultHandler* tryHandler);
 
   constexpr ::System::Linq::Expressions::Interpreter::TryFaultHandler*& __cordl_internal_get__tryHandler();
@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__tryHandler(::System::Linq::Expressions::Interpreter::TryFaultHandler* value);
 
-  /// @brief Method .ctor, addr 0x2c34c3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c49650, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t targetIndex);
 
-  /// @brief Method get_Handler, addr 0x2c34cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handler, addr 0x2c496c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::TryFaultHandler* get_Handler();
 
-  /// @brief Method get_InstructionName, addr 0x2c34c64, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c49678, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedContinuations, addr 0x2c34ca4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedContinuations, addr 0x2c496b8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedContinuations();
 
 protected:

@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithSdkAccountList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::SdkAccountList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2aea104, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2afdb18, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SdkAccountList* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetSdkAccountList, addr 0x2aea0c8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetSdkAccountList, addr 0x2afdadc, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SdkAccountList* GetSdkAccountList();
 
   static inline ::Oculus::Platform::MessageWithSdkAccountList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ae6000, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af9a14, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

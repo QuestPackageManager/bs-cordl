@@ -79,30 +79,30 @@ public:
   /// @brief Field didFinishEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action* didFinishEvent;
 
-  /// @brief Method HandleColorSchemeColorsToggleGroupSelectedColorDidChange, addr 0x274d074, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleColorSchemeColorsToggleGroupSelectedColorDidChange, addr 0x27629fc, size 0x80, virtual false, abstract: false, final false
   inline void HandleColorSchemeColorsToggleGroupSelectedColorDidChange(::UnityEngine::Color color);
 
-  /// @brief Method HandleHSVPanelControllerColorDidChange, addr 0x274d1c8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HandleHSVPanelControllerColorDidChange, addr 0x2762b50, size 0xd4, virtual false, abstract: false, final false
   inline void HandleHSVPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
 
-  /// @brief Method HandlePreviousColorPanelControllerColorWasSelected, addr 0x274d29c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method HandlePreviousColorPanelControllerColorWasSelected, addr 0x2762c24, size 0xbc, virtual false, abstract: false, final false
   inline void HandlePreviousColorPanelControllerColorWasSelected(::UnityEngine::Color color);
 
-  /// @brief Method HandleRGBPanelControllerColorDidChange, addr 0x274d0f4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HandleRGBPanelControllerColorDidChange, addr 0x2762a7c, size 0xd4, virtual false, abstract: false, final false
   inline void HandleRGBPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
 
   static inline ::GlobalNamespace::EditColorSchemeController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x274ce9c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2762824, size 0x1d8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetColorScheme, addr 0x274cb50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetColorScheme, addr 0x27624d8, size 0x18, virtual false, abstract: false, final false
   inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
-  /// @brief Method Start, addr 0x274cc0c, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2762594, size 0x290, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <Start>b__13_0, addr 0x274d360, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__13_0, addr 0x2762ce8, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__13_0();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
@@ -153,19 +153,19 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x274d358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2762ce0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeColorSchemeEvent, addr 0x274c0d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeColorSchemeEvent, addr 0x2761a60, size 0xb0, virtual false, abstract: false, final false
   inline void add_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x274c03c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x27619c4, size 0x9c, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangeColorSchemeEvent, addr 0x274c460, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeColorSchemeEvent, addr 0x2761de8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x274c3c4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x2761d4c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
 protected:

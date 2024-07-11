@@ -38,10 +38,10 @@ public:
   /// @brief Field name, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
-  /// @brief Method Equals, addr 0x27ec6bc, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x27ff0d0, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x27ec8e8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x27ff2fc, size 0x38, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Security::NamedPermissionSet* New_ctor();
@@ -50,7 +50,7 @@ public:
 
   static inline ::System::Security::NamedPermissionSet* New_ctor(::StringW name, ::System::Security::Permissions::PermissionState state);
 
-  /// @brief Method ToXml, addr 0x27ec1c8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToXml, addr 0x27febdc, size 0x98, virtual true, abstract: false, final false
   inline ::System::Security::SecurityElement* ToXml();
 
   constexpr ::StringW const& __cordl_internal_get_description() const;
@@ -65,19 +65,19 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x27ebf88, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fe99c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x27ec1b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27febcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x27ec048, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fea5c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Security::Permissions::PermissionState state);
 
-  /// @brief Method get_Name, addr 0x27ec1c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x27febd4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name, addr 0x27ec0f8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x27feb0c, size 0xc0, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:

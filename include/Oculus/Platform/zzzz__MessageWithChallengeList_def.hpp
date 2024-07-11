@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithChallengeList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ChallengeList*> {
 public:
   // Declarations
-  /// @brief Method GetChallengeList, addr 0x2ae7e48, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetChallengeList, addr 0x2afb85c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ChallengeList* GetChallengeList();
 
-  /// @brief Method GetDataFromMessage, addr 0x2ae7e84, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2afb898, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ChallengeList* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithChallengeList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ae56b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af90cc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

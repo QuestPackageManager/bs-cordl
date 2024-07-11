@@ -57,42 +57,42 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableBehaviour"
   constexpr operator ::UnityEngine::Playables::IPlayableBehaviour*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x33c8e14, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x33d7c98, size 0xa4, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner);
 
   static inline ::UnityEngine::Timeline::BasicPlayableBehaviour* New_ctor();
 
-  /// @brief Method OnBehaviourPause, addr 0x33c8e08, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x33d7c8c, size 0x4, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay, addr 0x33c8e04, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x33d7c88, size 0x4, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnGraphStart, addr 0x33c8df4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x33d7c78, size 0x4, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnGraphStop, addr 0x33c8df8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStop, addr 0x33d7c7c, size 0x4, virtual true, abstract: false, final false
   inline void OnGraphStop(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableCreate, addr 0x33c8dfc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableCreate, addr 0x33d7c80, size 0x4, virtual true, abstract: false, final false
   inline void OnPlayableCreate(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x33c8e00, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x33d7c84, size 0x4, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method PrepareFrame, addr 0x33c8e0c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x33d7c90, size 0x4, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame, addr 0x33c8e10, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x33d7c94, size 0x4, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method .ctor, addr 0x33c8eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d7d3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_duration, addr 0x33c8d44, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_duration, addr 0x33d7bc8, size 0x58, virtual true, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_outputs, addr 0x33c8d9c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x33d7c20, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableAsset"

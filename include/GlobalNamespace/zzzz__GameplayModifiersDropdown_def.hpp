@@ -61,10 +61,10 @@ public:
 
   static inline ::GlobalNamespace::__GameplayModifiersDropdown____c* New_ctor();
 
-  /// @brief Method <Start>b__8_0, addr 0x26469dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__8_0, addr 0x265a2fc, size 0x44, virtual false, abstract: false, final false
   inline ::StringW _Start_b__8_0(::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>* x);
 
-  /// @brief Method .ctor, addr 0x26469d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265a2f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__GameplayModifiersDropdown____c* getStaticF___9();
@@ -121,24 +121,24 @@ public:
 
   __declspec(property(get = get_gameplayModifiersData))::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>* gameplayModifiersData;
 
-  /// @brief Method GetIdxForGameplayModifierMask, addr 0x2646660, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetIdxForGameplayModifierMask, addr 0x2659f80, size 0x184, virtual false, abstract: false, final false
   inline int32_t GetIdxForGameplayModifierMask(::GlobalNamespace::GameplayModifierMask gameplayModifierMask);
 
-  /// @brief Method GetSelectedGameplayModifierMask, addr 0x2646560, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedGameplayModifierMask, addr 0x2659e80, size 0xd0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifierMask GetSelectedGameplayModifierMask();
 
-  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x26467e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x265a104, size 0x24, virtual false, abstract: false, final false
   inline void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
   static inline ::GlobalNamespace::GameplayModifiersDropdown* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x264648c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2659dac, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SelectCellWithGameplayModifierMask, addr 0x2646630, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithGameplayModifierMask, addr 0x2659f50, size 0x30, virtual false, abstract: false, final false
   inline void SelectCellWithGameplayModifierMask(::GlobalNamespace::GameplayModifierMask gameplayModifierMask);
 
-  /// @brief Method Start, addr 0x26462ec, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2659c0c, size 0x1a0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>*& __cordl_internal_get__gameplayModifiersData();
@@ -166,19 +166,19 @@ public:
 
   constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x2646808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265a128, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_gameplayModifiersData>b__7_0, addr 0x2646810, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method <get_gameplayModifiersData>b__7_0, addr 0x265a130, size 0x160, virtual false, abstract: false, final false
   inline ::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>* _get_gameplayModifiersData_b__7_0(::GlobalNamespace::GameplayModifierMask value);
 
-  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x2645fcc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x26598ec, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method get_gameplayModifiersData, addr 0x264612c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiersData, addr 0x2659a4c, size 0x1c0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>* get_gameplayModifiersData();
 
-  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x264607c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x265999c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
 protected:

@@ -49,15 +49,15 @@ public:
   /// @brief Field _stringBuilder, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder))::System::Text::StringBuilder* _stringBuilder;
 
-  /// @brief Method HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange, addr 0x26f799c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange, addr 0x270be90, size 0x4, virtual false, abstract: false, final false
   inline void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange();
 
   static inline ::GlobalNamespace::ImmediateRankUIPanel* New_ctor();
 
-  /// @brief Method RefreshUI, addr 0x26f7794, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x270bc88, size 0x16c, virtual false, abstract: false, final false
   inline void RefreshUI();
 
-  /// @brief Method Start, addr 0x26f76d0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x270bbc4, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::__RankModel__Rank const& __cordl_internal_get__prevImmediateRank() const;
@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x26f79a0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270be94, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

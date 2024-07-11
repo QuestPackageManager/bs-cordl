@@ -31,26 +31,26 @@ public:
   /// @brief Field s_Collector, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Collector, put = setStaticF_s_Collector))::UnityW<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector> s_Collector;
 
-  /// @brief Method FindOrCreateGlobalInstance, addr 0x333bcb0, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method FindOrCreateGlobalInstance, addr 0x334ab34, size 0x1c8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector> FindOrCreateGlobalInstance();
 
   static inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* New_ctor();
 
-  /// @brief Method PostEvent, addr 0x333bed8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method PostEvent, addr 0x334ad5c, size 0x80, virtual false, abstract: false, final false
   inline void PostEvent(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
 
-  /// @brief Method RegisterEventHandler, addr 0x333be78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RegisterEventHandler, addr 0x334acfc, size 0xc, virtual false, abstract: false, final false
   static inline bool RegisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler, bool _cordl_register, bool create);
 
-  /// @brief Method UnregisterEventHandler, addr 0x333be84, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method UnregisterEventHandler, addr 0x334ad08, size 0x54, virtual false, abstract: false, final false
   inline void UnregisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
 
-  /// @brief Method .ctor, addr 0x333bf58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334addc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector> getStaticF_s_Collector();
 
-  /// @brief Method get_PlayerConnectionGuid, addr 0x333bcac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_PlayerConnectionGuid, addr 0x334ab30, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Guid get_PlayerConnectionGuid();
 
   static inline void setStaticF_s_Collector(::UnityW<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector> value);

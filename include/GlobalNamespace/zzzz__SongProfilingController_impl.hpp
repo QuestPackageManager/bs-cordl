@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8::*)(int32_t)>(
     &::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2623db0;
+  constexpr static std::size_t addrs = 0x2638098;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8::*)()>(
     &::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2624038;
+  constexpr static std::size_t addrs = 0x2638320;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8::*)()>(
     &::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x262403c;
+  constexpr static std::size_t addrs = 0x2638324;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8::*)()>(
     &::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26242ec;
+  constexpr static std::size_t addrs = 0x26385d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8::*)()>(
     &::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26242f4;
+  constexpr static std::size_t addrs = 0x26385dc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8::*)()>(
     &::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2624334;
+  constexpr static std::size_t addrs = 0x263861c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongProfilingController::*)()>(
     &::GlobalNamespace::SongProfilingController::FinishProfiling)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2623b88;
+  constexpr static std::size_t addrs = 0x2637e70;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongProfilingController*>::get(),
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongProfilingController::*)()>(&::GlobalNamespace::SongProfilingController::Start)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2623c24;
+  constexpr static std::size_t addrs = 0x2637f0c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongProfilingController*>::get(), "Start",
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongProfilingController::*)()>(&::GlobalNamespace::SongProfilingController::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2623dac;
+  constexpr static std::size_t addrs = 0x2638094;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongProfilingController*>::get(), "OnDestroy",
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SongProfilingController::*)(::StringW)>(
     &::GlobalNamespace::SongProfilingController::ProfileCoroutine)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2623d38;
+  constexpr static std::size_t addrs = 0x2638020;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongProfilingController::*)(::StringW)>(
     &::GlobalNamespace::SongProfilingController::CreateCaptureFolder)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2623cb8;
+  constexpr static std::size_t addrs = 0x2637fa0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongProfilingController::*)()>(&::GlobalNamespace::SongProfilingController::SetupProfiler)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2623d2c;
+  constexpr static std::size_t addrs = 0x2638014;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongProfilingController*>::get(),
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SongProfilingController::*)(::StringW, float_t)>(
     &::GlobalNamespace::SongProfilingController::CreateLogPath)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x2623dd8;
+  constexpr static std::size_t addrs = 0x26380c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongProfilingController::*)(::StringW)>(
     &::GlobalNamespace::SongProfilingController::StartProfilingToFile)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2623f24;
+  constexpr static std::size_t addrs = 0x263820c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -379,7 +379,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongProfilingController::*)()>(&::GlobalNamespace::SongProfilingController::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2623fe0;
+  constexpr static std::size_t addrs = 0x26382c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongProfilingController*>::get(), ".ctor",

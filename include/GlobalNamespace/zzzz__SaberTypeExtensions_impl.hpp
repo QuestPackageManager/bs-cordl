@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::SaberType, ::GlobalNamespace::ColorType)>(
     &::GlobalNamespace::SaberTypeExtensions::MatchesColorType)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x150ab28;
+  constexpr static std::size_t addrs = 0x15158a0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::XRNode (*)(::GlobalNamespace::SaberType)>(&::GlobalNamespace::SaberTypeExtensions::Node)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x150d2ac;
+  constexpr static std::size_t addrs = 0x1518024;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SaberType (*)(bool)>(&::GlobalNamespace::SaberTypeExtensions::MainSaber)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x150d2bc;
+  constexpr static std::size_t addrs = 0x1518034;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SaberType (*)(::GlobalNamespace::ColorType)>(
     &::GlobalNamespace::SaberTypeExtensions::ToSaberType)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x150d2c8;
+  constexpr static std::size_t addrs = 0x1518040;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorType (*)(::GlobalNamespace::SaberType)>(
     &::GlobalNamespace::SaberTypeExtensions::ToColorType)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x150d350;
+  constexpr static std::size_t addrs = 0x15180c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

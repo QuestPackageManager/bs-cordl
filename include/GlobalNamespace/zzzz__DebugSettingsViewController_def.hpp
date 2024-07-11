@@ -40,22 +40,22 @@ public:
   /// @brief Field _showBeatmapLevelVersions, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__showBeatmapLevelVersions, put = __cordl_internal_set__showBeatmapLevelVersions))::UnityW<::UnityEngine::UI::Toggle> _showBeatmapLevelVersions;
 
-  /// @brief Method DidActivate, addr 0x2678904, size 0x290, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x268c26c, size 0x290, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x2678b94, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x268c4fc, size 0x70, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleFpsCounterChanged, addr 0x2678c04, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleFpsCounterChanged, addr 0x268c56c, size 0x6c, virtual false, abstract: false, final false
   inline void HandleFpsCounterChanged(bool newValue);
 
-  /// @brief Method HandleFpsRecorderChanged, addr 0x2678c70, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleFpsRecorderChanged, addr 0x268c5d8, size 0x6c, virtual false, abstract: false, final false
   inline void HandleFpsRecorderChanged(bool newValue);
 
-  /// @brief Method HandleMemoryTrackerChanged, addr 0x2678cdc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleMemoryTrackerChanged, addr 0x268c644, size 0x6c, virtual false, abstract: false, final false
   inline void HandleMemoryTrackerChanged(bool newValue);
 
-  /// @brief Method HandleShowBeatmapLevelVersionsChanged, addr 0x2678d48, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleShowBeatmapLevelVersionsChanged, addr 0x268c6b0, size 0x6c, virtual false, abstract: false, final false
   inline void HandleShowBeatmapLevelVersionsChanged(bool newValue);
 
   static inline ::GlobalNamespace::DebugSettingsViewController* New_ctor();
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__showBeatmapLevelVersions(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x2678db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268c71c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

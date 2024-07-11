@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::AsyncVoidMethodBuilder (*)()>(
     &::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::Create)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28768b0;
+  constexpr static std::size_t addrs = 0x288b2c4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28768f0;
+  constexpr static std::size_t addrs = 0x288b304;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::*)()>(
     &::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::SetResult)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x28769c0;
+  constexpr static std::size_t addrs = 0x288b3d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::*)(::System::Exception*)>(
     &::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::SetException)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x2876b2c;
+  constexpr static std::size_t addrs = 0x288b540;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::*)()>(
     &::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::NotifySynchronizationContextOfCompletion)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2876a88;
+  constexpr static std::size_t addrs = 0x288b49c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::*)()>(
     &::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::get_Task)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2876a1c;
+  constexpr static std::size_t addrs = 0x288b430;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

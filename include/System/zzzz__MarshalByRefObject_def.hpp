@@ -36,10 +36,10 @@ public:
   /// @brief Field _identity, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__identity, put = __cordl_internal_set__identity))::System::Object* _identity;
 
-  /// @brief Method CreateObjRef, addr 0x299aa28, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method CreateObjRef, addr 0x29b043c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
 
-  /// @brief Method InitializeLifetimeService, addr 0x299aa68, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method InitializeLifetimeService, addr 0x29b047c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* InitializeLifetimeService();
 
   static inline ::System::MarshalByRefObject* New_ctor();
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__identity(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x29942a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a9cb8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ObjectIdentity, addr 0x299a9a8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectIdentity, addr 0x29b03bc, size 0x40, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::ServerIdentity* get_ObjectIdentity();
 
-  /// @brief Method set_ObjectIdentity, addr 0x299a9e8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectIdentity, addr 0x29b03fc, size 0x40, virtual false, abstract: false, final false
   inline void set_ObjectIdentity(::System::Runtime::Remoting::ServerIdentity* value);
 
 protected:

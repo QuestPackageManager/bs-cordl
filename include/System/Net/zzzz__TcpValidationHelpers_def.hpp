@@ -20,7 +20,7 @@ namespace System::Net {
 class CORDL_TYPE TcpValidationHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValidatePortNumber, addr 0x2fdcaa0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ValidatePortNumber, addr 0x2feb4b4, size 0xc, virtual false, abstract: false, final false
   static inline bool ValidatePortNumber(int32_t port);
 
 protected:

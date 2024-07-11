@@ -39,12 +39,12 @@ public:
   /// @brief Field iface_path, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_iface_path, put = __cordl_internal_set_iface_path))::StringW iface_path;
 
-  /// @brief Method GetIPProperties, addr 0x30424dc, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetIPProperties, addr 0x3051ef0, size 0x74, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
   static inline ::System::Net::NetworkInformation::LinuxNetworkInterface* New_ctor(::StringW name);
 
-  /// @brief Method ReadLine, addr 0x304280c, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x3052220, size 0x2ec, virtual false, abstract: false, final false
   static inline ::StringW ReadLine(::StringW path);
 
   constexpr ::StringW const& __cordl_internal_get_iface_flags_path() const;
@@ -65,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set_iface_path(::StringW value);
 
-  /// @brief Method .ctor, addr 0x30423f4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3051e08, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_IfacePath, addr 0x30424d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IfacePath, addr 0x3051ee8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_IfacePath();
 
-  /// @brief Method get_OperationalStatus, addr 0x3042550, size 0x2bc, virtual true, abstract: false, final false
+  /// @brief Method get_OperationalStatus, addr 0x3051f64, size 0x2bc, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
 protected:

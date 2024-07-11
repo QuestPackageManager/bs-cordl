@@ -34,14 +34,14 @@ public:
   /// @brief Field information, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_information, put = __cordl_internal_set_information))::Org::BouncyCastle::Asn1::X500::DirectoryString* information;
 
-  /// @brief Method GetInstance, addr 0x11db830, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11e6b28, size 0x158, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* information);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* New_ctor(::StringW information);
 
-  /// @brief Method ToAsn1Object, addr 0x11dba34, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11e6d2c, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_information();
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set_information(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  /// @brief Method .ctor, addr 0x11db988, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e6c80, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* information);
 
-  /// @brief Method .ctor, addr 0x11db9b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e6ca8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW information);
 
-  /// @brief Method get_Information, addr 0x11dba2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Information, addr 0x11e6d24, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Information();
 
 protected:

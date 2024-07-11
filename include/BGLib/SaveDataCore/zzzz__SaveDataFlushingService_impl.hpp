@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::SaveDataCore::__SaveDataFlushingService___FlushSaveFilesAsync_d__3::*)()>(
     &::BGLib::SaveDataCore::__SaveDataFlushingService___FlushSaveFilesAsync_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x640;
-  constexpr static std::size_t addrs = 0x1088314;
+  constexpr static std::size_t addrs = 0x109460c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::SaveDataCore::__SaveDataFlushingService___FlushSaveFilesAsync_d__3::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::SaveDataCore::__SaveDataFlushingService___FlushSaveFilesAsync_d__3::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x1088960;
+  constexpr static std::size_t addrs = 0x1094c58;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::SaveDataCore::__SaveDataFlushingService___ResetChangesAsync_d__4::*)()>(
     &::BGLib::SaveDataCore::__SaveDataFlushingService___ResetChangesAsync_d__4::MoveNext)> {
   constexpr static std::size_t size = 0x590;
-  constexpr static std::size_t addrs = 0x10889b8;
+  constexpr static std::size_t addrs = 0x1094cb0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::SaveDataCore::__SaveDataFlushingService___ResetChangesAsync_d__4::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::SaveDataCore::__SaveDataFlushingService___ResetChangesAsync_d__4::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x1088f48;
+  constexpr static std::size_t addrs = 0x1095240;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::SaveDataCore::SaveDataFlushingService::*)(::BGLib::SaveDataCore::ISaveDataHandler*)>(
     &::BGLib::SaveDataCore::SaveDataFlushingService::Register)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x1087efc;
+  constexpr static std::size_t addrs = 0x10941f4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BGLib::SaveDataCore::SaveDataFlushingService::*)()>(
     &::BGLib::SaveDataCore::SaveDataFlushingService::FlushSaveFilesAsync)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x1087fa4;
+  constexpr static std::size_t addrs = 0x109429c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::SaveDataCore::SaveDataFlushingService*>::get(),
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BGLib::SaveDataCore::SaveDataFlushingService::*)()>(
     &::BGLib::SaveDataCore::SaveDataFlushingService::ResetChangesAsync)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x10880a4;
+  constexpr static std::size_t addrs = 0x109439c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::SaveDataCore::SaveDataFlushingService*>::get(),
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::SaveDataCore::SaveDataFlushingService::*)(::UnityEngine::Object*)>(
     &::BGLib::SaveDataCore::SaveDataFlushingService::TrackSaveBlocker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x10881a4;
+  constexpr static std::size_t addrs = 0x109449c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::SaveDataCore::SaveDataFlushingService::*)(::UnityEngine::Object*)>(
     &::BGLib::SaveDataCore::SaveDataFlushingService::ReleaseSaveBlocker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x10881fc;
+  constexpr static std::size_t addrs = 0x10944f4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::SaveDataCore::SaveDataFlushingService::*)()>(&::BGLib::SaveDataCore::SaveDataFlushingService::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x1088254;
+  constexpr static std::size_t addrs = 0x109454c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::SaveDataCore::SaveDataFlushingService*>::get(), ".ctor",

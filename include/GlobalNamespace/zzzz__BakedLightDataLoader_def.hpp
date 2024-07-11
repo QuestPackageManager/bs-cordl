@@ -42,10 +42,10 @@ public:
 
   static inline ::GlobalNamespace::BakedLightDataLoader* New_ctor();
 
-  /// @brief Method SetTextureDataToShaders, addr 0x2697d10, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetTextureDataToShaders, addr 0x26abcec, size 0x13c, virtual false, abstract: false, final false
   inline void SetTextureDataToShaders();
 
-  /// @brief Method Start, addr 0x2697c58, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26abc34, size 0xb8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__blackTexture() const;
@@ -60,21 +60,21 @@ public:
 
   constexpr void __cordl_internal_set__lightmapData(::UnityW<::GlobalNamespace::LightmapDataSO> value);
 
-  /// @brief Method .ctor, addr 0x2697e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26abe28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__lightMap1PropertyId();
 
   static inline int32_t getStaticF__lightMap2PropertyId();
 
-  /// @brief Method get_lightmapData, addr 0x2697c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapData, addr 0x26abc24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightmapDataSO> get_lightmapData();
 
   static inline void setStaticF__lightMap1PropertyId(int32_t value);
 
   static inline void setStaticF__lightMap2PropertyId(int32_t value);
 
-  /// @brief Method set_lightmapData, addr 0x2697c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightmapData, addr 0x26abc2c, size 0x8, virtual false, abstract: false, final false
   inline void set_lightmapData(::GlobalNamespace::LightmapDataSO* value);
 
 protected:

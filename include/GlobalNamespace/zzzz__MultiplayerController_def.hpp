@@ -242,21 +242,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2721e34, size 0x834, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x27375d8, size 0x834, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__MultiplayerController___PerformSongStartSync_d__39* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x27234c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2738c68, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x27234cc, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2738c70, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x272350c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2738cb0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2721e30, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x27375d4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -283,7 +283,7 @@ public:
 
   constexpr void __cordl_internal_set_localPlayerSyncState(::GlobalNamespace::MultiplayerPlayerStartState value);
 
-  /// @brief Method .ctor, addr 0x271fcb4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2735458, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -351,7 +351,7 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerController____c__DisplayClass45_0* New_ctor();
 
-  /// @brief Method <HandleSongStartSyncControllerSyncStartSuccess>b__0, addr 0x2723514, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <HandleSongStartSyncControllerSyncStartSuccess>b__0, addr 0x2738cb8, size 0x20, virtual false, abstract: false, final false
   inline void _HandleSongStartSyncControllerSyncStartSuccess_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get___4__this() const;
@@ -366,7 +366,7 @@ public:
 
   constexpr void __cordl_internal_set_introAnimationStartSyncTime(int64_t value);
 
-  /// @brief Method .ctor, addr 0x27205d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2735d78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -415,10 +415,10 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerController____c* New_ctor();
 
-  /// @brief Method <EndGameplay>b__50_0, addr 0x27235a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <EndGameplay>b__50_0, addr 0x2738d44, size 0x20, virtual false, abstract: false, final false
   inline bool _EndGameplay_b__50_0(::GlobalNamespace::MultiplayerLevelCompletionResults* result);
 
-  /// @brief Method .ctor, addr 0x2723598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2738d3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__MultiplayerController____c* getStaticF___9();
@@ -549,80 +549,80 @@ public:
   __declspec(property(get = __cordl_internal_get_stateChangedEvent,
                       put = __cordl_internal_set_stateChangedEvent))::System::Action_1<::GlobalNamespace::__MultiplayerController__State>* stateChangedEvent;
 
-  /// @brief Method ChangeState, addr 0x271f1cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ChangeState, addr 0x2734970, size 0x20, virtual false, abstract: false, final false
   inline void ChangeState(::GlobalNamespace::__MultiplayerController__State newState);
 
-  /// @brief Method CreateAndBindPlayersSpecificSettingsAtGameStartModel, addr 0x271ed74, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method CreateAndBindPlayersSpecificSettingsAtGameStartModel, addr 0x2734518, size 0x458, virtual false, abstract: false, final false
   inline void CreateAndBindPlayersSpecificSettingsAtGameStartModel();
 
-  /// @brief Method EndGameplay, addr 0x27200fc, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method EndGameplay, addr 0x27358a0, size 0x274, virtual false, abstract: false, final false
   inline void EndGameplay(::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults,
                           ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayerResults);
 
-  /// @brief Method GetCurrentSongTime, addr 0x271fe74, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentSongTime, addr 0x2735618, size 0xc0, virtual false, abstract: false, final false
   inline float_t GetCurrentSongTime(int64_t songStartSyncTime);
 
-  /// @brief Method GetSongStartSyncTime, addr 0x271fe4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetSongStartSyncTime, addr 0x27355f0, size 0x28, virtual false, abstract: false, final false
   inline int64_t GetSongStartSyncTime(int64_t introAnimationStartSyncTime);
 
-  /// @brief Method HandleAllResultsCollected, addr 0x2721a44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleAllResultsCollected, addr 0x27371e8, size 0x4, virtual false, abstract: false, final false
   inline void HandleAllResultsCollected(::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults,
                                         ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayerResults);
 
-  /// @brief Method HandleDidSwitchPlayerToInactive, addr 0x271fcdc, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSwitchPlayerToInactive, addr 0x2735480, size 0x170, virtual false, abstract: false, final false
   inline void HandleDidSwitchPlayerToInactive();
 
-  /// @brief Method HandleDisconnected, addr 0x271f878, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleDisconnected, addr 0x273501c, size 0x54, virtual false, abstract: false, final false
   inline void HandleDisconnected(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method HandleInitialGetGameStateFailed, addr 0x271ff84, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleInitialGetGameStateFailed, addr 0x2735728, size 0xc0, virtual false, abstract: false, final false
   inline void HandleInitialGetGameStateFailed();
 
-  /// @brief Method HandleIsDisconnectedDuringLoading, addr 0x271f870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleIsDisconnectedDuringLoading, addr 0x2735014, size 0x8, virtual false, abstract: false, final false
   inline void HandleIsDisconnectedDuringLoading();
 
-  /// @brief Method HandleOutroAnimationDidFinish, addr 0x2721c08, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method HandleOutroAnimationDidFinish, addr 0x27373ac, size 0x48, virtual false, abstract: false, final false
   inline void HandleOutroAnimationDidFinish();
 
-  /// @brief Method HandleRpcReturnToMenu, addr 0x2721c50, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method HandleRpcReturnToMenu, addr 0x27373f4, size 0x188, virtual false, abstract: false, final false
   inline void HandleRpcReturnToMenu(::StringW userId);
 
-  /// @brief Method HandleSceneStartSyncControllerSyncStartDidFail, addr 0x2720060, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HandleSceneStartSyncControllerSyncStartDidFail, addr 0x2735804, size 0x9c, virtual false, abstract: false, final false
   inline void HandleSceneStartSyncControllerSyncStartDidFail();
 
-  /// @brief Method HandleSceneStartSyncControllerSyncStartDidReceiveTooLate, addr 0x271ff5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleSceneStartSyncControllerSyncStartDidReceiveTooLate, addr 0x2735700, size 0x28, virtual false, abstract: false, final false
   inline void HandleSceneStartSyncControllerSyncStartDidReceiveTooLate(::StringW sessionGameId);
 
-  /// @brief Method HandleSceneStartSyncControllerSyncStartDidSuccess, addr 0x271ff34, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleSceneStartSyncControllerSyncStartDidSuccess, addr 0x27356d8, size 0x28, virtual false, abstract: false, final false
   inline void HandleSceneStartSyncControllerSyncStartDidSuccess(::StringW sessionGameId);
 
-  /// @brief Method HandleSetMultiplayerGameState, addr 0x271f8cc, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method HandleSetMultiplayerGameState, addr 0x2735070, size 0x1f8, virtual false, abstract: false, final false
   inline void HandleSetMultiplayerGameState(::StringW userId, ::GlobalNamespace::MultiplayerGameState gameState);
 
-  /// @brief Method HandleSongStartSyncControllerSyncResume, addr 0x2721460, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method HandleSongStartSyncControllerSyncResume, addr 0x2736c04, size 0x4e0, virtual false, abstract: false, final false
   inline void HandleSongStartSyncControllerSyncResume(int64_t introAnimationStartSyncTime);
 
-  /// @brief Method HandleSongStartSyncControllerSyncStartFailed, addr 0x27219a8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HandleSongStartSyncControllerSyncStartFailed, addr 0x273714c, size 0x9c, virtual false, abstract: false, final false
   inline void HandleSongStartSyncControllerSyncStartFailed();
 
-  /// @brief Method HandleSongStartSyncControllerSyncStartSuccess, addr 0x2720370, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method HandleSongStartSyncControllerSyncStartSuccess, addr 0x2735b14, size 0x264, virtual false, abstract: false, final false
   inline void HandleSongStartSyncControllerSyncStartSuccess(int64_t introAnimationStartSyncTime);
 
   static inline ::GlobalNamespace::MultiplayerController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x271f1ec, size 0x5e8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2734990, size 0x5e8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PerformSongStartSync, addr 0x271fc3c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method PerformSongStartSync, addr 0x27353e0, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PerformSongStartSync(::GlobalNamespace::MultiplayerPlayerStartState localPlayerSyncState);
 
-  /// @brief Method Start, addr 0x271e91c, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x27340c0, size 0x458, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartGameplay, addr 0x2720be0, size 0x880, virtual false, abstract: false, final false
+  /// @brief Method StartGameplay, addr 0x2736384, size 0x880, virtual false, abstract: false, final false
   inline void StartGameplay(int64_t introAnimationStartSyncTime);
 
-  /// @brief Method StartSceneLoadSync, addr 0x271fac4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method StartSceneLoadSync, addr 0x2735268, size 0x178, virtual false, abstract: false, final false
   inline void StartSceneLoadSync();
 
   constexpr ::GlobalNamespace::MultiplayerBadgesProvider*& __cordl_internal_get__badgesProvider();
@@ -769,16 +769,16 @@ public:
 
   constexpr void __cordl_internal_set_stateChangedEvent(::System::Action_1<::GlobalNamespace::__MultiplayerController__State>* value);
 
-  /// @brief Method .ctor, addr 0x2721dd8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273757c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_stateChangedEvent, addr 0x271e7bc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_stateChangedEvent, addr 0x2733f60, size 0xb0, virtual false, abstract: false, final false
   inline void add_stateChangedEvent(::System::Action_1<::GlobalNamespace::__MultiplayerController__State>* value);
 
-  /// @brief Method get_state, addr 0x271e7b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x2733f58, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MultiplayerController__State get_state();
 
-  /// @brief Method remove_stateChangedEvent, addr 0x271e86c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_stateChangedEvent, addr 0x2734010, size 0xb0, virtual false, abstract: false, final false
   inline void remove_stateChangedEvent(::System::Action_1<::GlobalNamespace::__MultiplayerController__State>* value);
 
 protected:

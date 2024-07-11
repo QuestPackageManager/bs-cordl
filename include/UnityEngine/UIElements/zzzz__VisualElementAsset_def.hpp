@@ -99,19 +99,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IUxmlAttributes"
   constexpr operator ::UnityEngine::UIElements::IUxmlAttributes*() noexcept;
 
-  /// @brief Method AddProperty, addr 0x3594ff8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AddProperty, addr 0x35abe7c, size 0x4, virtual false, abstract: false, final false
   inline void AddProperty(::StringW propertyName, ::StringW propertyValue);
 
-  /// @brief Method OnAfterDeserialize, addr 0x3594e70, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x35abcf4, size 0x188, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x3594e6c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x35abcf0, size 0x4, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method SetOrAddProperty, addr 0x3594ffc, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method SetOrAddProperty, addr 0x35abe80, size 0x210, virtual false, abstract: false, final false
   inline void SetOrAddProperty(::StringW propertyName, ::StringW propertyValue);
 
-  /// @brief Method TryGetAttributeValue, addr 0x359520c, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method TryGetAttributeValue, addr 0x35ac090, size 0xd0, virtual true, abstract: false, final true
   inline bool TryGetAttributeValue(::StringW propertyName, ByRef<::StringW> value);
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_Classes() const;
@@ -186,34 +186,34 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::StringW value);
 
-  /// @brief Method get_classes, addr 0x35939f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_classes, addr 0x35aa874, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_classes();
 
-  /// @brief Method get_fullTypeName, addr 0x35937ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullTypeName, addr 0x35aa670, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_fullTypeName();
 
-  /// @brief Method get_hasStylesheetPaths, addr 0x35939f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasStylesheetPaths, addr 0x35aa87c, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasStylesheetPaths();
 
-  /// @brief Method get_hasStylesheets, addr 0x3593a88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasStylesheets, addr 0x35aa90c, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasStylesheets();
 
-  /// @brief Method get_id, addr 0x3592658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x35a94dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_orderInDocument, addr 0x3593568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_orderInDocument, addr 0x35aa3ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_orderInDocument();
 
-  /// @brief Method get_parentId, addr 0x359242c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentId, addr 0x35a92b0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_parentId();
 
-  /// @brief Method get_ruleIndex, addr 0x3593524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ruleIndex, addr 0x35aa3a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ruleIndex();
 
-  /// @brief Method get_stylesheetPaths, addr 0x3593a08, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_stylesheetPaths, addr 0x35aa88c, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_stylesheetPaths();
 
-  /// @brief Method get_stylesheets, addr 0x3593a98, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_stylesheets, addr 0x35aa91c, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_stylesheets();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"

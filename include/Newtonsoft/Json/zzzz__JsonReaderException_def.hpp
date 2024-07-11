@@ -51,13 +51,13 @@ public:
   /// @brief Field <Path>k__BackingField, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__Path_k__BackingField, put = __cordl_internal_set__Path_k__BackingField))::StringW _Path_k__BackingField;
 
-  /// @brief Method Create, addr 0x29e9c88, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x29fe69c, size 0x200, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonReaderException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message, ::System::Exception* ex);
 
-  /// @brief Method Create, addr 0x29e54e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x29f9ef8, size 0x8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonReaderException* Create(::Newtonsoft::Json::JsonReader* reader, ::StringW message);
 
-  /// @brief Method Create, addr 0x29e5a48, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x29fa45c, size 0x88, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonReaderException* Create(::Newtonsoft::Json::JsonReader* reader, ::StringW message, ::System::Exception* ex);
 
   static inline ::Newtonsoft::Json::JsonReaderException* New_ctor();
@@ -88,28 +88,28 @@ public:
 
   constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29e9c3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29fe650, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x29e9c48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29fe65c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x29e9c40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29fe654, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x29e9c44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29fe658, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x29e9c4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29fe660, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW path, int32_t lineNumber, int32_t linePosition, ::System::Exception* innerException);
 
-  /// @brief Method get_LineNumber, addr 0x29e9c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x29fe638, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x29e9c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x29fe640, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_Path, addr 0x29e9c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x29fe648, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
 protected:

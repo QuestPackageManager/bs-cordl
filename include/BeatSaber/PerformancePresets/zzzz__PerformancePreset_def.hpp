@@ -304,76 +304,76 @@ public:
 
   constexpr void __cordl_internal_set__vrResolutionScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x106d4b4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1074150, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_antiAliasingLevel, addr 0x106d5b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_antiAliasingLevel, addr 0x1074250, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_antiAliasingLevel();
 
-  /// @brief Method get_bloomPrePassTextureEffect, addr 0x106d5e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bloomPrePassTextureEffect, addr 0x1074280, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::PerformancePresets::BloomPrepassTextureEffectPreset get_bloomPrePassTextureEffect();
 
-  /// @brief Method get_burnMarkTrails, addr 0x106d5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_burnMarkTrails, addr 0x1074298, size 0x8, virtual false, abstract: false, final false
   inline bool get_burnMarkTrails();
 
-  /// @brief Method get_dataVersion, addr 0x106d584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataVersion, addr 0x1074220, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_dataVersion();
 
-  /// @brief Method get_defaultAudioLatency, addr 0x106d61c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultAudioLatency, addr 0x10742b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_defaultAudioLatency();
 
-  /// @brief Method get_depthTexture, addr 0x106d5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthTexture, addr 0x1074290, size 0x8, virtual false, abstract: false, final false
   inline bool get_depthTexture();
 
-  /// @brief Method get_environmentOverrides, addr 0x106d634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentOverrides, addr 0x10742d0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::BeatSaber::PerformancePresets::EnvironmentOverride*, ::Array<::BeatSaber::PerformancePresets::EnvironmentOverride*>*> get_environmentOverrides();
 
-  /// @brief Method get_mainEffectGraphics, addr 0x106d5dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainEffectGraphics, addr 0x1074278, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::PerformancePresets::MainEffectPreset get_mainEffectGraphics();
 
-  /// @brief Method get_maxNumberOfCutSoundEffects, addr 0x106d614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxNumberOfCutSoundEffects, addr 0x10742b0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxNumberOfCutSoundEffects();
 
-  /// @brief Method get_maxQueuedFrames, addr 0x106d5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxQueuedFrames, addr 0x1074268, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxQueuedFrames();
 
-  /// @brief Method get_maxShockwaveParticles, addr 0x106d60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxShockwaveParticles, addr 0x10742a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxShockwaveParticles();
 
-  /// @brief Method get_menuVRResolutionScaleMultiplier, addr 0x106d5ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menuVRResolutionScaleMultiplier, addr 0x1074248, size 0x8, virtual false, abstract: false, final false
   inline float_t get_menuVRResolutionScaleMultiplier();
 
-  /// @brief Method get_mirrorGraphics, addr 0x106d5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirrorGraphics, addr 0x1074270, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::PerformancePresets::MirrorQualityPreset get_mirrorGraphics();
 
-  /// @brief Method get_obstaclesQuality, addr 0x106d624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_obstaclesQuality, addr 0x10742c0, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::PerformancePresets::ObstaclesQuality get_obstaclesQuality();
 
-  /// @brief Method get_presetName, addr 0x106d58c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presetName, addr 0x1074228, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_presetName();
 
-  /// @brief Method get_presetNameLocalizationTag, addr 0x106d594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presetNameLocalizationTag, addr 0x1074230, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_presetNameLocalizationTag();
 
-  /// @brief Method get_questSettings, addr 0x106d62c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_questSettings, addr 0x10742c8, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::PerformancePresets::QuestPerformanceSettings* get_questSettings();
 
-  /// @brief Method get_renderViewportScale, addr 0x106d59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderViewportScale, addr 0x1074238, size 0x8, virtual false, abstract: false, final false
   inline float_t get_renderViewportScale();
 
-  /// @brief Method get_screenDisplacementEffects, addr 0x106d604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_screenDisplacementEffects, addr 0x10742a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_screenDisplacementEffects();
 
-  /// @brief Method get_smokeGraphics, addr 0x106d5ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smokeGraphics, addr 0x1074288, size 0x8, virtual false, abstract: false, final false
   inline bool get_smokeGraphics();
 
-  /// @brief Method get_targetFramerate, addr 0x106d5bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetFramerate, addr 0x1074258, size 0x8, virtual false, abstract: false, final false
   inline float_t get_targetFramerate();
 
-  /// @brief Method get_vSyncCount, addr 0x106d5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vSyncCount, addr 0x1074260, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_vSyncCount();
 
-  /// @brief Method get_vrResolutionScale, addr 0x106d5a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vrResolutionScale, addr 0x1074240, size 0x8, virtual false, abstract: false, final false
   inline float_t get_vrResolutionScale();
 
 protected:

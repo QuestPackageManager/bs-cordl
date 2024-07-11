@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithUserDataStoreUpdateResponse::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithUserDataStoreUpdateResponse::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2ae6318;
+  constexpr static std::size_t addrs = 0x2af9d2c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserDataStoreUpdateResponse* (
     ::Oculus::Platform::MessageWithUserDataStoreUpdateResponse::*)()>(&::Oculus::Platform::MessageWithUserDataStoreUpdateResponse::GetUserDataStoreUpdateResponse)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2aea818;
+  constexpr static std::size_t addrs = 0x2afe22c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserDataStoreUpdateResponse* (
     ::Oculus::Platform::MessageWithUserDataStoreUpdateResponse::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithUserDataStoreUpdateResponse::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2aea854;
+  constexpr static std::size_t addrs = 0x2afe268;
 
   inline static const ::MethodInfo* methodInfo() {
 

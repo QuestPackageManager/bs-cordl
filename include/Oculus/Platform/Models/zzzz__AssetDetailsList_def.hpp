@@ -28,7 +28,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::AssetDetailsList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x2afafc8, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0e9dc, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:

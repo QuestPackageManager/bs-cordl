@@ -142,41 +142,41 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ComputeReceiveMac, addr 0x109abd0, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method ComputeReceiveMac, addr 0x10a6ec8, size 0x248, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ComputeReceiveMac(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t count);
 
-  /// @brief Method ComputeSendMac, addr 0x1099f54, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method ComputeSendMac, addr 0x10a624c, size 0x248, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ComputeSendMac(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t count);
 
-  /// @brief Method Dispose, addr 0x109bc30, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x10a7f28, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method EncryptData, addr 0x109b77c, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method EncryptData, addr 0x10a7a74, size 0x84, virtual true, abstract: false, final true
   inline void EncryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length, int32_t extraPrefixBytes);
 
-  /// @brief Method GetNextSentSequenceNum, addr 0x1099f48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetNextSentSequenceNum, addr 0x10a6240, size 0xc, virtual false, abstract: false, final false
   inline uint32_t GetNextSentSequenceNum();
 
-  /// @brief Method IsValidSequenceNum, addr 0x109aaa4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method IsValidSequenceNum, addr 0x10a6d9c, size 0x12c, virtual false, abstract: false, final false
   inline bool IsValidSequenceNum(uint32_t sequenceNum);
 
-  /// @brief Method MakeSeed, addr 0x109b87c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method MakeSeed, addr 0x10a7b74, size 0xe0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> MakeSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> baseSeed, ::ArrayW<uint8_t, ::Array<uint8_t>*> serverSeed,
                                                               ::ArrayW<uint8_t, ::Array<uint8_t>*> clientSeed);
 
   static inline ::GlobalNamespace::__EncryptionUtility__EncryptionState* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> preMasterSecret, ::ArrayW<uint8_t, ::Array<uint8_t>*> serverSeed,
                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> clientSeed, bool isClient);
 
-  /// @brief Method PRF, addr 0x109b95c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method PRF, addr 0x10a7c54, size 0xe8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PRF(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t length);
 
-  /// @brief Method PRF_Hash, addr 0x109ba44, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method PRF_Hash, addr 0x10a7d3c, size 0x1ec, virtual false, abstract: false, final false
   static inline void PRF_Hash(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> seed, ByRef<int32_t> length);
 
-  /// @brief Method PutSequenceNum, addr 0x109ae18, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method PutSequenceNum, addr 0x10a7110, size 0x204, virtual false, abstract: false, final false
   inline bool PutSequenceNum(uint32_t sequenceNum);
 
-  /// @brief Method TryDecryptData, addr 0x109b800, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method TryDecryptData, addr 0x10a7af8, size 0x7c, virtual true, abstract: false, final true
   inline bool TryDecryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length);
 
   constexpr bool const& __cordl_internal_get__hasReceivedSequenceNum() const;
@@ -245,10 +245,10 @@ public:
 
   constexpr void __cordl_internal_set_sendKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x1099280, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a5578, size 0x260, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> preMasterSecret, ::ArrayW<uint8_t, ::Array<uint8_t>*> serverSeed, ::ArrayW<uint8_t, ::Array<uint8_t>*> clientSeed, bool isClient);
 
-  /// @brief Method get_isValid, addr 0x109b764, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_isValid, addr 0x10a7a5c, size 0x18, virtual true, abstract: false, final true
   inline bool get_isValid();
 
   /// @brief Convert to "::GlobalNamespace::__EncryptionUtility__IEncryptionState"
@@ -357,7 +357,7 @@ public:
 
   static inline ::GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <CreateEncryptionStateAsync>b__0, addr 0x109bc48, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <CreateEncryptionStateAsync>b__0, addr 0x10a7f40, size 0x8c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__EncryptionUtility__IEncryptionState* _CreateEncryptionStateAsync_b__0();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_clientSeed() const;
@@ -384,7 +384,7 @@ public:
 
   constexpr void __cordl_internal_set_serverSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x10994e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a57d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -456,35 +456,35 @@ public:
   /// @brief Field _tempIV, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__tempIV, put = setStaticF__tempIV))::ArrayW<uint8_t, ::Array<uint8_t>*> _tempIV;
 
-  /// @brief Method CreateEncryptionState, addr 0x10991f8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptionState, addr 0x10a54f0, size 0x88, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__EncryptionUtility__IEncryptionState* CreateEncryptionState(::ArrayW<uint8_t, ::Array<uint8_t>*> preMasterSecret, ::ArrayW<uint8_t, ::Array<uint8_t>*> serverSeed,
                                                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> clientSeed, bool isClient);
 
-  /// @brief Method CreateEncryptionStateAsync, addr 0x1096e00, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptionStateAsync, addr 0x10a30f8, size 0x16c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__EncryptionUtility__IEncryptionState*>*
   CreateEncryptionStateAsync(::BGNet::Core::ITaskUtility* taskUtility, ::ArrayW<uint8_t, ::Array<uint8_t>*> preMasterSecret, ::ArrayW<uint8_t, ::Array<uint8_t>*> serverSeed,
                              ::ArrayW<uint8_t, ::Array<uint8_t>*> clientSeed, bool isClient);
 
-  /// @brief Method EncryptData, addr 0x1099508, size 0xa40, virtual false, abstract: false, final false
+  /// @brief Method EncryptData, addr 0x10a5800, size 0xa40, virtual false, abstract: false, final false
   static inline void EncryptData(::GlobalNamespace::__EncryptionUtility__EncryptionState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length,
                                  int32_t extraPrefixedData);
 
-  /// @brief Method FastCopyBlock, addr 0x109b01c, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method FastCopyBlock, addr 0x10a7314, size 0x314, virtual false, abstract: false, final false
   static inline void FastCopyBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inArr, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outArr, int32_t outOff);
 
-  /// @brief Method FastCopyMac, addr 0x109b330, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method FastCopyMac, addr 0x10a7628, size 0x1f4, virtual false, abstract: false, final false
   static inline void FastCopyMac(::ArrayW<uint8_t, ::Array<uint8_t>*> inArr, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outArr, int32_t outOff);
 
-  /// @brief Method IsValidLength, addr 0x10994e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsValidLength, addr 0x10a57e0, size 0x20, virtual false, abstract: false, final false
   static inline bool IsValidLength(int32_t length);
 
-  /// @brief Method Log, addr 0x109b524, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x10a781c, size 0x8c, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
-  /// @brief Method LogV, addr 0x109b5b0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method LogV, addr 0x10a78a8, size 0x8c, virtual false, abstract: false, final false
   static inline void LogV(::StringW message);
 
-  /// @brief Method TryDecryptData, addr 0x109a19c, size 0x908, virtual false, abstract: false, final false
+  /// @brief Method TryDecryptData, addr 0x10a6494, size 0x908, virtual false, abstract: false, final false
   static inline bool TryDecryptData(::GlobalNamespace::__EncryptionUtility__EncryptionState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length);
 
   static inline ::System::Security::Cryptography::AesCryptoServiceProvider* getStaticF__aes();

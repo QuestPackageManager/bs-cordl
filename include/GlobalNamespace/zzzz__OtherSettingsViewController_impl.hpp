@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OtherSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::OtherSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x267a994;
+  constexpr static std::size_t addrs = 0x268e2fc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OtherSettingsViewController::*)(bool, bool)>(
     &::GlobalNamespace::OtherSettingsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x267abf8;
+  constexpr static std::size_t addrs = 0x268e560;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OtherSettingsViewController::*)(int32_t)>(
     &::GlobalNamespace::OtherSettingsViewController::HandlePausePressDurationChanged)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x267ad3c;
+  constexpr static std::size_t addrs = 0x268e6a4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OtherSettingsViewController::*)(bool)>(
     &::GlobalNamespace::OtherSettingsViewController::HandleHideExplicitChanged)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x267ada0;
+  constexpr static std::size_t addrs = 0x268e708;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OtherSettingsViewController::*)()>(
     &::GlobalNamespace::OtherSettingsViewController::UpdateExplicitContentHiddenWarningVisibility)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x267abac;
+  constexpr static std::size_t addrs = 0x268e514;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OtherSettingsViewController::*)()>(&::GlobalNamespace::OtherSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267add0;
+  constexpr static std::size_t addrs = 0x268e738;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OtherSettingsViewController*>::get(), ".ctor",

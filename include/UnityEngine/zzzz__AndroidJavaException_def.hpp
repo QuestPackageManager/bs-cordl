@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_mJavaStackTrace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x33db384, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33eb208, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW javaStackTrace);
 
-  /// @brief Method get_StackTrace, addr 0x33e1068, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_StackTrace, addr 0x33f0eec, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_StackTrace();
 
 protected:

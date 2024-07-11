@@ -21,19 +21,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE MathfExtra : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Approximately, addr 0x108bc00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x1097ef8, size 0x10, virtual false, abstract: false, final false
   static inline bool Approximately(float_t a, float_t b, float_t precision);
 
-  /// @brief Method MaxAbs, addr 0x108bbec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MaxAbs, addr 0x1097ee4, size 0x14, virtual false, abstract: false, final false
   static inline float_t MaxAbs(float_t a, float_t b);
 
-  /// @brief Method Mod, addr 0x108ba90, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Mod, addr 0x1097d88, size 0x14, virtual false, abstract: false, final false
   static inline float_t Mod(float_t value, float_t mod);
 
-  /// @brief Method Mod, addr 0x108baa4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Mod, addr 0x1097d9c, size 0x30, virtual false, abstract: false, final false
   static inline int32_t Mod(int32_t value, int32_t mod);
 
-  /// @brief Method Round, addr 0x108bad4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0x1097dcc, size 0x118, virtual false, abstract: false, final false
   static inline float_t Round(float_t value, int32_t decimals);
 
 protected:

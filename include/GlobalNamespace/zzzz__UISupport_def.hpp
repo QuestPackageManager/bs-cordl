@@ -19,7 +19,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE UISupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x30c2b74, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x30d49f8, size 0x74, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:

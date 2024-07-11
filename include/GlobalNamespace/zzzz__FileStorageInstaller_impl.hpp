@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileStorageInstaller::*)()>(&::GlobalNamespace::FileStorageInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2616e00;
+  constexpr static std::size_t addrs = 0x262b0e0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileStorageInstaller::*)()>(&::GlobalNamespace::FileStorageInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2616e5c;
+  constexpr static std::size_t addrs = 0x262b13c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileStorageInstaller*>::get(), ".ctor",

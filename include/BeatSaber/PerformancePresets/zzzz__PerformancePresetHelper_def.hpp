@@ -96,10 +96,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x106daec, size 0x454, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1074788, size 0x454, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x106df40, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1074bdc, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -162,10 +162,10 @@ public:
 
   static inline ::BeatSaber::PerformancePresets::__PerformancePresetHelper____c* New_ctor();
 
-  /// @brief Method <GetPerformancePresetAsync>b__13_0, addr 0x106e004, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <GetPerformancePresetAsync>b__13_0, addr 0x1074ca0, size 0x4, virtual false, abstract: false, final false
   inline void _GetPerformancePresetAsync_b__13_0(::UnityEngine::TextAsset* _);
 
-  /// @brief Method .ctor, addr 0x106dffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1074c98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BeatSaber::PerformancePresets::__PerformancePresetHelper____c* getStaticF___9();
@@ -207,10 +207,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x106e008, size 0x6d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1074ca4, size 0x6d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x106e6dc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1075378, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -282,10 +282,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x106e734, size 0x70c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x10753d0, size 0x70c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x106ee40, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1075adc, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -362,25 +362,25 @@ public:
 
   using __c = ::BeatSaber::PerformancePresets::__PerformancePresetHelper____c;
 
-  /// @brief Method GetDeepCopyOfPerformancePresetWithOverrides, addr 0x106d958, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetDeepCopyOfPerformancePresetWithOverrides, addr 0x10745f4, size 0xe0, virtual false, abstract: false, final false
   static inline ::BeatSaber::PerformancePresets::PerformancePreset* GetDeepCopyOfPerformancePresetWithOverrides(::BeatSaber::PerformancePresets::PerformancePreset* preset,
                                                                                                                 ::BeatSaber::PerformancePresets::PresetOverride* overrideData);
 
-  /// @brief Method GetDefaultPerformancePresetAsync, addr 0x106d874, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultPerformancePresetAsync, addr 0x1074510, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*>>* GetDefaultPerformancePresetAsync();
 
-  /// @brief Method GetHardwareCategory, addr 0x106da38, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetHardwareCategory, addr 0x10746d4, size 0xac, virtual false, abstract: false, final false
   static inline ::StringW GetHardwareCategory();
 
-  /// @brief Method GetPerformancePresetAsync, addr 0x106d77c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetPerformancePresetAsync, addr 0x1074418, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::BeatSaber::PerformancePresets::PerformancePreset*>* GetPerformancePresetAsync(::StringW presetKey);
 
-  /// @brief Method IsPerformancePresetAvailableAsync, addr 0x106d684, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsPerformancePresetAvailableAsync, addr 0x1074320, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* IsPerformancePresetAvailableAsync(::StringW presetKey);
 
   static inline ::BeatSaber::PerformancePresets::PerformancePresetHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x106dae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1074780, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -37,24 +37,24 @@ public:
   /// @brief Field s_values, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_values, put = setStaticF_s_values))::System::ComponentModel::__TypeConverter__StandardValuesCollection* s_values;
 
-  /// @brief Method CanConvertFrom, addr 0x2f55a40, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x2f62454, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method ConvertFrom, addr 0x2f55b08, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x2f6251c, size 0x200, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method GetStandardValues, addr 0x2f55d08, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValues, addr 0x2f6271c, size 0x164, virtual true, abstract: false, final false
   inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x2f55e6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesExclusive, addr 0x2f62880, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesSupported, addr 0x2f55e74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesSupported, addr 0x2f62888, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::ComponentModel::BooleanConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f55e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f62890, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* getStaticF_s_values();

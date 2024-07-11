@@ -140,10 +140,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Interactions::MultiTapInteraction* New_ctor();
 
-  /// @brief Method Process, addr 0x31a12fc, size 0x280, virtual true, abstract: false, final true
+  /// @brief Method Process, addr 0x31b2180, size 0x280, virtual true, abstract: false, final true
   inline void Process(ByRef<::UnityEngine::InputSystem::InputInteractionContext> context);
 
-  /// @brief Method Reset, addr 0x31a157c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x31b2400, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_m_CurrentTapCount() const;
@@ -194,19 +194,19 @@ public:
 
   constexpr void __cordl_internal_set_tapTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x31a1588, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b240c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pressPointOrDefault, addr 0x31a121c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_pressPointOrDefault, addr 0x31b20a0, size 0x58, virtual false, abstract: false, final false
   inline float_t get_pressPointOrDefault();
 
-  /// @brief Method get_releasePointOrDefault, addr 0x31a1274, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_releasePointOrDefault, addr 0x31b20f8, size 0x88, virtual false, abstract: false, final false
   inline float_t get_releasePointOrDefault();
 
-  /// @brief Method get_tapDelayOrDefault, addr 0x31a11ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_tapDelayOrDefault, addr 0x31b2030, size 0x70, virtual false, abstract: false, final false
   inline float_t get_tapDelayOrDefault();
 
-  /// @brief Method get_tapTimeOrDefault, addr 0x31a113c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_tapTimeOrDefault, addr 0x31b1fc0, size 0x70, virtual false, abstract: false, final false
   inline float_t get_tapTimeOrDefault();
 
   /// @brief Convert to "::UnityEngine::InputSystem::IInputInteraction"

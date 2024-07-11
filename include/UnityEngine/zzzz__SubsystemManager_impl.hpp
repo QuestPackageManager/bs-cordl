@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Subsystem*)>(&::UnityEngine::SubsystemManager::RemoveDeprecatedSubsystem)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x349a12c;
+  constexpr static std::size_t addrs = 0x34acfb0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::IntegratedSubsystem* (*)(::System::IntPtr)>(
     &::UnityEngine::SubsystemManager::GetIntegratedSubsystemByPtr)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x349a314;
+  constexpr static std::size_t addrs = 0x34ad198;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::SubsystemManager::RemoveIntegratedSubsystemByPtr)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3499e80;
+  constexpr static std::size_t addrs = 0x34acd04;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::SubsystemsImplementation::SubsystemWithProvider*)>(
     &::UnityEngine::SubsystemManager::RemoveStandaloneSubsystem)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x349a498;
+  constexpr static std::size_t addrs = 0x34ad31c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::SubsystemManager::ReloadSubsystemsStarted)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x349a518;
+  constexpr static std::size_t addrs = 0x34ad39c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemManager*>::get(),
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::SubsystemManager::ReloadSubsystemsCompleted)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x349a5f8;
+  constexpr static std::size_t addrs = 0x34ad47c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemManager*>::get(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::IntegratedSubsystem*)>(
     &::UnityEngine::SubsystemManager::InitializeIntegratedSubsystem)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x349a6d8;
+  constexpr static std::size_t addrs = 0x34ad55c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::SubsystemManager::ClearSubsystems)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x349a7e0;
+  constexpr static std::size_t addrs = 0x34ad664;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemManager*>::get(), "ClearSubsystems",
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::SubsystemManager::StaticConstructScriptingClassMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x349a2ec;
+  constexpr static std::size_t addrs = 0x34ad170;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

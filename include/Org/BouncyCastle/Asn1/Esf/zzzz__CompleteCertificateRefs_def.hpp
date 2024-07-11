@@ -38,10 +38,10 @@ public:
   /// @brief Field otherCertIDs, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_otherCertIDs, put = __cordl_internal_set_otherCertIDs))::Org::BouncyCastle::Asn1::Asn1Sequence* otherCertIDs;
 
-  /// @brief Method GetInstance, addr 0x10f5030, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x1100328, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetOtherCertIDs, addr 0x10f58f4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetOtherCertIDs, addr 0x1100bec, size 0x120, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>*> GetOtherCertIDs();
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*
@@ -51,7 +51,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10f5a14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x1100d0c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_otherCertIDs();
@@ -60,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set_otherCertIDs(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x10f568c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1100984, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>*> otherCertIDs);
 
-  /// @brief Method .ctor, addr 0x10f5750, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1100a48, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* otherCertIDs);
 
-  /// @brief Method .ctor, addr 0x10f51b8, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11004b0, size 0x34c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

@@ -68,22 +68,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x35cec58, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x35e4adc, size 0x48, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x35ceb54, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35e49d8, size 0x48, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x35cec54, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x35e4ad8, size 0x4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x35cebd8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x35e4a5c, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x35cea78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e48fc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::StylePropertyName> enumerator);
 
-  /// @brief Method get_Current, addr 0x35ceb9c, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x35e4a20, size 0x3c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StylePropertyName get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StylePropertyName>"
@@ -133,16 +133,16 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
-  /// @brief Method GetEnumerator, addr 0x35cea08, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x35e488c, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__StylePropertyNameCollection__Enumerator GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.StylePropertyName>.GetEnumerator, addr 0x35cea84, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.StylePropertyName>.GetEnumerator, addr 0x35e4908, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StylePropertyName>* System_Collections_Generic_IEnumerable_UnityEngine_UIElements_StylePropertyName__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x35ceaec, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x35e4970, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method .ctor, addr 0x35cea00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e4884, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* list);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StylePropertyName>"

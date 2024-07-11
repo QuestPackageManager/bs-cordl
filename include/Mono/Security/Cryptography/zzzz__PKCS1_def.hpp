@@ -40,33 +40,33 @@ public:
   /// @brief Field emptySHA512, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_emptySHA512, put = setStaticF_emptySHA512))::ArrayW<uint8_t, ::Array<uint8_t>*> emptySHA512;
 
-  /// @brief Method Compare, addr 0x27b9538, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x27ccf4c, size 0x74, virtual false, abstract: false, final false
   static inline bool Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> array1, ::ArrayW<uint8_t, ::Array<uint8_t>*> array2);
 
-  /// @brief Method CreateFromName, addr 0x27b9b4c, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x27cd560, size 0x410, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::HashAlgorithm* CreateFromName(::StringW name);
 
-  /// @brief Method Encode_v15, addr 0x27b9f5c, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method Encode_v15, addr 0x27cd970, size 0x350, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode_v15(::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue, int32_t emLength);
 
-  /// @brief Method I2OSP, addr 0x27b95ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method I2OSP, addr 0x27ccfc0, size 0x8c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> I2OSP(::ArrayW<uint8_t, ::Array<uint8_t>*> x, int32_t size);
 
-  /// @brief Method OS2IP, addr 0x27b9638, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OS2IP, addr 0x27cd04c, size 0xbc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> OS2IP(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
-  /// @brief Method RSAVP1, addr 0x27b96f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RSAVP1, addr 0x27cd108, size 0x1c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> RSAVP1(::System::Security::Cryptography::RSA* rsa, ::ArrayW<uint8_t, ::Array<uint8_t>*> s);
 
-  /// @brief Method Verify_v15, addr 0x27b9710, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Verify_v15, addr 0x27cd124, size 0x80, virtual false, abstract: false, final false
   static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue,
                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method Verify_v15, addr 0x27b9790, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method Verify_v15, addr 0x27cd1a4, size 0x1e0, virtual false, abstract: false, final false
   static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue,
                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> signature, bool tryNonStandardEncoding);
 
-  /// @brief Method Verify_v15, addr 0x27b9970, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Verify_v15, addr 0x27cd384, size 0x1dc, virtual false, abstract: false, final false
   static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::StringW hashName, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_emptySHA1();

@@ -36,13 +36,13 @@ public:
       get = getStaticF_m_Tracked,
       put = setStaticF_m_Tracked))::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Font>, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::Text>>*>* m_Tracked;
 
-  /// @brief Method RebuildForFont, addr 0x34d982c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method RebuildForFont, addr 0x34ec6b0, size 0x1a4, virtual false, abstract: false, final false
   static inline void RebuildForFont(::UnityEngine::Font* f);
 
-  /// @brief Method TrackText, addr 0x34d95dc, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method TrackText, addr 0x34ec460, size 0x250, virtual false, abstract: false, final false
   static inline void TrackText(::UnityEngine::UI::Text* t);
 
-  /// @brief Method UntrackText, addr 0x34d99d0, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method UntrackText, addr 0x34ec854, size 0x20c, virtual false, abstract: false, final false
   static inline void UntrackText(::UnityEngine::UI::Text* t);
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Font>, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::Text>>*>* getStaticF_m_Tracked();

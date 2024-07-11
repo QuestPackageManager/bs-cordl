@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParserResult_def.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(GameplayCoreInstaller)
 namespace GlobalNamespace {
@@ -48,7 +49,7 @@ class GameplayCoreInstaller;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameplayCoreInstaller);
 // Type: ::GameplayCoreInstaller
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayCoreInstaller*
@@ -68,6 +69,10 @@ public:
 
   /// @brief Field _beatLineManagerPrefab, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__beatLineManagerPrefab, put = __cordl_internal_set__beatLineManagerPrefab))::UnityW<::GlobalNamespace::BeatLineManager> _beatLineManagerPrefab;
+
+  /// @brief Field _commandLineArguments, offset 0x80, size 0x18
+  __declspec(property(get = __cordl_internal_get__commandLineArguments,
+                      put = __cordl_internal_set__commandLineArguments))::BGLib::DotnetExtension::CommandLine::CommandLineParserResult _commandLineArguments;
 
   /// @brief Field _effectPoolsManualInstaller, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__effectPoolsManualInstaller,
@@ -99,10 +104,10 @@ public:
   /// @brief Field _songTimeTweeningManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__songTimeTweeningManager, put = __cordl_internal_set__songTimeTweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _songTimeTweeningManager;
 
-  /// @brief Method InstallBindings, addr 0x27453f0, size 0x15bc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x275bc64, size 0x1698, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method InstallRecordingTool, addr 0x27469ac, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method InstallRecordingTool, addr 0x275d2fc, size 0xf8, virtual false, abstract: false, final false
   inline void InstallRecordingTool();
 
   static inline ::GlobalNamespace::GameplayCoreInstaller* New_ctor();
@@ -122,6 +127,10 @@ public:
   constexpr ::UnityW<::GlobalNamespace::BeatLineManager> const& __cordl_internal_get__beatLineManagerPrefab() const;
 
   constexpr ::UnityW<::GlobalNamespace::BeatLineManager>& __cordl_internal_get__beatLineManagerPrefab();
+
+  constexpr ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult const& __cordl_internal_get__commandLineArguments() const;
+
+  constexpr ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult& __cordl_internal_get__commandLineArguments();
 
   constexpr ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> const& __cordl_internal_get__effectPoolsManualInstaller() const;
 
@@ -163,6 +172,8 @@ public:
 
   constexpr void __cordl_internal_set__beatLineManagerPrefab(::UnityW<::GlobalNamespace::BeatLineManager> value);
 
+  constexpr void __cordl_internal_set__commandLineArguments(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult value);
+
   constexpr void __cordl_internal_set__effectPoolsManualInstaller(::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> value);
 
   constexpr void __cordl_internal_set__missedNoteEffectSpawnerPrefab(::UnityW<::GlobalNamespace::MissedNoteEffectSpawner> value);
@@ -179,7 +190,7 @@ public:
 
   constexpr void __cordl_internal_set__songTimeTweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x2746a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275d3f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -232,10 +243,13 @@ public:
   /// @brief Field _perceivedLoudnessPerLevelModel, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::PerceivedLoudnessPerLevelModel* ____perceivedLoudnessPerLevelModel;
 
+  /// @brief Field _commandLineArguments, offset: 0x80, size: 0x18, def value: None
+  ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult ____commandLineArguments;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayCoreInstaller, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayCoreInstaller, 0x98>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____beatLineManagerPrefab) == 0x20, "Offset mismatch!");
 
@@ -260,6 +274,8 @@ static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____songProfili
 static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____sceneSetupData) == 0x70, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____perceivedLoudnessPerLevelModel) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____commandLineArguments) == 0x80, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameplayCoreInstaller);

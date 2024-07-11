@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerInstaller::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x9dc;
-  constexpr static std::size_t addrs = 0x2709c38;
+  constexpr static std::size_t addrs = 0x271e158;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerInstaller::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270a650;
+  constexpr static std::size_t addrs = 0x271eb70;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerInstaller*>::get(),

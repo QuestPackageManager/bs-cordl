@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::BinXmlSqlMoney::*)(int32_t)>(&::System::Xml::BinXmlSqlMoney::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2da8914;
+  constexpr static std::size_t addrs = 0x2dbb328;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::BinXmlSqlMoney::*)(int64_t)>(&::System::Xml::BinXmlSqlMoney::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2da8920;
+  constexpr static std::size_t addrs = 0x2dbb334;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Xml::BinXmlSqlMoney::*)()>(&::System::Xml::BinXmlSqlMoney::ToDecimal)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2da8928;
+  constexpr static std::size_t addrs = 0x2dbb33c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinXmlSqlMoney>::get(), "ToDecimal",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::BinXmlSqlMoney::*)()>(&::System::Xml::BinXmlSqlMoney::ToString)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2da898c;
+  constexpr static std::size_t addrs = 0x2dbb3a0;
 
   inline static const ::MethodInfo* methodInfo() {
 

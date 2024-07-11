@@ -33,17 +33,17 @@ public:
   /// @brief Field v, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_v, put = __cordl_internal_set_v)) float_t v;
 
-  /// @brief Method FromRGB, addr 0x329d9a4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FromRGB, addr 0x32ae828, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::HSVColor* FromRGB(::UnityEngine::Color col);
 
   static inline ::UnityEngine::ProBuilder::HSVColor* New_ctor(float_t h, float_t s, float_t v);
 
   static inline ::UnityEngine::ProBuilder::HSVColor* New_ctor(float_t h, float_t s, float_t v, float_t sv_modifier);
 
-  /// @brief Method SqrDistance, addr 0x329dd04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SqrDistance, addr 0x32aeb88, size 0x48, virtual false, abstract: false, final false
   inline float_t SqrDistance(::UnityEngine::ProBuilder::HSVColor* InColor);
 
-  /// @brief Method ToString, addr 0x329dc40, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x32aeac4, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_h() const;
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_v(float_t value);
 
-  /// @brief Method .ctor, addr 0x329d920, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ae7a4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t h, float_t s, float_t v);
 
-  /// @brief Method .ctor, addr 0x329d95c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ae7e0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(float_t h, float_t s, float_t v, float_t sv_modifier);
 
 protected:

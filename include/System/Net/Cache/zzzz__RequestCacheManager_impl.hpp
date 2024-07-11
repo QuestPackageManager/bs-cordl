@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Cache::RequestCacheBinding* (*)(::StringW)>(&::System::Net::Cache::RequestCacheManager::GetBinding)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x304477c;
+  constexpr static std::size_t addrs = 0x3054190;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Net::Cache::RequestCacheManager::LoadConfigSettings)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3044978;
+  constexpr static std::size_t addrs = 0x305438c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Cache::RequestCacheManager*>::get(),

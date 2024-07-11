@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HAPI_PartInfo::*)(::HoudiniEngineUnity::HAPI_AttributeOwner)>(
     &::HoudiniEngineUnity::HAPI_PartInfo::getElementCountByAttributeOwner)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x258ca84;
+  constexpr static std::size_t addrs = 0x25a1d38;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HAPI_PartInfo::*)(::HoudiniEngineUnity::HAPI_GroupType)>(
     &::HoudiniEngineUnity::HAPI_PartInfo::getElementCountByGroupType)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x258cad0;
+  constexpr static std::size_t addrs = 0x25a1d84;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HAPI_PartInfo::*)()>(&::HoudiniEngineUnity::HAPI_PartInfo::init)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2581ca4;
+  constexpr static std::size_t addrs = 0x2596f58;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_PartInfo>::get(), "init",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HAPI_PartInfo::*)()>(&::HoudiniEngineUnity::HAPI_PartInfo::get_pointAttributeCount)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x258caf8;
+  constexpr static std::size_t addrs = 0x25a1dac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_PartInfo>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HAPI_PartInfo::*)(int32_t)>(
     &::HoudiniEngineUnity::HAPI_PartInfo::set_pointAttributeCount)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x258cb2c;
+  constexpr static std::size_t addrs = 0x25a1de0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HAPI_PartInfo::*)()>(
     &::HoudiniEngineUnity::HAPI_PartInfo::get_primitiveAttributeCount)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x258cb6c;
+  constexpr static std::size_t addrs = 0x25a1e20;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_PartInfo>::get(),
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HAPI_PartInfo::*)(int32_t)>(
     &::HoudiniEngineUnity::HAPI_PartInfo::set_primitiveAttributeCount)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x258cba0;
+  constexpr static std::size_t addrs = 0x25a1e54;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HAPI_PartInfo::*)()>(&::HoudiniEngineUnity::HAPI_PartInfo::get_vertexAttributeCount)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x258cbe0;
+  constexpr static std::size_t addrs = 0x25a1e94;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_PartInfo>::get(),
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HAPI_PartInfo::*)(int32_t)>(
     &::HoudiniEngineUnity::HAPI_PartInfo::set_vertexAttributeCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x258cc10;
+  constexpr static std::size_t addrs = 0x25a1ec4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HAPI_PartInfo::*)()>(&::HoudiniEngineUnity::HAPI_PartInfo::get_detailAttributeCount)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x258cc4c;
+  constexpr static std::size_t addrs = 0x25a1f00;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_PartInfo>::get(),
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HAPI_PartInfo::*)(int32_t)>(
     &::HoudiniEngineUnity::HAPI_PartInfo::set_detailAttributeCount)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x258cc80;
+  constexpr static std::size_t addrs = 0x25a1f34;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -5,6 +5,9 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IBeatmapDataAssetFileModel)
 namespace GlobalNamespace {
+struct BeatmapLevelDataVersion;
+}
+namespace GlobalNamespace {
 class BeatmapLevel;
 }
 namespace GlobalNamespace {
@@ -38,10 +41,12 @@ public:
   // Declarations
   /// @brief Method GetAssetBundleFileForBeatmapLevelAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                                                                                                 ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                                                                                  ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method TryDeleteAssetBundleFileForBeatmapLevelAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                                                                ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                                                 ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

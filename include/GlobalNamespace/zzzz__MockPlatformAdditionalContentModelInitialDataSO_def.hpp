@@ -64,16 +64,16 @@ public:
 
   constexpr void __cordl_internal_set__packBetterBuyThanLevel(bool value);
 
-  /// @brief Method .ctor, addr 0x149b270, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a4648, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPacksEntitlements, addr 0x149b260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPacksEntitlements, addr 0x14a4638, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelPacksEntitlements();
 
-  /// @brief Method get_levelsEntitlements, addr 0x149b258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelsEntitlements, addr 0x14a4630, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelsEntitlements();
 
-  /// @brief Method get_packBetterBuyThanLevel, addr 0x149b268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packBetterBuyThanLevel, addr 0x14a4640, size 0x8, virtual false, abstract: false, final false
   inline bool get_packBetterBuyThanLevel();
 
 protected:

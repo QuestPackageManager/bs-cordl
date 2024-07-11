@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BpmTimeProcessor__BpmChangeData::*)(float_t, float_t, float_t)>(
     &::GlobalNamespace::__BpmTimeProcessor__BpmChangeData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x14b572c;
+  constexpr static std::size_t addrs = 0x14bf1dc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BpmTimeProcessor____c::*)()>(&::GlobalNamespace::__BpmTimeProcessor____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14b5f40;
+  constexpr static std::size_t addrs = 0x14bf9f0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BpmTimeProcessor____c*>::get(), ".ctor",
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__BpmTimeProcessor____c::*)(::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*)>(
     &::GlobalNamespace::__BpmTimeProcessor____c::__ctor_b__3_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x14b5f48;
+  constexpr static std::size_t addrs = 0x14bf9f8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BpmTimeProcessor::*)(
     float_t, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>*)>(&::GlobalNamespace::BpmTimeProcessor::_ctor)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x14b53a4;
+  constexpr static std::size_t addrs = 0x14bee54;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BpmTimeProcessor::*)(
     float_t, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>*)>(&::GlobalNamespace::BpmTimeProcessor::_ctor)> {
   constexpr static std::size_t size = 0x4f4;
-  constexpr static std::size_t addrs = 0x14b5754;
+  constexpr static std::size_t addrs = 0x14bf204;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BpmTimeProcessor::*)(::BeatmapLevelSaveDataVersion4::AudioSaveData*)>(
     &::GlobalNamespace::BpmTimeProcessor::_ctor)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x14b5c48;
+  constexpr static std::size_t addrs = 0x14bf6f8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BpmTimeProcessor::*)(float_t)>(&::GlobalNamespace::BpmTimeProcessor::ConvertBeatToTime)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x14b5dcc;
+  constexpr static std::size_t addrs = 0x14bf87c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BpmTimeProcessor::*)()>(&::GlobalNamespace::BpmTimeProcessor::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14b5ed4;
+  constexpr static std::size_t addrs = 0x14bf984;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BpmTimeProcessor*>::get(), "Reset",
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::GlobalNamespace::__BpmTimeProcessor__BpmChangeData, float_t)>(
     &::GlobalNamespace::BpmTimeProcessor::CalculateTime)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x14b5738;
+  constexpr static std::size_t addrs = 0x14bf1e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

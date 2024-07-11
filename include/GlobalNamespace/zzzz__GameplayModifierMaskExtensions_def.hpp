@@ -27,19 +27,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE GameplayModifierMaskExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Contains, addr 0x1508b30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x1513858, size 0x10, virtual false, abstract: false, final false
   static inline bool Contains(::GlobalNamespace::GameplayModifierMask mask, ::GlobalNamespace::GameplayModifierMask other);
 
-  /// @brief Method DifferenceFrom, addr 0x1508b40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DifferenceFrom, addr 0x1513868, size 0x10, virtual false, abstract: false, final false
   static inline int32_t DifferenceFrom(::GlobalNamespace::GameplayModifierMask mask, ::GlobalNamespace::GameplayModifierMask other);
 
-  /// @brief Method ToHexString, addr 0x1508b50, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToHexString, addr 0x1513878, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW ToHexString(::GlobalNamespace::GameplayModifierMask mask);
 
-  /// @brief Method ToMask, addr 0x1508de8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToMask, addr 0x1513b10, size 0xb8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayModifierMask ToMask(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method ToModifiers, addr 0x1508bac, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ToModifiers, addr 0x15138d4, size 0x148, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayModifiers* ToModifiers(::GlobalNamespace::GameplayModifierMask gameplayModifierMask);
 
 protected:

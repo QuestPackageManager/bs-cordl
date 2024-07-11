@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_Sessions(::Oculus::Platform::Models::NetSyncSessionList* value);
 
-  /// @brief Method .ctor, addr 0x2afe0d0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b11ae4, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:

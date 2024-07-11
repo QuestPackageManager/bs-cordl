@@ -32,15 +32,15 @@ public:
   /// @brief Field _gameScenesManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
-  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x2bf53a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x2c08db4, size 0x1c, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerTransitionDidStart(float_t duration);
 
   static inline ::GlobalNamespace::FadeOutOnSceneTransitionStart* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2bf52cc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2c08ce0, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2bf5240, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2c08c54, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get__fadeInOut() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  /// @brief Method .ctor, addr 0x2bf53bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c08dd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

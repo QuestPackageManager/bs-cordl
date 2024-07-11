@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_SourceType(::Zenject::InjectSources value);
 
-  /// @brief Method .ctor, addr 0x36398b4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3650738, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(bool optional, ::System::Object* identifier, ::StringW memberName, ::System::Type* memberType, ::System::Object* defaultValue, ::Zenject::InjectSources sourceType);
 
 protected:

@@ -47,7 +47,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x254b770, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x2560a24, size 0xbc, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AssetSerializedMetaData* other);
 
   static inline ::HoudiniEngineUnity::HEU_AssetSerializedMetaData* New_ctor();
@@ -66,20 +66,20 @@ public:
 
   constexpr void __cordl_internal_set__softDeleted(bool value);
 
-  /// @brief Method .ctor, addr 0x254b82c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2560ae0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SavedCurveNodeData, addr 0x254b768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SavedCurveNodeData, addr 0x2560a1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* get_SavedCurveNodeData();
 
-  /// @brief Method get_SoftDeleted, addr 0x254b754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SoftDeleted, addr 0x2560a08, size 0x8, virtual false, abstract: false, final false
   inline bool get_SoftDeleted();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>*
   i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_AssetSerializedMetaData__() noexcept;
 
-  /// @brief Method set_SoftDeleted, addr 0x254b75c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_SoftDeleted, addr 0x2560a10, size 0xc, virtual false, abstract: false, final false
   inline void set_SoftDeleted(bool value);
 
 protected:

@@ -78,37 +78,37 @@ public:
 
   constexpr void __cordl_internal_set_m_MaximumCacheSize(int64_t value);
 
-  /// @brief Method .ctor, addr 0x3083324, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30931a8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CacheDirectoryOverride, addr 0x30832e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CacheDirectoryOverride, addr 0x3093164, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CacheDirectoryOverride();
 
-  /// @brief Method get_CompressionEnabled, addr 0x30832cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompressionEnabled, addr 0x3093150, size 0x8, virtual false, abstract: false, final false
   inline bool get_CompressionEnabled();
 
-  /// @brief Method get_ExpirationDelay, addr 0x30832f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExpirationDelay, addr 0x3093174, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ExpirationDelay();
 
-  /// @brief Method get_LimitCacheSize, addr 0x3083300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LimitCacheSize, addr 0x3093184, size 0x8, virtual false, abstract: false, final false
   inline bool get_LimitCacheSize();
 
-  /// @brief Method get_MaximumCacheSize, addr 0x3083314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaximumCacheSize, addr 0x3093198, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_MaximumCacheSize();
 
-  /// @brief Method set_CacheDirectoryOverride, addr 0x30832e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CacheDirectoryOverride, addr 0x309316c, size 0x8, virtual false, abstract: false, final false
   inline void set_CacheDirectoryOverride(::StringW value);
 
-  /// @brief Method set_CompressionEnabled, addr 0x30832d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CompressionEnabled, addr 0x3093158, size 0xc, virtual false, abstract: false, final false
   inline void set_CompressionEnabled(bool value);
 
-  /// @brief Method set_ExpirationDelay, addr 0x30832f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExpirationDelay, addr 0x309317c, size 0x8, virtual false, abstract: false, final false
   inline void set_ExpirationDelay(int32_t value);
 
-  /// @brief Method set_LimitCacheSize, addr 0x3083308, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_LimitCacheSize, addr 0x309318c, size 0xc, virtual false, abstract: false, final false
   inline void set_LimitCacheSize(bool value);
 
-  /// @brief Method set_MaximumCacheSize, addr 0x308331c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaximumCacheSize, addr 0x30931a0, size 0x8, virtual false, abstract: false, final false
   inline void set_MaximumCacheSize(int64_t value);
 
 protected:

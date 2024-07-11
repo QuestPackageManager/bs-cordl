@@ -125,31 +125,31 @@ public:
   /// @brief Method EnumToInt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t EnumToInt(T enumValue);
 
-  /// @brief Method Free, addr 0x33feea4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x340dd28, size 0x44, virtual false, abstract: false, final false
   static inline void Free(::cordl_internals::Ptr<void> memory, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method GetReasonForArrayNonBlittable, addr 0x33ff1cc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetReasonForArrayNonBlittable, addr 0x340e050, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetReasonForArrayNonBlittable(::System::Array* arr);
 
   /// @brief Method GetReasonForGenericListNonBlittable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW GetReasonForGenericListNonBlittable();
 
-  /// @brief Method GetReasonForTypeNonBlittableImpl, addr 0x33fefe0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method GetReasonForTypeNonBlittableImpl, addr 0x340de64, size 0x1bc, virtual false, abstract: false, final false
   static inline ::StringW GetReasonForTypeNonBlittableImpl(::System::Type* t, ::StringW name);
 
   /// @brief Method InternalEnumToInt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void InternalEnumToInt(ByRef<T> enumValue, ByRef<int32_t> intValue);
 
-  /// @brief Method IsArrayBlittable, addr 0x33ff19c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsArrayBlittable, addr 0x340e020, size 0x30, virtual false, abstract: false, final false
   static inline bool IsArrayBlittable(::System::Array* arr);
 
   /// @brief Method IsBlittable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsBlittable();
 
-  /// @brief Method IsBlittable, addr 0x33fefa4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsBlittable, addr 0x340de28, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsBlittable(::System::Type* type);
 
-  /// @brief Method IsBlittableValueType, addr 0x33fef44, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsBlittableValueType, addr 0x340ddc8, size 0x60, virtual false, abstract: false, final false
   static inline bool IsBlittableValueType(::System::Type* t);
 
   /// @brief Method IsGenericListBlittable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -158,28 +158,28 @@ public:
   /// @brief Method IsUnmanaged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsUnmanaged();
 
-  /// @brief Method IsUnmanaged, addr 0x33ff478, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsUnmanaged, addr 0x340e2fc, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsUnmanaged(::System::Type* type);
 
-  /// @brief Method Malloc, addr 0x33ff218, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Malloc, addr 0x340e09c, size 0x54, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<void> Malloc(int64_t size, int32_t alignment, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method MemClear, addr 0x33ff3dc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MemClear, addr 0x340e260, size 0x48, virtual false, abstract: false, final false
   static inline void MemClear(::cordl_internals::Ptr<void> destination, int64_t size);
 
-  /// @brief Method MemCmp, addr 0x33ff424, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MemCmp, addr 0x340e2a8, size 0x54, virtual false, abstract: false, final false
   static inline int32_t MemCmp(::cordl_internals::Ptr<void> ptr1, ::cordl_internals::Ptr<void> ptr2, int64_t size);
 
-  /// @brief Method MemCpy, addr 0x33ff26c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MemCpy, addr 0x340e0f0, size 0x54, virtual false, abstract: false, final false
   static inline void MemCpy(::cordl_internals::Ptr<void> destination, ::cordl_internals::Ptr<void> source, int64_t size);
 
-  /// @brief Method MemCpyStride, addr 0x33ff2c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method MemCpyStride, addr 0x340e144, size 0x74, virtual false, abstract: false, final false
   static inline void MemCpyStride(::cordl_internals::Ptr<void> destination, int32_t destinationStride, ::cordl_internals::Ptr<void> source, int32_t sourceStride, int32_t elementSize, int32_t count);
 
-  /// @brief Method MemMove, addr 0x33ff334, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MemMove, addr 0x340e1b8, size 0x54, virtual false, abstract: false, final false
   static inline void MemMove(::cordl_internals::Ptr<void> destination, ::cordl_internals::Ptr<void> source, int64_t size);
 
-  /// @brief Method MemSet, addr 0x33ff388, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MemSet, addr 0x340e20c, size 0x54, virtual false, abstract: false, final false
   static inline void MemSet(::cordl_internals::Ptr<void> destination, uint8_t value, int64_t size);
 
   /// @brief Method ReadArrayElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

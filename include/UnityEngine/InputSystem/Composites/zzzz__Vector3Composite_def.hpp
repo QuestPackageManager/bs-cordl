@@ -119,7 +119,7 @@ public:
 
   static inline ::UnityEngine::InputSystem::Composites::Vector3Composite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x30eb780, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x30fd604, size 0x254, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_backward() const;
@@ -164,7 +164,7 @@ public:
 
   constexpr void __cordl_internal_set_up(int32_t value);
 
-  /// @brief Method .ctor, addr 0x30eb9d4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30fd858, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

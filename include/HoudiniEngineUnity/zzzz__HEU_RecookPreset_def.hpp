@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__volumeCachePresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* value);
 
-  /// @brief Method .ctor, addr 0x2549728, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255e9dc, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

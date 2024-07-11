@@ -52,7 +52,7 @@ public:
 
   static inline ::UnityEngine::TerrainUtils::__TerrainMap____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <CreateFromPlacement>b__0, addr 0x349f54c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateFromPlacement>b__0, addr 0x34b23d0, size 0x58, virtual false, abstract: false, final false
   inline bool _CreateFromPlacement_b__0(::UnityEngine::Terrain* x);
 
   constexpr int32_t const& __cordl_internal_get_groupID() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_groupID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x349e604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34b1488, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,29 +112,29 @@ public:
 
   __declspec(property(get = get_terrainTiles))::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityW<::UnityEngine::Terrain>>* terrainTiles;
 
-  /// @brief Method AddTerrainInternal, addr 0x349ecf0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method AddTerrainInternal, addr 0x34b1b74, size 0x128, virtual false, abstract: false, final false
   inline void AddTerrainInternal(int32_t x, int32_t z, ::UnityEngine::Terrain* terrain);
 
-  /// @brief Method CreateFromPlacement, addr 0x349e60c, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method CreateFromPlacement, addr 0x34b1490, size 0x3e0, virtual false, abstract: false, final false
   static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Vector2 gridOrigin, ::UnityEngine::Vector2 gridSize,
                                                                              ::System::Predicate_1<::UnityW<::UnityEngine::Terrain>>* filter, bool fullValidation);
 
-  /// @brief Method CreateFromPlacement, addr 0x349e354, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method CreateFromPlacement, addr 0x34b11d8, size 0x2b0, virtual false, abstract: false, final false
   static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Terrain* originTerrain, ::System::Predicate_1<::UnityW<::UnityEngine::Terrain>>* filter,
                                                                              bool fullValidation);
 
-  /// @brief Method GetTerrain, addr 0x349e2dc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetTerrain, addr 0x34b1160, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Terrain> GetTerrain(int32_t tileX, int32_t tileZ);
 
   static inline ::UnityEngine::TerrainUtils::TerrainMap* New_ctor();
 
-  /// @brief Method TryToAddTerrain, addr 0x349ea70, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method TryToAddTerrain, addr 0x34b18f4, size 0x114, virtual false, abstract: false, final false
   inline bool TryToAddTerrain(int32_t tileX, int32_t tileZ, ::UnityEngine::Terrain* terrain);
 
-  /// @brief Method Validate, addr 0x349eb84, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x34b1a08, size 0x164, virtual false, abstract: false, final false
   inline ::UnityEngine::TerrainUtils::TerrainMapStatusCode Validate();
 
-  /// @brief Method ValidateTerrain, addr 0x349ee18, size 0x734, virtual false, abstract: false, final false
+  /// @brief Method ValidateTerrain, addr 0x34b1c9c, size 0x734, virtual false, abstract: false, final false
   inline void ValidateTerrain(int32_t tileX, int32_t tileZ);
 
   constexpr ::UnityEngine::TerrainUtils::TerrainMapStatusCode const& __cordl_internal_get_m_errorCode() const;
@@ -156,10 +156,10 @@ public:
 
   constexpr void __cordl_internal_set_m_terrainTiles(::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityW<::UnityEngine::Terrain>>* value);
 
-  /// @brief Method .ctor, addr 0x349e9ec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34b1870, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_terrainTiles, addr 0x349ece8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_terrainTiles, addr 0x34b1b6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityW<::UnityEngine::Terrain>>* get_terrainTiles();
 
 protected:

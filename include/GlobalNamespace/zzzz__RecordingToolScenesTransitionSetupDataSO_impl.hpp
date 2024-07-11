@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::*)(
     ::GlobalNamespace::RecordingToolSceneSetupData*)>(&::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b9d58;
+  constexpr static std::size_t addrs = 0x26d0030;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26bf73c;
+  constexpr static std::size_t addrs = 0x26d5a88;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

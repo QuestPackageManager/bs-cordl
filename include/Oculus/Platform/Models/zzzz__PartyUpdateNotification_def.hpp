@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_UserName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2afe7e8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b121fc, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:

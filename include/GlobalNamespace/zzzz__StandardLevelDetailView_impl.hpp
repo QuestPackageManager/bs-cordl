@@ -2,6 +2,7 @@
 // IWYU pragma private; include "GlobalNamespace/StandardLevelDetailView.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_impl.hpp"
 #include "GlobalNamespace/zzzz__LoadBeatmapLevelDataResult_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
@@ -19,8 +20,10 @@
 #include "GlobalNamespace/zzzz__BeatmapDifficultySegmentedControlController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelLoader_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelsEntitlementModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
 #include "GlobalNamespace/zzzz__LevelBar_def.hpp"
 #include "GlobalNamespace/zzzz__LevelParamsPanel_def.hpp"
@@ -45,72 +48,72 @@
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0::*)()>(
-    &::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0::*)()>(
+    &::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268a0a4;
+  constexpr static std::size_t addrs = 0x269da20;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0._SetContent_b__0
+//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0._SetContent_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0::*)(::GlobalNamespace::BeatmapKey)>(
-    &::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0::_SetContent_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0::*)(::GlobalNamespace::BeatmapKey)>(
+    &::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0::_SetContent_b__0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x268ae10;
+  constexpr static std::size_t addrs = 0x269e780;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0*>::get(), "<SetContent>b__0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0*>::get(), "<SetContent>b__0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapKey>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::BeatmapDifficultyMask& GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0::__cordl_internal_get_allowedBeatmapDifficultyMask() {
+constexpr ::GlobalNamespace::BeatmapDifficultyMask& GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0::__cordl_internal_get_allowedBeatmapDifficultyMask() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowedBeatmapDifficultyMask;
 }
-constexpr ::GlobalNamespace::BeatmapDifficultyMask const& GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0::__cordl_internal_get_allowedBeatmapDifficultyMask() const {
+constexpr ::GlobalNamespace::BeatmapDifficultyMask const& GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0::__cordl_internal_get_allowedBeatmapDifficultyMask() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowedBeatmapDifficultyMask;
 }
-constexpr void GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0::__cordl_internal_set_allowedBeatmapDifficultyMask(::GlobalNamespace::BeatmapDifficultyMask value) {
+constexpr void GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0::__cordl_internal_set_allowedBeatmapDifficultyMask(::GlobalNamespace::BeatmapDifficultyMask value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___allowedBeatmapDifficultyMask = value;
 }
-inline ::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0* GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0*>());
+inline ::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0* GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0*>());
 }
-inline void GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0::_ctor() {
+inline void GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0::_SetContent_b__0(::GlobalNamespace::BeatmapKey key) {
+inline bool GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0::_SetContent_b__0(::GlobalNamespace::BeatmapKey key) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0*>::get(), "<SetContent>b__0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0*>::get(), "<SetContent>b__0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapKey>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0::__StandardLevelDetailView____c__DisplayClass44_0() {}
+constexpr ::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass45_0::__StandardLevelDetailView____c__DisplayClass45_0() {}
 //  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView____c._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView____c::*)()>(
     &::GlobalNamespace::__StandardLevelDetailView____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268ae84;
+  constexpr static std::size_t addrs = 0x269e7f4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c*>::get(),
@@ -118,17 +121,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView____c._SetContent_b__44_1
+//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView____c._SetContent_b__45_1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> (::GlobalNamespace::__StandardLevelDetailView____c::*)(
-    ::GlobalNamespace::BeatmapKey)>(&::GlobalNamespace::__StandardLevelDetailView____c::_SetContent_b__44_1)> {
+    ::GlobalNamespace::BeatmapKey)>(&::GlobalNamespace::__StandardLevelDetailView____c::_SetContent_b__45_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268ae8c;
+  constexpr static std::size_t addrs = 0x269e7fc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c*>::get(), "<SetContent>b__44_1", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c*>::get(), "<SetContent>b__45_1", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapKey>::get() })));
     return ___internal_method;
   }
@@ -142,13 +145,13 @@ inline ::GlobalNamespace::__StandardLevelDetailView____c* GlobalNamespace::__Sta
   return ::cordl_internals::getStaticField<::GlobalNamespace::__StandardLevelDetailView____c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c*>::get>();
 }
-inline void GlobalNamespace::__StandardLevelDetailView____c::setStaticF___9__44_1(::System::Func_2<::GlobalNamespace::BeatmapKey, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::BeatmapKey, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*, "<>9__44_1",
+inline void GlobalNamespace::__StandardLevelDetailView____c::setStaticF___9__45_1(::System::Func_2<::GlobalNamespace::BeatmapKey, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::BeatmapKey, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*, "<>9__45_1",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c*>::get>(
       std::forward<::System::Func_2<::GlobalNamespace::BeatmapKey, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::BeatmapKey, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* GlobalNamespace::__StandardLevelDetailView____c::getStaticF___9__44_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::BeatmapKey, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*, "<>9__44_1",
+inline ::System::Func_2<::GlobalNamespace::BeatmapKey, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* GlobalNamespace::__StandardLevelDetailView____c::getStaticF___9__45_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::BeatmapKey, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*, "<>9__45_1",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c*>::get>();
 }
 inline ::GlobalNamespace::__StandardLevelDetailView____c* GlobalNamespace::__StandardLevelDetailView____c::New_ctor() {
@@ -159,129 +162,131 @@ inline void GlobalNamespace::__StandardLevelDetailView____c::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> GlobalNamespace::__StandardLevelDetailView____c::_SetContent_b__44_1(::GlobalNamespace::BeatmapKey key) {
+inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> GlobalNamespace::__StandardLevelDetailView____c::_SetContent_b__45_1(::GlobalNamespace::BeatmapKey key) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c*>::get(), "<SetContent>b__44_1", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c*>::get(), "<SetContent>b__45_1", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapKey>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, false>(this, ___internal_method, key);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__StandardLevelDetailView____c::__StandardLevelDetailView____c() {}
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56::*)()>(
-    &::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56::MoveNext)> {
-  constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x268ae94;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57::*)()>(
+    &::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57::MoveNext)> {
+  constexpr static std::size_t size = 0x4f8;
+  constexpr static std::size_t addrs = 0x269e804;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x268b224;
+  constexpr static std::size_t addrs = 0x269ecfc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57>::get(),
                                     "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-inline void GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56::MoveNext() {
+inline void GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57>::get(),
                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::StandardLevelDetailView>",
-// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56(
+// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::StandardLevelDetailView> __4__this,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
   this->__u__1 = __u__1;
+  this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56() {}
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__60.MoveNext
+constexpr ::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__57() {}
+//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__61.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__60::*)()>(
-    &::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__60::MoveNext)> {
-  constexpr static std::size_t size = 0x720;
-  constexpr static std::size_t addrs = 0x268b230;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__61::*)()>(
+    &::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__61::MoveNext)> {
+  constexpr static std::size_t size = 0x868;
+  constexpr static std::size_t addrs = 0x269ed08;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__60>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__61>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__60.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__61.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__60::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__60::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__61::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__61::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x268b950;
+  constexpr static std::size_t addrs = 0x269f570;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__60>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__61>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__60::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__61::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__60::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__61::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-inline void GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__60::MoveNext() {
+inline void GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__61::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__60>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__61>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__60::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__61::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__60>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__61>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
@@ -289,14 +294,16 @@ inline void GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::StandardLevelDetailView>",
 // modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_beatmapLevelData_5__2", ty: "::GlobalNamespace::LoadBeatmapLevelDataResult", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
+// "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__4", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__60::__StandardLevelDetailView___CalculateAndSetContent_d__60(
+constexpr ::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__61::__StandardLevelDetailView___CalculateAndSetContent_d__61(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::StandardLevelDetailView> __4__this,
-    ::GlobalNamespace::LoadBeatmapLevelDataResult _beatmapLevelData_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__1,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__2,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__3) noexcept {
+    ::GlobalNamespace::LoadBeatmapLevelDataResult _beatmapLevelData_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__3,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__4) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -304,83 +311,86 @@ constexpr ::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_
   this->__u__1 = __u__1;
   this->__u__2 = __u__2;
   this->__u__3 = __u__3;
+  this->__u__4 = __u__4;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__60::__StandardLevelDetailView___CalculateAndSetContent_d__60() {}
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61.MoveNext
+constexpr ::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContent_d__61::__StandardLevelDetailView___CalculateAndSetContent_d__61() {}
+//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61::*)()>(
-    &::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61::MoveNext)> {
-  constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x268b95c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62::*)()>(
+    &::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62::MoveNext)> {
+  constexpr static std::size_t size = 0x5c0;
+  constexpr static std::size_t addrs = 0x269f57c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x268bdb4;
+  constexpr static std::size_t addrs = 0x269fb3c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-inline void GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61::MoveNext() {
+inline void GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::StandardLevelDetailView>",
-// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "",
-// def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61(
+// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::StandardLevelDetailView> __4__this,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__1) noexcept {
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
   this->__u__1 = __u__1;
+  this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61::__StandardLevelDetailView___SetBeatmapLevelVersions_d__61() {}
+constexpr ::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62() {}
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelDetailView.add_didChangeDifficultyBeatmapEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>*)>(&::GlobalNamespace::StandardLevelDetailView::add_didChangeDifficultyBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2689a30;
+  constexpr static std::size_t addrs = 0x269d3ac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -395,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>*)>(&::GlobalNamespace::StandardLevelDetailView::remove_didChangeDifficultyBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2689ae0;
+  constexpr static std::size_t addrs = 0x269d45c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -410,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*)>(
     &::GlobalNamespace::StandardLevelDetailView::add_didFavoriteToggleChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2689b90;
+  constexpr static std::size_t addrs = 0x269d50c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -425,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*)>(
     &::GlobalNamespace::StandardLevelDetailView::remove_didFavoriteToggleChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2689c40;
+  constexpr static std::size_t addrs = 0x269d5bc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -440,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::get_actionButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2689cf0;
+  constexpr static std::size_t addrs = 0x269d66c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -454,7 +464,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::StringW)>(
     &::GlobalNamespace::StandardLevelDetailView::set_actionButtonText)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2689cf8;
+  constexpr static std::size_t addrs = 0x269d674;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -469,7 +479,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::get_practiceButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2689d1c;
+  constexpr static std::size_t addrs = 0x269d698;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -483,7 +493,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(bool)>(
     &::GlobalNamespace::StandardLevelDetailView::set_hidePracticeButton)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2689d24;
+  constexpr static std::size_t addrs = 0x269d6a0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -498,7 +508,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::get_beatmapKey)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2689d58;
+  constexpr static std::size_t addrs = 0x269d6d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -512,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::GlobalNamespace::BeatmapKey)>(
     &::GlobalNamespace::StandardLevelDetailView::set_beatmapKey)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2689d6c;
+  constexpr static std::size_t addrs = 0x269d6e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -528,7 +538,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapDifficultyMask, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*,
     ::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::PlayerData*)>(&::GlobalNamespace::StandardLevelDetailView::SetContent)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x2689d80;
+  constexpr static std::size_t addrs = 0x269d6fc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -549,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::ClearBeatmapLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268a1f4;
+  constexpr static std::size_t addrs = 0x269db6c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -562,7 +572,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::Awake)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x268a1fc;
+  constexpr static std::size_t addrs = 0x269db74;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "Awake",
@@ -575,7 +585,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::OnEnable)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x268a380;
+  constexpr static std::size_t addrs = 0x269dcf8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "OnEnable",
@@ -588,7 +598,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::OnDisable)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x268a530;
+  constexpr static std::size_t addrs = 0x269dea8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "OnDisable",
@@ -601,7 +611,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::OnDestroy)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x268a688;
+  constexpr static std::size_t addrs = 0x269e000;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "OnDestroy",
@@ -615,7 +625,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(
     ::GlobalNamespace::__BeatmapLevelLoader__LevelDownloadingUpdate)>(&::GlobalNamespace::StandardLevelDetailView::HandleBeatmapLevelsModelLevelDownloadingUpdate)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x268a83c;
+  constexpr static std::size_t addrs = 0x269e1b4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -631,7 +641,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::HandleDidPressRefreshButton)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x268aa04;
+  constexpr static std::size_t addrs = 0x269e37c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -646,7 +656,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty)>(
         &::GlobalNamespace::StandardLevelDetailView::HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x268aa08;
+  constexpr static std::size_t addrs = 0x269e380;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -664,7 +674,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::GlobalNamespace::BeatmapCharacteristicSO*)>(
         &::GlobalNamespace::StandardLevelDetailView::HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x268aa5c;
+  constexpr static std::size_t addrs = 0x269e3d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -681,7 +691,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(
     ::GlobalNamespace::__StandardLevelDetailViewController__ContentType, float_t)>(&::GlobalNamespace::StandardLevelDetailView::ShowContent)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x268a8a8;
+  constexpr static std::size_t addrs = 0x269e220;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -697,7 +707,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::RefreshContent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x268a0ac;
+  constexpr static std::size_t addrs = 0x269da28;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -710,8 +720,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::CheckIfBeatmapLevelDataExists)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x268a160;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x269dadc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -725,7 +735,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::SetContentForBeatmapData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x268ab30;
+  constexpr static std::size_t addrs = 0x269e4a8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -738,7 +748,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::ClearContent)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x268ab68;
+  constexpr static std::size_t addrs = 0x269e4e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -751,7 +761,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::SetContent)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x268abdc;
+  constexpr static std::size_t addrs = 0x269e554;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "SetContent",
@@ -764,8 +774,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::CalculateAndSetContent)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x268aca0;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x269e618;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -778,8 +788,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::SetBeatmapLevelVersions)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x268ad38;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x269e6ac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -793,7 +803,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::CreateBeatmapKey)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x268aae8;
+  constexpr static std::size_t addrs = 0x269e460;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -806,7 +816,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::TriggerEvent)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x268aa3c;
+  constexpr static std::size_t addrs = 0x269e3b4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -819,7 +829,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268adcc;
+  constexpr static std::size_t addrs = 0x269e73c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), ".ctor",
@@ -827,32 +837,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::StandardLevelDetailView._Awake_b__46_0
+//  Writing Method size for method: ::GlobalNamespace::StandardLevelDetailView._Awake_b__47_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(bool)>(
-    &::GlobalNamespace::StandardLevelDetailView::_Awake_b__46_0)> {
+    &::GlobalNamespace::StandardLevelDetailView::_Awake_b__47_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x268add4;
+  constexpr static std::size_t addrs = 0x269e744;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "<Awake>b__46_0",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "<Awake>b__47_0",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::StandardLevelDetailView._CalculateAndSetContent_b__60_0
+//  Writing Method size for method: ::GlobalNamespace::StandardLevelDetailView._CalculateAndSetContent_b__61_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(float_t)>(
-    &::GlobalNamespace::StandardLevelDetailView::_CalculateAndSetContent_b__60_0)> {
+    &::GlobalNamespace::StandardLevelDetailView::_CalculateAndSetContent_b__61_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x268adf4;
+  constexpr static std::size_t addrs = 0x269e764;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "<CalculateAndSetContent>b__60_0",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "<CalculateAndSetContent>b__61_0",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
@@ -1091,6 +1101,19 @@ constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::MainSet
 constexpr void GlobalNamespace::StandardLevelDetailView::__cordl_internal_set__mainSettingsHandler(::BeatSaber::GameSettings::MainSettingsHandler* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainSettingsHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::BeatmapLevelsEntitlementModel*& GlobalNamespace::StandardLevelDetailView::__cordl_internal_get__beatmapLevelsEntitlementModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapLevelsEntitlementModel;
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsEntitlementModel*> const&
+GlobalNamespace::StandardLevelDetailView::__cordl_internal_get__beatmapLevelsEntitlementModel() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapLevelsEntitlementModel;
+}
+constexpr void GlobalNamespace::StandardLevelDetailView::__cordl_internal_set__beatmapLevelsEntitlementModel(::GlobalNamespace::BeatmapLevelsEntitlementModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelsEntitlementModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>*& GlobalNamespace::StandardLevelDetailView::__cordl_internal_get_didChangeDifficultyBeatmapEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1402,15 +1425,15 @@ inline void GlobalNamespace::StandardLevelDetailView::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::StandardLevelDetailView::_Awake_b__46_0(bool _) {
+inline void GlobalNamespace::StandardLevelDetailView::_Awake_b__47_0(bool _) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "<Awake>b__46_0",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "<Awake>b__47_0",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _);
 }
-inline void GlobalNamespace::StandardLevelDetailView::_CalculateAndSetContent_b__60_0(float_t value) {
+inline void GlobalNamespace::StandardLevelDetailView::_CalculateAndSetContent_b__61_0(float_t value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "<CalculateAndSetContent>b__60_0",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "<CalculateAndSetContent>b__61_0",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }

@@ -47,16 +47,16 @@ public:
   /// @brief Field modules, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_modules, put = setStaticF_modules))::System::Collections::ArrayList* modules;
 
-  /// @brief Method Authenticate, addr 0x300d614, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Authenticate, addr 0x301d028, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method DoAuthenticate, addr 0x300d720, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method DoAuthenticate, addr 0x301d134, size 0x4e8, virtual false, abstract: false, final false
   static inline ::System::Net::Authorization* DoAuthenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method EnsureModules, addr 0x300d364, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method EnsureModules, addr 0x301cd78, size 0x2a0, virtual false, abstract: false, final false
   static inline void EnsureModules();
 
-  /// @brief Method PreAuthenticate, addr 0x300dc08, size 0x538, virtual false, abstract: false, final false
+  /// @brief Method PreAuthenticate, addr 0x301d61c, size 0x538, virtual false, abstract: false, final false
   static inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
   static inline ::System::Net::ICredentialPolicy* getStaticF_credential_policy();

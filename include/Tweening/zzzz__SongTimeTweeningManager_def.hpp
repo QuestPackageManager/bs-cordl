@@ -26,7 +26,7 @@ public:
   /// @brief Field _audioTimeSource, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
-  /// @brief Method GetTime, addr 0x26c111c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetTime, addr 0x26d7510, size 0xa0, virtual true, abstract: false, final false
   inline float_t GetTime();
 
   static inline ::Tweening::SongTimeTweeningManager* New_ctor();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  /// @brief Method .ctor, addr 0x26c11bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d75b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

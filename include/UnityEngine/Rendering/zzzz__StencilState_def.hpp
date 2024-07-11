@@ -57,49 +57,49 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::StencilState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::StencilState>*();
 
-  /// @brief Method Equals, addr 0x34562d8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x346515c, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3456228, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x34650ac, size 0xb0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::StencilState other);
 
-  /// @brief Method GetHashCode, addr 0x3456354, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x34651d8, size 0xf0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::StencilState>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::StencilState>* i___System__IEquatable_1___UnityEngine__Rendering__StencilState_();
 
-  /// @brief Method set_compareFunctionBack, addr 0x3456208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_compareFunctionBack, addr 0x346508c, size 0x8, virtual false, abstract: false, final false
   inline void set_compareFunctionBack(::UnityEngine::Rendering::CompareFunction value);
 
-  /// @brief Method set_compareFunctionFront, addr 0x34561e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_compareFunctionFront, addr 0x346506c, size 0x8, virtual false, abstract: false, final false
   inline void set_compareFunctionFront(::UnityEngine::Rendering::CompareFunction value);
 
-  /// @brief Method set_enabled, addr 0x345616c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x3464ff0, size 0x6c, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
-  /// @brief Method set_failOperationBack, addr 0x3456218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_failOperationBack, addr 0x346509c, size 0x8, virtual false, abstract: false, final false
   inline void set_failOperationBack(::UnityEngine::Rendering::StencilOp value);
 
-  /// @brief Method set_failOperationFront, addr 0x34561f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_failOperationFront, addr 0x346507c, size 0x8, virtual false, abstract: false, final false
   inline void set_failOperationFront(::UnityEngine::Rendering::StencilOp value);
 
-  /// @brief Method set_passOperationBack, addr 0x3456210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_passOperationBack, addr 0x3465094, size 0x8, virtual false, abstract: false, final false
   inline void set_passOperationBack(::UnityEngine::Rendering::StencilOp value);
 
-  /// @brief Method set_passOperationFront, addr 0x34561f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_passOperationFront, addr 0x3465074, size 0x8, virtual false, abstract: false, final false
   inline void set_passOperationFront(::UnityEngine::Rendering::StencilOp value);
 
-  /// @brief Method set_readMask, addr 0x34561d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_readMask, addr 0x346505c, size 0x8, virtual false, abstract: false, final false
   inline void set_readMask(uint8_t value);
 
-  /// @brief Method set_writeMask, addr 0x34561e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_writeMask, addr 0x3465064, size 0x8, virtual false, abstract: false, final false
   inline void set_writeMask(uint8_t value);
 
-  /// @brief Method set_zFailOperationBack, addr 0x3456220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_zFailOperationBack, addr 0x34650a4, size 0x8, virtual false, abstract: false, final false
   inline void set_zFailOperationBack(::UnityEngine::Rendering::StencilOp value);
 
-  /// @brief Method set_zFailOperationFront, addr 0x3456200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_zFailOperationFront, addr 0x3465084, size 0x8, virtual false, abstract: false, final false
   inline void set_zFailOperationFront(::UnityEngine::Rendering::StencilOp value);
 
   // Ctor Parameters []

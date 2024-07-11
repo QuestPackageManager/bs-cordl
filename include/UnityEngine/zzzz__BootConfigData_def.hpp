@@ -29,7 +29,7 @@ public:
 
   static inline ::UnityEngine::BootConfigData* New_ctor(::System::IntPtr nativeHandle);
 
-  /// @brief Method WrapBootConfigData, addr 0x34345d8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method WrapBootConfigData, addr 0x344345c, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::BootConfigData* WrapBootConfigData(::System::IntPtr nativeHandle);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x3434638, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34434bc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr nativeHandle);
 
 protected:

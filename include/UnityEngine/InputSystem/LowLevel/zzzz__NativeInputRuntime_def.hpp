@@ -96,10 +96,10 @@ public:
 
   constexpr void __cordl_internal_set_value(::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* value);
 
-  /// @brief Method .ctor, addr 0x31841a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x319702c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <set_onUpdate>b__0, addr 0x3184918, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method <set_onUpdate>b__0, addr 0x319779c, size 0x1e8, virtual false, abstract: false, final false
   inline void _set_onUpdate_b__0(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::cordl_internals::Ptr<::UnityEngineInternal::Input::NativeInputEventBuffer> eventBufferPtr);
 
 protected:
@@ -146,10 +146,10 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* value);
 
-  /// @brief Method .ctor, addr 0x31842c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x319714c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <set_onBeforeUpdate>b__0, addr 0x3184b00, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <set_onBeforeUpdate>b__0, addr 0x3197984, size 0x24, virtual false, abstract: false, final false
   inline void _set_onBeforeUpdate_b__0(::UnityEngineInternal::Input::NativeInputUpdateType updateType);
 
 protected:
@@ -196,10 +196,10 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* value);
 
-  /// @brief Method .ctor, addr 0x31843e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x319726c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <set_onShouldRunUpdate>b__0, addr 0x3184b24, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <set_onShouldRunUpdate>b__0, addr 0x31979a8, size 0x24, virtual false, abstract: false, final false
   inline bool _set_onShouldRunUpdate_b__0(::UnityEngineInternal::Input::NativeInputUpdateType updateType);
 
 protected:
@@ -305,33 +305,33 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputRuntime"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputRuntime*() noexcept;
 
-  /// @brief Method AllocateDeviceId, addr 0x3183eb0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method AllocateDeviceId, addr 0x3196d34, size 0x50, virtual true, abstract: false, final true
   inline int32_t AllocateDeviceId();
 
-  /// @brief Method DeviceCommand, addr 0x3183fc4, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method DeviceCommand, addr 0x3196e48, size 0xcc, virtual true, abstract: false, final true
   inline int64_t DeviceCommand(int32_t deviceId, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> commandPtr);
 
   static inline ::UnityEngine::InputSystem::LowLevel::NativeInputRuntime* New_ctor();
 
-  /// @brief Method OnFocusChanged, addr 0x3184834, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnFocusChanged, addr 0x31976b8, size 0x28, virtual false, abstract: false, final false
   inline void OnFocusChanged(bool focus);
 
-  /// @brief Method OnShutdown, addr 0x31847d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnShutdown, addr 0x3197654, size 0x24, virtual false, abstract: false, final false
   inline void OnShutdown();
 
-  /// @brief Method OnWantsToShutdown, addr 0x31847f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnWantsToShutdown, addr 0x3197678, size 0x40, virtual false, abstract: false, final false
   inline bool OnWantsToShutdown();
 
-  /// @brief Method QueueEvent, addr 0x3183f58, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method QueueEvent, addr 0x3196ddc, size 0x6c, virtual true, abstract: false, final true
   inline void QueueEvent(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> ptr);
 
-  /// @brief Method RegisterAnalyticsEvent, addr 0x3184894, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RegisterAnalyticsEvent, addr 0x3197718, size 0x4, virtual false, abstract: false, final false
   inline void RegisterAnalyticsEvent(::StringW name, int32_t maxPerHour, int32_t maxPropertiesPerEvent);
 
-  /// @brief Method SendAnalyticsEvent, addr 0x3184898, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SendAnalyticsEvent, addr 0x319771c, size 0x4, virtual false, abstract: false, final false
   inline void SendAnalyticsEvent(::StringW name, ::System::Object* data);
 
-  /// @brief Method Update, addr 0x3183f00, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x3196d84, size 0x58, virtual true, abstract: false, final true
   inline void Update(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
   constexpr bool const& __cordl_internal_get_m_DidCallOnShutdown() const;
@@ -382,57 +382,57 @@ public:
 
   constexpr void __cordl_internal_set_m_ShutdownMethod(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x318489c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3197720, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::LowLevel::NativeInputRuntime* getStaticF_instance();
 
-  /// @brief Method get_currentTime, addr 0x31846c0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_currentTime, addr 0x3197544, size 0x50, virtual true, abstract: false, final true
   inline double_t get_currentTime();
 
-  /// @brief Method get_currentTimeForFixedUpdate, addr 0x3184710, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method get_currentTimeForFixedUpdate, addr 0x3197594, size 0x2c, virtual true, abstract: false, final true
   inline double_t get_currentTimeForFixedUpdate();
 
-  /// @brief Method get_currentTimeOffsetToRealtimeSinceStartup, addr 0x318473c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_currentTimeOffsetToRealtimeSinceStartup, addr 0x31975c0, size 0x50, virtual true, abstract: false, final true
   inline double_t get_currentTimeOffsetToRealtimeSinceStartup();
 
-  /// @brief Method get_isInBatchMode, addr 0x318488c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isInBatchMode, addr 0x3197710, size 0x8, virtual true, abstract: false, final true
   inline bool get_isInBatchMode();
 
-  /// @brief Method get_isPlayerFocused, addr 0x3184648, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isPlayerFocused, addr 0x31974cc, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPlayerFocused();
 
-  /// @brief Method get_onBeforeUpdate, addr 0x31841b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_onBeforeUpdate, addr 0x3197034, size 0x8, virtual true, abstract: false, final true
   inline ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* get_onBeforeUpdate();
 
-  /// @brief Method get_onDeviceDiscovered, addr 0x31843f0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_onDeviceDiscovered, addr 0x3197274, size 0x50, virtual true, abstract: false, final true
   inline ::System::Action_2<int32_t, ::StringW>* get_onDeviceDiscovered();
 
-  /// @brief Method get_onPlayerFocusChanged, addr 0x3184570, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_onPlayerFocusChanged, addr 0x31973f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Action_1<bool>* get_onPlayerFocusChanged();
 
-  /// @brief Method get_onShouldRunUpdate, addr 0x31842d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_onShouldRunUpdate, addr 0x3197154, size 0x8, virtual true, abstract: false, final true
   inline ::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* get_onShouldRunUpdate();
 
-  /// @brief Method get_onShutdown, addr 0x3184498, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_onShutdown, addr 0x319731c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Action* get_onShutdown();
 
-  /// @brief Method get_onUpdate, addr 0x3184090, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_onUpdate, addr 0x3196f14, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* get_onUpdate();
 
-  /// @brief Method get_pollingFrequency, addr 0x3184650, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_pollingFrequency, addr 0x31974d4, size 0x8, virtual true, abstract: false, final true
   inline float_t get_pollingFrequency();
 
-  /// @brief Method get_runInBackground, addr 0x3184794, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_runInBackground, addr 0x3197618, size 0x30, virtual true, abstract: false, final true
   inline bool get_runInBackground();
 
-  /// @brief Method get_screenOrientation, addr 0x3184884, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_screenOrientation, addr 0x3197708, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::ScreenOrientation get_screenOrientation();
 
-  /// @brief Method get_screenSize, addr 0x318485c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_screenSize, addr 0x31976e0, size 0x28, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_screenSize();
 
-  /// @brief Method get_unscaledGameTime, addr 0x318478c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_unscaledGameTime, addr 0x3197610, size 0x8, virtual true, abstract: false, final true
   inline float_t get_unscaledGameTime();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputRuntime"
@@ -440,28 +440,28 @@ public:
 
   static inline void setStaticF_instance(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime* value);
 
-  /// @brief Method set_onBeforeUpdate, addr 0x31841b8, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method set_onBeforeUpdate, addr 0x319703c, size 0x110, virtual true, abstract: false, final true
   inline void set_onBeforeUpdate(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* value);
 
-  /// @brief Method set_onDeviceDiscovered, addr 0x3184440, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method set_onDeviceDiscovered, addr 0x31972c4, size 0x58, virtual true, abstract: false, final true
   inline void set_onDeviceDiscovered(::System::Action_2<int32_t, ::StringW>* value);
 
-  /// @brief Method set_onPlayerFocusChanged, addr 0x3184578, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method set_onPlayerFocusChanged, addr 0x31973fc, size 0xd0, virtual true, abstract: false, final true
   inline void set_onPlayerFocusChanged(::System::Action_1<bool>* value);
 
-  /// @brief Method set_onShouldRunUpdate, addr 0x31842d8, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method set_onShouldRunUpdate, addr 0x319715c, size 0x110, virtual true, abstract: false, final true
   inline void set_onShouldRunUpdate(::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* value);
 
-  /// @brief Method set_onShutdown, addr 0x31844a0, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method set_onShutdown, addr 0x3197324, size 0xd0, virtual true, abstract: false, final true
   inline void set_onShutdown(::System::Action* value);
 
-  /// @brief Method set_onUpdate, addr 0x3184098, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method set_onUpdate, addr 0x3196f1c, size 0x110, virtual true, abstract: false, final true
   inline void set_onUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* value);
 
-  /// @brief Method set_pollingFrequency, addr 0x3184658, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method set_pollingFrequency, addr 0x31974dc, size 0x68, virtual true, abstract: false, final true
   inline void set_pollingFrequency(float_t value);
 
-  /// @brief Method set_runInBackground, addr 0x31847c4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_runInBackground, addr 0x3197648, size 0xc, virtual true, abstract: false, final true
   inline void set_runInBackground(bool value);
 
 protected:

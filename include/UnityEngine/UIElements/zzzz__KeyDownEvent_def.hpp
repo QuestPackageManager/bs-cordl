@@ -22,12 +22,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE KeyDownEvent : public ::UnityEngine::UIElements::KeyboardEventBase_1<::UnityEngine::UIElements::KeyDownEvent*> {
 public:
   // Declarations
-  /// @brief Method GetEquivalentImguiEvent, addr 0x35d2ef4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetEquivalentImguiEvent, addr 0x35e8d78, size 0xc0, virtual false, abstract: false, final false
   inline void GetEquivalentImguiEvent(::UnityEngine::Event* outImguiEvent);
 
   static inline ::UnityEngine::UIElements::KeyDownEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35d2fb4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e8e38, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

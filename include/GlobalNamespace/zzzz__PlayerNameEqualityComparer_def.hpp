@@ -29,15 +29,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x14a8374, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x14b1a2c, size 0x20, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore* x, ::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore* y);
 
-  /// @brief Method GetHashCode, addr 0x14a8394, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x14b1a4c, size 0x24, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore* obj);
 
   static inline ::GlobalNamespace::PlayerNameEqualityComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x14a83b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14b1a70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>"

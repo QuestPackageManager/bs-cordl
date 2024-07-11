@@ -34,18 +34,18 @@ public:
   /// @brief Convert operator to "::BGLib::Polyglot::ILocalize"
   constexpr operator ::BGLib::Polyglot::ILocalize*() noexcept;
 
-  /// @brief Method CreateDropdown, addr 0x1083fa0, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method CreateDropdown, addr 0x108f298, size 0x234, virtual false, abstract: false, final false
   inline void CreateDropdown();
 
   static inline ::BGLib::Polyglot::LanguageDropdown* New_ctor();
 
-  /// @brief Method OnLocalize, addr 0x10844b8, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method OnLocalize, addr 0x108f7b0, size 0x138, virtual true, abstract: false, final true
   inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
 
-  /// @brief Method Reset, addr 0x1083f2c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x108f224, size 0x50, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Start, addr 0x1083f7c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x108f274, size 0x24, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Dropdown> const& __cordl_internal_get_dropdown() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_dropdown(::UnityW<::UnityEngine::UI::Dropdown> value);
 
-  /// @brief Method .ctor, addr 0x10845f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x108f8e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::Polyglot::ILocalize"

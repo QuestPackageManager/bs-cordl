@@ -26,10 +26,10 @@ public:
   /// @brief Field m_CurrentPointerId, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_CurrentPointerId, put = __cordl_internal_set_m_CurrentPointerId)) int32_t m_CurrentPointerId;
 
-  /// @brief Method CanStartManipulation, addr 0x353c4a0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method CanStartManipulation, addr 0x3553324, size 0x1f4, virtual false, abstract: false, final false
   inline bool CanStartManipulation(::UnityEngine::UIElements::IPointerEvent* e);
 
-  /// @brief Method CanStopManipulation, addr 0x353c8d8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CanStopManipulation, addr 0x355375c, size 0xb4, virtual false, abstract: false, final false
   inline bool CanStopManipulation(::UnityEngine::UIElements::IPointerEvent* e);
 
   static inline ::UnityEngine::UIElements::PointerManipulator* New_ctor();
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_m_CurrentPointerId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x353b544, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35523c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

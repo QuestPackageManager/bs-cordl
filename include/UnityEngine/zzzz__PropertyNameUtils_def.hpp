@@ -24,10 +24,10 @@ namespace UnityEngine {
 class CORDL_TYPE PropertyNameUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PropertyNameFromString, addr 0x342ff04, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method PropertyNameFromString, addr 0x343ed88, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::PropertyName PropertyNameFromString(::StringW name);
 
-  /// @brief Method PropertyNameFromString_Injected, addr 0x34300d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PropertyNameFromString_Injected, addr 0x343ef54, size 0x44, virtual false, abstract: false, final false
   static inline void PropertyNameFromString_Injected(::StringW name, ByRef<::UnityEngine::PropertyName> ret);
 
 protected:

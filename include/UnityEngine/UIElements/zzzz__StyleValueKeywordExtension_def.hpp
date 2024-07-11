@@ -23,7 +23,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE StyleValueKeywordExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToUssString, addr 0x35ebcd0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ToUssString, addr 0x3602b54, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW ToUssString(::UnityEngine::UIElements::StyleValueKeyword svk);
 
 protected:

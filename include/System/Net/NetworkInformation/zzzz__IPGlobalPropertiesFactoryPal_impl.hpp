@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::IPGlobalProperties* (*)()>(
     &::System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal::Create)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x303eefc;
+  constexpr static std::size_t addrs = 0x304e910;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

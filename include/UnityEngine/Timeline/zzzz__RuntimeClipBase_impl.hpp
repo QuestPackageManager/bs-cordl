@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::Timeline::RuntimeClipBase::*)()>(
     &::UnityEngine::Timeline::RuntimeClipBase::get_intervalStart)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x33c66b0;
+  constexpr static std::size_t addrs = 0x33d5534;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::Timeline::RuntimeClipBase::*)()>(
     &::UnityEngine::Timeline::RuntimeClipBase::get_intervalEnd)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x33c6720;
+  constexpr static std::size_t addrs = 0x33d55a4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::RuntimeClipBase::*)()>(&::UnityEngine::Timeline::RuntimeClipBase::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33c60d0;
+  constexpr static std::size_t addrs = 0x33d4f54;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeClipBase*>::get(), ".ctor",

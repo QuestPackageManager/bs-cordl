@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::*)()>(
     &::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x284de70;
+  constexpr static std::size_t addrs = 0x2860884;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                           ByRef<::System::Runtime::Serialization::ISurrogateSelector*>)>(
     &::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::GetSurrogate)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x284de78;
+  constexpr static std::size_t addrs = 0x286088c;
 
   inline static const ::MethodInfo* methodInfo() {
 

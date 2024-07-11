@@ -33,18 +33,18 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::SetArrayItemInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x2c31cb8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c466cc, size 0xc0, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c31c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c4667c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::SetArrayItemInstruction* getStaticF_Instance();
 
-  /// @brief Method get_ConsumedStack, addr 0x2c31c70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2c46684, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2c31c78, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c4668c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
   static inline void setStaticF_Instance(::System::Linq::Expressions::Interpreter::SetArrayItemInstruction* value);

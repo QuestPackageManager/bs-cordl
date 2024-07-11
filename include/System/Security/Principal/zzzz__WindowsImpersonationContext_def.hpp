@@ -36,24 +36,24 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CloseToken, addr 0x2816b00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloseToken, addr 0x2829514, size 0x4, virtual false, abstract: false, final false
   static inline bool CloseToken(::System::IntPtr token);
 
-  /// @brief Method Dispose, addr 0x2816a28, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x282943c, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DuplicateToken, addr 0x2816a20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DuplicateToken, addr 0x2829434, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr DuplicateToken(::System::IntPtr token);
 
   static inline ::System::Security::Principal::WindowsImpersonationContext* New_ctor(::System::IntPtr token);
 
-  /// @brief Method RevertToSelf, addr 0x2816afc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RevertToSelf, addr 0x2829510, size 0x4, virtual false, abstract: false, final false
   static inline bool RevertToSelf();
 
-  /// @brief Method SetCurrentToken, addr 0x2816a24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentToken, addr 0x2829438, size 0x4, virtual false, abstract: false, final false
   static inline bool SetCurrentToken(::System::IntPtr token);
 
-  /// @brief Method Undo, addr 0x2816a38, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Undo, addr 0x282944c, size 0xc4, virtual false, abstract: false, final false
   inline void Undo();
 
   constexpr ::System::IntPtr const& __cordl_internal_get__token() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_undo(bool value);
 
-  /// @brief Method .ctor, addr 0x281631c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2828d30, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr token);
 
   /// @brief Convert to "::System::IDisposable"

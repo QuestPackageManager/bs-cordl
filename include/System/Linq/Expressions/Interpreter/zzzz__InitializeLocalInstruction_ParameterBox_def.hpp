@@ -28,13 +28,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ParameterBox* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x2c5ca3c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c70450, size 0xdc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c5ca14, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c70428, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_InstructionName, addr 0x2c5cb18, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c7052c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:

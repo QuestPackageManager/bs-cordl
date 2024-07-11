@@ -105,16 +105,16 @@ public:
   /// @brief Field m_Repeater, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Repeater, put = __cordl_internal_set_m_Repeater))::UnityEngine::UIElements::IVisualElementScheduledItem* m_Repeater;
 
-  /// @brief Method ContainsPointer, addr 0x353b618, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ContainsPointer, addr 0x355249c, size 0x88, virtual false, abstract: false, final false
   inline bool ContainsPointer(int32_t pointerId);
 
-  /// @brief Method Invoke, addr 0x353b6a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3552524, size 0x58, virtual false, abstract: false, final false
   inline void Invoke(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method IsNotMouseEvent, addr 0x353ca14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsNotMouseEvent, addr 0x3553898, size 0x64, virtual false, abstract: false, final false
   static inline bool IsNotMouseEvent(int32_t pointerId);
 
-  /// @brief Method IsRepeatable, addr 0x353b5f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsRepeatable, addr 0x3552478, size 0x24, virtual false, abstract: false, final false
   inline bool IsRepeatable();
 
   static inline ::UnityEngine::UIElements::Clickable* New_ctor(::System::Action* handler);
@@ -123,58 +123,58 @@ public:
 
   static inline ::UnityEngine::UIElements::Clickable* New_ctor(::System::Action_1<::UnityEngine::UIElements::EventBase*>* handler);
 
-  /// @brief Method OnMouseCaptureOut, addr 0x353c2f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnMouseCaptureOut, addr 0x355317c, size 0x84, virtual false, abstract: false, final false
   inline void OnMouseCaptureOut(::UnityEngine::UIElements::MouseCaptureOutEvent* evt);
 
-  /// @brief Method OnMouseDown, addr 0x353c114, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnMouseDown, addr 0x3552f98, size 0xb8, virtual false, abstract: false, final false
   inline void OnMouseDown(::UnityEngine::UIElements::MouseDownEvent* evt);
 
-  /// @brief Method OnMouseMove, addr 0x353c1cc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnMouseMove, addr 0x3553050, size 0x6c, virtual false, abstract: false, final false
   inline void OnMouseMove(::UnityEngine::UIElements::MouseMoveEvent* evt);
 
-  /// @brief Method OnMouseUp, addr 0x353c238, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OnMouseUp, addr 0x35530bc, size 0xc0, virtual false, abstract: false, final false
   inline void OnMouseUp(::UnityEngine::UIElements::MouseUpEvent* evt);
 
-  /// @brief Method OnPointerCancel, addr 0x353c98c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnPointerCancel, addr 0x3553810, size 0x88, virtual false, abstract: false, final false
   inline void OnPointerCancel(::UnityEngine::UIElements::PointerCancelEvent* evt);
 
-  /// @brief Method OnPointerCaptureOut, addr 0x353ca78, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OnPointerCaptureOut, addr 0x35538fc, size 0x78, virtual false, abstract: false, final false
   inline void OnPointerCaptureOut(::UnityEngine::UIElements::PointerCaptureOutEvent* evt);
 
-  /// @brief Method OnPointerDown, addr 0x353c37c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x3553200, size 0x124, virtual false, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  /// @brief Method OnPointerMove, addr 0x353c694, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMove, addr 0x3553518, size 0x118, virtual false, abstract: false, final false
   inline void OnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-  /// @brief Method OnPointerUp, addr 0x353c7ac, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x3553630, size 0x12c, virtual false, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method OnTimer, addr 0x353b548, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnTimer, addr 0x35523cc, size 0xac, virtual false, abstract: false, final false
   inline void OnTimer(::UnityEngine::UIElements::TimerState timerState);
 
-  /// @brief Method ProcessCancelEvent, addr 0x353d25c, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ProcessCancelEvent, addr 0x35540e0, size 0x16c, virtual true, abstract: false, final false
   inline void ProcessCancelEvent(::UnityEngine::UIElements::EventBase* evt, int32_t pointerId);
 
-  /// @brief Method ProcessDownEvent, addr 0x353cce0, size 0x360, virtual true, abstract: false, final false
+  /// @brief Method ProcessDownEvent, addr 0x3553b64, size 0x360, virtual true, abstract: false, final false
   inline void ProcessDownEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::Vector2 localPosition, int32_t pointerId);
 
-  /// @brief Method ProcessMoveEvent, addr 0x353d040, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ProcessMoveEvent, addr 0x3553ec4, size 0x74, virtual true, abstract: false, final false
   inline void ProcessMoveEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::Vector2 localPosition);
 
-  /// @brief Method ProcessUpEvent, addr 0x353d0b4, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method ProcessUpEvent, addr 0x3553f38, size 0x1a8, virtual true, abstract: false, final false
   inline void ProcessUpEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::Vector2 localPosition, int32_t pointerId);
 
-  /// @brief Method RegisterCallbacksOnTarget, addr 0x353b6f8, size 0x520, virtual true, abstract: false, final false
+  /// @brief Method RegisterCallbacksOnTarget, addr 0x355257c, size 0x520, virtual true, abstract: false, final false
   inline void RegisterCallbacksOnTarget();
 
-  /// @brief Method SimulateSingleClick, addr 0x353cb0c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SimulateSingleClick, addr 0x3553990, size 0x1d4, virtual false, abstract: false, final false
   inline void SimulateSingleClick(::UnityEngine::UIElements::EventBase* evt, int32_t delayMs);
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x353bc18, size 0x4fc, virtual true, abstract: false, final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x3552a9c, size 0x4fc, virtual true, abstract: false, final false
   inline void UnregisterCallbacksFromTarget();
 
-  /// @brief Method <SimulateSingleClick>b__43_0, addr 0x353d3c8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <SimulateSingleClick>b__43_0, addr 0x355424c, size 0x34, virtual false, abstract: false, final false
   inline void _SimulateSingleClick_b__43_0();
 
   constexpr bool const& __cordl_internal_get__active_k__BackingField() const;
@@ -231,31 +231,31 @@ public:
 
   constexpr void __cordl_internal_set_m_Repeater(::UnityEngine::UIElements::IVisualElementScheduledItem* value);
 
-  /// @brief Method .ctor, addr 0x353b3b4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3552238, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* handler);
 
-  /// @brief Method .ctor, addr 0x353b388, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355220c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* handler, int64_t delay, int64_t interval);
 
-  /// @brief Method .ctor, addr 0x353b47c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3552300, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::UnityEngine::UIElements::EventBase*>* handler);
 
-  /// @brief Method get_acceptClicksIfDisabled, addr 0x353b378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_acceptClicksIfDisabled, addr 0x35521fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_acceptClicksIfDisabled();
 
-  /// @brief Method get_active, addr 0x353b354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_active, addr 0x35521d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_active();
 
-  /// @brief Method get_invokePolicy, addr 0x353b380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_invokePolicy, addr 0x3552204, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::InvokePolicy get_invokePolicy();
 
-  /// @brief Method get_lastMousePosition, addr 0x353b368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastMousePosition, addr 0x35521ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_lastMousePosition();
 
-  /// @brief Method set_active, addr 0x353b35c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_active, addr 0x35521e0, size 0xc, virtual false, abstract: false, final false
   inline void set_active(bool value);
 
-  /// @brief Method set_lastMousePosition, addr 0x353b370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastMousePosition, addr 0x35521f4, size 0x8, virtual false, abstract: false, final false
   inline void set_lastMousePosition(::UnityEngine::Vector2 value);
 
 protected:

@@ -91,7 +91,7 @@ public:
 
   static inline ::HMUI::TimeSlider* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x251feb4, size 0x308, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x2534168, size 0x308, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);
 
   constexpr ::HMUI::__TimeSlider__TimeType const& __cordl_internal_get__timeType() const;
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set__timeType(::HMUI::__TimeSlider__TimeType value);
 
-  /// @brief Method .ctor, addr 0x25201bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2534470, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

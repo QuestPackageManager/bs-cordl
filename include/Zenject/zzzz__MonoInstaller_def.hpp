@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::Zenject::MonoInstaller* New_ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36753b4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x368c238, size 0x178, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x36753a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x368c228, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

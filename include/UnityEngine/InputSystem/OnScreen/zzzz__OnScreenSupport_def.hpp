@@ -19,7 +19,7 @@ namespace UnityEngine::InputSystem::OnScreen {
 class CORDL_TYPE OnScreenSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x316d03c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x317eec0, size 0x4, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:

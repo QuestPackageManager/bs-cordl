@@ -49,17 +49,17 @@ public:
 
   constexpr void __cordl_internal_set__TypeCode_k__BackingField(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
 
-  /// @brief Method .ctor, addr 0x2a46264, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a5ac78, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>* getStaticF_ReadTypeMap();
 
-  /// @brief Method get_TypeCode, addr 0x2a4d6c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2a620d8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
 
   static inline void setStaticF_ReadTypeMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>* value);
 
-  /// @brief Method set_TypeCode, addr 0x2a4d6cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TypeCode, addr 0x2a620e0, size 0x8, virtual false, abstract: false, final false
   inline void set_TypeCode(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
 
 protected:

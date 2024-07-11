@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::ColorWasSet)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x250eab4;
+  constexpr static std::size_t addrs = 0x2522d68;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::*)()>(
     &::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x250eae8;
+  constexpr static std::size_t addrs = 0x2522d9c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TextAlignmentOptions (*)(::TMPro::TextAlignmentOptions)>(
     &::TMPro::TMP_Compatibility::ConvertTextAlignmentEnumValues)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x33607b0;
+  constexpr static std::size_t addrs = 0x336e634;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

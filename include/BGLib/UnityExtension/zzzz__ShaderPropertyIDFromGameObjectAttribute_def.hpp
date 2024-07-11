@@ -23,12 +23,12 @@ namespace BGLib::UnityExtension {
 class CORDL_TYPE ShaderPropertyIDFromGameObjectAttribute : public ::BGLib::UnityExtension::ShaderPropertyIDAttribute {
 public:
   // Declarations
-  /// @brief Method GetTargetName, addr 0x108d560, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetTargetName, addr 0x1099858, size 0x40, virtual true, abstract: false, final false
   inline ::StringW GetTargetName();
 
   static inline ::BGLib::UnityExtension::ShaderPropertyIDFromGameObjectAttribute* New_ctor(::StringW nameFilter, ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType filterPropType);
 
-  /// @brief Method .ctor, addr 0x108d55c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1099854, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW nameFilter, ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType filterPropType);
 
 protected:

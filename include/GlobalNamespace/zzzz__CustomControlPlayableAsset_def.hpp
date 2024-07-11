@@ -44,10 +44,10 @@ public:
 
   constexpr void __cordl_internal_set__template(::GlobalNamespace::AvatarColorBehaviour* value);
 
-  /// @brief Method .ctor, addr 0x26b4ff0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cb278, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x26b4fe8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x26cb270, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::JetBrains::Annotations::AspMvcViewAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x363a7a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3651628, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -48,16 +48,16 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
 
-  /// @brief Method Equals, addr 0x33315bc, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3340440, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3331620, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x33404a4, size 0x7c, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey* other);
 
-  /// @brief Method Equals, addr 0x333169c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3340520, size 0x64, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
 
-  /// @brief Method GetHashCode, addr 0x333159c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3340420, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey*
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Handles(::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method .ctor, addr 0x332c7c4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x333b648, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* handles);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"

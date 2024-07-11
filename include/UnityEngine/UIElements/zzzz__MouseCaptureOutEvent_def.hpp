@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::MouseCaptureOutEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35c8244, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35de0c8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

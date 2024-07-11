@@ -44,22 +44,22 @@ public:
 
   __declspec(property(put = set_streamAudio)) bool streamAudio;
 
-  /// @brief Method Create, addr 0x362b400, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3642284, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerAudioClip* obj, ::StringW url, ::UnityEngine::AudioType audioType);
 
-  /// @brief Method Dispose, addr 0x362b4bc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3642340, size 0x24, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetContent, addr 0x362b5b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x3642434, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AudioClip> GetContent(::UnityEngine::Networking::UnityWebRequest* www);
 
-  /// @brief Method GetNativeData, addr 0x362b4b0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetNativeData, addr 0x3642334, size 0xc, virtual true, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData();
 
-  /// @brief Method GetText, addr 0x362b4e0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetText, addr 0x3642364, size 0x50, virtual true, abstract: false, final false
   inline ::StringW GetText();
 
-  /// @brief Method InternalCreateAudioClip, addr 0x362b454, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateAudioClip, addr 0x36422d8, size 0x5c, virtual false, abstract: false, final false
   inline void InternalCreateAudioClip(::StringW url, ::UnityEngine::AudioType audioType);
 
   static inline ::UnityEngine::Networking::DownloadHandlerAudioClip* New_ctor(::StringW url, ::UnityEngine::AudioType audioType);
@@ -70,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set_m_NativeData(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x362b39c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3642220, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW url, ::UnityEngine::AudioType audioType);
 
-  /// @brief Method get_audioClip, addr 0x362b530, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioClip, addr 0x36423b4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_audioClip();
 
-  /// @brief Method set_streamAudio, addr 0x362b56c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_streamAudio, addr 0x36423f0, size 0x44, virtual false, abstract: false, final false
   inline void set_streamAudio(bool value);
 
 protected:

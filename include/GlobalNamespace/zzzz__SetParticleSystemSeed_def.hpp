@@ -32,7 +32,7 @@ public:
   /// @brief Field _useRandom, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__useRandom, put = __cordl_internal_set__useRandom)) bool _useRandom;
 
-  /// @brief Method Awake, addr 0x26d74f0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26eca1c, size 0x4c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::SetParticleSystemSeed* New_ctor();
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__useRandom(bool value);
 
-  /// @brief Method .ctor, addr 0x26d753c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eca68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy::*)(bool, bool)>(
     &::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2a65334;
+  constexpr static std::size_t addrs = 0x2a79d48;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy::*)(bool, bool, bool)>(
     &::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2a6536c;
+  constexpr static std::size_t addrs = 0x2a79d80;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy::*)()>(
     &::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a653b8;
+  constexpr static std::size_t addrs = 0x2a79dcc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy::*)(::StringW)>(
     &::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy::ResolvePropertyName)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2a653c0;
+  constexpr static std::size_t addrs = 0x2a79dd4;
 
   inline static const ::MethodInfo* methodInfo() {
 

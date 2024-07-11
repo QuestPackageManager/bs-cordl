@@ -54,15 +54,15 @@ public:
 
   __declspec(property(get = get_spawnColor, put = set_spawnColor))::UnityEngine::Color spawnColor;
 
-  /// @brief Method HandleNoteWasCut, addr 0x106361c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x106a1cc, size 0x64, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::Ice::NoteCutFloorLightStreakTileEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x1063584, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x106a134, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x10634f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x106a0a8, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
@@ -89,13 +89,13 @@ public:
 
   constexpr void __cordl_internal_set__spawnColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x1063680, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x106a230, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_spawnColor, addr 0x10634ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_spawnColor, addr 0x106a09c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_spawnColor();
 
-  /// @brief Method set_spawnColor, addr 0x10634e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_spawnColor, addr 0x106a090, size 0xc, virtual false, abstract: false, final false
   inline void set_spawnColor(::UnityEngine::Color value);
 
 protected:

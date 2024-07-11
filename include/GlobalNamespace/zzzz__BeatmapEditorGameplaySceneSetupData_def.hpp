@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_useFirstPersonFlyingController(bool value);
 
-  /// @brief Method .ctor, addr 0x26ba960, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d0c50, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool useFirstPersonFlyingController, bool recordVRMovement, bool playVRMovement);
 
 protected:

@@ -257,18 +257,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE __OVROverlay__ExternalSurfaceObjectCreated : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2b41cd4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2b536e8, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2b41cf4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2b53708, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2b41cc0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2b536d4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2b41c04, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b53618, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -531,85 +531,85 @@ public:
   /// @brief Field xrDeviceConstructed, offset 0x1c4, size 0x1
   __declspec(property(get = __cordl_internal_get_xrDeviceConstructed, put = __cordl_internal_set_xrDeviceConstructed)) bool xrDeviceConstructed;
 
-  /// @brief Method Awake, addr 0x2b40518, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2b51f2c, size 0x2f0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method BlitSubImage, addr 0x2b3f614, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method BlitSubImage, addr 0x2b51028, size 0x404, virtual false, abstract: false, final false
   inline void BlitSubImage(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dst, ::UnityEngine::Material* mat, ::UnityEngine::Rect rect);
 
-  /// @brief Method ComputePoseAndScale, addr 0x2b40b9c, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method ComputePoseAndScale, addr 0x2b525b0, size 0x388, virtual false, abstract: false, final false
   inline void ComputePoseAndScale(ByRef<::GlobalNamespace::OVRPose> pose, ByRef<::UnityEngine::Vector3> scale, ByRef<bool> overlay, ByRef<bool> headLocked);
 
-  /// @brief Method ComputeSubmit, addr 0x2b40f24, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method ComputeSubmit, addr 0x2b52938, size 0x2a0, virtual false, abstract: false, final false
   inline bool ComputeSubmit(ByRef<::GlobalNamespace::OVRPose> pose, ByRef<::UnityEngine::Vector3> scale, ByRef<bool> overlay, ByRef<bool> headLocked);
 
-  /// @brief Method CreateLayer, addr 0x2b3d9b8, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method CreateLayer, addr 0x2b4f3cc, size 0x410, virtual false, abstract: false, final false
   inline bool CreateLayer(int32_t mipLevels, int32_t sampleCount, ::GlobalNamespace::__OVRPlugin__EyeTextureFormat etFormat, int32_t flags, ::GlobalNamespace::__OVRPlugin__Sizei size,
                           ::GlobalNamespace::__OVRPlugin__OverlayShape shape);
 
-  /// @brief Method CreateLayerTextures, addr 0x2b3ddc8, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method CreateLayerTextures, addr 0x2b4f7dc, size 0x548, virtual false, abstract: false, final false
   inline bool CreateLayerTextures(bool useMipmaps, ::GlobalNamespace::__OVRPlugin__Sizei size, bool isHdr);
 
-  /// @brief Method DestroyLayer, addr 0x2b3e434, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method DestroyLayer, addr 0x2b4fe48, size 0x2cc, virtual false, abstract: false, final false
   inline void DestroyLayer();
 
-  /// @brief Method DestroyLayerTextures, addr 0x2b3e310, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method DestroyLayerTextures, addr 0x2b4fd24, size 0x124, virtual false, abstract: false, final false
   inline void DestroyLayerTextures();
 
-  /// @brief Method GetBlitRect, addr 0x2b3f4a8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetBlitRect, addr 0x2b50ebc, size 0x16c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetBlitRect(int32_t eyeId);
 
-  /// @brief Method GetCurrentLayerDesc, addr 0x2b3efb0, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentLayerDesc, addr 0x2b509c4, size 0x4f8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__LayerDesc GetCurrentLayerDesc();
 
-  /// @brief Method InitOVROverlay, addr 0x2b408f4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method InitOVROverlay, addr 0x2b52308, size 0x16c, virtual false, abstract: false, final false
   inline void InitOVROverlay();
 
-  /// @brief Method IsPassthroughShape, addr 0x2b3d960, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsPassthroughShape, addr 0x2b4f374, size 0x58, virtual false, abstract: false, final false
   static inline bool IsPassthroughShape(::GlobalNamespace::__OVROverlay__OverlayShape shape);
 
-  /// @brief Method LatchLayerTextures, addr 0x2b3eb44, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method LatchLayerTextures, addr 0x2b50558, size 0x46c, virtual false, abstract: false, final false
   inline bool LatchLayerTextures();
 
-  /// @brief Method LateUpdate, addr 0x2b414c4, size 0x524, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2b52ed8, size 0x524, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method NeedsTexturesForShape, addr 0x2b3d900, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method NeedsTexturesForShape, addr 0x2b4f314, size 0x60, virtual false, abstract: false, final false
   static inline bool NeedsTexturesForShape(::GlobalNamespace::__OVROverlay__OverlayShape shape);
 
   static inline ::GlobalNamespace::OVROverlay* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2b40b84, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2b52598, size 0x18, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x2b40a60, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2b52474, size 0x124, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2b40884, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2b52298, size 0x70, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OpenVROverlayUpdate, addr 0x2b411c4, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method OpenVROverlayUpdate, addr 0x2b52bd8, size 0x300, virtual false, abstract: false, final false
   inline void OpenVROverlayUpdate(::UnityEngine::Vector3 scale, ::GlobalNamespace::OVRPose pose);
 
-  /// @brief Method OverrideOverlayTextureInfo, addr 0x2b3d74c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OverrideOverlayTextureInfo, addr 0x2b4f160, size 0xbc, virtual false, abstract: false, final false
   inline void OverrideOverlayTextureInfo(::UnityEngine::Texture* srcTexture, ::System::IntPtr nativePtr, ::UnityEngine::XR::XRNode node);
 
-  /// @brief Method PopulateLayer, addr 0x2b3fa18, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method PopulateLayer, addr 0x2b5142c, size 0x698, virtual false, abstract: false, final false
   inline bool PopulateLayer(int32_t mipLevels, bool isHdr, ::GlobalNamespace::__OVRPlugin__Sizei size, int32_t sampleCount, int32_t stage);
 
-  /// @brief Method SetPerLayerColorScaleAndOffset, addr 0x2b3eb30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetPerLayerColorScaleAndOffset, addr 0x2b50544, size 0x14, virtual false, abstract: false, final false
   inline void SetPerLayerColorScaleAndOffset(::UnityEngine::Vector4 scale, ::UnityEngine::Vector4 offset);
 
-  /// @brief Method SetSrcDestRects, addr 0x2b3e700, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetSrcDestRects, addr 0x2b50114, size 0x1c, virtual false, abstract: false, final false
   inline void SetSrcDestRects(::UnityEngine::Rect srcLeft, ::UnityEngine::Rect srcRight, ::UnityEngine::Rect destLeft, ::UnityEngine::Rect destRight);
 
-  /// @brief Method SetupEditorPreview, addr 0x2b3d748, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetupEditorPreview, addr 0x2b4f15c, size 0x4, virtual false, abstract: false, final false
   inline void SetupEditorPreview();
 
-  /// @brief Method SubmitLayer, addr 0x2b400b0, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method SubmitLayer, addr 0x2b51ac4, size 0x468, virtual false, abstract: false, final false
   inline bool SubmitLayer(bool overlay, bool headLocked, bool noDepthBufferTesting, ::GlobalNamespace::OVRPose pose, ::UnityEngine::Vector3 scale, int32_t frameIndex);
 
-  /// @brief Method UpdateTextureRectMatrix, addr 0x2b3e71c, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method UpdateTextureRectMatrix, addr 0x2b50130, size 0x414, virtual false, abstract: false, final false
   inline void UpdateTextureRectMatrix();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_OpenVRMouseScale() const;
@@ -924,7 +924,7 @@ public:
 
   constexpr void __cordl_internal_set_xrDeviceConstructed(bool value);
 
-  /// @brief Method .ctor, addr 0x2b419e8, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b533fc, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF_cubeMaterial();
@@ -933,19 +933,19 @@ public:
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF_tex2DMaterial();
 
-  /// @brief Method get_OpenVROverlayKey, addr 0x2b40808, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_OpenVROverlayKey, addr 0x2b5221c, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW get_OpenVROverlayKey();
 
-  /// @brief Method get_layerId, addr 0x2b3d808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layerId, addr 0x2b4f21c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layerId();
 
-  /// @brief Method get_layout, addr 0x2b3d818, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x2b4f22c, size 0xcc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__LayerLayout get_layout();
 
-  /// @brief Method get_previewInEditor, addr 0x2b3d728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previewInEditor, addr 0x2b4f13c, size 0x8, virtual false, abstract: false, final false
   inline bool get_previewInEditor();
 
-  /// @brief Method get_texturesPerStage, addr 0x2b3d8e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_texturesPerStage, addr 0x2b4f2f8, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_texturesPerStage();
 
   static inline void setStaticF_cubeMaterial(::UnityW<::UnityEngine::Material> value);
@@ -954,10 +954,10 @@ public:
 
   static inline void setStaticF_tex2DMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method set_layerId, addr 0x2b3d810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_layerId, addr 0x2b4f224, size 0x8, virtual false, abstract: false, final false
   inline void set_layerId(int32_t value);
 
-  /// @brief Method set_previewInEditor, addr 0x2b3d730, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_previewInEditor, addr 0x2b4f144, size 0x18, virtual false, abstract: false, final false
   inline void set_previewInEditor(bool value);
 
 protected:

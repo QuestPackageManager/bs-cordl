@@ -78,13 +78,13 @@ public:
 
   constexpr void __cordl_internal_set_topRight(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x34c8f88, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34dbe0c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x34c9024, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34dbea8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
-  /// @brief Method .ctor, addr 0x34c9090, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34dbf14, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
   static inline ::UnityEngine::Color getStaticF_k_DefaultColor();

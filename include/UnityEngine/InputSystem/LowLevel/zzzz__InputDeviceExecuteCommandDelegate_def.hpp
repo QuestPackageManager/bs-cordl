@@ -36,18 +36,18 @@ namespace UnityEngine::InputSystem::LowLevel {
 class CORDL_TYPE InputDeviceExecuteCommandDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x317aad0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x318d954, size 0x8c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x317ab5c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x318d9e0, size 0x2c, virtual true, abstract: false, final false
   inline int64_t EndInvoke(ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x317aabc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x318d940, size 0x14, virtual true, abstract: false, final false
   inline int64_t Invoke(ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command);
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x317a9e8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x318d86c, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

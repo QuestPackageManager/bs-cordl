@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::BerApplicationSpecific* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* vec);
 
-  /// @brief Method .ctor, addr 0x1424c10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x142df08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* vec);
 
 protected:

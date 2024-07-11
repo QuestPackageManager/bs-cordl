@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x118e0f0;
+  constexpr static std::size_t addrs = 0x119a3e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
         &::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider::Org_BouncyCastle_Crypto_Operators_WrapperProvider_CreateWrapper)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x118e808;
+  constexpr static std::size_t addrs = 0x119ab00;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

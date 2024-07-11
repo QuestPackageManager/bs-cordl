@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__ToggleBinder____c__DisplayClass7_0::*)()>(&::HMUI::__ToggleBinder____c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x251686c;
+  constexpr static std::size_t addrs = 0x252ab20;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ToggleBinder____c__DisplayClass7_0*>::get(), ".ctor",
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__ToggleBinder____c__DisplayClass7_0::*)(bool)>(
     &::HMUI::__ToggleBinder____c__DisplayClass7_0::_AddBinding_b__0)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2516eb4;
+  constexpr static std::size_t addrs = 0x252b168;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2516440;
+  constexpr static std::size_t addrs = 0x252a6f4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(), ".ctor",
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)(
     ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>*)>(&::HMUI::ToggleBinder::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x25164d8;
+  constexpr static std::size_t addrs = 0x252a78c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::Init)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2516464;
+  constexpr static std::size_t addrs = 0x252a718;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(), "Init",
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)(
     ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>*)>(&::HMUI::ToggleBinder::AddBindings)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x2516514;
+  constexpr static std::size_t addrs = 0x252a7c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)(::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*)>(
     &::HMUI::ToggleBinder::AddBinding)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2516678;
+  constexpr static std::size_t addrs = 0x252a92c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)(::UnityEngine::UI::Toggle*, bool, ::System::Action*)>(
     &::HMUI::ToggleBinder::AddBinding)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2516750;
+  constexpr static std::size_t addrs = 0x252aa04;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::ClearBindings)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x2516874;
+  constexpr static std::size_t addrs = 0x252ab28;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(), "ClearBindings",
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::Disable)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x2516aa8;
+  constexpr static std::size_t addrs = 0x252ad5c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(), "Disable",
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)()>(&::HMUI::ToggleBinder::Enable)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x2516cac;
+  constexpr static std::size_t addrs = 0x252af60;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(), "Enable",

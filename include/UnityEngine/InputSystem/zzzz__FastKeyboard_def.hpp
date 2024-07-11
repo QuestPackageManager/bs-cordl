@@ -37,433 +37,433 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE FastKeyboard : public ::UnityEngine::InputSystem::Keyboard {
 public:
   // Declarations
-  /// @brief Method Initialize_ctrlKeyboard0, addr 0x3108240, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboard0, addr 0x311a0c4, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboard0(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboard1, addr 0x3107478, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboard1, addr 0x31192fc, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboard1(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboard2, addr 0x3107600, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboard2, addr 0x3119484, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboard2(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboard3, addr 0x3107788, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboard3, addr 0x311960c, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboard3(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboard4, addr 0x3107910, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboard4, addr 0x3119794, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboard4(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboard5, addr 0x3107a98, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboard5, addr 0x311991c, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboard5(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboard6, addr 0x3107c20, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboard6, addr 0x3119aa4, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboard6(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboard7, addr 0x3107da8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboard7, addr 0x3119c2c, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboard7(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboard8, addr 0x3107f30, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboard8, addr 0x3119db4, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboard8(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboard9, addr 0x31080b8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboard9, addr 0x3119f3c, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboard9(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardIMESelected, addr 0x310e170, size 0x1354, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardIMESelected, addr 0x311fff4, size 0x354, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* Initialize_ctrlKeyboardIMESelected(::UnityEngine::InputSystem::Utilities::InternedString kButtonLayout,
                                                                                                  ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardOEM1, addr 0x310d9c8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardOEM1, addr 0x311f84c, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardOEM1(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                        ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardOEM2, addr 0x310db50, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardOEM2, addr 0x311f9d4, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardOEM2(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                        ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardOEM3, addr 0x310dcd8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardOEM3, addr 0x311fb5c, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardOEM3(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                        ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardOEM4, addr 0x310de60, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardOEM4, addr 0x311fce4, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardOEM4(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                        ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardOEM5, addr 0x310dfe8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardOEM5, addr 0x311fe6c, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardOEM5(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                        ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboarda, addr 0x3104aa0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboarda, addr 0x3116924, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboarda(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardalt, addr 0x3108c1c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardalt, addr 0x311aaa0, size 0x1b4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::DiscreteButtonControl* Initialize_ctrlKeyboardalt(::UnityEngine::InputSystem::Utilities::InternedString kDiscreteButtonLayout,
                                                                                                  ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardanyKey, addr 0x3102a64, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardanyKey, addr 0x31148e8, size 0x190, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AnyKeyControl* Initialize_ctrlKeyboardanyKey(::UnityEngine::InputSystem::Utilities::InternedString kAnyKeyLayout,
                                                                                             ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardb, addr 0x3104c3c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardb, addr 0x3116ac0, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardb(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardbackquote, addr 0x310327c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardbackquote, addr 0x3115100, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardbackquote(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                             ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardbackslash, addr 0x3103c24, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardbackslash, addr 0x3115aa8, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardbackslash(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                             ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardbackspace, addr 0x31097cc, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardbackspace, addr 0x311b650, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardbackspace(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                             ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardc, addr 0x3104dd8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardc, addr 0x3116c5c, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardc(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardcapsLock, addr 0x310a310, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardcapsLock, addr 0x311c194, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardcapsLock(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                            ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardcomma, addr 0x3103750, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardcomma, addr 0x31155d4, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardcomma(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                         ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardcontextMenu, addr 0x3109624, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardcontextMenu, addr 0x311b4a8, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardcontextMenu(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                               ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardctrl, addr 0x3109120, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardctrl, addr 0x311afa4, size 0x1b4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::DiscreteButtonControl* Initialize_ctrlKeyboardctrl(::UnityEngine::InputSystem::Utilities::InternedString kDiscreteButtonLayout,
                                                                                                   ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardd, addr 0x3104f74, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardd, addr 0x3116df8, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardd(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboarddelete, addr 0x310a174, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboarddelete, addr 0x311bff8, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboarddelete(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                          ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboarddownArrow, addr 0x31045cc, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboarddownArrow, addr 0x3116450, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboarddownArrow(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                             ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboarde, addr 0x3105110, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboarde, addr 0x3116f94, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboarde(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardend, addr 0x3109e3c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardend, addr 0x311bcc0, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardend(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                       ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardenter, addr 0x3102f38, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardenter, addr 0x3114dbc, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardenter(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                         ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardequals, addr 0x3104294, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardequals, addr 0x3116118, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardequals(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                          ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardescape, addr 0x3102bf4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardescape, addr 0x3114a78, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardescape(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                          ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardf, addr 0x31052ac, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardf, addr 0x3117130, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardf(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardf1, addr 0x310c678, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardf1, addr 0x311e4fc, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardf1(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                      ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardf10, addr 0x310d4f4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardf10, addr 0x311f378, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardf10(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                       ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardf11, addr 0x310d690, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardf11, addr 0x311f514, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardf11(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                       ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardf12, addr 0x310d82c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardf12, addr 0x311f6b0, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardf12(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                       ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardf2, addr 0x310c814, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardf2, addr 0x311e698, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardf2(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                      ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardf3, addr 0x310c9b0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardf3, addr 0x311e834, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardf3(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                      ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardf4, addr 0x310cb4c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardf4, addr 0x311e9d0, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardf4(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                      ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardf5, addr 0x310cce8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardf5, addr 0x311eb6c, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardf5(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                      ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardf6, addr 0x310ce84, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardf6, addr 0x311ed08, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardf6(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                      ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardf7, addr 0x310d020, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardf7, addr 0x311eea4, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardf7(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                      ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardf8, addr 0x310d1bc, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardf8, addr 0x311f040, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardf8(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                      ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardf9, addr 0x310d358, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardf9, addr 0x311f1dc, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardf9(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                      ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardg, addr 0x3105448, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardg, addr 0x31172cc, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardg(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardh, addr 0x31055e4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardh, addr 0x3117468, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardh(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardhome, addr 0x3109ca0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardhome, addr 0x311bb24, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardhome(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                        ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardi, addr 0x3105780, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardi, addr 0x3117604, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardi(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardinsert, addr 0x3109fd8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardinsert, addr 0x311be5c, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardinsert(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                          ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardj, addr 0x310591c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardj, addr 0x31177a0, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardj(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardk, addr 0x3105ab8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardk, addr 0x311793c, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardk(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardl, addr 0x3105c54, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardl, addr 0x3117ad8, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardl(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardleftAlt, addr 0x31088cc, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardleftAlt, addr 0x311a750, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardleftAlt(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                           ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardleftArrow, addr 0x3104768, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardleftArrow, addr 0x31165ec, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardleftArrow(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                             ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardleftBracket, addr 0x3103dc0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardleftBracket, addr 0x3115c44, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardleftBracket(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                               ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardleftCtrl, addr 0x3108dd0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardleftCtrl, addr 0x311ac54, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardleftCtrl(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                            ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardleftMeta, addr 0x31092d4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardleftMeta, addr 0x311b158, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardleftMeta(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                            ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardleftShift, addr 0x31083c8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardleftShift, addr 0x311a24c, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardleftShift(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                             ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardm, addr 0x3105df0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardm, addr 0x3117c74, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardm(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardminus, addr 0x31040f8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardminus, addr 0x3115f7c, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardminus(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                         ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardn, addr 0x3105f8c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardn, addr 0x3117e10, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardn(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumLock, addr 0x310a4ac, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumLock, addr 0x311c330, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumLock(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                           ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpad0, addr 0x310c4dc, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpad0, addr 0x311e360, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpad0(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                           ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpad1, addr 0x310b660, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpad1, addr 0x311d4e4, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpad1(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                           ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpad2, addr 0x310b7fc, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpad2, addr 0x311d680, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpad2(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                           ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpad3, addr 0x310b998, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpad3, addr 0x311d81c, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpad3(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                           ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpad4, addr 0x310bb34, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpad4, addr 0x311d9b8, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpad4(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                           ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpad5, addr 0x310bcd0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpad5, addr 0x311db54, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpad5(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                           ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpad6, addr 0x310be6c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpad6, addr 0x311dcf0, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpad6(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                           ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpad7, addr 0x310c008, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpad7, addr 0x311de8c, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpad7(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                           ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpad8, addr 0x310c1a4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpad8, addr 0x311e028, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpad8(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                           ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpad9, addr 0x310c340, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpad9, addr 0x311e1c4, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpad9(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                           ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpadDivide, addr 0x310acb8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpadDivide, addr 0x311cb3c, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpadDivide(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                                ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpadEnter, addr 0x310ab1c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpadEnter, addr 0x311c9a0, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpadEnter(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                               ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpadEquals, addr 0x310b4c4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpadEquals, addr 0x311d348, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpadEquals(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                                ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpadMinus, addr 0x310b18c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpadMinus, addr 0x311d010, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpadMinus(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                               ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpadMultiply, addr 0x310ae54, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpadMultiply, addr 0x311ccd8, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpadMultiply(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                                  ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpadPeriod, addr 0x310b328, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpadPeriod, addr 0x311d1ac, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpadPeriod(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                                ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardnumpadPlus, addr 0x310aff0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardnumpadPlus, addr 0x311ce74, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardnumpadPlus(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                              ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardo, addr 0x3106128, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardo, addr 0x3117fac, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardo(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardp, addr 0x31062c4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardp, addr 0x3118148, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardp(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardpageDown, addr 0x3109968, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardpageDown, addr 0x311b7ec, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardpageDown(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                            ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardpageUp, addr 0x3109b04, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardpageUp, addr 0x311b988, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardpageUp(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                          ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardpause, addr 0x310a980, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardpause, addr 0x311c804, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardpause(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                         ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardperiod, addr 0x31038ec, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardperiod, addr 0x3115770, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardperiod(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                          ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardprintScreen, addr 0x310a648, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardprintScreen, addr 0x311c4cc, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardprintScreen(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                               ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardq, addr 0x3106460, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardq, addr 0x31182e4, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardq(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardquote, addr 0x3103418, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardquote, addr 0x311529c, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardquote(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                         ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardr, addr 0x31065fc, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardr, addr 0x3118480, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardr(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardrightAlt, addr 0x3108a74, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardrightAlt, addr 0x311a8f8, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardrightAlt(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                            ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardrightArrow, addr 0x3104904, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardrightArrow, addr 0x3116788, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardrightArrow(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                              ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardrightBracket, addr 0x3103f5c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardrightBracket, addr 0x3115de0, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardrightBracket(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                                ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardrightCtrl, addr 0x3108f78, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardrightCtrl, addr 0x311adfc, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardrightCtrl(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                             ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardrightMeta, addr 0x310947c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardrightMeta, addr 0x311b300, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardrightMeta(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                             ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardrightShift, addr 0x3108570, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardrightShift, addr 0x311a3f4, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardrightShift(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                              ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboards, addr 0x3106798, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboards, addr 0x311861c, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboards(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardscrollLock, addr 0x310a7e4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardscrollLock, addr 0x311c668, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardscrollLock(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                              ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardsemicolon, addr 0x31035b4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardsemicolon, addr 0x3115438, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardsemicolon(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                             ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardshift, addr 0x3108718, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardshift, addr 0x311a59c, size 0x1b4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::DiscreteButtonControl* Initialize_ctrlKeyboardshift(::UnityEngine::InputSystem::Utilities::InternedString kDiscreteButtonLayout,
                                                                                                    ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardslash, addr 0x3103a88, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardslash, addr 0x311590c, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardslash(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                         ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardspace, addr 0x3102d9c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardspace, addr 0x3114c20, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardspace(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                         ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardt, addr 0x3106934, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardt, addr 0x31187b8, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardt(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardtab, addr 0x31030e0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardtab, addr 0x3114f64, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardtab(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                       ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardu, addr 0x3106ad0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardu, addr 0x3118954, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardu(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardupArrow, addr 0x3104430, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardupArrow, addr 0x31162b4, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardupArrow(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout,
                                                                                           ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardv, addr 0x3106c6c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardv, addr 0x3118af0, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardv(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardw, addr 0x3106e08, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardw, addr 0x3118c8c, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardw(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardx, addr 0x3106fa4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardx, addr 0x3118e28, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardx(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardy, addr 0x3107140, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardy, addr 0x3118fc4, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardy(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
-  /// @brief Method Initialize_ctrlKeyboardz, addr 0x31072dc, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize_ctrlKeyboardz, addr 0x3119160, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* Initialize_ctrlKeyboardz(::UnityEngine::InputSystem::Utilities::InternedString kKeyLayout, ::UnityEngine::InputSystem::InputControl* parent);
 
   static inline ::UnityEngine::InputSystem::FastKeyboard* New_ctor();
 
-  /// @brief Method .ctor, addr 0x30ffdd0, size 0x2c94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3111c54, size 0x2c94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

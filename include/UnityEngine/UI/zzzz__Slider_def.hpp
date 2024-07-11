@@ -146,7 +146,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UI::__Slider__SliderEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3506228, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x351b0ac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -320,81 +320,81 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
 
-  /// @brief Method ClampValue, addr 0x3506508, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ClampValue, addr 0x351b38c, size 0xb4, virtual false, abstract: false, final false
   inline float_t ClampValue(float_t input);
 
-  /// @brief Method FindSelectableOnDown, addr 0x3506e38, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method FindSelectableOnDown, addr 0x351bcbc, size 0x24, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnDown();
 
-  /// @brief Method FindSelectableOnLeft, addr 0x3506dcc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method FindSelectableOnLeft, addr 0x351bc50, size 0x24, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnLeft();
 
-  /// @brief Method FindSelectableOnRight, addr 0x3506df0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method FindSelectableOnRight, addr 0x351bc74, size 0x24, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnRight();
 
-  /// @brief Method FindSelectableOnUp, addr 0x3506e14, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method FindSelectableOnUp, addr 0x351bc98, size 0x24, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnUp();
 
-  /// @brief Method GraphicUpdateComplete, addr 0x3506278, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GraphicUpdateComplete, addr 0x351b0fc, size 0x4, virtual true, abstract: false, final false
   inline void GraphicUpdateComplete();
 
-  /// @brief Method LayoutComplete, addr 0x3506274, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LayoutComplete, addr 0x351b0f8, size 0x4, virtual true, abstract: false, final false
   inline void LayoutComplete();
 
-  /// @brief Method MayDrag, addr 0x3506914, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method MayDrag, addr 0x351b798, size 0x64, virtual false, abstract: false, final false
   inline bool MayDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   static inline ::UnityEngine::UI::Slider* New_ctor();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x3506318, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x351b19c, size 0x1f0, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnDisable, addr 0x35062b8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x351b13c, size 0x20, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDrag, addr 0x3506b30, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnDrag, addr 0x351b9b4, size 0x50, virtual true, abstract: false, final false
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnEnable, addr 0x350627c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x351b100, size 0x3c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnInitializePotentialDrag, addr 0x3506e5c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnInitializePotentialDrag, addr 0x351bce0, size 0x18, virtual true, abstract: false, final false
   inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnMove, addr 0x3506b80, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method OnMove, addr 0x351ba04, size 0x24c, virtual true, abstract: false, final false
   inline void OnMove(::UnityEngine::EventSystems::AxisEventData* eventData);
 
-  /// @brief Method OnPointerDown, addr 0x3506978, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x351b7fc, size 0x1b8, virtual true, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x35066a4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x351b528, size 0x38, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method Rebuild, addr 0x3506270, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x351b0f4, size 0x4, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
 
-  /// @brief Method Set, addr 0x35065e0, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x351b464, size 0xc4, virtual true, abstract: false, final false
   inline void Set(float_t input, bool sendCallback);
 
-  /// @brief Method SetDirection, addr 0x3506e74, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method SetDirection, addr 0x351bcf8, size 0x178, virtual false, abstract: false, final false
   inline void SetDirection(::UnityEngine::UI::__Slider__Direction direction, bool includeRectLayouts);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x3505ff8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x351ae7c, size 0x14, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(float_t input);
 
-  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x3506fec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x351be70, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> UnityEngine_UI_ICanvasElement_get_transform();
 
-  /// @brief Method Update, addr 0x35062d8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x351b15c, size 0x40, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateCachedReferences, addr 0x35056f0, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method UpdateCachedReferences, addr 0x351a574, size 0x2a4, virtual false, abstract: false, final false
   inline void UpdateCachedReferences();
 
-  /// @brief Method UpdateDrag, addr 0x35066dc, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method UpdateDrag, addr 0x351b560, size 0x238, virtual false, abstract: false, final false
   inline void UpdateDrag(::UnityEngine::EventSystems::PointerEventData* eventData, ::UnityEngine::Camera* cam);
 
-  /// @brief Method UpdateVisuals, addr 0x3505994, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisuals, addr 0x351a818, size 0x2e8, virtual false, abstract: false, final false
   inline void UpdateVisuals();
 
   constexpr bool const& __cordl_internal_get_m_DelayedUpdateVisuals() const;
@@ -493,43 +493,43 @@ public:
 
   constexpr void __cordl_internal_set_m_WholeNumbers(bool value);
 
-  /// @brief Method .ctor, addr 0x3506164, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x351afe8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_axis, addr 0x35065d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_axis, addr 0x351b454, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__Slider__Axis get_axis();
 
-  /// @brief Method get_direction, addr 0x3505d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x351ab84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__Slider__Direction get_direction();
 
-  /// @brief Method get_fillRect, addr 0x350566c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fillRect, addr 0x351a4f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_fillRect();
 
-  /// @brief Method get_handleRect, addr 0x3505c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handleRect, addr 0x351ab00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_handleRect();
 
-  /// @brief Method get_maxValue, addr 0x3505e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxValue, addr 0x351ac98, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxValue();
 
-  /// @brief Method get_minValue, addr 0x3505d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minValue, addr 0x351ac00, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minValue();
 
-  /// @brief Method get_normalizedValue, addr 0x350600c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedValue, addr 0x351ae90, size 0xe4, virtual false, abstract: false, final false
   inline float_t get_normalizedValue();
 
-  /// @brief Method get_onValueChanged, addr 0x3506128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onValueChanged, addr 0x351afac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__Slider__SliderEvent* get_onValueChanged();
 
-  /// @brief Method get_reverseValue, addr 0x35065bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_reverseValue, addr 0x351b440, size 0x14, virtual false, abstract: false, final false
   inline bool get_reverseValue();
 
-  /// @brief Method get_stepSize, addr 0x3506138, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_stepSize, addr 0x351afbc, size 0x2c, virtual false, abstract: false, final false
   inline float_t get_stepSize();
 
-  /// @brief Method get_value, addr 0x3505f44, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x351adc8, size 0xa0, virtual true, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method get_wholeNumbers, addr 0x3505eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wholeNumbers, addr 0x351ad30, size 0x8, virtual false, abstract: false, final false
   inline bool get_wholeNumbers();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
@@ -544,31 +544,31 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
   constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
-  /// @brief Method set_direction, addr 0x3505d08, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x351ab8c, size 0x74, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UI::__Slider__Direction value);
 
-  /// @brief Method set_fillRect, addr 0x3505674, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_fillRect, addr 0x351a4f8, size 0x7c, virtual false, abstract: false, final false
   inline void set_fillRect(::UnityEngine::RectTransform* value);
 
-  /// @brief Method set_handleRect, addr 0x3505c84, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_handleRect, addr 0x351ab08, size 0x7c, virtual false, abstract: false, final false
   inline void set_handleRect(::UnityEngine::RectTransform* value);
 
-  /// @brief Method set_maxValue, addr 0x3505e1c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_maxValue, addr 0x351aca0, size 0x90, virtual false, abstract: false, final false
   inline void set_maxValue(float_t value);
 
-  /// @brief Method set_minValue, addr 0x3505d84, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_minValue, addr 0x351ac08, size 0x90, virtual false, abstract: false, final false
   inline void set_minValue(float_t value);
 
-  /// @brief Method set_normalizedValue, addr 0x35060f0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedValue, addr 0x351af74, size 0x38, virtual false, abstract: false, final false
   inline void set_normalizedValue(float_t value);
 
-  /// @brief Method set_onValueChanged, addr 0x3506130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_onValueChanged, addr 0x351afb4, size 0x8, virtual false, abstract: false, final false
   inline void set_onValueChanged(::UnityEngine::UI::__Slider__SliderEvent* value);
 
-  /// @brief Method set_value, addr 0x3505fe4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x351ae68, size 0x14, virtual true, abstract: false, final false
   inline void set_value(float_t value);
 
-  /// @brief Method set_wholeNumbers, addr 0x3505eb4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_wholeNumbers, addr 0x351ad38, size 0x90, virtual false, abstract: false, final false
   inline void set_wholeNumbers(bool value);
 
 protected:

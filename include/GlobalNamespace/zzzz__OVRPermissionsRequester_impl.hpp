@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRPermissionsRequester____c::*)()>(
     &::GlobalNamespace::__OVRPermissionsRequester____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b4b294;
+  constexpr static std::size_t addrs = 0x2b5bca8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRPermissionsRequester____c*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRPermissionsRequester____c::*)(::StringW)>(
     &::GlobalNamespace::__OVRPermissionsRequester____c::_BuildPermissionCallbacks_b__14_0)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2b4b29c;
+  constexpr static std::size_t addrs = 0x2b5bcb0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRPermissionsRequester____c::*)(::StringW)>(
     &::GlobalNamespace::__OVRPermissionsRequester____c::_BuildPermissionCallbacks_b__14_1)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2b4b340;
+  constexpr static std::size_t addrs = 0x2b5bd54;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRPermissionsRequester____c::*)(::StringW)>(
     &::GlobalNamespace::__OVRPermissionsRequester____c::_BuildPermissionCallbacks_b__14_2)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2b4b3e4;
+  constexpr static std::size_t addrs = 0x2b5bdf8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::OVRPermissionsRequester::add_PermissionGranted)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2b4a4ec;
+  constexpr static std::size_t addrs = 0x2b5af00;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::OVRPermissionsRequester::remove_PermissionGranted)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2b4a5b8;
+  constexpr static std::size_t addrs = 0x2b5afcc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::__OVRPermissionsRequester__Permission)>(
     &::GlobalNamespace::OVRPermissionsRequester::GetPermissionId)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2b4a684;
+  constexpr static std::size_t addrs = 0x2b5b098;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRPermissionsRequester__Permission)>(
     &::GlobalNamespace::OVRPermissionsRequester::IsPermissionSupportedByPlatform)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2b4a768;
+  constexpr static std::size_t addrs = 0x2b5b17c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRPermissionsRequester__Permission)>(
     &::GlobalNamespace::OVRPermissionsRequester::IsPermissionGranted)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2b4ab04;
+  constexpr static std::size_t addrs = 0x2b5b518;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__OVRPermissionsRequester__Permission>*)>(
     &::GlobalNamespace::OVRPermissionsRequester::Request)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2b4ab18;
+  constexpr static std::size_t addrs = 0x2b5b52c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__OVRPermissionsRequester__Permission>*)>(
     &::GlobalNamespace::OVRPermissionsRequester::RequestPermissions)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x2b4ab1c;
+  constexpr static std::size_t addrs = 0x2b5b530;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRPermissionsRequester__Permission)>(
     &::GlobalNamespace::OVRPermissionsRequester::ShouldRequestPermission)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2b4af10;
+  constexpr static std::size_t addrs = 0x2b5b924;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Android::PermissionCallbacks* (*)()>(
     &::GlobalNamespace::OVRPermissionsRequester::BuildPermissionCallbacks)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x2b4b00c;
+  constexpr static std::size_t addrs = 0x2b5ba20;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPermissionsRequester*>::get(),

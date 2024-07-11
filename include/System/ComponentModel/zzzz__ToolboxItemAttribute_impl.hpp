@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ToolboxItemAttribute::*)()>(
     &::System::ComponentModel::ToolboxItemAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2f5d6f0;
+  constexpr static std::size_t addrs = 0x2f6a104;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ToolboxItemAttribute::*)(bool)>(
     &::System::ComponentModel::ToolboxItemAttribute::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2f5d758;
+  constexpr static std::size_t addrs = 0x2f6a16c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ToolboxItemAttribute::*)(::StringW)>(
     &::System::ComponentModel::ToolboxItemAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2f5d7b4;
+  constexpr static std::size_t addrs = 0x2f6a1c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::ToolboxItemAttribute::*)()>(
     &::System::ComponentModel::ToolboxItemAttribute::get_ToolboxItemTypeName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2f5d840;
+  constexpr static std::size_t addrs = 0x2f6a254;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ToolboxItemAttribute*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ToolboxItemAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::ToolboxItemAttribute::Equals)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2f5d894;
+  constexpr static std::size_t addrs = 0x2f6a2a8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::ToolboxItemAttribute::*)()>(
     &::System::ComponentModel::ToolboxItemAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2f5d988;
+  constexpr static std::size_t addrs = 0x2f6a39c;
 
   inline static const ::MethodInfo* methodInfo() {
 

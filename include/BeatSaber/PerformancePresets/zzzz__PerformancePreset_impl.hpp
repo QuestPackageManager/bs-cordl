@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_dataVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d584;
+  constexpr static std::size_t addrs = 0x1074220;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_presetName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d58c;
+  constexpr static std::size_t addrs = 0x1074228;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_presetNameLocalizationTag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d594;
+  constexpr static std::size_t addrs = 0x1074230;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_renderViewportScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d59c;
+  constexpr static std::size_t addrs = 0x1074238;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_vrResolutionScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d5a4;
+  constexpr static std::size_t addrs = 0x1074240;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_menuVRResolutionScaleMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d5ac;
+  constexpr static std::size_t addrs = 0x1074248;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_antiAliasingLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d5b4;
+  constexpr static std::size_t addrs = 0x1074250;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_targetFramerate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d5bc;
+  constexpr static std::size_t addrs = 0x1074258;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_vSyncCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d5c4;
+  constexpr static std::size_t addrs = 0x1074260;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_maxQueuedFrames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d5cc;
+  constexpr static std::size_t addrs = 0x1074268;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::PerformancePresets::MirrorQualityPreset (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_mirrorGraphics)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d5d4;
+  constexpr static std::size_t addrs = 0x1074270;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::PerformancePresets::MainEffectPreset (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_mainEffectGraphics)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d5dc;
+  constexpr static std::size_t addrs = 0x1074278;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::PerformancePresets::BloomPrepassTextureEffectPreset (
     ::BeatSaber::PerformancePresets::PerformancePreset::*)()>(&::BeatSaber::PerformancePresets::PerformancePreset::get_bloomPrePassTextureEffect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d5e4;
+  constexpr static std::size_t addrs = 0x1074280;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_smokeGraphics)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d5ec;
+  constexpr static std::size_t addrs = 0x1074288;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_depthTexture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d5f4;
+  constexpr static std::size_t addrs = 0x1074290;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_burnMarkTrails)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d5fc;
+  constexpr static std::size_t addrs = 0x1074298;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_screenDisplacementEffects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d604;
+  constexpr static std::size_t addrs = 0x10742a0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_maxShockwaveParticles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d60c;
+  constexpr static std::size_t addrs = 0x10742a8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_maxNumberOfCutSoundEffects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d614;
+  constexpr static std::size_t addrs = 0x10742b0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_defaultAudioLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d61c;
+  constexpr static std::size_t addrs = 0x10742b8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::PerformancePresets::ObstaclesQuality (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_obstaclesQuality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d624;
+  constexpr static std::size_t addrs = 0x10742c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::PerformancePresets::QuestPerformanceSettings* (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_questSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d62c;
+  constexpr static std::size_t addrs = 0x10742c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -328,7 +328,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::BeatSaber::PerformancePresets::EnvironmentOverride*, ::Array<::BeatSaber::PerformancePresets::EnvironmentOverride*>*> (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::get_environmentOverrides)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x106d634;
+  constexpr static std::size_t addrs = 0x10742d0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::PerformancePresets::PerformancePreset::*)()>(
     &::BeatSaber::PerformancePresets::PerformancePreset::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x106d4b4;
+  constexpr static std::size_t addrs = 0x1074150;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),

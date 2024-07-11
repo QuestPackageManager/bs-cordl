@@ -47,43 +47,43 @@ public:
   /// @brief Field m_SyncTime, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_m_SyncTime, put = __cordl_internal_set_m_SyncTime)) bool m_SyncTime;
 
-  /// @brief Method Create, addr 0x33c3a64, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x33d28e8, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::DirectorControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph,
                                                                                                                      ::UnityEngine::Playables::PlayableDirector* director);
 
-  /// @brief Method DetectDiscontinuity, addr 0x33c9134, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method DetectDiscontinuity, addr 0x33d7fb8, size 0x114, virtual false, abstract: false, final false
   inline bool DetectDiscontinuity(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method DetectOutOfSync, addr 0x33c9808, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method DetectOutOfSync, addr 0x33d868c, size 0x14c, virtual false, abstract: false, final false
   inline bool DetectOutOfSync(::UnityEngine::Playables::Playable playable);
 
   static inline ::UnityEngine::Timeline::DirectorControlPlayable* New_ctor();
 
-  /// @brief Method OnBehaviourPause, addr 0x33c9508, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x33d838c, size 0x100, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay, addr 0x33c9434, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x33d82b8, size 0xd4, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnPlayableDestroy, addr 0x33c8ec0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x33d7d44, size 0xc0, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method PrepareFrame, addr 0x33c8f80, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x33d7e04, size 0x1b4, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame, addr 0x33c9608, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x33d848c, size 0x200, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method SyncSpeed, addr 0x33c9248, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method SyncSpeed, addr 0x33d80cc, size 0x12c, virtual false, abstract: false, final false
   inline void SyncSpeed(double_t speed);
 
-  /// @brief Method SyncStart, addr 0x33c9374, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SyncStart, addr 0x33d81f8, size 0xc0, virtual false, abstract: false, final false
   inline void SyncStart(::UnityEngine::Playables::PlayableGraph graph, double_t time);
 
-  /// @brief Method SyncStop, addr 0x33c9ae4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SyncStop, addr 0x33d8968, size 0x84, virtual false, abstract: false, final false
   inline void SyncStop(::UnityEngine::Playables::PlayableGraph graph, double_t time);
 
-  /// @brief Method UpdateTime, addr 0x33c9954, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method UpdateTime, addr 0x33d87d8, size 0x190, virtual false, abstract: false, final false
   inline void UpdateTime(::UnityEngine::Playables::Playable playable);
 
   constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get_director() const;
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SyncTime(bool value);
 
-  /// @brief Method .ctor, addr 0x33c9b68, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d89ec, size 0x1010, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

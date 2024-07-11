@@ -44,7 +44,7 @@ public:
   /// @brief Field _version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::Org::BouncyCastle::Asn1::DerInteger* _version;
 
-  /// @brief Method GetEncapContentInfo, addr 0x10daeb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetEncapContentInfo, addr 0x10e71a8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* GetEncapContentInfo();
 
   static inline ::Org::BouncyCastle::Asn1::Cms::CompressedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
@@ -67,13 +67,13 @@ public:
 
   constexpr void __cordl_internal_set__version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x10dabe4, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e6edc, size 0x2bc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_CompressionAlgorithmIdentifier, addr 0x10daea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompressionAlgorithmIdentifier, addr 0x10e71a0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_CompressionAlgorithmIdentifier();
 
-  /// @brief Method get_Version, addr 0x10daea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x10e7198, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:

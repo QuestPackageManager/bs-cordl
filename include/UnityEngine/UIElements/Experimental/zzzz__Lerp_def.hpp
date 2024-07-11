@@ -26,14 +26,14 @@ namespace UnityEngine::UIElements::Experimental {
 class CORDL_TYPE Lerp : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Interpolate, addr 0x3561cd8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x3579b5c, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color Interpolate(::UnityEngine::Color start, ::UnityEngine::Color end, float_t ratio);
 
-  /// @brief Method Interpolate, addr 0x3561d10, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x3579b94, size 0x3f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Experimental::StyleValues Interpolate(::UnityEngine::UIElements::Experimental::StyleValues start, ::UnityEngine::UIElements::Experimental::StyleValues end,
                                                                                  float_t ratio);
 
-  /// @brief Method Interpolate, addr 0x3561cc8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x3579b4c, size 0x10, virtual false, abstract: false, final false
   static inline float_t Interpolate(float_t start, float_t end, float_t ratio);
 
 protected:

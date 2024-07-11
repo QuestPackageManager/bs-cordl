@@ -193,37 +193,37 @@ public:
 
   using ConverterHelperFloat = ::LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat;
 
-  /// @brief Method GetBytes, addr 0x2605734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x26189e8, size 0x8, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, double_t value);
 
-  /// @brief Method GetBytes, addr 0x260573c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x26189f0, size 0x8, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, float_t value);
 
-  /// @brief Method GetBytes, addr 0x2605744, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x26189f8, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, int16_t value);
 
-  /// @brief Method GetBytes, addr 0x2600024, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x26132d8, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, int32_t value);
 
-  /// @brief Method GetBytes, addr 0x25fbfd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x260f288, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, int64_t value);
 
-  /// @brief Method GetBytes, addr 0x25ffa40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x2612cf4, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, uint16_t value);
 
-  /// @brief Method GetBytes, addr 0x2605748, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x26189fc, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, uint32_t value);
 
-  /// @brief Method GetBytes, addr 0x260574c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x2618a00, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, uint64_t value);
 
-  /// @brief Method WriteLittleEndian, addr 0x26056ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WriteLittleEndian, addr 0x26189a0, size 0x48, virtual false, abstract: false, final false
   static inline void WriteLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int16_t data);
 
-  /// @brief Method WriteLittleEndian, addr 0x260566c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method WriteLittleEndian, addr 0x2618920, size 0x80, virtual false, abstract: false, final false
   static inline void WriteLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t data);
 
-  /// @brief Method WriteLittleEndian, addr 0x260557c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method WriteLittleEndian, addr 0x2618830, size 0xf0, virtual false, abstract: false, final false
   static inline void WriteLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, uint64_t data);
 
 protected:

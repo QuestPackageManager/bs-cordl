@@ -26,24 +26,24 @@ public:
 
   __declspec(property(get = get_sharedMesh, put = set_sharedMesh))::UnityW<::UnityEngine::Mesh> sharedMesh;
 
-  /// @brief Method DontStripMeshFilter, addr 0x3416e04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DontStripMeshFilter, addr 0x3425c88, size 0x4, virtual false, abstract: false, final false
   inline void DontStripMeshFilter();
 
   static inline ::UnityEngine::MeshFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3416f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3425d8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x3416e88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x3425d0c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_sharedMesh, addr 0x3416e08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sharedMesh, addr 0x3425c8c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_sharedMesh();
 
-  /// @brief Method set_mesh, addr 0x3416ec4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x3425d48, size 0x44, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_sharedMesh, addr 0x3416e44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sharedMesh, addr 0x3425cc8, size 0x44, virtual false, abstract: false, final false
   inline void set_sharedMesh(::UnityEngine::Mesh* value);
 
 protected:

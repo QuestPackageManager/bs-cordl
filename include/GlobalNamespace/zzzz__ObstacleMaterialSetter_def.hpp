@@ -61,13 +61,13 @@ public:
 
   static inline ::GlobalNamespace::ObstacleMaterialSetter* New_ctor();
 
-  /// @brief Method SetCoreMaterial, addr 0x263d1e4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method SetCoreMaterial, addr 0x2651b04, size 0x12c, virtual false, abstract: false, final false
   inline void SetCoreMaterial(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method SetFakeGlowMaterial, addr 0x263d310, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetFakeGlowMaterial, addr 0x2651c30, size 0x4c, virtual false, abstract: false, final false
   inline void SetFakeGlowMaterial(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method Start, addr 0x263d158, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2651a78, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::BeatSaber::PerformancePresets::PerformancePreset*& __cordl_internal_get__currentPreset();
@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set__texturedCoreMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x263d35c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2651c7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

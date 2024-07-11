@@ -237,7 +237,7 @@ public:
 
   constexpr void __cordl_internal_set_saberBColor(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14fab80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1505d84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -426,7 +426,7 @@ public:
 
   constexpr void __cordl_internal_set_noteJumpStartBeatOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x14fab88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1505d8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -596,7 +596,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14fab30, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1505d34, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

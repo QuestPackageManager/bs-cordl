@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_ReloadDataEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x254923c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255e4f0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

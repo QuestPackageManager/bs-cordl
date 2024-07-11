@@ -105,57 +105,57 @@ public:
 
   __declspec(property(get = get_state))::StringW state;
 
-  /// @brief Method Awake, addr 0x3638ca4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x364fb28, size 0xb4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateCursors, addr 0x3638e5c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CreateCursors, addr 0x364fce0, size 0x134, virtual false, abstract: false, final false
   inline bool CreateCursors();
 
-  /// @brief Method CreateLaserPointers, addr 0x3638d58, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CreateLaserPointers, addr 0x364fbdc, size 0x104, virtual false, abstract: false, final false
   inline bool CreateLaserPointers();
 
-  /// @brief Method EnabledLastSelectedPointer, addr 0x36391d0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method EnabledLastSelectedPointer, addr 0x3650054, size 0x54, virtual false, abstract: false, final false
   inline void EnabledLastSelectedPointer();
 
-  /// @brief Method HideCursors, addr 0x36394dc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HideCursors, addr 0x3650360, size 0x60, virtual false, abstract: false, final false
   inline void HideCursors();
 
-  /// @brief Method HideLaserPointers, addr 0x363953c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HideLaserPointers, addr 0x36503c0, size 0x60, virtual false, abstract: false, final false
   inline void HideLaserPointers();
 
-  /// @brief Method HideLaserPointersAndCursors, addr 0x3638fcc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HideLaserPointersAndCursors, addr 0x364fe50, size 0x18, virtual false, abstract: false, final false
   inline void HideLaserPointersAndCursors();
 
-  /// @brief Method IsLeftControllerDown, addr 0x3639130, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsLeftControllerDown, addr 0x364ffb4, size 0x50, virtual false, abstract: false, final false
   inline bool IsLeftControllerDown();
 
-  /// @brief Method IsRightControllerDown, addr 0x3639180, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsRightControllerDown, addr 0x3650004, size 0x50, virtual false, abstract: false, final false
   inline bool IsRightControllerDown();
 
-  /// @brief Method LateUpdate, addr 0x3638fe4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x364fe68, size 0x14c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::VRUIControls::VRPointer* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x36394d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x3650354, size 0xc, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method OnDisable, addr 0x3638fb4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x364fe38, size 0x18, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Process, addr 0x3638298, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x364f11c, size 0x68, virtual false, abstract: false, final false
   inline void Process(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
-  /// @brief Method RefreshLaserPointerAndLaserHit, addr 0x3639298, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method RefreshLaserPointerAndLaserHit, addr 0x365011c, size 0x238, virtual false, abstract: false, final false
   inline void RefreshLaserPointerAndLaserHit(::UnityEngine::EventSystems::PointerEventData* pointerData);
 
-  /// @brief Method SelectLeftController, addr 0x3638fa4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SelectLeftController, addr 0x364fe28, size 0x10, virtual false, abstract: false, final false
   inline void SelectLeftController();
 
-  /// @brief Method SelectRightController, addr 0x3638f90, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SelectRightController, addr 0x364fe14, size 0x14, virtual false, abstract: false, final false
   inline void SelectRightController();
 
-  /// @brief Method SetupLaserPointer, addr 0x3639224, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetupLaserPointer, addr 0x36500a8, size 0x74, virtual false, abstract: false, final false
   inline void SetupLaserPointer(::VRUIControls::VRLaserPointer* laserPointer);
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__cursorPrefab() const;
@@ -278,16 +278,16 @@ public:
 
   constexpr void __cordl_internal_set__rightVRController(::UnityW<::GlobalNamespace::VRController> value);
 
-  /// @brief Method .ctor, addr 0x3639890, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3650714, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cursorPosition, addr 0x3638bb4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_cursorPosition, addr 0x364fa38, size 0xf0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_cursorPosition();
 
-  /// @brief Method get_lastSelectedVrController, addr 0x3638bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastSelectedVrController, addr 0x364fa30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_lastSelectedVrController();
 
-  /// @brief Method get_state, addr 0x363959c, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x3650420, size 0x2f4, virtual false, abstract: false, final false
   inline ::StringW get_state();
 
 protected:

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::GetInstance)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x11de640;
+  constexpr static std::size_t addrs = 0x11e9938;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::_ctor)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x11de7c8;
+  constexpr static std::size_t addrs = 0x11e9ac0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::*)(
     ::StringW, ::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Org::BouncyCastle::Asn1::X509::IssuerSerial*)>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x11deac4;
+  constexpr static std::size_t addrs = 0x11e9dbc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::*)(
     ::StringW, ::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x11deb00;
+  constexpr static std::size_t addrs = 0x11e9df8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::get_Country)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11deb3c;
+  constexpr static std::size_t addrs = 0x11e9e34;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X500::DirectoryString* (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::get_TypeOfSubstitution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11deb44;
+  constexpr static std::size_t addrs = 0x11e9e3c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralName* (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::get_ThirdPerson)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11deb4c;
+  constexpr static std::size_t addrs = 0x11e9e44;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::IssuerSerial* (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::get_CertRef)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11deb54;
+  constexpr static std::size_t addrs = 0x11e9e4c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax::ToAsn1Object)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x11deb5c;
+  constexpr static std::size_t addrs = 0x11e9e54;
 
   inline static const ::MethodInfo* methodInfo() {
 

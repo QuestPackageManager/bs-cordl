@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithApplicationInviteList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ApplicationInviteList*> {
 public:
   // Declarations
-  /// @brief Method GetApplicationInviteList, addr 0x2ae7500, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetApplicationInviteList, addr 0x2afaf14, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationInviteList* GetApplicationInviteList();
 
-  /// @brief Method GetDataFromMessage, addr 0x2ae753c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2afaf50, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationInviteList* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithApplicationInviteList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ae52f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af8d04, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::BezierShape::*)()>(&::UnityEngine::ProBuilder::BezierShape::get_isEditing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329882c;
+  constexpr static std::size_t addrs = 0x32a96b0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BezierShape*>::get(), "get_isEditing",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::BezierShape::*)(bool)>(&::UnityEngine::ProBuilder::BezierShape::set_isEditing)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3298834;
+  constexpr static std::size_t addrs = 0x32a96b8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (::UnityEngine::ProBuilder::BezierShape::*)()>(
     &::UnityEngine::ProBuilder::BezierShape::get_mesh)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3298840;
+  constexpr static std::size_t addrs = 0x32a96c4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BezierShape*>::get(), "get_mesh",
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::BezierShape::*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::BezierShape::set_mesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32988d4;
+  constexpr static std::size_t addrs = 0x32a9758;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::BezierShape::*)()>(&::UnityEngine::ProBuilder::BezierShape::Init)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x32988dc;
+  constexpr static std::size_t addrs = 0x32a9760;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BezierShape*>::get(), "Init",
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::BezierShape::*)()>(&::UnityEngine::ProBuilder::BezierShape::Refresh)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3298b3c;
+  constexpr static std::size_t addrs = 0x32a99c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BezierShape*>::get(), "Refresh",
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::BezierShape::*)()>(&::UnityEngine::ProBuilder::BezierShape::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3298bfc;
+  constexpr static std::size_t addrs = 0x32a9a80;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BezierShape*>::get(), ".ctor",

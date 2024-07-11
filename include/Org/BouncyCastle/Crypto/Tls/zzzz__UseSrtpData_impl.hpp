@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::UseSrtpData::*)(
     ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Tls::UseSrtpData::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x121f308;
+  constexpr static std::size_t addrs = 0x122a600;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::Org::BouncyCastle::Crypto::Tls::UseSrtpData::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::UseSrtpData::get_ProtectionProfiles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1226174;
+  constexpr static std::size_t addrs = 0x123146c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::UseSrtpData::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::UseSrtpData::get_Mki)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x122617c;
+  constexpr static std::size_t addrs = 0x1231474;
 
   inline static const ::MethodInfo* methodInfo() {
 

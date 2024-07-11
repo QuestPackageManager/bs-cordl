@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> (*)()>(
         &::System::Net::NetworkInformation::SystemNetworkInterface::GetNetworkInterfaces)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x303f020;
+  constexpr static std::size_t addrs = 0x304ea34;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

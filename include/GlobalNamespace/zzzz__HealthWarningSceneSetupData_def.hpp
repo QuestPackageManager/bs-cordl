@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set__nextScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x26bbab0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d1fa8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
-  /// @brief Method get_nextScenesTransitionSetupData, addr 0x26bbaa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nextScenesTransitionSetupData, addr 0x26d1fa0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> get_nextScenesTransitionSetupData();
 
 protected:

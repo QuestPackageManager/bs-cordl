@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::BGLib::Polyglot::Language)>(&::BGLib::Polyglot::LanguageExtensions::ToSerializedName)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x1083430;
+  constexpr static std::size_t addrs = 0x108e728;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::BGLib::Polyglot::Language)>(&::BGLib::Polyglot::LanguageExtensions::ToCultureInfoName)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x10835e0;
+  constexpr static std::size_t addrs = 0x108e8d8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::Polyglot::Language (*)(::StringW)>(&::BGLib::Polyglot::LanguageExtensions::ToLanguage)> {
   constexpr static std::size_t size = 0x7e8;
-  constexpr static std::size_t addrs = 0x10836c8;
+  constexpr static std::size_t addrs = 0x108e9c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

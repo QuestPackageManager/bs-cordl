@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set_propType(::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType value);
 
-  /// @brief Method .ctor, addr 0x108d4a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10997a0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW nameFilter, ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType propType);
 
 protected:

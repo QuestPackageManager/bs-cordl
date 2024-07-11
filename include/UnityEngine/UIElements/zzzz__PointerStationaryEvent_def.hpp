@@ -19,15 +19,15 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PointerStationaryEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerStationaryEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x35cfe24, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x35e5ca8, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x35cfe74, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x35e5cf8, size 0x104, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerStationaryEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35cff78, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e5dfc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

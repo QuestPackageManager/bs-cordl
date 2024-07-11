@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(int32_t)>(&::GlobalNamespace::LeaderboardTableCell::set_rank)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x274febc;
+  constexpr static std::size_t addrs = 0x2765844;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(::StringW)>(
     &::GlobalNamespace::LeaderboardTableCell::set_playerName)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x274ff04;
+  constexpr static std::size_t addrs = 0x276588c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(int32_t)>(&::GlobalNamespace::LeaderboardTableCell::set_score)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x274ff28;
+  constexpr static std::size_t addrs = 0x27658b0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(bool)>(
     &::GlobalNamespace::LeaderboardTableCell::set_showSeparator)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x274ffc8;
+  constexpr static std::size_t addrs = 0x2765950;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(bool)>(
     &::GlobalNamespace::LeaderboardTableCell::set_showFullCombo)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x274ffe8;
+  constexpr static std::size_t addrs = 0x2765970;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(bool)>(
     &::GlobalNamespace::LeaderboardTableCell::set_specialScore)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2750008;
+  constexpr static std::size_t addrs = 0x2765990;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)()>(&::GlobalNamespace::LeaderboardTableCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2750100;
+  constexpr static std::size_t addrs = 0x2765a88;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableCell*>::get(), ".ctor",

@@ -52,26 +52,26 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x2d94db0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2da77c4, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2d94e70, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2da7884, size 0x60, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::NameValueWithParametersHeaderValue* New_ctor();
 
   static inline ::System::Net::Http::Headers::NameValueWithParametersHeaderValue* New_ctor(::System::Net::Http::Headers::NameValueWithParametersHeaderValue* source);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2d94d50, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2da7764, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x2d94ed0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2da78e4, size 0x94, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x2d94f64, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2da7978, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueWithParametersHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x2d95014, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x2da7a28, size 0x1dc, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::NameValueWithParametersHeaderValue*> parsedValue,
                                      ByRef<::System::Net::Http::Headers::Token> t);
 
@@ -81,13 +81,13 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* value);
 
-  /// @brief Method .ctor, addr 0x2d94d48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2da775c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2d94adc, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2da74f0, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::NameValueWithParametersHeaderValue* source);
 
-  /// @brief Method get_Parameters, addr 0x2d94cc8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x2da76dc, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
 
   /// @brief Convert to "::System::ICloneable"

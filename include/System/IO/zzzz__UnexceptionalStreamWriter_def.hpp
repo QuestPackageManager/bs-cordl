@@ -28,24 +28,24 @@ namespace System::IO {
 class CORDL_TYPE UnexceptionalStreamWriter : public ::System::IO::StreamWriter {
 public:
   // Declarations
-  /// @brief Method Flush, addr 0x28e46f0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x28f7104, size 0x84, virtual true, abstract: false, final false
   inline void Flush();
 
   static inline ::System::IO::UnexceptionalStreamWriter* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
-  /// @brief Method Write, addr 0x28e4774, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x28f7188, size 0x84, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write, addr 0x28e487c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x28f7290, size 0x84, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method Write, addr 0x28e4900, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x28f7314, size 0x84, virtual true, abstract: false, final false
   inline void Write(::StringW value);
 
-  /// @brief Method Write, addr 0x28e47f8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x28f720c, size 0x84, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
-  /// @brief Method .ctor, addr 0x28e4678, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28f708c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
 protected:

@@ -27,12 +27,12 @@ public:
   /// @brief Field m_OnUpdateDelegate, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_OnUpdateDelegate, put = __cordl_internal_set_m_OnUpdateDelegate))::System::Action_1<float_t>* m_OnUpdateDelegate;
 
-  /// @brief Method GetGameObjectName, addr 0x332919c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetGameObjectName, addr 0x3338020, size 0x40, virtual true, abstract: false, final false
   inline ::StringW GetGameObjectName();
 
   static inline ::GlobalNamespace::MonoBehaviourCallbackHooks* New_ctor();
 
-  /// @brief Method Update, addr 0x33291dc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3338060, size 0x30, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Action_1<float_t>*& __cordl_internal_get_m_OnUpdateDelegate();
@@ -41,13 +41,13 @@ public:
 
   constexpr void __cordl_internal_set_m_OnUpdateDelegate(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x332920c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3338090, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_OnUpdateDelegate, addr 0x332904c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method add_OnUpdateDelegate, addr 0x3337ed0, size 0xa8, virtual false, abstract: false, final false
   inline void add_OnUpdateDelegate(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_OnUpdateDelegate, addr 0x33290f4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method remove_OnUpdateDelegate, addr 0x3337f78, size 0xa8, virtual false, abstract: false, final false
   inline void remove_OnUpdateDelegate(::System::Action_1<float_t>* value);
 
 protected:

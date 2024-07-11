@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::UnityEngine::Color>)>(
     &::UnityEngine::UIElements::StyleSheets::StyleSheetColor::TryGetColor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x35658e0;
+  constexpr static std::size_t addrs = 0x357d764;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(uint32_t)>(&::UnityEngine::UIElements::StyleSheets::StyleSheetColor::HexToColor32)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x35687e8;
+  constexpr static std::size_t addrs = 0x358066c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

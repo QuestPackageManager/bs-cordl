@@ -37,27 +37,27 @@ public:
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
 
-  /// @brief Method Dispose, addr 0x34551e4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3464068, size 0x78, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3456168, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3464fec, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method InternalRender, addr 0x3455768, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method InternalRender, addr 0x34645ec, size 0x88, virtual false, abstract: false, final false
   inline void InternalRender(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
-  /// @brief Method InternalRenderWithRequests, addr 0x34557f0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method InternalRenderWithRequests, addr 0x3464674, size 0x100, virtual false, abstract: false, final false
   inline void InternalRenderWithRequests(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras,
                                          ::System::Collections::Generic::List_1<::UnityEngine::__Camera__RenderRequest>* renderRequests);
 
-  /// @brief Method ProcessRenderRequests, addr 0x34560d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessRenderRequests, addr 0x3464f5c, size 0x4, virtual true, abstract: false, final false
   inline void ProcessRenderRequests(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera,
                                     ::System::Collections::Generic::List_1<::UnityEngine::__Camera__RenderRequest>* renderRequests);
 
   /// @brief Method Render, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*> cameras);
 
-  /// @brief Method Render, addr 0x34560dc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x3464f60, size 0x78, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -66,10 +66,10 @@ public:
 
   constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
-  /// @brief Method get_disposed, addr 0x3456154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x3464fd8, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed, addr 0x345615c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x3464fe0, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

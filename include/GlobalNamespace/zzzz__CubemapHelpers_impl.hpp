@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::GlobalNamespace::CubemapHelpers::get_cubemapHelpersMaterial)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x269a068;
+  constexpr static std::size_t addrs = 0x26ad044;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CubemapHelpers*>::get(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*)>(&::GlobalNamespace::CubemapHelpers::Downsample)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x269a190;
+  constexpr static std::size_t addrs = 0x26ad16c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(::UnityEngine::RenderTexture*, int32_t)>(
     &::GlobalNamespace::CubemapHelpers::CreateDownsampledCubemap)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x269a46c;
+  constexpr static std::size_t addrs = 0x26ad448;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(::UnityEngine::RenderTexture*)>(
     &::GlobalNamespace::CubemapHelpers::Create2DTextureFromCubemap)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x269a658;
+  constexpr static std::size_t addrs = 0x26ad634;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::CubemapFace)>(&::GlobalNamespace::CubemapHelpers::DrawCubemapFace)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x269a2bc;
+  constexpr static std::size_t addrs = 0x26ad298;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

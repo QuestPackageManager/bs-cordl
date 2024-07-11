@@ -36,7 +36,7 @@ public:
   /// @brief Convert operator to "::System::Xml::IXmlLineInfo"
   constexpr operator ::System::Xml::IXmlLineInfo*() noexcept;
 
-  /// @brief Method HasLineInfo, addr 0x2e87794, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method HasLineInfo, addr 0x2e971a8, size 0xa0, virtual true, abstract: false, final false
   inline bool HasLineInfo();
 
   static inline ::System::Xml::XmlAsyncCheckReaderWithLineInfo* New_ctor(::System::Xml::XmlReader* reader);
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_readerAsIXmlLineInfo(::System::Xml::IXmlLineInfo* value);
 
-  /// @brief Method .ctor, addr 0x2e868d8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e962ec, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlReader* reader);
 
-  /// @brief Method get_LineNumber, addr 0x2e87834, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x2e97248, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x2e878d8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x2e972ec, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_LinePosition();
 
   /// @brief Convert to "::System::Xml::IXmlLineInfo"

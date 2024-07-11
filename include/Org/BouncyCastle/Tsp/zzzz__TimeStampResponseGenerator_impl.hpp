@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo::*)(int32_t)>(
     &::Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x13ba480;
+  constexpr static std::size_t addrs = 0x13c3778;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::*)(
     ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*, ::System::Collections::IList*)>(&::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x13ba130;
+  constexpr static std::size_t addrs = 0x13c3428;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::*)(
     ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*, ::System::Collections::IList*, ::System::Collections::IList*)>(&::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13ba1d0;
+  constexpr static std::size_t addrs = 0x13c34c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*, ::System::Collections::IList*, ::System::Collections::IList*, ::System::Collections::IList*)>(
     &::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x13ba13c;
+  constexpr static std::size_t addrs = 0x13c3434;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::*)(::StringW)>(
     &::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::AddStatusString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x13ba1d8;
+  constexpr static std::size_t addrs = 0x13c34d0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::*)(int32_t)>(
     &::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::SetFailInfoField)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x13ba258;
+  constexpr static std::size_t addrs = 0x13c3550;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* (::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::GetPkiStatusInfo)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x13ba268;
+  constexpr static std::size_t addrs = 0x13c3560;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampResponseGenerator*>::get(),
@@ -144,7 +144,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::*)(::Org::BouncyCastle::Tsp::TimeStampRequest*, ::Org::BouncyCastle::Math::BigInteger*, ::System::DateTime)>(
     &::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::Generate)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x13ba4e8;
+  constexpr static std::size_t addrs = 0x13c37e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,7 +162,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::*)(::Org::BouncyCastle::Tsp::TimeStampRequest*, ::Org::BouncyCastle::Math::BigInteger*,
                                                              ::Org::BouncyCastle::Utilities::Date::DateTimeObject*)>(&::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::Generate)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x13ba59c;
+  constexpr static std::size_t addrs = 0x13c3894;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -180,7 +180,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Tsp::TimeStampResponse* (::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::*)(::Org::BouncyCastle::Asn1::Cmp::PkiStatus, int32_t, ::StringW)>(
         &::Org::BouncyCastle::Tsp::TimeStampResponseGenerator::GenerateFailResponse)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x13bb074;
+  constexpr static std::size_t addrs = 0x13c436c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

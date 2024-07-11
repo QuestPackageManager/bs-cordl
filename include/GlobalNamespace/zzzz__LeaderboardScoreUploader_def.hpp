@@ -275,68 +275,68 @@ public:
 
   constexpr void __cordl_internal_set_uploadAttemptCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x14a92a4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14b295c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::StringW playerId, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore, int32_t modifiedScore, bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount,
                     int32_t missedCount, int32_t maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method get_badCutsCount, addr 0x14a9274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_badCutsCount, addr 0x14b292c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_badCutsCount();
 
-  /// @brief Method get_beatmapKey, addr 0x14a91f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x14b28b0, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_fullCombo, addr 0x14a9250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullCombo, addr 0x14b2908, size 0x8, virtual false, abstract: false, final false
   inline bool get_fullCombo();
 
-  /// @brief Method get_gameplayModifiers, addr 0x14a9220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x14b28d8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_goodCutsCount, addr 0x14a9264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_goodCutsCount, addr 0x14b291c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_goodCutsCount();
 
-  /// @brief Method get_maxCombo, addr 0x14a9294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxCombo, addr 0x14b294c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxCombo();
 
-  /// @brief Method get_missedCount, addr 0x14a9284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missedCount, addr 0x14b293c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_missedCount();
 
-  /// @brief Method get_modifiedScore, addr 0x14a9240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_modifiedScore, addr 0x14b28f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_modifiedScore();
 
-  /// @brief Method get_multipliedScore, addr 0x14a9230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multipliedScore, addr 0x14b28e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_multipliedScore();
 
-  /// @brief Method get_playerId, addr 0x14a91e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerId, addr 0x14b28a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerId();
 
-  /// @brief Method set_badCutsCount, addr 0x14a927c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_badCutsCount, addr 0x14b2934, size 0x8, virtual false, abstract: false, final false
   inline void set_badCutsCount(int32_t value);
 
-  /// @brief Method set_beatmapKey, addr 0x14a920c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapKey, addr 0x14b28c4, size 0x14, virtual false, abstract: false, final false
   inline void set_beatmapKey(::GlobalNamespace::BeatmapKey value);
 
-  /// @brief Method set_fullCombo, addr 0x14a9258, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_fullCombo, addr 0x14b2910, size 0xc, virtual false, abstract: false, final false
   inline void set_fullCombo(bool value);
 
-  /// @brief Method set_gameplayModifiers, addr 0x14a9228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayModifiers, addr 0x14b28e0, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method set_goodCutsCount, addr 0x14a926c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_goodCutsCount, addr 0x14b2924, size 0x8, virtual false, abstract: false, final false
   inline void set_goodCutsCount(int32_t value);
 
-  /// @brief Method set_maxCombo, addr 0x14a929c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxCombo, addr 0x14b2954, size 0x8, virtual false, abstract: false, final false
   inline void set_maxCombo(int32_t value);
 
-  /// @brief Method set_missedCount, addr 0x14a928c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missedCount, addr 0x14b2944, size 0x8, virtual false, abstract: false, final false
   inline void set_missedCount(int32_t value);
 
-  /// @brief Method set_modifiedScore, addr 0x14a9248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_modifiedScore, addr 0x14b2900, size 0x8, virtual false, abstract: false, final false
   inline void set_modifiedScore(int32_t value);
 
-  /// @brief Method set_multipliedScore, addr 0x14a9238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_multipliedScore, addr 0x14b28f0, size 0x8, virtual false, abstract: false, final false
   inline void set_multipliedScore(int32_t value);
 
-  /// @brief Method set_playerId, addr 0x14a91f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerId, addr 0x14b28a8, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(::StringW value);
 
 protected:
@@ -438,7 +438,7 @@ public:
 
   constexpr void __cordl_internal_set_scores(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>* value);
 
-  /// @brief Method .ctor, addr 0x14a9338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14b29f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -474,21 +474,21 @@ namespace GlobalNamespace {
 class CORDL_TYPE __LeaderboardScoreUploader__UploadScoreCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x14a9484, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x14b2b3c, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData,
                                              ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* completionHandler, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x14a94ac, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x14b2b64, size 0xc, virtual true, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x14a9470, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x14b2b28, size 0x14, virtual true, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* Invoke(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData,
                                                    ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* completionHandler);
 
   static inline ::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x14a9340, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14b29f8, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -527,7 +527,7 @@ public:
 
   static inline ::GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method <UploadScoresCoroutine>b__0, addr 0x14a94c0, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method <UploadScoresCoroutine>b__0, addr 0x14b2b78, size 0x238, virtual false, abstract: false, final false
   inline void _UploadScoresCoroutine_b__0(::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreResult result);
 
   constexpr ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> const& __cordl_internal_get___4__this() const;
@@ -542,7 +542,7 @@ public:
 
   constexpr void __cordl_internal_set_scoreData(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* value);
 
-  /// @brief Method .ctor, addr 0x14a94b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14b2b70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -605,21 +605,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x14a96fc, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x14b2db4, size 0x1ec, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x14a98e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x14b2fa0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x14a98f0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x14b2fa8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x14a9930, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x14b2fe8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x14a96f8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x14b2db0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -640,7 +640,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::LeaderboardScoreUploader> value);
 
-  /// @brief Method .ctor, addr 0x14a8ef0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14b25a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -698,10 +698,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x14a9938, size 0x574, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x14b2ff0, size 0x574, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x14a9eac, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x14b3564, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -758,10 +758,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x14a9eb8, size 0x488, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x14b3570, size 0x488, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x14aa340, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x14b39f8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -854,30 +854,30 @@ public:
   /// @brief Field allScoresDidUploadEvent, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_allScoresDidUploadEvent, put = __cordl_internal_set_allScoresDidUploadEvent))::System::Action* allScoresDidUploadEvent;
 
-  /// @brief Method AddScore, addr 0x14a9074, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method AddScore, addr 0x14b272c, size 0xc4, virtual false, abstract: false, final false
   inline void AddScore(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData);
 
-  /// @brief Method Init, addr 0x14a8d7c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x14b2434, size 0x58, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback* uploadScoreCallback, ::StringW playerId);
 
-  /// @brief Method LoadScoresToUploadFromFile, addr 0x14a8f18, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method LoadScoresToUploadFromFile, addr 0x14b25d0, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadScoresToUploadFromFile();
 
   static inline ::GlobalNamespace::LeaderboardScoreUploader* New_ctor();
 
-  /// @brief Method OnApplicationQuit, addr 0x14a8eec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x14b25a4, size 0x4, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
-  /// @brief Method SaveScoresToUploadToFile, addr 0x14a8fe0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SaveScoresToUploadToFile, addr 0x14b2698, size 0x94, virtual false, abstract: false, final false
   inline void SaveScoresToUploadToFile();
 
-  /// @brief Method Uninitialize, addr 0x14a8e3c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Uninitialize, addr 0x14b24f4, size 0xb0, virtual false, abstract: false, final false
   inline void Uninitialize();
 
-  /// @brief Method UploadScoresCoroutine, addr 0x14a8dd4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UploadScoresCoroutine, addr 0x14b248c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UploadScoresCoroutine();
 
-  /// @brief Method <UploadScoresCoroutine>b__16_1, addr 0x14a91d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <UploadScoresCoroutine>b__16_1, addr 0x14b2890, size 0x10, virtual false, abstract: false, final false
   inline bool _UploadScoresCoroutine_b__16_1();
 
   constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get__fileStorage();
@@ -923,13 +923,13 @@ public:
 
   constexpr void __cordl_internal_set_allScoresDidUploadEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x14a9138, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14b27f0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_allScoresDidUploadEvent, addr 0x14a8c44, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_allScoresDidUploadEvent, addr 0x14b22fc, size 0x9c, virtual false, abstract: false, final false
   inline void add_allScoresDidUploadEvent(::System::Action* value);
 
-  /// @brief Method remove_allScoresDidUploadEvent, addr 0x14a8ce0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_allScoresDidUploadEvent, addr 0x14b2398, size 0x9c, virtual false, abstract: false, final false
   inline void remove_allScoresDidUploadEvent(::System::Action* value);
 
 protected:

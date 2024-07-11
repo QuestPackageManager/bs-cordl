@@ -83,10 +83,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2c8c390, size 0x6a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2c9fda4, size 0x6a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2c8ca34, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2ca0448, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -193,13 +193,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CloseSslStream, addr 0x2c8c2bc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CloseSslStream, addr 0x2c9fcd0, size 0xd4, virtual false, abstract: false, final false
   inline void CloseSslStream();
 
-  /// @brief Method CreateStream, addr 0x2c8c1b4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CreateStream, addr 0x2c9fbc8, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* CreateStream(::System::Net::WebConnectionTunnel* tunnel, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x2c8c2b8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2c9fccc, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::Mono::Net::Security::MonoTlsStream* New_ctor(::System::Net::HttpWebRequest* request, ::System::Net::Sockets::NetworkStream* networkStream);
@@ -252,22 +252,22 @@ public:
 
   constexpr void __cordl_internal_set_status(::System::Net::WebExceptionStatus value);
 
-  /// @brief Method .ctor, addr 0x2c8c0e0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c9faf4, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpWebRequest* request, ::System::Net::Sockets::NetworkStream* networkStream);
 
-  /// @brief Method get_CertificateValidationFailed, addr 0x2c8c0cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateValidationFailed, addr 0x2c9fae0, size 0x8, virtual false, abstract: false, final false
   inline bool get_CertificateValidationFailed();
 
-  /// @brief Method get_ExceptionStatus, addr 0x2c8c0c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExceptionStatus, addr 0x2c9fad8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebExceptionStatus get_ExceptionStatus();
 
-  /// @brief Method get_Request, addr 0x2c8c0bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Request, addr 0x2c9fad0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpWebRequest* get_Request();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_CertificateValidationFailed, addr 0x2c8c0d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CertificateValidationFailed, addr 0x2c9fae8, size 0xc, virtual false, abstract: false, final false
   inline void set_CertificateValidationFailed(bool value);
 
 protected:

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecurityDocument::*)(int32_t)>(&::System::Security::SecurityDocument::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x27eaed4;
+  constexpr static std::size_t addrs = 0x27fd8e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecurityDocument::*)(int32_t)>(&::System::Security::SecurityDocument::GuaranteeSize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x27eaf3c;
+  constexpr static std::size_t addrs = 0x27fd950;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecurityDocument::*)(::StringW, ByRef<int32_t>)>(
     &::System::Security::SecurityDocument::AddString)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x27eafe0;
+  constexpr static std::size_t addrs = 0x27fd9f4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecurityDocument::*)(::StringW, ByRef<int32_t>)>(
     &::System::Security::SecurityDocument::AppendString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x27eb12c;
+  constexpr static std::size_t addrs = 0x27fdb40;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::System::Security::SecurityDocument::EncodedStringSize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27eb1c4;
+  constexpr static std::size_t addrs = 0x27fdbd8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::SecurityDocument::*)(ByRef<int32_t>, bool)>(
     &::System::Security::SecurityDocument::GetString)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x27eb1e4;
+  constexpr static std::size_t addrs = 0x27fdbf8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecurityDocument::*)(uint8_t, ByRef<int32_t>)>(
     &::System::Security::SecurityDocument::AddToken)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x27eb760;
+  constexpr static std::size_t addrs = 0x27fe174;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (::System::Security::SecurityDocument::*)()>(
     &::System::Security::SecurityDocument::GetRootElement)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x27eb7bc;
+  constexpr static std::size_t addrs = 0x27fe1d0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityDocument*>::get(), "GetRootElement",
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (::System::Security::SecurityDocument::*)(int32_t, bool)>(
     &::System::Security::SecurityDocument::GetElement)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x27eb7d8;
+  constexpr static std::size_t addrs = 0x27fe1ec;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (::System::Security::SecurityDocument::*)(ByRef<int32_t>, bool)>(
     &::System::Security::SecurityDocument::InternalGetElement)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x27eb7f4;
+  constexpr static std::size_t addrs = 0x27fe208;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

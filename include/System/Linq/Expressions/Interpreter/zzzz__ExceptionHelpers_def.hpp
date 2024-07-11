@@ -22,7 +22,7 @@ namespace System::Linq::Expressions::Interpreter {
 class CORDL_TYPE ExceptionHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method UnwrapAndRethrow, addr 0x2c5841c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UnwrapAndRethrow, addr 0x2c6be30, size 0x1c, virtual false, abstract: false, final false
   static inline void UnwrapAndRethrow(::System::Reflection::TargetInvocationException* exception);
 
 protected:

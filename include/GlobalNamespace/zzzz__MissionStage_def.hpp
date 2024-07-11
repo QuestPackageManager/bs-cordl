@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x14d0898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14da43c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_minimumMissionsToUnlock, addr 0x14d0874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minimumMissionsToUnlock, addr 0x14da418, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minimumMissionsToUnlock();
 
-  /// @brief Method get_position, addr 0x14d087c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x14da420, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_position();
 
 protected:

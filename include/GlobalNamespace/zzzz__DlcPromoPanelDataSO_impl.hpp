@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::DlcPromoPanelDataSO::*)()>(&::GlobalNamespace::DlcPromoPanelDataSO::get_cutOffTest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14f0ed8;
+  constexpr static std::size_t addrs = 0x14fc0c4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelDataSO*>::get(), "get_cutOffTest",
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::DlcPromoPanelDataSO::*)()>(
     &::GlobalNamespace::DlcPromoPanelDataSO::get_minNumberOfNotOwnedPacks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14f0ee0;
+  constexpr static std::size_t addrs = 0x14fc0cc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelDataSO*>::get(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::DlcPromoPanelDataSO::*)()>(
     &::GlobalNamespace::DlcPromoPanelDataSO::get_defaultPromoInfoId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14f0ee8;
+  constexpr static std::size_t addrs = 0x14fc0d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelDataSO*>::get(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelDataSO::*)(::StringW)>(
     &::GlobalNamespace::DlcPromoPanelDataSO::set_defaultPromoInfoId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14f0ef0;
+  constexpr static std::size_t addrs = 0x14fc0dc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelDataSO::*)()>(&::GlobalNamespace::DlcPromoPanelDataSO::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x14f0ef8;
+  constexpr static std::size_t addrs = 0x14fc0e4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelDataSO*>::get(), ".ctor",

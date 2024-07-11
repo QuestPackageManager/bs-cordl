@@ -31,16 +31,16 @@ namespace UnityEngine {
 class CORDL_TYPE CameraRaycastHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method RaycastTry, addr 0x3478b3c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry, addr 0x348b9c0, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method RaycastTry2D, addr 0x3478c04, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry2D, addr 0x348ba88, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry2D(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method RaycastTry2D_Injected, addr 0x3478c68, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry2D_Injected, addr 0x348baec, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry2D_Injected(::UnityEngine::Camera* cam, ByRef<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method RaycastTry_Injected, addr 0x3478ba0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry_Injected, addr 0x348ba24, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry_Injected(::UnityEngine::Camera* cam, ByRef<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask);
 
 protected:

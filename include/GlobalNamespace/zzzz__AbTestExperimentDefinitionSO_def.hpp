@@ -117,18 +117,18 @@ public:
 
   __declspec(property(get = get_test2GroupSize)) float_t test2GroupSize;
 
-  /// @brief Method AbSplit, addr 0x268be2c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method AbSplit, addr 0x269fbb4, size 0x288, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group AbSplit(::StringW userId);
 
-  /// @brief Method ComputeCurrentUserTreatment, addr 0x268be14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ComputeCurrentUserTreatment, addr 0x269fb9c, size 0x18, virtual false, abstract: false, final false
   inline void ComputeCurrentUserTreatment(::StringW userId);
 
-  /// @brief Method ForceSetTreatmentGroup, addr 0x268c0b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ForceSetTreatmentGroup, addr 0x269fe3c, size 0x8, virtual false, abstract: false, final false
   inline void ForceSetTreatmentGroup(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group group);
 
   static inline ::GlobalNamespace::AbTestExperimentDefinitionSO* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x268bde8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x269fb70, size 0x2c, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr float_t const& __cordl_internal_get__controlGroupSize() const;
@@ -167,19 +167,19 @@ public:
 
   constexpr void __cordl_internal_set__test2GroupSize(float_t value);
 
-  /// @brief Method .ctor, addr 0x268c0bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269fe44, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentUserTreatmentGroup, addr 0x268bde0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentUserTreatmentGroup, addr 0x269fb68, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group get_currentUserTreatmentGroup();
 
-  /// @brief Method get_experimentName, addr 0x268bdd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_experimentName, addr 0x269fb60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_experimentName();
 
-  /// @brief Method get_test1GroupSize, addr 0x268bdc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_test1GroupSize, addr 0x269fb50, size 0x8, virtual false, abstract: false, final false
   inline float_t get_test1GroupSize();
 
-  /// @brief Method get_test2GroupSize, addr 0x268bdd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_test2GroupSize, addr 0x269fb58, size 0x8, virtual false, abstract: false, final false
   inline float_t get_test2GroupSize();
 
 protected:

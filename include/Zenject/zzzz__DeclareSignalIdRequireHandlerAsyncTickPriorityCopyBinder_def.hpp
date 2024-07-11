@@ -30,10 +30,10 @@ public:
   // Declarations
   static inline ::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method WithId, addr 0x36424f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithId, addr 0x3659378, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder* WithId(::System::Object* identifier);
 
-  /// @brief Method .ctor, addr 0x36424ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3659330, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
 protected:

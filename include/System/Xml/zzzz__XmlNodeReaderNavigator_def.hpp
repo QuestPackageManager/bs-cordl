@@ -64,7 +64,7 @@ namespace System::Xml {
 struct CORDL_TYPE __XmlNodeReaderNavigator__VirtualAttribute {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2ec0c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed0690, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW value);
 
   // Ctor Parameters []
@@ -192,108 +192,108 @@ public:
   /// @brief Field nameTable, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable))::System::Xml::XmlNameTable* nameTable;
 
-  /// @brief Method CheckIndexCondition, addr 0x2ec16dc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CheckIndexCondition, addr 0x2ed10f0, size 0x6c, virtual false, abstract: false, final false
   inline void CheckIndexCondition(int32_t attributeIndex);
 
-  /// @brief Method DefaultLookupNamespace, addr 0x2ec2da4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method DefaultLookupNamespace, addr 0x2ed27b8, size 0x138, virtual false, abstract: false, final false
   inline ::StringW DefaultLookupNamespace(::StringW prefix);
 
-  /// @brief Method GetAttribute, addr 0x2ec1ea4, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method GetAttribute, addr 0x2ed18b8, size 0x1d4, virtual false, abstract: false, final false
   inline ::StringW GetAttribute(int32_t attributeIndex);
 
-  /// @brief Method GetAttribute, addr 0x2ec1af0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetAttribute, addr 0x2ed1504, size 0x19c, virtual false, abstract: false, final false
   inline ::StringW GetAttribute(::StringW name);
 
-  /// @brief Method GetAttribute, addr 0x2ec1cd4, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method GetAttribute, addr 0x2ed16e8, size 0x1d0, virtual false, abstract: false, final false
   inline ::StringW GetAttribute(::StringW name, ::StringW ns);
 
-  /// @brief Method GetAttributeFromElement, addr 0x2ec1aac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeFromElement, addr 0x2ed14c0, size 0x44, virtual false, abstract: false, final false
   inline ::StringW GetAttributeFromElement(::System::Xml::XmlElement* elem, ::StringW name);
 
-  /// @brief Method GetAttributeFromElement, addr 0x2ec1c8c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeFromElement, addr 0x2ed16a0, size 0x48, virtual false, abstract: false, final false
   inline ::StringW GetAttributeFromElement(::System::Xml::XmlElement* elem, ::StringW name, ::StringW ns);
 
-  /// @brief Method GetDecAttrInd, addr 0x2ec187c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetDecAttrInd, addr 0x2ed1290, size 0x98, virtual false, abstract: false, final false
   inline int32_t GetDecAttrInd(::StringW name);
 
-  /// @brief Method GetDeclarationAttr, addr 0x2ec1748, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetDeclarationAttr, addr 0x2ed115c, size 0xe0, virtual false, abstract: false, final false
   inline ::StringW GetDeclarationAttr(::System::Xml::XmlDeclaration* decl, ::StringW name);
 
-  /// @brief Method GetDeclarationAttr, addr 0x2ec1828, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetDeclarationAttr, addr 0x2ed123c, size 0x54, virtual false, abstract: false, final false
   inline ::StringW GetDeclarationAttr(int32_t i);
 
-  /// @brief Method GetDocTypeAttrInd, addr 0x2ec1a14, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetDocTypeAttrInd, addr 0x2ed1428, size 0x98, virtual false, abstract: false, final false
   inline int32_t GetDocTypeAttrInd(::StringW name);
 
-  /// @brief Method GetDocumentTypeAttr, addr 0x2ec1914, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetDocumentTypeAttr, addr 0x2ed1328, size 0xac, virtual false, abstract: false, final false
   inline ::StringW GetDocumentTypeAttr(::System::Xml::XmlDocumentType* docType, ::StringW name);
 
-  /// @brief Method GetDocumentTypeAttr, addr 0x2ec19c0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetDocumentTypeAttr, addr 0x2ed13d4, size 0x54, virtual false, abstract: false, final false
   inline ::StringW GetDocumentTypeAttr(int32_t i);
 
-  /// @brief Method GetNamespacesInScope, addr 0x2ec32a0, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method GetNamespacesInScope, addr 0x2ed2cb4, size 0x4b4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
 
-  /// @brief Method InitDecAttr, addr 0x2ec1150, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method InitDecAttr, addr 0x2ed0b64, size 0x134, virtual false, abstract: false, final false
   inline void InitDecAttr();
 
-  /// @brief Method InitDocTypeAttr, addr 0x2ec1608, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method InitDocTypeAttr, addr 0x2ed101c, size 0xd4, virtual false, abstract: false, final false
   inline void InitDocTypeAttr();
 
-  /// @brief Method IsLocalNameEmpty, addr 0x2ec0ddc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsLocalNameEmpty, addr 0x2ed07f0, size 0x24, virtual false, abstract: false, final false
   inline bool IsLocalNameEmpty(::System::Xml::XmlNodeType nt);
 
-  /// @brief Method LogMove, addr 0x2ec2078, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LogMove, addr 0x2ed1a8c, size 0x24, virtual false, abstract: false, final false
   inline void LogMove(int32_t level);
 
-  /// @brief Method LookupNamespace, addr 0x2ec2af8, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method LookupNamespace, addr 0x2ed250c, size 0x2ac, virtual false, abstract: false, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method LookupPrefix, addr 0x2ec2edc, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method LookupPrefix, addr 0x2ed28f0, size 0x3c4, virtual false, abstract: false, final false
   inline ::StringW LookupPrefix(::StringW namespaceName);
 
-  /// @brief Method MoveToAttribute, addr 0x2ec2364, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method MoveToAttribute, addr 0x2ed1d78, size 0x60, virtual false, abstract: false, final false
   inline bool MoveToAttribute(::StringW name);
 
-  /// @brief Method MoveToAttribute, addr 0x2ec23c4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method MoveToAttribute, addr 0x2ed1dd8, size 0x158, virtual false, abstract: false, final false
   inline bool MoveToAttribute(::StringW name, ::StringW namespaceURI);
 
-  /// @brief Method MoveToAttribute, addr 0x2ec25d4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method MoveToAttribute, addr 0x2ed1fe8, size 0x1cc, virtual false, abstract: false, final false
   inline void MoveToAttribute(int32_t attributeIndex);
 
-  /// @brief Method MoveToAttributeFromElement, addr 0x2ec251c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method MoveToAttributeFromElement, addr 0x2ed1f30, size 0xb8, virtual false, abstract: false, final false
   inline bool MoveToAttributeFromElement(::System::Xml::XmlElement* elem, ::StringW name, ::StringW ns);
 
-  /// @brief Method MoveToElement, addr 0x2ec2a78, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method MoveToElement, addr 0x2ed248c, size 0x80, virtual false, abstract: false, final false
   inline bool MoveToElement();
 
-  /// @brief Method MoveToFirstChild, addr 0x2ec29a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MoveToFirstChild, addr 0x2ed23b8, size 0x48, virtual false, abstract: false, final false
   inline bool MoveToFirstChild();
 
-  /// @brief Method MoveToNext, addr 0x2ec2a38, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method MoveToNext, addr 0x2ed244c, size 0x40, virtual false, abstract: false, final false
   inline bool MoveToNext();
 
-  /// @brief Method MoveToNextAttribute, addr 0x2ec27a0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method MoveToNextAttribute, addr 0x2ed21b4, size 0x1c4, virtual false, abstract: false, final false
   inline bool MoveToNextAttribute(ByRef<int32_t> level);
 
-  /// @brief Method MoveToNextSibling, addr 0x2ec29ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method MoveToNextSibling, addr 0x2ed2400, size 0x4c, virtual false, abstract: false, final false
   inline bool MoveToNextSibling(::System::Xml::XmlNode* node);
 
-  /// @brief Method MoveToParent, addr 0x2ec2964, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method MoveToParent, addr 0x2ed2378, size 0x40, virtual false, abstract: false, final false
   inline bool MoveToParent();
 
   static inline ::System::Xml::XmlNodeReaderNavigator* New_ctor(::System::Xml::XmlNode* node);
 
-  /// @brief Method ReadAttributeValue, addr 0x2ec3754, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method ReadAttributeValue, addr 0x2ed3168, size 0x1c0, virtual false, abstract: false, final false
   inline bool ReadAttributeValue(ByRef<int32_t> level, ByRef<bool> bResolveEntity, ByRef<::System::Xml::XmlNodeType> nt);
 
-  /// @brief Method ResetMove, addr 0x2ec2198, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ResetMove, addr 0x2ed1bac, size 0x1cc, virtual false, abstract: false, final false
   inline void ResetMove(ByRef<int32_t> level, ByRef<::System::Xml::XmlNodeType> nt);
 
-  /// @brief Method ResetToAttribute, addr 0x2ec2100, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ResetToAttribute, addr 0x2ed1b14, size 0x98, virtual false, abstract: false, final false
   inline void ResetToAttribute(ByRef<int32_t> level);
 
-  /// @brief Method RollBackMove, addr 0x2ec209c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method RollBackMove, addr 0x2ed1ab0, size 0x2c, virtual false, abstract: false, final false
   inline void RollBackMove(ByRef<int32_t> level);
 
   constexpr int32_t const& __cordl_internal_get_attrIndex() const;
@@ -401,58 +401,58 @@ public:
 
   constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
 
-  /// @brief Method .ctor, addr 0x2ec0aac, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed04c0, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* node);
 
-  /// @brief Method get_AttributeCount, addr 0x2ec14a4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeCount, addr 0x2ed0eb8, size 0x164, virtual false, abstract: false, final false
   inline int32_t get_AttributeCount();
 
-  /// @brief Method get_BaseURI, addr 0x2ec1284, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_BaseURI, addr 0x2ed0c98, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_BaseURI();
 
-  /// @brief Method get_CreatedOnAttribute, addr 0x2ec0eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreatedOnAttribute, addr 0x2ed08c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreatedOnAttribute();
 
-  /// @brief Method get_Document, addr 0x2ec3914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Document, addr 0x2ed3328, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDocument* get_Document();
 
-  /// @brief Method get_IsDefault, addr 0x2ec139c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IsDefault, addr 0x2ed0db0, size 0xdc, virtual false, abstract: false, final false
   inline bool get_IsDefault();
 
-  /// @brief Method get_IsEmptyElement, addr 0x2ec12f0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmptyElement, addr 0x2ed0d04, size 0xac, virtual false, abstract: false, final false
   inline bool get_IsEmptyElement();
 
-  /// @brief Method get_IsOnDeclOrDocType, addr 0x2ec20c8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_IsOnDeclOrDocType, addr 0x2ed1adc, size 0x38, virtual false, abstract: false, final false
   inline bool get_IsOnDeclOrDocType();
 
-  /// @brief Method get_LocalName, addr 0x2ec0e00, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x2ed0814, size 0xac, virtual false, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x2ec0cec, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2ed0700, size 0xf0, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameTable, addr 0x2ec149c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x2ed0eb0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method get_NamespaceURI, addr 0x2ec0cc8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceURI, addr 0x2ed06dc, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_NamespaceURI();
 
-  /// @brief Method get_NodeType, addr 0x2ec0c84, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x2ed0698, size 0x44, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Prefix, addr 0x2ec0eb4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x2ed08c8, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_SchemaInfo, addr 0x2ec1478, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaInfo, addr 0x2ed0e8c, size 0x24, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::IXmlSchemaInfo* get_SchemaInfo();
 
-  /// @brief Method get_Value, addr 0x2ec0ed8, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2ed08ec, size 0x278, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method get_XmlLang, addr 0x2ec12cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_XmlLang, addr 0x2ed0ce0, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_XmlLang();
 
-  /// @brief Method get_XmlSpace, addr 0x2ec12a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_XmlSpace, addr 0x2ed0cbc, size 0x24, virtual false, abstract: false, final false
   inline ::System::Xml::XmlSpace get_XmlSpace();
 
 protected:

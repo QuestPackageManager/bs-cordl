@@ -21,7 +21,7 @@ namespace System {
 class CORDL_TYPE StringExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SubstringTrim, addr 0x2f9a250, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method SubstringTrim, addr 0x2fa6c64, size 0x170, virtual false, abstract: false, final false
   static inline ::StringW SubstringTrim(::StringW value, int32_t startIndex, int32_t length);
 
 protected:

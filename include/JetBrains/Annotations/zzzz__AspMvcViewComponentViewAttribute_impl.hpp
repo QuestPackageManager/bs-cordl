@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::AspMvcViewComponentViewAttribute::*)()>(
     &::JetBrains::Annotations::AspMvcViewComponentViewAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x363a7b4;
+  constexpr static std::size_t addrs = 0x3651638;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

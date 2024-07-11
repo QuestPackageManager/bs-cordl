@@ -58,11 +58,11 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x368a494, size 0x1d8, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x36a1318, size 0x1d8, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x368a48c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x36a1310, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::ResourceProvider* New_ctor(::StringW resourcePath, ::System::Type* resourceType, bool matchSingle);
@@ -85,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set__resourceType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x368a440, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a12c4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW resourcePath, ::System::Type* resourceType, bool matchSingle);
 
-  /// @brief Method get_IsCached, addr 0x368a47c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x36a1300, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x368a484, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x36a1308, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"

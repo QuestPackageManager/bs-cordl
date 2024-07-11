@@ -233,12 +233,12 @@ public:
   /// @brief Field s_reference, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_reference, put = setStaticF_s_reference))::System::Linq::Expressions::Interpreter::Instruction* s_reference;
 
-  /// @brief Method Create, addr 0x2c376d0, size 0x86c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2c4c0e4, size 0x86c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type, bool liftedToNull);
 
   static inline ::System::Linq::Expressions::Interpreter::EqualInstruction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c376c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c4c0dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Boolean();
@@ -291,13 +291,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_reference();
 
-  /// @brief Method get_ConsumedStack, addr 0x2c37678, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2c4c08c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2c37688, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c4c09c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2c37680, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2c4c094, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_Boolean(::System::Linq::Expressions::Interpreter::Instruction* value);

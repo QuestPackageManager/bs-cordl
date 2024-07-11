@@ -25,12 +25,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE StandaloneSettingsApplicatorSO : public ::GlobalNamespace::SettingsApplicatorSO {
 public:
   // Declarations
-  /// @brief Method ApplyWindowSettings, addr 0x26b012c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ApplyWindowSettings, addr 0x26c5e74, size 0x60, virtual true, abstract: false, final false
   inline void ApplyWindowSettings(::UnityEngine::Vector2Int resolution, ::BeatSaber::GameSettings::WindowMode windowMode);
 
   static inline ::GlobalNamespace::StandaloneSettingsApplicatorSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26b018c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c5ed4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

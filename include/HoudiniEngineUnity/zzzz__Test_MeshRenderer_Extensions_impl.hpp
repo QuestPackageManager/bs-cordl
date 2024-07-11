@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__Test_MeshRenderer_Extensions____c::*)()>(
     &::HoudiniEngineUnity::__Test_MeshRenderer_Extensions____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25e2170;
+  constexpr static std::size_t addrs = 0x25f6424;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_MeshRenderer* (
     ::HoudiniEngineUnity::__Test_MeshRenderer_Extensions____c::*)(::UnityEngine::MeshRenderer*)>(&::HoudiniEngineUnity::__Test_MeshRenderer_Extensions____c::_ToTestObject_b__1_0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x25e2178;
+  constexpr static std::size_t addrs = 0x25f642c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_MeshRenderer* (
     ::HoudiniEngineUnity::__Test_MeshRenderer_Extensions____c::*)(::UnityEngine::MeshRenderer*)>(&::HoudiniEngineUnity::__Test_MeshRenderer_Extensions____c::_ToTestObject_b__2_0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x25e21dc;
+  constexpr static std::size_t addrs = 0x25f6490;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_MeshRenderer* (*)(::UnityEngine::MeshRenderer*)>(
     &::HoudiniEngineUnity::Test_MeshRenderer_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x25de1cc;
+  constexpr static std::size_t addrs = 0x25f2480;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::HoudiniEngineUnity::Test_MeshRenderer*, ::Array<::HoudiniEngineUnity::Test_MeshRenderer*>*> (*)(
     ::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*>)>(&::HoudiniEngineUnity::Test_MeshRenderer_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x25e1f18;
+  constexpr static std::size_t addrs = 0x25f61cc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,7 +140,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_MeshRenderer*>* (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshRenderer>>*)>(
         &::HoudiniEngineUnity::Test_MeshRenderer_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x25e2010;
+  constexpr static std::size_t addrs = 0x25f62c4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

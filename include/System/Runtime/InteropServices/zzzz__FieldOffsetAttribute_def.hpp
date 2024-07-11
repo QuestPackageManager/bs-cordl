@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set__val(int32_t value);
 
-  /// @brief Method .ctor, addr 0x287179c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28851b0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t offset);
 
 protected:

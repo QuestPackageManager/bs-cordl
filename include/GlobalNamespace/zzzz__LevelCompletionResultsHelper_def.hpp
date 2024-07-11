@@ -56,16 +56,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE LevelCompletionResultsHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x14b094c, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x14ba154, size 0x468, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelCompletionResults*
   Create(::GlobalNamespace::IReadonlyBeatmapData* beatmapData,
          ::ArrayW<::GlobalNamespace::BeatmapObjectExecutionRating*, ::Array<::GlobalNamespace::BeatmapObjectExecutionRating*>*> beatmapObjectExecutionRatings,
          ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, int32_t multipliedScore, int32_t modifiedScore, int32_t maxCombo,
          ::ArrayW<float_t, ::Array<float_t>*> saberActivityValues, float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, ::ArrayW<float_t, ::Array<float_t>*> handActivityValues,
          float_t leftHandMovementDistance, float_t rightHandMovementDistance, ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType,
-         ::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy, float_t songTime);
+         ::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy, float_t songTime, bool invalidated);
 
-  /// @brief Method ProcessScore, addr 0x14b0da8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ProcessScore, addr 0x14ba5bc, size 0x118, virtual false, abstract: false, final false
   static inline void ProcessScore(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData, ::GlobalNamespace::PlayerLevelStatsData* playerLevelStats,
                                   ::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
                                   ::GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel);

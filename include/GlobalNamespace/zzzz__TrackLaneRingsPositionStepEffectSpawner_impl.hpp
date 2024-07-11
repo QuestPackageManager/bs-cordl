@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::*)()>(
     &::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::Start)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x26f04f0;
+  constexpr static std::size_t addrs = 0x27049e4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::*)()>(
     &::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26f0614;
+  constexpr static std::size_t addrs = 0x2704b08;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x26f0630;
+  constexpr static std::size_t addrs = 0x2704b24;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::*)()>(
     &::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26f06a8;
+  constexpr static std::size_t addrs = 0x2704b9c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

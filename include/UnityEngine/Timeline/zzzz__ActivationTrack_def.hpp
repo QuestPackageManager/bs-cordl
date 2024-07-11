@@ -121,21 +121,21 @@ public:
 
   __declspec(property(get = get_postPlaybackState, put = set_postPlaybackState))::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState postPlaybackState;
 
-  /// @brief Method CanCompileClips, addr 0x33ad414, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CanCompileClips, addr 0x33bc298, size 0x5c, virtual true, abstract: false, final false
   inline bool CanCompileClips();
 
-  /// @brief Method CreateTrackMixer, addr 0x33ad550, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method CreateTrackMixer, addr 0x33bc3d4, size 0xe4, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, int32_t inputCount);
 
-  /// @brief Method GatherProperties, addr 0x33ad634, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method GatherProperties, addr 0x33bc4b8, size 0x12c, virtual true, abstract: false, final false
   inline void GatherProperties(::UnityEngine::Playables::PlayableDirector* director, ::UnityEngine::Timeline::IPropertyCollector* driver);
 
   static inline ::UnityEngine::Timeline::ActivationTrack* New_ctor();
 
-  /// @brief Method OnCreateClip, addr 0x33ad8d8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnCreateClip, addr 0x33bc75c, size 0x50, virtual true, abstract: false, final false
   inline void OnCreateClip(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method UpdateTrackMode, addr 0x33ad53c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method UpdateTrackMode, addr 0x33bc3c0, size 0x14, virtual false, abstract: false, final false
   inline void UpdateTrackMode();
 
   constexpr ::UnityEngine::Timeline::ActivationMixerPlayable*& __cordl_internal_get_m_ActivationMixer();
@@ -150,13 +150,13 @@ public:
 
   constexpr void __cordl_internal_set_m_PostPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
 
-  /// @brief Method .ctor, addr 0x33ad92c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33bc7b0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_postPlaybackState, addr 0x33ad520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_postPlaybackState, addr 0x33bc3a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState get_postPlaybackState();
 
-  /// @brief Method set_postPlaybackState, addr 0x33ad528, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_postPlaybackState, addr 0x33bc3ac, size 0x14, virtual false, abstract: false, final false
   inline void set_postPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
 
 protected:

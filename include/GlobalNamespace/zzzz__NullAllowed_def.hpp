@@ -87,7 +87,7 @@ public:
   /// @brief Field _context, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::GlobalNamespace::__NullAllowed__Context _context;
 
-  /// @brief Method IsNullAllowedFor, addr 0x1079d7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsNullAllowedFor, addr 0x1080a18, size 0x1c, virtual false, abstract: false, final false
   inline bool IsNullAllowedFor(::GlobalNamespace::__NullAllowed__Context context);
 
   static inline ::GlobalNamespace::NullAllowed* New_ctor(::GlobalNamespace::__NullAllowed__Context context);
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__context(::GlobalNamespace::__NullAllowed__Context value);
 
-  /// @brief Method .ctor, addr 0x1079d54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10809f0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__NullAllowed__Context context);
 
 protected:

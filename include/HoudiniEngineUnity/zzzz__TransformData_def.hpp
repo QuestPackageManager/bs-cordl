@@ -30,13 +30,13 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE TransformData {
 public:
   // Declarations
-  /// @brief Method CopyTo, addr 0x25af244, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x25c44f8, size 0x80, virtual false, abstract: false, final false
   inline void CopyTo(::UnityEngine::Transform* other, bool copyParent);
 
-  /// @brief Method CopyToLocal, addr 0x25af2c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CopyToLocal, addr 0x25c4578, size 0x80, virtual false, abstract: false, final false
   inline void CopyToLocal(::UnityEngine::Transform* other, bool copyParent);
 
-  /// @brief Method .ctor, addr 0x25af1ac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c4460, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* other);
 
   // Ctor Parameters []

@@ -21,12 +21,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE DistanceObjectiveValueFormatterSO : public ::GlobalNamespace::ObjectiveValueFormatterSO {
 public:
   // Declarations
-  /// @brief Method FormatValue, addr 0x14d03e0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method FormatValue, addr 0x14d9f84, size 0x80, virtual true, abstract: false, final false
   inline ::StringW FormatValue(int32_t value);
 
   static inline ::GlobalNamespace::DistanceObjectiveValueFormatterSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x14d0460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14da004, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithRejoinDialogResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::RejoinDialogResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2aea02c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2afda40, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::RejoinDialogResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetRejoinDialogResult, addr 0x2ae9ff0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetRejoinDialogResult, addr 0x2afda04, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::RejoinDialogResult* GetRejoinDialogResult();
 
   static inline ::Oculus::Platform::MessageWithRejoinDialogResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ae5fa8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af99bc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

@@ -25,7 +25,7 @@ public:
   /// @brief Field _false, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__false, put = __cordl_internal_set__false))::System::Linq::Expressions::Expression* _false;
 
-  /// @brief Method GetFalse, addr 0x2c1ec98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetFalse, addr 0x2c336ac, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetFalse();
 
   static inline ::System::Linq::Expressions::FullConditionalExpression* New_ctor(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue,
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__false(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x2c1eadc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c334f0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue, ::System::Linq::Expressions::Expression* ifFalse);
 
 protected:

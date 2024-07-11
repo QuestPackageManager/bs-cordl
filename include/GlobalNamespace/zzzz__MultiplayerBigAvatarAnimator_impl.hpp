@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)()>(
     &::GlobalNamespace::MultiplayerBigAvatarAnimator::OnDestroy)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x271cda8;
+  constexpr static std::size_t addrs = 0x273254c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBigAvatarAnimator*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)()>(
     &::GlobalNamespace::MultiplayerBigAvatarAnimator::InitIfNeeded)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x271ce30;
+  constexpr static std::size_t addrs = 0x27325d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBigAvatarAnimator*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::MultiplayerBigAvatarAnimator::SetPositionAndRotation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x271d008;
+  constexpr static std::size_t addrs = 0x27327ac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)()>(
     &::GlobalNamespace::MultiplayerBigAvatarAnimator::HideInstant)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x271d080;
+  constexpr static std::size_t addrs = 0x2732824;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBigAvatarAnimator*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)(bool, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::MultiplayerBigAvatarAnimator::Animate)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x271d128;
+  constexpr static std::size_t addrs = 0x27328cc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)()>(
     &::GlobalNamespace::MultiplayerBigAvatarAnimator::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x271d300;
+  constexpr static std::size_t addrs = 0x2732aa4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBigAvatarAnimator*>::get(), ".ctor",
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)(float_t)>(
     &::GlobalNamespace::MultiplayerBigAvatarAnimator::_InitIfNeeded_b__8_0)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x271d310;
+  constexpr static std::size_t addrs = 0x2732ab4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)(float_t)>(
     &::GlobalNamespace::MultiplayerBigAvatarAnimator::_InitIfNeeded_b__8_1)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x271d388;
+  constexpr static std::size_t addrs = 0x2732b2c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)()>(
     &::GlobalNamespace::MultiplayerBigAvatarAnimator::_InitIfNeeded_b__8_2)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x271d400;
+  constexpr static std::size_t addrs = 0x2732ba4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBigAvatarAnimator*>::get(),

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_VolumeLayer::*)(::HoudiniEngineUnity::HEU_VolumeLayer*)>(
     &::HoudiniEngineUnity::HEU_VolumeLayer::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x25e5bfc;
+  constexpr static std::size_t addrs = 0x25f9eb0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeLayer::*)()>(&::HoudiniEngineUnity::HEU_VolumeLayer::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x25e5f6c;
+  constexpr static std::size_t addrs = 0x25fa220;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeLayer*>::get(), ".ctor",

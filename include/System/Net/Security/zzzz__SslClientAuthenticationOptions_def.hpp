@@ -120,34 +120,34 @@ public:
 
   constexpr void __cordl_internal_set__encryptionPolicy(::System::Net::Security::EncryptionPolicy value);
 
-  /// @brief Method .ctor, addr 0x2f4e01c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5aa30, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ClientCertificates, addr 0x2f4debc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClientCertificates, addr 0x2f5a8d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
-  /// @brief Method get_EnabledSslProtocols, addr 0x2f4e00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnabledSslProtocols, addr 0x2f5aa20, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
 
-  /// @brief Method get_TargetHost, addr 0x2f4deac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetHost, addr 0x2f5a8c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TargetHost();
 
-  /// @brief Method set_CertificateRevocationCheckMode, addr 0x2f4decc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_CertificateRevocationCheckMode, addr 0x2f5a8e0, size 0xa0, virtual false, abstract: false, final false
   inline void set_CertificateRevocationCheckMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
-  /// @brief Method set_ClientCertificates, addr 0x2f4dec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ClientCertificates, addr 0x2f5a8d8, size 0x8, virtual false, abstract: false, final false
   inline void set_ClientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method set_EnabledSslProtocols, addr 0x2f4e014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EnabledSslProtocols, addr 0x2f5aa28, size 0x8, virtual false, abstract: false, final false
   inline void set_EnabledSslProtocols(::System::Security::Authentication::SslProtocols value);
 
-  /// @brief Method set_EncryptionPolicy, addr 0x2f4df6c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_EncryptionPolicy, addr 0x2f5a980, size 0xa0, virtual false, abstract: false, final false
   inline void set_EncryptionPolicy(::System::Net::Security::EncryptionPolicy value);
 
-  /// @brief Method set_LocalCertificateSelectionCallback, addr 0x2f4dea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocalCertificateSelectionCallback, addr 0x2f5a8b8, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalCertificateSelectionCallback(::System::Net::Security::LocalCertificateSelectionCallback* value);
 
-  /// @brief Method set_TargetHost, addr 0x2f4deb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TargetHost, addr 0x2f5a8c8, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetHost(::StringW value);
 
 protected:

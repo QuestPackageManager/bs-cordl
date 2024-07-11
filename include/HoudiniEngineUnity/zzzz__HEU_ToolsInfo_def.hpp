@@ -231,7 +231,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x25e54d4, size 0x620, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x25f9788, size 0x620, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ToolsInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_ToolsInfo* New_ctor();
@@ -362,7 +362,7 @@ public:
 
   constexpr void __cordl_internal_set__showOnlyEditGeometry(bool value);
 
-  /// @brief Method .ctor, addr 0x25e5af4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f9da8, size 0x108, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>"

@@ -37,16 +37,16 @@ public:
 
   static inline ::System::Reflection::TargetException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x288597c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x289a390, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x28859f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x289a408, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x28859a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x289a3bc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x28859d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x289a3e4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:

@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  /// @brief Method .ctor, addr 0x261f454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2633734, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

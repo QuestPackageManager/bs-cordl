@@ -361,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__HapticInfo::*)()>(&::GlobalNamespace::__OVRInput__HapticInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2cd70;
+  constexpr static std::size_t addrs = 0x2b3f784;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRInput__HapticInfo*>::get(), ".ctor",
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__RawButton (::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::*)(
     ::GlobalNamespace::__OVRInput__Button)>(&::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::ToRawMask)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x2b2e524;
+  constexpr static std::size_t addrs = 0x2b40f38;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -460,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualButtonMap::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2d7e8;
+  constexpr static std::size_t addrs = 0x2b401fc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -888,7 +888,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__RawTouch (::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::*)(
     ::GlobalNamespace::__OVRInput__Touch)>(&::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::ToRawMask)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2b2e738;
+  constexpr static std::size_t addrs = 0x2b4114c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -903,7 +903,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualTouchMap::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2d7f0;
+  constexpr static std::size_t addrs = 0x2b40204;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -1092,7 +1092,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::__OVRInput__RawNearTouch (::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::*)(::GlobalNamespace::__OVRInput__NearTouch)>(
         &::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::ToRawMask)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2b2e80c;
+  constexpr static std::size_t addrs = 0x2b41220;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1107,7 +1107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualNearTouchMap::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2d7f8;
+  constexpr static std::size_t addrs = 0x2b4020c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -1199,7 +1199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__RawAxis1D (::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::*)(
     ::GlobalNamespace::__OVRInput__Axis1D)>(&::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::ToRawMask)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2b2e860;
+  constexpr static std::size_t addrs = 0x2b41274;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1214,7 +1214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis1DMap::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2d800;
+  constexpr static std::size_t addrs = 0x2b40214;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -1426,7 +1426,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__RawAxis2D (::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::*)(
     ::GlobalNamespace::__OVRInput__Axis2D)>(&::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::ToRawMask)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2b2e954;
+  constexpr static std::size_t addrs = 0x2b41368;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1441,7 +1441,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerBase__VirtualAxis2DMap::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2d808;
+  constexpr static std::size_t addrs = 0x2b4021c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -1533,7 +1533,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerBase::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerBase::_ctor)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x2b2d638;
+  constexpr static std::size_t addrs = 0x2b4004c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRInput__OVRControllerBase*>::get(),
@@ -1547,7 +1547,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__Controller (::GlobalNamespace::__OVRInput__OVRControllerBase::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerBase::Update)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x2b2d810;
+  constexpr static std::size_t addrs = 0x2b40224;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -1563,7 +1563,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__ControllerState6 (::GlobalNamespace::__OVRInput__OVRControllerBase::*)(
     ::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::__OVRInput__OVRControllerBase::GetOpenVRControllerState)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x2b2dbf8;
+  constexpr static std::size_t addrs = 0x2b4060c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1578,7 +1578,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerBase::*)(float_t, float_t)>(
     &::GlobalNamespace::__OVRInput__OVRControllerBase::SetControllerVibration)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2b2e068;
+  constexpr static std::size_t addrs = 0x2b40a7c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -1594,7 +1594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerBase::*)(
     ::GlobalNamespace::__OVRInput__HapticsLocation, float_t, float_t)>(&::GlobalNamespace::__OVRInput__OVRControllerBase::SetControllerLocalizedVibration)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2b2e0dc;
+  constexpr static std::size_t addrs = 0x2b40af0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -1610,7 +1610,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerBase::*)(
     ::GlobalNamespace::__OVRInput__HapticsAmplitudeEnvelopeVibration)>(&::GlobalNamespace::__OVRInput__OVRControllerBase::SetControllerHapticsAmplitudeEnvelope)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x2b2e160;
+  constexpr static std::size_t addrs = 0x2b40b74;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -1626,7 +1626,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__OVRInput__OVRControllerBase::*)(::GlobalNamespace::__OVRInput__HapticsPcmVibration)>(
     &::GlobalNamespace::__OVRInput__OVRControllerBase::SetControllerHapticsPcm)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x2b2e298;
+  constexpr static std::size_t addrs = 0x2b40cac;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -1642,7 +1642,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__OVRInput__OVRControllerBase::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerBase::GetControllerSampleRateHz)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2b2e4a8;
+  constexpr static std::size_t addrs = 0x2b40ebc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -1658,7 +1658,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::GlobalNamespace::__OVRInput__OVRControllerBase::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerBase::GetBatteryPercentRemaining)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2e51c;
+  constexpr static std::size_t addrs = 0x2b40f30;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -1754,7 +1754,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__RawButton (::GlobalNamespace::__OVRInput__OVRControllerBase::*)(
     ::GlobalNamespace::__OVRInput__Button)>(&::GlobalNamespace::__OVRInput__OVRControllerBase::ResolveToRawMask)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2b2a93c;
+  constexpr static std::size_t addrs = 0x2b3d350;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1769,7 +1769,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__RawTouch (::GlobalNamespace::__OVRInput__OVRControllerBase::*)(
     ::GlobalNamespace::__OVRInput__Touch)>(&::GlobalNamespace::__OVRInput__OVRControllerBase::ResolveToRawMask)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2b2af64;
+  constexpr static std::size_t addrs = 0x2b3d978;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1784,7 +1784,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__RawNearTouch (::GlobalNamespace::__OVRInput__OVRControllerBase::*)(
     ::GlobalNamespace::__OVRInput__NearTouch)>(&::GlobalNamespace::__OVRInput__OVRControllerBase::ResolveToRawMask)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2b2b5f4;
+  constexpr static std::size_t addrs = 0x2b3e008;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1799,7 +1799,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__RawAxis1D (::GlobalNamespace::__OVRInput__OVRControllerBase::*)(
     ::GlobalNamespace::__OVRInput__Axis1D)>(&::GlobalNamespace::__OVRInput__OVRControllerBase::ResolveToRawMask)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2b2c1b8;
+  constexpr static std::size_t addrs = 0x2b3ebcc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1814,7 +1814,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__RawAxis2D (::GlobalNamespace::__OVRInput__OVRControllerBase::*)(
     ::GlobalNamespace::__OVRInput__Axis2D)>(&::GlobalNamespace::__OVRInput__OVRControllerBase::ResolveToRawMask)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2b2c664;
+  constexpr static std::size_t addrs = 0x2b3f078;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2060,7 +2060,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerTouch::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2b27b0c;
+  constexpr static std::size_t addrs = 0x2b3a520;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRInput__OVRControllerTouch*>::get(),
@@ -2074,7 +2074,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerTouch::ConfigureButtonMap)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2e9a8;
+  constexpr static std::size_t addrs = 0x2b413bc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2090,7 +2090,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerTouch::ConfigureTouchMap)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2b2ea10;
+  constexpr static std::size_t addrs = 0x2b41424;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2106,7 +2106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerTouch::ConfigureNearTouchMap)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2b2ea4c;
+  constexpr static std::size_t addrs = 0x2b41460;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2122,7 +2122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerTouch::ConfigureAxis1DMap)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2b2ea78;
+  constexpr static std::size_t addrs = 0x2b4148c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2138,7 +2138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerTouch::ConfigureAxis2DMap)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2b2eac4;
+  constexpr static std::size_t addrs = 0x2b414d8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2153,8 +2153,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::GlobalNamespace::__OVRInput__OVRControllerTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerTouch::GetBatteryPercentRemaining)> {
-  constexpr static std::size_t size = 0x1014;
-  constexpr static std::size_t addrs = 0x2b2eaf0;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x2b41504;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2210,7 +2210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerLTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerLTouch::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b2fb04;
+  constexpr static std::size_t addrs = 0x2b41518;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRInput__OVRControllerLTouch*>::get(),
@@ -2224,7 +2224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerLTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerLTouch::ConfigureButtonMap)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2b2fb24;
+  constexpr static std::size_t addrs = 0x2b41538;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2240,7 +2240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerLTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerLTouch::ConfigureTouchMap)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2b2fb9c;
+  constexpr static std::size_t addrs = 0x2b415b0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2256,7 +2256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerLTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerLTouch::ConfigureNearTouchMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b2fbd0;
+  constexpr static std::size_t addrs = 0x2b415e4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2272,7 +2272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerLTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerLTouch::ConfigureAxis1DMap)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2b2fbf8;
+  constexpr static std::size_t addrs = 0x2b4160c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2288,7 +2288,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerLTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerLTouch::ConfigureAxis2DMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b2fc40;
+  constexpr static std::size_t addrs = 0x2b41654;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2304,7 +2304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::GlobalNamespace::__OVRInput__OVRControllerLTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerLTouch::GetBatteryPercentRemaining)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2fc68;
+  constexpr static std::size_t addrs = 0x2b4167c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2360,7 +2360,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRTouch::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b2fc70;
+  constexpr static std::size_t addrs = 0x2b41684;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRInput__OVRControllerRTouch*>::get(),
@@ -2374,7 +2374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRTouch::ConfigureButtonMap)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2b2fc90;
+  constexpr static std::size_t addrs = 0x2b416a4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2390,7 +2390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRTouch::ConfigureTouchMap)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2b2fd08;
+  constexpr static std::size_t addrs = 0x2b4171c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2406,7 +2406,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRTouch::ConfigureNearTouchMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b2fd3c;
+  constexpr static std::size_t addrs = 0x2b41750;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2422,7 +2422,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRTouch::ConfigureAxis1DMap)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2b2fd64;
+  constexpr static std::size_t addrs = 0x2b41778;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2438,7 +2438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRTouch::ConfigureAxis2DMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b2fdac;
+  constexpr static std::size_t addrs = 0x2b417c0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2454,7 +2454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::GlobalNamespace::__OVRInput__OVRControllerRTouch::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRTouch::GetBatteryPercentRemaining)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2fdd4;
+  constexpr static std::size_t addrs = 0x2b417e8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2510,7 +2510,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerHands::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerHands::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b2fddc;
+  constexpr static std::size_t addrs = 0x2b417f0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRInput__OVRControllerHands*>::get(),
@@ -2524,7 +2524,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerHands::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerHands::ConfigureButtonMap)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2b2fdfc;
+  constexpr static std::size_t addrs = 0x2b41810;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2540,7 +2540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerHands::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerHands::ConfigureTouchMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b2fe48;
+  constexpr static std::size_t addrs = 0x2b4185c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2556,7 +2556,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerHands::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerHands::ConfigureNearTouchMap)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b2fe70;
+  constexpr static std::size_t addrs = 0x2b41884;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2572,7 +2572,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerHands::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerHands::ConfigureAxis1DMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b2fe90;
+  constexpr static std::size_t addrs = 0x2b418a4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2588,7 +2588,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerHands::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerHands::ConfigureAxis2DMap)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b2feb8;
+  constexpr static std::size_t addrs = 0x2b418cc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2604,7 +2604,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::GlobalNamespace::__OVRInput__OVRControllerHands::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerHands::GetBatteryPercentRemaining)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2b2fed8;
+  constexpr static std::size_t addrs = 0x2b418ec;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2660,7 +2660,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerLHand::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerLHand::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b2feec;
+  constexpr static std::size_t addrs = 0x2b41900;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRInput__OVRControllerLHand*>::get(),
@@ -2674,7 +2674,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerLHand::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerLHand::ConfigureButtonMap)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2b2ff0c;
+  constexpr static std::size_t addrs = 0x2b41920;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2690,7 +2690,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerLHand::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerLHand::ConfigureTouchMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b2ff58;
+  constexpr static std::size_t addrs = 0x2b4196c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2706,7 +2706,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerLHand::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerLHand::ConfigureNearTouchMap)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b2ff80;
+  constexpr static std::size_t addrs = 0x2b41994;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2722,7 +2722,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerLHand::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerLHand::ConfigureAxis1DMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b2ffa0;
+  constexpr static std::size_t addrs = 0x2b419b4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2738,7 +2738,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerLHand::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerLHand::ConfigureAxis2DMap)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b2ffc8;
+  constexpr static std::size_t addrs = 0x2b419dc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2754,7 +2754,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::GlobalNamespace::__OVRInput__OVRControllerLHand::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerLHand::GetBatteryPercentRemaining)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2ffe8;
+  constexpr static std::size_t addrs = 0x2b419fc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2810,7 +2810,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRHand::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRHand::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b2fff0;
+  constexpr static std::size_t addrs = 0x2b41a04;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRInput__OVRControllerRHand*>::get(),
@@ -2824,7 +2824,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRHand::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRHand::ConfigureButtonMap)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2b30010;
+  constexpr static std::size_t addrs = 0x2b41a24;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2840,7 +2840,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRHand::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRHand::ConfigureTouchMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b3005c;
+  constexpr static std::size_t addrs = 0x2b41a70;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2856,7 +2856,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRHand::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRHand::ConfigureNearTouchMap)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b30084;
+  constexpr static std::size_t addrs = 0x2b41a98;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2872,7 +2872,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRHand::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRHand::ConfigureAxis1DMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b300a4;
+  constexpr static std::size_t addrs = 0x2b41ab8;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2888,7 +2888,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRHand::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRHand::ConfigureAxis2DMap)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b300cc;
+  constexpr static std::size_t addrs = 0x2b41ae0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2904,7 +2904,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::GlobalNamespace::__OVRInput__OVRControllerRHand::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRHand::GetBatteryPercentRemaining)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b300ec;
+  constexpr static std::size_t addrs = 0x2b41b00;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2960,7 +2960,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRemote::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRemote::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b300f4;
+  constexpr static std::size_t addrs = 0x2b41b08;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRInput__OVRControllerRemote*>::get(),
@@ -2974,7 +2974,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRemote::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRemote::ConfigureButtonMap)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2b30114;
+  constexpr static std::size_t addrs = 0x2b41b28;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -2990,7 +2990,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRemote::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRemote::ConfigureTouchMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b30170;
+  constexpr static std::size_t addrs = 0x2b41b84;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -3006,7 +3006,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRemote::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRemote::ConfigureNearTouchMap)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b30198;
+  constexpr static std::size_t addrs = 0x2b41bac;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -3022,7 +3022,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRemote::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRemote::ConfigureAxis1DMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b301b8;
+  constexpr static std::size_t addrs = 0x2b41bcc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -3038,7 +3038,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerRemote::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerRemote::ConfigureAxis2DMap)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b301e0;
+  constexpr static std::size_t addrs = 0x2b41bf4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -3089,7 +3089,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerGamepadPC::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerGamepadPC::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b30200;
+  constexpr static std::size_t addrs = 0x2b41c14;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRInput__OVRControllerGamepadPC*>::get(),
@@ -3103,7 +3103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerGamepadPC::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerGamepadPC::ConfigureButtonMap)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2b30220;
+  constexpr static std::size_t addrs = 0x2b41c34;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -3119,7 +3119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerGamepadPC::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerGamepadPC::ConfigureTouchMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b30290;
+  constexpr static std::size_t addrs = 0x2b41ca4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -3135,7 +3135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerGamepadPC::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerGamepadPC::ConfigureNearTouchMap)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b302b8;
+  constexpr static std::size_t addrs = 0x2b41ccc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -3151,7 +3151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerGamepadPC::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerGamepadPC::ConfigureAxis1DMap)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2b302d8;
+  constexpr static std::size_t addrs = 0x2b41cec;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -3167,7 +3167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerGamepadPC::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerGamepadPC::ConfigureAxis2DMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b30308;
+  constexpr static std::size_t addrs = 0x2b41d1c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -3223,7 +3223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerGamepadAndroid::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerGamepadAndroid::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b30330;
+  constexpr static std::size_t addrs = 0x2b41d44;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3238,7 +3238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerGamepadAndroid::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerGamepadAndroid::ConfigureButtonMap)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2b30350;
+  constexpr static std::size_t addrs = 0x2b41d64;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -3254,7 +3254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerGamepadAndroid::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerGamepadAndroid::ConfigureTouchMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b303c0;
+  constexpr static std::size_t addrs = 0x2b41dd4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -3270,7 +3270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerGamepadAndroid::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerGamepadAndroid::ConfigureNearTouchMap)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b303e8;
+  constexpr static std::size_t addrs = 0x2b41dfc;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -3286,7 +3286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerGamepadAndroid::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerGamepadAndroid::ConfigureAxis1DMap)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2b30408;
+  constexpr static std::size_t addrs = 0x2b41e1c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -3302,7 +3302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRInput__OVRControllerGamepadAndroid::*)()>(
     &::GlobalNamespace::__OVRInput__OVRControllerGamepadAndroid::ConfigureAxis2DMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b30438;
+  constexpr static std::size_t addrs = 0x2b41e4c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -3357,7 +3357,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRInput::get_pluginSupportsActiveController)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2b27524;
+  constexpr static std::size_t addrs = 0x2b39f38;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3371,7 +3371,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::OVRInput::Update)> {
   constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x2b27c68;
+  constexpr static std::size_t addrs = 0x2b3a67c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRInput*>::get(), "Update",
@@ -3384,7 +3384,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::OVRInput::FixedUpdate)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2b287f8;
+  constexpr static std::size_t addrs = 0x2b3b20c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRInput*>::get(), "FixedUpdate",
@@ -3398,7 +3398,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__InteractionProfile (*)(::GlobalNamespace::__OVRInput__Hand)>(
     &::GlobalNamespace::OVRInput::GetCurrentInteractionProfile)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2b28904;
+  constexpr static std::size_t addrs = 0x2b3b318;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3412,7 +3412,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::GetControllerOrientationTracked)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2b2895c;
+  constexpr static std::size_t addrs = 0x2b3b370;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3426,7 +3426,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::GetControllerOrientationValid)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2b28a34;
+  constexpr static std::size_t addrs = 0x2b3b448;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3440,7 +3440,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::GetControllerPositionTracked)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2b28b0c;
+  constexpr static std::size_t addrs = 0x2b3b520;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3454,7 +3454,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::GetControllerPositionValid)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2b28be4;
+  constexpr static std::size_t addrs = 0x2b3b5f8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3469,7 +3469,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRPlugin__Step, ::GlobalNamespace::__OVRInput__Hand)>(
     &::GlobalNamespace::OVRInput::AreHandPosesGeneratedByControllerData)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2b28cbc;
+  constexpr static std::size_t addrs = 0x2b3b6d0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3484,7 +3484,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRInput::EnableSimultaneousHandsAndControllers)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2b28d50;
+  constexpr static std::size_t addrs = 0x2b3b764;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3498,7 +3498,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRInput::DisableSimultaneousHandsAndControllers)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2b28da4;
+  constexpr static std::size_t addrs = 0x2b3b7b8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3513,7 +3513,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__ControllerInHandState (*)(::GlobalNamespace::__OVRInput__Hand)>(
     &::GlobalNamespace::OVRInput::GetControllerIsInHandState)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2b28df8;
+  constexpr static std::size_t addrs = 0x2b3b80c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3528,7 +3528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__Controller (*)(::GlobalNamespace::__OVRInput__Handedness)>(
     &::GlobalNamespace::OVRInput::GetActiveControllerForHand)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2b28ee8;
+  constexpr static std::size_t addrs = 0x2b3b8fc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3543,7 +3543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetLocalControllerPosition)> {
   constexpr static std::size_t size = 0x560;
-  constexpr static std::size_t addrs = 0x2b28fe4;
+  constexpr static std::size_t addrs = 0x2b3b9f8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3558,7 +3558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetLocalControllerVelocity)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x2b29544;
+  constexpr static std::size_t addrs = 0x2b3bf58;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3573,7 +3573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetLocalControllerAcceleration)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x2b29780;
+  constexpr static std::size_t addrs = 0x2b3c194;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3588,7 +3588,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetLocalControllerRotation)> {
   constexpr static std::size_t size = 0x538;
-  constexpr static std::size_t addrs = 0x2b299b0;
+  constexpr static std::size_t addrs = 0x2b3c3c4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3603,7 +3603,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetLocalControllerAngularVelocity)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x2b29ee8;
+  constexpr static std::size_t addrs = 0x2b3c8fc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3618,7 +3618,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetLocalControllerAngularAcceleration)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x2b2a124;
+  constexpr static std::size_t addrs = 0x2b3cb38;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3634,7 +3634,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::GlobalNamespace::__OVRInput__Controller, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>)>(
         &::GlobalNamespace::OVRInput::GetLocalControllerStatesWithoutPrediction)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x2b2a360;
+  constexpr static std::size_t addrs = 0x2b3cd74;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3652,7 +3652,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__Handedness (*)()>(&::GlobalNamespace::OVRInput::GetDominantHand)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2b2a6f0;
+  constexpr static std::size_t addrs = 0x2b3d104;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRInput*>::get(), "GetDominantHand",
@@ -3666,7 +3666,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__Button, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::Get)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2a740;
+  constexpr static std::size_t addrs = 0x2b3d154;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3682,7 +3682,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__RawButton, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::Get)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b28728;
+  constexpr static std::size_t addrs = 0x2b3b13c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3698,7 +3698,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__Button, ::GlobalNamespace::__OVRInput__RawButton,
                                                                                            ::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::GetResolvedButton)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x2b2a7a8;
+  constexpr static std::size_t addrs = 0x2b3d1bc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3715,7 +3715,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__Button, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetDown)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2a954;
+  constexpr static std::size_t addrs = 0x2b3d368;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3731,7 +3731,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__RawButton, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetDown)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2ab1c;
+  constexpr static std::size_t addrs = 0x2b3d530;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3747,7 +3747,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__Button, ::GlobalNamespace::__OVRInput__RawButton,
                                                                                            ::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::GetResolvedButtonDown)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x2b2a9bc;
+  constexpr static std::size_t addrs = 0x2b3d3d0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3764,7 +3764,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__Button, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetUp)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2ab84;
+  constexpr static std::size_t addrs = 0x2b3d598;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3780,7 +3780,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__RawButton, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetUp)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2ad4c;
+  constexpr static std::size_t addrs = 0x2b3d760;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3796,7 +3796,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__Button, ::GlobalNamespace::__OVRInput__RawButton,
                                                                                            ::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::GetResolvedButtonUp)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x2b2abec;
+  constexpr static std::size_t addrs = 0x2b3d600;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3813,7 +3813,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__Touch, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::Get)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2adb4;
+  constexpr static std::size_t addrs = 0x2b3d7c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3829,7 +3829,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__RawTouch, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::Get)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b28790;
+  constexpr static std::size_t addrs = 0x2b3b1a4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3845,7 +3845,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::GlobalNamespace::__OVRInput__Touch, ::GlobalNamespace::__OVRInput__RawTouch, ::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::GetResolvedTouch)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x2b2ae1c;
+  constexpr static std::size_t addrs = 0x2b3d830;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3862,7 +3862,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__Touch, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetDown)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2af7c;
+  constexpr static std::size_t addrs = 0x2b3d990;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3878,7 +3878,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__RawTouch, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetDown)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2b144;
+  constexpr static std::size_t addrs = 0x2b3db58;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3894,7 +3894,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__Touch, ::GlobalNamespace::__OVRInput__RawTouch,
                                                                                            ::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::GetResolvedTouchDown)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x2b2afe4;
+  constexpr static std::size_t addrs = 0x2b3d9f8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3911,7 +3911,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__Touch, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetUp)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2b1ac;
+  constexpr static std::size_t addrs = 0x2b3dbc0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3927,7 +3927,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__RawTouch, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetUp)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2b374;
+  constexpr static std::size_t addrs = 0x2b3dd88;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3943,7 +3943,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::GlobalNamespace::__OVRInput__Touch, ::GlobalNamespace::__OVRInput__RawTouch, ::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::GetResolvedTouchUp)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x2b2b214;
+  constexpr static std::size_t addrs = 0x2b3dc28;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3960,7 +3960,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__NearTouch, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::Get)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2b3dc;
+  constexpr static std::size_t addrs = 0x2b3ddf0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3976,7 +3976,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__RawNearTouch, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::Get)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2b58c;
+  constexpr static std::size_t addrs = 0x2b3dfa0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -3992,7 +3992,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__NearTouch, ::GlobalNamespace::__OVRInput__RawNearTouch,
                                                                                            ::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::GetResolvedNearTouch)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x2b2b444;
+  constexpr static std::size_t addrs = 0x2b3de58;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4009,7 +4009,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__NearTouch, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetDown)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2b60c;
+  constexpr static std::size_t addrs = 0x2b3e020;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -4025,7 +4025,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__RawNearTouch, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetDown)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2b7d4;
+  constexpr static std::size_t addrs = 0x2b3e1e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -4041,7 +4041,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__NearTouch, ::GlobalNamespace::__OVRInput__RawNearTouch,
                                                                                            ::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::GetResolvedNearTouchDown)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x2b2b674;
+  constexpr static std::size_t addrs = 0x2b3e088;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4058,7 +4058,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__NearTouch, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetUp)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2b83c;
+  constexpr static std::size_t addrs = 0x2b3e250;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -4074,7 +4074,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__RawNearTouch, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetUp)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2ba04;
+  constexpr static std::size_t addrs = 0x2b3e418;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -4090,7 +4090,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__NearTouch, ::GlobalNamespace::__OVRInput__RawNearTouch,
                                                                                            ::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::GetResolvedNearTouchUp)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x2b2b8a4;
+  constexpr static std::size_t addrs = 0x2b3e2b8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4107,7 +4107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::GlobalNamespace::__OVRInput__Axis1D, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::Get)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2ba6c;
+  constexpr static std::size_t addrs = 0x2b3e480;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -4123,7 +4123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::GlobalNamespace::__OVRInput__RawAxis1D, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::Get)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2c150;
+  constexpr static std::size_t addrs = 0x2b3eb64;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -4139,7 +4139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::GlobalNamespace::__OVRInput__Axis1D, ::GlobalNamespace::__OVRInput__RawAxis1D,
                                                                                               ::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::GetResolvedAxis1D)> {
   constexpr static std::size_t size = 0x67c;
-  constexpr static std::size_t addrs = 0x2b2bad4;
+  constexpr static std::size_t addrs = 0x2b3e4e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4156,7 +4156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::GlobalNamespace::__OVRInput__Axis2D, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::Get)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2c244;
+  constexpr static std::size_t addrs = 0x2b3ec58;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -4172,7 +4172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::GlobalNamespace::__OVRInput__RawAxis2D, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::Get)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b2c5fc;
+  constexpr static std::size_t addrs = 0x2b3f010;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -4188,7 +4188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(
     ::GlobalNamespace::__OVRInput__Axis2D, ::GlobalNamespace::__OVRInput__RawAxis2D, ::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::GetResolvedAxis2D)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x2b2c2ac;
+  constexpr static std::size_t addrs = 0x2b3ecc0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4204,7 +4204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__Controller (*)()>(&::GlobalNamespace::OVRInput::GetConnectedControllers)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2b2c7dc;
+  constexpr static std::size_t addrs = 0x2b3f1f0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRInput*>::get(), "GetConnectedControllers",
@@ -4217,7 +4217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::IsControllerConnected)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2b2c834;
+  constexpr static std::size_t addrs = 0x2b3f248;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4231,7 +4231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__Controller (*)()>(&::GlobalNamespace::OVRInput::GetActiveController)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2b2c898;
+  constexpr static std::size_t addrs = 0x2b3f2ac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRInput*>::get(), "GetActiveController",
@@ -4244,7 +4244,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, float_t, ::UnityEngine::XR::XRNode)>(&::GlobalNamespace::OVRInput::StartVibration)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2b2c8f0;
+  constexpr static std::size_t addrs = 0x2b3f304;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4260,7 +4260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::OVRInput::SetOpenVRLocalPose)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x2b2c9f4;
+  constexpr static std::size_t addrs = 0x2b3f408;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4277,7 +4277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::OVR::OpenVR::ETrackedDeviceProperty, uint32_t)>(
     &::GlobalNamespace::OVRInput::GetOpenVRStringProperty)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x2b2cb04;
+  constexpr static std::size_t addrs = 0x2b3f518;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4292,7 +4292,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::OVRInput::UpdateXRControllerNodeIds)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x2b281ac;
+  constexpr static std::size_t addrs = 0x2b3abc0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRInput*>::get(), "UpdateXRControllerNodeIds",
@@ -4305,7 +4305,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::OVRInput::UpdateXRControllerHaptics)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x2b28544;
+  constexpr static std::size_t addrs = 0x2b3af58;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRInput*>::get(), "UpdateXRControllerHaptics",
@@ -4318,7 +4318,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::OVRInput::InitHapticInfo)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x2b27b28;
+  constexpr static std::size_t addrs = 0x2b3a53c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRInput*>::get(), "InitHapticInfo",
@@ -4331,7 +4331,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, ::UnityEngine::XR::XRNode)>(&::GlobalNamespace::OVRInput::PlayHapticImpulse)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2b2cc54;
+  constexpr static std::size_t addrs = 0x2b3f668;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4346,7 +4346,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::GlobalNamespace::OVRInput::IsValidOpenVRDevice)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2b2cd78;
+  constexpr static std::size_t addrs = 0x2b3f78c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4361,7 +4361,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, float_t, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::SetControllerVibration)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x2b2cd84;
+  constexpr static std::size_t addrs = 0x2b3f798;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4377,7 +4377,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::GlobalNamespace::__OVRInput__HapticsLocation, float_t, float_t, ::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::SetControllerLocalizedVibration)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x2b2cf60;
+  constexpr static std::size_t addrs = 0x2b3f974;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4394,7 +4394,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::GlobalNamespace::__OVRInput__HapticsAmplitudeEnvelopeVibration, ::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::SetControllerHapticsAmplitudeEnvelope)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x2b2d13c;
+  constexpr static std::size_t addrs = 0x2b3fb50;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4410,7 +4410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::__OVRInput__HapticsPcmVibration, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::SetControllerHapticsPcm)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x2b2d28c;
+  constexpr static std::size_t addrs = 0x2b3fca0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4425,7 +4425,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::GlobalNamespace::__OVRInput__Controller)>(&::GlobalNamespace::OVRInput::GetControllerSampleRateHz)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x2b2d3e8;
+  constexpr static std::size_t addrs = 0x2b3fdfc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4440,7 +4440,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::GetControllerBatteryPercentRemaining)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x2b2d510;
+  constexpr static std::size_t addrs = 0x2b3ff24;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4455,7 +4455,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::GlobalNamespace::OVRInput::CalculateAbsMax)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b2c7b4;
+  constexpr static std::size_t addrs = 0x2b3f1c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4470,7 +4470,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::OVRInput::CalculateAbsMax)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b2c220;
+  constexpr static std::size_t addrs = 0x2b3ec34;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4484,7 +4484,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, float_t)>(&::GlobalNamespace::OVRInput::CalculateDeadzone)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x2b2c67c;
+  constexpr static std::size_t addrs = 0x2b3f090;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4499,7 +4499,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::OVRInput::CalculateDeadzone)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2b2c1d0;
+  constexpr static std::size_t addrs = 0x2b3ebe4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4514,7 +4514,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVRInput__Controller, ::GlobalNamespace::__OVRInput__Controller)>(
     &::GlobalNamespace::OVRInput::ShouldResolveController)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2b2a8f0;
+  constexpr static std::size_t addrs = 0x2b3d304;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -52,7 +52,7 @@ public:
 
   static inline ::GlobalNamespace::__AchievementsModelSO____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <UnlockAchievement>b__0, addr 0x14992b0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <UnlockAchievement>b__0, addr 0x14a2604, size 0x70, virtual false, abstract: false, final false
   inline void _UnlockAchievement_b__0(::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementResult result);
 
   constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO> const& __cordl_internal_get___4__this() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_achievementId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1499058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a23ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,18 +121,18 @@ public:
   __declspec(property(get = __cordl_internal_get__unlockedAchievementIds,
                       put = __cordl_internal_set__unlockedAchievementIds))::System::Collections::Generic::HashSet_1<::StringW>* _unlockedAchievementIds;
 
-  /// @brief Method Initialize, addr 0x1497fbc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x14a12b4, size 0x174, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method IsAchievementUnlocked, addr 0x1499124, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsAchievementUnlocked, addr 0x14a2478, size 0x6c, virtual false, abstract: false, final false
   inline bool IsAchievementUnlocked(::GlobalNamespace::AchievementSO* achievement);
 
   static inline ::GlobalNamespace::AchievementsModelSO* New_ctor();
 
-  /// @brief Method UnlockAchievement, addr 0x1498e08, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method UnlockAchievement, addr 0x14a215c, size 0x184, virtual false, abstract: false, final false
   inline void UnlockAchievement(::GlobalNamespace::AchievementSO* achievement);
 
-  /// @brief Method <Initialize>b__3_0, addr 0x149920c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__3_0, addr 0x14a2560, size 0xa4, virtual false, abstract: false, final false
   inline void _Initialize_b__3_0(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsResult result, ::ArrayW<::StringW, ::Array<::StringW>*> achievementIds);
 
   constexpr bool const& __cordl_internal_get__initialized() const;
@@ -153,7 +153,7 @@ public:
 
   constexpr void __cordl_internal_set__unlockedAchievementIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x1499190, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a24e4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

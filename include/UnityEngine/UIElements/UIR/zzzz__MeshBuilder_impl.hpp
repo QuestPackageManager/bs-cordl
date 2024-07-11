@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator::*)(::System::Object*, ::System::IntPtr)>(
     &::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3619178;
+  constexpr static std::size_t addrs = 0x362effc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator::*)(uint32_t, uint32_t, ByRef<::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData>)>(
     &::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x361923c;
+  constexpr static std::size_t addrs = 0x362f0c0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MeshWriteData* (
     ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData::*)(uint32_t, uint32_t)>(&::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData::Allocate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3614110;
+  constexpr static std::size_t addrs = 0x3629f94;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +156,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams, float_t, ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData)>(
         &::UnityEngine::UIElements::UIR::MeshBuilder::MakeBorder)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x361122c;
+  constexpr static std::size_t addrs = 0x36270b0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -174,7 +174,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams, float_t, ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData)>(
         &::UnityEngine::UIElements::UIR::MeshBuilder::MakeSolidRect)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3611568;
+  constexpr static std::size_t addrs = 0x36273ec;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -192,7 +192,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData, ::UnityEngine::UIElements::ColorPage)>(
     &::UnityEngine::UIElements::UIR::MeshBuilder::MakeTexturedRect)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x3612150;
+  constexpr static std::size_t addrs = 0x3627fd4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -211,7 +211,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::Vertex (*)(::UnityEngine::TextCore::Text::MeshInfo, int32_t, ::UnityEngine::Vector2, ::UnityEngine::UIElements::UIR::VertexFlags, bool)>(
         &::UnityEngine::UIElements::UIR::MeshBuilder::ConvertTextVertexToUIRVertex)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3613b64;
+  constexpr static std::size_t addrs = 0x36299e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Vertex (*)(::UnityEngine::UIElements::TextVertex, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::UIR::MeshBuilder::ConvertTextVertexToUIRVertex)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3613c74;
+  constexpr static std::size_t addrs = 0x3629af8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, bool)>(&::UnityEngine::UIElements::UIR::MeshBuilder::LimitTextVertices)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3613cac;
+  constexpr static std::size_t addrs = 0x3629b30;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -260,7 +260,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::TextCore::Text::MeshInfo, ::UnityEngine::Vector2, ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData, ::UnityEngine::UIElements::UIR::VertexFlags, bool)>(
     &::UnityEngine::UIElements::UIR::MeshBuilder::MakeText)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x3613ddc;
+  constexpr static std::size_t addrs = 0x3629c60;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -279,7 +279,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::TextVertex>, ::UnityEngine::Vector2, ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData)>(
         &::UnityEngine::UIElements::UIR::MeshBuilder::MakeText)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x3614138;
+  constexpr static std::size_t addrs = 0x3629fbc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -297,7 +297,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::TextVertex>, ::UnityEngine::Vector2, ::UnityEngine::Matrix4x4, ::UnityEngine::Color32, ::UnityEngine::Color32,
     ::UnityEngine::Color32, ::UnityEngine::Color32, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>)>(&::UnityEngine::UIElements::UIR::MeshBuilder::UpdateText)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x36143fc;
+  constexpr static std::size_t addrs = 0x362a280;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -318,7 +318,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::Color, float_t, ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData, ::UnityEngine::UIElements::ColorPage)>(
         &::UnityEngine::UIElements::UIR::MeshBuilder::MakeQuad)> {
   constexpr static std::size_t size = 0xd58;
-  constexpr static std::size_t addrs = 0x3612464;
+  constexpr static std::size_t addrs = 0x36282e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -338,7 +338,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(ByRef<::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams>, float_t, ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData)>(
         &::UnityEngine::UIElements::UIR::MeshBuilder::MakeSlicedQuad)> {
   constexpr static std::size_t size = 0x9a8;
-  constexpr static std::size_t addrs = 0x36131bc;
+  constexpr static std::size_t addrs = 0x3629040;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -356,7 +356,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData, ByRef<int32_t>, ByRef<int32_t>)>(
     &::UnityEngine::UIElements::UIR::MeshBuilder::MakeVectorGraphics)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x36145b4;
+  constexpr static std::size_t addrs = 0x362a438;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -377,7 +377,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::UnityEngine::Rect, ::UnityEngine::ScaleMode, ::UnityEngine::Color, int32_t, ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData, ByRef<int32_t>, ByRef<int32_t>)>(
         &::UnityEngine::UIElements::UIR::MeshBuilder::MakeVectorGraphicsStretchBackground)> {
   constexpr static std::size_t size = 0xfec;
-  constexpr static std::size_t addrs = 0x3614964;
+  constexpr static std::size_t addrs = 0x362a7e8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -400,7 +400,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            int32_t, ByRef<int32_t>, float_t, float_t, ::UnityEngine::Vector4, int32_t)>(
     &::UnityEngine::UIElements::UIR::MeshBuilder::SplitTriangle)> {
   constexpr static std::size_t size = 0xc48;
-  constexpr static std::size_t addrs = 0x3616ae4;
+  constexpr static std::size_t addrs = 0x362c968;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<::UnityEngine::UIElements::Vertex>, int32_t, float_t, float_t, ::UnityEngine::Rect,
                                                                                            ::UnityEngine::Vector4)>(&::UnityEngine::UIElements::UIR::MeshBuilder::ScaleSplittedTriangles)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x361772c;
+  constexpr static std::size_t addrs = 0x362d5b0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -439,7 +439,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>, ::ArrayW<uint16_t, ::Array<uint16_t>*>, float_t, float_t, ::UnityEngine::Rect, ::UnityEngine::Vector4,
     bool, ::UnityEngine::Color, int32_t, ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData)>(&::UnityEngine::UIElements::UIR::MeshBuilder::MakeVectorGraphics9SliceBackground)> {
   constexpr static std::size_t size = 0xbac;
-  constexpr static std::size_t addrs = 0x3615950;
+  constexpr static std::size_t addrs = 0x362b7d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -461,7 +461,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>, ::ArrayW<uint16_t, ::Array<uint16_t>*>, ::UnityEngine::Vector4)>(
     &::UnityEngine::UIElements::UIR::MeshBuilder::UpperBoundApproximateRectClippingResults)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x36164fc;
+  constexpr static std::size_t addrs = 0x362c380;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -480,7 +480,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>, ::ArrayW<uint16_t, ::Array<uint16_t>*>, ::UnityEngine::Vector4, ::UnityEngine::UIElements::MeshWriteData*,
     ::UnityEngine::UIElements::UIR::__MeshBuilder__ClipCounts, ByRef<int32_t>)>(&::UnityEngine::UIElements::UIR::MeshBuilder::RectClip)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x36166a8;
+  constexpr static std::size_t addrs = 0x362c52c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -501,7 +501,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::UnityEngine::Vector4, ::UnityEngine::UIElements::MeshWriteData*, ByRef<uint16_t>)>(
     &::UnityEngine::UIElements::UIR::MeshBuilder::RectClipTriangle)> {
   constexpr static std::size_t size = 0xb5c;
-  constexpr static std::size_t addrs = 0x36179b0;
+  constexpr static std::size_t addrs = 0x362d834;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -519,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::cordl_internals::Ptr<::UnityEngine::UIElements::Vertex>, float_t, float_t)>(
     &::UnityEngine::UIElements::UIR::MeshBuilder::GetVertexBaryCentricCoordinates)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x361850c;
+  constexpr static std::size_t addrs = 0x362e390;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -535,7 +535,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Vertex (*)(
     ::cordl_internals::Ptr<::UnityEngine::UIElements::Vertex>, float_t, float_t, ::UnityEngine::Vector3)>(&::UnityEngine::UIElements::UIR::MeshBuilder::InterpolateVertexInTriangle)> {
   constexpr static std::size_t size = 0x47c;
-  constexpr static std::size_t addrs = 0x36185c8;
+  constexpr static std::size_t addrs = 0x362e44c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -552,7 +552,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Vertex (*)(
     ::cordl_internals::Ptr<::UnityEngine::UIElements::Vertex>, int32_t, int32_t, float_t)>(&::UnityEngine::UIElements::UIR::MeshBuilder::InterpolateVertexInTriangleEdge)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x3618ae0;
+  constexpr static std::size_t addrs = 0x362e964;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -569,7 +569,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t, float_t, float_t, float_t, float_t, float_t)>(
     &::UnityEngine::UIElements::UIR::MeshBuilder::IntersectSegments)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3618a44;
+  constexpr static std::size_t addrs = 0x362e8c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

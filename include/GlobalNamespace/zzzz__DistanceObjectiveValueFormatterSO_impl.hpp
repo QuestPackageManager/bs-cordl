@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::DistanceObjectiveValueFormatterSO::*)(int32_t)>(
     &::GlobalNamespace::DistanceObjectiveValueFormatterSO::FormatValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x14d03e0;
+  constexpr static std::size_t addrs = 0x14d9f84;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DistanceObjectiveValueFormatterSO::*)()>(
     &::GlobalNamespace::DistanceObjectiveValueFormatterSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14d0460;
+  constexpr static std::size_t addrs = 0x14da004;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DistanceObjectiveValueFormatterSO*>::get(),

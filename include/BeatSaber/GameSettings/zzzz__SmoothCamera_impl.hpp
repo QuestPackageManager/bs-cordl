@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::GameSettings::SmoothCamera::*)()>(&::BeatSaber::GameSettings::SmoothCamera::get_isDirty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1068a94;
+  constexpr static std::size_t addrs = 0x106f644;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::SmoothCamera*>::get(), "get_isDirty",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::SmoothCamera::*)(bool)>(&::BeatSaber::GameSettings::SmoothCamera::set_isDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1068a9c;
+  constexpr static std::size_t addrs = 0x106f64c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::GameSettings::SmoothCamera::*)()>(&::BeatSaber::GameSettings::SmoothCamera::get_enabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1068aa8;
+  constexpr static std::size_t addrs = 0x106f658;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::SmoothCamera*>::get(), "get_enabled",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::SmoothCamera::*)(bool)>(&::BeatSaber::GameSettings::SmoothCamera::set_enabled)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x1067a80;
+  constexpr static std::size_t addrs = 0x106e630;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::GameSettings::SmoothCamera::*)()>(&::BeatSaber::GameSettings::SmoothCamera::get_fov)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1068ab0;
+  constexpr static std::size_t addrs = 0x106f660;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::SmoothCamera*>::get(), "get_fov",
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::SmoothCamera::*)(float_t)>(&::BeatSaber::GameSettings::SmoothCamera::set_fov)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1067a94;
+  constexpr static std::size_t addrs = 0x106e644;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::GameSettings::SmoothCamera::*)()>(
     &::BeatSaber::GameSettings::SmoothCamera::get_rotationSmooth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1068ab8;
+  constexpr static std::size_t addrs = 0x106f668;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::SmoothCamera*>::get(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::SmoothCamera::*)(float_t)>(
     &::BeatSaber::GameSettings::SmoothCamera::set_rotationSmooth)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1067aa4;
+  constexpr static std::size_t addrs = 0x106e654;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::GameSettings::SmoothCamera::*)()>(
     &::BeatSaber::GameSettings::SmoothCamera::get_positionSmooth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1068ac0;
+  constexpr static std::size_t addrs = 0x106f670;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::SmoothCamera*>::get(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::SmoothCamera::*)(float_t)>(
     &::BeatSaber::GameSettings::SmoothCamera::set_positionSmooth)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1067ab4;
+  constexpr static std::size_t addrs = 0x106e664;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::GameSettings::SmoothCamera::*)()>(
     &::BeatSaber::GameSettings::SmoothCamera::get_thirdPersonEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1068ac8;
+  constexpr static std::size_t addrs = 0x106f678;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::SmoothCamera*>::get(),
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::SmoothCamera::*)(bool)>(
     &::BeatSaber::GameSettings::SmoothCamera::set_thirdPersonEnabled)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x1067ac4;
+  constexpr static std::size_t addrs = 0x106e674;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BeatSaber::GameSettings::SmoothCamera::*)()>(
     &::BeatSaber::GameSettings::SmoothCamera::get_thirdPersonPosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1068ad0;
+  constexpr static std::size_t addrs = 0x106f680;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::SmoothCamera*>::get(),
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::SmoothCamera::*)(::UnityEngine::Vector3)>(
     &::BeatSaber::GameSettings::SmoothCamera::set_thirdPersonPosition)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x1067ad8;
+  constexpr static std::size_t addrs = 0x106e688;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BeatSaber::GameSettings::SmoothCamera::*)()>(
     &::BeatSaber::GameSettings::SmoothCamera::get_thirdPersonEulerAngles)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1068adc;
+  constexpr static std::size_t addrs = 0x106f68c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::SmoothCamera*>::get(),
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::SmoothCamera::*)(::UnityEngine::Vector3)>(
     &::BeatSaber::GameSettings::SmoothCamera::set_thirdPersonEulerAngles)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x1067aec;
+  constexpr static std::size_t addrs = 0x106e69c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::SmoothCamera::*)()>(&::BeatSaber::GameSettings::SmoothCamera::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x1068018;
+  constexpr static std::size_t addrs = 0x106ebc8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::SmoothCamera*>::get(), ".ctor",

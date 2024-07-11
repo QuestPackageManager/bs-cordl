@@ -36,10 +36,10 @@ public:
   static inline ::System::Linq::Expressions::NewArrayBoundsExpression* New_ctor(::System::Type* type,
                                                                                 ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method .ctor, addr 0x2c2c540, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c40f54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method get_NodeType, addr 0x2c2c588, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x2c40f9c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
 protected:

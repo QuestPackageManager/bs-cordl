@@ -36,7 +36,7 @@ public:
 
   static inline ::Mono::Security::X509::X509Stores* New_ctor(::StringW path, bool newFormat);
 
-  /// @brief Method Open, addr 0x2795a94, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x27a94a8, size 0x120, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Store* Open(::StringW storeName, bool create);
 
   constexpr bool const& __cordl_internal_get__newFormat() const;
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set__trusted(::Mono::Security::X509::X509Store* value);
 
-  /// @brief Method .ctor, addr 0x27958e8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27a92fc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, bool newFormat);
 
-  /// @brief Method get_TrustedRoot, addr 0x27959b8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_TrustedRoot, addr 0x27a93cc, size 0xdc, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Store* get_TrustedRoot();
 
 protected:

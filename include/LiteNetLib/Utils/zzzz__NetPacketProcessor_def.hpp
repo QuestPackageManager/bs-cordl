@@ -179,18 +179,18 @@ namespace LiteNetLib::Utils {
 class CORDL_TYPE __NetPacketProcessor__SubscribeDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2608ad0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x261bd84, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2608af8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x261bdac, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2608abc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x261bd70, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x260898c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261bc40, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -779,7 +779,7 @@ public:
   /// @brief Field _netSerializer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__netSerializer, put = __cordl_internal_set__netSerializer))::LiteNetLib::Utils::NetSerializer* _netSerializer;
 
-  /// @brief Method GetCallbackFromData, addr 0x2608768, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetCallbackFromData, addr 0x261ba1c, size 0xd0, virtual true, abstract: false, final false
   inline ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate* GetCallbackFromData(::LiteNetLib::Utils::NetDataReader* reader);
 
   /// @brief Method GetHash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -789,16 +789,16 @@ public:
 
   static inline ::LiteNetLib::Utils::NetPacketProcessor* New_ctor(int32_t maxStringLength);
 
-  /// @brief Method ReadAllPackets, addr 0x26088a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ReadAllPackets, addr 0x261bb54, size 0x4c, virtual false, abstract: false, final false
   inline void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method ReadAllPackets, addr 0x26088f4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadAllPackets, addr 0x261bba8, size 0x50, virtual false, abstract: false, final false
   inline void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
-  /// @brief Method ReadPacket, addr 0x26088ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x261bba0, size 0x8, virtual false, abstract: false, final false
   inline void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method ReadPacket, addr 0x2608944, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x261bbf8, size 0x48, virtual false, abstract: false, final false
   inline void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -884,10 +884,10 @@ public:
 
   constexpr void __cordl_internal_set__netSerializer(::LiteNetLib::Utils::NetSerializer* value);
 
-  /// @brief Method .ctor, addr 0x2608504, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261b7b8, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26085ec, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261b8a0, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxStringLength);
 
 protected:

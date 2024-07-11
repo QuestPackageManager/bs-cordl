@@ -54,19 +54,19 @@ public:
 
   constexpr void __cordl_internal_set__moveVector_k__BackingField(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x3513730, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35285b4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method get_moveDir, addr 0x3513720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveDir, addr 0x35285a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::MoveDirection get_moveDir();
 
-  /// @brief Method get_moveVector, addr 0x3513710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveVector, addr 0x3528594, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_moveVector();
 
-  /// @brief Method set_moveDir, addr 0x3513728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_moveDir, addr 0x35285ac, size 0x8, virtual false, abstract: false, final false
   inline void set_moveDir(::UnityEngine::EventSystems::MoveDirection value);
 
-  /// @brief Method set_moveVector, addr 0x3513718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_moveVector, addr 0x352859c, size 0x8, virtual false, abstract: false, final false
   inline void set_moveVector(::UnityEngine::Vector2 value);
 
 protected:

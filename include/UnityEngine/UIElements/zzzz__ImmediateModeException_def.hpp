@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ImmediateModeException* New_ctor(::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x3546308, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355d18c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* inner);
 
 protected:

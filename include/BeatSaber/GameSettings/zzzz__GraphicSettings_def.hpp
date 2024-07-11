@@ -79,37 +79,37 @@ public:
 
   constexpr void __cordl_internal_set__windowResolution(::UnityEngine::Vector2Int value);
 
-  /// @brief Method .ctor, addr 0x10656dc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x106c28c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_customPreset, addr 0x1065694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customPreset, addr 0x106c244, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::PerformancePresets::CustomPerformancePreset* get_customPreset();
 
-  /// @brief Method get_isDirty, addr 0x1065624, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_isDirty, addr 0x106c1d4, size 0x34, virtual true, abstract: false, final false
   inline bool get_isDirty();
 
-  /// @brief Method get_performancePresetKey, addr 0x106567c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_performancePresetKey, addr 0x106c22c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_performancePresetKey();
 
-  /// @brief Method get_windowMode, addr 0x10656ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_windowMode, addr 0x106c25c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::WindowMode get_windowMode();
 
-  /// @brief Method get_windowResolution, addr 0x10656c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_windowResolution, addr 0x106c274, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int get_windowResolution();
 
-  /// @brief Method set_customPreset, addr 0x106569c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_customPreset, addr 0x106c24c, size 0x10, virtual false, abstract: false, final false
   inline void set_customPreset(::BeatSaber::PerformancePresets::CustomPerformancePreset* value);
 
-  /// @brief Method set_isDirty, addr 0x1065658, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_isDirty, addr 0x106c208, size 0x24, virtual true, abstract: false, final false
   inline void set_isDirty(bool value);
 
-  /// @brief Method set_performancePresetKey, addr 0x1065684, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_performancePresetKey, addr 0x106c234, size 0x10, virtual false, abstract: false, final false
   inline void set_performancePresetKey(::StringW value);
 
-  /// @brief Method set_windowMode, addr 0x10656b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_windowMode, addr 0x106c264, size 0x10, virtual false, abstract: false, final false
   inline void set_windowMode(::BeatSaber::GameSettings::WindowMode value);
 
-  /// @brief Method set_windowResolution, addr 0x10656cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_windowResolution, addr 0x106c27c, size 0x10, virtual false, abstract: false, final false
   inline void set_windowResolution(::UnityEngine::Vector2Int value);
 
 protected:

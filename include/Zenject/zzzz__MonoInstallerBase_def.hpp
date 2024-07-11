@@ -41,12 +41,12 @@ public:
   /// @brief Convert operator to "::Zenject::IInstaller"
   constexpr operator ::Zenject::IInstaller*() noexcept;
 
-  /// @brief Method InstallBindings, addr 0x3675548, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x368c3cc, size 0x40, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::MonoInstallerBase* New_ctor();
 
-  /// @brief Method Start, addr 0x3675544, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x368c3c8, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__Container_k__BackingField();
@@ -55,25 +55,25 @@ public:
 
   constexpr void __cordl_internal_set__Container_k__BackingField(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3675658, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x368c4dc, size 0x2b0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenPropertySetter0, addr 0x3675588, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method __zenPropertySetter0, addr 0x368c40c, size 0xd0, virtual false, abstract: false, final false
   static inline void __zenPropertySetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method .ctor, addr 0x36753ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x368c230, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Container, addr 0x367552c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x368c3b0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_IsEnabled, addr 0x367553c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsEnabled, addr 0x368c3c0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsEnabled();
 
   /// @brief Convert to "::Zenject::IInstaller"
   constexpr ::Zenject::IInstaller* i___Zenject__IInstaller() noexcept;
 
-  /// @brief Method set_Container, addr 0x3675534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Container, addr 0x368c3b8, size 0x8, virtual false, abstract: false, final false
   inline void set_Container(::Zenject::DiContainer* value);
 
 protected:

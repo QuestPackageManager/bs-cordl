@@ -39,16 +39,16 @@ public:
       property(get = __cordl_internal_get__bindings,
                put = __cordl_internal_set__bindings))::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::UnityEngine::Events::UnityAction*>*>* _bindings;
 
-  /// @brief Method AddBinding, addr 0x2514274, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x2528528, size 0xc4, virtual false, abstract: false, final false
   inline void AddBinding(::UnityEngine::UI::Button* button, ::System::Action* action);
 
-  /// @brief Method AddBindings, addr 0x251436c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AddBindings, addr 0x2528620, size 0x164, virtual false, abstract: false, final false
   inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::System::Action*>*>* bindingData);
 
-  /// @brief Method ClearBindings, addr 0x25144d0, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x2528784, size 0x220, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Init, addr 0x25141c4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2528478, size 0x74, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::HMUI::ButtonBinder* New_ctor();
@@ -64,13 +64,13 @@ public:
 
   constexpr void __cordl_internal_set__bindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::UnityEngine::Events::UnityAction*>*>* value);
 
-  /// @brief Method .ctor, addr 0x25141a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252845c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2514338, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25285ec, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::System::Action*>*>* bindingData);
 
-  /// @brief Method .ctor, addr 0x2514238, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25284ec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UI::Button* button, ::System::Action* action);
 
 protected:

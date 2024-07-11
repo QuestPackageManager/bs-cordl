@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x115e57c;
+  constexpr static std::size_t addrs = 0x1169874;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::*)(::Org::BouncyCastle::Crypto::IDigest*)>(
     &::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x115e5e8;
+  constexpr static std::size_t addrs = 0x11698e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::*)(
     int32_t, int32_t, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::Init)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x115e610;
+  constexpr static std::size_t addrs = 0x1169908;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::*)(
     ::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters*)>(&::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::Init)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x115e6dc;
+  constexpr static std::size_t addrs = 0x11699d4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::DsaParameters* (
     ::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::GenerateParameters)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x115e978;
+  constexpr static std::size_t addrs = 0x1169c70;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::DsaParameters* (
     ::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::GenerateParameters_FIPS186_2)> {
   constexpr static std::size_t size = 0x538;
-  constexpr static std::size_t addrs = 0x115e994;
+  constexpr static std::size_t addrs = 0x1169c8c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -108,7 +108,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::CalculateGenerator_FIPS186_2)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x115f03c;
+  constexpr static std::size_t addrs = 0x116a334;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::DsaParameters* (
     ::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::GenerateParameters_FIPS186_3)> {
   constexpr static std::size_t size = 0x58c;
-  constexpr static std::size_t addrs = 0x115f150;
+  constexpr static std::size_t addrs = 0x116a448;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -141,7 +141,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::CalculateGenerator_FIPS186_3_Unverifiable)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x115f6dc;
+  constexpr static std::size_t addrs = 0x116a9d4;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -159,7 +159,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::CalculateGenerator_FIPS186_3_Verifiable)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x115f6e8;
+  constexpr static std::size_t addrs = 0x116a9e0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::IsValidDsaStrength)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x115e6ac;
+  constexpr static std::size_t addrs = 0x11699a4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::Org::BouncyCastle::Crypto::IDigest*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::Hash)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x115eecc;
+  constexpr static std::size_t addrs = 0x116a1c4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::GetDefaultN)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x115e6c8;
+  constexpr static std::size_t addrs = 0x11699c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator::Inc)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x115eff4;
+  constexpr static std::size_t addrs = 0x116a2ec;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

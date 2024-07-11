@@ -136,12 +136,12 @@ public:
 
   __declspec(property(get = get_polyEditMode, put = set_polyEditMode))::UnityEngine::ProBuilder::__PolyShape__PolyEditMode polyEditMode;
 
-  /// @brief Method IsSnapEnabled, addr 0x32b66d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsSnapEnabled, addr 0x32c655c, size 0x8, virtual false, abstract: false, final false
   inline bool IsSnapEnabled();
 
   static inline ::UnityEngine::ProBuilder::PolyShape* New_ctor();
 
-  /// @brief Method SetControlPoints, addr 0x32b65ac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetControlPoints, addr 0x32c6430, size 0x5c, virtual false, abstract: false, final false
   inline void SetControlPoints(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points);
 
   constexpr bool const& __cordl_internal_get_isOnGrid() const;
@@ -180,34 +180,34 @@ public:
 
   constexpr void __cordl_internal_set_m_Points(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x32b66e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c6564, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_controlPoints, addr 0x32b6530, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_controlPoints, addr 0x32c63b4, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Vector3>* get_controlPoints();
 
-  /// @brief Method get_extrude, addr 0x32b6608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_extrude, addr 0x32c648c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_extrude();
 
-  /// @brief Method get_flipNormals, addr 0x32b6628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flipNormals, addr 0x32c64ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_flipNormals();
 
-  /// @brief Method get_mesh, addr 0x32b663c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x32c64c0, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> get_mesh();
 
-  /// @brief Method get_polyEditMode, addr 0x32b6618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_polyEditMode, addr 0x32c649c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode get_polyEditMode();
 
-  /// @brief Method set_extrude, addr 0x32b6610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_extrude, addr 0x32c6494, size 0x8, virtual false, abstract: false, final false
   inline void set_extrude(float_t value);
 
-  /// @brief Method set_flipNormals, addr 0x32b6630, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_flipNormals, addr 0x32c64b4, size 0xc, virtual false, abstract: false, final false
   inline void set_flipNormals(bool value);
 
-  /// @brief Method set_mesh, addr 0x32b66d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x32c6554, size 0x8, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
 
-  /// @brief Method set_polyEditMode, addr 0x32b6620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_polyEditMode, addr 0x32c64a4, size 0x8, virtual false, abstract: false, final false
   inline void set_polyEditMode(::UnityEngine::ProBuilder::__PolyShape__PolyEditMode value);
 
 protected:

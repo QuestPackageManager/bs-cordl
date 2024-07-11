@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsStreamException* New_ctor(::StringW name, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x1468f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1473218, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1468f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1473220, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x145c2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14665d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Exception* e);
 
 protected:

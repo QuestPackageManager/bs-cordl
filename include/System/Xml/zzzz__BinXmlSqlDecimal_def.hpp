@@ -68,28 +68,28 @@ public:
   /// @brief Field x_ulInt32BaseForMod, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_x_ulInt32BaseForMod, put = setStaticF_x_ulInt32BaseForMod)) uint64_t x_ulInt32BaseForMod;
 
-  /// @brief Method ChFromDigit, addr 0x2da8468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ChFromDigit, addr 0x2dbae7c, size 0x8, virtual false, abstract: false, final false
   static inline char16_t ChFromDigit(uint32_t uiDigit);
 
-  /// @brief Method MpDiv1, addr 0x2da8348, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method MpDiv1, addr 0x2dbad5c, size 0xd4, virtual false, abstract: false, final false
   static inline void MpDiv1(::ArrayW<uint32_t, ::Array<uint32_t>*> rgulU, ByRef<int32_t> ciulU, uint32_t iulD, ByRef<uint32_t> iulR);
 
-  /// @brief Method MpNormalize, addr 0x2da841c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method MpNormalize, addr 0x2dbae30, size 0x4c, virtual false, abstract: false, final false
   static inline void MpNormalize(::ArrayW<uint32_t, ::Array<uint32_t>*> rgulU, ByRef<int32_t> ciulU);
 
-  /// @brief Method ToDecimal, addr 0x2da8470, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x2dbae84, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Decimal ToDecimal();
 
-  /// @brief Method ToString, addr 0x2da8530, size 0x2ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2dbaf44, size 0x2ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TrimTrailingZeros, addr 0x2da8180, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method TrimTrailingZeros, addr 0x2dbab94, size 0x1c8, virtual false, abstract: false, final false
   inline void TrimTrailingZeros();
 
-  /// @brief Method UIntFromByteArray, addr 0x2da810c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method UIntFromByteArray, addr 0x2dbab20, size 0x74, virtual false, abstract: false, final false
   static inline uint32_t UIntFromByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset);
 
-  /// @brief Method .ctor, addr 0x2da7e7c, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dba890, size 0x290, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, bool trim);
 
   static inline double_t getStaticF_DUINT_BASE();
@@ -118,7 +118,7 @@ public:
 
   static inline uint64_t getStaticF_x_ulInt32BaseForMod();
 
-  /// @brief Method get_IsPositive, addr 0x2da7e6c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsPositive, addr 0x2dba880, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsPositive();
 
   static inline void setStaticF_DUINT_BASE(double_t value);

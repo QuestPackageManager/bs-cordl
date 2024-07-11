@@ -62,19 +62,19 @@ public:
   constexpr void __cordl_internal_set__levelPackRedirectionData(
       ::ArrayW<::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackRedirectionData*>*> value);
 
-  /// @brief Method .ctor, addr 0x14e5294, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f00e0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPackProductData, addr 0x14e5220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPackProductData, addr 0x14f006c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackProductData* get_levelPackProductData();
 
-  /// @brief Method get_levelPackRedirectionData, addr 0x14e5230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPackRedirectionData, addr 0x14f007c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackRedirectionData*>* get_levelPackRedirectionData();
 
-  /// @brief Method set_levelPackProductData, addr 0x14e5228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levelPackProductData, addr 0x14f0074, size 0x8, virtual false, abstract: false, final false
   inline void set_levelPackProductData(::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackProductData* value);
 
-  /// @brief Method set_levelPackRedirectionData, addr 0x14e5238, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_levelPackRedirectionData, addr 0x14f0084, size 0x5c, virtual false, abstract: false, final false
   inline void set_levelPackRedirectionData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackRedirectionData*>* value);
 
 protected:

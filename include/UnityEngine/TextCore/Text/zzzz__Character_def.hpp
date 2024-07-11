@@ -32,13 +32,13 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::Character* New_ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor, addr 0x34c1f30, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34d5db4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x34b83b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34cc238, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Glyph* glyph);
 
-  /// @brief Method .ctor, addr 0x34bb880, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34cf704, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
 protected:

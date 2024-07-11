@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_Values(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2a2df40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a42954, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(bool isFlags, ::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names, ::ArrayW<::StringW, ::Array<::StringW>*> resolvedNames);
 
 protected:

@@ -27,7 +27,7 @@ public:
   /// @brief Field _shaderKeywordMap, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__shaderKeywordMap, put = setStaticF__shaderKeywordMap))::ArrayW<::StringW, ::Array<::StringW>*> _shaderKeywordMap;
 
-  /// @brief Method SetShaderKeyword, addr 0x2504a98, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetShaderKeyword, addr 0x2518d50, size 0x94, virtual false, abstract: false, final false
   static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF__shaderKeywordMap();

@@ -30,7 +30,7 @@ public:
 
   static inline ::UnityEngineInternal::TypeInferenceRuleAttribute* New_ctor(::UnityEngineInternal::TypeInferenceRules rule);
 
-  /// @brief Method ToString, addr 0x33fe1c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x340d044, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__rule() const;
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set__rule(::StringW value);
 
-  /// @brief Method .ctor, addr 0x33fe198, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340d01c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW rule);
 
-  /// @brief Method .ctor, addr 0x33fe114, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340cf98, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngineInternal::TypeInferenceRules rule);
 
 protected:

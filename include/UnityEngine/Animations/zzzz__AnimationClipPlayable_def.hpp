@@ -45,49 +45,49 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Create, addr 0x33f5b9c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3404a20, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationClipPlayable Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::AnimationClip* clip);
 
-  /// @brief Method CreateHandle, addr 0x33f5bd4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x3404a58, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::AnimationClip* clip);
 
-  /// @brief Method CreateHandleInternal, addr 0x33f5d44, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal, addr 0x3404bc8, size 0x5c, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::AnimationClip* clip, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method CreateHandleInternal_Injected, addr 0x33f6074, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal_Injected, addr 0x3404ef8, size 0x54, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::UnityEngine::AnimationClip* clip, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method Equals, addr 0x33f5ddc, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3404c60, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationClipPlayable other);
 
-  /// @brief Method GetHandle, addr 0x33f5da0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x3404c24, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method SetApplyFootIK, addr 0x33f5e54, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetApplyFootIK, addr 0x3404cd8, size 0x44, virtual false, abstract: false, final false
   inline void SetApplyFootIK(bool value);
 
-  /// @brief Method SetApplyFootIKInternal, addr 0x33f5e98, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetApplyFootIKInternal, addr 0x3404d1c, size 0x44, virtual false, abstract: false, final false
   static inline void SetApplyFootIKInternal(ByRef<::UnityEngine::Playables::PlayableHandle> handle, bool value);
 
-  /// @brief Method SetLoopTime, addr 0x33f5fec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLoopTime, addr 0x3404e70, size 0x44, virtual false, abstract: false, final false
   inline void SetLoopTime(bool value);
 
-  /// @brief Method SetLoopTimeInternal, addr 0x33f6030, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLoopTimeInternal, addr 0x3404eb4, size 0x44, virtual false, abstract: false, final false
   static inline void SetLoopTimeInternal(ByRef<::UnityEngine::Playables::PlayableHandle> handle, bool value);
 
-  /// @brief Method SetOverrideLoopTime, addr 0x33f5f64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetOverrideLoopTime, addr 0x3404de8, size 0x44, virtual false, abstract: false, final false
   inline void SetOverrideLoopTime(bool value);
 
-  /// @brief Method SetOverrideLoopTimeInternal, addr 0x33f5fa8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetOverrideLoopTimeInternal, addr 0x3404e2c, size 0x44, virtual false, abstract: false, final false
   static inline void SetOverrideLoopTimeInternal(ByRef<::UnityEngine::Playables::PlayableHandle> handle, bool value);
 
-  /// @brief Method SetRemoveStartOffset, addr 0x33f5edc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetRemoveStartOffset, addr 0x3404d60, size 0x44, virtual false, abstract: false, final false
   inline void SetRemoveStartOffset(bool value);
 
-  /// @brief Method SetRemoveStartOffsetInternal, addr 0x33f5f20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetRemoveStartOffsetInternal, addr 0x3404da4, size 0x44, virtual false, abstract: false, final false
   static inline void SetRemoveStartOffsetInternal(ByRef<::UnityEngine::Playables::PlayableHandle> handle, bool value);
 
-  /// @brief Method .ctor, addr 0x33f5c84, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3404b08, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Animations::AnimationClipPlayable>"
@@ -96,7 +96,7 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::IPlayable"
   constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
 
-  /// @brief Method op_Implicit, addr 0x33f5dac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x3404c30, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Animations::AnimationClipPlayable playable);
 
   // Ctor Parameters []

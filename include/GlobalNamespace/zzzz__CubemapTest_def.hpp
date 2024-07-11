@@ -53,10 +53,10 @@ public:
 
   static inline ::GlobalNamespace::CubemapTest* New_ctor();
 
-  /// @brief Method Start, addr 0x269a9a4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26ad980, size 0x7c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x269aa20, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26ad9fc, size 0x210, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__flatMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x269ac30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26adc0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__cubePropertyId();

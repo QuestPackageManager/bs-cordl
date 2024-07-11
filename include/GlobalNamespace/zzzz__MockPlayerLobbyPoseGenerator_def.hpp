@@ -39,7 +39,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2782700, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2797114, size 0x10, virtual true, abstract: false, final false
   inline void Dispose();
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method .ctor, addr 0x2782684, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2797098, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
   /// @brief Convert to "::System::IDisposable"

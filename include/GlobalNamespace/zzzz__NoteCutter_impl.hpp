@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams::*)()>(
     &::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x273b6a8;
+  constexpr static std::size_t addrs = 0x2751ec4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer::*)(
     ::System::Object*, ::System::Object*)>(&::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer::Compare)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x273b6b0;
+  constexpr static std::size_t addrs = 0x2751ecc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer::*)()>(
     &::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x273b6a0;
+  constexpr static std::size_t addrs = 0x2751ebc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutter::*)()>(&::GlobalNamespace::NoteCutter::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x273b568;
+  constexpr static std::size_t addrs = 0x2751d84;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutter*>::get(), ".ctor",
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutter::*)(::GlobalNamespace::Saber*)>(&::GlobalNamespace::NoteCutter::Cut)> {
   constexpr static std::size_t size = 0x524;
-  constexpr static std::size_t addrs = 0x273af38;
+  constexpr static std::size_t addrs = 0x2751754;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

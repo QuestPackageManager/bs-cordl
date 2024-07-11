@@ -29,64 +29,64 @@ namespace System::Globalization {
 class CORDL_TYPE CharUnicodeInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetNumericValue, addr 0x28e8674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetNumericValue, addr 0x28fb088, size 0x8, virtual false, abstract: false, final false
   static inline double_t GetNumericValue(char16_t ch);
 
-  /// @brief Method GetUnicodeCategory, addr 0x28e867c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetUnicodeCategory, addr 0x28fb090, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Globalization::UnicodeCategory GetUnicodeCategory(char16_t ch);
 
-  /// @brief Method GetUnicodeCategory, addr 0x28e8698, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetUnicodeCategory, addr 0x28fb0ac, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Globalization::UnicodeCategory GetUnicodeCategory(int32_t codePoint);
 
-  /// @brief Method GetUnicodeCategory, addr 0x28e86b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetUnicodeCategory, addr 0x28fb0c4, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Globalization::UnicodeCategory GetUnicodeCategory(::StringW s, int32_t index);
 
-  /// @brief Method InternalConvertToUtf32, addr 0x28e8230, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method InternalConvertToUtf32, addr 0x28fac44, size 0x94, virtual false, abstract: false, final false
   static inline int32_t InternalConvertToUtf32(::StringW s, int32_t index);
 
-  /// @brief Method InternalConvertToUtf32, addr 0x28e82c4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InternalConvertToUtf32, addr 0x28facd8, size 0xb4, virtual false, abstract: false, final false
   static inline int32_t InternalConvertToUtf32(::StringW s, int32_t index, ByRef<int32_t> charLength);
 
-  /// @brief Method InternalGetCategoryValue, addr 0x28e877c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetCategoryValue, addr 0x28fb190, size 0xf4, virtual false, abstract: false, final false
   static inline uint8_t InternalGetCategoryValue(int32_t ch, int32_t offset);
 
-  /// @brief Method InternalGetNumericValue, addr 0x28e8378, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method InternalGetNumericValue, addr 0x28fad8c, size 0x12c, virtual false, abstract: false, final false
   static inline double_t InternalGetNumericValue(int32_t ch);
 
-  /// @brief Method InternalGetUnicodeCategory, addr 0x28e8a40, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InternalGetUnicodeCategory, addr 0x28fb454, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::StringW str, int32_t index, ByRef<int32_t> charLength);
 
-  /// @brief Method InternalGetUnicodeCategory, addr 0x28e8760, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InternalGetUnicodeCategory, addr 0x28fb174, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::StringW value, int32_t index);
 
-  /// @brief Method IsWhiteSpace, addr 0x28e8a78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsWhiteSpace, addr 0x28fb48c, size 0x28, virtual false, abstract: false, final false
   static inline bool IsWhiteSpace(char16_t c);
 
-  /// @brief Method IsWhiteSpace, addr 0x28e8a5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsWhiteSpace, addr 0x28fb470, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsWhiteSpace(::StringW s, int32_t index);
 
-  /// @brief Method get_CategoriesValue, addr 0x28e89cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_CategoriesValue, addr 0x28fb3e0, size 0x74, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<uint8_t> get_CategoriesValue();
 
-  /// @brief Method get_CategoryLevel1Index, addr 0x28e8870, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_CategoryLevel1Index, addr 0x28fb284, size 0x74, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<uint8_t> get_CategoryLevel1Index();
 
-  /// @brief Method get_CategoryLevel2Index, addr 0x28e88e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_CategoryLevel2Index, addr 0x28fb2f8, size 0x74, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<uint8_t> get_CategoryLevel2Index();
 
-  /// @brief Method get_CategoryLevel3Index, addr 0x28e8958, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_CategoryLevel3Index, addr 0x28fb36c, size 0x74, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<uint8_t> get_CategoryLevel3Index();
 
-  /// @brief Method get_NumericLevel1Index, addr 0x28e84a4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_NumericLevel1Index, addr 0x28faeb8, size 0x74, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<uint8_t> get_NumericLevel1Index();
 
-  /// @brief Method get_NumericLevel2Index, addr 0x28e8518, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_NumericLevel2Index, addr 0x28faf2c, size 0x74, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<uint8_t> get_NumericLevel2Index();
 
-  /// @brief Method get_NumericLevel3Index, addr 0x28e858c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_NumericLevel3Index, addr 0x28fafa0, size 0x74, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<uint8_t> get_NumericLevel3Index();
 
-  /// @brief Method get_NumericValues, addr 0x28e8600, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_NumericValues, addr 0x28fb014, size 0x74, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<uint8_t> get_NumericValues();
 
 protected:

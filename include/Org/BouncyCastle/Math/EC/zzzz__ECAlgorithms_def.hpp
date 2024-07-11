@@ -45,29 +45,29 @@ namespace Org::BouncyCastle::Math::EC {
 class CORDL_TYPE ECAlgorithms : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CleanPoint, addr 0x12b4a74, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CleanPoint, addr 0x12bed6c, size 0xe0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* CleanPoint(::Org::BouncyCastle::Math::EC::ECCurve* c, ::Org::BouncyCastle::Math::EC::ECPoint* p);
 
-  /// @brief Method ImplCheckResult, addr 0x12b3a98, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ImplCheckResult, addr 0x12bdd90, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ImplCheckResult(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
-  /// @brief Method ImplShamirsTrickFixedPoint, addr 0x12b4b54, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method ImplShamirsTrickFixedPoint, addr 0x12bee4c, size 0x490, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickFixedPoint(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k,
                                                                                    ::Org::BouncyCastle::Math::EC::ECPoint* q, ::Org::BouncyCastle::Math::BigInteger* l);
 
-  /// @brief Method ImplShamirsTrickJsf, addr 0x12b414c, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method ImplShamirsTrickJsf, addr 0x12be444, size 0x4c4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickJsf(::Org::BouncyCastle::Math::EC::ECPoint* P, ::Org::BouncyCastle::Math::BigInteger* k,
                                                                             ::Org::BouncyCastle::Math::EC::ECPoint* Q, ::Org::BouncyCastle::Math::BigInteger* l);
 
-  /// @brief Method ImplShamirsTrickWNaf, addr 0x12b3d90, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method ImplShamirsTrickWNaf, addr 0x12be088, size 0x360, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickWNaf(::Org::BouncyCastle::Math::EC::ECPoint* P, ::Org::BouncyCastle::Math::BigInteger* k,
                                                                              ::Org::BouncyCastle::Math::EC::ECPoint* Q, ::Org::BouncyCastle::Math::BigInteger* l);
 
-  /// @brief Method ImplShamirsTrickWNaf, addr 0x12b52a0, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method ImplShamirsTrickWNaf, addr 0x12bf598, size 0x32c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickWNaf(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism, ::Org::BouncyCastle::Math::EC::ECPoint* P,
                                                                              ::Org::BouncyCastle::Math::BigInteger* k, ::Org::BouncyCastle::Math::BigInteger* l);
 
-  /// @brief Method ImplShamirsTrickWNaf, addr 0x12b4fe4, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method ImplShamirsTrickWNaf, addr 0x12bf2dc, size 0x2bc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickWNaf(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> preCompP,
                                                                              ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> preCompNegP,
                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> wnafP,
@@ -75,69 +75,69 @@ public:
                                                                              ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> preCompNegQ,
                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> wnafQ);
 
-  /// @brief Method ImplSumOfMultiplies, addr 0x12b58d4, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method ImplSumOfMultiplies, addr 0x12bfbcc, size 0x4d4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ImplSumOfMultiplies(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism,
                                                                             ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> ps,
                                                                             ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> ks);
 
-  /// @brief Method ImplSumOfMultiplies, addr 0x12b55cc, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method ImplSumOfMultiplies, addr 0x12bf8c4, size 0x308, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint*
   ImplSumOfMultiplies(::ArrayW<bool, ::Array<bool>*> negs,
                       ::ArrayW<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*, ::Array<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*>*> infos,
                       ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> wnafs);
 
-  /// @brief Method ImplSumOfMultiplies, addr 0x12b3b0c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ImplSumOfMultiplies, addr 0x12bde04, size 0x284, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ImplSumOfMultiplies(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> ps,
                                                                             ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> ks);
 
-  /// @brief Method ImplSumOfMultipliesGlv, addr 0x12b36cc, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method ImplSumOfMultipliesGlv, addr 0x12bd9c4, size 0x3cc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ImplSumOfMultipliesGlv(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> ps,
                                                                                ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> ks,
                                                                                ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism);
 
-  /// @brief Method ImportPoint, addr 0x12b3618, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ImportPoint, addr 0x12bd910, size 0xb4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ImportPoint(::Org::BouncyCastle::Math::EC::ECCurve* c, ::Org::BouncyCastle::Math::EC::ECPoint* p);
 
-  /// @brief Method IsF2mCurve, addr 0x12b2e84, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsF2mCurve, addr 0x12bd17c, size 0x24, virtual false, abstract: false, final false
   static inline bool IsF2mCurve(::Org::BouncyCastle::Math::EC::ECCurve* c);
 
-  /// @brief Method IsF2mField, addr 0x12b2ea8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method IsF2mField, addr 0x12bd1a0, size 0x184, virtual false, abstract: false, final false
   static inline bool IsF2mField(::Org::BouncyCastle::Math::Field::IFiniteField* field);
 
-  /// @brief Method IsFpCurve, addr 0x12b302c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsFpCurve, addr 0x12bd324, size 0x24, virtual false, abstract: false, final false
   static inline bool IsFpCurve(::Org::BouncyCastle::Math::EC::ECCurve* c);
 
-  /// @brief Method IsFpField, addr 0x12b3050, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method IsFpField, addr 0x12bd348, size 0xac, virtual false, abstract: false, final false
   static inline bool IsFpField(::Org::BouncyCastle::Math::Field::IFiniteField* field);
 
-  /// @brief Method MontgomeryTrick, addr 0x12b4610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MontgomeryTrick, addr 0x12be908, size 0x8, virtual false, abstract: false, final false
   static inline void MontgomeryTrick(::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, int32_t off, int32_t len);
 
-  /// @brief Method MontgomeryTrick, addr 0x12b4618, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method MontgomeryTrick, addr 0x12be910, size 0x2a8, virtual false, abstract: false, final false
   static inline void MontgomeryTrick(::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, int32_t off, int32_t len,
                                      ::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
   static inline ::Org::BouncyCastle::Math::EC::ECAlgorithms* New_ctor();
 
-  /// @brief Method ReferenceMultiply, addr 0x12b48c0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ReferenceMultiply, addr 0x12bebb8, size 0x140, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ReferenceMultiply(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method ShamirsTrick, addr 0x12b40f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ShamirsTrick, addr 0x12be3e8, size 0x5c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ShamirsTrick(::Org::BouncyCastle::Math::EC::ECPoint* P, ::Org::BouncyCastle::Math::BigInteger* k, ::Org::BouncyCastle::Math::EC::ECPoint* Q,
                                                                      ::Org::BouncyCastle::Math::BigInteger* l);
 
-  /// @brief Method SumOfMultiplies, addr 0x12b30fc, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method SumOfMultiplies, addr 0x12bd3f4, size 0x2a8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* SumOfMultiplies(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> ps,
                                                                         ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> ks);
 
-  /// @brief Method SumOfTwoMultiplies, addr 0x12b33a4, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method SumOfTwoMultiplies, addr 0x12bd69c, size 0x274, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* SumOfTwoMultiplies(::Org::BouncyCastle::Math::EC::ECPoint* P, ::Org::BouncyCastle::Math::BigInteger* a,
                                                                            ::Org::BouncyCastle::Math::EC::ECPoint* Q, ::Org::BouncyCastle::Math::BigInteger* b);
 
-  /// @brief Method ValidatePoint, addr 0x12b4a00, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ValidatePoint, addr 0x12becf8, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ValidatePoint(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
-  /// @brief Method .ctor, addr 0x12b5da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12c00a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

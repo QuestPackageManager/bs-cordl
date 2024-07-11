@@ -151,11 +151,11 @@ public:
   /// @brief Field noteJumpDidUpdateProgressEvent, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_noteJumpDidUpdateProgressEvent, put = __cordl_internal_set_noteJumpDidUpdateProgressEvent))::System::Action_1<float_t>* noteJumpDidUpdateProgressEvent;
 
-  /// @brief Method Init, addr 0x263948c, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x264ddac, size 0x398, virtual false, abstract: false, final false
   inline void Init(float_t beatTime, float_t worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, float_t jumpDuration, float_t gravity, float_t flipYSide,
                    float_t endRotation, bool rotateTowardsPlayer, bool useRandomRotation);
 
-  /// @brief Method ManualUpdate, addr 0x2639824, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x264e144, size 0x640, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ManualUpdate();
 
   static inline ::GlobalNamespace::NoteJump* New_ctor();
@@ -352,52 +352,52 @@ public:
 
   constexpr void __cordl_internal_set_noteJumpDidUpdateProgressEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x2639e64, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264e784, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_noteJumpDidFinishEvent, addr 0x2638d8c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_noteJumpDidFinishEvent, addr 0x264d6ac, size 0x9c, virtual false, abstract: false, final false
   inline void add_noteJumpDidFinishEvent(::System::Action* value);
 
-  /// @brief Method add_noteJumpDidPassHalfEvent, addr 0x263915c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_noteJumpDidPassHalfEvent, addr 0x264da7c, size 0x9c, virtual false, abstract: false, final false
   inline void add_noteJumpDidPassHalfEvent(::System::Action* value);
 
-  /// @brief Method add_noteJumpDidPassMissedMarkerEvent, addr 0x2638ec4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_noteJumpDidPassMissedMarkerEvent, addr 0x264d7e4, size 0x9c, virtual false, abstract: false, final false
   inline void add_noteJumpDidPassMissedMarkerEvent(::System::Action* value);
 
-  /// @brief Method add_noteJumpDidPassThreeQuartersEvent, addr 0x2638ffc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_noteJumpDidPassThreeQuartersEvent, addr 0x264d91c, size 0xb0, virtual false, abstract: false, final false
   inline void add_noteJumpDidPassThreeQuartersEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteJump>>* value);
 
-  /// @brief Method add_noteJumpDidUpdateProgressEvent, addr 0x2639294, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_noteJumpDidUpdateProgressEvent, addr 0x264dbb4, size 0xb0, virtual false, abstract: false, final false
   inline void add_noteJumpDidUpdateProgressEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_beatPos, addr 0x263943c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_beatPos, addr 0x264dd5c, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_beatPos();
 
-  /// @brief Method get_distanceToPlayer, addr 0x26393f4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_distanceToPlayer, addr 0x264dd14, size 0x48, virtual false, abstract: false, final false
   inline float_t get_distanceToPlayer();
 
-  /// @brief Method get_jumpDuration, addr 0x263946c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_jumpDuration, addr 0x264dd8c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_jumpDuration();
 
-  /// @brief Method get_localPosition, addr 0x2639480, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localPosition, addr 0x264dda0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localPosition();
 
-  /// @brief Method get_moveVec, addr 0x2639474, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_moveVec, addr 0x264dd94, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_moveVec();
 
-  /// @brief Method remove_noteJumpDidFinishEvent, addr 0x2638e28, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_noteJumpDidFinishEvent, addr 0x264d748, size 0x9c, virtual false, abstract: false, final false
   inline void remove_noteJumpDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_noteJumpDidPassHalfEvent, addr 0x26391f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_noteJumpDidPassHalfEvent, addr 0x264db18, size 0x9c, virtual false, abstract: false, final false
   inline void remove_noteJumpDidPassHalfEvent(::System::Action* value);
 
-  /// @brief Method remove_noteJumpDidPassMissedMarkerEvent, addr 0x2638f60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_noteJumpDidPassMissedMarkerEvent, addr 0x264d880, size 0x9c, virtual false, abstract: false, final false
   inline void remove_noteJumpDidPassMissedMarkerEvent(::System::Action* value);
 
-  /// @brief Method remove_noteJumpDidPassThreeQuartersEvent, addr 0x26390ac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_noteJumpDidPassThreeQuartersEvent, addr 0x264d9cc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_noteJumpDidPassThreeQuartersEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteJump>>* value);
 
-  /// @brief Method remove_noteJumpDidUpdateProgressEvent, addr 0x2639344, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_noteJumpDidUpdateProgressEvent, addr 0x264dc64, size 0xb0, virtual false, abstract: false, final false
   inline void remove_noteJumpDidUpdateProgressEvent(::System::Action_1<float_t>* value);
 
 protected:

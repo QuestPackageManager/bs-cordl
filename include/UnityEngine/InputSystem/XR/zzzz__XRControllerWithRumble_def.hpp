@@ -22,10 +22,10 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::XR::XRControllerWithRumble* New_ctor();
 
-  /// @brief Method SendImpulse, addr 0x3157fc0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SendImpulse, addr 0x3169e44, size 0xac, virtual false, abstract: false, final false
   inline void SendImpulse(float_t amplitude, float_t duration);
 
-  /// @brief Method .ctor, addr 0x31580e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3169f6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

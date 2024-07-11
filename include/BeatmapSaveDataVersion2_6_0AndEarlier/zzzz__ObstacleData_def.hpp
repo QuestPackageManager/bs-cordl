@@ -83,22 +83,22 @@ public:
 
   constexpr void __cordl_internal_set__width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x14fa814, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1505a40, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType type, float_t duration, int32_t width);
 
-  /// @brief Method get_duration, addr 0x14fa804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x1505a30, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_lineIndex, addr 0x14fa7f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x1505a20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_time, addr 0x14fa7ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_time, addr 0x1505a18, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_type, addr 0x14fa7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x1505a28, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType get_type();
 
-  /// @brief Method get_width, addr 0x14fa80c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x1505a38, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
 protected:

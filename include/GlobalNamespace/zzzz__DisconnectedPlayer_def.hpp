@@ -73,7 +73,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnectedPlayer"
   constexpr operator ::GlobalNamespace::IConnectedPlayer*() noexcept;
 
-  /// @brief Method HasState, addr 0x1098c7c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method HasState, addr 0x10a4f74, size 0x8, virtual true, abstract: false, final true
   inline bool HasState(::StringW state);
 
   static inline ::GlobalNamespace::DisconnectedPlayer* New_ctor(::StringW userId, ::StringW userName, int32_t sortIndex);
@@ -102,55 +102,55 @@ public:
 
   constexpr void __cordl_internal_set__userName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1098c84, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a4f7c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW userId, ::StringW userName, int32_t sortIndex);
 
-  /// @brief Method get_currentLatency, addr 0x1098c38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_currentLatency, addr 0x10a4f30, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_currentLatency();
 
-  /// @brief Method get_disconnectedReason, addr 0x1098c48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_disconnectedReason, addr 0x10a4f40, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::DisconnectedReason get_disconnectedReason();
 
-  /// @brief Method get_hasValidLatency, addr 0x1098c30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasValidLatency, addr 0x10a4f28, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasValidLatency();
 
-  /// @brief Method get_isConnected, addr 0x1098c40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isConnected, addr 0x10a4f38, size 0x8, virtual true, abstract: false, final true
   inline bool get_isConnected();
 
-  /// @brief Method get_isConnectionOwner, addr 0x1098c50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isConnectionOwner, addr 0x10a4f48, size 0x8, virtual true, abstract: false, final true
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_isFailed, addr 0x1098c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isFailed, addr 0x10a4ef8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isFailed();
 
-  /// @brief Method get_isKicked, addr 0x1098c74, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isKicked, addr 0x10a4f6c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isKicked();
 
-  /// @brief Method get_isMe, addr 0x1098c08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isMe, addr 0x10a4f00, size 0x8, virtual true, abstract: false, final true
   inline bool get_isMe();
 
-  /// @brief Method get_multiplayerAvatarsData, addr 0x1098c60, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerAvatarsData, addr 0x10a4f58, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_multiplayerAvatarsData();
 
-  /// @brief Method get_offsetSyncTime, addr 0x1098bf8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_offsetSyncTime, addr 0x10a4ef0, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
-  /// @brief Method get_sortIndex, addr 0x1098c58, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_sortIndex, addr 0x10a4f50, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_sortIndex();
 
-  /// @brief Method get_userId, addr 0x1098c10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userId, addr 0x10a4f08, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0x1098c20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0x10a4f18, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::GlobalNamespace::IConnectedPlayer"
   constexpr ::GlobalNamespace::IConnectedPlayer* i___GlobalNamespace__IConnectedPlayer() noexcept;
 
-  /// @brief Method set_userId, addr 0x1098c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userId, addr 0x10a4f10, size 0x8, virtual false, abstract: false, final false
   inline void set_userId(::StringW value);
 
-  /// @brief Method set_userName, addr 0x1098c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userName, addr 0x10a4f20, size 0x8, virtual false, abstract: false, final false
   inline void set_userName(::StringW value);
 
 protected:

@@ -82,40 +82,40 @@ public:
 
   constexpr void __cordl_internal_set__showBeatmapLevelVersion(bool value);
 
-  /// @brief Method .ctor, addr 0x1067e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x106e9cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enableFpsCounter, addr 0x1067de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableFpsCounter, addr 0x106e998, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableFpsCounter();
 
-  /// @brief Method get_enableFpsRecorder, addr 0x1067df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableFpsRecorder, addr 0x106e9a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableFpsRecorder();
 
-  /// @brief Method get_enableMemoryTracker, addr 0x1067df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableMemoryTracker, addr 0x106e9a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableMemoryTracker();
 
-  /// @brief Method get_isDirty, addr 0x1067dd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isDirty, addr 0x106e984, size 0x8, virtual true, abstract: false, final true
   inline bool get_isDirty();
 
-  /// @brief Method get_showBeatmapLevelVersion, addr 0x1067e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showBeatmapLevelVersion, addr 0x106e9b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_showBeatmapLevelVersion();
 
   /// @brief Convert to "::BGLib::SaveDataCore::ISerializableSaveData"
   constexpr ::BGLib::SaveDataCore::ISerializableSaveData* i___BGLib__SaveDataCore__ISerializableSaveData() noexcept;
 
-  /// @brief Method set_enableFpsCounter, addr 0x1067b90, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_enableFpsCounter, addr 0x106e740, size 0x14, virtual false, abstract: false, final false
   inline void set_enableFpsCounter(bool value);
 
-  /// @brief Method set_enableFpsRecorder, addr 0x1067ba4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_enableFpsRecorder, addr 0x106e754, size 0x14, virtual false, abstract: false, final false
   inline void set_enableFpsRecorder(bool value);
 
-  /// @brief Method set_enableMemoryTracker, addr 0x1067bb8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_enableMemoryTracker, addr 0x106e768, size 0x14, virtual false, abstract: false, final false
   inline void set_enableMemoryTracker(bool value);
 
-  /// @brief Method set_isDirty, addr 0x1067ddc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isDirty, addr 0x106e98c, size 0xc, virtual true, abstract: false, final true
   inline void set_isDirty(bool value);
 
-  /// @brief Method set_showBeatmapLevelVersion, addr 0x1067e08, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_showBeatmapLevelVersion, addr 0x106e9b8, size 0x14, virtual false, abstract: false, final false
   inline void set_showBeatmapLevelVersion(bool value);
 
 protected:

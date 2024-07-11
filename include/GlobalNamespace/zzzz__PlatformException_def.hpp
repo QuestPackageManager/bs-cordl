@@ -124,10 +124,10 @@ public:
 
   constexpr void __cordl_internal_set_httpCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2bf3a70, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c07484, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PlatformException__ErrorType error, int32_t code, int32_t httpCode, ::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2bf3a5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c07470, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PlatformException__ErrorType error, ::StringW message, ::System::Exception* innerException);
 
 protected:

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoTransitionToggleSelectableStateController::*)()>(
     &::GlobalNamespace::NoTransitionToggleSelectableStateController::OnEnable)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2754a9c;
+  constexpr static std::size_t addrs = 0x276a424;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoTransitionToggleSelectableStateController::*)()>(
     &::GlobalNamespace::NoTransitionToggleSelectableStateController::OnDisable)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2754c2c;
+  constexpr static std::size_t addrs = 0x276a5b4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoTransitionToggleSelectableStateController::*)(::HMUI::UISelectionState)>(
     &::GlobalNamespace::NoTransitionToggleSelectableStateController::HandleNoTransitionToggleSelectionStateDidChange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2754cb8;
+  constexpr static std::size_t addrs = 0x276a640;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoTransitionToggleSelectableStateController::*)(::HMUI::UISelectionState, bool)>(
     &::GlobalNamespace::NoTransitionToggleSelectableStateController::ResolveSelectionState)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2754b40;
+  constexpr static std::size_t addrs = 0x276a4c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoTransitionToggleSelectableStateController::*)()>(
     &::GlobalNamespace::NoTransitionToggleSelectableStateController::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2754cc0;
+  constexpr static std::size_t addrs = 0x276a648;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =

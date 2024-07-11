@@ -67,7 +67,7 @@ public:
 
   static inline ::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method <Awake>b__0, addr 0x2651fe0, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__0, addr 0x2665e24, size 0x208, virtual false, abstract: false, final false
   inline void _Awake_b__0(bool on);
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> const& __cordl_internal_get___4__this() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_gameplayModifierToggle(::UnityW<::GlobalNamespace::GameplayModifierToggle> value);
 
-  /// @brief Method .ctor, addr 0x2651b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266599c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -168,27 +168,27 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
 
-  /// @brief Method Awake, addr 0x26519d4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2665818, size 0x184, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetToggleValueWithGameplayModifierParams, addr 0x2651bfc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetToggleValueWithGameplayModifierParams, addr 0x2665a40, size 0x8c, virtual false, abstract: false, final false
   inline bool GetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
 
-  /// @brief Method IRefreshable.Refresh, addr 0x2651e5c, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method IRefreshable.Refresh, addr 0x2665ca0, size 0x104, virtual true, abstract: false, final true
   inline void IRefreshable_Refresh();
 
   static inline ::GlobalNamespace::GameplayModifiersPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2651b60, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26659a4, size 0x14, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshTotalMultiplierAndRankUI, addr 0x2651c88, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method RefreshTotalMultiplierAndRankUI, addr 0x2665acc, size 0x1d4, virtual false, abstract: false, final false
   inline void RefreshTotalMultiplierAndRankUI();
 
-  /// @brief Method SetData, addr 0x26519cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x2665810, size 0x8, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::GameplayModifiers* newGameplayModifiers);
 
-  /// @brief Method SetToggleValueWithGameplayModifierParams, addr 0x2651b74, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetToggleValueWithGameplayModifierParams, addr 0x26659b8, size 0x88, virtual false, abstract: false, final false
   inline void SetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams, bool value);
 
   constexpr bool const& __cordl_internal_get__changingGameplayModifierToggles() const;
@@ -260,19 +260,19 @@ public:
 
   constexpr void __cordl_internal_set_didChangeGameplayModifiersEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2651f60, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2665da4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeGameplayModifiersEvent, addr 0x265188c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeGameplayModifiersEvent, addr 0x26656d0, size 0x9c, virtual false, abstract: false, final false
   inline void add_didChangeGameplayModifiersEvent(::System::Action* value);
 
-  /// @brief Method get_gameplayModifiers, addr 0x26519c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x2665808, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
   /// @brief Convert to "::GlobalNamespace::IRefreshable"
   constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
-  /// @brief Method remove_didChangeGameplayModifiersEvent, addr 0x2651928, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeGameplayModifiersEvent, addr 0x266576c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didChangeGameplayModifiersEvent(::System::Action* value);
 
 protected:

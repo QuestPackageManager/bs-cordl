@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers::*)()>(
     &::Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers::_ctor)> {
-  constexpr static std::size_t size = 0x1008;
-  constexpr static std::size_t addrs = 0x1103f48;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x110f240;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers*>::get(),

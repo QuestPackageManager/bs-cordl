@@ -50,18 +50,18 @@ public:
   /// @brief Field _settingsApplicator, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsApplicator, put = __cordl_internal_set__settingsApplicator))::UnityW<::GlobalNamespace::SettingsApplicatorSO> _settingsApplicator;
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x261a6a8, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x262e988, size 0x68, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method InstallBindings, addr 0x261a96c, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x262ec4c, size 0x248, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PCAppInit* New_ctor();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x261a710, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x262e9f0, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x261a7b0, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x262ea90, size 0x1bc, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
   constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsApplicator(::UnityW<::GlobalNamespace::SettingsApplicatorSO> value);
 
-  /// @brief Method .ctor, addr 0x261abb4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262ee94, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -32,13 +32,10 @@ namespace GlobalNamespace {
 class MenuDestination;
 }
 namespace GlobalNamespace {
-class ResultsEnvironmentManager;
-}
-namespace GlobalNamespace {
 class SongPreviewPlayer;
 }
 namespace GlobalNamespace {
-class __ResultsViewController___StartFireworksAfterDelay_d__34;
+class __ResultsViewController___StartFireworksAfterDelay_d__33;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -75,17 +72,17 @@ namespace GlobalNamespace {
 class ResultsViewController;
 }
 namespace GlobalNamespace {
-class __ResultsViewController___StartFireworksAfterDelay_d__34;
+class __ResultsViewController___StartFireworksAfterDelay_d__33;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ResultsViewController);
-MARK_REF_PTR_T(::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__34);
-// Type: ::<StartFireworksAfterDelay>d__34
+MARK_REF_PTR_T(::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33);
+// Type: ::<StartFireworksAfterDelay>d__33
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ResultsViewController::<StartFireworksAfterDelay>d__34*
-class CORDL_TYPE __ResultsViewController___StartFireworksAfterDelay_d__34 : public ::System::Object {
+// CS Name: ::ResultsViewController::<StartFireworksAfterDelay>d__33*
+class CORDL_TYPE __ResultsViewController___StartFireworksAfterDelay_d__33 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -113,21 +110,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26751a8, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2688b10, size 0xbc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__34* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2675264, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2688bcc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x267526c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2688bd4, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26752ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2688c14, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26751a4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2688b0c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -154,7 +151,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x2674d64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2688a4c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -169,16 +166,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ResultsViewController___StartFireworksAfterDelay_d__34();
+  constexpr __ResultsViewController___StartFireworksAfterDelay_d__33();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ResultsViewController___StartFireworksAfterDelay_d__34", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__ResultsViewController___StartFireworksAfterDelay_d__33", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ResultsViewController___StartFireworksAfterDelay_d__34(__ResultsViewController___StartFireworksAfterDelay_d__34&&) = delete;
+  __ResultsViewController___StartFireworksAfterDelay_d__33(__ResultsViewController___StartFireworksAfterDelay_d__33&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ResultsViewController___StartFireworksAfterDelay_d__34", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__ResultsViewController___StartFireworksAfterDelay_d__33", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ResultsViewController___StartFireworksAfterDelay_d__34(__ResultsViewController___StartFireworksAfterDelay_d__34 const&) = delete;
+  __ResultsViewController___StartFireworksAfterDelay_d__33(__ResultsViewController___StartFireworksAfterDelay_d__33 const&) = delete;
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -195,31 +192,31 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__34, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__34, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__34, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__34, ___delay) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33, ___delay) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__34, _____4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33, _____4__this) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::ResultsViewController
-// SizeInfo { instance_size: 320, native_size: -1, calculated_instance_size: 320, calculated_native_size: 314, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 312, native_size: -1, calculated_instance_size: 312, calculated_native_size: 306, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ResultsViewController*
 class CORDL_TYPE ResultsViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  using _StartFireworksAfterDelay_d__34 = ::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__34;
+  using _StartFireworksAfterDelay_d__33 = ::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33;
 
-  /// @brief Field _beatmapKey, offset 0x110, size 0x18
+  /// @brief Field _beatmapKey, offset 0x108, size 0x18
   __declspec(property(get = __cordl_internal_get__beatmapKey, put = __cordl_internal_set__beatmapKey))::GlobalNamespace::BeatmapKey _beatmapKey;
 
-  /// @brief Field _beatmapLevel, offset 0x128, size 0x8
+  /// @brief Field _beatmapLevel, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevel, put = __cordl_internal_set__beatmapLevel))::GlobalNamespace::BeatmapLevel* _beatmapLevel;
 
   /// @brief Field _clearedBannerGo, offset 0xb0, size 0x8
@@ -249,19 +246,19 @@ public:
   /// @brief Field _levelClearedAudioClip, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__levelClearedAudioClip, put = __cordl_internal_set__levelClearedAudioClip))::UnityW<::UnityEngine::AudioClip> _levelClearedAudioClip;
 
-  /// @brief Field _levelCompletionResults, offset 0x100, size 0x8
+  /// @brief Field _levelCompletionResults, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get__levelCompletionResults, put = __cordl_internal_set__levelCompletionResults))::GlobalNamespace::LevelCompletionResults* _levelCompletionResults;
 
-  /// @brief Field _menuDestinationRequest, offset 0xe8, size 0x8
+  /// @brief Field _menuDestinationRequest, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get__menuDestinationRequest, put = __cordl_internal_set__menuDestinationRequest))::GlobalNamespace::MenuDestination* _menuDestinationRequest;
 
-  /// @brief Field _newHighScore, offset 0x138, size 0x1
+  /// @brief Field _newHighScore, offset 0x130, size 0x1
   __declspec(property(get = __cordl_internal_get__newHighScore, put = __cordl_internal_set__newHighScore)) bool _newHighScore;
 
   /// @brief Field _newHighScoreText, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__newHighScoreText, put = __cordl_internal_set__newHighScoreText))::UnityW<::UnityEngine::GameObject> _newHighScoreText;
 
-  /// @brief Field _practice, offset 0x139, size 0x1
+  /// @brief Field _practice, offset 0x131, size 0x1
   __declspec(property(get = __cordl_internal_get__practice, put = __cordl_internal_set__practice)) bool _practice;
 
   /// @brief Field _rankText, offset 0x98, size 0x8
@@ -270,64 +267,54 @@ public:
   /// @brief Field _restartButton, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__restartButton, put = __cordl_internal_set__restartButton))::UnityW<::UnityEngine::UI::Button> _restartButton;
 
-  /// @brief Field _resultsEnvironmentManager, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get__resultsEnvironmentManager,
-                      put = __cordl_internal_set__resultsEnvironmentManager))::UnityW<::GlobalNamespace::ResultsEnvironmentManager> _resultsEnvironmentManager;
-
   /// @brief Field _scoreText, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreText, put = __cordl_internal_set__scoreText))::UnityW<::TMPro::TextMeshProUGUI> _scoreText;
 
   /// @brief Field _songPreviewPlayer, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
 
-  /// @brief Field _startFireworksAfterDelayCoroutine, offset 0x130, size 0x8
+  /// @brief Field _startFireworksAfterDelayCoroutine, offset 0x128, size 0x8
   __declspec(property(get = __cordl_internal_get__startFireworksAfterDelayCoroutine,
                       put = __cordl_internal_set__startFireworksAfterDelayCoroutine))::UnityEngine::Coroutine* _startFireworksAfterDelayCoroutine;
 
-  /// @brief Field _transformedBeatmapData, offset 0x108, size 0x8
+  /// @brief Field _transformedBeatmapData, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get__transformedBeatmapData, put = __cordl_internal_set__transformedBeatmapData))::GlobalNamespace::IReadonlyBeatmapData* _transformedBeatmapData;
 
-  /// @brief Field continueButtonPressedEvent, offset 0xf0, size 0x8
+  /// @brief Field continueButtonPressedEvent, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get_continueButtonPressedEvent,
                       put = __cordl_internal_set_continueButtonPressedEvent))::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* continueButtonPressedEvent;
 
   __declspec(property(get = get_practice)) bool practice;
 
-  /// @brief Field restartButtonPressedEvent, offset 0xf8, size 0x8
+  /// @brief Field restartButtonPressedEvent, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get_restartButtonPressedEvent,
                       put = __cordl_internal_set_restartButtonPressedEvent))::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* restartButtonPressedEvent;
 
-  /// @brief Method ContinueButtonPressed, addr 0x26750fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ContinueButtonPressed, addr 0x2688a74, size 0x48, virtual false, abstract: false, final false
   inline void ContinueButtonPressed();
 
-  /// @brief Method DidActivate, addr 0x267428c, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x26883c0, size 0x1ac, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x2674cc4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x26889ac, size 0xa0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method DisableResultEnvironmentController, addr 0x2674d8c, size 0x370, virtual false, abstract: false, final false
-  inline void DisableResultEnvironmentController();
-
-  /// @brief Method EnableResultsEnvironmentController, addr 0x267475c, size 0x434, virtual false, abstract: false, final false
-  inline void EnableResultsEnvironmentController();
-
-  /// @brief Method Init, addr 0x2674264, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2688390, size 0x30, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
                    ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool practice, bool newHighScore);
 
   static inline ::GlobalNamespace::ResultsViewController* New_ctor();
 
-  /// @brief Method ProcessMenuDestinationRequest, addr 0x2674c08, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ProcessMenuDestinationRequest, addr 0x26888f0, size 0xbc, virtual false, abstract: false, final false
   inline void ProcessMenuDestinationRequest(::GlobalNamespace::MenuDestination* menuDestination);
 
-  /// @brief Method RestartButtonPressed, addr 0x267514c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method RestartButtonPressed, addr 0x2688abc, size 0x48, virtual false, abstract: false, final false
   inline void RestartButtonPressed();
 
-  /// @brief Method SetDataToUI, addr 0x2674454, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method SetDataToUI, addr 0x268856c, size 0x30c, virtual false, abstract: false, final false
   inline void SetDataToUI();
 
-  /// @brief Method StartFireworksAfterDelay, addr 0x2674b90, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StartFireworksAfterDelay, addr 0x2688878, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartFireworksAfterDelay(float_t delay);
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey() const;
@@ -402,10 +389,6 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__restartButton();
 
-  constexpr ::UnityW<::GlobalNamespace::ResultsEnvironmentManager> const& __cordl_internal_get__resultsEnvironmentManager() const;
-
-  constexpr ::UnityW<::GlobalNamespace::ResultsEnvironmentManager>& __cordl_internal_get__resultsEnvironmentManager();
-
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__scoreText() const;
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__scoreText();
@@ -466,8 +449,6 @@ public:
 
   constexpr void __cordl_internal_set__restartButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr void __cordl_internal_set__resultsEnvironmentManager(::UnityW<::GlobalNamespace::ResultsEnvironmentManager> value);
-
   constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
   constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::SongPreviewPlayer> value);
@@ -480,22 +461,22 @@ public:
 
   constexpr void __cordl_internal_set_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x267519c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2688b04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_continueButtonPressedEvent, addr 0x2673f9c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_continueButtonPressedEvent, addr 0x26880c8, size 0xb0, virtual false, abstract: false, final false
   inline void add_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
-  /// @brief Method add_restartButtonPressedEvent, addr 0x26740fc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_restartButtonPressedEvent, addr 0x2688228, size 0xb0, virtual false, abstract: false, final false
   inline void add_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
-  /// @brief Method get_practice, addr 0x267425c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_practice, addr 0x2688388, size 0x8, virtual false, abstract: false, final false
   inline bool get_practice();
 
-  /// @brief Method remove_continueButtonPressedEvent, addr 0x267404c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_continueButtonPressedEvent, addr 0x2688178, size 0xb0, virtual false, abstract: false, final false
   inline void remove_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
-  /// @brief Method remove_restartButtonPressedEvent, addr 0x26741ac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_restartButtonPressedEvent, addr 0x26882d8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
 protected:
@@ -554,43 +535,40 @@ public:
   /// @brief Field _songPreviewPlayer, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongPreviewPlayer> ____songPreviewPlayer;
 
-  /// @brief Field _resultsEnvironmentManager, offset: 0xe0, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::ResultsEnvironmentManager> ____resultsEnvironmentManager;
-
-  /// @brief Field _menuDestinationRequest, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field _menuDestinationRequest, offset: 0xe0, size: 0x8, def value: None
   ::GlobalNamespace::MenuDestination* ____menuDestinationRequest;
 
-  /// @brief Field continueButtonPressedEvent, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field continueButtonPressedEvent, offset: 0xe8, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* ___continueButtonPressedEvent;
 
-  /// @brief Field restartButtonPressedEvent, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field restartButtonPressedEvent, offset: 0xf0, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* ___restartButtonPressedEvent;
 
-  /// @brief Field _levelCompletionResults, offset: 0x100, size: 0x8, def value: None
+  /// @brief Field _levelCompletionResults, offset: 0xf8, size: 0x8, def value: None
   ::GlobalNamespace::LevelCompletionResults* ____levelCompletionResults;
 
-  /// @brief Field _transformedBeatmapData, offset: 0x108, size: 0x8, def value: None
+  /// @brief Field _transformedBeatmapData, offset: 0x100, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* ____transformedBeatmapData;
 
-  /// @brief Field _beatmapKey, offset: 0x110, size: 0x18, def value: None
+  /// @brief Field _beatmapKey, offset: 0x108, size: 0x18, def value: None
   ::GlobalNamespace::BeatmapKey ____beatmapKey;
 
-  /// @brief Field _beatmapLevel, offset: 0x128, size: 0x8, def value: None
+  /// @brief Field _beatmapLevel, offset: 0x120, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* ____beatmapLevel;
 
-  /// @brief Field _startFireworksAfterDelayCoroutine, offset: 0x130, size: 0x8, def value: None
+  /// @brief Field _startFireworksAfterDelayCoroutine, offset: 0x128, size: 0x8, def value: None
   ::UnityEngine::Coroutine* ____startFireworksAfterDelayCoroutine;
 
-  /// @brief Field _newHighScore, offset: 0x138, size: 0x1, def value: None
+  /// @brief Field _newHighScore, offset: 0x130, size: 0x1, def value: None
   bool ____newHighScore;
 
-  /// @brief Field _practice, offset: 0x139, size: 0x1, def value: None
+  /// @brief Field _practice, offset: 0x131, size: 0x1, def value: None
   bool ____practice;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResultsViewController, 0x140>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResultsViewController, 0x138>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____restartButton) == 0x70, "Offset mismatch!");
 
@@ -620,30 +598,28 @@ static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____fireworksCo
 
 static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____songPreviewPlayer) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____resultsEnvironmentManager) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____menuDestinationRequest) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____menuDestinationRequest) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ResultsViewController, ___continueButtonPressedEvent) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ResultsViewController, ___continueButtonPressedEvent) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ResultsViewController, ___restartButtonPressedEvent) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ResultsViewController, ___restartButtonPressedEvent) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____levelCompletionResults) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____levelCompletionResults) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____transformedBeatmapData) == 0x100, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____transformedBeatmapData) == 0x108, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____beatmapKey) == 0x108, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____beatmapKey) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____beatmapLevel) == 0x120, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____beatmapLevel) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____startFireworksAfterDelayCoroutine) == 0x128, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____startFireworksAfterDelayCoroutine) == 0x130, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____newHighScore) == 0x130, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____newHighScore) == 0x138, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____practice) == 0x139, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ResultsViewController, ____practice) == 0x131, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ResultsViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ResultsViewController*, "", "ResultsViewController");
-NEED_NO_BOX(::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__34);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__34*, "", "ResultsViewController/<StartFireworksAfterDelay>d__34");
+NEED_NO_BOX(::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33*, "", "ResultsViewController/<StartFireworksAfterDelay>d__33");

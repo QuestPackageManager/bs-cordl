@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::ReadOnlySpan_1<uint8_t>, uint64_t)>(&::System::Marvin::ComputeHash32)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x294df98;
+  constexpr static std::size_t addrs = 0x29629ac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<uint8_t>, int32_t, uint64_t)>(&::System::Marvin::ComputeHash32)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x294e044;
+  constexpr static std::size_t addrs = 0x2962a58;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<uint32_t>, ByRef<uint32_t>)>(&::System::Marvin::Block)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x294e414;
+  constexpr static std::size_t addrs = 0x2962e28;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, int32_t)>(&::System::Marvin::_rotl)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x294e49c;
+  constexpr static std::size_t addrs = 0x2962eb0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::System::Marvin::get_DefaultSeed)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x294e4a8;
+  constexpr static std::size_t addrs = 0x2962ebc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Marvin*>::get(), "get_DefaultSeed",
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::System::Marvin::GenerateSeed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x294e500;
+  constexpr static std::size_t addrs = 0x2962f14;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Marvin*>::get(), "GenerateSeed",

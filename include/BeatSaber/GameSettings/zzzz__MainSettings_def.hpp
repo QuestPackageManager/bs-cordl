@@ -174,79 +174,79 @@ public:
 
   constexpr void __cordl_internal_set__smoothCameraSettings_k__BackingField(::BeatSaber::GameSettings::SmoothCamera* value);
 
-  /// @brief Method .ctor, addr 0x1067850, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x106e400, size 0x180, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioSettings, addr 0x1067eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_audioSettings, addr 0x106ea9c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::Audio* get_audioSettings();
 
-  /// @brief Method get_controllerSettings, addr 0x1067f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_controllerSettings, addr 0x106eabc, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::Controllers* get_controllerSettings();
 
-  /// @brief Method get_createScreenshotDuringTheGame, addr 0x1067fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_createScreenshotDuringTheGame, addr 0x106eb90, size 0x8, virtual false, abstract: false, final false
   inline bool get_createScreenshotDuringTheGame();
 
-  /// @brief Method get_customServerSettings, addr 0x1067f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customServerSettings, addr 0x106eacc, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::CustomServer* get_customServerSettings();
 
-  /// @brief Method get_debugSettings, addr 0x1067f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_debugSettings, addr 0x106eadc, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::DebugSettings* get_debugSettings();
 
-  /// @brief Method get_hapticFeedback, addr 0x1067fd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hapticFeedback, addr 0x106eb88, size 0x8, virtual false, abstract: false, final false
   inline bool get_hapticFeedback();
 
-  /// @brief Method get_isDirty, addr 0x1067e24, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_isDirty, addr 0x106e9d4, size 0x74, virtual true, abstract: false, final false
   inline bool get_isDirty();
 
-  /// @brief Method get_language, addr 0x1067f3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_language, addr 0x106eaec, size 0xc, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::Language get_language();
 
-  /// @brief Method get_pauseButtonPressDurationLevel, addr 0x1067f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pauseButtonPressDurationLevel, addr 0x106eaf8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_pauseButtonPressDurationLevel();
 
-  /// @brief Method get_roomCenter, addr 0x1067f50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_roomCenter, addr 0x106eb00, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_roomCenter();
 
-  /// @brief Method get_roomRotation, addr 0x1067fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_roomRotation, addr 0x106eb50, size 0x8, virtual false, abstract: false, final false
   inline float_t get_roomRotation();
 
-  /// @brief Method get_smoothCameraSettings, addr 0x1067efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smoothCameraSettings, addr 0x106eaac, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::SmoothCamera* get_smoothCameraSettings();
 
-  /// @brief Method set_audioSettings, addr 0x1067ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_audioSettings, addr 0x106eaa4, size 0x8, virtual false, abstract: false, final false
   inline void set_audioSettings(::BeatSaber::GameSettings::Audio* value);
 
-  /// @brief Method set_controllerSettings, addr 0x1067f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_controllerSettings, addr 0x106eac4, size 0x8, virtual false, abstract: false, final false
   inline void set_controllerSettings(::BeatSaber::GameSettings::Controllers* value);
 
-  /// @brief Method set_createScreenshotDuringTheGame, addr 0x1067fe8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_createScreenshotDuringTheGame, addr 0x106eb98, size 0x30, virtual false, abstract: false, final false
   inline void set_createScreenshotDuringTheGame(bool value);
 
-  /// @brief Method set_customServerSettings, addr 0x1067f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_customServerSettings, addr 0x106ead4, size 0x8, virtual false, abstract: false, final false
   inline void set_customServerSettings(::BeatSaber::GameSettings::CustomServer* value);
 
-  /// @brief Method set_debugSettings, addr 0x1067f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_debugSettings, addr 0x106eae4, size 0x8, virtual false, abstract: false, final false
   inline void set_debugSettings(::BeatSaber::GameSettings::DebugSettings* value);
 
-  /// @brief Method set_hapticFeedback, addr 0x1067b00, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_hapticFeedback, addr 0x106e6b0, size 0x30, virtual false, abstract: false, final false
   inline void set_hapticFeedback(bool value);
 
-  /// @brief Method set_isDirty, addr 0x1067e98, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method set_isDirty, addr 0x106ea48, size 0x54, virtual true, abstract: false, final false
   inline void set_isDirty(bool value);
 
-  /// @brief Method set_language, addr 0x10679d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_language, addr 0x106e580, size 0x3c, virtual false, abstract: false, final false
   inline void set_language(::BGLib::Polyglot::Language value);
 
-  /// @brief Method set_pauseButtonPressDurationLevel, addr 0x1067a0c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_pauseButtonPressDurationLevel, addr 0x106e5bc, size 0x30, virtual false, abstract: false, final false
   inline void set_pauseButtonPressDurationLevel(int32_t value);
 
-  /// @brief Method set_roomCenter, addr 0x1067f5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_roomCenter, addr 0x106eb0c, size 0x44, virtual false, abstract: false, final false
   inline void set_roomCenter(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_roomRotation, addr 0x1067fa8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_roomRotation, addr 0x106eb58, size 0x30, virtual false, abstract: false, final false
   inline void set_roomRotation(float_t value);
 
-  /// @brief Method set_smoothCameraSettings, addr 0x1067f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_smoothCameraSettings, addr 0x106eab4, size 0x8, virtual false, abstract: false, final false
   inline void set_smoothCameraSettings(::BeatSaber::GameSettings::SmoothCamera* value);
 
 protected:

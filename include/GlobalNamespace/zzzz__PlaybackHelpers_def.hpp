@@ -12,7 +12,22 @@ namespace BeatSaber::RecPlay {
 struct PoseOffsets;
 }
 namespace GlobalNamespace {
+class BeatmapObjectSpawnController;
+}
+namespace GlobalNamespace {
+class GameplayCoreSceneSetupData;
+}
+namespace GlobalNamespace {
 class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class LevelRecording;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +43,17 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlaybackHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreatePoseOffsets, addr 0x26a9488, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method CreateAndBindAutoLevelRecording, addr 0x26be4cc, size 0xd4, virtual false, abstract: false, final false
+  static inline void CreateAndBindAutoLevelRecording(::Zenject::DiContainer* container);
+
+  /// @brief Method CreateAndBindAutoPlayback, addr 0x26bc214, size 0xcc, virtual false, abstract: false, final false
+  static inline void CreateAndBindAutoPlayback(::Zenject::DiContainer* container, ::UnityEngine::GameObject* gameObject);
+
+  /// @brief Method CreateAutoLevelRecording, addr 0x26be5a0, size 0x194, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::LevelRecording* CreateAutoLevelRecording(::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetup,
+                                                                            ::GlobalNamespace::BeatmapObjectSpawnController* beatmapSpawnerController);
+
+  /// @brief Method CreatePoseOffsets, addr 0x26bda98, size 0x560, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::PoseOffsets CreatePoseOffsets(::BeatSaber::GameSettings::MainSettingsHandler* mainSettingsHandler, ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
 
 protected:

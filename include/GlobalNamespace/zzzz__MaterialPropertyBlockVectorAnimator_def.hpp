@@ -25,7 +25,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialPropertyBlockVectorAnimator* New_ctor();
 
-  /// @brief Method SetProperty, addr 0x2511288, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x252553c, size 0x34, virtual true, abstract: false, final false
   inline void SetProperty();
 
   constexpr ::UnityEngine::Vector4 const& __cordl_internal_get__vector() const;
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set__vector(::UnityEngine::Vector4 value);
 
-  /// @brief Method .ctor, addr 0x25112bc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2525570, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

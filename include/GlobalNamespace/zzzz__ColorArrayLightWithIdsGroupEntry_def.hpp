@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x250bca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251ff58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightGroups, addr 0x250bc9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroups, addr 0x251ff50, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> get_lightGroups();
 
 protected:

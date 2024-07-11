@@ -28,13 +28,13 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_normalizedStringV1Compat* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f2637c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f32d90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HasValueFacets, addr 0x2f2d9b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasValueFacets, addr 0x2f3a3c4, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasValueFacets();
 
-  /// @brief Method get_TypeCode, addr 0x2f2d9a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2f3a3bc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:

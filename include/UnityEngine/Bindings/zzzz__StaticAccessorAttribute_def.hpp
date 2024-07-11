@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::UnityEngine::Bindings::StaticAccessorType value);
 
-  /// @brief Method .ctor, addr 0x34983a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34ab228, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x34983cc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34ab250, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Bindings::StaticAccessorType type);
 
-  /// @brief Method set_Name, addr 0x3498394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x34ab218, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Type, addr 0x349839c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x34ab220, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::UnityEngine::Bindings::StaticAccessorType value);
 
 protected:

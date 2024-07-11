@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationObjectManager::*)(
     ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Serialization::SerializationObjectManager::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2850d28;
+  constexpr static std::size_t addrs = 0x286373c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationObjectManager::*)(::System::Object*)>(
     &::System::Runtime::Serialization::SerializationObjectManager::RegisterObject)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x2850dbc;
+  constexpr static std::size_t addrs = 0x28637d0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationObjectManager::*)()>(
     &::System::Runtime::Serialization::SerializationObjectManager::RaiseOnSerializedEvent)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2850f5c;
+  constexpr static std::size_t addrs = 0x2863970;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationObjectManager::*)(::System::Object*)>(
     &::System::Runtime::Serialization::SerializationObjectManager::AddOnSerialized)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2850ecc;
+  constexpr static std::size_t addrs = 0x28638e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

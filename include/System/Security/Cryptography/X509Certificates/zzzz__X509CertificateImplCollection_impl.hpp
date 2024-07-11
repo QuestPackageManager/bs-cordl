@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2fd0d40;
+  constexpr static std::size_t addrs = 0x2fdf754;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::*)(
     ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection*)>(&::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::_ctor)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x2fd1b40;
+  constexpr static std::size_t addrs = 0x2fe0554;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::get_Count)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2fd1d70;
+  constexpr static std::size_t addrs = 0x2fe0784;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateImpl* (
     ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::*)(int32_t)>(&::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::get_Item)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2fd1db8;
+  constexpr static std::size_t addrs = 0x2fe07cc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::*)(
     ::System::Security::Cryptography::X509Certificates::X509CertificateImpl*, bool)>(&::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::Add)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2fd0dc0;
+  constexpr static std::size_t addrs = 0x2fdf7d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* (
     ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::*)()>(&::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::Clone)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2fcfbac;
+  constexpr static std::size_t addrs = 0x2fde5c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2fd1e10;
+  constexpr static std::size_t addrs = 0x2fe0824;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::*)(bool)>(
     &::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::Dispose)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x2fd1e7c;
+  constexpr static std::size_t addrs = 0x2fe0890;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection::Finalize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2fd209c;
+  constexpr static std::size_t addrs = 0x2fe0ab0;
 
   inline static const ::MethodInfo* methodInfo() {
 

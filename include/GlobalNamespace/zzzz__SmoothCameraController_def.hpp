@@ -31,21 +31,21 @@ public:
   /// @brief Field _smoothCamera, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__smoothCamera, put = __cordl_internal_set__smoothCamera))::UnityW<::GlobalNamespace::SmoothCamera> _smoothCamera;
 
-  /// @brief Method ActivateSmoothCameraIfNeeded, addr 0x2740b80, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ActivateSmoothCameraIfNeeded, addr 0x27573f4, size 0xc8, virtual false, abstract: false, final false
   inline void ActivateSmoothCameraIfNeeded();
 
-  /// @brief Method HandleDidActivate, addr 0x2740c4c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleDidActivate, addr 0x27574c0, size 0x40, virtual false, abstract: false, final false
   inline void HandleDidActivate();
 
-  /// @brief Method HandleDidDeactivate, addr 0x2740c8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDidDeactivate, addr 0x2757500, size 0x4, virtual false, abstract: false, final false
   inline void HandleDidDeactivate();
 
   static inline ::GlobalNamespace::SmoothCameraController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2740c48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x27574bc, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2740b7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x27573f0, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::BeatSaber::GameSettings::MainSettingsHandler*& __cordl_internal_get__mainSettingsHandler();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__smoothCamera(::UnityW<::GlobalNamespace::SmoothCamera> value);
 
-  /// @brief Method .ctor, addr 0x2740c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2757504, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

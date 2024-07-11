@@ -42,16 +42,16 @@ public:
   /// @brief Field mPskIdentity, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_mPskIdentity, put = __cordl_internal_set_mPskIdentity))::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* mPskIdentity;
 
-  /// @brief Method CreatePskKeyExchange, addr 0x11f8268, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method CreatePskKeyExchange, addr 0x1204560, size 0xb0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreatePskKeyExchange(int32_t keyExchange);
 
-  /// @brief Method GetAuthentication, addr 0x11f8224, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetAuthentication, addr 0x120451c, size 0x44, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication* GetAuthentication();
 
-  /// @brief Method GetCipherSuites, addr 0x11f80e8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetCipherSuites, addr 0x12043e0, size 0x74, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetCipherSuites();
 
-  /// @brief Method GetKeyExchange, addr 0x11f815c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method GetKeyExchange, addr 0x1204454, size 0xc8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::PskTlsClient* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
@@ -74,14 +74,14 @@ public:
 
   constexpr void __cordl_internal_set_mPskIdentity(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* value);
 
-  /// @brief Method .ctor, addr 0x11f80bc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12043b4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
                     ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* pskIdentity);
 
-  /// @brief Method .ctor, addr 0x11f803c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1204334, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* pskIdentity);
 
-  /// @brief Method .ctor, addr 0x11f7fc8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12042c0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* pskIdentity);
 
 protected:

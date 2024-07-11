@@ -31,7 +31,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::ReloadEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25491f4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255e4a8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

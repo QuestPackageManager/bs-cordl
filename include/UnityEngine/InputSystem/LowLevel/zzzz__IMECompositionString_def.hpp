@@ -110,13 +110,13 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
-  /// @brief Method GetEnumerator, addr 0x317d010, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x318fe94, size 0x94, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<char16_t>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x317d0c8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x318ff4c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method ToString, addr 0x317cff8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x318fe7c, size 0x18, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer_e__FixedBuffer const& __cordl_internal_get_buffer() const;
@@ -131,13 +131,13 @@ public:
 
   constexpr void __cordl_internal_set_size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x317cf00, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x318fd84, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW characters);
 
-  /// @brief Method get_Count, addr 0x317cf80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x318fe04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x317cf88, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x318fe0c, size 0x70, virtual false, abstract: false, final false
   inline char16_t get_Item(int32_t index);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<char16_t>"
@@ -219,22 +219,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x317d10c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x318ff90, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x317d0cc, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x318ff50, size 0x34, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x317d100, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x318ff84, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x317d118, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x318ff9c, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x317d0a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x318ff28, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString);
 
-  /// @brief Method get_Current, addr 0x317d110, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x318ff94, size 0x8, virtual true, abstract: false, final true
   inline char16_t get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<char16_t>"

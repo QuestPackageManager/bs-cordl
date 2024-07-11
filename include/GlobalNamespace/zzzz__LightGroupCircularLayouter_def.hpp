@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set__staticRotation(bool value);
 
-  /// @brief Method .ctor, addr 0x26e0cac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f61d8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

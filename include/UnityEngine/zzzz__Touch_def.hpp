@@ -61,55 +61,55 @@ public:
 
   __declspec(property(get = get_type))::UnityEngine::TouchType type;
 
-  /// @brief Method get_altitudeAngle, addr 0x3478b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_altitudeAngle, addr 0x348b9a0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_altitudeAngle();
 
-  /// @brief Method get_azimuthAngle, addr 0x3478b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_azimuthAngle, addr 0x348b9a8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_azimuthAngle();
 
-  /// @brief Method get_deltaPosition, addr 0x3478adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deltaPosition, addr 0x348b960, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_deltaPosition();
 
-  /// @brief Method get_deltaTime, addr 0x3478aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deltaTime, addr 0x348b970, size 0x8, virtual false, abstract: false, final false
   inline float_t get_deltaTime();
 
-  /// @brief Method get_fingerId, addr 0x3478ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fingerId, addr 0x348b938, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fingerId();
 
-  /// @brief Method get_maximumPossiblePressure, addr 0x3478b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maximumPossiblePressure, addr 0x348b990, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maximumPossiblePressure();
 
-  /// @brief Method get_phase, addr 0x3478afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_phase, addr 0x348b980, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TouchPhase get_phase();
 
-  /// @brief Method get_position, addr 0x3478abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x348b940, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_position();
 
-  /// @brief Method get_pressure, addr 0x3478b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressure, addr 0x348b988, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressure();
 
-  /// @brief Method get_radius, addr 0x3478b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x348b9b0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method get_radiusVariance, addr 0x3478b34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_radiusVariance, addr 0x348b9b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_radiusVariance();
 
-  /// @brief Method get_rawPosition, addr 0x3478acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rawPosition, addr 0x348b950, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_rawPosition();
 
-  /// @brief Method get_tapCount, addr 0x3478af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tapCount, addr 0x348b978, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_tapCount();
 
-  /// @brief Method get_type, addr 0x3478b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x348b998, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TouchType get_type();
 
-  /// @brief Method set_deltaPosition, addr 0x3478ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deltaPosition, addr 0x348b968, size 0x8, virtual false, abstract: false, final false
   inline void set_deltaPosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_position, addr 0x3478ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x348b948, size 0x8, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_rawPosition, addr 0x3478ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rawPosition, addr 0x348b958, size 0x8, virtual false, abstract: false, final false
   inline void set_rawPosition(::UnityEngine::Vector2 value);
 
   // Ctor Parameters []

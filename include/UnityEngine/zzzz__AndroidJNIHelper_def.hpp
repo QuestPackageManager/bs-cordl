@@ -43,71 +43,71 @@ public:
   /// @brief Method ConvertFromJNIArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ArrayType> static inline ArrayType ConvertFromJNIArray(::System::IntPtr array);
 
-  /// @brief Method ConvertToJNIArray, addr 0x33e8dd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConvertToJNIArray, addr 0x33f8c58, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToJNIArray(::System::Array* array);
 
-  /// @brief Method CreateJNIArgArray, addr 0x33e4700, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateJNIArgArray, addr 0x33f4584, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> CreateJNIArgArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method CreateJavaProxy, addr 0x33e360c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CreateJavaProxy, addr 0x33f3490, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateJavaProxy(::UnityEngine::AndroidJavaProxy* proxy);
 
-  /// @brief Method CreateJavaRunnable, addr 0x33e6b88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateJavaRunnable, addr 0x33f6a0c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateJavaRunnable(::UnityEngine::AndroidJavaRunnable* jrunnable);
 
-  /// @brief Method DeleteJNIArgArray, addr 0x33e8dd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DeleteJNIArgArray, addr 0x33f8c5c, size 0x4, virtual false, abstract: false, final false
   static inline void DeleteJNIArgArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> jniArgs);
 
-  /// @brief Method GetConstructorID, addr 0x33e8cbc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetConstructorID, addr 0x33f8b40, size 0x48, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetConstructorID(::System::IntPtr javaClass);
 
-  /// @brief Method GetConstructorID, addr 0x33e7540, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetConstructorID, addr 0x33f73c4, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetConstructorID(::System::IntPtr javaClass, ::StringW signature);
 
-  /// @brief Method GetConstructorID, addr 0x33e4704, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetConstructorID, addr 0x33f4588, size 0x20, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetConstructorID(::System::IntPtr jclass, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method GetFieldID, addr 0x33e8d68, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetFieldID, addr 0x33f8bec, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFieldID(::System::IntPtr javaClass, ::StringW fieldName);
 
-  /// @brief Method GetFieldID, addr 0x33e8dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetFieldID, addr 0x33f8c50, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFieldID(::System::IntPtr javaClass, ::StringW fieldName, ::StringW signature);
 
-  /// @brief Method GetFieldID, addr 0x33e8dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetFieldID, addr 0x33f8c48, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFieldID(::System::IntPtr javaClass, ::StringW fieldName, ::StringW signature, bool isStatic);
 
   /// @brief Method GetFieldID, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename FieldType> static inline ::System::IntPtr GetFieldID(::System::IntPtr jclass, ::StringW fieldName, bool isStatic);
 
-  /// @brief Method GetMethodID, addr 0x33e8d04, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x33f8b88, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodID(::System::IntPtr javaClass, ::StringW methodName);
 
-  /// @brief Method GetMethodID, addr 0x33e8d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x33f8be4, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodID(::System::IntPtr javaClass, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method GetMethodID, addr 0x33e37f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x33f367c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodID(::System::IntPtr javaClass, ::StringW methodName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetMethodID, addr 0x33e4918, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x33f479c, size 0x38, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodID(::System::IntPtr jclass, ::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool isStatic);
 
   /// @brief Method GetMethodID, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType>
   static inline ::System::IntPtr GetMethodID(::System::IntPtr jclass, ::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool isStatic);
 
-  /// @brief Method GetSignature, addr 0x33e8de0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x33f8c64, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetSignature(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   /// @brief Method GetSignature, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType> static inline ::StringW GetSignature(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method GetSignature, addr 0x33e8ddc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x33f8c60, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetSignature(::System::Object* obj);
 
-  /// @brief Method get_debug, addr 0x33e8c58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_debug, addr 0x33f8adc, size 0x28, virtual false, abstract: false, final false
   static inline bool get_debug();
 
-  /// @brief Method set_debug, addr 0x33e8c80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_debug, addr 0x33f8b04, size 0x3c, virtual false, abstract: false, final false
   static inline void set_debug(bool value);
 
 protected:

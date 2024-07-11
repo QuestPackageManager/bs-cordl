@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(
     &::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileSDF)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x34c6e14;
+  constexpr static std::size_t addrs = 0x34d9c98;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(
     &::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileBitmap)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x34c6f70;
+  constexpr static std::size_t addrs = 0x34d9df4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::GetShaderPropertyIDs)> {
   constexpr static std::size_t size = 0x988;
-  constexpr static std::size_t addrs = 0x34c725c;
+  constexpr static std::size_t addrs = 0x34da0e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::UnityEngine::TextCore::Text::TextShaderUtilities::UpdateShaderRatios)> {
   constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x34c7be4;
+  constexpr static std::size_t addrs = 0x34daa68;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Material*)>(&::UnityEngine::TextCore::Text::TextShaderUtilities::IsMaskingEnabled)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x34c8040;
+  constexpr static std::size_t addrs = 0x34daec4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Material*, bool, bool)>(&::UnityEngine::TextCore::Text::TextShaderUtilities::GetPadding)> {
   constexpr static std::size_t size = 0x6a8;
-  constexpr static std::size_t addrs = 0x34c81dc;
+  constexpr static std::size_t addrs = 0x34db060;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

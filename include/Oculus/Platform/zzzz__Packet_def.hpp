@@ -41,15 +41,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2aeb4e8, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2afeefc, size 0x88, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x2aeb454, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2afee68, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::Packet* New_ctor(::System::IntPtr packetHandle);
 
-  /// @brief Method ReadBytes, addr 0x2aeb2b0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ReadBytes, addr 0x2afecc4, size 0x144, virtual false, abstract: false, final false
   inline uint64_t ReadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> destination);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_packetHandle() const;
@@ -64,13 +64,13 @@ public:
 
   constexpr void __cordl_internal_set_size(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2aeb200, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2afec14, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr packetHandle);
 
-  /// @brief Method get_SenderID, addr 0x2aeb3f4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_SenderID, addr 0x2afee08, size 0x58, virtual false, abstract: false, final false
   inline uint64_t get_SenderID();
 
-  /// @brief Method get_Size, addr 0x2aeb44c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x2afee60, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Size();
 
   /// @brief Convert to "::System::IDisposable"

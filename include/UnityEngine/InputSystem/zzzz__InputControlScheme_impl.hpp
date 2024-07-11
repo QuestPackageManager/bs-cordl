@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputControl* (::GlobalNamespace::__InputControlScheme__MatchResult__Match::*)()>(
     &::GlobalNamespace::__InputControlScheme__MatchResult__Match::get_control)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x30ebcf8;
+  constexpr static std::size_t addrs = 0x30fdb7c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputDevice* (::GlobalNamespace::__InputControlScheme__MatchResult__Match::*)()>(
     &::GlobalNamespace::__InputControlScheme__MatchResult__Match::get_device)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x30ebd44;
+  constexpr static std::size_t addrs = 0x30fdbc8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__InputControlScheme__MatchResult__Match::*)()>(
     &::GlobalNamespace::__InputControlScheme__MatchResult__Match::get_requirementIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30ebd5c;
+  constexpr static std::size_t addrs = 0x30fdbe0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement (
     ::GlobalNamespace::__InputControlScheme__MatchResult__Match::*)()>(&::GlobalNamespace::__InputControlScheme__MatchResult__Match::get_requirement)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x30ebd64;
+  constexpr static std::size_t addrs = 0x30fdbe8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__InputControlScheme__MatchResult__Match::*)()>(
     &::GlobalNamespace::__InputControlScheme__MatchResult__Match::get_isOptional)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x30ebd98;
+  constexpr static std::size_t addrs = 0x30fdc1c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__InputControlScheme__MatchResult__Enumerator::*)()>(
     &::GlobalNamespace::__InputControlScheme__MatchResult__Enumerator::MoveNext)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x30ebdb8;
+  constexpr static std::size_t addrs = 0x30fdc3c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__InputControlScheme__MatchResult__Enumerator::*)()>(
     &::GlobalNamespace::__InputControlScheme__MatchResult__Enumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x30ebde4;
+  constexpr static std::size_t addrs = 0x30fdc68;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__InputControlScheme__MatchResult__Match (
     ::GlobalNamespace::__InputControlScheme__MatchResult__Enumerator::*)()>(&::GlobalNamespace::__InputControlScheme__MatchResult__Enumerator::get_Current)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x30ebdf0;
+  constexpr static std::size_t addrs = 0x30fdc74;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__InputControlScheme__MatchResult__Enumerator::*)()>(
     &::GlobalNamespace::__InputControlScheme__MatchResult__Enumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x30ebe74;
+  constexpr static std::size_t addrs = 0x30fdcf8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__InputControlScheme__MatchResult__Enumerator::*)()>(
     &::GlobalNamespace::__InputControlScheme__MatchResult__Enumerator::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x30ebee4;
+  constexpr static std::size_t addrs = 0x30fdd68;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::__InputControlScheme__MatchResult::*)()>(
     &::UnityEngine::InputSystem::__InputControlScheme__MatchResult::get_score)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30eba1c;
+  constexpr static std::size_t addrs = 0x30fd8a0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputControlScheme__MatchResult::*)()>(
     &::UnityEngine::InputSystem::__InputControlScheme__MatchResult::get_isSuccessfulMatch)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x30eba24;
+  constexpr static std::size_t addrs = 0x30fd8a8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputControlScheme__MatchResult::*)()>(
     &::UnityEngine::InputSystem::__InputControlScheme__MatchResult::get_hasMissingRequiredDevices)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x30eba34;
+  constexpr static std::size_t addrs = 0x30fd8b8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputControlScheme__MatchResult::*)()>(
     &::UnityEngine::InputSystem::__InputControlScheme__MatchResult::get_hasMissingOptionalDevices)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x30eba44;
+  constexpr static std::size_t addrs = 0x30fd8c8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputDevice*> (
     ::UnityEngine::InputSystem::__InputControlScheme__MatchResult::*)()>(&::UnityEngine::InputSystem::__InputControlScheme__MatchResult::get_devices)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x30eba54;
+  constexpr static std::size_t addrs = 0x30fd8d8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__InputControlScheme__MatchResult__Match (
     ::UnityEngine::InputSystem::__InputControlScheme__MatchResult::*)(int32_t)>(&::UnityEngine::InputSystem::__InputControlScheme__MatchResult::get_Item)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x30ebb90;
+  constexpr static std::size_t addrs = 0x30fda14;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__InputControlScheme__MatchResult__Match>* (
     ::UnityEngine::InputSystem::__InputControlScheme__MatchResult::*)()>(&::UnityEngine::InputSystem::__InputControlScheme__MatchResult::GetEnumerator)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x30ebc14;
+  constexpr static std::size_t addrs = 0x30fda98;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::InputSystem::__InputControlScheme__MatchResult::*)()>(
     &::UnityEngine::InputSystem::__InputControlScheme__MatchResult::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x30ebc84;
+  constexpr static std::size_t addrs = 0x30fdb08;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -406,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputControlScheme__MatchResult::*)()>(
     &::UnityEngine::InputSystem::__InputControlScheme__MatchResult::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x30ebc88;
+  constexpr static std::size_t addrs = 0x30fdb0c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -526,7 +526,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::*)()>(
     &::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::get_controlPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30ebee8;
+  constexpr static std::size_t addrs = 0x30fdd6c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -541,7 +541,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::*)(::StringW)>(
     &::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::set_controlPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30ebef0;
+  constexpr static std::size_t addrs = 0x30fdd74;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -556,7 +556,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::*)()>(
     &::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::get_isOptional)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x30ebdac;
+  constexpr static std::size_t addrs = 0x30fdc30;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -571,7 +571,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::*)(bool)>(
     &::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::set_isOptional)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x30ebef8;
+  constexpr static std::size_t addrs = 0x30fdd7c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -586,7 +586,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::*)()>(
     &::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::get_isAND)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x30ebf14;
+  constexpr static std::size_t addrs = 0x30fdd98;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -601,7 +601,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::*)(bool)>(
     &::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::set_isAND)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x30ebf30;
+  constexpr static std::size_t addrs = 0x30fddb4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -616,7 +616,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::*)()>(
     &::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::get_isOR)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x30ebf24;
+  constexpr static std::size_t addrs = 0x30fdda8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -631,7 +631,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::*)(bool)>(
     &::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::set_isOR)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x30ebf4c;
+  constexpr static std::size_t addrs = 0x30fddd0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -646,7 +646,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::*)()>(
     &::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::ToString)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x30ebf68;
+  constexpr static std::size_t addrs = 0x30fddec;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -662,7 +662,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::*)(
     ::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement)>(&::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::Equals)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x30ec02c;
+  constexpr static std::size_t addrs = 0x30fdeb0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -677,7 +677,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x30ec098;
+  constexpr static std::size_t addrs = 0x30fdf1c;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -693,7 +693,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::*)()>(
     &::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::GetHashCode)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x30ec110;
+  constexpr static std::size_t addrs = 0x30fdf94;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -710,7 +710,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement, ::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement)>(
         &::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::op_Equality)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x30ec1bc;
+  constexpr static std::size_t addrs = 0x30fe040;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -727,7 +727,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement, ::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement)>(
         &::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement::op_Inequality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x30ec1e8;
+  constexpr static std::size_t addrs = 0x30fe06c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -849,7 +849,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement (
     ::GlobalNamespace::__InputControlScheme__SchemeJson__DeviceJson::*)()>(&::GlobalNamespace::__InputControlScheme__SchemeJson__DeviceJson::ToDeviceEntry)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x30ec35c;
+  constexpr static std::size_t addrs = 0x30fe1e0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -864,7 +864,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__InputControlScheme__SchemeJson__DeviceJson (*)(
     ::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement)>(&::GlobalNamespace::__InputControlScheme__SchemeJson__DeviceJson::From)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x30ec458;
+  constexpr static std::size_t addrs = 0x30fe2dc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -901,7 +901,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputControlScheme (::UnityEngine::InputSystem::__InputControlScheme__SchemeJson::*)()>(
     &::UnityEngine::InputSystem::__InputControlScheme__SchemeJson::ToScheme)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x30ec218;
+  constexpr static std::size_t addrs = 0x30fe09c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
@@ -916,7 +916,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputControlScheme__SchemeJson (*)(::UnityEngine::InputSystem::InputControlScheme)>(
     &::UnityEngine::InputSystem::__InputControlScheme__SchemeJson::ToJson)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x30ec378;
+  constexpr static std::size_t addrs = 0x30fe1fc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -932,7 +932,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityEngine::InputSystem::__InputControlScheme__SchemeJson, ::Array<::UnityEngine::InputSystem::__InputControlScheme__SchemeJson>*> (*)(
         ::ArrayW<::UnityEngine::InputSystem::InputControlScheme, ::Array<::UnityEngine::InputSystem::InputControlScheme>*>)>(&::UnityEngine::InputSystem::__InputControlScheme__SchemeJson::ToJson)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x30ec46c;
+  constexpr static std::size_t addrs = 0x30fe2f0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -950,7 +950,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::ArrayW<::UnityEngine::InputSystem::__InputControlScheme__SchemeJson, ::Array<::UnityEngine::InputSystem::__InputControlScheme__SchemeJson>*>)>(
         &::UnityEngine::InputSystem::__InputControlScheme__SchemeJson::ToSchemes)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x30ec574;
+  constexpr static std::size_t addrs = 0x30fe3f8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1008,7 +1008,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputControlScheme::*)()>(
     &::UnityEngine::InputSystem::InputControlScheme::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30e6d58;
+  constexpr static std::size_t addrs = 0x30f8bdc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControlScheme>::get(),
@@ -1022,7 +1022,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputControlScheme::*)()>(
     &::UnityEngine::InputSystem::InputControlScheme::get_bindingGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30e6d60;
+  constexpr static std::size_t addrs = 0x30f8be4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControlScheme>::get(),
@@ -1036,7 +1036,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputControlScheme::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputControlScheme::set_bindingGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30e6d68;
+  constexpr static std::size_t addrs = 0x30f8bec;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1052,7 +1052,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement> (::UnityEngine::InputSystem::InputControlScheme::*)()>(
         &::UnityEngine::InputSystem::InputControlScheme::get_deviceRequirements)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x30e6d70;
+  constexpr static std::size_t addrs = 0x30f8bf4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControlScheme>::get(),
@@ -1067,7 +1067,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::__InputControlScheme__DeviceRequirement>*, ::StringW)>(
     &::UnityEngine::InputSystem::InputControlScheme::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x30e6dd0;
+  constexpr static std::size_t addrs = 0x30f8c54;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1085,7 +1085,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputControlScheme::*)(::StringW, ::StringW)>(
     &::UnityEngine::InputSystem::InputControlScheme::SetNameAndBindingGroup)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x30e6ec4;
+  constexpr static std::size_t addrs = 0x30f8d48;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1100,7 +1100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputControlScheme::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputControlScheme::SupportsDevice)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x30e6f7c;
+  constexpr static std::size_t addrs = 0x30f8e00;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1115,7 +1115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputControlScheme::*)(::UnityEngine::InputSystem::InputControlScheme)>(
     &::UnityEngine::InputSystem::InputControlScheme::Equals)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x30e7050;
+  constexpr static std::size_t addrs = 0x30f8ed4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1130,7 +1130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputControlScheme::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::InputControlScheme::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x30e718c;
+  constexpr static std::size_t addrs = 0x30f9010;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -1145,7 +1145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::InputControlScheme::*)()>(
     &::UnityEngine::InputSystem::InputControlScheme::GetHashCode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x30e721c;
+  constexpr static std::size_t addrs = 0x30f90a0;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -1160,7 +1160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputControlScheme::*)()>(
     &::UnityEngine::InputSystem::InputControlScheme::ToString)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x30e729c;
+  constexpr static std::size_t addrs = 0x30f9120;
 
   inline static const ::MethodInfo* methodInfo() {
 
@@ -1175,7 +1175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::InputControlScheme, ::UnityEngine::InputSystem::InputControlScheme)>(
     &::UnityEngine::InputSystem::InputControlScheme::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x30e7420;
+  constexpr static std::size_t addrs = 0x30f92a4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1191,7 +1191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::InputControlScheme, ::UnityEngine::InputSystem::InputControlScheme)>(
     &::UnityEngine::InputSystem::InputControlScheme::op_Inequality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x30e7450;
+  constexpr static std::size_t addrs = 0x30f92d4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

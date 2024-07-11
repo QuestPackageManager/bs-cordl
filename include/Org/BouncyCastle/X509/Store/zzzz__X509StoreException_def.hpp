@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::X509::Store::X509StoreException* New_ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x13da154, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13e244c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x13da1ac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13e24a4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x13da214, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13e250c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
 protected:
