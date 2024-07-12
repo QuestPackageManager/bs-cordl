@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SR)
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System {
 class Object;
 }
@@ -27,26 +24,20 @@ namespace GlobalNamespace {
 class CORDL_TYPE SR : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x27bc090, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x2c0ee74, size 0x7c, virtual false, abstract: false, final false
+  static inline ::StringW Format(::StringW resourceFormat, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+
+  /// @brief Method Format, addr 0x2c0eef0, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1);
 
-  /// @brief Method Format, addr 0x27bd0c0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x2c0ef60, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2);
 
-  /// @brief Method Format, addr 0x27bd138, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x2c0efd8, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2, ::System::Object* p3);
 
-  /// @brief Method GetResourceString, addr 0x27bd1c0, size 0x4, virtual false, abstract: false, final false
-  static inline ::StringW GetResourceString(::StringW str);
-
-  /// @brief Method GetString, addr 0x27bd0b4, size 0x8, virtual false, abstract: false, final false
-  static inline ::StringW GetString(::System::Globalization::CultureInfo* culture, ::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
-
-  /// @brief Method GetString, addr 0x27bd0bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x2c0ee70, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW name);
-
-  /// @brief Method GetString, addr 0x27bd044, size 0x70, virtual false, abstract: false, final false
-  static inline ::StringW GetString(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:
   // Ctor Parameters []
